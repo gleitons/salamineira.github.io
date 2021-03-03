@@ -540,6 +540,10 @@
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
+	<image:loc>http://salamineira.com/img/renove-seu-alvara.png</image:loc>
+	<image:title>renove%20seu-alvara</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>http://salamineira.com/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
@@ -564,6 +568,24 @@
 </url>
 <url>
 	<loc>http://salamineira.com/novo-alvara/</loc>
+	<lastmod>2021-03-03</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://salamineira.com/img/NOVO%20ALVARA.png</image:loc>
+	<image:title>pedido-alvara-lagoa-dos-patos-mg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://salamineira.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://salamineira.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://salamineira.com/delete/</loc>
 	<lastmod>2021-03-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
