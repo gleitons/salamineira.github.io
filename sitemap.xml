@@ -760,6 +760,10 @@
 	<image:title>dia-mundial-energia-eletrica</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>http://salamineira.com/img/declaracao-mei-gratuita-sala-mineira-lagoa-dos-patos-mg-03.jpg</image:loc>
+	<image:title>dia-mundial-energia-eletrica</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>http://salamineira.com/img/torre-tim-operadora-lagoa-dos-patos-mg.png</image:loc>
 	<image:title>viabilidade-torre-tim-lagoa-dos-patos</image:title>
 	</image:image>
@@ -1299,6 +1303,36 @@
 	</image:image>
 	<image:image>
 	<image:loc>http://salamineira.com/img/internet-movel-historia-lagoa-dos-patos-mg-gleiton-aparecido-soares-de-souza.jpg</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://salamineira.com/declaracao-anual-mei/</loc>
+	<lastmod>2021-06-03</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://salamineira.com/img/declaracao-mei-gratuita-sala-mineira-lagoa-dos-patos-mg-03.jpg</image:loc>
+	<image:title>surpresa-4g-em-lagoa-dos-patos-mg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://salamineira.com/img/declaracao-mei-gratuita-sala-mineira-lagoa-dos-patos-mg-02.jpg</image:loc>
+	<image:title>declaracao-mei-lagoa-dos-patos-mg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://salamineira.com/img/declaracao-mei-gratuita-sala-mineira-lagoa-dos-patos-mg.jpg</image:loc>
+	<image:title>declaracao-mei-agente-de-desenvolvimento-lagoa-dos-patos-mg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://salamineira.com/img/placeholder-image-wide.png</image:loc>
+	<image:title>slide%203</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://salamineira.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://salamineira.com/img/</image:loc>
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
