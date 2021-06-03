@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>http://salamineira.com</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -20,7 +20,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/estamos-em-manutencao/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -30,13 +30,13 @@
 </url>
 <url>
 	<loc>http://salamineira.com/menu/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>http://salamineira.com/gleiton-aparecido-soares-de-souza/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -90,31 +90,31 @@
 </url>
 <url>
 	<loc>http://salamineira.com/servicos-sala-mineira-do-empreendedor-de-lagoa-dos-patos-mg/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>http://salamineira.com/sucesso/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>http://salamineira.com/contato/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>http://salamineira.com/atendimento-online/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>http://salamineira.com/admin/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -128,7 +128,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/reset/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -142,7 +142,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/login/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -156,7 +156,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/servicos/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -170,7 +170,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/imovel/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -184,7 +184,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/inicio-fim/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -198,7 +198,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/implantacao-torre-da-tim-em-lagoa-dos-patos-mg/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -212,7 +212,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/aprovacao-viabilidade-antena-em-lagoa-dos-patos-mg/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -226,7 +226,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/fotos-lagoa-dos-patos-mg/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -748,11 +748,15 @@
 </url>
 <url>
 	<loc>http://salamineira.com/blog/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
 	<image:loc>http://salamineira.com/img/dia-munidal-da-energia-sebrae-sala-mineira-do-empreendedor-lagoa-dos-patos.jpeg</image:loc>
+	<image:title>dia-mundial-energia-eletrica</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://salamineira.com/img/internet-movel-historia-lagoa-dos-patos-mg-gleiton-aparecido-soares-de-souza.jpg</image:loc>
 	<image:title>dia-mundial-energia-eletrica</image:title>
 	</image:image>
 	<image:image>
@@ -778,7 +782,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/local/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -800,7 +804,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/as-construtora/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -814,7 +818,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/net-fibra-lagoa/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -828,7 +832,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/divulgue-aqui/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -842,7 +846,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/sala-lite/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -856,7 +860,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/cnpj/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -870,7 +874,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/politicas-de-privacidade/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -884,7 +888,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/endereco/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -902,7 +906,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/use-mascara-lagoa-dos-patos/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -920,7 +924,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/nfa/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -934,7 +938,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/tabela-issqn-lagoa-dos-patos/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -948,7 +952,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/matheus-andre-eng/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -962,7 +966,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/solar-prime/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -976,7 +980,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/issqn/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -990,7 +994,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/form/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1004,7 +1008,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/declaracao-mei/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1018,7 +1022,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/politicas-de-privacidade-dark/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1032,7 +1036,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/alvara/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1050,7 +1054,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/renovar-alvara/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1064,7 +1068,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/novo-alvara/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1082,7 +1086,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/delete/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1096,7 +1100,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/duarte-engenharia/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1114,7 +1118,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/restaurante-prato-nobre/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1136,7 +1140,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/torre-tim-em-lagoa-dos-patos-mg/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1158,7 +1162,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/arquivo-lagoa-dos-patos-mg/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1172,7 +1176,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/sas-sebrae/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1186,7 +1190,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/termo-lgpd/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1200,7 +1204,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/sas-sebrae-1/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1214,7 +1218,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/sas-sebrae-2/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1228,7 +1232,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/obitos-lagoa-dos-patos-mg/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1242,7 +1246,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/modelo-pagina-blog/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1260,7 +1264,7 @@
 </url>
 <url>
 	<loc>http://salamineira.com/dia-mundial-da-energia/</loc>
-	<lastmod>2021-05-29</lastmod>
+	<lastmod>2021-06-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -1273,6 +1277,28 @@
 	</image:image>
 	<image:image>
 	<image:loc>http://salamineira.com/img/dia-munidal-da-energia-sebrae-sala-mineira-do-empreendedor-lagoa-dos-patos.jpeg</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://salamineira.com/4g-vivo-em-lagoa-dos-patos-mg/</loc>
+	<lastmod>2021-06-03</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://salamineira.com/img/4g-vivo-lagoa-dos-patos-mulher-surpresa-vendo-celular.jpg</image:loc>
+	<image:title>surpresa-4g-em-lagoa-dos-patos-mg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://salamineira.com/img/internet-movel-historia-lagoa-dos-patos-mg-gleiton-aparecido-soares-de-souza.jpg</image:loc>
+	<image:title>historia-rede-movel-lagoa-dos-patos-mg-gleiton-aparecido-soares-de-souza</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://salamineira.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://salamineira.com/img/internet-movel-historia-lagoa-dos-patos-mg-gleiton-aparecido-soares-de-souza.jpg</image:loc>
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
