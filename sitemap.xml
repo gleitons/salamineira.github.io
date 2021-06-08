@@ -1578,16 +1578,30 @@
 	<image:title>fiv%20sebrae-lagoa-dos-patos-mgimg_20210607_141749</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>http://salamineira.com/img/fiv-sebrae-lagoa-dos-patos-mgimg_20210607_141802.jpg</image:loc>
-	<image:title>fiv-sebrae-lagoa-dos-patos-mg</image:title>
-	</image:image>
-	<image:image>
 	<image:loc>http://salamineira.com/img/fiv-sebrae-lagoa-dos-patos-mgimg_20210607_141744.jpg</image:loc>
 	<image:title>fiv%20sebrae-lagoa-dos-patos-mgimg_20210607_141744</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>http://salamineira.com/img/fiv-sebrae-lagoa-dos-patos-mgimg_20210607_141646.jpg</image:loc>
 	<image:title>fiv%20sebrae-lagoa-dos-patos-mgimg_20210607_141646</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://salamineira.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://salamineira.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://salamineira.com/na-visao-de-youtube/</loc>
+	<lastmod>2021-06-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://salamineira.com/img/JM%20Alta%20Qualidade.jpeg</image:loc>
+	<image:title>acesso-ao-credito-mp-pandemia</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>http://salamineira.com/img/</image:loc>
