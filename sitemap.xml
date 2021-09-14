@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
-	<loc>https://salamineira.com</loc>
+	<loc>https://salamineira.com/sala-mineira-do-empreendedor-de-lagoa-dos-patos-mg/</loc>
 	<lastmod>2021-09-14</lastmod>
 	<changefreq>Weekly</changefreq>
-	<priority>1.0</priority>
+	<priority>0.5</priority>
 	<image:image>
 	<image:loc>https://salamineira.com/img/capa-vereadores-workshop-veradores-eleito-lagoa-dos-patos-mg.jpg</image:loc>
 	<image:title>coletanea-fotos-lagoa-dos-patos-mg</image:title>
@@ -2376,6 +2376,48 @@
 	<image:image>
 	<image:loc>https://salamineira.com/img/fogo-incendio-lagoa-dos-patos-mg-calor_xeQpU.jpg</image:loc>
 	<image:title>fogo incendio-lagoa-dos-patos-mg-calor_xeQpU</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://salamineira.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://salamineira.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://salamineira.com</loc>
+	<lastmod>2021-09-14</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>1.0</priority>
+	<image:image>
+	<image:loc>https://salamineira.com/img/capa-vereadores-workshop-veradores-eleito-lagoa-dos-patos-mg.jpg</image:loc>
+	<image:title>coletanea-fotos-lagoa-dos-patos-mg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://salamineira.com/img/receita-federal-prorroga-prazo-dividas-mei-30-setembro.jpg</image:loc>
+	<image:title>coletanea-fotos-lagoa-dos-patos-mg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://salamineira.com/img/sebrae-visita-tecnica-em-lagoa-dos-patos-mg.jpg</image:loc>
+	<image:title>coletanea-fotos-lagoa-dos-patos-mg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://salamineira.com/img/lancamento-pacote-de-obras-lagoa-dos-patos-mg.jpg</image:loc>
+	<image:title>lancamento pacote-de-obras-lagoa-dos-patos-mg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://salamineira.com/img/reuniao-conselho-municipal-lagoa-dos-patos-mg.jpg</image:loc>
+	<image:title>reuniao-conselho-municipal-lagoa-dos-patos-mg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://salamineira.com/img/coletanea-fotos-lagoa-dos-patos-mg.jpg</image:loc>
+	<image:title>coletanea-fotos-lagoa-dos-patos-mg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://salamineira.com/img/veja-mais-sala-mineira-empreendedor-lagoa-dos-patos-mg.png</image:loc>
+	<image:title>veja-mais-sala-mineria-lagoa-dos-patos-mg</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://salamineira.com/img/</image:loc>
