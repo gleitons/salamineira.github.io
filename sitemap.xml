@@ -1045,34 +1045,6 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://salamineira.com/issqn/</loc>
-	<lastmod>2021-10-02</lastmod>
-	<changefreq>Weekly</changefreq>
-	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://salamineira.com/img/</image:loc>
-	<image:title>Twitter Social Card Image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://salamineira.com/img/</image:loc>
-	<image:title>Facebook Social Card Image</image:title>
-	</image:image>
-</url>
-<url>
-	<loc>https://salamineira.com/form/</loc>
-	<lastmod>2021-10-02</lastmod>
-	<changefreq>Weekly</changefreq>
-	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://salamineira.com/img/</image:loc>
-	<image:title>Twitter Social Card Image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://salamineira.com/img/</image:loc>
-	<image:title>Facebook Social Card Image</image:title>
-	</image:image>
-</url>
-<url>
 	<loc>https://salamineira.com/declaracao-mei/</loc>
 	<lastmod>2021-10-02</lastmod>
 	<changefreq>Weekly</changefreq>
@@ -1141,20 +1113,6 @@
 	<image:loc>https://salamineira.com/img/NOVO%20ALVARA.png</image:loc>
 	<image:title>pedido-alvara-lagoa-dos-patos-mg</image:title>
 	</image:image>
-	<image:image>
-	<image:loc>https://salamineira.com/img/</image:loc>
-	<image:title>Twitter Social Card Image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://salamineira.com/img/</image:loc>
-	<image:title>Facebook Social Card Image</image:title>
-	</image:image>
-</url>
-<url>
-	<loc>https://salamineira.com/delete/</loc>
-	<lastmod>2021-10-02</lastmod>
-	<changefreq>Weekly</changefreq>
-	<priority>0.5</priority>
 	<image:image>
 	<image:loc>https://salamineira.com/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
