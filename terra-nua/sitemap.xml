@@ -54,4 +54,22 @@
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
+<url>
+	<loc>https://salamineira.com/terra-nua/2020.html</loc>
+	<lastmod>2021-11-11</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://salamineira.com/terra-nua/img/terra-nua-2020-min.jpeg</image:loc>
+	<image:title>terra nua-2018-min.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://salamineira.com/terra-nua/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://salamineira.com/terra-nua/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
 </urlset>
