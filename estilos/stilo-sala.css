@@ -33,6 +33,7 @@ main{
   padding: 10px;
   border: black solid 1px;
   border-radius: 8px 0px 8px 0px;
+  cursor: pointer;
 }
 .btnColor:hover{
   background-image: linear-gradient(to bottom right, rgb(255, 197, 38), rgb(248, 150, 2));
