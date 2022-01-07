@@ -160,11 +160,14 @@ main {
 }
 .artigo {
   width: 260px;
-  height: 380px;
-  border: rgb(167, 167, 167) solid 1px;
+  padding-bottom: 10px;
+  border: rgb(214, 214, 214) solid 1px;
   border-radius: 8px;
   margin: 7px;
   align-items: center;
+}
+.boshadow:hover {
+  box-shadow: rgba(97, 97, 97, 0.637) 0px 0px 10px 0px;
 }
 .artigo > img {
   
@@ -189,11 +192,13 @@ main {
   margin-top: 5px;
 }
 .infoMateria > h3 {
+  display: none;
   color: #633100;
   margin-top: 5px;
   font-size: 13px;
 }
 .infoMateria p {
+  display: none;
   margin-top: 8px;
   overflow: hidden;
   height: 80px;
