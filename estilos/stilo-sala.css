@@ -166,12 +166,14 @@ main {
   margin: 7px;
   align-items: center;
 }
-.artigo img {
-  padding-top: 10px;
+.artigo > img {
+  
+  box-shadow: rgba(0, 0, 0, 0.534) 0px 0px 5px 0px;  
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
   background-size: cover;
   width: 230px;
+  border-radius: 8px;
   height: 130px;
   overflow: hidden;
   image-rendering: optimizeSpeed;
@@ -179,13 +181,37 @@ main {
 .infoMateria {
   margin-left: 10px;
 }
+.infoMateria > h2 {
+  color: #242424;
+  height: 60px;
+  
+  font-size: 15px;
+  margin-top: 5px;
+}
+.infoMateria > h3 {
+  color: #633100;
+  margin-top: 5px;
+  font-size: 13px;
+}
+.infoMateria p {
+  margin-top: 8px;
+  overflow: hidden;
+  height: 80px;
+  width: 230px;
+  font-size: 13px;
+  max-width: 150ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+  
+  
+}
+
 .artiComplete {
   display: inline-flex;
 }
 
-.infoMateria p {
-  height: 130px;
-}
+
 .saibamais {
   margin-top: 15px;
 }

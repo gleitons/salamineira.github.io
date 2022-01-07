@@ -8,9 +8,10 @@
   width: 80%;
   margin-right: 30px;
   overflow: hidden;
-  line-height: 1.6rem;
+  
 }
 .esquerdoArtigo > h2 {
+    line-height: 2.5rem;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -24,6 +25,10 @@
   margin-top: 20px;
   margin-bottom: 20px;
   
+}
+.esquerdoArtigo > p{
+    text-indent: 2em;
+    line-height: 1.7rem;
 }
 .titleArtigo{
     text-align: center;
