@@ -2,23 +2,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Arial,
+    Helvetica, sans-serif;
 }
 header {
-  background-color: #7D7F81;
+  background-color: #7d7f81;
   width: 100%;
   text-align: center;
   align-items: center;
   margin: 0 auto;
 }
-main{
+main {
   background-color: #cacaca;
 }
 .topo-menu {
   padding: 15px;
-  
+
   background-color: #2e2e2e;
   width: 100%;
+}
+.dnone {
+  display: none;
 }
 .logo {
   width: 400px;
@@ -29,25 +34,40 @@ main{
   justify-content: center;
 }
 .btnColor {
-  background-image: linear-gradient(to bottom right, rgb(224, 165, 0), rgb(207, 124, 0));
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(224, 165, 0),
+    rgb(207, 124, 0)
+  );
   padding: 10px;
   border: black solid 1px;
   border-radius: 8px 0px 8px 0px;
   cursor: pointer;
 }
-.btnColor:hover{
-  background-image: linear-gradient(to bottom right, rgb(255, 197, 38), rgb(248, 150, 2));
+.btnColor:hover {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 197, 38),
+    rgb(248, 150, 2)
+  );
 }
 .topo-menu nav li {
   display: inline-flex;
-  background-image: linear-gradient(to bottom right, rgb(224, 165, 0), rgb(207, 124, 0));
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(224, 165, 0),
+    rgb(207, 124, 0)
+  );
   padding: 10px;
   border: black solid 1px;
   border-radius: 8px 0px 8px 0px;
-  
 }
-.topo-menu nav li:hover{
-  background-image: linear-gradient(to bottom right, rgb(255, 197, 38), rgb(248, 150, 2));
+.topo-menu nav li:hover {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 197, 38),
+    rgb(248, 150, 2)
+  );
 }
 .topo-menu nav li a {
   color: black;
@@ -60,14 +80,25 @@ main{
   height: auto;
   position: relative;
 }
-.hero .btn-saiba-mais {
+.hero::after{
+  content: "LAGOA DOS PATOS";
+  
   position: absolute;
-  top: 50%;
-  left: 50%;
-  padding: 10px;
-  margin: -15px 0 0 -30px; /* margem à esquerda e ao topo metade da medida do botão */
-  border: 0 none;
+  color: #cc6906;
+  font-size: 60px;
+  text-shadow: -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff,
+    1px 0px 0px #fff;
+  width: 100%;
+  text-align: center;
+  margin: -300px auto;
+  
+  
+  font-size: 60px;
+  
 }
+
+
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -84,10 +115,9 @@ main{
   font-size: 23px;
 }
 .infoCentralizada h2 {
-  
   font-size: 17px;
 }
-.infoCentralizada h3{
+.infoCentralizada h3 {
   font-size: 15px;
   color: red;
 }
@@ -117,8 +147,7 @@ main{
 .padd {
   margin-bottom: 20px;
 }
-.info{
- 
+.info {
   width: 1200px;
   margin: 0 auto;
 }
@@ -129,14 +158,13 @@ main{
 .noticiasRed > h2 {
   text-align: center;
 }
-.artigo{
-    width: 260px;
-    height: 380px;
-    border: rgb(167, 167, 167) solid 1px;
-    border-radius: 8px;
-    margin: 7px;
-    align-items: center;
-
+.artigo {
+  width: 260px;
+  height: 380px;
+  border: rgb(167, 167, 167) solid 1px;
+  border-radius: 8px;
+  margin: 7px;
+  align-items: center;
 }
 .artigo img {
   padding-top: 10px;
@@ -148,9 +176,8 @@ main{
   overflow: hidden;
   image-rendering: optimizeSpeed;
 }
-.infoMateria{
+.infoMateria {
   margin-left: 10px;
-  
 }
 .artiComplete {
   display: inline-flex;
@@ -159,18 +186,15 @@ main{
 .infoMateria p {
   height: 130px;
 }
-.saibamais{
+.saibamais {
   margin-top: 15px;
-  
 }
-.ultimos-artigos{
-  
+.ultimos-artigos {
   width: 70%;
   display: flex;
   flex-wrap: wrap;
-  
 }
-.propaganda{
+.propaganda {
   width: 30%;
 }
 .propaganda img {
@@ -178,7 +202,7 @@ main{
   height: auto;
   image-rendering: optimizeSpeed;
 }
-.servicosAlinhar{
+.servicosAlinhar {
   width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -188,39 +212,36 @@ main{
   background-color: #333333;
   padding: 20px;
 }
-.iconeInfo{
+.iconeInfo {
   color: #e68727;
   font-size: 150px;
   width: 50%;
   text-align: center;
 }
-.borderIcon{
+.borderIcon {
   border: #e68727 solid 2px;
   width: 200px;
   margin: 0 auto;
   margin-bottom: 20px;
   align-content: center;
   border-radius: 0px 12px 0px 12px;
-  
-
 }
-.infoFuncionamento{
+.infoFuncionamento {
   text-align: center;
 }
-.descServicos{
+.descServicos {
   line-height: 1.5rem;
   width: 50%;
   color: white;
 }
-.divulgueServicos{
+.divulgueServicos {
   background-color: #cdcfd0;
 }
-footer{
-  background-color: #3C3D3D;
+footer {
+  background-color: #3c3d3d;
   padding: 20px;
-  
 }
-.blocoinfoFooter{
+.blocoinfoFooter {
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -228,7 +249,7 @@ footer{
 }
 .menuFoot {
   margin: 20px;
-  list-style: none;  
+  list-style: none;
 }
 .menuFoot li a {
   color: white;
