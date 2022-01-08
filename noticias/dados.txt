@@ -16,3 +16,17 @@
   text-align: center;
   margin: 0 auto;
 }
+
+<div class="propaganda">
+                    <aside>
+                        <div>
+                            <img src="/imagens-sala/front-fachada-senac-montes-claros-sala-mineira-lagoa-dos-patos-mg.jpg" alt="">
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tenetur voluptatem deserunt explicabo quia totam illo hic repellat quibusdam iure. Aut debitis unde facere qui iste libero temporibus voluptatem praesentium!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro cum iusto ab ad officiis aspernatur aperiam modi tempora, saepe, nesciunt ipsam aliquid qui eligendi nihil libero. Officiis dolore quos eaque?
+                        </p>
+                        <h2>Mais info</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa at ipsam possimus ipsum fuga assumenda fugiat. Commodi dolorum consectetur tempora! Eaque inventore quam sapiente ut omnis magnam libero amet odio?</p>
+                    </aside>
+                </div>

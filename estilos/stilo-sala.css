@@ -7,11 +7,75 @@
     Helvetica, sans-serif;
 }
 header {
+  padding-top: 20px;
   background-color: #7d7f81;
   width: 100%;
   text-align: center;
   align-items: center;
   margin: 0 auto;
+}
+.logoM {
+  text-decoration: none;
+}
+.logocaracter{
+  background-color: #2D3030;
+  width: 350px;
+  border-radius: 12px 0px 12px 0px;
+  height: 80px;
+  text-align: center;
+  align-content: center;
+}
+.logocaracter > h1 {
+  font-size: 50px;
+
+}
+.logocaracter > h2 {
+  margin-top: -10px;
+  font-size: 15px;
+  
+}
+.colorwhite {
+  color: white;
+}
+.colorOr {
+  color: #e68727;
+}
+/* anuncie aqui*/
+.AnuncieAqui{
+  
+  border: solid rgba(129, 129, 129, 0.582) 1px;
+  box-shadow: black 0px 0px 3px 0px;
+  height: 80px;
+  width: 500px;
+  margin-left: 20px;
+  align-items: center;
+}
+.AnuncieAqui > i {
+  color: white;
+  width: 20%;
+  height: 70px;
+  background-color: blue;
+  
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.AnuncieAqui div > h2 {
+  background-color: red;
+  width: 150px;
+  margin: auto;
+  font-size: 15px;
+  border: white solid 2px;
+  color: white;
+}
+.AnuncieAqui div > h3 {
+  font-size: 12px;
+  width: 100%;
+}
+.ApoioAnuncio {
+  width: 100px;
+  margin-left: 10px;
+  font-size: 10px;
 }
 main {
   background-color: #cacaca;
@@ -29,6 +93,7 @@ main {
   width: 400px;
 }
 .topo-sala {
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,8 +161,63 @@ main {
   font-size: 60px;
   
 }
+.colorRed{
+  background-color: rgb(0, 0, 180);
+}
+.colorBlue{
+  background-color: rgb(0, 0, 180);
+}
+.colorRoxo{
+  background-color: rgb(173, 0, 130);
+}
+.colorGreen{
+  background-color: rgb(28, 138, 0);
+}
+.colorPurple{
+  background-color: rgb(197, 36, 184);
+}
+.colorOrange{
+  background-color: rgb(167, 94, 0);
+}
+.colorYellow{
+  background-color: rgb(46, 49, 0);
+}
+.colorbrow{
+  background-color: rgb(124, 78, 18);
+}
+.brilho{
+  box-shadow: inset 1px 0px 10px 0px;
+}
+.brilho:hover{
+  filter: brightness(150%);
+  
+}
+.modulo-sala >a {
+  text-decoration: none;
+}
 
 
+.blocoServicos {  
+  color: rgb(211, 211, 211);
+  padding-top: 15%;
+  align-items: center;
+  
+}
+.blocoServicos  h2{
+  width: 130px;
+  font-size: 12px;
+  text-decoration: none;
+
+}
+.blocoServicos > i {
+  padding-left: 10px;
+  padding-right: 5px;
+  font-size: 60px;
+}
+.modulo-sala:hover{
+  box-shadow: rgba(44, 44, 44, 0.664) 0px 0px 10px 0px;
+  
+}
 
 .container {
   width: 1200px;
@@ -130,6 +250,7 @@ main {
   display: flex;
   margin: 0 auto;
   background-size: 100%;
+  transition: 200ms;
 }
 .modulo-sala img {
   width: 100%;
@@ -165,8 +286,11 @@ main {
   border-radius: 8px;
   margin: 7px;
   align-items: center;
+  transition: 200ms;
 }
+
 .boshadow:hover {
+  
   box-shadow: rgba(97, 97, 97, 0.637) 0px 0px 10px 0px;
 }
 .artigo > img {
@@ -221,7 +345,7 @@ main {
   margin-top: 15px;
 }
 .ultimos-artigos {
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -256,6 +380,25 @@ main {
   margin-bottom: 20px;
   align-content: center;
   border-radius: 0px 12px 0px 12px;
+}
+.vejaM {
+  
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+  
+  
+  
+}
+.vejaM::before{
+  content: "";
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  width: 40px;
+  height: 5px;
+  background-color: chocolate;
 }
 .infoFuncionamento {
   text-align: center;
