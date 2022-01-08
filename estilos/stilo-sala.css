@@ -7,7 +7,7 @@
     Helvetica, sans-serif;
 }
 header {
-  padding-top: 20px;
+  
   background-color: #7d7f81;
   width: 100%;
   text-align: center;
@@ -89,6 +89,12 @@ header {
 .ApoioAnuncio::after{
   content: "Gleiton Aparecido soares de souza";
 }
+.imganuncioaqui {
+  margin-left: 10px;
+  width: 728px;
+  height: 90px;
+}
+
 main {
   background-color: #cacaca;
 }
@@ -105,10 +111,10 @@ main {
   width: 400px;
 }
 .topo-sala {
-  margin-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
 }
 .btnColor {
   background-image: linear-gradient(
@@ -172,6 +178,17 @@ main {
   
   font-size: 60px;
   
+}
+.adsTopo {
+  
+  max-width: 900px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.adsTopo > img {
+  max-width: 100%;
+  height: 100%;
 }
 .colorRed{
   background-color: rgb(0, 0, 180);
@@ -440,8 +457,12 @@ main {
   background-color: #cdcfd0;
 }
 footer {
-  background-color: #3c3d3d;
+  
+  background-color: #7a7a7a;
   padding: 20px;
+}
+.infoFuncionamento > h1 {
+  color: #b8b8b8;
 }
 .blocoinfoFooter {
   margin: 0 auto;
@@ -455,6 +476,7 @@ footer {
 }
 .menuFoot li a {
   color: white;
+  text-decoration: none;
 }
 .leiaMais {
   line-height: 1.7em;

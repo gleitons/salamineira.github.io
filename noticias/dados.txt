@@ -30,3 +30,8 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa at ipsam possimus ipsum fuga assumenda fugiat. Commodi dolorum consectetur tempora! Eaque inventore quam sapiente ut omnis magnam libero amet odio?</p>
                     </aside>
                 </div>
+
+
+
+
+ADSTopo = id que está inserido no topo do artipo, abaixo da imagem
