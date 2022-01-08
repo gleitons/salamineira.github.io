@@ -35,3 +35,5 @@
 
 
 ADSTopo = id que está inserido no topo do artipo, abaixo da imagem
+
+propArtifo = Propaganda no meio do artigo

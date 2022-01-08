@@ -60,6 +60,10 @@
 .titleSubtitle {
   text-align: center;
 }
+.propagandaArtigo {
+    margin-top: 20px;
+       text-align: center; 
+}
 
 .red {
     color: red;
@@ -77,4 +81,27 @@
     border-top: black solid 2px;
     margin-top: 10px;
     text-align: center;
+}
+@media (max-width: 768px) {
+    .esquerdoArtigo{
+        padding: 10px;
+        width: 760px;
+    }
+    .Quebra{
+        width: 760px;
+        display: block;
+    }
+    .esquerdoArtigo > p{
+        color: rgb(26, 26, 26);
+        font-size: 23px;
+    }
+    .propaganda{
+        width: 100%;
+        padding: 10px;
+        font-size: 25px;
+        line-height: 2rem;
+    }
+    .propagandaArtigo {
+
+    }
 }
