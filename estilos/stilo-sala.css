@@ -491,7 +491,7 @@ footer {
 
 /*--------RESPONSIVO 1-------*/
 
-@media (min-width: 1024px) {  
+@media (max-width: 1024px) {  
   body{
     width: 1024px;
   }
@@ -595,7 +595,7 @@ footer {
 
 /*----responsivo II---*/
 
-@media (min-width: 960px) {  
+@media (max-width: 960px) {  
   body{
     width: 960px;
   }
@@ -698,7 +698,7 @@ footer {
 }
 /*----responsivo III---*/
 
-@media (min-width: 768px) {  
+@media (max-width: 768px) {  
   body{
     width: 768px;
   }
