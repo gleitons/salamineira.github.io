@@ -14,3 +14,29 @@ function promocaoIndex() {
 
     
 }
+
+function adsNoArtigo() {
+    const adsense = Math.floor(Math.random() * 6) + 1;
+
+    if (adsense == 1) {
+        adsScreen = `Propaganda 01`
+    } else if(adsense == 2) {
+        adsScreen = `Propaganda 2`   
+    } else if(adsense == 3) {
+        adsScreen = `Propaganda 3`   
+    }
+    else if(adsense == 4) {
+        adsScreen = `Propaganda 4`   
+    }
+    else if(adsense == 5) {
+        adsScreen = `Propaganda 5`   
+    }
+    else if(adsense == 6) {
+        adsScreen = `Propaganda 6`   
+    } else {
+        adsScreen = `Propaganda 7`
+    }
+
+    adsArtigo.innerHTML = `${adsScreen}`
+
+}

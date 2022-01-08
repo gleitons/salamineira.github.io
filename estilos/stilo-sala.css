@@ -53,7 +53,7 @@ header {
 .AnuncieAqui > i {
   color: white;
   width: 20%;
-  height: 70px;
+  height: 80px;
   background-color: blue;
   
   font-size: 50px;
@@ -61,6 +61,7 @@ header {
 }
 
 .AnuncieAqui div > h2 {
+  
   background-color: red;
   width: 150px;
   margin: auto;
@@ -70,12 +71,23 @@ header {
 }
 .AnuncieAqui div > h3 {
   font-size: 12px;
+  color: black;
   width: 100%;
 }
-.ApoioAnuncio {
-  width: 100px;
-  margin-left: 10px;
+.AnuncieAqui div > p {
+  color: rgb(255, 255, 255);
+}
+.ApoioAnuncio { 
+  
   font-size: 10px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  height: 80px;
+  padding-top: 10px;
+  
+}
+.ApoioAnuncio::after{
+  content: "Gleiton Aparecido soares de souza";
 }
 main {
   background-color: #cacaca;
