@@ -21,8 +21,8 @@ function promocaoIndex() {
     </p>
     <img src="/imagens-sala/artigos/artigo-sebrae-compre-do-bairro-min.jpeg" alt="">
 </aside>`
-    const loadBB = window.setTimeout(bannerPrincipal(), 5000);
-    bannerF.innerHTML = `${bannerPrincipal()}`;
+    
+    
     menuPrincipal.innerHTML = `${MenuPrincipal()}`
     ADSTopo.innerHTML = ``
     banneranuncie.innerHTML = `${bannerAnuncieAqui()}`
@@ -32,6 +32,9 @@ function promocaoIndex() {
  
 
     
+}
+function carregarImage() {
+    bannerF.innerHTML = `${bannerPrincipal()}`;
 }
 
 function MenuPrincipal() {
