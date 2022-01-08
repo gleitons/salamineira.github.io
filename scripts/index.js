@@ -8,6 +8,15 @@ function bannerPrincipal() {
 
     
 }
+function toggleMenu() {
+    const nav = document.getElementById('naveMenu');
+    nav.classList.toggle('active');
+}
+function menuMob() {
+    const btnMobile = document.getElementById('btnmobile');
+    btnMobile.addEventListener('click', toggleMenu)
+
+}
 function promocaoIndex() {
     const menu = MenuPrincipal();
     

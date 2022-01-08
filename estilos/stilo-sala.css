@@ -14,6 +14,9 @@ header {
   align-items: center;
   margin: 0 auto;
 }
+.Quebra{
+  display: flex;
+}
 .logoM {
   text-decoration: none;
 }
@@ -94,6 +97,13 @@ header {
   width: 728px;
   height: 90px;
 }
+#btnmobile {
+  display: none;
+}
+#listMenu {
+  display: block;
+}
+
 
 main {
   background-color: #cacaca;
@@ -699,6 +709,24 @@ footer {
 /*----responsivo III---*/
 
 @media (max-width: 768px) {  
+  #btnmobile {
+    display: block;
+  }
+  #listMenu {
+    /* display: none; */
+    position: absolute;
+    width: 100%;
+    background-color: #7d7f81;
+    flex-wrap: wrap;
+    font-size: 50px;
+    height: 100vh;
+    z-index: 9999;
+    
+  }
+  
+  #naveMenu.active #listMenu {
+    display: block;
+  }
   body{
     width: 768px;
   }
@@ -793,7 +821,63 @@ footer {
     margin: 0;
     width: 768px;
   }
+  .Quebra{
+    flex-wrap: wrap;
+  }
+  .logocaracter{
+    background-color: #2D3030;
+    width: 760px;
+    border-radius: 12px 0px 12px 0px;
+    height: 160px;
+    text-align: center;
+    align-content: center;
+  }
+
+  .logocaracter > h1 {
+    font-size: 100px;
   
+  }
+  .logocaracter > h2 {
+    
+    font-size: 20px;
+    
+  }
+  .AnuncieAqui{
+  
+    border: solid rgba(129, 129, 129, 0.582) 1px;
+    box-shadow: black 0px 0px 3px 0px;
+    height: 150px;
+    width: 760px;
+    margin-top: 20px;
+    margin-left: 0px;
+    align-items: center;
+  }
+  .AnuncieAqui > i {
+    
+    
+    height: 150px;
+    
+    
+    font-size: 80px;
+    
+  }
+  
+  .AnuncieAqui div > h2 {
+    
+    
+    width: 300px;
+    margin: auto;
+    font-size: 40px;
+    
+  }
+  .AnuncieAqui div > h3 {
+    font-size: 30px;
+    color: black;
+    width: 100%;
+  }
+  .AnuncieAqui div > p {
+    color: rgb(255, 255, 255);
+  }
   
   .dNoticias {
     display: block;
