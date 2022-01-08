@@ -489,9 +489,9 @@ footer {
   line-height: 1.7em;
 }
 
-/*--------RESPONSIVO-------*/
+/*--------RESPONSIVO 1-------*/
 
-@media (max-width: 1024px) {  
+@media (min-width: 1024px) {  
   body{
     width: 1024px;
   }
@@ -525,6 +525,7 @@ footer {
   .hero::after{
     margin: -211px auto;
     font-size: 36px;
+    width: 1024px;
     
   }
   .info {
@@ -582,15 +583,219 @@ footer {
     
   }
   .blocoinfoFooter {
-    
+    margin: 0;
     width: 1024px;
   }
-  .noticiasRed {
-    background-color: white;
-    padding: 2px;
-    margin-left: 0px;
-  }
+  
+  
   .dNoticias {
     display: flex;
+  }
+}
+
+/*----responsivo II---*/
+
+@media (min-width: 960px) {  
+  body{
+    width: 960px;
+  }
+  .container {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .modulo-sala {
+    
+    width: 200px;
+    height: 120px;
+    
+  }
+  .blocoServicos {  
+    color: rgb(211, 211, 211);
+    padding-top: 11%;
+    align-items: center;
+    
+  }
+  .blocoServicos  h2{
+    width: 130px;
+    font-size: 10px;
+    text-decoration: none;
+  
+  }
+  .blocoServicos > i {
+    padding-left: 10px;
+    
+    font-size: 50px;
+  }
+  .hero::after{
+    margin: -211px auto;
+    font-size: 36px;
+    width: 960px;
+    
+  }
+  .info {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .artigo {
+    background-color: white;
+    width: 200px;
+    padding-bottom: 10px;
+    border: rgb(214, 214, 214) solid 1px;
+    border-radius: 8px;
+    margin: 7px;
+    align-items: center;
+    transition: 200ms;
+  }
+  .artigo > img {
+    width: 180px;   
+    
+  }
+  .infoMateria {
+    margin-left: 10px;
+  }
+  .ultimos-artigos {
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .propaganda {
+    width: 250px;
+  }
+  .descServicos {
+    line-height: 1.5rem;
+    width: 400px;
+    color: white;
+  }
+  .borderIcon {
+    border: #e68727 solid 2px;
+    width: 186px;
+    margin: 0 81px;
+    margin-bottom: 10px;
+    align-content: center;
+    border-radius: 0px 12px 0px 12px;
+  }
+  .iconeInfo {
+    
+    width: 350px;
+    
+  }
+  .blocofooter{
+    width: 206px;
+  }
+  .servicosAlinhar {
+    width: 960px;
+    
+  }
+  .blocoinfoFooter {
+    margin: 0;
+    width: 960px;
+  }
+  
+  
+  .dNoticias {
+    display: flex;
+  }
+}
+/*----responsivo III---*/
+
+@media (min-width: 768px) {  
+  body{
+    width: 768px;
+  }
+  .container {
+    width: 768px;
+    margin: 0 auto;
+  }
+  .modulo-sala {
+    
+    width: 200px;
+    height: 120px;
+    
+  }
+  .blocoServicos {  
+    color: rgb(211, 211, 211);
+    padding-top: 11%;
+    align-items: center;
+    
+  }
+  .blocoServicos  h2{
+    width: 130px;
+    font-size: 10px;
+    text-decoration: none;
+  
+  }
+  .blocoServicos > i {
+    padding-left: 10px;
+    
+    font-size: 50px;
+  }
+  .hero::after{
+    margin: -211px auto;
+    font-size: 36px;
+    width: 768px;
+    
+  }
+  .info {
+    width: 768px;
+    margin: 0 auto;
+  }
+  .artigo {
+    background-color: white;
+    width: 720px;
+    padding-bottom: 10px;
+    border: rgb(214, 214, 214) solid 1px;
+    border-radius: 8px;
+    margin: 7px;
+    align-items: center;
+    transition: 200ms;
+  }
+  .artigo > img {
+    width: 160px;   
+    
+  }
+  .infoMateria {
+    margin-left: 5px;
+  }
+  .ultimos-artigos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .propaganda {
+    width: 100%;
+  }
+  .descServicos {
+    line-height: 1.5rem;
+    width: 400px;
+    color: white;
+  }
+  .borderIcon {
+    border: #e68727 solid 2px;
+    width: 186px;
+    margin: 0 81px;
+    margin-bottom: 10px;
+    align-content: center;
+    border-radius: 0px 12px 0px 12px;
+  }
+  .iconeInfo {
+    
+    width: 350px;
+    
+  }
+  .blocofooter{
+    width: 206px;
+  }
+  .servicosAlinhar {
+    width: 768px;
+    
+  }
+  .blocoinfoFooter {
+    margin: 0;
+    width: 768px;
+  }
+  
+  
+  .dNoticias {
+    display: block;
   }
 }
