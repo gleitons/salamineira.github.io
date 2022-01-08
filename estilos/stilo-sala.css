@@ -97,8 +97,32 @@ header {
   width: 728px;
   height: 90px;
 }
+/*---MENU----*/
+#naveMenu #listMenu li{
+  
+  display: inline-flex;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(224, 165, 0),
+    rgb(207, 124, 0)
+  );
+  padding: 10px;
+  border: black solid 1px;
+  border-radius: 8px 0px 8px 0px;
+}
+#naveMenu li:hover {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 197, 38),
+    rgb(248, 150, 2)
+  );
+}
+#naveMenu li a {
+  color: black;
+  text-decoration: none;
+}
 #btnmobile {
-  display: none;
+  display: block;
 }
 #listMenu {
   display: block;
@@ -144,28 +168,7 @@ main {
     rgb(248, 150, 2)
   );
 }
-.topo-menu nav li {
-  display: inline-flex;
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(224, 165, 0),
-    rgb(207, 124, 0)
-  );
-  padding: 10px;
-  border: black solid 1px;
-  border-radius: 8px 0px 8px 0px;
-}
-.topo-menu nav li:hover {
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(255, 197, 38),
-    rgb(248, 150, 2)
-  );
-}
-.topo-menu nav li a {
-  color: black;
-  text-decoration: none;
-}
+
 .hero img {
   overflow: hidden;
   max-width: 100%;
@@ -711,20 +714,27 @@ footer {
 @media (max-width: 768px) {  
   #btnmobile {
     display: block;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #e68727;
+    border: none;
   }
-  #listMenu {
-    /* display: none; */
-    position: absolute;
-    width: 100%;
-    background-color: #7d7f81;
-    flex-wrap: wrap;
-    font-size: 50px;
-    height: 100vh;
-    z-index: 9999;
+  #naveMenu #listMenu li{
     
+    display: none;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(224, 165, 0),
+      rgb(207, 124, 0)
+    );
+    margin: 10px;
+    font-size: 60px;
+    padding: 10px;
+    border: black solid 1px;
+    border-radius: 8px 0px 8px 0px;
   }
   
-  #naveMenu.active #listMenu {
+  #naveMenu.active #listMenu li {
     display: block;
   }
   body{
