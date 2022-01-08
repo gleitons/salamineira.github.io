@@ -164,7 +164,7 @@ main {
   position: relative;
 }
 .hero::after{
-  content: "LAGOA DOS PATOS";
+  content: "LAGOA DOS PATOS - MG";
   
   position: absolute;
   color: #cc6906;
@@ -253,23 +253,27 @@ main {
   margin: 0 auto;
 }
 .infoCentralizada {
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 17px;
   margin: 0 auto;
   text-align: center;
-  width: 700px;
+  width: 612px;
 }
 .infoCentralizada h1 {
   color: #e68727;
   font-size: 23px;
 }
-.infoCentralizada h2 {
-  font-size: 17px;
-}
-.infoCentralizada h3 {
+.salaGeral {
   font-size: 15px;
-  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 400;
 }
+.salaGeral h3 > span {
+  color: red;
+  font-size: 20px;
+}
+
 .modulo-sala {
   overflow: hidden;
   width: 250px;
@@ -300,6 +304,9 @@ main {
 .info {
   width: 1200px;
   margin: 0 auto;
+}
+.dNoticias {
+  display: flex;
 }
 .noticiasRed {
   background-color: white;
@@ -480,4 +487,110 @@ footer {
 }
 .leiaMais {
   line-height: 1.7em;
+}
+
+/*--------RESPONSIVO-------*/
+
+@media (max-width: 1024px) {  
+  body{
+    width: 1024px;
+  }
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  .modulo-sala {
+    
+    width: 200px;
+    height: 120px;
+    
+  }
+  .blocoServicos {  
+    color: rgb(211, 211, 211);
+    padding-top: 11%;
+    align-items: center;
+    
+  }
+  .blocoServicos  h2{
+    width: 130px;
+    font-size: 10px;
+    text-decoration: none;
+  
+  }
+  .blocoServicos > i {
+    padding-left: 10px;
+    
+    font-size: 50px;
+  }
+  .hero::after{
+    margin: -211px auto;
+    font-size: 36px;
+    
+  }
+  .info {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  .artigo {
+    background-color: white;
+    width: 200px;
+    padding-bottom: 10px;
+    border: rgb(214, 214, 214) solid 1px;
+    border-radius: 8px;
+    margin: 7px;
+    align-items: center;
+    transition: 200ms;
+  }
+  .artigo > img {
+    width: 180px;   
+    
+  }
+  .infoMateria {
+    margin-left: 10px;
+  }
+  .ultimos-artigos {
+    width: 660px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .propaganda {
+    width: 300px;
+  }
+  .descServicos {
+    line-height: 1.5rem;
+    width: 400px;
+    color: white;
+  }
+  .borderIcon {
+    border: #e68727 solid 2px;
+    width: 186px;
+    margin: 0 81px;
+    margin-bottom: 10px;
+    align-content: center;
+    border-radius: 0px 12px 0px 12px;
+  }
+  .iconeInfo {
+    
+    width: 350px;
+    
+  }
+  .blocofooter{
+    width: 206px;
+  }
+  .servicosAlinhar {
+    width: 1024px;
+    
+  }
+  .blocoinfoFooter {
+    
+    width: 1024px;
+  }
+  .noticiasRed {
+    background-color: white;
+    padding: 2px;
+    margin-left: 0px;
+  }
+  .dNoticias {
+    display: flex;
+  }
 }
