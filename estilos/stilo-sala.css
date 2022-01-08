@@ -292,6 +292,7 @@ main {
   text-align: center;
 }
 .artigo {
+  background-color: white;
   width: 260px;
   padding-bottom: 10px;
   border: rgb(214, 214, 214) solid 1px;
@@ -347,6 +348,9 @@ main {
   
   
 }
+.divulgueSeunegocio > h2, h3, p {
+  color: black;
+}
 
 .artiComplete {
   display: inline-flex;
@@ -394,14 +398,17 @@ main {
   border-radius: 0px 12px 0px 12px;
 }
 .vejaM {
-  
+  cursor: pointer;
   padding-bottom: 20px;
   padding-top: 20px;
   width: 100%;
   text-align: center;
-  
-  
-  
+  transition: 200ms;
+ 
+}
+.vejaM >a {
+  text-decoration: none;
+  color: black;
 }
 .vejaM::before{
   content: "";
@@ -412,12 +419,21 @@ main {
   height: 5px;
   background-color: chocolate;
 }
+.vejaM:hover{
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  
+}
 .infoFuncionamento {
   text-align: center;
 }
 .descServicos {
   line-height: 1.5rem;
   width: 50%;
+  color: white;
+}
+.descServicos > h3 {
   color: white;
 }
 .divulgueServicos {
@@ -439,4 +455,7 @@ footer {
 }
 .menuFoot li a {
   color: white;
+}
+.leiaMais {
+  line-height: 1.7em;
 }
