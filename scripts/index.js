@@ -44,9 +44,9 @@ function carregarImage() {
 }
 
 function MenuPrincipal() {
-    const menu = `<button id="btnmobile" onclick="menuMob()">Menu</button>
+    const menu = `<button id="btnmobile" onclick="menuMob()"><i class="bi bi-list"></i></button>
                     <nav id="naveMenu">
-                        <ul id="listMenu">
+                        <ul id="listMenu">                        
                         <li><a href="/">Inicio</a></li>
                         <li><a href="/nota-fiscal">nf-e</a></li>
                         <li><a href="/blog/">notícias</a></li>

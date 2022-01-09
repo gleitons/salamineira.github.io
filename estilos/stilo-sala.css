@@ -134,7 +134,7 @@ main {
 }
 .topo-menu {
   padding: 15px;
-
+  height: 70px;
   background-color: #2e2e2e;
   width: 100%;
 }
@@ -902,11 +902,13 @@ footer {
 
 @media (max-width: 360px) {  
   #btnmobile {
+    border-radius: 8px;
     display: block;
     font-size: 30px;
-    padding: 10px;
+    padding: 5px;
     background-color: #e68727;
     border: none;
+    
   }
   #naveMenu #listMenu li{
     
@@ -921,17 +923,19 @@ footer {
     padding: 10px;
     border: black solid 1px;
     border-radius: 8px 0px 8px 0px;
+   
   }
 
   
   #naveMenu.active #listMenu li {
     display: block;
+    
   }
   body{
-    width: 320px;
+    width: 360px;
   }
   .container {
-    width: 320px;
+    width: 360px;
     margin: 0 auto;
   }
   .blocoServicos.DFlex{
@@ -960,7 +964,7 @@ footer {
     
   }
   .blocoServicos  h2{
-    width: 300px;
+    width: 350px;
     font-size: 28px;
     text-decoration: none;
     text-align: center;
@@ -974,22 +978,22 @@ footer {
   .hero::after{
     margin: -211px auto;
     font-size: 36px;
-    width: 320px;
+    width: 360px;
     
   }
   .infoCentralizada {
     
-    width: 320px;
+    width: 360px;
   }
   
   .info {
     
-    width: 320px;
+    width: 360px;
     margin: 0 auto;
   }
   .artigo {
     background-color: rgb(255, 240, 217);
-    width: 300px;
+    width: 340px;
     padding-bottom: 10px;
     border: rgb(214, 214, 214) solid 1px;
     border-radius: 8px;
@@ -998,7 +1002,8 @@ footer {
     transition: 200ms;
   }
   .artigo > img {
-    width: 160px;   
+    width: 320px; 
+    height: 150px;  
     
   }
   .infoMateria {
@@ -1114,7 +1119,11 @@ footer {
     color: rgb(255, 255, 255);
     
   }
-  
+  .menuFoot{
+    font-size: 25px;
+    width: 300px;
+    line-height: 3rem;
+  }
   .dNoticias {
     margin-left: -30px;
     display: block;

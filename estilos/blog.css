@@ -108,3 +108,27 @@
 
     }
 }
+
+@media (max-width: 360px) {
+    .esquerdoArtigo{
+        padding: 10px;
+        width: 360px;
+    }
+    .Quebra{
+        width: 360px;
+        display: block;
+    }
+    .esquerdoArtigo > p{
+        color: rgb(26, 26, 26);
+        font-size: 23px;
+    }
+    .propaganda{
+        width: 100%;
+        padding: 10px;
+        font-size: 25px;
+        line-height: 2rem;
+    }
+    .propagandaArtigo {
+
+    }
+}
