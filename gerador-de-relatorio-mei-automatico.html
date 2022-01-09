@@ -35,7 +35,7 @@
     <script src="/scripts/jspdf.min.js"></script> -->
     <script src="/scripts/gerador-de-pdf.js"></script>
     
-    <title>Gerador de DAS</title>
+    <title>Gerador de DAS - Relatório Mensal de Receita do MEI</title>
 </head>
 <body onload="adsNoArtigo()">
     <header>
@@ -82,16 +82,75 @@
         <div class="artigoComplete Quebra">
             <div class="esquerdoArtigo">
                 <div class="titleArtigo">
-                    <h1>Profissionalize seu negócio gratuitamente! #CompreDoBairro</h1>
-                    <h2>Movimento “Compre do Bairro” vai oferecer capacitação técnica gratuita para pequenos varejistas profissionalizarem os negócios.</h2>
-                    <h3>07/01/2022</h3>
+                    <h1>Gerador de Relatório mensal de receita para o MEI</h1>
+                    <h2>Basta preencher as informções abaixo que irá automaticamente gerar um PDF com o relatório mensal de receita MEI, gratuitamente.</h2>
+                    <h3>06/01/2022</h3>
                 </div>
-                <img src="/imagens-sala/artigos/artigo-sebrae-compre-do-bairro-min.jpeg" alt="">
-                <p>Profissionalizar o pequeno varejo brasileiro por meio de capacitação técnica gratuita. Este é o objetivo central do movimento #CompredoBairro, iniciativa de ação socioeconômica lançada nesta segunda-feira, 06/04, pelos empresários Guilherme Weege (Grupo Malwee), Fred Trajano (Magazine Luiza), Artur Grynbaum (Grupo Boticário), Jean Jereissati Neto (Ambev), Marcel Szajubok (Embelleze), André Street (Stone), Alcione Albanesi (FLC) e Ana Fontes (Rede Mulher Empreend edora), com o apoio do Sebrae. As empresas em questão não fazem parte da iniciativa, que é projeto pessoal das lideranças envolvidas e visa, também, estimular o consumo de produtos brasileiros de comércios de bairro.
+                <img src="/imagens-sala/relatorio-mei-gratis-qualidade.jpg" alt="">
+                <p>Preencha os dados para gerar o seu relatório mensal de receita para o microempreendedor individual gratuitamente.
+                Ao contrário do que muita gente pensa, o Relatório Mensal de Receitas Brutas é uma obrigação prevista em lei, que você passa a ter após a formalização.
+                Apesar de não precisar ser entregue em nenhum órgão, ele deve ser preenchido até o dia 20 do mês seguinte às vendas ou prestações de serviços. Ele deve ser arquivado, junto com as Notas fiscais de compras e vendas, por um período mínimo de 5 anos.</p>
+                <p>
+                Este relatório, além de te ajudar a controlar a média de faturamento mensal, também facilitará o envio da sua Declaração Anual de Faturamento (DASN), pois ela é o somatório de todos os relatórios preenchidos durante o ano.
+                Se a sua ocupação for de ‘Comércio’ preencha os campos indicados como revenda de mercadorias.
+                Caso a sua ocupação seja de ‘Indústria’ preencha os campos indicados como venda dos produtos industrializados.
                 </p>
 
                  <div class="propagandaArtigo" id="propArtifo">..CONTINUA DEPOIS DA PROPAGANDA...</div>   
                 <h2>Parceria do Sebrae</h2>
+
+                <div>
+                    <div>
+                        <h2>Relatório mensal de receita bruta MEI - GRÁTIS</h2>
+                        <h3>Insira as informações abaixo:</h3>
+                        <div>
+                            <div class="inserirInfo">
+                                <div>
+                                    <p>CNPJ:</p>
+                                    <p>Empreendedor individual:</p>
+                                    <p>Período de apuração:</p>
+                                    <p>I – Revenda de mercadorias com dispensa de emissão de documento fiscal</p>
+                                    <p>II – Revenda de mercadorias com documento fiscal emitido</p>
+                                    <p>III – Venda de produtos industrializados com dispensa de emissão de documento fiscal</p>
+                                    <p>V – Venda de produtos industrializados com documento fiscal emitido</p>
+                                    <p>VII – Receita com prestação de serviços com dispensa de emissão de documento fiscal:</p>
+                                    <p>VIII – Receita com prestação de serviços com documento fiscal emitido:</p>
+                                    <p>Local:</p>
+                                    <p>Data:</p>
+
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="cnpj">
+                                    <input type="text" name="" id="mei"><br>
+                                    <input type="date" name="" id="dataIni"> à <input type="date" name="" id="dataF">
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+RECEITA BRUTA MENSAL – REVENDA DE MERCADORIAS (COMÉRCIO)
+
+	R$
+III – Total das receitas com revenda de mercadorias (I + II)	R$
+RECEITA BRUTA MENSAL – VENDA DE PRODUTOS INDUSTRIALIZADOS (INDÚSTRIA)
+	R$
+	R$
+VI – Total das receitas com venda de produtos industrializados (IV + V)	R$
+RECEITA BRUTA MENSAL – PRESTAÇÃO DE SERVIÇOS 
+	R$
+VIII – Receita com prestação de serviços com documento fiscal emitido	R$
+IX – Total das receitas com prestação de serviços (VII + VIII)	R$
+X - Total geral das receitas brutas no mês (III + VI + IX)	R$
+LOCAL E DATA:
+	ASSINATURA DO EMPRESÁRIO:
+
+ENCONTRAM-SE ANEXADOS E ESTE RELATÓRIO:
+- Os documentos fiscais comprobatórios das entradas de mercadorias e serviços tomados referentes ao período;
+- As notas fiscais relativas às operações ou prestações realizadas eventualmente emitidas.
+
+
 
                 <button onclick="generatordePDF()">GERRADOR DE PDF</button>
                 
