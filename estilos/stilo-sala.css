@@ -313,6 +313,7 @@ main {
 }
 .padd {
   margin-bottom: 20px;
+  
 }
 .info {
   width: 1200px;
@@ -401,6 +402,9 @@ main {
   width: 80%;
   display: flex;
   flex-wrap: wrap;
+}
+.ultimos-artigos > a {
+  text-decoration: none;
 }
 .propaganda {
   width: 30%;
@@ -918,6 +922,7 @@ footer {
     border: black solid 1px;
     border-radius: 8px 0px 8px 0px;
   }
+
   
   #naveMenu.active #listMenu li {
     display: block;
@@ -929,22 +934,36 @@ footer {
     width: 320px;
     margin: 0 auto;
   }
+  .blocoServicos.DFlex{
+    display: block;
+  }
   .modulo-sala {
-    
-    width: 200px;
-    height: 120px;
+    margin: 20px auto;
+    width: 100%;
+    display: block;
+    height: 230px;
     
   }
+  .padd{
+    text-align: center;
+    margin: 10px;
+  }
+  .padd.DFlex{
+    display: block;
+  }
   .blocoServicos {  
+    
     color: rgb(211, 211, 211);
     padding-top: 11%;
     align-items: center;
     
+    
   }
   .blocoServicos  h2{
-    width: 130px;
-    font-size: 10px;
+    width: 300px;
+    font-size: 28px;
     text-decoration: none;
+    text-align: center;
   
   }
   .blocoServicos > i {
@@ -958,13 +977,19 @@ footer {
     width: 320px;
     
   }
+  .infoCentralizada {
+    
+    width: 320px;
+  }
+  
   .info {
+    
     width: 320px;
     margin: 0 auto;
   }
   .artigo {
-    background-color: white;
-    width: 320px;
+    background-color: rgb(255, 240, 217);
+    width: 300px;
     padding-bottom: 10px;
     border: rgb(214, 214, 214) solid 1px;
     border-radius: 8px;
@@ -986,23 +1011,26 @@ footer {
   }
   .propaganda {
     width: 100%;
+    padding: 20px;
   }
   .descServicos {
-    line-height: 1.5rem;
-    width: 400px;
+    
+    width: 280px;
+    
+  }
+  .descServicos > h3 {
     color: white;
   }
   .borderIcon {
-    border: #e68727 solid 2px;
+    
     width: 186px;
-    margin: 0 81px;
-    margin-bottom: 10px;
-    align-content: center;
-    border-radius: 0px 12px 0px 12px;
+    margin: 10px 10px;
+    
+    
   }
   .iconeInfo {
     
-    width: 350px;
+    width: 200px;
     
   }
   .blocofooter{
@@ -1012,7 +1040,11 @@ footer {
     width: 320px;
     
   }
+  .servicosAlinhar.DFlex{
+    display: block;
+  }
   .blocoinfoFooter {
+    display: block;
     margin: 0;
     width: 320px;
   }
@@ -1038,6 +1070,13 @@ footer {
     font-size: 15px;
     
   }
+  .carrocel{
+    display: none;
+  }
+
+
+
+
   .AnuncieAqui{
   
     border: solid rgba(129, 129, 129, 0.582) 1px;
@@ -1077,6 +1116,7 @@ footer {
   }
   
   .dNoticias {
+    margin-left: -30px;
     display: block;
   }
 }
