@@ -893,3 +893,190 @@ footer {
     display: block;
   }
 }
+
+/*----responsivo IV---*/
+
+@media (max-width: 320px) {  
+  #btnmobile {
+    display: block;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #e68727;
+    border: none;
+  }
+  #naveMenu #listMenu li{
+    
+    display: none;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(224, 165, 0),
+      rgb(207, 124, 0)
+    );
+    margin: 10px;
+    font-size: 60px;
+    padding: 10px;
+    border: black solid 1px;
+    border-radius: 8px 0px 8px 0px;
+  }
+  
+  #naveMenu.active #listMenu li {
+    display: block;
+  }
+  body{
+    width: 320px;
+  }
+  .container {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .modulo-sala {
+    
+    width: 200px;
+    height: 120px;
+    
+  }
+  .blocoServicos {  
+    color: rgb(211, 211, 211);
+    padding-top: 11%;
+    align-items: center;
+    
+  }
+  .blocoServicos  h2{
+    width: 130px;
+    font-size: 10px;
+    text-decoration: none;
+  
+  }
+  .blocoServicos > i {
+    padding-left: 10px;
+    
+    font-size: 50px;
+  }
+  .hero::after{
+    margin: -211px auto;
+    font-size: 36px;
+    width: 320px;
+    
+  }
+  .info {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .artigo {
+    background-color: white;
+    width: 320px;
+    padding-bottom: 10px;
+    border: rgb(214, 214, 214) solid 1px;
+    border-radius: 8px;
+    margin: 7px;
+    align-items: center;
+    transition: 200ms;
+  }
+  .artigo > img {
+    width: 160px;   
+    
+  }
+  .infoMateria {
+    margin-left: 5px;
+  }
+  .ultimos-artigos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .propaganda {
+    width: 100%;
+  }
+  .descServicos {
+    line-height: 1.5rem;
+    width: 400px;
+    color: white;
+  }
+  .borderIcon {
+    border: #e68727 solid 2px;
+    width: 186px;
+    margin: 0 81px;
+    margin-bottom: 10px;
+    align-content: center;
+    border-radius: 0px 12px 0px 12px;
+  }
+  .iconeInfo {
+    
+    width: 350px;
+    
+  }
+  .blocofooter{
+    width: 206px;
+  }
+  .servicosAlinhar {
+    width: 320px;
+    
+  }
+  .blocoinfoFooter {
+    margin: 0;
+    width: 320px;
+  }
+  .Quebra{
+    flex-wrap: wrap;
+  }
+  .logocaracter{
+    background-color: #2D3030;
+    width: 320px;
+    border-radius: 0px 0px 0px 0px;
+    height: 90px;
+    text-align: center;
+    align-content: center;
+  }
+
+  .logocaracter > h1 {
+    font-size:45px;
+    padding-top: 10px;
+  
+  }
+  .logocaracter > h2 {
+    
+    font-size: 15px;
+    
+  }
+  .AnuncieAqui{
+  
+    border: solid rgba(129, 129, 129, 0.582) 1px;
+    box-shadow: black 0px 0px 3px 0px;
+    height: 100px;
+    width: 320px;
+    margin-top: 20px;
+    margin-left: 0px;
+    align-items: center;
+  }
+  .AnuncieAqui > i {
+    
+    padding-top: 20px;
+    height: 100px;
+    
+    
+    font-size: 50px;
+    
+  }
+  
+  .AnuncieAqui div > h2 {
+    
+    
+    width: 100px;
+    margin: auto;
+    font-size: 15px;
+    
+  }
+  .AnuncieAqui div > h3 {
+    font-size: 10px;
+    color: black;
+    width: 150px;
+  }
+  .AnuncieAqui div > p {
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  .dNoticias {
+    display: block;
+  }
+}
