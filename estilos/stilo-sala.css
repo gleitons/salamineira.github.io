@@ -900,7 +900,7 @@ footer {
 
 /*----responsivo IV---*/
 
-@media (max-width: 320px) {  
+@media (max-width: 360px) {  
   #btnmobile {
     display: block;
     font-size: 30px;
