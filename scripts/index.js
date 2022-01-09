@@ -63,9 +63,9 @@ function MenuPrincipal() {
 function adsNoArtigo() {
     const menu = MenuPrincipal();
     const adsense = Math.floor(Math.random() * 6) + 1;
-    const descInserida = document.getElementById('valueDescription').value;
+    
 
-    descContent.innerHTML = `<meta name="description" content="${descInserida}">`
+    
     menuPrincipal.innerHTML = menu;
 
     if (adsense == 1) {
