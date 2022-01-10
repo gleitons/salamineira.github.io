@@ -7,8 +7,8 @@ function generatordePDF(){
 
 const cnpj = document.getElementById('cnpj').value;
 const mei = document.getElementById('mei').value;
-const dataIni = document.getElementById('dataIni').value;
-const dataF = document.getElementById('dataF').value;
+const dataIni = concertaData(document.getElementById('dataIni').value);
+const dataF = concertaData(document.getElementById('dataF').value);
 const revendaSemNota = document.getElementById('revendaSemNota').value;
 const revendaComNota = document.getElementById('revendaComNota').value;
 const IndustrialSemNota = document.getElementById('IndustrialSemNota').value;
@@ -18,7 +18,7 @@ const servicoComNota = document.getElementById('servicoComNota').value;
 const local = document.getElementById('local').value.toUpperCase();
 const datadoLocal = document.getElementById('datadoLocal').value;
 
-emManutencao();
+// emManutencao();
 
 
 
@@ -154,10 +154,29 @@ doc.setFontSize(10);
 doc.text('- As notas fiscais relativas às operações ou prestações realizadas eventualmente emitidas.', 12, 250)
 
 
+mostradev.innerHTML = `${doc} </br> ${dataIni}`
+doc.save(`relatorio ${mei} de ${dataIni} a ${dataF} .pdf`)
 
-// doc.save('a4.pdf')
 
 
+}
+
+function concertaData(dateAnterior) {
+    const invertido = dateAnterior.split('-').reverse().join("");
+    const separado = invertido.split('');
+    const dia = invertido.slice(0, 2);
+    const mes = invertido.slice(2, 4);
+    const ano = invertido.slice(4);
+
+
+    // const diaCV = invertido.split("", 2).toLocaleString();
+    // const dia = diaCV.replace(/,/g, '');
+    // const mesCV = invertido.split(1, 3).toLocaleString();
+    // const mes = mesCV.replace(/,/g, '');
+    // const anoCV = invertido.split("", 2).toLocaleString();
+    // const ano = diaCV.replace(/,/g, '');
+
+    return `${dia}/${mes}/${ano}`;
 
 }
 
