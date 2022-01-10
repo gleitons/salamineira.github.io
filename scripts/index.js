@@ -79,10 +79,11 @@ function adsNoArtigo() {
     } else if(adsense == 2) {
         adsScreen = `${maisArtigos()}`   
     } else if(adsense == 3) {
-        adsScreen = `<img src="/imagens-sala/lagoa-dos-patos-mg-hero.jpg" />`   
+        adsScreen = `<a href="/divulgue-aqui/"><img class="brilho" src="/imagens-sala/anuncie-gratis-aqui-salamineira.jpg" /></a></br>
+        ${artigosSalaMineira()}`   
     }
     else if(adsense == 4) {
-        adsScreen = `<img src="/imagens-sala/lagoa-dos-patos-mg-hero.jpg" /></br>${artigosLagoadosPatos()}`   
+        adsScreen = `<p>Visite Nosso Blog</p></br><a href="/blog/"><img class="brilho" src="/imagens-sala/visite-nosso-blog.jpg" /></a></br></br>${artigosLagoadosPatos()}`   
     }
     else if(adsense == 5) {
         adsScreen = `${artigosSalaMineira()}`   
@@ -90,7 +91,8 @@ function adsNoArtigo() {
     else if(adsense == 6) {
         adsScreen = `${artigosLagoadosPatos()}`   
     } else {
-        adsScreen = `<img src="/imagens-sala/lagoa-dos-patos-mg-hero.jpg" />`
+        adsScreen = `<p>Visite Nosso Blog</p></br><a href="/blog/"><img class="brilho" src="/imagens-sala/visite-nosso-blog.jpg" /></a></br>
+        ${artigosSalaMineira()}`
     }
 
     adsArtigo.innerHTML = `${adsScreen}`
