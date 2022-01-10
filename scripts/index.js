@@ -26,6 +26,7 @@ function promocaoIndex() {
     Aqui, você irá encontrar um espaço único para formalizar o seu empreendimento, obter orientações, informações e todo o conhecimento necessário para o seu desenvolvimento profissional.Tudo o que você precisa para fazer o seu negócio seguir em frente, de um jeito simples e prático.        
     </p>
     
+    
 </aside>`
     
     
@@ -49,7 +50,7 @@ function MenuPrincipal() {
                         <ul id="listMenu">                        
                         <li><a href="/">Inicio</a></li>
                         <li><a href="/nota-fiscal">nf-e</a></li>
-                        <li><a href="/blog/">notícias</a></li>
+                        <li><a href="/noticias/index.html">notícias</a></li>
                         <li><a href="/servicos-prefeitura-lagoa-dos-patos-mg/">Serviços</a></li>
                         <li><a href="/cursos">Cursos</a></li>
                         <li><a href="/gleiton-aparecido-soares-de-souza/">Sobre</a></li>
@@ -74,6 +75,7 @@ function adsNoArtigo() {
         A Sala Mineira do Empreendedor é o resultado da parceria entre o SEBRAE MINAS e a JUCEMG – Junta Comercial do Estado de Minas Gerais. Ela foi desenvolvida para melhorar e simplificar o ambiente de negócios em todo Estado, atuando lado a lado com as administrações municipais, oferecendo apoio para empreendimentos de todos os portes.
         Aqui, você irá encontrar um espaço único para formalizar o seu empreendimento, obter orientações, informações e todo o conhecimento necessário para o seu desenvolvimento profissional.Tudo o que você precisa para fazer o seu negócio seguir em frente, de um jeito simples e prático.        
         </p>
+        <p>Visite Nosso Blog</p></br><a href="/blog/"><img class="brilho" src="/imagens-sala/visite-nosso-blog.jpg" /></a></br></br>${artigosLagoadosPatos()}
         
     </aside>`
     } else if(adsense == 2) {
@@ -96,6 +98,7 @@ function adsNoArtigo() {
     }
 
     adsArtigo.innerHTML = `${adsScreen}`
+    
 
     
 
@@ -177,8 +180,8 @@ function footerMenu() {
     <div class="blocofooter">
         <h2>Nossas redes</h2>
         <nav class="menuFoot">
-            <li><a href="#">Onde Ficar? Onde Almoçar?</a></li>
-            <li><a href="#">Comerciantes E Prestadores De Serviços Em Lagoa Dos Patos</a></li>
+            <li><a href="/hotel-lagoa-dos-patos-mg.html">Onde Ficar? Onde Almoçar?</a></li>
+            <li><a href="/local/">Comerciantes E Prestadores De Serviços Em Lagoa Dos Patos</a></li>
             
         </nav>
     </div>
@@ -186,12 +189,9 @@ function footerMenu() {
         <h2>Fique conectado</h2>
         
         <nav class="menuFoot">
-            <li><a href="#">Use Máscaras Em Lagoa Dos Patos</a></li>
-            <li><a href="#">Instalação Completa Torre TIM</a></li>
-            <li><a href="#">Pedido De Viabilidade TORRE TIM</a></li>
-            <li><a href="#">Viabilidade Torre Aprovada</a></li>
-            <li><a href="#">Fotos Lagoa Dos Patos-MG</a></li>
-            <li><a href="#">Veja Mais...</a></li>
+            <li><a href="/use-mascara-lagoa-dos-patos/">Use Máscaras Em Lagoa Dos Patos</a></li>            
+            <li><a href="/fotos-lagoa-dos-patos-mg/">Fotos Lagoa Dos Patos-MG</a></li>
+            <li><a href="/blog">Veja Mais...</a></li>
         </nav>
     </div>
 </div>`
