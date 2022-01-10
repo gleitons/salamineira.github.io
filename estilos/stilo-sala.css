@@ -204,25 +204,25 @@ main {
   height: 100%;
 }
 .colorRed{
-  background-color: rgb(0, 0, 180);
+  background-color: rgb(240, 80, 59);
 }
 .colorBlue{
   background-color: rgb(0, 0, 180);
 }
 .colorRoxo{
-  background-color: rgb(173, 0, 130);
+  background-color: rgb(150, 0, 112);
 }
 .colorGreen{
-  background-color: rgb(28, 138, 0);
+  background-color: rgb(33, 165, 0);
 }
 .colorPurple{
   background-color: rgb(197, 36, 184);
 }
 .colorOrange{
-  background-color: rgb(167, 94, 0);
+  background-color: rgb(207, 118, 1);
 }
 .colorYellow{
-  background-color: rgb(46, 49, 0);
+  background-color: rgb(97, 104, 0);
 }
 .colorbrow{
   background-color: rgb(124, 78, 18);

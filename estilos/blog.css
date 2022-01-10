@@ -4,6 +4,7 @@
   padding: 10px;
   background-color: white;
 }
+
 .esquerdoArtigo {
   width: 80%;
   margin-right: 30px;
@@ -15,7 +16,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.esquerdoArtigo > img {
+.esquerdoArtigo > div img {
   overflow: hidden;
   max-width: 100%;
   width: 100%;
@@ -66,6 +67,11 @@
 .propagandaArtigo {
     margin-top: 20px;
        text-align: center; 
+}
+.passarMouse {
+    color: rgb(141, 61, 61);
+    padding-top: 50px;
+    margin: -20px;
 }
 
 .red {

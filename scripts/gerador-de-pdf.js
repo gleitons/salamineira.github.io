@@ -11,8 +11,12 @@ const dataIni = concertaData(document.getElementById('dataIni').value);
 const dataF = concertaData(document.getElementById('dataF').value);
 const revendaSemNota = document.getElementById('revendaSemNota').value;
 const revendaComNota = document.getElementById('revendaComNota').value;
+const somarevenda = parseInt(revendaComNota)+parseInt(revendaSemNota);
+
 const IndustrialSemNota = document.getElementById('IndustrialSemNota').value;
 const IndustrialComNota = document.getElementById('IndustrialComNota').value;
+const somaindustria = `${parseInt(IndustrialSemNota)+parseInt(IndustrialComNota)}`;
+
 const servicoSemNota = document.getElementById('servicoSemNota').value;
 const servicoComNota = document.getElementById('servicoComNota').value;
 const local = document.getElementById('local').value.toUpperCase();
@@ -68,10 +72,10 @@ doc.text(`R$ ${revendaComNota}`, 162, 98)
 
 doc.rect(10, 100, 150, 10);
 doc.setFontSize(12);
-doc.text('I – Revenda de mercadorias com dispensa de emissão de documento fiscal', 12, 108)
+doc.text('III – Total das receitas com revenda de mercadorias (I + II)', 12, 108)
 doc.rect(160, 100, 40, 10);
 doc.setFontSize(12);
-doc.text('R$', 162, 108)
+doc.text(`R$ ${somarevenda}`, 162, 108)
 
 doc.setDrawColor(0);
 doc.setFillColor(220, 220, 220);
@@ -100,7 +104,7 @@ doc.setFontSize(12);
 doc.text('VI – Total das receitas com venda de produtos industrializados (IV + V)', 12, 153)
 doc.rect(160, 145, 40, 10);
 doc.setFontSize(12);
-doc.text(`R$ ${IndustrialComNota}`, 162, 153)
+doc.text(`R$ ${somaindustria}`, 162, 153)
 
 doc.setDrawColor(0);
 doc.setFillColor(220, 220, 220);
