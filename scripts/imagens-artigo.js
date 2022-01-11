@@ -1,3 +1,8 @@
+function mabs() {
+    imageLoads.innerHTML = `
+    <img 
+    src="/imagens-sala/artigos/bob-saget-ator.jpg" alt="Morre ator bob Segat">`;
+}
 function cdsb() {
     imageLoads.innerHTML = `
     <img 
