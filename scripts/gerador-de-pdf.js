@@ -6,7 +6,7 @@ function emManutencao() {
 function generatordePDF(){
 
 const cnpj = document.getElementById('cnpj').value;
-const mei = document.getElementById('mei').value;
+const mei = document.getElementById('mei').value.toUpperCase();
 const dataIni = concertaData(document.getElementById('dataIni').value);
 const dataF = concertaData(document.getElementById('dataF').value);
 const revendaSemNota = document.getElementById('revendaSemNota').value;
@@ -20,7 +20,7 @@ const somaindustria = `${parseInt(IndustrialSemNota)+parseInt(IndustrialComNota)
 const servicoSemNota = document.getElementById('servicoSemNota').value;
 const servicoComNota = document.getElementById('servicoComNota').value;
 const local = document.getElementById('local').value.toUpperCase();
-const datadoLocal = document.getElementById('datadoLocal').value;
+const datadoLocal = addNomesMeses(concertaData(document.getElementById('datadoLocal').value));
 
 // emManutencao();
 
@@ -183,6 +183,45 @@ function concertaData(dateAnterior) {
     return `${dia}/${mes}/${ano}`;
 
 }
+function addNomesMeses(recebeMes) {
+    const dia = recebeMes.slice(0,2)
+    const mes = calculames(recebeMes.slice(3,5))
+    const ano = recebeMes.slice(6)
+    return `${dia} de ${mes} de ${ano}`;
+
+}
+function calculames(nMes){
+    const Mes = parseInt(nMes)
+    if (Mes == 1) {
+      var mesReturn = `janeiro`
+    } else if(Mes == 2){
+      var mesReturn = `fevereiro`
+    }
+   else if (Mes == 3){
+    var mesReturn = `março`
+  }
+   else if (Mes == 4) {
+      var mesReturn = `abril`
+    }
+  
+    else if (Mes == 5) {
+    var mesReturn = `maio`
+  }
+   else if (Mes == 6) {
+      var mesReturn = `junho`
+    }
+    else if(Mes == 7){
+    var mesReturn = `julho`
+  }
+    else if (Mes == 8){
+  var mesReturn = `agosto`
+  } else {
+    var mesReturn = `setembro`
+  }
+
+    return mesReturn;
+}
+
 
 /*var name = prompt("What is your name?");
 var multiplier = parseInt(prompt("Enter a number:"), 10);
