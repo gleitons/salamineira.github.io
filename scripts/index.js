@@ -19,6 +19,7 @@ function menuMob() {
 }
 function promocaoIndex() {
     const menu = MenuPrincipal();
+    //compressThumb();
     
     const ads = `<aside>
     <p>
@@ -196,3 +197,4 @@ function footerMenu() {
     </div>
 </div>`
 }
+
