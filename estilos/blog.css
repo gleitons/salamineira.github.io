@@ -32,6 +32,12 @@
   margin-bottom: 20px;
   
 }
+figcaption{
+    color: rgb(90, 90, 90);
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
 .esquerdoArtigo > p{
     text-indent: 2em;
     line-height: 1.7rem;
@@ -135,6 +141,12 @@
         width: 360px;
        
     }
+    .AnuncieAqui {
+        margin: 0 auto;
+    }
+    .logocaracter{
+        margin: 20px auto;
+    }
     .passarMouse {
         width: 100%;
         font-size: normal;
@@ -148,6 +160,7 @@
         width: 360px;
     }
     .Quebra{
+        
         width: 360px;
         display: block;
     }
@@ -161,7 +174,5 @@
         font-size: 25px;
         line-height: 2rem;
     }
-    .propagandaArtigo {
-
-    }
+    
 }
