@@ -62,7 +62,26 @@ function MenuPrincipal() {
     return menu;
 }
 
+
+
+
+function fixaNoTopoM()  {
+    const navv = document.getElementById('sol');
+    const topNavi = navv.offsetTop;
+
+   if (window.pageYOffset >= topNavi) {
+        topNavi.classList.add("fixaTop");
+    } else {
+        topNavi.classList.remove("fixaTop");
+    }
+    
+}
+
 function adsNoArtigo() {
+    
+
+
+
     const menu = MenuPrincipal();
     const adsense = Math.floor(Math.random() * 6) + 1;
     
