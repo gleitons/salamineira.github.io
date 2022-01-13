@@ -176,7 +176,7 @@ main {
   height: auto;
   position: relative;
 }
-.hero::after{
+/* .hero::after{
   content: "LAGOA DOS PATOS - MG";
   
   position: absolute;
@@ -191,7 +191,7 @@ main {
   
   font-size: 60px;
   
-}
+} */
 .adsTopo {
   
   max-width: 900px;
@@ -324,7 +324,7 @@ main {
 }
 .noticiasRed {
   background-color: white;
-  padding: 30px;
+  padding: 0px;
 }
 .noticiasRed > h2 {
   text-align: center;
@@ -478,6 +478,7 @@ main {
   color: white;
 }
 .divulgueServicos {
+  padding: 30px;
   background-color: #cdcfd0;
 }
 footer {
