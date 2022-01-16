@@ -77,6 +77,40 @@ function fixaNoTopoM()  {
     
 }
 
+function selecioneTipoForm() {
+    const selecTipo = document.getElementById('selectTipo').value;
+    const setaD = document.getElementById('setaD');
+    const classdoForm = document.getElementById('classDoForm')
+    const avcpfcnpj = document.getElementById('avcpfcnpj')
+    console.log(selecTipo);
+    if (selecTipo == "CNPJ") {
+        avcpfcnpj.setAttribute('style', 'display: none')
+        classdoForm.classList.remove('DFlex');
+        setaD.setAttribute('style', 'display: none')
+        paraCPF.classList.add("cnPJ");
+        paraCNPJ.classList.remove("cnPJ");
+
+    } else if (selecTipo =="CPF") {
+        avcpfcnpj.setAttribute('style', 'display: none')
+        classdoForm.classList.remove('DFlex');
+        setaD.setAttribute('style', 'display: none')
+        paraCPF.classList.remove("cnPJ");
+        paraCNPJ.classList.add("cnPJ");
+    } else {
+        paraCPF.classList.add('cnPJ')
+        paraCNPJ.classList.add("cnPJ");
+        classdoForm.classList.add('DFlex');
+        setaD.setAttribute('style', 'display: block')
+        avcpfcnpj.setAttribute('style', 'display: block')
+    }
+
+    
+        
+     
+    
+}
+
+
 function adsNoArtigo() {
     
 
