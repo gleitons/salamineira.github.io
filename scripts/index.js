@@ -30,7 +30,7 @@ function promocaoIndex() {
     
 </aside>`
     
-    
+    onloadCasosCovid()
     menuPrincipal.innerHTML = `${MenuPrincipal()}`
     ADSTopo.innerHTML = ``
     banneranuncie.innerHTML = `${bannerAnuncieAqui()}`

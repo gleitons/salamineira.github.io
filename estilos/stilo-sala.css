@@ -127,6 +127,40 @@ header {
 #listMenu {
   display: block;
 }
+.dadosCovid{
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  align-content: center;
+  justify-content: center;
+}
+.colDadosCovid{
+  padding: 10px;
+  margin: 5px;
+  width: 250px;
+  height: 60px;
+  align-items: center;
+  padding-left: 15px;
+  
+}
+#imgcovid{
+  width: 1200px;
+  margin: auto;
+  
+}
+.colDadosCovid > h3{
+  width: 50%;
+  color: rgb(196, 196, 196);
+}
+.colDadosCovid > .infoCovid {
+  font-size: 25px;
+  color: aliceblue;
+  width: 40%;
+  text-align: end;
+}
+.dBlock{
+  display: block;
+}
 
 
 main {
@@ -716,6 +750,10 @@ footer {
 }
 /*----responsivo III---*/
 
+
+
+
+
 @media (max-width: 768px) {  
   #btnmobile {
     display: block;
@@ -942,6 +980,20 @@ footer {
     display: block;
     
   }
+  .dadosCovid{
+    
+    width: 360px;
+    
+  }
+  #imgcovid{
+    width: 350px;
+    margin: auto;
+    
+  }
+
+
+
+  
   body{
     width: 360px;
   }
@@ -1008,9 +1060,9 @@ footer {
     padding-bottom: 10px;
     border: rgb(214, 214, 214) solid 1px;
     border-radius: 8px;
-    margin: 7px;
+    
     align-items: center;
-    transition: 200ms;
+    transition: 100ms;
   }
   .artigo > img {
     width: 320px; 
@@ -1121,6 +1173,10 @@ footer {
     font-size: 15px;
     
   }
+  .ultimos-artigos > a {
+    margin-left: 30px;
+  }
+
   .AnuncieAqui div > h3 {
     font-size: 10px;
     color: black;
