@@ -150,6 +150,7 @@ header {
   height: 60px;
   align-items: center;
   padding-left: 15px;
+  transition: 200ms;
   
 }
 #imgcovid > img{
@@ -166,6 +167,11 @@ header {
   color: aliceblue;
   width: 40%;
   text-align: end;
+}
+.colDadosCovid:hover > h1{
+  top:-10px;
+  box-shadow:0 2px 2px rgba(0, 0, 0, 0.509);
+  color: rgb(0, 0, 0);
 }
 .dBlock{
   display: block;
@@ -192,6 +198,15 @@ main {
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
+ 
+  
+}
+.seli{
+    
+  font-size: 20px;
+  box-shadow: black 0px 0px 5px 0px;
+  border-radius: 4px;
+  margin: 5px;
 }
 .btnColor {
   background-image: linear-gradient(
@@ -1002,7 +1017,7 @@ footer {
 
   .seli{
     
-    font-size: 50px;
+    font-size: 20px;
     box-shadow: black 0px 0px 5px 0px;
     border-radius: 8px;
 }
