@@ -70,7 +70,39 @@ function estyleColor(valor){
         corLetraCovid.style.color = 'white';
     }
 }
+function covid_19_01_2022(){
+    const data = "19/01/2022"
+    const ativos = 15;
+    const descartadoss = 526;
+    const confirmadoss = 152;
+    const internadoss = "00";
+    const isolamentos = "00";    
+    const obitoss = "01";
+    const curadoss = "136";
+    const notF = descartadoss+confirmadoss;
+    const dia = data.slice(0,2)
+    const mes = data.slice(3,5)
+    const ano = data.slice(6)
+    const ativoss= estyleColor(ativos);
+    
+    const tImagem = document.getElementById('trocaImagemCovid').src = `"/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/covid-19-lagoa-dos-patos-mg-${dia}-${mes}-${ano}.jpg"`; 
 
+
+
+    dataC.innerHTML = `${data} `
+    suspeitos.innerHTML = `${ativos}`;
+    confirmados.innerHTML = `${confirmadoss}`;
+    internados.innerHTML = `${internadoss}`;
+    isolamento.innerHTML = `${isolamentos}`;
+    descartados.innerHTML = `${descartadoss}`;
+    obitos.innerHTML = `${obitoss}`;
+    curados.innerHTML = `${curadoss}`;
+    notificados.innerHTML = `${notF}`;
+    imgcovid.innerHTML = `<p>Clique na imagem para fechar</p>
+    <img id="trocaImagemCovid" src=${tImagem} onclick="fechaimgCovid()" alt="covid-19 Lagoa dos Patos MG">`;    
+
+    
+}
 function covid_10_09_2021(){
     const data = "10/09/2021"    
     const ativos = 10;
@@ -609,39 +641,7 @@ function covid_12_02_2021(){
     <img id="trocaImagemCovid" src=${tImagem} onclick="fechaimgCovid()" alt="covid-19 Lagoa dos Patos MG">`;    
     
 }
-function covid_19_01_2022(){
-    const data = "19/01/2022"
-    const ativos = 15;
-    const descartadoss = 526;
-    const confirmadoss = 152;
-    const internadoss = "00";
-    const isolamentos = "00";    
-    const obitoss = "01";
-    const curadoss = "136";
-    const notF = descartadoss+confirmadoss;
-    const dia = data.slice(0,2)
-    const mes = data.slice(3,5)
-    const ano = data.slice(6)
-    const ativoss= estyleColor(ativos);
-    
-    const tImagem = document.getElementById('trocaImagemCovid').src = `"/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/covid-19-lagoa-dos-patos-mg-${dia}-${mes}-${ano}.jpg"`; 
 
-
-
-    dataC.innerHTML = `${data} `
-    suspeitos.innerHTML = `${ativos}`;
-    confirmados.innerHTML = `${confirmadoss}`;
-    internados.innerHTML = `${internadoss}`;
-    isolamento.innerHTML = `${isolamentos}`;
-    descartados.innerHTML = `${descartadoss}`;
-    obitos.innerHTML = `${obitoss}`;
-    curados.innerHTML = `${curadoss}`;
-    notificados.innerHTML = `${notF}`;
-    imgcovid.innerHTML = `<p>Clique na imagem para fechar</p>
-    <img id="trocaImagemCovid" src=${tImagem} onclick="fechaimgCovid()" alt="covid-19 Lagoa dos Patos MG">`;    
-
-    
-}
 function covid_14_01_2021(){
     const data = "14/01/2021"
     const ativos = 02;
