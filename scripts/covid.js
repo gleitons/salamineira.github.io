@@ -56,6 +56,7 @@ function estyleColor(valor){
     const corLetraCovid = document.getElementById('suspeitos');
     if (valor <= 2) {
         moduloSuspeito.style.backgroundColor = 'rgb(25, 255, 25)';
+        corLetraCovid.style.color = 'black';
     } else if(valor <= 5 && valor >= 3){
         moduloSuspeito.style.backgroundColor = 'rgb(0, 130, 0)';
     } else if(valor <= 10 && valor >= 6){
