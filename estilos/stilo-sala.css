@@ -151,6 +151,9 @@ header {
   align-items: center;
   padding-left: 15px;
   transition: 200ms;
+
+  background-color: rgb(242, 105, 0);
+  
   
 }
 #imgcovid > img{
