@@ -122,7 +122,17 @@ function adsNoArtigo() {
 
     
     menuPrincipal.innerHTML = menu;
-
+    const adsGoogle = `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8921692840146247"
+    crossorigin="anonymous"></script>
+    <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-format="fluid"
+    data-ad-layout-key="-6x+dw+1m-1u+3o"
+    data-ad-client="ca-pub-8921692840146247"
+    data-ad-slot="4354203081"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>`
     if (adsense == 1) {
         adsScreen = `<aside>
         <p>
@@ -152,7 +162,7 @@ function adsNoArtigo() {
     }
 
     adsArtigo.innerHTML = `${adsScreen}`
-    
+    propArtifo.innerHTML = `${adsGoogle}`
 
     
 

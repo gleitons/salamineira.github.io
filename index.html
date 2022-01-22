@@ -166,7 +166,7 @@
                 <h3><span>ATENÇÃO * Os serviços municipais são referente a cidade de Lagoa dos Patos-MG</span></h3>
             </div>
             </div>
-            <div class="infoCovidLagoa" onload="covid_18_01_2022()">
+            <div class="infoCovidLagoa" >
                 <h2>Boletim Epidemiológico COVID-19 Lagoa dos Patos MG</h2>
                 <p>Nossos dados foram extraidos de publições oficiais</p>
                 <select class="seli" name="" id="selectDia" onchange="covidRecente()">
@@ -194,39 +194,39 @@
                     
                 </select>
                 
-                <div class="dadosCovid">
-                    <div id="colInfoCovid" class="colDadosCovid DFlex brilho">                        
+                <div  class="dadosCovid">
+                    <div onclick="vejaimgCovid()" id="colInfoCovid" class="colDadosCovid DFlex brilho">                        
                             <h3>ATIVOS</h3>                 
-                            <h3 class="infoCovid" id="suspeitos"></h3>                  
+                            <h3 class="infoCovid" id="suspeitos"><img src="/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/loading-casos-de-covid-lagoa-dos-patos-mg.svg" alt="carregando casos de covid em lagoa dos patos mg"></h3>                  
                     </div>
-                    <div style="background-color: rgb(206, 21, 0);" class="colDadosCovid brilho DFlex brilho">                        
+                    <div onclick="vejaimgCovid()" style="background-color: rgb(206, 21, 0);" class="colDadosCovid brilho DFlex brilho">                        
                         <h3>CONFIRMADOS</h3>                 
-                        <h3 class="infoCovid" id="confirmados"></h3>                             
+                        <h3 class="infoCovid" id="confirmados"><img src="/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/loading-casos-de-covid-lagoa-dos-patos-mg.svg" alt="carregando casos de covid em lagoa dos patos mg"></h3>                             
                 </div>
-                <div style="background-color: blueviolet;" class="colDadosCovid brilho DFlex">                        
+                <div onclick="vejaimgCovid()" style="background-color: blueviolet;" class="colDadosCovid brilho DFlex">                        
                     <h3>INTERNADOS</h3>                 
-                    <h3 class="infoCovid" id="internados"></h3>                     
+                    <h3 class="infoCovid" id="internados"><img src="/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/loading-casos-de-covid-lagoa-dos-patos-mg.svg" alt="carregando casos de covid em lagoa dos patos mg"></h3>                     
                 </div>
-                <div style="background-color: rgb(152, 152, 152);" class="colDadosCovid brilho DFlex ">                        
+                <div onclick="vejaimgCovid()" style="background-color: rgb(152, 152, 152);" class="colDadosCovid brilho DFlex ">                        
                 <h3>ISOLAMENTO</h3>                 
-                <h3 class="infoCovid" id="isolamento"></h3>                   
+                <h3 class="infoCovid" id="isolamento"><img src="/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/loading-casos-de-covid-lagoa-dos-patos-mg.svg" alt="carregando casos de covid em lagoa dos patos mg"></h3>                   
                 </div>
                 
-                    <div style="background-color: rgb(78, 142, 93);" class="colDadosCovid brilho DFlex">                        
+                    <div onclick="vejaimgCovid()" style="background-color: rgb(78, 142, 93);" class="colDadosCovid brilho DFlex">                        
                     <h3>DESCARTADOS</h3>                 
-                    <h3 class="infoCovid" id="descartados"></h3>              
+                    <h3 class="infoCovid" id="descartados"><img src="/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/loading-casos-de-covid-lagoa-dos-patos-mg.svg" alt="carregando casos de covid em lagoa dos patos mg"></h3>              
                 </div>
-                <div style="background-color: rgb(18, 15, 15);" class="colDadosCovid brilho DFlex">                        
+                <div onclick="vejaimgCovid()" style="background-color: rgb(18, 15, 15);" class="colDadosCovid brilho DFlex">                        
                     <h3>ÓBITOS</h3>                 
-                    <h3 class="infoCovid" id="obitos"></h3>               
+                    <h3 class="infoCovid" id="obitos"><img src="/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/loading-casos-de-covid-lagoa-dos-patos-mg.svg" alt="carregando casos de covid em lagoa dos patos mg"></h3>               
                 </div>
-                <div style="background-color: rgb(74, 137, 171);" class="colDadosCovid brilho DFlex">                        
+                <div onclick="vejaimgCovid()" style="background-color: rgb(74, 137, 171);" class="colDadosCovid brilho DFlex">                        
                     <h3>CURADOS</h3>                 
-                    <h3 class="infoCovid" id="curados"></h3>      
+                    <h3 class="infoCovid" id="curados"><img src="/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/loading-casos-de-covid-lagoa-dos-patos-mg.svg" alt="carregando casos de covid em lagoa dos patos mg"></h3>      
                     </div>
-                    <div style="background-color: rgb(85, 99, 70);" class="colDadosCovid brilho DFlex">                        
+                    <div onclick="vejaimgCovid()" style="background-color: rgb(85, 99, 70);" class="colDadosCovid brilho DFlex" >                        
                         <h3>NOTIFICADOS</h3>                 
-                        <h3 class="infoCovid" id="notificados"></h3>              
+                        <h3 class="infoCovid" id="notificados"><img src="/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/loading-casos-de-covid-lagoa-dos-patos-mg.svg" alt="carregando casos de covid em lagoa dos patos mg"></h3>              
                     </div>
                     
                 </div>

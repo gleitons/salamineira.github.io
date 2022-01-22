@@ -177,6 +177,7 @@ header {
 .colDadosCovid:hover{
   box-shadow: rgba(44, 44, 44, 0.664) 0px 5px 10px 0px;
   margin-top: -1px;
+  cursor: pointer;
 }
 
 .colDadosCovid:hover > h1{
