@@ -3,8 +3,8 @@ function covidRecente(){
     const selecioneDia = document.getElementById('selectDia').value;
     if (selecioneDia == "19_01_2021") {
         covid_19_01_2022();
-    } else if(selecioneDia == "18_01_2022"){
-        covid_18_01_2022();
+    } else if(selecioneDia == "22_01_2022"){
+        covid_22_01_2022();
     } else if(selecioneDia == "14_01_2021"){
         covid_14_01_2021();
     } else if(selecioneDia == "12_02_2021"){
@@ -44,10 +44,7 @@ function covidRecente(){
         covid_10_09_2021();
     } else if(selecioneDia == "19_01_2022"){
         covid_19_01_2022();
-    }
-    else if(selecioneDia == "22_01_2022"){
-        covid_22_01_2022();
-    }
+    } 
     else {
         covid_22_01_2022();
     };
