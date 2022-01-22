@@ -14,12 +14,14 @@ function toggleMenu() {
 }
 function menuMob() {
     const btnMobile = document.getElementById('btnmobile');
-    btnMobile.addEventListener('click', toggleMenu)
+    btnMobile.addEventListener('click', toggleMenu);
 
 }
 function promocaoIndex() {
+
     const menu = MenuPrincipal();
     //compressThumb();
+    
     
     const ads = `<aside>
     <p>
@@ -36,11 +38,10 @@ function promocaoIndex() {
     banneranuncie.innerHTML = `${bannerAnuncieAqui()}`
     promocoesIndex.innerHTML = `${ads}  ${maisArtigos()} `
     footerM.innerHTML = `${footerMenu()}`
-
- 
-
+    //headMenu.innerHTML = `${menuTop()}`    
     
 }
+
 function carregarImage() {
     bannerF.innerHTML = `${bannerPrincipal()}`;
 }
@@ -76,7 +77,44 @@ function fixaNoTopoM()  {
     }
     
 }
-
+function menuTop(){
+    return `<div class="topo-sala Quebra">
+    <div>
+        <a class="logoM" href="/">
+            <div class="logocaracter">
+        
+                <h1><span class="colorwhite">SALA</span> <span class="colorOr">MINEIRA</span></h1>
+        
+                <h2><span class="colorwhite">do Empreendedor de</span> <span class="colorOr">Lagoa dos Patos-MG</span></h2>
+        
+        
+            </div>
+        </a>
+    </div>
+    <div id="banneranuncie">
+        <a  class="logoM" href="/divulgue-aqui/">
+            <div>
+                <div class="AnuncieAqui DFlex">
+                    <i class="bi bi-phone-vibrate"></i>
+                    <div>
+                        <h2>ATENÇÃO</h2>
+                        <h3>QUER ANUNCIAR GRÁTIS O SEU NEGÓCIO?</h3>
+                        <P>CLIQUE AQUI E ANUNCIE</P>
+                    </div>
+                    <div class="ApoioAnuncio">
+                        <p>Apoio</p>
+                        <p>Prefeitura Municipal de Lagoa dos Patos MG</p>
+                    </div>
+                </div>
+        
+            </div>
+        </a>
+    </div>
+</div>
+<div class="topo-menu" id="menuPrincipal" onload="MenuPrincipal()">
+   
+</div>`
+}
 function selecioneTipoForm() {
     const selecTipo = document.getElementById('selectTipo').value;
     const setaD = document.getElementById('setaD');

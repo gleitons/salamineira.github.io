@@ -171,6 +171,7 @@
                 <p>Nossos dados foram extraidos de publições oficiais</p>
                 <select class="seli" name="" id="selectDia" onchange="covidRecente()">
                     <option value="">Data:</option>
+                    <option value="22_01_2022">22/01/2022</option>
                     <option value="19_01_2022">19/01/2022</option>
                     <option value="18_01_2022">18/01/2022</option>
                     <option value="10_09_2021">10/09/2021</option>
@@ -230,6 +231,15 @@
                     </div>
                     
                 </div>
+                <!-- INICIO GRAFICO COVID 19 LAGOA DOS PATOS MG-->
+
+                <div>
+                    <canvas id="myChart"></canvas>
+                </div>
+   
+
+                <!-- FIM GRAFICO COVID 19 LAGOA DOS PATOS MG-->
+                
                 <div>
                     <p>Última atualização - <span id="dataC">18/01/2022</span></p>
                     <button class="btnColor" id="verImg" onclick="vejaimgCovid()">Ver Imagem</button>
@@ -254,6 +264,18 @@
             <h2>ÚLTIMAS NOTÍCIAS</h2>
             <div class="info dNoticias">
                 <div class="ultimos-artigos">
+                    <a href="/noticias/a-nova-norma-de-contabilidade-para-microentidades.html">
+                        <div class="artigo boshadow">
+                            <img src="/imagens-sala/2022/01/a-nova-norma-de-contabilidade-para-microentidades.jpeg" alt="Imagem de uma calculadora juntamente com uma caneta">
+                            
+                            <div class="infoMateria">
+                                <h2>A nova Norma de contabilidade para microentidades</h2>
+                                <h3>20/01/2022</h3>
+                                <p>AEm novembro de 2021 foi aprovada a NBC TG 1002, que dispõe sobre a contabilidade para microentidade</p>
+                                <button class="saibamais btnColor boshadow">Ler mais...</button>
+                            </div>
+                        </div>
+                    </a>
                     <a href="/noticias/morre-ator-bob-saget.html">
                         <div class="artigo boshadow">
                             <img src="/imagens-sala/artigos/bob-saget-ator-low.jpg" alt="Imagem do ator bobo saget sorrindo para uma foto">
@@ -413,6 +435,68 @@
         
         
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/scripts/grafico-covid.js"></script>
+
+    <script>
+        
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const labels = [
+                covid_14_01_2021()[0],
+                covid_12_02_2021()[0],
+                covid_26_02_2021()[0],
+                covid_03_03_2021()[0],
+                covid_25_03_2021()[0],
+                covid_06_04_2021()[0],
+                covid_16_04_2021()[0],
+                covid_16_04_2021()[0],
+                covid_13_05_2021()[0],
+                covid_22_06_2021()[0],
+                covid_01_07_2021()[0],
+                covid_10_07_2021()[0],
+                covid_13_07_2021()[0],
+                covid_16_08_2021()[0],
+                covid_24_08_2021()[0],
+                covid_25_08_2021()[0],
+                covid_27_08_2021()[0],
+                /*covid_31_08_2021()[0],
+                covid_10_09_2021()[0],
+                covid_18_01_2022()[0],
+                covid_19_01_2022()[0],
+                covid_22_01_2022()[0]*/
+
+            ];
+
+            const data = {
+                labels: labels,
+                datasets: [{
+                label: 'Ativos',
+                backgroundColor: 'rgb(255, 99, 132)',
+                borderColor: 'rgb(255, 99, 132)',
+                data: [covid_14_01_2021()[1], covid_12_02_2021()[1], covid_26_02_2021()[1], covid_03_03_2021()[1], covid_25_03_2021()[1], covid_06_04_2021()[1], covid_16_04_2021()[1], covid_13_05_2021()[1], covid_22_06_2021()[1], covid_01_07_2021()[1], covid_10_07_2021()[1] , covid_13_07_2021()[1], covid_16_08_2021()[1], covid_24_08_2021()[1],  covid_25_08_2021()[1], covid_27_08_2021()[1]/*, covid_31_08_2021()[1], covid_10_09_2021()[1], covid_18_01_2022()[1], covid_19_01_2022()[1],covid_22_01_2022()[1],*/
+                ]},
+                {
+                label: 'Descartados',
+                backgroundColor: 'rgb(255, 99, 132)',
+                borderColor: 'rgb(255, 99, 132)',
+                // data: [10, 12, 20, 2, 20, 30, 45, 20, 10, 12, 21 , 20, covid_22_01_2022()[1], 20],
+                }]
+            };
+            
+
+            const config = {
+                type: 'line',
+                data: data,
+                options: {}
+            };
+        </script>   
+        <script>
+            const myChart = new Chart(
+              document.getElementById('myChart'),
+              config
+            );
+          </script>
+
     
     
 </body>
