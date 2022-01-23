@@ -100,6 +100,20 @@
     display: none;    
     
 }
+
+
+mark {
+    background-color: initial!important;
+    color: initial!important;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 0 auto;
+    transition: background-size 2s;
+    background-image: linear-gradient(to top, rgba(22, 111, 199, 0.24) 100%, transparent);
+}
+mark.animate {
+    background-size: 100% auto;
+}
 .bloc {
     display: block;
 }
