@@ -1,0 +1,24 @@
+User-agent: *
+Allow: 
+User-agent: Googlebot
+Allow: 
+User-agent: Googlebot-Image
+Allow: 
+User-agent: Mediapartners-Google
+Allow: 
+User-agent: Adsbot-Google
+Allow:robots.txt
+Disallow: /banners/
+Disallow: /classes/
+Disallow: /css/
+Disallow: /fontes/
+Disallow: /icones/
+Disallow: /jk/
+Disallow: /joker/
+Disallow: /js/
+Disallow: /koringas/
+Disallow: class.phpmailer.php
+Disallow: class.pop3.php
+Disallow: class.smtp.php
+
+Sitemap: https://brasilgondolas.com.br/sitemap.xml
