@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background: url(/brasilgondolas.com.br/banners/fundo-note.jpg) center center no-repeat fixed;
+    background: url(/src/arquivos/fundo-note-mn.jpg) center center no-repeat fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -34,6 +34,7 @@ header{
 nav {
     list-style: none;
 }
+
 .menuT > li a{
     margin-right: 60px;
     text-decoration: none;
@@ -44,6 +45,32 @@ nav {
     
     color: rgb(83, 83, 250);
 }
+.submenu {    
+    display: none;
+    transform: rotate(40deg);
+    position: absolute;
+    list-style: none;   
+    background-color: rgb(206, 136, 131);
+    left: 1075px;
+    width: 100px;
+    top: 60px; 
+    
+}
+.submenu li{    
+    background-color: rgb(252, 17, 0);
+    padding: 10px;
+    text-decoration: none;
+    
+    margin: 2px;
+    
+    
+}
+a:hover > .submenu {
+    transform: rotate(90deg);
+}
+
+
+
 main {
     width: 1200px;
     margin: auto;
@@ -97,7 +124,7 @@ main {
     margin: 5px;
 }
 .experiencia{
-    background: url(/brasilgondolas.com.br/slides-pro/escolha-certa-gondolas-de-aco-03.jpg) center center no-repeat fixed;
+    background: url(/src/arquivos/escolha-certa-gondolas-de-aco-03-mn.jpg) center center no-repeat fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -113,9 +140,8 @@ main {
 }
 .ultimaDesc {
     text-align: center;
-    background: rgba(0, 0, 136, 0.372);
-    backdrop-filter: blur( 13.5px );
-    -webkit-backdrop-filter: blur( 13.5px );
+    background: rgba(0, 0, 136, 0.666);
+    
     padding-top: 15%;
     height: 450px;
     color: white;
