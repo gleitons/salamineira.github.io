@@ -37,13 +37,14 @@ function promocaoIndex() {
     ADSTopo.innerHTML = ``
     banneranuncie.innerHTML = `${bannerAnuncieAqui()}`
     promocoesIndex.innerHTML = `${ads}  ${maisArtigos()} `
-    footerM.innerHTML = `${footerMenu()}`
+    footerM.innerHTML = footerMenu();
     //headMenu.innerHTML = `${menuTop()}`    
     
 }
 
 function carregarImage() {
     bannerF.innerHTML = `${bannerPrincipal()}`;
+    
 }
 
 function MenuPrincipal() {
@@ -152,7 +153,7 @@ function selecioneTipoForm() {
 function adsNoArtigo() {
     
 
-
+    footerM.innerHTML = footerMenu();
 
     const menu = MenuPrincipal();
     const adsense = Math.floor(Math.random() * 6) + 1;
