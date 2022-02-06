@@ -274,8 +274,8 @@ function footerMenu() {
             
             <li><a href="https://lagoadospatos.mg.gov.br">Prefeitura Lagoa Dos Patos</a></li>
             <li><a href="https://salamineira.com">Sala Mineira Do Empreendedor</a></li>
-            <li><a href="http://177.188.1.1:8080/login.php">IP De Acesso E-Cidade</a></li>
-            <li><a href="/sugestoes/">Sugestões</a></li>
+            <li><a href="http://177.152.105.125:8070/e-cidade/login.php" target="_blank">IP De Acesso E-Cidade</a></li>
+            <li><a href="/sugestoes.html">Sugestões</a></li>
         </nav>
     </div>
     

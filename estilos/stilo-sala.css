@@ -142,9 +142,50 @@ header {
   align-content: center;
   justify-content: center;
 }
-.dadosCovid:hover{
+.bb {
+  
+  border: rgb(0, 0, 0) solid 1px;
+}
+.formBorda{
+  width: 100%;
+}
+.formBorda > h2{
+  text-align: center;
+  margin-bottom: -100px;
+}
+.imgSug{
+  width: 50px; 
   
 }
+.formPadd{
+  background-color: rgb(233, 233, 233);
+  padding: 40px;
+  width: 600px;
+  margin: 10px auto;
+  box-shadow: rgba(0, 0, 0, 0.475) 0px 0px 5px 0px;
+ 
+}
+.formPadd > p {
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.formPadd > input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: black solid 1px;
+  font-size: 20px;
+  width: 300px;
+}
+.formPadd > textarea {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: black solid 1px;
+  font-size: 20px;
+  width: 300px;
+}
+
 .colDadosCovid{
   border-radius: 8px;
   padding: 10px;
@@ -1192,7 +1233,7 @@ footer {
   .carrocel{
     display: none;
   }
-
+ 
 
 
 
