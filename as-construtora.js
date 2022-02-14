@@ -7,6 +7,9 @@ const DataPag = addNomesMeses(concertaData(document.getElementById('dataPres').v
 const ValoPago = parseFloat(document.getElementById('valorPres').value);
 const valopag = ValoPago.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})
 const Cidade = document.getElementById('cidPres').value;
+document.getElementById('carr').innerHTML = `<p>Preencha os Dados</p>
+<img  style="top: -60px; width: 150px; margin-left: 200px;" src="https://www.blogson.com.br/wp-content/uploads/2017/10/lg.progress-bar-preloader.gif" />
+<p>AGUARDANDO...</p>`;
 
 
 
@@ -107,13 +110,10 @@ doc.text(`${Prestador}`, 50, 200);
 
 doc.save(`Comprovante de Pagamento ${Prestador} - ${DataPag}.pdf`);
 
-document.getElementById('Suc').innerHTML = `<h2>DOCUMENTO GERADO COM SUCESSO, FOI SALVO EM SEU DISPOSITIVO</h2>`
+const loadC = document.getElementById('carr');
+loadC.classList.add("dnone");
 
-
-
-
-
-
+document.getElementById('Suc').innerHTML = `<h2>DOCUMENTO GERADO COM SUCESSO, FOI SALVO EM SEU DISPOSITIVO</h2>`;
 
 
 }
