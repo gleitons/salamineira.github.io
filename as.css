@@ -1,0 +1,41 @@
+.formAS{
+    width: 600px;
+    margin: auto;
+    background-color: antiquewhite;
+    padding: 5px;
+}
+.formAS  div > p {
+    width: 250px;
+    margin: 10px;
+    font-size: 18px;
+}
+.formAS  div > select {
+    width: 250px;
+    margin: 10px;
+    font-size: 18px;
+}
+.formAS  div > input {
+    width: 250px;
+    margin: 10px;
+    font-size: 18px;
+}
+.btnGerarRecibo{
+    
+    padding: 10px;
+    margin: 10px;
+}
+.ForF{
+    display: flex;
+}
+
+@media (max-width: 360px) {
+    .formAS{
+        width: 360px;
+        margin: auto;
+        background-color: antiquewhite;
+        padding: 0px;
+    }
+    .ForF {
+        display: block;
+    }
+}
