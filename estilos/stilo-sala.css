@@ -6,6 +6,38 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Arial,
     Helvetica, sans-serif;
 }
+.imageTopD{
+  width: 700px;
+  margin: 20px auto;
+  top: 20px;
+  min-height: 250px;
+  background-color: white;
+  padding: 20px;
+}
+.imageTopD img{
+  filter: brightness(90%);
+  width: 100%;
+  margin: 10px auto;
+  box-shadow: black 0px 0px 5px 0px ;
+
+}
+.imageTopD img:hover{
+  cursor: pointer;
+  filter: brightness(100%);
+}
+.imageTopD > i{
+  background-color: black;
+  padding: 5px;
+  font-size: 20px;
+  color: red;
+  border-radius: 8px;
+  
+}
+.imageTopD > i:hover{
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
 header {
   
   background-color: #7d7f81;
@@ -1031,6 +1063,36 @@ footer {
     border: none;
     
     
+  }
+  .imageTopD{
+    width: 100%;
+    margin: 20px auto;
+    top: 20px;
+    min-height: 250px;
+    background-color: white;
+    padding: 5px;
+  }
+  .imageTopD img{
+    filter: brightness(100%);
+    width: 100%;
+    margin: 2px auto;
+  }
+  .imageTopD img:hover{
+    cursor: pointer;
+    filter: brightness(100%);
+  }
+  .imageTopD > i{
+    background-color: black;
+    padding: 5px;
+    font-size: 20px;
+    color: red;
+    border-radius: 8px;
+    
+  }
+  .imageTopD > i:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
   }
   .topo-menu {
     padding: 15px;

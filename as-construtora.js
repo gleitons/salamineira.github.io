@@ -16,14 +16,15 @@ const dis = 30;
 
 
 if (Prestador == "ADENILSON PEREIRA DOS SANTOS 05102483650") {
-    CNPJPrestador = "44.242.995/0001-72"
+    CNPJPrestador = `44.242.995/0001-72`
 } else if (Prestador == "CELESTINO XAVIER CAETANO 09691372657") {
     CNPJPrestador = "43.973.542/0001-53"
 } else if (Prestador == "ITALO RYAN BARBOSA 70572386656") {
     CNPJPrestador = "44.241.428/0001-00"
     
 }else {
-    //alert('Selecione um prestador')
+    alert('Selecione um prestador');
+    
 }
 
 

@@ -19,7 +19,10 @@ function menuMob() {
 }
 function promocaoIndex() {
 
+    
+    decMEI2022()
     const menu = MenuPrincipal();
+    
     //compressThumb();
     
     
@@ -151,6 +154,7 @@ function selecioneTipoForm() {
 
 
 function adsNoArtigo() {
+    
     
 
     footerM.innerHTML = footerMenu();
@@ -300,3 +304,20 @@ function footerMenu() {
 </div>`
 }
 
+function fecharBD(){
+    document.getElementById('decMei').style.display = "none"
+}
+function decMEI2022() {
+    
+    const n = rdo();
+    const imagen = `/declaracao-mei-2022/declaracao-mei-2022-lagoa-dos-patos-mg-${n}.jpeg`
+
+    document.getElementById('MEI2022').innerHTML = `<div id="decMei" class="imageTopD">
+    <i onclick="fecharBD()" class="bi bi-x-square-fill"> Fechar</i>
+    <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/Identificacao" target="_blank" rel="follow"><img src="${imagen}" alt=""></a>
+    <p>clique na imagem para acessar</p>
+</div>`
+}
+function rdo(){
+    return Math.floor(Math.random() *6);
+}
