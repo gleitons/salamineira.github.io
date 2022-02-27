@@ -101,7 +101,8 @@ function menuTop(){
         <a  class="logoM" href="/divulgue-aqui/">
             <div>
                 <div class="AnuncieAqui DFlex">
-                    <i class="bi bi-phone-vibrate"></i>
+                    <i class="bi bi-megaphone-fill"></i>
+                    <!--<i class="bi bi-phone-vibrate"></i>-->
                     <div>
                         <h2>ATENÇÃO</h2>
                         <h3>QUER ANUNCIAR GRÁTIS O SEU NEGÓCIO?</h3>
@@ -245,7 +246,9 @@ function bannerAnuncieAqui() {
     <a  class="logoM" href="/divulgue-aqui/">
         <div>
             <div class="AnuncieAqui DFlex">
-                <i class="bi bi-phone-vibrate"></i>
+                <i class="bi bi-megaphone-fill"></i>
+                <!--<i class="bi bi-phone-vibrate"></i>-->
+               
                 <div>
                     <h2>ATENÇÃO</h2>
                     <h3>QUER ANUNCIAR GRÁTIS O SEU NEGÓCIO?</h3>
