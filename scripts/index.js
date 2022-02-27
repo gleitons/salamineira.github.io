@@ -21,7 +21,9 @@ function promocaoIndex() {
 
     
     decMEI2022()
+
     const menu = MenuPrincipal();
+
     
     //compressThumb();
     
@@ -307,10 +309,12 @@ function footerMenu() {
 function fecharBD(){
     document.getElementById('decMei').style.display = "none"
 }
-function decMEI2022() {
+async function decMEI2022() {
+
     
     const n = rdo();
-    const imagen = `/declaracao-mei-2022/declaracao-mei-2022-lagoa-dos-patos-mg-${n}.jpeg`
+    const imagen = `https://salamineira.com/declaracao-mei-2022/declaracao-mei-2022-lagoa-dos-patos-mg-${n}.jpeg`
+
 
     document.getElementById('MEI2022').innerHTML = `<div id="decMei" class="imageTopD">
     <i onclick="fecharBD()" class="bi bi-x-square-fill"> Fechar</i>
