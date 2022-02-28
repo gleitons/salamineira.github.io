@@ -4,6 +4,22 @@
   padding: 10px;
   background-color: white;
 }
+.clean {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bannertijolego {
+    width: 100%;
+    
+    margin: auto;
+    margin: 20px;
+    line-height: 2rem;
+}
+.imageTijolego{
+    width: 150px;
+    
+}
 .maisNoticias{
     margin: 10px 10px;
     
@@ -150,7 +166,7 @@ mark.animate {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.esquerdoArtigo > div img {
+.esquerdoArtigo div img {
   overflow: hidden;
   max-width: 100%;
   width: 100%;

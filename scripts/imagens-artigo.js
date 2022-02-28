@@ -13,3 +13,6 @@ function gdrma() {
     <img 
     src="/imagens-sala/relatorio-mei-gratis-qualidade.jpg" alt="gerador de relatorio de receita bruta MEI">`;
 }
+function tijolego() {
+    imageLoads.innerHTML = `<img src="/imagens-sala/2022/02/tilolego-banner.jpeg" alt="">`
+}
