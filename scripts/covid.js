@@ -65,10 +65,12 @@ function covidRecente(){
         covid_18_02_2022()
     } else if(selecioneDia == "23_02_2022"){
         covid_23_02_2022()
+    } else if(selecioneDia == "23_02_2022"){
+        covid_02_03_2022()
     } 
     else {
         
-        covid_23_02_2022()
+        covid_02_03_2022()
     };
 }
 
@@ -93,6 +95,42 @@ function estyleColor(valor){
         corLetraCovid.style.color = 'white';
     }
 }
+function covid_02_03_2022(){
+    const data = "02/03/2022"
+    const ativos = 08;
+    const descartadoss = 662;
+    const confirmadoss = 228;
+    const internadoss = "00";
+    const isolamentos = "00";    
+    const obitoss = "01";
+    const curadoss = "219";
+    const notF = descartadoss+confirmadoss;
+    const dia = data.slice(0,2)
+    const mes = data.slice(3,5)
+    const ano = data.slice(6)
+    const ativoss= estyleColor(ativos);
+    
+    const tImagem = document.getElementById('trocaImagemCovid').src = `"/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/covid-19-lagoa-dos-patos-mg-${dia}-${mes}-${ano}.jpg"`; 
+
+
+
+    dataC.innerHTML = `${data} `
+    suspeitos.innerHTML = `${ativos}`;
+    confirmados.innerHTML = `${confirmadoss}`;
+    internados.innerHTML = `${internadoss}`;
+    isolamento.innerHTML = `${isolamentos}`;
+    descartados.innerHTML = `${descartadoss}`;
+    obitos.innerHTML = `${obitoss}`;
+    curados.innerHTML = `${curadoss}`;
+    notificados.innerHTML = `${notF}`;
+    imgcovid.innerHTML = `<p>Clique na imagem para fechar</p>
+    <img id="trocaImagemCovid" src=${tImagem} onclick="fechaimgCovid()" alt="covid-19 Lagoa dos Patos MG">`;   
+
+    return [data, ativos, descartadoss,confirmadoss, internadoss, isolamentos, obitoss, curadoss]
+
+    
+}
+
 function covid_23_02_2022(){
     const data = "23/02/2022"
     const ativos = 09;
