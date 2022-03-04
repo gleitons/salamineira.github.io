@@ -312,7 +312,7 @@ function footerMenu() {
 function fecharBD(){
     document.getElementById('decMei').style.display = "none"
 }
-async function decMEI2022() {
+function decMEI2022() {
 
     
     const n = rdo();
@@ -322,7 +322,7 @@ async function decMEI2022() {
     document.getElementById('MEI2022').innerHTML = `<div id="decMei" class="imageTopD">
     <i onclick="fecharBD()" class="bi bi-x-square-fill"> Fechar</i>
     <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/Identificacao" target="_blank" rel="follow"><img src="${imagen}" alt=""></a>
-    <p>clique na imagem para acessar</p>
+    <p>Clique na imagem para acessar</p>
 </div>`
 }
 function rdo(){
