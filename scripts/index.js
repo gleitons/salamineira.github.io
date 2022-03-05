@@ -98,7 +98,7 @@ function menuTop(){
         </a>
     </div>
     <div id="banneranuncie">
-        <a  class="logoM" href="/divulgue-aqui/">
+        <a  class="logoM" href="/divulgue-aqui.html">
             <div>
                 <div class="AnuncieAqui DFlex">
                     <i class="bi bi-megaphone-fill"></i>
@@ -160,7 +160,7 @@ function adsNoArtigo() {
     
     
 
-    footerM.innerHTML = footerMenu();
+    
 
     const menu = MenuPrincipal();
     const adsense = Math.floor(Math.random() * 6) + 1;
@@ -191,7 +191,7 @@ function adsNoArtigo() {
     } else if(adsense == 2) {
         adsScreen = `${maisArtigos()}`   
     } else if(adsense == 3) {
-        adsScreen = `<a href="/divulgue-aqui/"><img class="brilho" src="/imagens-sala/anuncie-gratis-aqui-salamineira.jpg" /></a></br>
+        adsScreen = `<a href="/divulgue-aqui.html"><img class="brilho" src="/imagens-sala/anuncie-gratis-aqui-salamineira.jpg" /></a></br>
         ${artigosSalaMineira()}`   
     }
     else if(adsense == 4) {
@@ -209,6 +209,8 @@ function adsNoArtigo() {
 
     adsArtigo.innerHTML = `${adsScreen}`
     propArtifo.innerHTML = `${adsGoogle}`
+
+    footerM.innerHTML = footerMenu();
 
     
 
@@ -243,7 +245,7 @@ function artigosLagoadosPatos() {
 }
 function bannerAnuncieAqui() {
     return `<img class="imganuncioaqui dnone" src="/img/anuncie-gratis-lagoa-dos-patos-mg.jpeg" alt="">
-    <a  class="logoM" href="/divulgue-aqui/">
+    <a  class="logoM" href="/divulgue-aqui.html">
         <div>
             <div class="AnuncieAqui DFlex">
                 <i class="bi bi-megaphone-fill"></i>
