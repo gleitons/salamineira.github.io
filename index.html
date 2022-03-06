@@ -29,6 +29,26 @@
 <body onload="promocaoIndex()">
     
     <header>
+        <!-- Soucer: https://www.w3schools.com/howto/howto_css_modals.asp   -->
+
+        <!-- The Modal -->
+        
+
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <!--nesse evento "onclick" é onde fecho a model, deve ser colocado no X-->
+                <span class="close" onclick="fecharModel()">&times;</span>
+
+                <!-- <p>Você precisa personalizar sua model</p> -->
+                <p style="text-align: center;">.... Anúncio ....</p>
+                <a href="/as-construtora/">
+                    <img src="/imagens-sala/2022/03/as-construtora-lagoa-dos-patos-mg.jpeg"
+                        alt="AS Construtora Andeilton soares de souza AS construtora Lagoa dos Patos MG">
+                </a>
+            </div>
+
+        </div>
         <div class="topo-sala Quebra">
             <div>
                 <a class="logoM" href="/">
@@ -478,8 +498,18 @@
     <script src="https://compressjs.herokuapp.com/compress.js"></script>
     <script src="/scripts/covid.js"></script>
     <script>
-        
-        
+        (function () {
+            // Get the modal
+            setTimeout(function () {
+                const modal = document.getElementById("myModal");
+                modal.style.display = "block";
+            }, 2000); // 2 segundos após a página estiver pronta para abrir o PopUp
+        })();
+
+        function fecharModel() {
+            const modal = document.getElementById("myModal");
+            modal.style.display = "none";
+        }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <!-- <script src="/scripts/grafico-covid.js"></script> -->

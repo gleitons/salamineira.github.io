@@ -1,6 +1,7 @@
 .fundoSendForm {
     background: url(https://static.wixstatic.com/media/7343dd_31eb68c4f93a4ce7998d22cc75987c43~mv2.jpg/v1/fill/w_1800,h_900,al_c,q_30,usm_0.66_1.00_0.01/HDR-Lagoa-dos-patos-mg-barragem_edited_j.jpg);
     background-size: cover;
+    background-attachment: fixed;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     
@@ -36,6 +37,17 @@
     width: 100%;
     align-items: flex-end;
     margin: auto;
+}
+.esquerdo div a button {
+    width: fit-content;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 20px;
+}
+.esquerdo div a button:active {
+    box-shadow: inset black 0px 2px 2px 0px;
+    background-color: wheat;
 }
 .esquerdo div form > p{
     margin-top: 12px;

@@ -223,7 +223,10 @@ function maisArtigos() {
     <li><a href="/cursos-gratuitos-senac-em-montes-claros-mg">Cursos gratuitos com 196 vagas no Senac Montes Claros MG</a></li>
     <li><a href="/acao-social-emissao-de-carteira-de-identidade-lagoa-dos-patos-mg/">Secretaria de Assistência Social, CRAS e prefeitura municipal realiza ação social em Lagoa dos Patos MG</a></li>
     <li><a href="/campanha-de-vacinacao-antirrabica-em-lagoa-dos-patos-mg/">Campanha de vacinação antirrábica em Lagoa dos Patos MG</a></li>
-</ul>`
+</ul>
+<p style="text-align: center;">.... Anuncio ....</p>
+<img class="brilho" src="/imagens-sala/2022/03/as-construtora-lagoa.jpeg" alt="AS Construtora Andeilton soares de souza AS construtora Lagoa dos Patos MG">
+`
 }
 function artigosSalaMineira() {
     return `<ul class="leiaMais">
@@ -232,7 +235,9 @@ function artigosSalaMineira() {
     <li><a href="/cursos-gratuitos-senac-em-montes-claros-mg">Cursos gratuitos com 196 vagas no Senac Montes Claros MG</a></li>
     <li><a href="/acao-social-emissao-de-carteira-de-identidade-lagoa-dos-patos-mg/">Secretaria de Assistência Social, CRAS e prefeitura municipal realiza ação social em Lagoa dos Patos MG</a></li>
     <li><a href="/campanha-de-vacinacao-antirrabica-em-lagoa-dos-patos-mg/">Campanha de vacinação antirrábica em Lagoa dos Patos MG</a></li>
-</ul>`
+</ul>
+<p style="text-align: center;">.... Anuncio ....</p>
+        <img class="brilho"  src="/imagens-sala/2022/03/as-construtora-lagoa-dos-patos.jpeg" alt="AS Construtora Andeilton soares de souza AS construtora Lagoa dos Patos MG">`
 }
 function artigosLagoadosPatos() {
     return `<ul class="leiaMais">
@@ -241,7 +246,9 @@ function artigosLagoadosPatos() {
     <li><a href="/cursos-gratuitos-senac-em-montes-claros-mg">Cursos gratuitos com 196 vagas no Senac Montes Claros MG</a></li>
     <li><a href="/acao-social-emissao-de-carteira-de-identidade-lagoa-dos-patos-mg/">Secretaria de Assistência Social, CRAS e prefeitura municipal realiza ação social em Lagoa dos Patos MG</a></li>
     <li><a href="/campanha-de-vacinacao-antirrabica-em-lagoa-dos-patos-mg/">Campanha de vacinação antirrábica em Lagoa dos Patos MG</a></li>
-</ul>`
+</ul>
+<p style="text-align: center;">.... Anuncio ....</p>
+        <img class="brilho"  src="/imagens-sala/2022/03/as-construtora-lagoa-dos-patos-mg.jpeg" alt="AS Construtora Andeilton soares de souza AS construtora Lagoa dos Patos MG">`
 }
 function bannerAnuncieAqui() {
     return `<img class="imganuncioaqui dnone" src="/img/anuncie-gratis-lagoa-dos-patos-mg.jpeg" alt="">
