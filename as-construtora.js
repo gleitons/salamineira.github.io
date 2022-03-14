@@ -2,6 +2,7 @@ function asConstrutora() {
 // Don't forget, that there are CORS-Restrictions. So if you want to run it without a Server in your Browser you need to transform the image to a dataURL
 // Use http://dataurl.net/#dataurlmaker
 const Prestador = document.getElementById('selPres').value;
+const referencia = document.getElementById('referencia').value;
 const TipoPag = document.getElementById('tipoPagPres').value;
 const DataPag = addNomesMeses(concertaData(document.getElementById('dataPres').value));
 const ValoPago = parseFloat(document.getElementById('valorPres').value);
@@ -90,6 +91,9 @@ doc.text("CNPJ: 26.873.013/0001-69", 20, `${100+dis}`);
 
 doc.setFont("helvetica", "normal");
 doc.text("referente a serviços de Alvenaria.", 90, `${100+dis}`);
+
+doc.setFont("helvetica", "normal");
+doc.text(`${referencia}`, 20, `${110+dis}`);
 
 doc.setFont("helvetica", "normal");
 doc.text("Sendo expressão de verdade e sem qualquer coação, firmo o presente.", 20, `${140+dis}`);
