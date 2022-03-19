@@ -8,6 +8,7 @@ function bannerPrincipal() {
 
     
 }
+
 function toggleMenu() {
     const nav = document.getElementById('naveMenu');
     nav.classList.toggle('active');
@@ -337,3 +338,19 @@ function decMEI2022() {
 function rdo(){
     return Math.floor(Math.random() *6);
 }
+document.getElementById('modalIndex').innerHTML = `
+<div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <!--nesse evento "onclick" é onde fecho a model, deve ser colocado no X-->
+                <span class="close" onclick="fecharModel()">&times;</span>
+
+                <!-- <p>Você precisa personalizar sua model</p> -->
+                <p style="text-align: center;">.... Anúncio ....</p>
+                <a href="/as-construtora/">
+                    <img src="/imagens-sala/2022/03/as-construtora-lagoa-dos-patos-mg.jpeg"
+                        alt="AS Construtora Andeilton soares de souza AS construtora Lagoa dos Patos MG">
+                </a>
+            </div>
+
+        </div>`
