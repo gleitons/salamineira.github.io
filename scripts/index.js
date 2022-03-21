@@ -66,7 +66,12 @@ function MenuPrincipal() {
                         <li><a href="/contato">Contato</a></li>
                         <li><a href="/pesquisar/">Pesquisar</a></li>
                         </ul>
-                    </nav>`
+                    </nav>
+                    <div class="atendimentoWhats">
+            <div>
+                <a href="/atendimento.html" target="_blank"><img src="/imagens-sala/whatsapp-icon-atendimento-sala-mineira-lagoa-dos-patos-min.png" alt=""></a>
+            </div>
+        </div>`
     return menu;
 }
 

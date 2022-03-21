@@ -6,6 +6,21 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Arial,
     Helvetica, sans-serif;
 }
+.atendimentoWhats {  
+  position: fixed;
+  bottom: 20px;
+  right: 18%;
+  z-index: 1;
+}
+.atendimentoWhats div img{
+  width: 100px;
+  transition: 300ms;
+}
+.atendimentoWhats div img:hover{
+  width: 110px;  
+}
+
+
 .calculadoraMark {
   width: 500px;
   margin: auto;
@@ -1209,6 +1224,22 @@ footer {
     
     
   }
+  .atendimentoWhats {  
+    position: fixed;
+    bottom: 50px;
+    right: 17%;
+    z-index: 1;
+  }
+  .atendimentoWhats div img{
+    width: 100px;
+    transition: 300ms;
+  }
+  .atendimentoWhats div img:hover{
+    width: 110px;  
+  }
+
+
+
   .imageTopD{
     width: 100%;
     margin: 20px auto;
@@ -1244,7 +1275,7 @@ footer {
     height: auto;
     background-color: #2e2e2e;
     width: 100%;
-    z-index: 99999;
+    z-index: 999;
   }
   .modal-content {
     background-color: #fefefe;
