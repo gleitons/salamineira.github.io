@@ -1,0 +1,135 @@
+
+:root{
+
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    font-size: 20px;
+}
+h2 {
+    font-size: 17px;
+}
+
+.folhaA4 {
+    
+    margin: 0;
+    width: 100%px;
+    padding: 10%;
+    
+    
+}
+.backimage{
+    -webkit-print-color-adjust: exact;
+    background-image: url(src/fundo-certidao-min.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    size-adjust: 100%;
+    margin: auto;
+
+    
+}
+.topoBrasao{
+    margin-left: 70px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    
+}
+.topoBrasao h1 {
+    
+        font-size: 25px;
+
+}    
+.topoBrasao h2 {
+    
+    margin: 0px;
+    font-size: 20px;
+
+}    
+.certidaoValorVenal {
+    font-size: 15px;
+    text-align: center;
+}
+.assinaturaLateral {
+    margin-right: 0px;
+    position: fixed;
+    transform: rotate(-90deg);
+}
+.assinaTOperador{
+    padding-top: 10px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.assinaTOperador p{
+    font-size: 12px;
+}
+.AssinOp {
+    font-size: 12px; 
+    font-weight:700; 
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+.peEnderecoPref {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.peEnderecoPref > p{
+    margin: 0;
+}
+.protocolN {
+    margin: 0px;
+}
+.fundoInsereDados {
+    background-color: #ACA8AB;
+    padding: 5px;
+}
+.IDados {
+    width: 200px;
+    border-bottom: #5e5e5ea6 solid 1px;
+}
+.botaoEnviar{
+    background-color: rgb(55, 138, 55);
+    color: white;
+    border: rgb(119, 119, 119) solid 1px;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 700;
+}
+.botaoEnviar:focus {
+    box-shadow: inset black 1px 2px 2px 1px;
+}
+.backimage {
+    display: none;
+}
+.ocultarBotao {
+    background-color: red;
+    color: white;
+}
+.imprimirAgora {
+    text-align: center;
+    position: fixed;
+    padding: 5px;
+    margin-left: 250px;
+    width: 150px;
+    margin-bottom: 500px;
+    background-color: yellowgreen;
+    color: black;
+    font-weight: 800;
+}
+@media print {
+    .ocultarBotao {
+        display: none !important;
+    }
+    .fundoInsereDados {
+        display: none !important;
+    }
+    .imprimirAgora {
+        display: none !important;
+    }
+}

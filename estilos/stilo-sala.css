@@ -1,0 +1,1547 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Arial,
+    Helvetica, sans-serif;
+}
+.atendimentoWhats {  
+  position: fixed;
+  bottom: 20px;
+  right: 18%;
+  z-index: 1;
+}
+.atendimentoWhats div img{
+  width: 100px;
+  transition: 300ms;
+}
+.atendimentoWhats div img:hover{
+  width: 110px;  
+}
+
+
+.calculadoraMark {
+  width: 500px;
+  margin: auto;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.276) 0px 0px 10px 0px;
+  margin-bottom: 50px;
+}
+.calculadoraMark h2{
+  text-align: center;
+  margin: 20px;
+}
+.calculadoraMark table tr{
+  font-size: 20px;
+  line-height: 2.0rem;
+}
+.calculadoraMark table tr input{
+  font-size: 20px;
+  line-height: 2.0rem;
+  text-align: end;
+  padding-right: 10px;
+  width: 100%;
+}
+.calculadoraMark table tr td button{
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.calculadoraMark table tr td #pVenda{
+  background-color: green;
+  color: white;
+  font-weight: 700;
+  margin: 10px 0;
+  padding: 5px 10px;
+}
+.calculadoraMark table tr td #resMarkup{
+  background-color: rgb(0, 36, 128);
+  color: white;
+  font-weight: 700;
+  margin: 10px 0;
+  padding: 5px 10px;
+}
+.btnP {
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.atendimentoOn {
+  text-align: center;
+}
+.atendimentoOn button{
+  padding: 15px;
+  border: 1px rgb(255, 132, 0) solid;
+  background-color: rgba(255, 0, 0, 0);
+  margin: 10px;
+  border-radius: 15px;
+  color: rgb(255, 132, 0);
+  font-weight: 700;
+  box-shadow: #4141413c 0px 0px 15px 0px;
+  cursor: pointer;
+}
+.atendimentoOn button:active {
+  background-color: rgb(255, 132, 0);
+  color: white;
+}
+.atendimentoOn button:hover {
+  background-color: rgb(249, 193, 133);
+  color: white;
+}
+.atendimentoOn p{
+  font-size: 20px;
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+.imageTopD{
+  width: 700px;
+  margin: 20px auto;
+  top: 20px;
+  min-height: 250px;
+  background-color: white;
+  padding: 20px;
+}
+.imageTopD img{
+  filter: brightness(90%);
+  width: 100%;
+  margin: 10px auto;
+  box-shadow: black 0px 0px 5px 0px ;
+
+}
+.imageTopD img:hover{
+  cursor: pointer;
+  filter: brightness(100%);
+}
+.imageTopD > i{
+  background-color: black;
+  padding: 5px;
+  font-size: 20px;
+  color: red;
+  border-radius: 8px;
+  
+}
+.imageTopD > i:hover{
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+header {
+  
+  background-color: #7d7f81;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.Quebra{
+  display: flex;
+}
+.logoM {
+  text-decoration: none;
+}
+.logocaracter{
+  background-color: #2D3030;
+  width: 355px;
+  border-radius: 12px 0px 12px 0px;
+  height: 80px;
+  text-align: center;
+  align-content: center;
+}
+.logocaracter > h1 {
+  font-size: 50px;
+
+}
+.logocaracter > h2 {
+  margin-top: -10px;
+  font-size: 15px;
+  
+}
+.colorwhite {
+  color: white;
+}
+.colorOr {
+  color: #e68727;
+}
+.centerImg {
+  background-color: rgba(255, 153, 0, 0.452);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 500ms ease-in
+}
+
+.centerImg div img{
+  cursor: crosshair;
+}
+/* anuncie aqui*/
+.AnuncieAqui{
+  
+  border: solid rgba(129, 129, 129, 0.582) 1px;
+  box-shadow: black 0px 0px 3px 0px;
+  height: 80px;
+  width: 500px;
+  margin-left: 20px;
+  align-items: center;
+}
+.AnuncieAqui > i {
+  color: white;
+  width: 20%;
+  height: 80px;
+  background-color: blue;
+  
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.AnuncieAqui div > h2 {
+  
+  background-color: red;
+  width: 150px;
+  margin: auto;
+  font-size: 15px;
+  border: white solid 2px;
+  color: white;
+}
+.AnuncieAqui div > h3 {
+  font-size: 12px;
+  color: black;
+  width: 100%;
+}
+.AnuncieAqui div > p {
+  color: rgb(255, 255, 255);
+}
+.ApoioAnuncio { 
+  
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  height: 80px;
+  padding-top: 10px;
+  
+}
+.ApoioAnuncio::after{
+  content: "Gleiton Aparecido soares de souza";
+}
+.imganuncioaqui {
+  margin-left: 10px;
+  width: 728px;
+  height: 90px;
+}
+/*---MENU----*/
+#naveMenu #listMenu li{
+  
+  display: inline-flex;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(224, 165, 0),
+    rgb(207, 124, 0)
+  );
+  padding: 10px;
+  border: black solid 1px;
+  border-radius: 8px 0px 8px 0px;
+}
+#naveMenu #listMenu li:hover {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 197, 38),
+    rgb(248, 150, 2)
+  );
+}
+#naveMenu li a {
+  color: black;
+  text-decoration: none;
+}
+#btnmobile {
+  display: none;
+}
+#listMenu {
+  display: block;
+}
+.infoCovidLagoa{
+  background-image: linear-gradient(to bottom, rgb(220, 220, 220), rgb(242, 242, 242));
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.502) 0px 0px 10px 0px ;
+  margin-bottom: 20px;
+}
+.dadosCovid{
+  display: inline-flex;
+  flex-wrap: wrap;
+  
+  width: 1200px;
+  align-content: center;
+  justify-content: center;
+}
+.bb {
+  
+  border: rgb(0, 0, 0) solid 1px;
+}
+.formBorda{
+  width: 100%;
+}
+.formBorda > h2{
+  text-align: center;
+  margin-bottom: -100px;
+}
+.imgSug{
+  width: 50px; 
+  
+}
+.formPadd{
+  background-color: rgb(233, 233, 233);
+  padding: 40px;
+  width: 600px;
+  margin: 10px auto;
+  box-shadow: rgba(0, 0, 0, 0.475) 0px 0px 5px 0px;
+ 
+}
+.formPadd > p {
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.formPadd > input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: black solid 1px;
+  font-size: 20px;
+  width: 300px;
+}
+.formPadd > textarea {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: black solid 1px;
+  font-size: 20px;
+  width: 300px;
+}
+
+.colDadosCovid{
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px;
+  width: 250px;
+  height: 60px;
+  align-items: center;
+  padding-left: 15px;
+  transition: 200ms;
+
+  background-color: rgb(242, 105, 0);
+  
+  
+}
+#imgcovid > img{
+  width: auto;
+  margin: auto;
+  
+}
+.colDadosCovid > h3{
+  width: 50%;
+  color: rgb(196, 196, 196);
+}
+.colDadosCovid > .infoCovid {
+  font-size: 25px;
+  color: aliceblue;
+  width: 40%;
+  text-align: end;
+}
+.colDadosCovid:hover{
+  box-shadow: rgba(44, 44, 44, 0.664) 0px 5px 10px 0px;
+  margin-top: -1px;
+  cursor: pointer;
+}
+
+.colDadosCovid:hover > h1{
+  top:-10px;
+  box-shadow:0 2px 2px rgba(0, 0, 0, 0.509);
+  color: rgb(0, 0, 0);
+}
+.dBlock{
+  display: block;
+}
+
+
+main {
+  background-color: #cacaca;
+}
+.topo-menu {
+  padding: 15px;
+  height: 70px;
+  background-color: #2e2e2e;
+  width: 100%;
+}
+.dnone {
+  display: none;
+}
+.logo {
+  width: 400px;
+}
+.topo-sala {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+ 
+  
+}
+.seli{
+    
+  font-size: 20px;
+  box-shadow: black 0px 0px 5px 0px;
+  border-radius: 4px;
+  margin: 5px;
+}
+.btnColor {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(224, 165, 0),
+    rgb(207, 124, 0)
+  );
+  padding: 10px;
+  border: black solid 1px;
+  border-radius: 8px 0px 8px 0px;
+  cursor: pointer;
+}
+.btnColor:hover {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 197, 38),
+    rgb(248, 150, 2)
+  );
+}
+
+.hero img {
+  overflow: hidden;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+/* .hero::after{
+  content: "LAGOA DOS PATOS - MG";
+  
+  position: absolute;
+  color: #cc6906;
+  font-size: 60px;
+  text-shadow: -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff,
+    1px 0px 0px #fff;
+  width: 100%;
+  text-align: center;
+  margin: -300px auto;
+  
+  
+  font-size: 60px;
+  
+} */
+.adsTopo {
+  
+  max-width: 900px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.adsTopo > img {
+  max-width: 100%;
+  height: 100%;
+}
+.grafiCovid{
+  width: 100%;
+  height: auto;
+}
+.colorRed{
+  background-color: rgb(240, 80, 59);
+}
+.colorBlue{
+  background-color: rgb(0, 0, 180);
+}
+.colorRoxo{
+  background-color: rgb(150, 0, 112);
+}
+.colorGreen{
+  background-color: rgb(33, 165, 0);
+}
+.colorPurple{
+  background-color: rgb(197, 36, 184);
+}
+.colorOrange{
+  background-color: rgb(207, 118, 1);
+}
+.colorYellow{
+  background-color: rgb(97, 104, 0);
+}
+.colorbrow{
+  background-color: rgb(124, 78, 18);
+}
+.brilho{
+  box-shadow: inset 1px 0px 10px 0px;
+  transition: 200ms;
+
+}
+.brilho:hover{
+  filter: brightness(110%);
+  box-shadow: rgba(0, 0, 0, 0.342) 0px 0px 10px 0px;
+  cursor: pointer;
+  
+}
+.modulo-sala >a {
+  text-decoration: none;
+}
+
+
+.blocoServicos {  
+  color: rgb(211, 211, 211);
+  padding-top: 15%;
+  align-items: center;
+  
+}
+.blocoServicos  h2{
+  width: 130px;
+  font-size: 12px;
+  text-decoration: none;
+
+}
+.blocoServicos > i {
+  padding-left: 10px;
+  padding-right: 5px;
+  font-size: 60px;
+}
+.modulo-sala:hover{
+  box-shadow: rgba(44, 44, 44, 0.664) 0px 10px 10px 0px;
+  margin-top: -2px;
+  
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.infoCentralizada {
+  padding-top: 10px;
+  padding-bottom: 17px;
+  margin: 0 auto;
+  text-align: center;
+  width: 612px;
+}
+.infoCentralizada h1 {
+  color: #e68727;
+  font-size: 23px;
+}
+.salaGeral {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.salaGeral h3 > span {
+  color: red;
+  font-size: 20px;
+}
+
+.modulo-sala {
+  overflow: hidden;
+  width: 250px;
+  height: 120px;
+  border-radius: 12px;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  background-size: 100%;
+  transition: 200ms;
+}
+.modulo-sala img {
+  width: 100%;
+  height: 100%;
+  transition: 200ms;
+}
+.DFlex {
+  display: flex;
+}
+.modulo-sala img:hover {
+  width: 110%;
+  height: 110%;
+  margin-left: -4%;
+}
+.padd {
+  margin-bottom: 20px;
+  
+}
+.info {
+  width: 1200px;
+  margin: 0 auto;
+}
+.dNoticias {
+  display: flex;
+}
+.noticiasRed {
+  background-color: white;
+  padding: 0px;
+}
+.noticiasRed > h2 {
+  text-align: center;
+}
+.artigo {
+  background-color: white;
+  width: 260px;
+  padding-bottom: 10px;
+  border: rgb(214, 214, 214) solid 1px;
+  border-radius: 8px;
+  margin: 7px;
+  align-items: center;
+  transition: 200ms;
+}
+
+.boshadow:hover {
+  
+  box-shadow: rgba(97, 97, 97, 0.637) 0px 0px 10px 0px;
+}
+.artigo > img {
+  
+  box-shadow: rgba(0, 0, 0, 0.534) 0px 0px 5px 0px;  
+  display: block;
+  margin: 10px auto;
+  background-size: cover;
+  width: 230px;
+  border-radius: 8px;
+  height: 130px;
+  overflow: hidden;
+  image-rendering: optimizeSpeed;
+}
+.infoMateria {
+  margin-left: 10px;
+}
+.infoMateria > h2 {
+  color: #242424;
+  height: 60px;
+  
+  font-size: 15px;
+  margin-top: 5px;
+}
+.infoMateria > h3 {
+  display: none;
+  color: #633100;
+  margin-top: 5px;
+  font-size: 13px;
+}
+.infoMateria p {
+  display: none;
+  margin-top: 8px;
+  overflow: hidden;
+  height: 80px;
+  width: 230px;
+  font-size: 13px;
+  max-width: 150ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+  
+  
+}
+.divulgueSeunegocio > h2, h3, p {
+  color: black;
+}
+
+.artiComplete {
+  display: inline-flex;
+}
+
+
+.saibamais {
+  margin-top: 15px;
+}
+.ultimos-artigos {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ultimos-artigos > a {
+  text-decoration: none;
+}
+.propaganda {
+  width: 30%;
+}
+.propaganda img {
+  width: 100%;
+  height: auto;
+  image-rendering: optimizeSpeed;
+}
+.servicosAlinhar {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.colorServicos {
+  background-color: #333333;
+  padding: 20px;
+}
+.iconeInfo {
+  color: #e68727;
+  font-size: 150px;
+  width: 50%;
+  text-align: center;
+}
+.borderIcon {
+  border: #e68727 solid 2px;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  align-content: center;
+  border-radius: 0px 12px 0px 12px;
+}
+.vejaM {
+  cursor: pointer;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+  transition: 200ms;
+ 
+}
+.vejaM >a {
+  text-decoration: none;
+  color: black;
+}
+.vejaM::before{
+  content: "";
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  width: 40px;
+  height: 5px;
+  background-color: chocolate;
+}
+.vejaM:hover{
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  
+}
+.infoFuncionamento {
+  text-align: center;
+}
+.descServicos {
+  line-height: 1.5rem;
+  width: 50%;
+  color: white;
+}
+.descServicos > h3 {
+  color: white;
+}
+.divulgueServicos {
+  padding: 30px;
+  background-color: #cdcfd0;
+}
+footer {
+  
+  background-color: #7a7a7a;
+  padding: 20px;
+}
+.infoFuncionamento > h1 {
+  color: #b8b8b8;
+}
+.blocoinfoFooter {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+}
+.menuFoot {
+  margin: 20px;
+  list-style: none;
+}
+.menuFoot li a {
+  color: white;
+  text-decoration: none;
+}
+.leiaMais {
+  line-height: 1.7em;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: RGB(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 0 auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100vh; /* Could be more or less, depending on screen size */
+}
+.modal-content > a img {
+  width: 100%;
+  height: 90vh;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} 
+
+/*--------RESPONSIVO 1-------*/
+
+@media (max-width: 1024px) {  
+  body{
+    width: 1024px;
+  }
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  .modulo-sala {
+    
+    width: 200px;
+    height: 120px;
+    
+  }
+  .blocoServicos {  
+    color: rgb(211, 211, 211);
+    padding-top: 11%;
+    align-items: center;
+    
+  }
+  .blocoServicos  h2{
+    width: 130px;
+    font-size: 10px;
+    text-decoration: none;
+  
+  }
+  .blocoServicos > i {
+    padding-left: 10px;
+    
+    font-size: 50px;
+  }
+  .hero::after{
+    margin: -211px auto;
+    font-size: 36px;
+    width: 1024px;
+    
+  }
+  .info {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  .artigo {
+    background-color: white;
+    width: 200px;
+    padding-bottom: 10px;
+    border: rgb(214, 214, 214) solid 1px;
+    border-radius: 8px;
+    margin: 7px;
+    align-items: center;
+    transition: 200ms;
+  }
+  .artigo > img {
+    width: 180px;   
+    
+  }
+  .infoMateria {
+    margin-left: 10px;
+  }
+  .ultimos-artigos {
+    width: 660px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .propaganda {
+    width: 300px;
+  }
+  .descServicos {
+    line-height: 1.5rem;
+    width: 400px;
+    color: white;
+  }
+  .borderIcon {
+    border: #e68727 solid 2px;
+    width: 186px;
+    margin: 0 81px;
+    margin-bottom: 10px;
+    align-content: center;
+    border-radius: 0px 12px 0px 12px;
+  }
+  .iconeInfo {
+    
+    width: 350px;
+    
+  }
+  .blocofooter{
+    width: 206px;
+  }
+  .servicosAlinhar {
+    width: 1024px;
+    
+  }
+  .blocoinfoFooter {
+    margin: 0;
+    width: 1024px;
+  }
+  
+  
+  .dNoticias {
+    display: flex;
+  }
+}
+
+/*----responsivo II---*/
+
+@media (max-width: 960px) {  
+  body{
+    width: 960px;
+  }
+  .container {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .modulo-sala {
+    
+    width: 200px;
+    height: 120px;
+    
+  }
+  .blocoServicos {  
+    color: rgb(211, 211, 211);
+    padding-top: 11%;
+    align-items: center;
+    
+  }
+  .blocoServicos  h2{
+    width: 130px;
+    font-size: 10px;
+    text-decoration: none;
+  
+  }
+  .blocoServicos > i {
+    padding-left: 10px;
+    
+    font-size: 50px;
+  }
+  .hero::after{
+    margin: -211px auto;
+    font-size: 36px;
+    width: 960px;
+    
+  }
+  .info {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .artigo {
+    background-color: white;
+    width: 200px;
+    padding-bottom: 10px;
+    border: rgb(214, 214, 214) solid 1px;
+    border-radius: 8px;
+    margin: 7px;
+    align-items: center;
+    transition: 200ms;
+  }
+  .artigo > img {
+    width: 180px;   
+    
+  }
+  .infoMateria {
+    margin-left: 10px;
+  }
+  .ultimos-artigos {
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .propaganda {
+    width: 250px;
+  }
+  .descServicos {
+    line-height: 1.5rem;
+    width: 400px;
+    color: white;
+  }
+  .borderIcon {
+    border: #e68727 solid 2px;
+    width: 186px;
+    margin: 0 81px;
+    margin-bottom: 10px;
+    align-content: center;
+    border-radius: 0px 12px 0px 12px;
+  }
+  .iconeInfo {
+    
+    width: 350px;
+    
+  }
+  .blocofooter{
+    width: 206px;
+  }
+  .servicosAlinhar {
+    width: 960px;
+    
+  }
+  .blocoinfoFooter {
+    margin: 0;
+    width: 960px;
+  }
+  
+  
+  .dNoticias {
+    display: flex;
+  }
+}
+/*----responsivo III---*/
+
+
+
+
+
+@media (max-width: 768px) {  
+  #btnmobile {
+    display: block;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #e68727;
+    border: none;
+  }
+  #naveMenu #listMenu li{
+    
+    display: none;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(224, 165, 0),
+      rgb(207, 124, 0)
+    );
+    margin: 10px;
+    font-size: 60px;
+    padding: 10px;
+    border: black solid 1px;
+    border-radius: 8px 0px 8px 0px;
+  }
+  
+  #naveMenu.active #listMenu li {
+    display: block;
+  }
+  body{
+    width: 768px;
+  }
+  .container {
+    width: 768px;
+    margin: 0 auto;
+  }
+  .modulo-sala {
+    
+    width: 200px;
+    height: 120px;
+    
+  }
+  .blocoServicos {  
+    color: rgb(211, 211, 211);
+    padding-top: 11%;
+    align-items: center;
+    
+  }
+  .blocoServicos  h2{
+    width: 130px;
+    font-size: 10px;
+    text-decoration: none;
+  
+  }
+  .blocoServicos > i {
+    padding-left: 10px;
+    
+    font-size: 50px;
+  }
+  .hero::after{
+    margin: -211px auto;
+    font-size: 36px;
+    width: 768px;
+    
+  }
+  .info {
+    width: 768px;
+    margin: 0 auto;
+  }
+  .artigo {
+    background-color: white;
+    width: 720px;
+    padding-bottom: 10px;
+    border: rgb(214, 214, 214) solid 1px;
+    border-radius: 8px;
+    margin: 7px;
+    align-items: center;
+    transition: 200ms;
+  }
+  .artigo > img {
+    width: 160px;   
+    
+  }
+  .infoMateria {
+    margin-left: 5px;
+  }
+  .ultimos-artigos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .propaganda {
+    width: 100%;
+  }
+  .descServicos {
+    line-height: 1.5rem;
+    width: 400px;
+    color: white;
+  }
+  .borderIcon {
+    border: #e68727 solid 2px;
+    width: 186px;
+    margin: 0 81px;
+    margin-bottom: 10px;
+    align-content: center;
+    border-radius: 0px 12px 0px 12px;
+  }
+  .iconeInfo {
+    
+    width: 350px;
+    
+  }
+  .blocofooter{
+    width: 206px;
+  }
+  .servicosAlinhar {
+    width: 768px;
+    
+  }
+  .blocoinfoFooter {
+    margin: 0;
+    width: 768px;
+  }
+  .Quebra{
+    flex-wrap: wrap;
+  }
+  .logocaracter{
+    background-color: #2D3030;
+    width: 760px;
+    border-radius: 12px 0px 12px 0px;
+    height: 160px;
+    text-align: center;
+    align-content: center;
+  }
+
+  .logocaracter > h1 {
+    font-size: 100px;
+  
+  }
+  .logocaracter > h2 {
+    
+    font-size: 20px;
+    
+  }
+  .AnuncieAqui{
+  
+    border: solid rgba(129, 129, 129, 0.582) 1px;
+    box-shadow: black 0px 0px 3px 0px;
+    height: 150px;
+    width: 760px;
+    margin-top: 20px;
+    margin-left: 0px;
+    align-items: center;
+  }
+  .AnuncieAqui > i {
+    
+    
+    height: 150px;
+    
+    
+    font-size: 80px;
+    
+  }
+  
+  .AnuncieAqui div > h2 {
+    
+    
+    width: 300px;
+    margin: auto;
+    font-size: 40px;
+    
+  }
+  .AnuncieAqui div > h3 {
+    font-size: 30px;
+    color: black;
+    width: 100%;
+  }
+  .AnuncieAqui div > p {
+    color: rgb(255, 255, 255);
+  }
+  
+  .dNoticias {
+    display: block;
+  }
+}
+
+/*----responsivo IV---*/
+
+@media (max-width: 360px) {  
+  #btnmobile {
+    border-radius: 8px;
+    display: block;
+    font-size: 30px;
+    padding: 5px;
+    background-color: #e68727;
+    border: none;
+    
+    
+  }
+  .atendimentoWhats {  
+    position: fixed;
+    bottom: 50px;
+    right: 17%;
+    z-index: 1;
+  }
+  .atendimentoWhats div img{
+    width: 100px;
+    transition: 300ms;
+  }
+  .atendimentoWhats div img:hover{
+    width: 110px;  
+  }
+
+
+
+  .imageTopD{
+    width: 100%;
+    margin: 20px auto;
+    top: 20px;
+    min-height: 250px;
+    background-color: white;
+    padding: 5px;
+  }
+  .imageTopD img{
+    filter: brightness(100%);
+    width: 100%;
+    margin: 2px auto;
+  }
+  .imageTopD img:hover{
+    cursor: pointer;
+    filter: brightness(100%);
+  }
+  .imageTopD > i{
+    background-color: black;
+    padding: 5px;
+    font-size: 20px;
+    color: red;
+    border-radius: 8px;
+    
+  }
+  .imageTopD > i:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
+  .topo-menu {
+    padding: 15px;
+    height: auto;
+    background-color: #2e2e2e;
+    width: 100%;
+    z-index: 999;
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: 0 ; /* 15% from the top and centered */
+    padding: 20px;
+
+    border: 1px solid #888;
+    width: 360px; /* Could be more or less, depending on screen size */
+  }
+  .modal-content > a img {
+    width: 100%;
+    height: 90vh;
+  }
+  #naveMenu #listMenu li{
+    
+    display: none;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(224, 165, 0),
+      rgb(207, 124, 0)
+    );
+    margin: 10px;
+    font-size: 60px;
+    padding: 10px;
+    border: black solid 1px;
+    border-radius: 8px 0px 8px 0px;
+    z-index: 999;
+   
+  }
+
+  
+  #naveMenu.active #listMenu li {
+    display: block;
+    
+  }
+  .dadosCovid{
+    
+    width: 360px;
+    
+  }
+  #imgcovid > img{
+    width: 330px;
+    margin: auto;
+    
+  }
+  .grafiCovid{
+    width: 600px;
+    transform: rotate(90deg);
+    margin: 230px -160px;
+  }
+
+  .seli{
+    
+    font-size: 20px;
+    box-shadow: black 0px 0px 5px 0px;
+    border-radius: 8px;
+}
+
+  
+  body{
+    width: 360px;
+  }
+  .container {
+    width: 360px;
+    margin: 0 auto;
+  }
+  .blocoServicos.DFlex{
+    display: block;
+  }
+  .modulo-sala {
+    margin: 20px auto;
+    width: 100%;
+    display: block;
+    height: 230px;
+    
+  }
+  .padd{
+    text-align: center;
+    margin: 10px;
+  }
+  .padd.DFlex{
+    display: block;
+  }
+  .blocoServicos {  
+    
+    color: rgb(211, 211, 211);
+    padding-top: 11%;
+    align-items: center;
+    
+    
+  }
+  .blocoServicos  h2{
+    width: 350px;
+    font-size: 28px;
+    text-decoration: none;
+    text-align: center;
+  
+  }
+  .blocoServicos > i {
+    padding-left: 10px;
+    
+    font-size: 50px;
+  }
+  .hero::after{
+    margin: -211px auto;
+    font-size: 36px;
+    width: 360px;
+    
+  }
+  .infoCentralizada {
+    
+    width: 360px;
+  }
+  
+  .info {
+    
+    width: 360px;
+    margin: 0 auto;
+  }
+  .artigo {
+    background-color: rgb(255, 240, 217);
+    width: 340px;
+    padding-bottom: 10px;
+    border: rgb(214, 214, 214) solid 1px;
+    border-radius: 8px;
+    
+    align-items: center;
+    transition: 100ms;
+  }
+  .artigo > img {
+    width: 320px; 
+    height: 150px;  
+    
+  }
+  .infoMateria {
+    margin-left: 5px;
+  }
+  .ultimos-artigos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .propaganda {
+    width: 100%;
+    padding: 20px;
+  }
+  .descServicos {
+    
+    width: 280px;
+    
+  }
+  .descServicos > h3 {
+    color: white;
+  }
+  .borderIcon {
+    
+    width: 186px;
+    margin: 10px 10px;
+    
+    
+  }
+  .iconeInfo {
+    
+    width: 200px;
+    
+  }
+  .blocofooter{
+    width: 206px;
+  }
+  .servicosAlinhar {
+    width: 320px;
+    
+  }
+  .servicosAlinhar.DFlex{
+    display: block;
+  }
+  .blocoinfoFooter {
+    display: block;
+    margin: 0;
+    width: 320px;
+  }
+  .Quebra{
+    flex-wrap: wrap;
+  }
+  .logocaracter{
+    background-color: #2D3030;
+    width: 320px;
+    border-radius: 0px 0px 0px 0px;
+    height: 90px;
+    text-align: center;
+    align-content: center;
+  }
+
+  .logocaracter > h1 {
+    font-size:45px;
+    padding-top: 10px;
+  
+  }
+  .logocaracter > h2 {
+    
+    font-size: 15px;
+    
+  }
+  .carrocel{
+    display: none;
+  }
+ 
+
+
+
+  .AnuncieAqui{
+  
+    border: solid rgba(129, 129, 129, 0.582) 1px;
+    box-shadow: black 0px 0px 3px 0px;
+    height: 100px;
+    width: 320px;
+    margin-top: 20px;
+    margin-left: 0px;
+    align-items: center;
+  }
+  .AnuncieAqui > i {
+    
+    padding-top: 20px;
+    height: 100px;
+    
+    
+    font-size: 50px;
+    
+  }
+  
+  .AnuncieAqui div > h2 {
+    
+    
+    width: 100px;
+    margin: auto;
+    font-size: 15px;
+    
+  }
+  .ultimos-artigos > a {
+    margin-left: 30px;
+  }
+
+  .AnuncieAqui div > h3 {
+    font-size: 10px;
+    color: black;
+    width: 150px;
+  }
+  .AnuncieAqui div > p {
+    color: rgb(255, 255, 255);
+    
+  }
+  .menuFoot{
+    font-size: 25px;
+    width: 300px;
+    line-height: 3rem;
+  }
+  .dNoticias {
+    margin-left: -30px;
+    display: block;
+  }
+  .calculadoraMark {
+    width: 350px;
+    margin-left: -10px;
+    border-radius: 12px;
+    padding: 2px;
+    box-shadow: rgba(0, 0, 0, 0.276) 0px 0px 10px 0px;
+    margin-bottom: 50px;
+  }
+}

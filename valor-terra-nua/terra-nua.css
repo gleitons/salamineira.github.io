@@ -1,0 +1,24 @@
+body{
+    margin: auto;
+    width: 800px;
+}
+
+.lateral {
+    margin: auto;
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: black solid 1px;
+}
+.preco {
+    margin-left: 20px;
+    
+}
+.tipo {
+    width: 500px;
+    
+}
+.tabelaTerra {
+    border: black solid 1px ;
+    
+}

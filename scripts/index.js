@@ -1,0 +1,361 @@
+function bannerPrincipal() {
+
+    return `<div class="hero">
+    <img src="/imagens-sala/lagoa-dos-patos-mg-hero.jpg" />
+    <h1 class="btn-saiba-mais"></h1>           
+    </div>`;
+    
+
+    
+}
+
+function toggleMenu() {
+    const nav = document.getElementById('naveMenu');
+    nav.classList.toggle('active');
+}
+function menuMob() {
+    const btnMobile = document.getElementById('btnmobile');
+    btnMobile.addEventListener('click', toggleMenu);
+
+}
+function promocaoIndex() {
+
+    
+    decMEI2022()
+
+    const menu = MenuPrincipal();
+
+    
+    //compressThumb();
+    
+    
+    const ads = `<aside>
+    <p>
+    A Sala Mineira do Empreendedor é o resultado da parceria entre o SEBRAE MINAS e a JUCEMG – Junta Comercial do Estado de Minas Gerais. Ela foi desenvolvida para melhorar e simplificar o ambiente de negócios em todo Estado, atuando lado a lado com as administrações municipais, oferecendo apoio para empreendimentos de todos os portes.
+    Aqui, você irá encontrar um espaço único para formalizar o seu empreendimento, obter orientações, informações e todo o conhecimento necessário para o seu desenvolvimento profissional.Tudo o que você precisa para fazer o seu negócio seguir em frente, de um jeito simples e prático.        
+    </p>
+    
+    
+</aside>`
+    
+    covidRecente()
+    menuPrincipal.innerHTML = `${MenuPrincipal()}`
+    ADSTopo.innerHTML = ``
+    banneranuncie.innerHTML = `${bannerAnuncieAqui()}`
+    promocoesIndex.innerHTML = `${ads}  ${maisArtigos()} `
+    footerM.innerHTML = footerMenu();
+    //headMenu.innerHTML = `${menuTop()}`    
+    
+}
+
+function carregarImage() {
+    bannerF.innerHTML = `${bannerPrincipal()}`;
+    
+}
+
+function MenuPrincipal() {
+    const menu = `<button id="btnmobile" onclick="menuMob()"><i class="bi bi-list"></i></button>
+                    <nav id="naveMenu">
+                        <ul id="listMenu">                        
+                        <li><a href="/">Inicio</a></li>
+                        <li><a href="/nota-fiscal">nf-e</a></li>
+                        <li><a href="/noticias/index.html">notícias</a></li>
+                        <li><a href="/servicos-prefeitura-lagoa-dos-patos-mg/">Serviços</a></li>
+                        <li><a href="/cursos">Cursos</a></li>
+                        <li><a href="/gleiton-aparecido-soares-de-souza/">Sobre</a></li>
+                        <li><a href="/contato">Contato</a></li>
+                        <li><a href="/pesquisar/">Pesquisar</a></li>
+                        </ul>
+                    </nav>
+                    <div class="atendimentoWhats">
+            <div>
+                <a href="/atendimento.html" target="_blank"><img src="/imagens-sala/whatsapp-icon-atendimento-sala-mineira-lagoa-dos-patos-min.png" alt=""></a>
+            </div>
+        </div>`
+    return menu;
+}
+
+
+
+
+function fixaNoTopoM()  {
+    const navv = document.getElementById('sol');
+    const topNavi = navv.offsetTop;
+
+   if (window.pageYOffset >= topNavi) {
+        topNavi.classList.add("fixaTop");
+    } else {
+        topNavi.classList.remove("fixaTop");
+    }
+    
+}
+function menuTop(){
+    return `<div class="topo-sala Quebra">
+    <div>
+        <a class="logoM" href="/">
+            <div class="logocaracter">
+        
+                <h1><span class="colorwhite">SALA</span> <span class="colorOr">MINEIRA</span></h1>
+        
+                <h2><span class="colorwhite">do Empreendedor de</span> <span class="colorOr">Lagoa dos Patos-MG</span></h2>
+        
+        
+            </div>
+        </a>
+    </div>
+    <div id="banneranuncie">
+        <a  class="logoM" href="/divulgue-aqui.html">
+            <div>
+                <div class="AnuncieAqui DFlex">
+                    <i class="bi bi-megaphone-fill"></i>
+                    <!--<i class="bi bi-phone-vibrate"></i>-->
+                    <div>
+                        <h2>ATENÇÃO</h2>
+                        <h3>QUER ANUNCIAR GRÁTIS O SEU NEGÓCIO?</h3>
+                        <P>CLIQUE AQUI E ANUNCIE</P>
+                    </div>
+                    <div class="ApoioAnuncio">
+                        <p>Apoio</p>
+                        <p>Prefeitura Municipal de Lagoa dos Patos MG</p>
+                    </div>
+                </div>
+        
+            </div>
+        </a>
+    </div>
+</div>
+<div class="topo-menu" id="menuPrincipal" onload="MenuPrincipal()">
+   
+</div>`
+}
+function selecioneTipoForm() {
+    const selecTipo = document.getElementById('selectTipo').value;
+    const setaD = document.getElementById('setaD');
+    const classdoForm = document.getElementById('classDoForm')
+    const avcpfcnpj = document.getElementById('avcpfcnpj')
+    console.log(selecTipo);
+    if (selecTipo == "CNPJ") {
+        avcpfcnpj.setAttribute('style', 'display: none')
+        classdoForm.classList.remove('DFlex');
+        setaD.setAttribute('style', 'display: none')
+        paraCPF.classList.add("cnPJ");
+        paraCNPJ.classList.remove("cnPJ");
+
+    } else if (selecTipo =="CPF") {
+        avcpfcnpj.setAttribute('style', 'display: none')
+        classdoForm.classList.remove('DFlex');
+        setaD.setAttribute('style', 'display: none')
+        paraCPF.classList.remove("cnPJ");
+        paraCNPJ.classList.add("cnPJ");
+    } else {
+        paraCPF.classList.add('cnPJ')
+        paraCNPJ.classList.add("cnPJ");
+        classdoForm.classList.add('DFlex');
+        setaD.setAttribute('style', 'display: block')
+        avcpfcnpj.setAttribute('style', 'display: block')
+    }
+
+    
+        
+     
+    
+}
+
+
+function adsNoArtigo() {
+    
+    
+
+    
+
+    const menu = MenuPrincipal();
+    const adsense = Math.floor(Math.random() * 6) + 1;
+    
+
+    
+    menuPrincipal.innerHTML = menu;
+    const adsGoogle = `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8921692840146247"
+    crossorigin="anonymous"></script>
+    <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-format="fluid"
+    data-ad-layout-key="-6x+dw+1m-1u+3o"
+    data-ad-client="ca-pub-8921692840146247"
+    data-ad-slot="4354203081"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>`
+    if (adsense == 1) {
+        adsScreen = `<aside>
+        <p>
+        A Sala Mineira do Empreendedor é o resultado da parceria entre o SEBRAE MINAS e a JUCEMG – Junta Comercial do Estado de Minas Gerais. Ela foi desenvolvida para melhorar e simplificar o ambiente de negócios em todo Estado, atuando lado a lado com as administrações municipais, oferecendo apoio para empreendimentos de todos os portes.
+        Aqui, você irá encontrar um espaço único para formalizar o seu empreendimento, obter orientações, informações e todo o conhecimento necessário para o seu desenvolvimento profissional.Tudo o que você precisa para fazer o seu negócio seguir em frente, de um jeito simples e prático.        
+        </p>
+        <p>Visite Nosso Blog</p></br><a href="/blog/"><img class="brilho" src="/imagens-sala/visite-nosso-blog.jpg" /></a></br></br>${artigosLagoadosPatos()}
+        
+    </aside>`
+    } else if(adsense == 2) {
+        adsScreen = `${maisArtigos()}`   
+    } else if(adsense == 3) {
+        adsScreen = `<a href="/divulgue-aqui.html"><img class="brilho" src="/imagens-sala/anuncie-gratis-aqui-salamineira.jpg" /></a></br>
+        ${artigosSalaMineira()}`   
+    }
+    else if(adsense == 4) {
+        adsScreen = `<p>Visite Nosso Blog</p></br><a href="/blog/"><img class="brilho" src="/imagens-sala/visite-nosso-blog.jpg" /></a></br></br>${artigosLagoadosPatos()}`   
+    }
+    else if(adsense == 5) {
+        adsScreen = `${artigosSalaMineira()}`   
+    }
+    else if(adsense == 6) {
+        adsScreen = `${artigosLagoadosPatos()}`   
+    } else {
+        adsScreen = `<p>Visite Nosso Blog</p></br><a href="/blog/"><img class="brilho" src="/imagens-sala/visite-nosso-blog.jpg" /></a></br>
+        ${artigosSalaMineira()}`
+    }
+
+    adsArtigo.innerHTML = `${adsScreen}`
+    propArtifo.innerHTML = `${adsGoogle}`
+
+    footerM.innerHTML = footerMenu();
+
+    
+
+}
+
+function maisArtigos() {
+    return `<ul class="leiaMais">
+    <h3>Leia Mais</h3>
+    <li><a href="/fiv-sebrae-lagoa-dos-patos-mg/">Fiv em Lagoa dos Patos MG</a></li>
+    <li><a href="/cursos-gratuitos-senac-em-montes-claros-mg">Cursos gratuitos com 196 vagas no Senac Montes Claros MG</a></li>
+    <li><a href="/acao-social-emissao-de-carteira-de-identidade-lagoa-dos-patos-mg/">Secretaria de Assistência Social, CRAS e prefeitura municipal realiza ação social em Lagoa dos Patos MG</a></li>
+    <li><a href="/campanha-de-vacinacao-antirrabica-em-lagoa-dos-patos-mg/">Campanha de vacinação antirrábica em Lagoa dos Patos MG</a></li>
+</ul>
+<p style="text-align: center;">.... Anuncio ....</p>
+<img class="brilho" src="/imagens-sala/2022/03/as-construtora-lagoa.jpeg" alt="AS Construtora Andeilton soares de souza AS construtora Lagoa dos Patos MG">
+`
+}
+function artigosSalaMineira() {
+    return `<ul class="leiaMais">
+    <h3>Leia Mais</h3>
+    <li><a href="/fiv-sebrae-lagoa-dos-patos-mg/">Fiv em Lagoa dos Patos MG</a></li>
+    <li><a href="/cursos-gratuitos-senac-em-montes-claros-mg">Cursos gratuitos com 196 vagas no Senac Montes Claros MG</a></li>
+    <li><a href="/acao-social-emissao-de-carteira-de-identidade-lagoa-dos-patos-mg/">Secretaria de Assistência Social, CRAS e prefeitura municipal realiza ação social em Lagoa dos Patos MG</a></li>
+    <li><a href="/campanha-de-vacinacao-antirrabica-em-lagoa-dos-patos-mg/">Campanha de vacinação antirrábica em Lagoa dos Patos MG</a></li>
+</ul>
+<p style="text-align: center;">.... Anuncio ....</p>
+        <img class="brilho"  src="/imagens-sala/2022/03/as-construtora-lagoa-dos-patos.jpeg" alt="AS Construtora Andeilton soares de souza AS construtora Lagoa dos Patos MG">`
+}
+function artigosLagoadosPatos() {
+    return `<ul class="leiaMais">
+    <h3>Leia Mais</h3>
+    <li><a href="/fiv-sebrae-lagoa-dos-patos-mg/">Fiv em Lagoa dos Patos MG</a></li>
+    <li><a href="/cursos-gratuitos-senac-em-montes-claros-mg">Cursos gratuitos com 196 vagas no Senac Montes Claros MG</a></li>
+    <li><a href="/acao-social-emissao-de-carteira-de-identidade-lagoa-dos-patos-mg/">Secretaria de Assistência Social, CRAS e prefeitura municipal realiza ação social em Lagoa dos Patos MG</a></li>
+    <li><a href="/campanha-de-vacinacao-antirrabica-em-lagoa-dos-patos-mg/">Campanha de vacinação antirrábica em Lagoa dos Patos MG</a></li>
+</ul>
+<p style="text-align: center;">.... Anuncio ....</p>
+        <img class="brilho"  src="/imagens-sala/2022/03/as-construtora-lagoa-dos-patos-mg.jpeg" alt="AS Construtora Andeilton soares de souza AS construtora Lagoa dos Patos MG">`
+}
+function bannerAnuncieAqui() {
+    return `<img class="imganuncioaqui dnone" src="/img/anuncie-gratis-lagoa-dos-patos-mg.jpeg" alt="">
+    <a  class="logoM" href="/divulgue-aqui.html">
+        <div>
+            <div class="AnuncieAqui DFlex">
+                <i class="bi bi-megaphone-fill"></i>
+                <!--<i class="bi bi-phone-vibrate"></i>-->
+               
+                <div>
+                    <h2>ATENÇÃO</h2>
+                    <h3>QUER ANUNCIAR GRÁTIS O SEU NEGÓCIO?</h3>
+                    <P>CLIQUE AQUI E ANUNCIE</P>
+                </div>
+                <div class="ApoioAnuncio">
+                    <p>Apoio</p>
+                    <p>Prefeitura Municipal de Lagoa dos Patos MG</p>
+                </div>
+            </div>
+    
+        </div>
+    </a>`
+}
+function footerMenu() {
+    return `<div class="infoFuncionamento"> 
+    <h1>Sala Mineira do Empreendedor de Lagoa dos Patos MG</h1>
+    <h2>De Segunda a Sexta-feira</h2>
+    <p>08:00hs às 11:00hs e 13:00hs às 16:00hs</p>
+</div>
+<div class="blocoinfoFooter">
+    <div class="blocofooter">
+        <h2>Sobre</h2>
+        <nav class="menuFoot">
+            <li><a href="/gleiton-aparecido-soares-de-souza/">Sala Mineira</a></li>
+            <li><a href="/gleiton-aparecido-soares-de-souza/">Agente de desenvolvimento</a></li>
+            <li><a href="/contato">Entre em contato</a></li>
+        </nav>
+    </div>
+    <div class="blocofooter">
+        <h2>Acesso oficial</h2>
+        <nav class="menuFoot">
+            
+            <li><a href="https://lagoadospatos.mg.gov.br">Prefeitura Lagoa Dos Patos</a></li>
+            <li><a href="https://salamineira.com">Sala Mineira Do Empreendedor</a></li>
+            <li><a href="http://177.152.105.125:8070/e-cidade/login.php" target="_blank">IP De Acesso E-Cidade</a></li>
+            <li><a href="/sugestoes.html">Sugestões</a></li>
+        </nav>
+    </div>
+    
+    <div class="blocofooter">
+        <h2>Nossas redes</h2>
+        <nav class="menuFoot">
+            <li><a href="/hotel-lagoa-dos-patos-mg.html">Onde Ficar? Onde Almoçar?</a></li>
+            <li><a href="/local/">Comerciantes E Prestadores De Serviços Em Lagoa Dos Patos</a></li>
+            
+        </nav>
+    </div>
+    <div class="blocofooter">
+        <h2>Fique conectado</h2>
+        
+        <nav class="menuFoot">
+            <li><a href="/use-mascara-lagoa-dos-patos/">Use Máscaras Em Lagoa Dos Patos</a></li>            
+            <li><a href="/fotos-lagoa-dos-patos-mg/">Fotos Lagoa Dos Patos-MG</a></li>
+            <li><a href="/blog">Veja Mais...</a></li>
+        </nav>
+    </div>
+</div>`
+}
+
+function fecharBD(){
+    document.getElementById('decMei').style.display = "none"
+}
+function decMEI2022() {
+
+    
+    const n = rdo();
+    const imagen = `https://salamineira.com/declaracao-mei-2022/declaracao-mei-2022-lagoa-dos-patos-mg-${n}.jpeg`
+
+
+    document.getElementById('MEI2022').innerHTML = `<div id="decMei" class="imageTopD">
+    <i onclick="fecharBD()" class="bi bi-x-square-fill"> Fechar</i>
+    <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/Identificacao" target="_blank" rel="follow"><img src="${imagen}" alt=""></a>
+    <p>Clique na imagem para acessar</p>
+</div>`
+}
+function rdo(){
+    return Math.floor(Math.random() *6);
+}
+document.getElementById('modalIndex').innerHTML = `
+<div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <!--nesse evento "onclick" é onde fecho a model, deve ser colocado no X-->
+                <span class="close" onclick="fecharModel()">&times;</span>
+
+                <!-- <p>Você precisa personalizar sua model</p> -->
+                <p style="text-align: center;">.... Anúncio ....</p>
+                <a href="/as-construtora/">
+                    <img src="/imagens-sala/2022/03/as-construtora-lagoa-dos-patos-mg.jpeg"
+                        alt="AS Construtora Andeilton soares de souza AS construtora Lagoa dos Patos MG">
+                </a>
+            </div>
+
+        </div>`

@@ -1,0 +1,49 @@
+.formAS{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background-color: antiquewhite;
+    padding: 5px;
+}
+.formAS  div > p {
+    width: 250px;
+    margin: 10px;
+    font-size: 18px;
+}
+.formAS  div > select {
+    width: 250px;
+    margin: 10px;
+    font-size: 18px;
+}
+.formAS  div > input {
+    width: 250px;
+    margin: 10px;
+    font-size: 18px;
+}
+.btnGerarRecibo{
+    
+    padding: 10px;
+    margin: 10px;
+}
+.ForF{
+    display: flex;
+}
+#Suc{
+    text-align: center;
+    color: rgba(6, 123, 0, 0.632);
+    margin-top: 10px;
+}
+
+@media (max-width: 360px) {
+    .formAS{
+        width: 360px;
+        margin: auto;
+        height: auto;
+        background-color: antiquewhite;
+        padding: 0px;
+        margin-left: -5px;
+    }
+    .ForF {
+        display: block;
+    }
+}
