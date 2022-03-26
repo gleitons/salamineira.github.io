@@ -4,6 +4,14 @@
   padding: 10px;
   background-color: white;
 }
+.btnGerarRecibo {
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: rgb(245, 144, 21);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 .clean {
     margin: 0;
     padding: 0;
@@ -219,6 +227,11 @@ figcaption{
     
     border: rgb(255, 149, 49) solid 2px;
 }
+.linhaDiv {
+    height: 5px;
+    border-bottom: rgb(142, 142, 142) solid 1px;
+    margin: 20px 0px;
+}
 .titleSubtitle {
   text-align: center;
 }
@@ -227,7 +240,8 @@ figcaption{
 }
 .propagandaArtigo {
     margin-top: 20px;
-       text-align: center; 
+    text-align: center; 
+    font-size: 12px;
 }
 .passarMouse {
     font-size: 20px;

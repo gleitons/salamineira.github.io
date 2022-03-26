@@ -1,0 +1,1 @@
+document.getElementById('propArtigo').src = "/imagens-sala/2022/03/a-vida-e-maravilhosa-sala-mineira-do-empreendedor-lagoa-dos-patos-mg.jpeg";
