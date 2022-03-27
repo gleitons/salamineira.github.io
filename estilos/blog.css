@@ -4,6 +4,50 @@
   padding: 10px;
   background-color: white;
 }
+.prestadores {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.prestadores a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+.comerciantePrestador {
+    width: 260px;
+    padding: 10px;
+    border: rgb(222, 222, 222) solid 1px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.324) 0px 5px 10px 0px;
+    transition: 200ms;
+    margin-top: 0px;
+   
+}
+
+.comerciantePrestador:hover {
+    margin-top: -10px;
+    box-shadow: rgba(0, 0, 0, 0.324) 0px 10px 10px 0px;
+   
+}
+.comerciantePrestador > img {
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.365) 0px 0px 10px 0px;
+    
+}
+.comerciantePrestador h2 {
+    font-size: 20px;
+    margin: 10px auto;
+    height: 80px;
+    
+}
+.comerciantePrestador p {
+    font-size: 15px;
+    margin: 10px auto;
+   
+}
 .btnGerarRecibo {
     padding: 10px;
     margin: 10px 0px;
@@ -378,7 +422,15 @@ figcaption{
         margin-left: 10px;
         
     }
-    
+    .comerciantePrestador {
+        width: 100%;
+               
+    }
+    .comerciantePrestador h2 {
+       font-size: 30px;
+       height: auto;
+       
+    }
     
     
 }

@@ -1,0 +1,89 @@
+const anuncios = comerciantesPrestadores();
+
+anuncios.forEach(function (anuncio) {
+    console.log(anuncio.nome);
+    document.getElementById('anunciantes').innerHTML += `<a href="${anuncio.link}" target = "_blank">
+    <div class="comerciantePrestador">
+        <img src="${anuncio.imagem}" alt="">
+        <h2>${anuncio.nome}</h2>
+        <p>${anuncio.tipo}</p>
+        <p>${anuncio.area}</p>
+    </div>
+</a>`
+
+});
+
+
+
+
+
+
+function comerciantesPrestadores() {
+    return [
+        {
+            'imagem': 'https://www.asconstrutora.com.br/images/as-construtora-logo-andeilton-soares-de-souza-ltda.png',
+            'nome': 'AS CONSTRUTORA LTDA',
+            'link': 'http://127.0.0.1:5500/as-construtora/',
+            'tipo': 'Prestador de Serviços',
+            'area': 'Construção e reforma'
+        },
+        {
+            'imagem': 'https://static.wixstatic.com/media/7343dd_726d6ab589354b17a16c844314c6bf33~mv2.jpg/v1/fill/w_200,h_200,al_c,q_80,usm_0.66_1.00_0.01/netfibra-lagoa-dos-patos-mg.jpg',
+            'nome': 'NET FIBRA LAGOA',
+            'link': '/net-fibra-lagoa/',
+            'tipo': 'Prestador de Serviços',
+            'area': 'Serviços de Internet'
+        },
+        {
+            'imagem': 'https://static.wixstatic.com/media/7343dd_54e721f3d1f5460b9c1c9775c650bf3b~mv2.png/v1/fill/w_335,h_334,al_c,q_85/Capa-matheus-andre-engenheiro-civil-lago.jpg',
+            'nome': 'MATEUS ANDRÉ ENG',
+            'link': '/matheus-andre-eng/',
+            'tipo': 'Prestador de Serviços',
+            'area': 'Serviços de engenharia'
+        },
+        {
+            'imagem': 'https://static.wixstatic.com/media/7343dd_c87118ec4a4346d79c0a088a728f9298~mv2.png/v1/fill/w_336,h_335,al_c,q_85/solar-prime-lagoa-dos-patos-mg.jpg',
+            'nome': 'MATEUS DUARTE ENGENHARIA',
+            'link': '/solar-prime/',
+            'tipo': 'Prestador de Serviços',
+            'area': 'Engenharia Elétrica'
+        },
+        {
+            'imagem': 'https://www.salamineira.com/img/duarte-engenharia-mateus-duarte-dos-santos-36598006000150-mostra.jpeg',
+            'nome': 'DUARTE ENGENHARIA',
+            'link': 'https://www.salamineira.com/duarte-engenharia/',
+            'tipo': 'Prestador de Serviços',
+            'area': 'Engenharia Elétrica'
+        },
+        {
+            'imagem': 'https://www.salamineira.com/img/restaurante-prato-nobre-recanto-nobre-lagoa-dos-patos-mg-sonia-magalhaes-restaurante.jpeg',
+            'nome': 'RESTAURANTE PRATO NOBRE',
+            'link': 'https://www.salamineira.com/duarte-engenharia/',
+            'tipo': 'Comerciante',
+            'area': 'Restaurante e Lanchonete'
+        },
+        {
+            'imagem': 'https://www.salamineira.com/imagens-sala/2022/02/logo-tijolego-home.jpeg',
+            'nome': 'TIJOLEGO',
+            'link': 'https://www.salamineira.com/duarte-engenharia/',
+            'tipo': 'Comerciante',
+            'area': 'Tijolos ecológicos'
+        },
+        {
+            'imagem': 'https://static.wixstatic.com/media/7343dd_af04788053004d29a4004c2e8e8bdb3b~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01/divulgue-seu-negocio-sala-mineira-empree.jpg',
+            'nome': 'ANUNCIE GRÁTIS',
+            'link': 'https://www.salamineira.com/divulgue-aqui/',
+            'tipo': 'Anuncie Grátis',
+            'area': 'Clique aqui e Anuncie'
+        },
+        {
+            'imagem': 'https://static.wixstatic.com/media/7343dd_af04788053004d29a4004c2e8e8bdb3b~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01/divulgue-seu-negocio-sala-mineira-empree.jpg',
+            'nome': 'ANUNCIE GRÁTIS',
+            'link': 'https://www.salamineira.com/divulgue-aqui/',
+            'tipo': 'ANUNCIE GRÁTIS',
+            'area': 'CLIQUE AQUI E ANUNCIE'
+        },
+
+    ]
+}
+//anunciantes
