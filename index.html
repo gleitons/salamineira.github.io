@@ -21,6 +21,8 @@
     <meta name="viewport" content="user-scalable=yes, initial-scale=1.0, width=320">
     <link rel="stylesheet" href="/estilos/stilo-sala.css">
     <script src="/scripts/index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
     
 
     
@@ -91,6 +93,20 @@
     </header>
     
     <main >
+        <div>
+            <div  class="carousel anuncies">
+                
+                <div><a href="/net-fibra-lagoa/"><img src="https://static.wixstatic.com/media/7343dd_726d6ab589354b17a16c844314c6bf33~mv2.jpg/v1/fill/w_200,h_200,al_c,q_80,usm_0.66_1.00_0.01/netfibra-lagoa-dos-patos-mg.jpg" alt="Netfibra Lagoa Lagoa dos Patos MG" /></a>Netfibra Lagoa</div>
+                <div><a href="/restaurante-prato-nobre/"><img src="https://www.naturfive.com/imagens-naturfive/restaurante-prato-nobre.jpeg" alt="Restaurante Prato nobre Lagoa dos Patos MG" /></a>Restaurante Prato Nobre</div>
+                <div><a href="/tijolego.html"><img src="https://www.salamineira.com/imagens-sala/2022/02/logo-tijolego-home.jpeg" alt="Tijolego lagoa dos Patos MG" /></a>Tijolego Tijolos ecológicos</div>
+                <div><a href="/as-construtora/"><img src="https://www.asconstrutora.com.br/images/as-construtora-logo-andeilton-soares-de-souza-ltda.png" alt="AS construtora LTDA Lagoa dos Patos MG" /></a>AS Construtora LTDA</div>
+                <div><a href="/hotel-em-lagoa-dos-patos-mg.html"><img src="https://www.salamineira.com/imagens-sala/2022/03/hotel-estrela-lagoa-dos-patos-mg.jpeg" alt="Hotel estrela" /></a>Hotel Estrela Centro</div>
+                <div><a href="/hotel-em-lagoa-dos-patos-mg.html"><img src="https://www.salamineira.com/imagens-sala/2022/03/hotel-cosmos-capa.png" alt="Hotel cosmos" /></a>Hotel Cosmos</div>
+                <div><a href="/solar-prime/"><img src="https://static.wixstatic.com/media/7343dd_c87118ec4a4346d79c0a088a728f9298~mv2.png/v1/fill/w_336,h_335,al_c,q_85/solar-prime-lagoa-dos-patos-mg.jpg" alt="Solar Prime lagoa dos Patos MG" /></a>Solar Prime</div>
+                <div><a href="/duarte-engenharia/"><img src="https://www.salamineira.com/img/duarte-engenharia-mateus-duarte-dos-santos-36598006000150-mostra.jpeg" alt="Mateus engenharia eletrica" /></a>Duarte Engenharia</div>
+                <div><a href="/divulgue-aqui.html"><img src="https://static.wixstatic.com/media/7343dd_af04788053004d29a4004c2e8e8bdb3b~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01/divulgue-seu-negocio-sala-mineira-empree.jpg" alt="Divulgue seu negócio gratis" /></a>Divulgue seu negócio Grátis</div>
+            </div>
+        </div>
         <div  id="MEI2022">
             <div id="decMei" class="imageTopD">
                 <i onclick="fecharBD()" class="bi bi-x-square-fill"> Fechar</i>
@@ -575,5 +591,19 @@
 
     
     <script src="/scripts/grafico-covid.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js
+    "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js
+    "></script>
+    <script>
+        $('.carousel').slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 7,
+            slidesToScroll: 4
+        });
+    </script>
 </body>
 </html>

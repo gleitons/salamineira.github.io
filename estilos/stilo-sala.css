@@ -6,6 +6,36 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Arial,
     Helvetica, sans-serif;
 }
+.anucies {
+  width: 100%; 
+  margin: auto;
+  
+  
+}
+.anuncies div {
+  background-color: white;
+  width: 100%; 
+  margin: auto;
+  justify-content: space-between;
+  /* border: black 1px solid; */
+  align-items: center;
+  
+  
+ 
+}
+.anuncies > div img{
+  width: 150px; 
+  
+  margin: auto;
+  height: 150px;
+  margin: 10px;
+  align-items: center;
+ 
+}
+.anuncies > div img:hover{
+ filter: brightness(120%);
+ 
+}
 .atendimentoWhats {  
   position: fixed;
   bottom: 20px;
@@ -1543,5 +1573,32 @@ footer {
     padding: 2px;
     box-shadow: rgba(0, 0, 0, 0.276) 0px 0px 10px 0px;
     margin-bottom: 50px;
+  }
+  .anucies {
+    width: 100%; 
+    margin: auto;
+    
+    
+  }
+  .anuncies div {
+    background-color: white;
+    width: 100%; 
+    margin: auto;
+    justify-content: space-between;
+    /* border: black 1px solid; */
+    align-items: center;
+    font-size: 10px;
+    text-align: center;
+    
+   
+  }
+  .anuncies > div img{
+    width: 50px; 
+    
+    
+    height: 50px;
+    
+    align-items: center;
+   
   }
 }
