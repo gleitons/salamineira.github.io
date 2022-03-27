@@ -61,6 +61,7 @@ function MenuPrincipal() {
                         <li><a href="/nota-fiscal">nf-e</a></li>
                         <li><a href="/noticias/index.html">notícias</a></li>
                         <li><a href="/servicos-prefeitura-lagoa-dos-patos-mg/">Serviços</a></li>
+                        <li><a href="/downloads-leis-lagoa-dos-patos-mg.html">Downloads</a></li>
                         <li><a href="/cursos">Cursos</a></li>
                         <li><a href="/gleiton-aparecido-soares-de-souza/">Sobre</a></li>
                         <li><a href="/contato">Contato</a></li>
