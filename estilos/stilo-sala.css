@@ -9,23 +9,29 @@
 .anucies {
   width: 100%; 
   margin: auto;
-  
+  display: flex;
+  padding: 10px;
+  margin: 10px;
   
 }
 .anuncies div {
-  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  background-color: white; 
   width: 100%; 
   margin: auto;
   justify-content: space-between;
   /* border: black 1px solid; */
   align-items: center;
+  display: flex;
   
   
  
 }
 .anuncies > div img{
   width: 150px; 
-  
+  background-color: white;
+  border-radius: 8px;
   margin: auto;
   height: 150px;
   margin: 10px;
@@ -1577,11 +1583,12 @@ footer {
   .anucies {
     width: 100%; 
     margin: auto;
-    
+    display: flex;
+    background-color: white;
     
   }
   .anuncies div {
-    background-color: white;
+   
     width: 100%; 
     margin: auto;
     justify-content: space-between;
