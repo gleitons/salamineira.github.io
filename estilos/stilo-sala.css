@@ -14,6 +14,14 @@
   margin: 10px;
   
 }
+.video {
+  width: 100%;
+  margin: auto;
+}
+.video iframe{
+  width: 100%;
+  margin: auto;
+}
 .anuncies div {
   padding: 5px;
   margin: 5px;
