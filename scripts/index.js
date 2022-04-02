@@ -335,9 +335,9 @@ function decMEI2022() {
     const imagen = `https://salamineira.com/declaracao-mei-2022/declaracao-mei-2022-lagoa-dos-patos-mg-${n}.jpeg`
 
 
-    document.getElementById('MEI2022').innerHTML = `<div id="decMei" class="imageTopD">
-    <i onclick="fecharBD()" class="bi bi-x-square-fill"> Fechar</i>
+    document.getElementById('MEI2022').innerHTML = `<div id="decMei" class="imageTopD">    
     <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/Identificacao" target="_blank" rel="follow"><img src="${imagen}" alt=""></a>
+    <i onclick="fecharBD()" class="bi bi-x-square-fill"> Fechar</i>
     <p>Clique na imagem para acessar</p>
 </div>`
 }
