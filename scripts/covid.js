@@ -67,6 +67,8 @@ function covidRecente(){
         covid_23_02_2022()
     } else if(selecioneDia == "23_02_2022"){
         covid_02_03_2022()
+    } else if(selecioneDia == "10_07_2020"){
+        covid_10_07_2020()
     } 
     else {
         
@@ -147,6 +149,41 @@ function covid_23_02_2022(){
     const ativoss= estyleColor(ativos);
     
     const tImagem = document.getElementById('trocaImagemCovid').src = `"/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/covid-19-lagoa-dos-patos-mg-${dia}-${mes}-${ano}.jpg"`; 
+
+
+
+    dataC.innerHTML = `${data} `
+    suspeitos.innerHTML = `${ativos}`;
+    confirmados.innerHTML = `${confirmadoss}`;
+    internados.innerHTML = `${internadoss}`;
+    isolamento.innerHTML = `${isolamentos}`;
+    descartados.innerHTML = `${descartadoss}`;
+    obitos.innerHTML = `${obitoss}`;
+    curados.innerHTML = `${curadoss}`;
+    notificados.innerHTML = `${notF}`;
+    imgcovid.innerHTML = `<p>Clique na imagem para fechar</p>
+    <img id="trocaImagemCovid" src=${tImagem} onclick="fechaimgCovid()" alt="covid-19 Lagoa dos Patos MG">`;   
+
+    return [data, ativos, descartadoss,confirmadoss, internadoss, isolamentos, obitoss, curadoss]
+
+    
+}
+function covid_10_07_2020(){
+    const data = "23/02/2022"
+    const ativos = 01;
+    const descartadoss = 2;
+    const confirmadoss = 1;
+    const internadoss = "00";
+    const isolamentos = "00";    
+    const obitoss = "00";
+    const curadoss = "0";
+    const notF = descartadoss+confirmadoss;
+    const dia = data.slice(0,2)
+    const mes = data.slice(3,5)
+    const ano = data.slice(6)
+    const ativoss= estyleColor(ativos);
+    
+    const tImagem = document.getElementById('trocaImagemCovid').src = `"imagens/1-caso-de-coronavirus-em-lagoa-dos-patos-mg-covid-19-lagoa-dos-patos-mg.png" alt = "1 caso de covid lagoa dos patos mg 1 caso de coronavirus em lagoa dos patos mg 20/07/2020"`; 
 
 
 
