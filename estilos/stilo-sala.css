@@ -297,6 +297,8 @@ header {
   padding: 10px;
   border: black solid 1px;
   border-radius: 8px 0px 8px 0px;
+  transition: 500ms;
+  transition: calc(90deg);
 }
 #naveMenu #listMenu li:hover {
   background-image: linear-gradient(
