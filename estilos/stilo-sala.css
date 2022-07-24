@@ -136,6 +136,7 @@
 .atendimentoOn button:hover {
   background-color: rgb(249, 193, 133);
   color: white;
+  margin-bottom: 20px;
 }
 .atendimentoOn p{
   font-size: 20px;
@@ -463,6 +464,7 @@ main {
   cursor: pointer;
 }
 .btnColor:hover {
+  
   background-image: linear-gradient(
     to bottom right,
     rgb(255, 197, 38),
