@@ -72,7 +72,7 @@ function covidRecente(){
     } 
     else {
         
-        covid_02_03_2022()
+        covid_02_03_2022();
     };
 }
 
