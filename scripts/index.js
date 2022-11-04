@@ -57,15 +57,15 @@ function MenuPrincipal() {
     const menu = `<button id="btnmobile" onclick="menuMob()"><i class="bi bi-list"></i></button>
                     <nav id="naveMenu">
                         <ul id="listMenu">                        
-                        <li><a href="/">Inicio</a></li>
-                        <li><a href="/nota-fiscal">nf-e</a></li>
-                        <li><a href="/noticias/index.html">notícias</a></li>
-                        <li><a href="/servicos-prefeitura-lagoa-dos-patos-mg/">Serviços</a></li>
-                        <li><a href="/downloads-leis-lagoa-dos-patos-mg.html">Downloads</a></li>
-                        <li><a href="/cursos">Cursos</a></li>
-                        <li><a href="/gleiton-aparecido-soares-de-souza/">Sobre</a></li>
-                        <li><a href="/contato">Contato</a></li>
-                        <li><a href="/pesquisar/">Pesquisar</a></li>
+                        <a href="/"><li>Inicio</li></a>
+                        <a href="/nota-fiscal"><li>nf-e</li></a>
+                        <a href="/noticias/index.html"><li>notícias</li></a>
+                        <a href="/servicos-prefeitura-lagoa-dos-patos-mg/"><li>Serviços</li></a>
+                        <a href="/downloads-leis-lagoa-dos-patos-mg.html"><li>Downloads</li></a>
+                        <a href="/cursos"> <li>Cursos</li></a>
+                        <a href="/gleiton-aparecido-soares-de-souza/"><li>Sobre</li></a>
+                        <a href="/contato"><li>Contato</li></a>
+                        <a href="/pesquisar/"><li>Pesquisar</li></a>
                         </ul>
                     </nav>
                     <div class="atendimentoWhats">

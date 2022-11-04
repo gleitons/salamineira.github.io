@@ -309,9 +309,13 @@ header {
     rgb(248, 150, 2)
   );
 }
-#naveMenu li a {
+#naveMenu a  {
   color: black;
   text-decoration: none;
+}
+#navMenu a li:active {
+  background-color: red;
+  box-shadow: inset red 1px 2px 5px ;
 }
 #btnmobile {
   display: none;
