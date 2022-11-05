@@ -232,7 +232,7 @@ function maisArtigos() {
     <li><a href="/campanha-de-vacinacao-antirrabica-em-lagoa-dos-patos-mg/">Campanha de vacinação antirrábica em Lagoa dos Patos MG</a></li>
 </ul>
 <p style="text-align: center;">.... Anuncio ....</p>
-<img class="brilho" src="/imagens-sala/2022/03/as-construtora-lagoa.jpeg" alt="AS Construtora Andeilton soares de souza AS construtora Lagoa dos Patos MG">
+<a href="/as-construtora.html"><img class="brilho" src="/imagens-sala/2022/03/as-construtora-lagoa.jpeg" alt="AS Construtora Andeilton soares de souza AS construtora Lagoa dos Patos MG"></a>
 `
 }
 function artigosSalaMineira() {
@@ -244,7 +244,7 @@ function artigosSalaMineira() {
     <li><a href="/campanha-de-vacinacao-antirrabica-em-lagoa-dos-patos-mg/">Campanha de vacinação antirrábica em Lagoa dos Patos MG</a></li>
 </ul>
 <p style="text-align: center;">.... Anuncio ....</p>
-        <img class="brilho"  src="/imagens-sala/2022/03/as-construtora-lagoa-dos-patos.jpeg" alt="AS Construtora Andeilton soares de souza AS construtora Lagoa dos Patos MG">`
+        <a href="/as-construtora.html"><img class="brilho"  src="/imagens-sala/2022/03/as-construtora-lagoa-dos-patos.jpeg" alt="AS Construtora Andeilton soares de souza AS construtora Lagoa dos Patos MG"></a>`
 }
 function artigosLagoadosPatos() {
     return `<ul class="leiaMais">
@@ -255,7 +255,7 @@ function artigosLagoadosPatos() {
     <li><a href="/campanha-de-vacinacao-antirrabica-em-lagoa-dos-patos-mg/">Campanha de vacinação antirrábica em Lagoa dos Patos MG</a></li>
 </ul>
 <p style="text-align: center;">.... Anuncio ....</p>
-        <img class="brilho"  src="/imagens-sala/2022/03/as-construtora-lagoa-dos-patos-mg.jpeg" alt="AS Construtora Andeilton soares de souza AS construtora Lagoa dos Patos MG">`
+        <a href="/as-construtora.html"><img class="brilho"  src="/imagens-sala/2022/03/as-construtora-lagoa-dos-patos-mg.jpeg" alt="AS Construtora Andeilton soares de souza AS construtora Lagoa dos Patos MG"></a>`
 }
 function bannerAnuncieAqui() {
     return `<img class="imganuncioaqui dnone" src="/img/anuncie-gratis-lagoa-dos-patos-mg.jpeg" alt="">
