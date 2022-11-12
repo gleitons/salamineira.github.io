@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../arquivos/css/bulma-start-0.0.5/css/main.css">
     <link rel="stylesheet" href="../arquivos/css/arquivos.css">
     
-    <title>Arquivos Lagoa dos Patos MG</title>
+    <title>Blog Lagoa dos Patos MG</title>
 </head>
 <body>
     <header>
@@ -74,6 +74,23 @@
           
     </header>
     <main>  
+        <nav class="breadcrumb is-centered" aria-label="breadcrumbs" >
+            <ul id="bread">
+              
+            </ul>
+          </nav>
+
+          <script>
+            const url = location.href.split('/');
+            document.querySelector('#bread').innerHTML = `
+            <li><a href="/${url[1]}">Home</a></li>
+              <li><a href="/${url[3]}">Arquivos</a></li>
+              <li class="is-active"><a href="/${url[3]}/${url[4]}" aria-current="page">${url[4]}</a></li>`;
+
+          </script>
+
+
+
         <h1 class="subtitle">Arquivos Lagoa dos Patos MG</h1>
         <p>Os arquivos que se encontra neste local, foram retiradas de fontes externas, internas, publicações, todo tipo de mídia, trechos e muito mais, qualquer trecho que não tenha sido dado o devido direito, <a href="/contato">entre em contato</a> conosco para assim pudermos colocar.</p>
         <p>Está é referente a acontecimentos em Lagoa dos Patos MG, caso queira contribuir, também <a href="/contato">entre em contato</a> conosco</p>
