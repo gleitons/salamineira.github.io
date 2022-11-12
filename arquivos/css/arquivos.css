@@ -8,75 +8,95 @@ main {
   box-sizing: border-box;
 }
 .arquivosTotais {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .tArquivo {
-    width: 300px;
-    margin: 20px;
-    
+  width: 300px;
+  margin: 20px;
 }
 .arquivo {
-    margin: 10px;
-    background-color: #d7c3b2;
+  margin: 10px;
+  background-color: #d7c3b2;
   width: 100%;
   min-height: 470px;
   border: black solid 1px;
   padding: 12px;
 }
 .gavetaArquivo {
-    border: rgb(169, 169, 169) solid 1px;
-    min-height: 235px;
-    box-shadow: inset rgba(0, 0, 0, 0.452) 0px 2px 5px 0px;
-    transition: 200ms;
-    margin-bottom: 10px;
-    background-color: #f8dec9;
+  border: rgb(169, 169, 169) solid 1px;
+  min-height: 235px;
+  box-shadow: inset rgba(0, 0, 0, 0.452) 0px 2px 5px 0px;
+  transition: 200ms;
+  margin-bottom: 10px;
+  background-color: #f8dec9;
 }
 .botaoEtiqueta {
-    background-color: rgb(255, 255, 255);
-    box-shadow: inset rgba(0, 0, 0, 0.452) 0px 2px 5px 0px;
-    
+  background-color: rgb(255, 255, 255);
+  box-shadow: inset rgba(0, 0, 0, 0.452) 0px 2px 5px 0px;
 }
 .gavetaArquivo:hover {
-    box-shadow: rgba(0, 0, 0, 0.592) 0px 15px 10px 0px;
-    min-height: 240px;
-    padding: 0px;
-    margin-left: -6px;
-    width: 105%;
-    background-color: #f8eee6;
+  box-shadow: rgba(0, 0, 0, 0.592) 0px 15px 10px 0px;
+  min-height: 240px;
+  padding: 0px;
+  margin-left: -6px;
+  width: 105%;
+  background-color: #f8eee6;
 }
 .etiqueta {
-    width: 7em;
-    min-height: 3em;
-    margin:  auto;
-    margin-top: 20%;
-    border: black solid 1px;
-    text-align: center;
-    background-color: white;
-   
+  width: 7em;
+  min-height: 3em;
+  margin: auto;
+  margin-top: 20%;
+  border: black solid 1px;
+  text-align: center;
+  background-color: white;
+  transition: 250ms;
+}
+.etiqueta:hover {
+    width: 12em;
+    margin-top: 10%;
+}
+.etiqueta:hover abbr {
+    font-size: 30px;
+    font-weight: 300;
 }
 .etiqueta h2 {
-    font-size: .6em;
-    font-weight: 800;
-    color: black;
+  font-size: 0.6em;
+  
+  color: black;
+}
+.imgArtigo {
+    text-align: center;
 }
 .maoGaveta {
-    width: 8em;
-    height: 1em;
-    margin: auto;
-    border: black solid 1px;
-    margin-top: 10%;
-    background-image: linear-gradient(90deg, black, rgb(255, 255, 255) , rgb(255, 255, 255) 50%, rgb(255, 255, 255), black);
-    box-shadow: rgba(0, 0, 0, 0.452) 0px 2px 5px 0px;
-    
+  width: 8em;
+  height: 1em;
+  margin: auto;
+  border: black solid 1px;
+  margin-top: 10%;
+  background-image: linear-gradient(
+    90deg,
+    black,
+    rgb(255, 255, 255),
+    rgb(255, 255, 255) 50%,
+    rgb(255, 255, 255),
+    black
+  );
+  box-shadow: rgba(0, 0, 0, 0.452) 0px 2px 5px 0px;
 }
 .avisoInterno {
-    background-color: red;
-    padding: 10px 0px;
-    color: white;
-    margin: 10px 0; 
-    text-align: center;
-    border-radius: 8px;
+  background-color: red;
+  padding: 10px 0px;
+  color: white;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 8px;
+}
+abbr {
+  text-decoration: none;
+  transition: 250ms;
+  font-weight: 800;
 }
