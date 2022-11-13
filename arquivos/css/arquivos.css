@@ -7,11 +7,33 @@ main {
   padding: 0;
   box-sizing: border-box;
 }
+.artigoCompleto {
+    display: flex;
+}
 .arquivosTotais {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.container-blog {
+    border-top: rgb(234, 133, 0) solid 3px;
+    padding-top: .8em;
+}
+.propagandasAnuncios {
+    margin-left: 2em;
+    border-top: rgb(0, 11, 224) solid 3px;
+    padding-top: .8em;
+    width: 30%;
+}
+.blockAds {
+    text-align: center;
+    border: blue solid 1px;
+    padding: 5px;
+    
+}
+.blockAds img {
+    width: 100%;
 }
 .tArquivo {
   width: 300px;
@@ -38,9 +60,7 @@ main {
   box-shadow: inset rgba(0, 0, 0, 0.452) 0px 2px 5px 0px;
 }
 .gavetaArquivo:hover {
-  box-shadow: rgba(0, 0, 0, 0.592) -5px 5px 2px 0px;
-  
-  
+  box-shadow: rgba(0, 0, 0, 0.592) -5px 5px 2px 0px; 
   
   width: 105%;
   background-color: #f8eee6;
@@ -50,16 +70,17 @@ main {
   min-height: 3em;
   margin: auto;
   margin-top: 20%;
-  border: black solid 1px;
+  border: rgb(188, 188, 188) solid 1px;
   text-align: center;
   background-color: white;
   transition: 250ms;
 }
-.etiqueta:hover {
+.gavetaArquivo:hover .etiqueta {
     width: 12em;
     margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.592) 0px 5px 12px 0px; 
 }
-.etiqueta:hover abbr {
+.gavetaArquivo:hover abbr {
     font-size: 30px;
     font-weight: 300;
 }
@@ -68,9 +89,21 @@ main {
   
   color: black;
 }
+.etiqueta h2:hover {
+    color: blue;
+    
+}
 .imgArtigo {
     width: 100%;
    text-align: center   ;
+}
+.imgArtigo > img {
+    max-width: 40%;
+    transition: 400ms;
+}
+.imgArtigo:hover > img {
+    max-width: 100%;
+    cursor: pointer;
 }
 .maoGaveta {
   width: 8em;
@@ -100,4 +133,28 @@ abbr {
   text-decoration: none;
   transition: 250ms;
   font-weight: 800;
+}
+
+#bread li {
+       
+   
+}
+
+@media (max-width:568px) {
+    body {
+        width: 98%;
+    }
+    .imgArtigo > img {
+        max-width: 98%;
+        transition: 400ms;
+    }
+    .artigoCompleto {
+        display: block;
+    }
+    .propagandasAnuncios {
+        margin-left: 0px;
+        
+        margin-top: .8em;
+        width: 100%;
+    }
 }
