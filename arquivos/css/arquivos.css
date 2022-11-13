@@ -38,10 +38,10 @@ main {
   box-shadow: inset rgba(0, 0, 0, 0.452) 0px 2px 5px 0px;
 }
 .gavetaArquivo:hover {
-  box-shadow: rgba(0, 0, 0, 0.592) 0px 15px 10px 0px;
-  min-height: 240px;
-  padding: 0px;
-  margin-left: -6px;
+  box-shadow: rgba(0, 0, 0, 0.592) -5px 5px 2px 0px;
+  
+  
+  
   width: 105%;
   background-color: #f8eee6;
 }
@@ -69,7 +69,8 @@ main {
   color: black;
 }
 .imgArtigo {
-    text-align: center;
+    width: 100%;
+   text-align: center   ;
 }
 .maoGaveta {
   width: 8em;
