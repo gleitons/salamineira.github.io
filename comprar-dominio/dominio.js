@@ -8,7 +8,7 @@ document.getElementById('direito').innerHTML = `<img src="/comprar-dominio.png" 
 document.getElementById('btnT').innerHTML = `<a href='https://api.whatsapp.com/send?phone=${nTelefonew}&text=${mensagem}${url} ' target='_blank'><button><i class="bi bi-card-checklist"></i>Entre em Contato</button></a>
 <a href='https://api.whatsapp.com/send?phone=${nTelefonew}&text=${mensagem}${url} ' target='_blank'>
     <strong>
-        <p>(38) 98065-2808</p> 
+        <p>(51) 98065-2808</p> 
     </strong>
 </a>        `;
 
