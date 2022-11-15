@@ -1,5 +1,5 @@
-const nTelefonew = '3899167841';
-const nTel = "(38) 99916-7841";
+const nTelefonew = '38980652808';
+const nTel = "(51) 98065-2808";
 const mensagem = "Olá, gostaria de adquirir o domínio "
 const url = window.location.href;
 
@@ -8,7 +8,7 @@ document.getElementById('direito').innerHTML = `<img src="/comprar-dominio.png" 
 document.getElementById('btnT').innerHTML = `<a href='https://api.whatsapp.com/send?phone=${nTelefonew}&text=${mensagem}${url} ' target='_blank'><button><i class="bi bi-card-checklist"></i>Entre em Contato</button></a>
 <a href='https://api.whatsapp.com/send?phone=${nTelefonew}&text=${mensagem}${url} ' target='_blank'>
     <strong>
-        <p>(38) 99916-7841</p> 
+        <p>(38) 98065-2808</p> 
     </strong>
 </a>        `;
 
