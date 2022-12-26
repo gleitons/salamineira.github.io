@@ -84,7 +84,7 @@
                 <div class="esquerdo">
                     <div>
                         <a href="/local"><button>Apareça aqui</button></a>
-                        <form action="https://formsquash.io/f/X6Se9ELA7MhPAlCRGrjh" method="post">
+                        <form action="https://formsquash.io/f/UtJonC122x4aJQml9Vdr" method="post">
                             <h1>DIVULGUE SEU NEGÓCIO GRÁTIS</h1>
                             <p>Nome:</p>
                             <input type="text" name="Nome: " required id="">
@@ -97,7 +97,10 @@
                             <p>Telefone:</p>
                             <input type="number" name="Telefone: " id="">
                             <p>Logo - Imagem da empresa</p>
-                            <input type="file" name="imagemLogo" id="upload" accept="image/*">
+                            <input type="file" name="imagemLogo" id="valueImg" onchange="previewFile()" accept="image/*" />
+                            <input style="display: none;" type="text" name="logoImagem64" id="logoEmpresa" value="enviar">
+                            
+                            
                             <div class="previsualizarC">
 
                                 <img src="" alt="" id="preview">
@@ -241,6 +244,29 @@
         
         </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            function previewFile() {
+                
+                const preview = document.querySelector('img');
+                const file = document.querySelector('input[type=file]').files[0];
+                const valueimg = document.querySelector('#valueImg').value;
+                
+                const reader = new FileReader();
+              
+                reader.addEventListener("load", () => {
+                  // convert image file to base64 string
+                  preview.src = reader.result;
+                  document.querySelector('#logoEmpresa').value = preview.src 
+
+                }, false);
+              
+                if (file) {
+                  reader.readAsDataURL(file);
+                  
+                }
+              }
+              
+        </script>
     
 </body>
 
