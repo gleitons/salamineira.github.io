@@ -233,6 +233,7 @@ header {
 .centerImg div img{
   cursor: crosshair;
 }
+
 /* anuncie aqui*/
 .AnuncieAqui{
   
@@ -1606,8 +1607,9 @@ footer {
   .anucies {
     width: 100%; 
     margin: auto;
-    display: flex;
+   
     background-color: white;
+    
     
   }
   .anuncies div {
