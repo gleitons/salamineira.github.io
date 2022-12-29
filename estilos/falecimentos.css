@@ -11,6 +11,19 @@
   border: black solid 1px;
   position: relative;
   padding: 10px;
+  background-image: url('/falecimento/anjo.png');
+  background-size: cover;
+  
+  
+}
+.vidroF {
+    background: rgba( 255, 255, 255, 0.55 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4.5px );
+-webkit-backdrop-filter: blur( 4.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: .8em;
 }
 
 .lutosC .fita {
@@ -29,7 +42,20 @@
   width: 150px;
   height: 150px;
   margin-bottom: 10px;
+  
 }
+.nota {
+    padding: .8em;
+    margin: .3em auto;
+    width: 90%;
+    border: #222 solid 1px;
+    position: relative;
+    background-color: white;
+    
+
+}
+
+
 .nascFalec {
   width: 80%;
   display: flex;
@@ -46,4 +72,20 @@
 .nomeF {
   text-transform: uppercase;
   font-weight: 700;
+}
+
+@media (max-width:360px) {
+    .lutosC {
+        width: 98%;
+        margin: 1em auto;
+        text-align: center;
+        border: black solid 1px;
+        position: relative;
+        padding: 10px;
+        background-image: url('/falecimento/anjo.png');
+        background-size: cover;
+        
+        
+      }
+    
 }

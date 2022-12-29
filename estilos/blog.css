@@ -354,6 +354,14 @@ figcaption{
     width: 1200px;
 }
 @media (max-width: 768px) {
+    .fixaPropaganda {
+        background-color: white;
+        border-radius: 12px;
+        position: relative;
+        
+       
+        transition: 200ms;
+    }
     .noticiasPage{
         
         width: 768px;
@@ -383,6 +391,13 @@ figcaption{
 }
 
 @media (max-width: 360px) {
+    .fixaPropaganda {
+        margin-left: 20%;
+        position: relative;
+        
+       
+        transition: 200ms;
+    }
     .noticiasPage{        
         width: 360px;
        

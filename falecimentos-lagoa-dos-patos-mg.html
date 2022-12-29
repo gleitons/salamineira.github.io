@@ -135,7 +135,18 @@
             <div class="propaganda" id="adsArtigo"></div>
         </div>
 
+        <!-- <div id="capture" style="padding: 10px; background: #f5da55">
+            <h4 style="color: #000; " onclick="captura()">Hello dddddddworld!</h4>
+        </div>
+        <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
 
+        <script>
+            function captura() {
+            html2canvas(document.querySelector("#capture")).then(canvas => {
+                document.body.appendChild(canvas)
+            });
+        }
+        </script> -->
     </main>
     <footer id="footerM">
 
@@ -151,22 +162,39 @@
 
 
     <script>
-       
+
         const url = '/falecimentos';
+       
 
         async function falecidos() {
             const response = await fetch(url);
             const data = await response.json();
+            const imgH = '/falecimento/desconhecido-homem.png';
+            const imgM = '/falecimento/desconhecido-mulher.png'
 
             await data.map((falec) => {
+                const falecimento = falec.falecimento;
+                const imgFalecimento = falec.imagem;
 
                 if (falec.nascimento == "") { falec.nascimento = "Desconhecido" };
-                if (falec.sexo == "m") {
+
+                if (falec.sexo == 'm'){
                     filho = "Filho"
+                    if (imgFalecimento.length == 0){
+                        falec.imagem = imgH;
+                    }
+
+                    
                 } else {
-                    filho = "filha"
+                    if (imgFalecimento.length == 0){
+                        falec.imagem = imgM;
+                    }
                 }
+
                 
+                console.log(imgFalecimento.length + "contagem")
+                
+
                 //imagemL.style.backgroundImage = `url(${falec.imagem})`;
                 document.querySelector('#lutoTitle').innerHTML += `
                 <div class="lutosC">
@@ -174,14 +202,16 @@
                     <div class="imagemL">
                         <img src="${falec.imagem}" alt="">
                     </div>
-                    <p class="nomeF">${falec.nome}</p>
-                    <div class="nascFalec">
-                        <i class="bi bi-star-fill"> ${falec.nascimento}</i>
-                        <i class="bi bi-heartbreak-fill"> ${falec.falecimento}</i>
+                    <div class="vidroF">
+                        <p class="nomeF">${falec.nome}</p>
+                        <div class="nascFalec">
+                            <i class="bi bi-star-fill"> ${falec.nascimento}</i>
+                            <i class="bi bi-heartbreak-fill"> ${falec.falecimento}</i>
+                        </div>
+                        <p class="falecMae">${filho} de ${falec.mae}</p>
                     </div>
-                    <p class="falecMae">${filho} de ${falec.mae}</p>
-                    <div>
-                        <p>Resumo Vida Homenagem</p>
+                    <div class="nota">
+                        <p>${falec.nota}</p>
                     </div>
                 </div>
             `;
@@ -189,6 +219,9 @@
         }
 
         falecidos();
+        function verficaM(a, b) {
+            return a.birthday.getTime() - b.birthday.getTime()
+        }
 
     </script>
 
