@@ -1,8 +1,23 @@
-[
+[   
+    {
+        "id": 3,
+        "nome": "dilon",
+        "sexo": "m",
+        "imagem": "/falecimento/dilon.png",
+        "nascimento": "",
+        "falecimento": "01/10/2022",
+        "nota": "Pessoa de fé e muito mais...",
+        "obito": "Não identificado",
+        "mae": "ANDREZA AVELINA DA SILVA",
+        "natural": "Lagoa dos Patos - MG",
+        "estadoFalecimento": "Minas Gerais",
+        "LocalFalecimento": "Lagoa dos Patos",
+        "estado": "MG"
+    },
 
     {
         "id": 2,
-        "nome": "ADAO GONCALVES DOS SANTOS",
+        "nome": "ADÃO GONCALVES DOS SANTOS",
         "sexo": "m",
         "imagem": "https://thiscatdoesnotexist.com/",
         "nascimento": "",
@@ -20,7 +35,7 @@
         "id": 1,
         "nome": "Adão Messias",
         "sexo": "m",
-        "imagem": "https://thispersondoesnotexist.com/image??",
+        "imagem": "/falecimento/adao-jega.png",
         "nascimento": "01/07/2000",
         "falecimento": "01/03/2010",
         "nota": "Pessoa de fé e muito mais...",

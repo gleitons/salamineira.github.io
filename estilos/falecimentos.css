@@ -1,0 +1,49 @@
+.lutos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.lutosC {
+  width: 45%;
+  margin: 1em auto;
+  text-align: center;
+  border: black solid 1px;
+  position: relative;
+  padding: 10px;
+}
+
+.lutosC .fita {
+  width: 105px;
+  position: absolute;
+  top: -25px;
+  left: -14px;
+  filter: drop-shadow(5px 5px 5px #222);
+  z-index: 1;
+}
+
+.imagemL {
+  margin: auto;
+  overflow: hidden;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.nascFalec {
+  width: 80%;
+  display: flex;
+  margin: 0.8em auto;
+  justify-content: space-between;
+}
+.falecMae {
+  text-transform: capitalize;
+}
+.imagemL img {
+  border: rgba(0, 0, 0, 0.429) solid 1px;
+  border-radius: 50%;
+}
+.nomeF {
+  text-transform: uppercase;
+  font-weight: 700;
+}
