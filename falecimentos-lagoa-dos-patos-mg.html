@@ -103,11 +103,32 @@
                     <h3>28/12/2022</h3>
                 </div>
                 <div>
-                    <img src="/imagens/luto-lagoa.jpg" alt="">
+                    <img style="display: none;" src="/imagens/luto-lagoa.jpg" alt="">
                 </div>
                 <div>
                     <div>
+                        <div class="tabFalecimentos" id="criarTabela">
 
+                        </div>
+                        <div id="testt"></div>
+                       
+                        <div class="tabFalecimentos" >
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td>Ano</td>
+                                        <td>Homens</td>
+                                        <td>Mulheres</td>
+                                        <td>Total</td>
+                                        
+                                    </tr>
+                                </thead>
+                                <tbody id="tabEstatistica">
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="falec2022"></div>
                         <div class="lutos" id="lutoTitle"></div>
                     </div>
 
@@ -160,107 +181,7 @@
     <script src="/scripts/index.js"></script>
     <script src="/scripts/imagens-artigo.js" defer></script>
 
-
-    <script>
-
-        const url = '/falecimentos';
-
-
-        async function falecidos() {
-            const response = await fetch(url);
-            const data = await response.json();
-            const imgH = '/falecimento/desconhecido-homem.png';
-            const imgM = '/falecimento/desconhecido-mulher.png'
-            const vidroR = document.querySelector('.vidroF');
-            const tagApelido = document.getElementById('apelidoT');
-
-
-            data.sort(toDate);
-            console.log(data)
-            function ordemDecrescente(a, b) {
-
-                return a.falecimento - b.falecimento;
-            }
-
-            function ordemCrescente(a, b) {
-                console.log(toDate(b) - toDate(a))
-                return toDate(b) - toDate(a);
-            }
-
-            function toDate(fal) {
-                const parts = fal.falecimento.split("/");
-                
-                const dataFor = new Date(parts[2], parts[1] - 1, parts[0]);           
-
-                return dataFor;
-                
-            }
-            data.sort(toDate)
-            data.sort(ordemCrescente);
-
-            await data.map((falec) => {
-
-                const falecID = falec.falecimento;
-                console.log(falecID + " Falec")
-
-                const falecimento = falec.falecimento;
-                const imgFalecimento = falec.imagem;
-
-                if (falec.nascimento == "") { falec.nascimento = "Desconhecido" };
-
-                if (falec.sexo == 'm') {
-                    filho = "Filho"
-                    if (imgFalecimento.length == 0) {
-                        falec.imagem = imgH;
-                    }
-
-
-                } else {
-                    if (imgFalecimento.length == 0) {
-                        falec.imagem = imgM;
-                    }
-                }
-
-                if (falec.apelido == ""){
-                  
-                    
-                    var apel = "";
-                } else {
-                    var apel = `Conhecido como ${falec.apelido}`
-                }
-                
-
-
-                //imagemL.style.backgroundImage = `url(${falec.imagem})`;
-                document.querySelector('#lutoTitle').innerHTML += `
-                <div class="lutosC">
-                    <img class="fita" src="/imagens/fita-falecimento.png" alt="">
-                    <div class="imagemL">
-                        <img src="${falec.imagem}" alt="">
-                    </div>
-                    <div class="vidroF">
-                        <p class="nomeF">${falec.nome}</p>
-                        <p class="aplido" id="apelidoT">${apel}</p>
-                        <div class="nascFalec">
-                            <i class="bi bi-star-fill"> ${falec.nascimento}</i>
-                            <i class="bi bi-heartbreak-fill"> ${falec.falecimento}</i>
-                        </div>
-                        <p class="falecMae">${filho} de ${falec.mae}</p>
-                    </div>
-                    <div class="nota">
-                        <p>${falec.nota}</p>
-                    </div>
-                </div>
-            `;
-            });
-        }
-
-        falecidos();
-        function verficaM(a, b) {
-            return a.birthday.getTime() - b.birthday.getTime()
-        }
-
-    </script>
+    <script src="/falecimentos-lagoa-dos-patos-mg.js"></script>
 
 
 </body>

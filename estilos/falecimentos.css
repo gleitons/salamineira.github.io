@@ -34,6 +34,10 @@ padding: .8em;
   filter: drop-shadow(5px 5px 5px #222);
   z-index: 1;
 }
+.tabFalecimentos td{
+    border: black solid 1px;
+    padding: 5px;
+}
 
 .imagemL {
   margin: auto;
