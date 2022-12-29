@@ -300,6 +300,25 @@ figcaption{
 .coment{
     width: 100%;
 }
+.propaganda {
+    padding: 1em;
+}
+.propaganda li{
+    list-style: none;
+}
+.fixaPropaganda {
+    background-color: white;
+    border-radius: 12px;
+    position: fixed;
+    right: 2.3em;
+    top: 0;
+    width: 25%;
+    padding: .8em;
+    transition: 200ms;
+}
+.fixaPropaganda li {
+    list-style: none;
+}
 .propagandaArtigo {
     margin-top: 20px;
     text-align: center; 

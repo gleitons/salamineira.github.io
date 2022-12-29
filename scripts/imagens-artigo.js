@@ -1,3 +1,25 @@
+const adsFixo = document.querySelector('#adsArtigo');
+const adsFix = document.getElementsByTagName("nav")[0];
+const adsTopo = adsFixo.offsetTop;
+
+console.log(adsTopo)
+
+window.onscroll = function () {
+     fixaAds();
+}
+
+
+function fixaAds() {
+    if (window.scrollY >= adsTopo ) {
+        adsFixo.classList.add('fixaPropaganda');
+        console.log(adsTopo)
+    } else {
+        adsFixo.classList.remove('fixaPropaganda');
+        console.log(0)
+    }
+}
+
+
 function mabs() {
     imageLoads.innerHTML = `
     <img 
