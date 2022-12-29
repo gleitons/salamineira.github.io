@@ -164,72 +164,36 @@
     <script>
 
         const url = '/falecimentos';
-
+       
 
         async function falecidos() {
             const response = await fetch(url);
             const data = await response.json();
             const imgH = '/falecimento/desconhecido-homem.png';
             const imgM = '/falecimento/desconhecido-mulher.png'
-            const vidroR = document.querySelector('.vidroF');
-            const tagApelido = document.getElementById('apelidoT');
-
-
-            data.sort(toDate);
-            console.log(data)
-            function ordemDecrescente(a, b) {
-
-                return a.falecimento - b.falecimento;
-            }
-
-            function ordemCrescente(a, b) {
-                console.log(toDate(b) - toDate(a))
-                return toDate(b) - toDate(a);
-            }
-
-            function toDate(fal) {
-                const parts = fal.falecimento.split("/");
-                
-                const dataFor = new Date(parts[2], parts[1] - 1, parts[0]);           
-
-                return dataFor;
-                
-            }
-            data.sort(toDate)
-            data.sort(ordemCrescente);
 
             await data.map((falec) => {
-
-                const falecID = falec.falecimento;
-                console.log(falecID + " Falec")
-
                 const falecimento = falec.falecimento;
                 const imgFalecimento = falec.imagem;
 
                 if (falec.nascimento == "") { falec.nascimento = "Desconhecido" };
 
-                if (falec.sexo == 'm') {
+                if (falec.sexo == 'm'){
                     filho = "Filho"
-                    if (imgFalecimento.length == 0) {
+                    if (imgFalecimento.length == 0){
                         falec.imagem = imgH;
                     }
 
-
+                    
                 } else {
-                    if (imgFalecimento.length == 0) {
+                    if (imgFalecimento.length == 0){
                         falec.imagem = imgM;
                     }
                 }
 
-                if (falec.apelido == ""){
-                  
-                    
-                    var apel = "";
-                } else {
-                    var apel = `Conhecido como ${falec.apelido}`
-                }
                 
-
+                console.log(imgFalecimento.length + "contagem")
+                
 
                 //imagemL.style.backgroundImage = `url(${falec.imagem})`;
                 document.querySelector('#lutoTitle').innerHTML += `
@@ -240,7 +204,6 @@
                     </div>
                     <div class="vidroF">
                         <p class="nomeF">${falec.nome}</p>
-                        <p class="aplido" id="apelidoT">${apel}</p>
                         <div class="nascFalec">
                             <i class="bi bi-star-fill"> ${falec.nascimento}</i>
                             <i class="bi bi-heartbreak-fill"> ${falec.falecimento}</i>

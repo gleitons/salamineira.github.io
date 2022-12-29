@@ -42,6 +42,8 @@ padding: .8em;
   width: 150px;
   height: 150px;
   margin-bottom: 10px;
+  filter: saturate(1.5);
+  
   
 }
 .nota {
