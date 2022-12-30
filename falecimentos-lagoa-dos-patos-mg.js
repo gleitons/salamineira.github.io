@@ -1,3 +1,6 @@
+
+
+
 const url = '/falecimentos';
 
 
@@ -83,11 +86,13 @@ async function falecidos() {
 
 
 
-
+    var con = 0;
 
     function contadorObitos() {
         document.querySelector('#testt').innerHTML = 'ok'
         var total = 0;
+        var totHomens = 0;
+        var totMulheres = 0;
 
         
         
@@ -106,12 +111,25 @@ async function falecidos() {
             
             }
             
+
+            
             total = total + tabelaEs(index)[0];
+            totHomens = totHomens + tabelaEs(index)[1];
+            totMulheres = totMulheres + tabelaEs(index)[2];
             
 
             
 
         }
+        document.querySelector('#totalCont').innerHTML += `           
+            
+                <tr>
+                    <td>Total</td>
+                    <td>${totHomens}</td>
+                    <td>${totMulheres}</td>
+                    <td>${total}</td>                             
+                </tr>                                   
+                   `
         console.log(total)
     }
 
@@ -154,11 +172,11 @@ async function falecidos() {
         }
 
 
-
-
-
-
-        document.querySelector('#lutoTitle').innerHTML += `
+        
+        con = con + 1;
+       
+            if (5 > con) {
+                document.querySelector('#lutoTitle').innerHTML += `
                 <div class="lutosC">
                     <img class="fita" src="/imagens/fita-falecimento.png" alt="">
                     <div class="imagemL">
@@ -176,12 +194,57 @@ async function falecidos() {
                     <div class="nota">
                         <p>${falec.nota}</p>
                     </div>
-                </div>
+                </div>`;
+            } else {
+            document.querySelector('#lutoTitle').innerHTML += `                
+                <div class="ocultando">
+                                <button id="cliqueOculto${con}" class="btnMostra" onclick="ocultarMostar(${con})" >${falec.nome} </br><i class="bi bi-star-fill"> ${falec.falecimento}</i></button>
+                                <div id="falecOculto${con}" class="lutosC dnone">                                    
+                                    <div>
+                                        <img class="fita" src="/imagens/fita-falecimento.png" alt="">
+                                        <div class="imagemL">
+                                            <img src="${falec.imagem}" alt="">
+                                        </div>
+                                        <div class="vidroF">
+                                            <p class="nomeF">${falec.nome}</p>
+                                            <p class="aplido" id="apelidoT">${apel}</p>
+                                            <div class="nascFalec">
+                                                <i class="bi bi-star-fill"> ${falec.nascimento}</i>
+                                                <i class="bi bi-heartbreak-fill"> ${falec.falecimento}</i>
+                                            </div>
+                                            <p class="falecMae">${filho} de ${falec.mae}</p>
+                                        </div>
+                                        <div class="nota">
+                                            <p>${falec.nota}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
             `;
+        }
+        
+            
+        
+        
+            
     });
 }
 
 falecidos();
 function verficaM(a, b) {
     return a.birthday.getTime() - b.birthday.getTime()
+}
+
+function ocultarMostar(numb) {
+    console.log(numb)
+    const botao = document.querySelector(`#cliqueOculto${numb}`);
+    const ocultado = document.querySelector(`#falecOculto${numb}`)
+
+    botao.addEventListener('click', ()=> {
+        console.log('clicoou')
+        ocultado.classList.toggle('dnone');
+       
+    })
+
+   
 }
