@@ -89,7 +89,7 @@ async function falecidos() {
     var con = 0;
 
     function contadorObitos() {
-        document.querySelector('#testt').innerHTML = 'ok'
+        document.querySelector('#testt').innerHTML = 'Estatísticas: Sempre atualizamos nossos, baseado na API <a href="https://falecidosnobrasil.org.br/resultado2.php?&nome=nome&id_ees=MG&id_ecd=1990&exata=false" href="_blank">falecidosnobrasil.org.br</a>'
         var total = 0;
         var totHomens = 0;
         var totMulheres = 0;
