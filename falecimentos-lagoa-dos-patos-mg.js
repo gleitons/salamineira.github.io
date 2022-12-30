@@ -160,7 +160,9 @@ async function falecidos() {
         } else {
             if (imgFalecimento.length == 0) {
                 falec.imagem = imgM;
+                
             }
+            filho = "Filha"
         }
 
         if (falec.apelido == "") {
