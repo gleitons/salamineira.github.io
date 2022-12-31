@@ -527,7 +527,7 @@
         "estadoFalecimento": "Minas Gerais",
         "LocalFalecimento": "Lagoa dos Patos",
         "estado": "MG",
-        "apelido":"Dona Angelina"
+        "apelido":"Sr Carrim"
     },
     
     {
@@ -2743,6 +2743,38 @@
     },
     {
         "id": 0,
+        "nome": "JOSEFA BISAVÓ",
+        "sexo": "f",
+        "imagem": "/falecimento/josefa-soares.png",
+        "nascimento": "",
+        "falecimento": "02/02/1982",
+        "nota": "De repente do riso fez-se o pranto Silencioso e branco como a bruma E das bocas unidas fez-se a espuma E das mãos espalmadas fez-se o espanto. De repente da calma fez-se o vento Que dos olhos desfez a última chama E da paixão fez-se o pressentimento E do momento imóvel fez-se o drama. De repente, não mais que de repente, Fez-se de triste o que se fez amante E de sozinho o que se fez contente. Fez-se do amigo próximo o distante, Fez-se da vida uma aventura errante De repente, não mais que de repente.",
+        "obito": "Não identificado",
+        "mae": "",
+        "natural": "Lagoa dos Patos - MG",
+        "estadoFalecimento": "MG",
+        "LocalFalecimento": "Lagoa dos Patos",
+        "estado": "MG",
+        "apelido":"Dona Zefa"
+    },
+    {
+        "id": 0,
+        "nome": "SANTA RIBEIRO DOS REIS",
+        "sexo": "f",
+        "imagem": "/falecimento/santa-ribeiro.jpg",
+        "nascimento": "",
+        "falecimento": "02/02/1982",
+        "nota": "De repente do riso fez-se o pranto Silencioso e branco como a bruma E das bocas unidas fez-se a espuma E das mãos espalmadas fez-se o espanto. De repente da calma fez-se o vento Que dos olhos desfez a última chama E da paixão fez-se o pressentimento E do momento imóvel fez-se o drama. De repente, não mais que de repente, Fez-se de triste o que se fez amante E de sozinho o que se fez contente. Fez-se do amigo próximo o distante, Fez-se da vida uma aventura errante De repente, não mais que de repente.",
+        "obito": "Não identificado",
+        "mae": "JOSEFÁ",
+        "natural": "Lagoa dos Patos - MG",
+        "estadoFalecimento": "MG",
+        "LocalFalecimento": "Lagoa dos Patos",
+        "estado": "MG",
+        "apelido":"Dona Santa de Zefa"
+    },
+    {
+        "id": 0,
         "nome": "GERALDO MARTINS DE OLIVEIRA",
         "sexo": "m",
         "imagem": "",
@@ -3352,14 +3384,14 @@
     },
     {
         "id": 1,
-        "nome": "Adão Messias",
+        "nome": "ADÃO MESSIAS ALVES",
         "sexo": "m",
         "imagem": "/falecimento/adao-jega.png",
-        "nascimento": "01/07/1970",
+        "nascimento": "",
         "falecimento": "24/05/2021",
-        "nota": "Pessoa de fé e muito mais...",
+        "nota": "",
         "obito": "Não identificado",
-        "mae": "Nome da Mãe",
+        "mae": "",
         "natural": "Lagoa dos Patos - MG",
         "estadoFalecimento": "Minas Gerais",
         "LocalFalecimento": "Lagoa dos Patos MG",

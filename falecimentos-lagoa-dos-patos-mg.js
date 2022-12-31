@@ -130,7 +130,7 @@ async function falecidos() {
                     <td>${total}</td>                             
                 </tr>                                   
                    `
-        console.log(total)
+        
     }
 
 
@@ -172,6 +172,11 @@ async function falecidos() {
         } else {
             var apel = `Conhecido como ${falec.apelido}`
         }
+        if(falec.mae == "") {
+            var mamae = "";
+        }else {
+            var mamae = `${filho} de ${falec.mae}`;
+        }
 
 
         
@@ -191,7 +196,7 @@ async function falecidos() {
                             <i class="bi bi-star-fill"> ${falec.nascimento}</i>
                             <i class="bi bi-heartbreak-fill"> ${falec.falecimento}</i>
                         </div>
-                        <p class="falecMae">${filho} de ${falec.mae}</p>
+                        <p class="falecMae">${mamae}</p>
                     </div>
                     <div class="nota">
                         <p>${falec.nota}</p>
@@ -214,7 +219,7 @@ async function falecidos() {
                                                 <i class="bi bi-star-fill"> ${falec.nascimento}</i>
                                                 <i class="bi bi-heartbreak-fill"> ${falec.falecimento}</i>
                                             </div>
-                                            <p class="falecMae">${filho} de ${falec.mae}</p>
+                                            <p class="falecMae">${mamae}</p>
                                         </div>
                                         <div class="nota">
                                             <p>${falec.nota}</p>
@@ -238,12 +243,10 @@ function verficaM(a, b) {
 }
 
 function ocultarMostar(numb) {
-    console.log(numb)
     const botao = document.querySelector(`#cliqueOculto${numb}`);
     const ocultado = document.querySelector(`#falecOculto${numb}`)
 
     botao.addEventListener('click', ()=> {
-        console.log('clicoou')
         ocultado.classList.toggle('dnone');
        
     })

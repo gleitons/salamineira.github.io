@@ -60,7 +60,7 @@ function MenuPrincipal() {
                         <a href="/"><li>Inicio</li></a>
                         <a href="/nota-fiscal"><li>nf-e</li></a>
                         <a href="/arquivos"><li>Arquivos</li></a>
-                        <a href="/falecimentos-lagoa-dos-patos-mg.html"><li>Obitos</li></a>
+                        <a href="/falecimentos-lagoa-dos-patos-mg.html"><li>Óbitos</li></a>
                         <a href="/noticias/index.html"><li>Notícias</li></a>
                         <a href="/servicos-prefeitura-lagoa-dos-patos-mg/"><li>Serviços</li></a>
                         <a href="/downloads-leis-lagoa-dos-patos-mg.html"><li>Downloads</li></a>
@@ -346,19 +346,18 @@ function decMEI2022() {
 function rdo(){
     return Math.floor(Math.random() *6);
 }
-document.getElementById('modalIndex').innerHTML = `
-<div id="myModal" class="modal">
-            <!-- Modal content -->
-            <div class="modal-content">
-                <!--nesse evento "onclick" é onde fecho a model, deve ser colocado no X-->
-                <span class="close" onclick="fecharModel()">&times;</span>
+// document.getElementById('modalIndex').innerHTML = `<div id="myModal" class="modal">
+//             <!-- Modal content -->
+//             <div class="modal-content">
+//                 <!--nesse evento "onclick" é onde fecho a model, deve ser colocado no X-->
+//                 <span class="close" onclick="fecharModel()">&times;</span>
 
-                <!-- <p>Você precisa personalizar sua model</p> -->
-                <p style="text-align: center;">.... Anúncio ....</p>
-                <a href="/as-construtora/">
-                    <img src="/imagens-sala/2022/03/as-construtora-lagoa-dos-patos-mg.jpeg"
-                        alt="AS Construtora Andeilton soares de souza AS construtora Lagoa dos Patos MG">
-                </a>
-            </div>
+//                 <!-- <p>Você precisa personalizar sua model</p> -->
+//                 <p style="text-align: center;">.... Anúncio ....</p>
+//                 <a href="/as-construtora/">
+//                     <img src="/imagens-sala/2022/03/as-construtora-lagoa-dos-patos-mg.jpeg"
+//                         alt="AS Construtora Andeilton soares de souza AS construtora Lagoa dos Patos MG">
+//                 </a>
+//             </div>
 
-        </div>`
+//         </div>`
