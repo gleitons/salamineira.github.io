@@ -2855,10 +2855,10 @@
     },
     {
         "id": 0,
-        "nome": "ALEXANDRE FELIX",
+        "nome": "ALEXANDRE ANDRADE DA SILVA",
         "sexo": "m",
         "imagem": "/falecimento/alexandre-felix.png",
-        "nascimento": "",
+        "nascimento": "02/09/1983",
         "falecimento": "30/10/2022",
         "nota": "",
         "obito": "Não identificado",
@@ -2867,7 +2867,7 @@
         "estadoFalecimento": "MG",
         "LocalFalecimento": "Pirapora",
         "estado": "MG",
-        "apelido":"Lexandre Felix"
+        "apelido":"Xande"
     },
     {
         "id": 0,

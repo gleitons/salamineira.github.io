@@ -1,23 +1,23 @@
 
 
 
-const url = '/falecimentos';
+
+ const url = '/falecimentos';
+
+// const tabelaE = document.createElement('table');
+// const headTabela = document.createElement('tbody');
+// const linhaTabela = document.createElement('tr');
+// const colunaTabela = document.createElement('td');
+// const ano = document.createTextNode("Ano");
+// const homens = document.createTextNode("Homens");
 
 
-const tabelaE = document.createElement('table');
-const headTabela = document.createElement('tbody');
-const linhaTabela = document.createElement('tr');
-const colunaTabela = document.createElement('td');
-const ano = document.createTextNode("Ano");
-const homens = document.createTextNode("Homens");
 
-
-
-colunaTabela.appendChild(ano)
-colunaTabela.appendChild(homens)
-linhaTabela.appendChild(colunaTabela);
-headTabela.appendChild(linhaTabela)
-tabelaE.appendChild(headTabela)
+// colunaTabela.appendChild(ano)
+// colunaTabela.appendChild(homens)
+// linhaTabela.appendChild(colunaTabela);
+// headTabela.appendChild(linhaTabela)
+// tabelaE.appendChild(headTabela)
 
 
 
@@ -31,12 +31,21 @@ tabelaE.appendChild(headTabela)
 
 
 async function falecidos() {
+   
+    
     const response = await fetch(url);
+
+    localStorage.setItem('dataF', response)
+    
+    
+    //JSON.parse(localStorage.getItem("profskill"))
     const data = await response.json();
     const imgH = '/falecimento/desconhecido-homem.png';
     const imgM = '/falecimento/desconhecido-mulher.png'
     const vidroR = document.querySelector('.vidroF');
     const tagApelido = document.getElementById('apelidoT');
+
+
 
 
     data.sort(toDate);
@@ -255,6 +264,16 @@ async function falecidos() {
                 <div class="modal-body">
                     <form action="https://formsquash.io/f/GQziZ1MKm2rgVMzRsaOZ" method="post">
                         <div class="mb-3">
+
+                        <label for="cars">Selecione:</label>
+                        <select class="col-form-label" name="cadastro" id="cadastro${con}">
+                        <option value="editar">Editar Cadastro</option>
+                        <option value="manter">Manter Cadastro</option>
+                        <option value="excluir">Excluir Cadastro</option>
+                        </select>
+                        <br>
+
+
                             <label for="recipient-name" class="col-form-label">Clique em cima do dado e
                                 edite:</label> <br>
 
@@ -389,29 +408,29 @@ function previewFile(num) {
     }
 }
 function fecharAbrirEnviar(nume) {
-    
+
     console.log(nume)
     const bClose = document.getElementById(`bBaixo${nume}`);
     const botaoFecha = document.querySelector(`.btnfechaModal${nume}`);
     const ocultado = document.querySelector(`#exampleModal${nume}`)
-   
+
     botaoFecha.addEventListener('click', () => {
         console.log(ocultado)
         ocultado.style.display = "none";
-        
+
     })
     bClose.addEventListener('click', () => {
         ocultado.style.display = "none";
     })
 
-    
-    
+
+
 
 }
 function abrirModal(valor) {
     const abrireEditar = document.querySelector(`#abrirEditar${valor}`);
     const abrirbotao = document.querySelector(`#exampleModal${valor}`);
-   
+
     abrireEditar.addEventListener('click', () => {
         console.log(abrirbotao)
         abrirbotao.style.display = "block";
