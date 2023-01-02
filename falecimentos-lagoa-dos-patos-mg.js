@@ -89,7 +89,7 @@ async function falecidos() {
     var con = 0;
 
     function contadorObitos() {
-        document.querySelector('#testt').innerHTML = '<p>Estatísticas: Sempre atualizamos nossos dados, baseado na API <a href="https://falecidosnobrasil.org.br/resultado2.php?&nome=nome&id_ees=MG&id_ecd=1990&exata=false" href="_blank">falecidosnobrasil.org.br</a> para enviar uma homenagem a um falecido, envie-nos um e-mail para <a href="/envie-obito-lagoa-dos-patos-mg.html">clique Aqui</a></p> <br>'
+        document.querySelector('#testt').innerHTML = '<p>Estatísticas: Sempre atualizamos nossos dados, baseado na API <a href="https://falecidosnobrasil.org.br/resultado2.php?&nome=nome&id_ees=MG&id_ecd=1990&exata=false" href="_blank">falecidosnobrasil.org.br</a> para enviar uma homenagem a um falecido, envie-nos um e-mail para <a href="/envie-obito-lagoa-dos-patos-mg.html">clique Aqui</a></p> <br> <p>*ATENÇÃO: Você pode nos ajudar com os dados dos nossos conterrâneos, basta <strong>clicar 2x no botão</strong> <i class="bi bi-pencil-fill" id="abrirEditar${con}" onclick="abrirModal(${con})"> Editar</i> para atualizar o nosso banco de dados.</p>'
         var total = 0;
         var totHomens = 0;
         var totMulheres = 0;
