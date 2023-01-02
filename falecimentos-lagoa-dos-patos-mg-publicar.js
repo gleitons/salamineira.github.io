@@ -13,7 +13,7 @@ async function falecidos() {
 
     const response = await fetch(url);
 
-    
+
 
     const data = await response.json();
 
@@ -167,6 +167,21 @@ async function falecidos() {
 
         con = con + 1;
         const nomeID = falec.nome.replace(/ /g, '');
+        const anoF = falec.falecimento.split('/');
+        const anoN = falec.nascimento.split('/');
+        console.log(falec.nascimento)
+        if (falec.nascimento == 'Desconhecido') {
+            var idadeF = '';
+            
+        } else {
+            const anoFalecimento = (`${anoF[2]}-${anoF[1]}-${anoF[0]}`)
+            const anoNascimento = (`${anoN[2]}-${anoN[1]}-${anoN[0]}`)
+            console.log(anoFalecimento + " corrgigir")
+            const idadeFOne = getAge(`${anoNascimento}`, `${anoFalecimento}`);
+            var idadeF = parseInt(idadeFOne) + " anos";
+        }
+
+
 
 
 
@@ -180,10 +195,14 @@ async function falecidos() {
                     <div class="vidroF">
                         <p class="nomeF">${falec.nome}</p>
                         <p class="aplido" id="apelidoT${apel}${con}">${apel}</p>
+                       
                         <div class="nascFalec">
                             <i class="bi bi-star-fill"> ${falec.nascimento}</i>
                             <i class="bi bi-heartbreak-fill"> ${falec.falecimento}</i>
                         </div>
+                        <strong>
+                            <p class="aplido " style="margin-bottom:.3em;" ">${idadeF}</p>
+                        </strong>
                        
                         <p class="falecMae">${mamae}</p>
                     </div>
@@ -211,6 +230,9 @@ async function falecidos() {
                                                 <i class="bi bi-star-fill"> ${falec.nascimento}</i>
                                                 <i class="bi bi-heartbreak-fill"> ${falec.falecimento}</i>
                                             </div>
+                                            <strong>
+                                            <p class="aplido " style="margin-bottom:.3em;" ">${idadeF}</p>
+                                        </strong>
                                             <p class="falecMae">${mamae}</p>
                                         </div>
                                         <div class="nota">
@@ -414,4 +436,17 @@ function abrirModal(valor) {
 
     })
 }
-
+function getAge(nascimento, falecimentoF) {
+    console.log("nasc: " + nascimento + " - " + falecimentoF + "falec <-")
+    var falecimento = new Date(falecimentoF);
+    console.log(falecimento)
+    var birthDate = new Date(nascimento);
+    var age = falecimento.getFullYear() - birthDate.getFullYear();
+    var m = falecimento.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && falecimento.getDate() < birthDate.getDate())) {
+        age--;
+    }
+    console.log(birthDate)
+    console.log(age)
+    return age;
+}
