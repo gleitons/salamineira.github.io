@@ -27,30 +27,6 @@
             (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
     </div>
-    <style>
-        .coracaoLuto {
-            width: 100%;
-            background-color: black;
-            
-        }
-        .coracaoLuto > p {
-            
-            padding: .3em;
-            width: 40%;
-            margin: .3em auto;
-            font-size: 3em;
-            text-align: center;
-            color: white;
-        }
-        @media (max-width:360px) {
-            .coracaoLuto > p {
-            
-                width: 80%;
-                font-size: 1.7em;
-                
-            }
-        }
-    </style>
 
 
     <meta charset="UTF-8">
@@ -126,10 +102,36 @@
                     <h3>28/12/2022</h3>
                 </div>
                 <div class="coracaoLuto">
-                    <p>Meu <i class="bi bi-heart-fill" ></i> está em LUTO</p>
+                    <p>Meu <i class="bi bi-heart-fill"></i> está em LUTO</p>
                 </div>
-                
+
+                <div class="lutos" style="display: none;">
+                    <div class="lutosC">
+                        <img class="fita" src="/imagens/fita-falecimento.png" alt="">
+                        <div class="imagemL">
+                            <img src="/falecimento/anjo.png" alt="">
+                        </div>
+                        <div class="vidroF">
+                            <p class="nomeF">${falec.nome}</p>
+                            <p class="aplido" id="apelidoT">${apel}</p>
+                            <div class="nascFalec">
+                                <i class="bi bi-star-fill"> ${falec.nascimento}</i>
+                                <i class="bi bi-heartbreak-fill"> ${falec.falecimento}</i>
+                            </div>
+                            <p class="falecMae">${mamae}</p>
+                        </div>
+                        <div class="nota">
+                            <p>${falec.nota}</p>
+                        </div>
+                        <div class="bntEditar">
+                            <i class="bi bi-pencil-fill" id="abrirEditar" onclick="fecharAbrirEnviar()"> Editar</i>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div>
+
                     <div class="tabFalecimentos" id="criarTabela">
 
                     </div>
@@ -200,8 +202,8 @@
             
                 <tr>
                     <td>2016</td>
-                    <td>3</td>
-                    <td>5</td>
+                    <td>4</td>
+                    <td>4</td>
                     <td>8</td>                             
                 </tr>                                   
                                 
@@ -328,9 +330,17 @@
             
                 <tr>
                     <td>2000</td>
-                    <td>3</td>
+                    <td>4</td>
                     <td>1</td>
-                    <td>4</td>                             
+                    <td>5</td>                             
+                </tr>                                   
+                                
+            
+                <tr>
+                    <td>1998</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>                             
                 </tr>                                   
                                 
             
@@ -345,9 +355,9 @@
             
                 <tr>
                     <td>Total</td>
-                    <td>138</td>
-                    <td>104</td>
-                    <td>242</td>                             
+                    <td>141</td>
+                    <td>103</td>
+                    <td>244</td>                             
                 </tr>                                   
                    </tfoot>
                         </table>
@@ -3086,7 +3096,7 @@
             <div class="modal-content">
                 <div class="modal-header dflex">
                     <h5 class="modal-title" id="exampleModalLabel30"> <i class="bi bi-heart-fill"> Ajude a
-                            editar o cadastro de GERALDO DE ARLETE - 30</i></h5>
+                            editar o cadastro de GERALDO LOPES DE ALMEIDA - 30</i></h5>
                     <button type="button" class="btn-close btnfechaModal30" data-bs-dismiss="modal" aria-label="Close" onclick="fecharAbrirEnviar(30)"><i class="bi bi-x-lg"></i></button>
                 </div>
                 <div class="modal-body">
@@ -3107,22 +3117,22 @@
 
 
                             <label class="col-form-label">Nome:</label>
-                            <input type="text" class="form-control" id="1_nome_GERALDODEARLETE30" name="1_nome_GERALDODEARLETE30" placeholder="GERALDO DE ARLETE - 30">
+                            <input type="text" class="form-control" id="1_nome_GERALDOLOPESDEALMEIDA30" name="1_nome_GERALDOLOPESDEALMEIDA30" placeholder="GERALDO LOPES DE ALMEIDA - 30">
 
                             <label class="col-form-label">Apelido:</label>
-                            <input type="text" class="form-control" id="2_apelido_GERALDODEARLETE30" name="2_apelido_GERALDODEARLETE30" placeholder=" Geraldão da Tesoura">
+                            <input type="text" class="form-control" id="2_apelido_GERALDOLOPESDEALMEIDA30" name="2_apelido_GERALDOLOPESDEALMEIDA30" placeholder=" Geraldão da Tesoura">
 
                             <label class="col-form-label">Data Nascimento:</label>
-                            <input type="date" class="form-control" id="3_nascimento-GERALDODEARLETE30" name="3_nascimento-GERALDODEARLETE30">
+                            <input type="date" class="form-control" id="3_nascimento-GERALDOLOPESDEALMEIDA30" name="3_nascimento-GERALDOLOPESDEALMEIDA30">
 
                             <label class="col-form-label">Data Falecimento:</label>
-                            <input type="date" class="form-control" id="4_falecimento-GERALDODEARLETE30" name="4_falecimento-GERALDODEARLETE30">
+                            <input type="date" class="form-control" id="4_falecimento-GERALDOLOPESDEALMEIDA30" name="4_falecimento-GERALDOLOPESDEALMEIDA30">
 
                             <label class="col-form-label">Nome da Mãe:</label>
-                            <input type="text" class="form-control" id="5_mae_GERALDODEARLETE30" name="5_mae22_GERALDODEARLETE30" placeholder="INSIRA NOME DA MÃE">
+                            <input type="text" class="form-control" id="5_mae_GERALDOLOPESDEALMEIDA30" name="5_mae22_GERALDOLOPESDEALMEIDA30" placeholder="INSIRA NOME DA MÃE">
 
                             <label class="col-form-label">Nome do Pai:</label>
-                            <input type="text" class="form-control" id="6_pai-GERALDODEARLETE30" name="6_pai-GERALDODEARLETE30" placeholder="INSIRA NOME DO PAI">
+                            <input type="text" class="form-control" id="6_pai-GERALDOLOPESDEALMEIDA30" name="6_pai-GERALDOLOPESDEALMEIDA30" placeholder="INSIRA NOME DO PAI">
 
                             <label class="col-form-label">Foto:</label> <br>
                             <p>Estamos Configurando nosso servidor para receber imagens, volte em breve.</p>
@@ -3141,24 +3151,24 @@
                             
 
                             <br><label class="col-form-label">Adicione uma Mensagem:</label> <br>
-                            <textarea class="form-control" name="9_mensagem-GERALDODEARLETE30" id="9_mensagem-GERALDODEARLETE_30" cols="30" rows="5" placeholder="Adicione uma mensagem para GERALDO DE ARLETE"></textarea>
+                            <textarea class="form-control" name="9_mensagem-GERALDOLOPESDEALMEIDA30" id="9_mensagem-GERALDOLOPESDEALMEIDA_30" cols="30" rows="5" placeholder="Adicione uma mensagem para GERALDO LOPES DE ALMEIDA"></textarea>
 
 
 
 
 
 
-                            <input type="hidden" class="form-control" id="hide-GERALDODEARLETE" name="hide-GERALDODEARLETE30" placeholder="undefined">
+                            <input type="hidden" class="form-control" id="hide-GERALDOLOPESDEALMEIDA" name="hide-GERALDOLOPESDEALMEIDA30" placeholder="undefined">
 
 
 
                             <input type="hidden" class="form-control" id="recipient-name30" readonly="">
-                            <input type="hidden" id="idFalecimentoGERALDODEARLETE30" value="22">
+                            <input type="hidden" id="idFalecimentoGERALDOLOPESDEALMEIDA30" value="22">
                         </div>
                         <div class="mb-3">
                             <label for="message-text" class="col-form-label">Mais erros? Descreva
                                 abaixo:</label>
-                            <textarea class="form-control" id="mais-errosGERALDODEARLETE30"></textarea>
+                            <textarea class="form-control" id="mais-errosGERALDOLOPESDEALMEIDA30"></textarea>
                         </div>
                         <div class="modal-footer dflex">
                             
@@ -22638,7 +22648,7 @@
             <div class="modal-content">
                 <div class="modal-header dflex">
                     <h5 class="modal-title" id="exampleModalLabel238"> <i class="bi bi-heart-fill"> Ajude a
-                            editar o cadastro de LINO ALVES DOS SANTOS - 238</i></h5>
+                            editar o cadastro de GERALDO GONÇALVES DE ALMEIDA - 238</i></h5>
                     <button type="button" class="btn-close btnfechaModal238" data-bs-dismiss="modal" aria-label="Close" onclick="fecharAbrirEnviar(238)"><i class="bi bi-x-lg"></i></button>
                 </div>
                 <div class="modal-body">
@@ -22659,22 +22669,22 @@
 
 
                             <label class="col-form-label">Nome:</label>
-                            <input type="text" class="form-control" id="1_nome_LINOALVESDOSSANTOS238" name="1_nome_LINOALVESDOSSANTOS238" placeholder="LINO ALVES DOS SANTOS - 238">
+                            <input type="text" class="form-control" id="1_nome_GERALDOGONÇALVESDEALMEIDA238" name="1_nome_GERALDOGONÇALVESDEALMEIDA238" placeholder="GERALDO GONÇALVES DE ALMEIDA - 238">
 
                             <label class="col-form-label">Apelido:</label>
-                            <input type="text" class="form-control" id="2_apelido_LINOALVESDOSSANTOS238" name="2_apelido_LINOALVESDOSSANTOS238" placeholder=" ">
+                            <input type="text" class="form-control" id="2_apelido_GERALDOGONÇALVESDEALMEIDA238" name="2_apelido_GERALDOGONÇALVESDEALMEIDA238" placeholder=" Geraldo Quininha">
 
                             <label class="col-form-label">Data Nascimento:</label>
-                            <input type="date" class="form-control" id="3_nascimento-LINOALVESDOSSANTOS238" name="3_nascimento-LINOALVESDOSSANTOS238">
+                            <input type="date" class="form-control" id="3_nascimento-GERALDOGONÇALVESDEALMEIDA238" name="3_nascimento-GERALDOGONÇALVESDEALMEIDA238">
 
                             <label class="col-form-label">Data Falecimento:</label>
-                            <input type="date" class="form-control" id="4_falecimento-LINOALVESDOSSANTOS238" name="4_falecimento-LINOALVESDOSSANTOS238">
+                            <input type="date" class="form-control" id="4_falecimento-GERALDOGONÇALVESDEALMEIDA238" name="4_falecimento-GERALDOGONÇALVESDEALMEIDA238">
 
                             <label class="col-form-label">Nome da Mãe:</label>
-                            <input type="text" class="form-control" id="5_mae_LINOALVESDOSSANTOS238" name="5_mae22_LINOALVESDOSSANTOS238" placeholder="INSIRA NOME DA MÃE">
+                            <input type="text" class="form-control" id="5_mae_GERALDOGONÇALVESDEALMEIDA238" name="5_mae22_GERALDOGONÇALVESDEALMEIDA238" placeholder="INSIRA NOME DA MÃE">
 
                             <label class="col-form-label">Nome do Pai:</label>
-                            <input type="text" class="form-control" id="6_pai-LINOALVESDOSSANTOS238" name="6_pai-LINOALVESDOSSANTOS238" placeholder="INSIRA NOME DO PAI">
+                            <input type="text" class="form-control" id="6_pai-GERALDOGONÇALVESDEALMEIDA238" name="6_pai-GERALDOGONÇALVESDEALMEIDA238" placeholder="INSIRA NOME DO PAI">
 
                             <label class="col-form-label">Foto:</label> <br>
                             <p>Estamos Configurando nosso servidor para receber imagens, volte em breve.</p>
@@ -22693,24 +22703,24 @@
                             
 
                             <br><label class="col-form-label">Adicione uma Mensagem:</label> <br>
-                            <textarea class="form-control" name="9_mensagem-LINOALVESDOSSANTOS238" id="9_mensagem-LINOALVESDOSSANTOS_238" cols="30" rows="5" placeholder="Adicione uma mensagem para LINO ALVES DOS SANTOS"></textarea>
+                            <textarea class="form-control" name="9_mensagem-GERALDOGONÇALVESDEALMEIDA238" id="9_mensagem-GERALDOGONÇALVESDEALMEIDA_238" cols="30" rows="5" placeholder="Adicione uma mensagem para GERALDO GONÇALVES DE ALMEIDA"></textarea>
 
 
 
 
 
 
-                            <input type="hidden" class="form-control" id="hide-LINOALVESDOSSANTOS" name="hide-LINOALVESDOSSANTOS238" placeholder="undefined">
+                            <input type="hidden" class="form-control" id="hide-GERALDOGONÇALVESDEALMEIDA" name="hide-GERALDOGONÇALVESDEALMEIDA238" placeholder="undefined">
 
 
 
                             <input type="hidden" class="form-control" id="recipient-name238" readonly="">
-                            <input type="hidden" id="idFalecimentoLINOALVESDOSSANTOS238" value="22">
+                            <input type="hidden" id="idFalecimentoGERALDOGONÇALVESDEALMEIDA238" value="22">
                         </div>
                         <div class="mb-3">
                             <label for="message-text" class="col-form-label">Mais erros? Descreva
                                 abaixo:</label>
-                            <textarea class="form-control" id="mais-errosLINOALVESDOSSANTOS238"></textarea>
+                            <textarea class="form-control" id="mais-errosGERALDOGONÇALVESDEALMEIDA238"></textarea>
                         </div>
                         <div class="modal-footer dflex">
                             
@@ -22732,7 +22742,7 @@
             <div class="modal-content">
                 <div class="modal-header dflex">
                     <h5 class="modal-title" id="exampleModalLabel239"> <i class="bi bi-heart-fill"> Ajude a
-                            editar o cadastro de CELESTINO LEITE DE OLIVEIRA - 239</i></h5>
+                            editar o cadastro de LINO ALVES DOS SANTOS - 239</i></h5>
                     <button type="button" class="btn-close btnfechaModal239" data-bs-dismiss="modal" aria-label="Close" onclick="fecharAbrirEnviar(239)"><i class="bi bi-x-lg"></i></button>
                 </div>
                 <div class="modal-body">
@@ -22753,22 +22763,22 @@
 
 
                             <label class="col-form-label">Nome:</label>
-                            <input type="text" class="form-control" id="1_nome_CELESTINOLEITEDEOLIVEIRA239" name="1_nome_CELESTINOLEITEDEOLIVEIRA239" placeholder="CELESTINO LEITE DE OLIVEIRA - 239">
+                            <input type="text" class="form-control" id="1_nome_LINOALVESDOSSANTOS239" name="1_nome_LINOALVESDOSSANTOS239" placeholder="LINO ALVES DOS SANTOS - 239">
 
                             <label class="col-form-label">Apelido:</label>
-                            <input type="text" class="form-control" id="2_apelido_CELESTINOLEITEDEOLIVEIRA239" name="2_apelido_CELESTINOLEITEDEOLIVEIRA239" placeholder=" ">
+                            <input type="text" class="form-control" id="2_apelido_LINOALVESDOSSANTOS239" name="2_apelido_LINOALVESDOSSANTOS239" placeholder=" ">
 
                             <label class="col-form-label">Data Nascimento:</label>
-                            <input type="date" class="form-control" id="3_nascimento-CELESTINOLEITEDEOLIVEIRA239" name="3_nascimento-CELESTINOLEITEDEOLIVEIRA239">
+                            <input type="date" class="form-control" id="3_nascimento-LINOALVESDOSSANTOS239" name="3_nascimento-LINOALVESDOSSANTOS239">
 
                             <label class="col-form-label">Data Falecimento:</label>
-                            <input type="date" class="form-control" id="4_falecimento-CELESTINOLEITEDEOLIVEIRA239" name="4_falecimento-CELESTINOLEITEDEOLIVEIRA239">
+                            <input type="date" class="form-control" id="4_falecimento-LINOALVESDOSSANTOS239" name="4_falecimento-LINOALVESDOSSANTOS239">
 
                             <label class="col-form-label">Nome da Mãe:</label>
-                            <input type="text" class="form-control" id="5_mae_CELESTINOLEITEDEOLIVEIRA239" name="5_mae22_CELESTINOLEITEDEOLIVEIRA239" placeholder="INSIRA NOME DA MÃE">
+                            <input type="text" class="form-control" id="5_mae_LINOALVESDOSSANTOS239" name="5_mae22_LINOALVESDOSSANTOS239" placeholder="INSIRA NOME DA MÃE">
 
                             <label class="col-form-label">Nome do Pai:</label>
-                            <input type="text" class="form-control" id="6_pai-CELESTINOLEITEDEOLIVEIRA239" name="6_pai-CELESTINOLEITEDEOLIVEIRA239" placeholder="INSIRA NOME DO PAI">
+                            <input type="text" class="form-control" id="6_pai-LINOALVESDOSSANTOS239" name="6_pai-LINOALVESDOSSANTOS239" placeholder="INSIRA NOME DO PAI">
 
                             <label class="col-form-label">Foto:</label> <br>
                             <p>Estamos Configurando nosso servidor para receber imagens, volte em breve.</p>
@@ -22787,24 +22797,24 @@
                             
 
                             <br><label class="col-form-label">Adicione uma Mensagem:</label> <br>
-                            <textarea class="form-control" name="9_mensagem-CELESTINOLEITEDEOLIVEIRA239" id="9_mensagem-CELESTINOLEITEDEOLIVEIRA_239" cols="30" rows="5" placeholder="Adicione uma mensagem para CELESTINO LEITE DE OLIVEIRA"></textarea>
+                            <textarea class="form-control" name="9_mensagem-LINOALVESDOSSANTOS239" id="9_mensagem-LINOALVESDOSSANTOS_239" cols="30" rows="5" placeholder="Adicione uma mensagem para LINO ALVES DOS SANTOS"></textarea>
 
 
 
 
 
 
-                            <input type="hidden" class="form-control" id="hide-CELESTINOLEITEDEOLIVEIRA" name="hide-CELESTINOLEITEDEOLIVEIRA239" placeholder="undefined">
+                            <input type="hidden" class="form-control" id="hide-LINOALVESDOSSANTOS" name="hide-LINOALVESDOSSANTOS239" placeholder="undefined">
 
 
 
                             <input type="hidden" class="form-control" id="recipient-name239" readonly="">
-                            <input type="hidden" id="idFalecimentoCELESTINOLEITEDEOLIVEIRA239" value="22">
+                            <input type="hidden" id="idFalecimentoLINOALVESDOSSANTOS239" value="22">
                         </div>
                         <div class="mb-3">
                             <label for="message-text" class="col-form-label">Mais erros? Descreva
                                 abaixo:</label>
-                            <textarea class="form-control" id="mais-errosCELESTINOLEITEDEOLIVEIRA239"></textarea>
+                            <textarea class="form-control" id="mais-errosLINOALVESDOSSANTOS239"></textarea>
                         </div>
                         <div class="modal-footer dflex">
                             
@@ -22826,7 +22836,7 @@
             <div class="modal-content">
                 <div class="modal-header dflex">
                     <h5 class="modal-title" id="exampleModalLabel240"> <i class="bi bi-heart-fill"> Ajude a
-                            editar o cadastro de MANUEL DURAES FONSECA - 240</i></h5>
+                            editar o cadastro de CELESTINO LEITE DE OLIVEIRA - 240</i></h5>
                     <button type="button" class="btn-close btnfechaModal240" data-bs-dismiss="modal" aria-label="Close" onclick="fecharAbrirEnviar(240)"><i class="bi bi-x-lg"></i></button>
                 </div>
                 <div class="modal-body">
@@ -22847,22 +22857,22 @@
 
 
                             <label class="col-form-label">Nome:</label>
-                            <input type="text" class="form-control" id="1_nome_MANUELDURAESFONSECA240" name="1_nome_MANUELDURAESFONSECA240" placeholder="MANUEL DURAES FONSECA - 240">
+                            <input type="text" class="form-control" id="1_nome_CELESTINOLEITEDEOLIVEIRA240" name="1_nome_CELESTINOLEITEDEOLIVEIRA240" placeholder="CELESTINO LEITE DE OLIVEIRA - 240">
 
                             <label class="col-form-label">Apelido:</label>
-                            <input type="text" class="form-control" id="2_apelido_MANUELDURAESFONSECA240" name="2_apelido_MANUELDURAESFONSECA240" placeholder=" ">
+                            <input type="text" class="form-control" id="2_apelido_CELESTINOLEITEDEOLIVEIRA240" name="2_apelido_CELESTINOLEITEDEOLIVEIRA240" placeholder=" ">
 
                             <label class="col-form-label">Data Nascimento:</label>
-                            <input type="date" class="form-control" id="3_nascimento-MANUELDURAESFONSECA240" name="3_nascimento-MANUELDURAESFONSECA240">
+                            <input type="date" class="form-control" id="3_nascimento-CELESTINOLEITEDEOLIVEIRA240" name="3_nascimento-CELESTINOLEITEDEOLIVEIRA240">
 
                             <label class="col-form-label">Data Falecimento:</label>
-                            <input type="date" class="form-control" id="4_falecimento-MANUELDURAESFONSECA240" name="4_falecimento-MANUELDURAESFONSECA240">
+                            <input type="date" class="form-control" id="4_falecimento-CELESTINOLEITEDEOLIVEIRA240" name="4_falecimento-CELESTINOLEITEDEOLIVEIRA240">
 
                             <label class="col-form-label">Nome da Mãe:</label>
-                            <input type="text" class="form-control" id="5_mae_MANUELDURAESFONSECA240" name="5_mae22_MANUELDURAESFONSECA240" placeholder="INSIRA NOME DA MÃE">
+                            <input type="text" class="form-control" id="5_mae_CELESTINOLEITEDEOLIVEIRA240" name="5_mae22_CELESTINOLEITEDEOLIVEIRA240" placeholder="INSIRA NOME DA MÃE">
 
                             <label class="col-form-label">Nome do Pai:</label>
-                            <input type="text" class="form-control" id="6_pai-MANUELDURAESFONSECA240" name="6_pai-MANUELDURAESFONSECA240" placeholder="INSIRA NOME DO PAI">
+                            <input type="text" class="form-control" id="6_pai-CELESTINOLEITEDEOLIVEIRA240" name="6_pai-CELESTINOLEITEDEOLIVEIRA240" placeholder="INSIRA NOME DO PAI">
 
                             <label class="col-form-label">Foto:</label> <br>
                             <p>Estamos Configurando nosso servidor para receber imagens, volte em breve.</p>
@@ -22881,24 +22891,24 @@
                             
 
                             <br><label class="col-form-label">Adicione uma Mensagem:</label> <br>
-                            <textarea class="form-control" name="9_mensagem-MANUELDURAESFONSECA240" id="9_mensagem-MANUELDURAESFONSECA_240" cols="30" rows="5" placeholder="Adicione uma mensagem para MANUEL DURAES FONSECA"></textarea>
+                            <textarea class="form-control" name="9_mensagem-CELESTINOLEITEDEOLIVEIRA240" id="9_mensagem-CELESTINOLEITEDEOLIVEIRA_240" cols="30" rows="5" placeholder="Adicione uma mensagem para CELESTINO LEITE DE OLIVEIRA"></textarea>
 
 
 
 
 
 
-                            <input type="hidden" class="form-control" id="hide-MANUELDURAESFONSECA" name="hide-MANUELDURAESFONSECA240" placeholder="undefined">
+                            <input type="hidden" class="form-control" id="hide-CELESTINOLEITEDEOLIVEIRA" name="hide-CELESTINOLEITEDEOLIVEIRA240" placeholder="undefined">
 
 
 
                             <input type="hidden" class="form-control" id="recipient-name240" readonly="">
-                            <input type="hidden" id="idFalecimentoMANUELDURAESFONSECA240" value="22">
+                            <input type="hidden" id="idFalecimentoCELESTINOLEITEDEOLIVEIRA240" value="22">
                         </div>
                         <div class="mb-3">
                             <label for="message-text" class="col-form-label">Mais erros? Descreva
                                 abaixo:</label>
-                            <textarea class="form-control" id="mais-errosMANUELDURAESFONSECA240"></textarea>
+                            <textarea class="form-control" id="mais-errosCELESTINOLEITEDEOLIVEIRA240"></textarea>
                         </div>
                         <div class="modal-footer dflex">
                             
@@ -22920,7 +22930,7 @@
             <div class="modal-content">
                 <div class="modal-header dflex">
                     <h5 class="modal-title" id="exampleModalLabel241"> <i class="bi bi-heart-fill"> Ajude a
-                            editar o cadastro de JOSEFA BISAVÓ - 241</i></h5>
+                            editar o cadastro de MANUEL DURAES FONSECA - 241</i></h5>
                     <button type="button" class="btn-close btnfechaModal241" data-bs-dismiss="modal" aria-label="Close" onclick="fecharAbrirEnviar(241)"><i class="bi bi-x-lg"></i></button>
                 </div>
                 <div class="modal-body">
@@ -22941,22 +22951,22 @@
 
 
                             <label class="col-form-label">Nome:</label>
-                            <input type="text" class="form-control" id="1_nome_JOSEFABISAVÓ241" name="1_nome_JOSEFABISAVÓ241" placeholder="JOSEFA BISAVÓ - 241">
+                            <input type="text" class="form-control" id="1_nome_MANUELDURAESFONSECA241" name="1_nome_MANUELDURAESFONSECA241" placeholder="MANUEL DURAES FONSECA - 241">
 
                             <label class="col-form-label">Apelido:</label>
-                            <input type="text" class="form-control" id="2_apelido_JOSEFABISAVÓ241" name="2_apelido_JOSEFABISAVÓ241" placeholder=" Dona Zefa">
+                            <input type="text" class="form-control" id="2_apelido_MANUELDURAESFONSECA241" name="2_apelido_MANUELDURAESFONSECA241" placeholder=" ">
 
                             <label class="col-form-label">Data Nascimento:</label>
-                            <input type="date" class="form-control" id="3_nascimento-JOSEFABISAVÓ241" name="3_nascimento-JOSEFABISAVÓ241">
+                            <input type="date" class="form-control" id="3_nascimento-MANUELDURAESFONSECA241" name="3_nascimento-MANUELDURAESFONSECA241">
 
                             <label class="col-form-label">Data Falecimento:</label>
-                            <input type="date" class="form-control" id="4_falecimento-JOSEFABISAVÓ241" name="4_falecimento-JOSEFABISAVÓ241">
+                            <input type="date" class="form-control" id="4_falecimento-MANUELDURAESFONSECA241" name="4_falecimento-MANUELDURAESFONSECA241">
 
                             <label class="col-form-label">Nome da Mãe:</label>
-                            <input type="text" class="form-control" id="5_mae_JOSEFABISAVÓ241" name="5_mae22_JOSEFABISAVÓ241" placeholder="INSIRA NOME DA MÃE">
+                            <input type="text" class="form-control" id="5_mae_MANUELDURAESFONSECA241" name="5_mae22_MANUELDURAESFONSECA241" placeholder="INSIRA NOME DA MÃE">
 
                             <label class="col-form-label">Nome do Pai:</label>
-                            <input type="text" class="form-control" id="6_pai-JOSEFABISAVÓ241" name="6_pai-JOSEFABISAVÓ241" placeholder="INSIRA NOME DO PAI">
+                            <input type="text" class="form-control" id="6_pai-MANUELDURAESFONSECA241" name="6_pai-MANUELDURAESFONSECA241" placeholder="INSIRA NOME DO PAI">
 
                             <label class="col-form-label">Foto:</label> <br>
                             <p>Estamos Configurando nosso servidor para receber imagens, volte em breve.</p>
@@ -22975,24 +22985,24 @@
                             
 
                             <br><label class="col-form-label">Adicione uma Mensagem:</label> <br>
-                            <textarea class="form-control" name="9_mensagem-JOSEFABISAVÓ241" id="9_mensagem-JOSEFABISAVÓ_241" cols="30" rows="5" placeholder="Adicione uma mensagem para JOSEFA BISAVÓ"></textarea>
+                            <textarea class="form-control" name="9_mensagem-MANUELDURAESFONSECA241" id="9_mensagem-MANUELDURAESFONSECA_241" cols="30" rows="5" placeholder="Adicione uma mensagem para MANUEL DURAES FONSECA"></textarea>
 
 
 
 
 
 
-                            <input type="hidden" class="form-control" id="hide-JOSEFABISAVÓ" name="hide-JOSEFABISAVÓ241" placeholder="undefined">
+                            <input type="hidden" class="form-control" id="hide-MANUELDURAESFONSECA" name="hide-MANUELDURAESFONSECA241" placeholder="undefined">
 
 
 
                             <input type="hidden" class="form-control" id="recipient-name241" readonly="">
-                            <input type="hidden" id="idFalecimentoJOSEFABISAVÓ241" value="22">
+                            <input type="hidden" id="idFalecimentoMANUELDURAESFONSECA241" value="22">
                         </div>
                         <div class="mb-3">
                             <label for="message-text" class="col-form-label">Mais erros? Descreva
                                 abaixo:</label>
-                            <textarea class="form-control" id="mais-errosJOSEFABISAVÓ241"></textarea>
+                            <textarea class="form-control" id="mais-errosMANUELDURAESFONSECA241"></textarea>
                         </div>
                         <div class="modal-footer dflex">
                             
@@ -23014,7 +23024,7 @@
             <div class="modal-content">
                 <div class="modal-header dflex">
                     <h5 class="modal-title" id="exampleModalLabel242"> <i class="bi bi-heart-fill"> Ajude a
-                            editar o cadastro de SANTA RIBEIRO DOS REIS - 242</i></h5>
+                            editar o cadastro de ALTINA GONÇALVES - 242</i></h5>
                     <button type="button" class="btn-close btnfechaModal242" data-bs-dismiss="modal" aria-label="Close" onclick="fecharAbrirEnviar(242)"><i class="bi bi-x-lg"></i></button>
                 </div>
                 <div class="modal-body">
@@ -23035,22 +23045,22 @@
 
 
                             <label class="col-form-label">Nome:</label>
-                            <input type="text" class="form-control" id="1_nome_SANTARIBEIRODOSREIS242" name="1_nome_SANTARIBEIRODOSREIS242" placeholder="SANTA RIBEIRO DOS REIS - 242">
+                            <input type="text" class="form-control" id="1_nome_ALTINAGONÇALVES242" name="1_nome_ALTINAGONÇALVES242" placeholder="ALTINA GONÇALVES - 242">
 
                             <label class="col-form-label">Apelido:</label>
-                            <input type="text" class="form-control" id="2_apelido_SANTARIBEIRODOSREIS242" name="2_apelido_SANTARIBEIRODOSREIS242" placeholder=" Dona Santa de Zefa">
+                            <input type="text" class="form-control" id="2_apelido_ALTINAGONÇALVES242" name="2_apelido_ALTINAGONÇALVES242" placeholder=" ">
 
                             <label class="col-form-label">Data Nascimento:</label>
-                            <input type="date" class="form-control" id="3_nascimento-SANTARIBEIRODOSREIS242" name="3_nascimento-SANTARIBEIRODOSREIS242">
+                            <input type="date" class="form-control" id="3_nascimento-ALTINAGONÇALVES242" name="3_nascimento-ALTINAGONÇALVES242">
 
                             <label class="col-form-label">Data Falecimento:</label>
-                            <input type="date" class="form-control" id="4_falecimento-SANTARIBEIRODOSREIS242" name="4_falecimento-SANTARIBEIRODOSREIS242">
+                            <input type="date" class="form-control" id="4_falecimento-ALTINAGONÇALVES242" name="4_falecimento-ALTINAGONÇALVES242">
 
                             <label class="col-form-label">Nome da Mãe:</label>
-                            <input type="text" class="form-control" id="5_mae_SANTARIBEIRODOSREIS242" name="5_mae22_SANTARIBEIRODOSREIS242" placeholder="INSIRA NOME DA MÃE">
+                            <input type="text" class="form-control" id="5_mae_ALTINAGONÇALVES242" name="5_mae22_ALTINAGONÇALVES242" placeholder="INSIRA NOME DA MÃE">
 
                             <label class="col-form-label">Nome do Pai:</label>
-                            <input type="text" class="form-control" id="6_pai-SANTARIBEIRODOSREIS242" name="6_pai-SANTARIBEIRODOSREIS242" placeholder="INSIRA NOME DO PAI">
+                            <input type="text" class="form-control" id="6_pai-ALTINAGONÇALVES242" name="6_pai-ALTINAGONÇALVES242" placeholder="INSIRA NOME DO PAI">
 
                             <label class="col-form-label">Foto:</label> <br>
                             <p>Estamos Configurando nosso servidor para receber imagens, volte em breve.</p>
@@ -23069,28 +23079,216 @@
                             
 
                             <br><label class="col-form-label">Adicione uma Mensagem:</label> <br>
-                            <textarea class="form-control" name="9_mensagem-SANTARIBEIRODOSREIS242" id="9_mensagem-SANTARIBEIRODOSREIS_242" cols="30" rows="5" placeholder="Adicione uma mensagem para SANTA RIBEIRO DOS REIS"></textarea>
+                            <textarea class="form-control" name="9_mensagem-ALTINAGONÇALVES242" id="9_mensagem-ALTINAGONÇALVES_242" cols="30" rows="5" placeholder="Adicione uma mensagem para ALTINA GONÇALVES"></textarea>
 
 
 
 
 
 
-                            <input type="hidden" class="form-control" id="hide-SANTARIBEIRODOSREIS" name="hide-SANTARIBEIRODOSREIS242" placeholder="undefined">
+                            <input type="hidden" class="form-control" id="hide-ALTINAGONÇALVES" name="hide-ALTINAGONÇALVES242" placeholder="undefined">
 
 
 
                             <input type="hidden" class="form-control" id="recipient-name242" readonly="">
-                            <input type="hidden" id="idFalecimentoSANTARIBEIRODOSREIS242" value="22">
+                            <input type="hidden" id="idFalecimentoALTINAGONÇALVES242" value="22">
                         </div>
                         <div class="mb-3">
                             <label for="message-text" class="col-form-label">Mais erros? Descreva
                                 abaixo:</label>
-                            <textarea class="form-control" id="mais-errosSANTARIBEIRODOSREIS242"></textarea>
+                            <textarea class="form-control" id="mais-errosALTINAGONÇALVES242"></textarea>
                         </div>
                         <div class="modal-footer dflex">
                             
                             <button type="button" class="btn btn-secondary " data-bs-dismiss="modal" id="bBaixo242" onclick="fecharAbrirEnviar(242)">Fechar</button>
+                           
+                                <input type="submit" class="btn btn-primary"><i class="bi bi-heart-fill"> Ajudar</i>
+                            
+                        </div>
+                    </form>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+        <div class="modal" id="exampleModal243" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header dflex">
+                    <h5 class="modal-title" id="exampleModalLabel243"> <i class="bi bi-heart-fill"> Ajude a
+                            editar o cadastro de JOSEFA BISAVÓ - 243</i></h5>
+                    <button type="button" class="btn-close btnfechaModal243" data-bs-dismiss="modal" aria-label="Close" onclick="fecharAbrirEnviar(243)"><i class="bi bi-x-lg"></i></button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://formsquash.io/f/GQziZ1MKm2rgVMzRsaOZ" method="post">
+                        <div class="mb-3">
+
+                        <label for="cars">Selecione:</label>
+                        <select class="col-form-label" name="cadastro" id="cadastro243">
+                        <option value="editar">Editar Cadastro</option>
+                        <option value="manter">Manter Cadastro</option>
+                        <option value="excluir">Excluir Cadastro</option>
+                        </select>
+                        <br>
+
+
+                            <label for="recipient-name" class="col-form-label">Clique em cima do dado e
+                                edite:</label> <br>
+
+
+                            <label class="col-form-label">Nome:</label>
+                            <input type="text" class="form-control" id="1_nome_JOSEFABISAVÓ243" name="1_nome_JOSEFABISAVÓ243" placeholder="JOSEFA BISAVÓ - 243">
+
+                            <label class="col-form-label">Apelido:</label>
+                            <input type="text" class="form-control" id="2_apelido_JOSEFABISAVÓ243" name="2_apelido_JOSEFABISAVÓ243" placeholder=" Dona Zefa">
+
+                            <label class="col-form-label">Data Nascimento:</label>
+                            <input type="date" class="form-control" id="3_nascimento-JOSEFABISAVÓ243" name="3_nascimento-JOSEFABISAVÓ243">
+
+                            <label class="col-form-label">Data Falecimento:</label>
+                            <input type="date" class="form-control" id="4_falecimento-JOSEFABISAVÓ243" name="4_falecimento-JOSEFABISAVÓ243">
+
+                            <label class="col-form-label">Nome da Mãe:</label>
+                            <input type="text" class="form-control" id="5_mae_JOSEFABISAVÓ243" name="5_mae22_JOSEFABISAVÓ243" placeholder="INSIRA NOME DA MÃE">
+
+                            <label class="col-form-label">Nome do Pai:</label>
+                            <input type="text" class="form-control" id="6_pai-JOSEFABISAVÓ243" name="6_pai-JOSEFABISAVÓ243" placeholder="INSIRA NOME DO PAI">
+
+                            <label class="col-form-label">Foto:</label> <br>
+                            <p>Estamos Configurando nosso servidor para receber imagens, volte em breve.</p>
+                            <p>Caso deseje, poderá enviar uma foto em especial <a href="/envie-obito-lagoa-dos-patos-mg.html">clicando aqui</a>.</p>
+                            
+                            <input class="form-control" name="99_imagemLogo" id="valueImg243" onchange="previewFile(243)" accept="image/*" type="hidden" readonly="">
+
+                            <input type="hidden" name="99_logoImagem64" id="logoEmpresa243">
+
+
+                            <div class="fotoHomenagem">
+
+                                <img src="" alt="" id="previewfoto243">
+
+                            </div>
+                            
+
+                            <br><label class="col-form-label">Adicione uma Mensagem:</label> <br>
+                            <textarea class="form-control" name="9_mensagem-JOSEFABISAVÓ243" id="9_mensagem-JOSEFABISAVÓ_243" cols="30" rows="5" placeholder="Adicione uma mensagem para JOSEFA BISAVÓ"></textarea>
+
+
+
+
+
+
+                            <input type="hidden" class="form-control" id="hide-JOSEFABISAVÓ" name="hide-JOSEFABISAVÓ243" placeholder="undefined">
+
+
+
+                            <input type="hidden" class="form-control" id="recipient-name243" readonly="">
+                            <input type="hidden" id="idFalecimentoJOSEFABISAVÓ243" value="22">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Mais erros? Descreva
+                                abaixo:</label>
+                            <textarea class="form-control" id="mais-errosJOSEFABISAVÓ243"></textarea>
+                        </div>
+                        <div class="modal-footer dflex">
+                            
+                            <button type="button" class="btn btn-secondary " data-bs-dismiss="modal" id="bBaixo243" onclick="fecharAbrirEnviar(243)">Fechar</button>
+                           
+                                <input type="submit" class="btn btn-primary"><i class="bi bi-heart-fill"> Ajudar</i>
+                            
+                        </div>
+                    </form>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+        <div class="modal" id="exampleModal244" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header dflex">
+                    <h5 class="modal-title" id="exampleModalLabel244"> <i class="bi bi-heart-fill"> Ajude a
+                            editar o cadastro de SANTA RIBEIRO DOS REIS - 244</i></h5>
+                    <button type="button" class="btn-close btnfechaModal244" data-bs-dismiss="modal" aria-label="Close" onclick="fecharAbrirEnviar(244)"><i class="bi bi-x-lg"></i></button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://formsquash.io/f/GQziZ1MKm2rgVMzRsaOZ" method="post">
+                        <div class="mb-3">
+
+                        <label for="cars">Selecione:</label>
+                        <select class="col-form-label" name="cadastro" id="cadastro244">
+                        <option value="editar">Editar Cadastro</option>
+                        <option value="manter">Manter Cadastro</option>
+                        <option value="excluir">Excluir Cadastro</option>
+                        </select>
+                        <br>
+
+
+                            <label for="recipient-name" class="col-form-label">Clique em cima do dado e
+                                edite:</label> <br>
+
+
+                            <label class="col-form-label">Nome:</label>
+                            <input type="text" class="form-control" id="1_nome_SANTARIBEIRODOSREIS244" name="1_nome_SANTARIBEIRODOSREIS244" placeholder="SANTA RIBEIRO DOS REIS - 244">
+
+                            <label class="col-form-label">Apelido:</label>
+                            <input type="text" class="form-control" id="2_apelido_SANTARIBEIRODOSREIS244" name="2_apelido_SANTARIBEIRODOSREIS244" placeholder=" Dona Santa de Zefa">
+
+                            <label class="col-form-label">Data Nascimento:</label>
+                            <input type="date" class="form-control" id="3_nascimento-SANTARIBEIRODOSREIS244" name="3_nascimento-SANTARIBEIRODOSREIS244">
+
+                            <label class="col-form-label">Data Falecimento:</label>
+                            <input type="date" class="form-control" id="4_falecimento-SANTARIBEIRODOSREIS244" name="4_falecimento-SANTARIBEIRODOSREIS244">
+
+                            <label class="col-form-label">Nome da Mãe:</label>
+                            <input type="text" class="form-control" id="5_mae_SANTARIBEIRODOSREIS244" name="5_mae22_SANTARIBEIRODOSREIS244" placeholder="INSIRA NOME DA MÃE">
+
+                            <label class="col-form-label">Nome do Pai:</label>
+                            <input type="text" class="form-control" id="6_pai-SANTARIBEIRODOSREIS244" name="6_pai-SANTARIBEIRODOSREIS244" placeholder="INSIRA NOME DO PAI">
+
+                            <label class="col-form-label">Foto:</label> <br>
+                            <p>Estamos Configurando nosso servidor para receber imagens, volte em breve.</p>
+                            <p>Caso deseje, poderá enviar uma foto em especial <a href="/envie-obito-lagoa-dos-patos-mg.html">clicando aqui</a>.</p>
+                            
+                            <input class="form-control" name="99_imagemLogo" id="valueImg244" onchange="previewFile(244)" accept="image/*" type="hidden" readonly="">
+
+                            <input type="hidden" name="99_logoImagem64" id="logoEmpresa244">
+
+
+                            <div class="fotoHomenagem">
+
+                                <img src="" alt="" id="previewfoto244">
+
+                            </div>
+                            
+
+                            <br><label class="col-form-label">Adicione uma Mensagem:</label> <br>
+                            <textarea class="form-control" name="9_mensagem-SANTARIBEIRODOSREIS244" id="9_mensagem-SANTARIBEIRODOSREIS_244" cols="30" rows="5" placeholder="Adicione uma mensagem para SANTA RIBEIRO DOS REIS"></textarea>
+
+
+
+
+
+
+                            <input type="hidden" class="form-control" id="hide-SANTARIBEIRODOSREIS" name="hide-SANTARIBEIRODOSREIS244" placeholder="undefined">
+
+
+
+                            <input type="hidden" class="form-control" id="recipient-name244" readonly="">
+                            <input type="hidden" id="idFalecimentoSANTARIBEIRODOSREIS244" value="22">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Mais erros? Descreva
+                                abaixo:</label>
+                            <textarea class="form-control" id="mais-errosSANTARIBEIRODOSREIS244"></textarea>
+                        </div>
+                        <div class="modal-footer dflex">
+                            
+                            <button type="button" class="btn btn-secondary " data-bs-dismiss="modal" id="bBaixo244" onclick="fecharAbrirEnviar(244)">Fechar</button>
                            
                                 <input type="submit" class="btn btn-primary"><i class="bi bi-heart-fill"> Ajudar</i>
                             
@@ -23121,6 +23319,7 @@
                             <i class="bi bi-star-fill"> Desconhecido</i>
                             <i class="bi bi-heartbreak-fill"> 16/12/2022</i>
                         </div>
+                       
                         <p class="falecMae"></p>
                     </div>
                     <div class="nota">
@@ -23142,6 +23341,7 @@
                             <i class="bi bi-star-fill"> Desconhecido</i>
                             <i class="bi bi-heartbreak-fill"> 03/12/2022</i>
                         </div>
+                       
                         <p class="falecMae"></p>
                     </div>
                     <div class="nota">
@@ -23163,6 +23363,7 @@
                             <i class="bi bi-star-fill"> 29/01/1928</i>
                             <i class="bi bi-heartbreak-fill"> 30/11/2022</i>
                         </div>
+                       
                         <p class="falecMae"></p>
                     </div>
                     <div class="nota">
@@ -23184,6 +23385,7 @@
                             <i class="bi bi-star-fill"> Desconhecido</i>
                             <i class="bi bi-heartbreak-fill"> 19/11/2022</i>
                         </div>
+                       
                         <p class="falecMae"></p>
                     </div>
                     <div class="nota">
@@ -23869,24 +24071,24 @@
                             </div>
                             
                 <div class="ocultando">
-                                <button id="cliqueOculto30" class="btnMostra" onclick="ocultarMostar(30)">GERALDO DE ARLETE <br><i class="bi bi-star-fill"> 27/02/2022</i></button>
-                                <div id="falecOculto30" class="lutosC dnone">                                    
+                                <button id="cliqueOculto30" class="btnMostra" onclick="ocultarMostar(30)">GERALDO LOPES DE ALMEIDA <br><i class="bi bi-star-fill"> 27/02/2022</i></button>
+                                <div id="falecOculto30" class="lutosC">                                    
                                     <div>
                                         <img class="fita" src="/imagens/fita-falecimento.png" alt="">
                                         <div class="imagemL">
                                             <img src="/falecimento/desconhecido-homem.png" alt="">
                                         </div>
                                         <div class="vidroF">
-                                            <p class="nomeF">GERALDO DE ARLETE</p>
+                                            <p class="nomeF">GERALDO LOPES DE ALMEIDA</p>
                                             <p class="aplido" id="apelidoT">Conhecido como Geraldão da Tesoura</p>
                                             <div class="nascFalec">
-                                                <i class="bi bi-star-fill"> Desconhecido</i>
+                                                <i class="bi bi-star-fill"> 06/09/1988</i>
                                                 <i class="bi bi-heartbreak-fill"> 27/02/2022</i>
                                             </div>
-                                            <p class="falecMae"></p>
+                                            <p class="falecMae">Filho de DILCELIA LEITE LOPES BARBOSA E HOMERO ALMEIDA</p>
                                         </div>
                                         <div class="nota">
-                                            <p></p>
+                                            <p>Será eternamente lembrado em nossas memórias, sempre bons momentos, saudades eternas mano!!</p>
                                         </div>
                                         <div class="bntEditar">
                                         <i class="bi bi-pencil-fill" id="abrirEditar30" onclick="abrirModal(30)"> Editar</i>
@@ -25629,7 +25831,7 @@
                                     <div>
                                         <img class="fita" src="/imagens/fita-falecimento.png" alt="">
                                         <div class="imagemL">
-                                            <img src="/falecimento/desconhecido-mulher.png" alt="">
+                                            <img src="/falecimento/desconhecido-homem.png" alt="">
                                         </div>
                                         <div class="vidroF">
                                             <p class="nomeF">CALIXTO PEREIRA DE SOUZA</p>
@@ -25638,7 +25840,7 @@
                                                 <i class="bi bi-star-fill"> Desconhecido</i>
                                                 <i class="bi bi-heartbreak-fill"> 16/01/2016</i>
                                             </div>
-                                            <p class="falecMae">Filha de BENTA LEITE PEREIRA</p>
+                                            <p class="falecMae">Filho de BENTA LEITE PEREIRA</p>
                                         </div>
                                         <div class="nota">
                                             <p></p>
@@ -29485,8 +29687,35 @@
                             </div>
                             
                 <div class="ocultando">
-                                <button id="cliqueOculto238" class="btnMostra" onclick="ocultarMostar(238)">LINO ALVES DOS SANTOS <br><i class="bi bi-star-fill"> 26/08/2000</i></button>
+                                <button id="cliqueOculto238" class="btnMostra" onclick="ocultarMostar(238)">GERALDO GONÇALVES DE ALMEIDA <br><i class="bi bi-star-fill"> 30/10/2000</i></button>
                                 <div id="falecOculto238" class="lutosC dnone">                                    
+                                    <div>
+                                        <img class="fita" src="/imagens/fita-falecimento.png" alt="">
+                                        <div class="imagemL">
+                                            <img src="/falecimento/desconhecido-homem.png" alt="">
+                                        </div>
+                                        <div class="vidroF">
+                                            <p class="nomeF">GERALDO GONÇALVES DE ALMEIDA</p>
+                                            <p class="aplido" id="apelidoT">Conhecido como Geraldo Quininha</p>
+                                            <div class="nascFalec">
+                                                <i class="bi bi-star-fill"> Desconhecido</i>
+                                                <i class="bi bi-heartbreak-fill"> 30/10/2000</i>
+                                            </div>
+                                            <p class="falecMae"></p>
+                                        </div>
+                                        <div class="nota">
+                                            <p></p>
+                                        </div>
+                                        <div class="bntEditar">
+                                        <i class="bi bi-pencil-fill" id="abrirEditar238" onclick="abrirModal(238)"> Editar</i>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                <div class="ocultando">
+                                <button id="cliqueOculto239" class="btnMostra" onclick="ocultarMostar(239)">LINO ALVES DOS SANTOS <br><i class="bi bi-star-fill"> 26/08/2000</i></button>
+                                <div id="falecOculto239" class="lutosC dnone">                                    
                                     <div>
                                         <img class="fita" src="/imagens/fita-falecimento.png" alt="">
                                         <div class="imagemL">
@@ -29505,15 +29734,15 @@
                                             <p></p>
                                         </div>
                                         <div class="bntEditar">
-                                        <i class="bi bi-pencil-fill" id="abrirEditar238" onclick="abrirModal(238)"> Editar</i>
+                                        <i class="bi bi-pencil-fill" id="abrirEditar239" onclick="abrirModal(239)"> Editar</i>
                                     </div>
                                     </div>
                                 </div>
                             </div>
                             
                 <div class="ocultando">
-                                <button id="cliqueOculto239" class="btnMostra" onclick="ocultarMostar(239)">CELESTINO LEITE DE OLIVEIRA <br><i class="bi bi-star-fill"> 15/04/2000</i></button>
-                                <div id="falecOculto239" class="lutosC dnone">                                    
+                                <button id="cliqueOculto240" class="btnMostra" onclick="ocultarMostar(240)">CELESTINO LEITE DE OLIVEIRA <br><i class="bi bi-star-fill"> 15/04/2000</i></button>
+                                <div id="falecOculto240" class="lutosC dnone">                                    
                                     <div>
                                         <img class="fita" src="/imagens/fita-falecimento.png" alt="">
                                         <div class="imagemL">
@@ -29532,15 +29761,15 @@
                                             <p></p>
                                         </div>
                                         <div class="bntEditar">
-                                        <i class="bi bi-pencil-fill" id="abrirEditar239" onclick="abrirModal(239)"> Editar</i>
+                                        <i class="bi bi-pencil-fill" id="abrirEditar240" onclick="abrirModal(240)"> Editar</i>
                                     </div>
                                     </div>
                                 </div>
                             </div>
                             
                 <div class="ocultando">
-                                <button id="cliqueOculto240" class="btnMostra" onclick="ocultarMostar(240)">MANUEL DURAES FONSECA <br><i class="bi bi-star-fill"> 16/01/2000</i></button>
-                                <div id="falecOculto240" class="lutosC dnone">                                    
+                                <button id="cliqueOculto241" class="btnMostra" onclick="ocultarMostar(241)">MANUEL DURAES FONSECA <br><i class="bi bi-star-fill"> 16/01/2000</i></button>
+                                <div id="falecOculto241" class="lutosC dnone">                                    
                                     <div>
                                         <img class="fita" src="/imagens/fita-falecimento.png" alt="">
                                         <div class="imagemL">
@@ -29559,15 +29788,42 @@
                                             <p></p>
                                         </div>
                                         <div class="bntEditar">
-                                        <i class="bi bi-pencil-fill" id="abrirEditar240" onclick="abrirModal(240)"> Editar</i>
+                                        <i class="bi bi-pencil-fill" id="abrirEditar241" onclick="abrirModal(241)"> Editar</i>
                                     </div>
                                     </div>
                                 </div>
                             </div>
                             
                 <div class="ocultando">
-                                <button id="cliqueOculto241" class="btnMostra" onclick="ocultarMostar(241)">JOSEFA BISAVÓ <br><i class="bi bi-star-fill"> 02/02/1982</i></button>
-                                <div id="falecOculto241" class="lutosC dnone">                                    
+                                <button id="cliqueOculto242" class="btnMostra" onclick="ocultarMostar(242)">ALTINA GONÇALVES <br><i class="bi bi-star-fill"> 16/01/1998</i></button>
+                                <div id="falecOculto242" class="lutosC dnone">                                    
+                                    <div>
+                                        <img class="fita" src="/imagens/fita-falecimento.png" alt="">
+                                        <div class="imagemL">
+                                            <img src="/falecimento/desconhecido-homem.png" alt="">
+                                        </div>
+                                        <div class="vidroF">
+                                            <p class="nomeF">ALTINA GONÇALVES</p>
+                                            <p class="aplido" id="apelidoT"></p>
+                                            <div class="nascFalec">
+                                                <i class="bi bi-star-fill"> Desconhecido</i>
+                                                <i class="bi bi-heartbreak-fill"> 16/01/1998</i>
+                                            </div>
+                                            <p class="falecMae"></p>
+                                        </div>
+                                        <div class="nota">
+                                            <p></p>
+                                        </div>
+                                        <div class="bntEditar">
+                                        <i class="bi bi-pencil-fill" id="abrirEditar242" onclick="abrirModal(242)"> Editar</i>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                <div class="ocultando">
+                                <button id="cliqueOculto243" class="btnMostra" onclick="ocultarMostar(243)">JOSEFA BISAVÓ <br><i class="bi bi-star-fill"> 02/02/1982</i></button>
+                                <div id="falecOculto243" class="lutosC dnone">                                    
                                     <div>
                                         <img class="fita" src="/imagens/fita-falecimento.png" alt="">
                                         <div class="imagemL">
@@ -29586,15 +29842,15 @@
                                             <p>De repente do riso fez-se o pranto Silencioso e branco como a bruma E das bocas unidas fez-se a espuma E das mãos espalmadas fez-se o espanto. De repente da calma fez-se o vento Que dos olhos desfez a última chama E da paixão fez-se o pressentimento E do momento imóvel fez-se o drama. De repente, não mais que de repente, Fez-se de triste o que se fez amante E de sozinho o que se fez contente. Fez-se do amigo próximo o distante, Fez-se da vida uma aventura errante De repente, não mais que de repente.</p>
                                         </div>
                                         <div class="bntEditar">
-                                        <i class="bi bi-pencil-fill" id="abrirEditar241" onclick="abrirModal(241)"> Editar</i>
+                                        <i class="bi bi-pencil-fill" id="abrirEditar243" onclick="abrirModal(243)"> Editar</i>
                                     </div>
                                     </div>
                                 </div>
                             </div>
                             
                 <div class="ocultando">
-                                <button id="cliqueOculto242" class="btnMostra" onclick="ocultarMostar(242)">SANTA RIBEIRO DOS REIS <br><i class="bi bi-star-fill"> 02/02/1982</i></button>
-                                <div id="falecOculto242" class="lutosC dnone">                                    
+                                <button id="cliqueOculto244" class="btnMostra" onclick="ocultarMostar(244)">SANTA RIBEIRO DOS REIS <br><i class="bi bi-star-fill"> 02/02/1982</i></button>
+                                <div id="falecOculto244" class="lutosC dnone">                                    
                                     <div>
                                         <img class="fita" src="/imagens/fita-falecimento.png" alt="">
                                         <div class="imagemL">
@@ -29613,7 +29869,7 @@
                                             <p>De repente do riso fez-se o pranto Silencioso e branco como a bruma E das bocas unidas fez-se a espuma E das mãos espalmadas fez-se o espanto. De repente da calma fez-se o vento Que dos olhos desfez a última chama E da paixão fez-se o pressentimento E do momento imóvel fez-se o drama. De repente, não mais que de repente, Fez-se de triste o que se fez amante E de sozinho o que se fez contente. Fez-se do amigo próximo o distante, Fez-se da vida uma aventura errante De repente, não mais que de repente.</p>
                                         </div>
                                         <div class="bntEditar">
-                                        <i class="bi bi-pencil-fill" id="abrirEditar242" onclick="abrirModal(242)"> Editar</i>
+                                        <i class="bi bi-pencil-fill" id="abrirEditar244" onclick="abrirModal(244)"> Editar</i>
                                     </div>
                                     </div>
                                 </div>
@@ -29621,7 +29877,11 @@
             </div>
 
 
-                <div class="propagandaArtigo" id="propArtifo"></div>
+                <div class="propagandaArtigo" id="propArtifo"><script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8921692840146247" crossorigin="anonymous"></script>
+    <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-6x+dw+1m-1u+3o" data-ad-client="ca-pub-8921692840146247" data-ad-slot="4354203081"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script></div>
                 <div class="comentarios" id="obrigadoPeloEnvio2">
                     <h2>Deixe seu comentário</h2>
                     <div class="disclaimerComentario">
@@ -29634,7 +29894,7 @@
                         </p>
 
                     </div>
-                    <div class="coment fb-comments fb_iframe_widget fb_iframe_widget_fluid_desktop" data-href="https://www.salamineira.com/falecimentos-lagoa-dos-patos-mg.html" data-width="" data-numposts="5" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=850&amp;height=100&amp;href=https%3A%2F%2Fwww.salamineira.com%2Ffalecimentos-lagoa-dos-patos-mg.html&amp;locale=pt_BR&amp;numposts=5&amp;sdk=joey&amp;version=v12.0&amp;width=550"><span style="vertical-align: bottom; width: 550px; height: 205px;"><iframe name="f25fc2dc772828" width="550px" height="100px" data-testid="fb:comments Facebook Social Plugin" title="fb:comments Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v12.0/plugins/comments.php?app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df33baa90587efa%26domain%3Dwww.salamineira.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.salamineira.com%252Ff112278440922c4%26relation%3Dparent.parent&amp;container_width=850&amp;height=100&amp;href=https%3A%2F%2Fwww.salamineira.com%2Ffalecimentos-lagoa-dos-patos-mg.html&amp;locale=pt_BR&amp;numposts=5&amp;sdk=joey&amp;version=v12.0&amp;width=550" style="border: none; visibility: visible; width: 550px; height: 205px;" class=""></iframe></span></div>
+                    <div class="coment fb-comments fb_iframe_widget fb_iframe_widget_fluid_desktop" data-href="https://www.salamineira.com/falecimentos-lagoa-dos-patos-mg.html" data-width="" data-numposts="5" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=850&amp;height=100&amp;href=https%3A%2F%2Fwww.salamineira.com%2Ffalecimentos-lagoa-dos-patos-mg.html&amp;locale=pt_BR&amp;numposts=5&amp;sdk=joey&amp;version=v12.0&amp;width=550"><span style="vertical-align: bottom; width: 550px; height: 205px;"><iframe name="f328f975a2ebf1" width="550px" height="100px" data-testid="fb:comments Facebook Social Plugin" title="fb:comments Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v12.0/plugins/comments.php?app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df34d47307fa7c6%26domain%3D127.0.0.1%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252F127.0.0.1%253A5500%252Ff30074674e465e%26relation%3Dparent.parent&amp;container_width=850&amp;height=100&amp;href=https%3A%2F%2Fwww.salamineira.com%2Ffalecimentos-lagoa-dos-patos-mg.html&amp;locale=pt_BR&amp;numposts=5&amp;sdk=joey&amp;version=v12.0&amp;width=550" style="border: none; visibility: visible; width: 550px; height: 205px;" class=""></iframe></span></div>
                 </div>
                 <div id="fimDeArtigo"></div>
 

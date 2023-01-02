@@ -137,6 +137,28 @@ padding: .8em;
   text-transform: uppercase;
   font-weight: 700;
 }
+.coracaoLuto {
+  width: 100%;
+  background-color: black;
+  
+}
+.coracaoLuto > p {
+  
+  padding: .3em;
+  width: 40%;
+  margin: .3em auto;
+  font-size: 3em;
+  text-align: center;
+  color: white;
+}
+@media (max-width:360px) {
+  .coracaoLuto > p {
+  
+      width: 80%;
+      font-size: 1.7em;
+      
+  }
+}
 
 /*Formulario */
 .modal {
