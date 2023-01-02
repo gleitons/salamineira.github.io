@@ -89,7 +89,7 @@
                 </a>
             </div>
         </div>
-        <div class="topo-menu" id="menuPrincipal" onload="MenuPrincipal()">
+        <div class="topo-menu" id="menuPrincipal">
 
         </div>
     </header>
@@ -104,10 +104,10 @@
                     <h3>28/12/2022</h3>
                 </div>
                 <div>
-                    <img style="display: none;" src="/imagens/luto-lagoa.jpg" alt="">
+                    <img  src="/imagens/coracao-em-luto.jpg" alt="">
                 </div>
 
-                <div style="display: none;"  class="lutos">
+                <div class="lutos" style="display: none;">
                     <div class="lutosC">
                         <img class="fita" src="/imagens/fita-falecimento.png" alt="">
                         <div class="imagemL">
@@ -125,87 +125,11 @@
                         <div class="nota">
                             <p>${falec.nota}</p>
                         </div>
-                        <div>
-                            <i class="bi bi-pencil-fill"> Editar</i>
+                        <div class="bntEditar">
+                            <i class="bi bi-pencil-fill" id="abrirEditar" onclick="fecharAbrirEnviar()"> Editar</i>
                         </div>
                     </div>
                 </div>
-
-                <div class="modal" id="exampleModal" >
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header dflex">
-                          <h5 class="modal-title" id="exampleModalLabel"> <i class="bi bi-heart-fill"> Ajude a editar o cadastro ADAO MESSIAS ALVES FONSECA NONATO - 22</i></h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
-                        </div>
-                        <div class="modal-body">
-                          <form>
-                            <div class="mb-3">
-                              <label for="recipient-name" class="col-form-label">Clique em cima do dado e edite:</label> <br>
-
-
-                              <label class="col-form-label">Nome:</label> 
-                              <input type="text" class="form-control" id="ADAOMESSIASALVESFONSECANONATO" name="ADAOMESSIASALVESFONSECANONATO"  placeholder="ADAO MESSIAS ALVES FONSECA NONATO">
-
-                              <label class="col-form-label">Apelido:</label> 
-                              <input type="text" class="form-control" id="apelido-ADAOMESSIASALVESFONSECANONATO" name="apelido-ADAOMESSIASALVESFONSECANONATO"  placeholder="Adão Jega">
-
-                              <label class="col-form-label">Data Nascimento:</label> 
-                              <input type="date" class="form-control" id="nascimento-ADAOMESSIASALVESFONSECANONATO" name="nascimento-ADAOMESSIASALVESFONSECANONATO"  placeholder="ADAO MESSIAS ALVES FONSECA NONATO">
-
-                              <label class="col-form-label">Data Falecimento:</label> 
-                              <input type="date" class="form-control" id="falecimento-ADAOMESSIASALVESFONSECANONATO" name="falecimento-ADAOMESSIASALVESFONSECANONATO"  placeholder="ADAO MESSIAS ALVES FONSECA NONATO">
-
-                              <label class="col-form-label">Nome da Mãe:</label> 
-                              <input type="text" class="form-control" id="mae22-NOMEMAEADAOJEGA" name="mae22-NOMEMAEADAOJEGA"  placeholder="INSIRA NOME DA MÃE">
-
-                              <label class="col-form-label">Nome do Pai:</label> 
-                              <input type="text" class="form-control" id="ADAOMESSIASALVESFONSECANONATO" name="ADAOMESSIASALVESFONSECANONATO"  placeholder="INSIRA NOME DO PAI">
-
-                              <label class="col-form-label">Adicione uma Mensagem:</label> <br>
-                              <textarea class="form-control" name="ADAOMESSIASALVESFONSECANONATO" id="ADAOMESSIASALVESFONSECANONATO" cols="30" rows="5" placeholder="Adicione uma mensagem para ADAO MESSIAS ALVES FONSECA NONATO"></textarea>
-
-
-
-                              <input type="hidden" class="form-control" id="ADAOMESSIASALVESFONSECANONATO" name="ADAOMESSIASALVESFONSECANONATO"  placeholder="ADAO MESSIAS ALVES FONSECA NONATO">
-
-
-                              
-                              <input type="hidden" class="form-control" id="recipient-name" readonly="">
-                              <input type="hidden" id="idFal" value="39278953">
-                            </div>
-                            <div class="mb-3">
-                              <label for="message-text" class="col-form-label">Mais erros? Descreva abaixo:</label>
-                              <textarea class="form-control" id="message-text"></textarea>
-                            </div>
-                          </form>
-                        </div>
-                        <div class="modal-footer dflex">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                          <form action="#" method="post">                              
-                              <button type="button" onclick="enviaErro()" class="btn btn-primary" id="botao_comunicar"><i class="bi bi-heart-fill"> Ajudar</i></button>   
-                          </form>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
                 <div>
@@ -213,7 +137,23 @@
                     <div class="tabFalecimentos" id="criarTabela">
 
                     </div>
-                    <div id="testt"></div>
+                    <div id="testt">
+                        <div style="width: 100%; text-align: center;">
+                            <div>
+                                <p>Carregando Dados - Aguarde - Por Gleiton Aparecido Soares de Souza</p>
+                                <div class="loadingio-spinner-magnify-kfh3vq1scyq">
+                                    <div class="ldio-ayxwwg8ovqm">
+                                        <div>
+                                            <div>
+                                                <div></div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="tabFalecimentos">
                         <table>
@@ -233,9 +173,12 @@
                         </table>
                     </div>
 
-                    <div class="lutos"></div>
+                    <div class="lutos">
+                        <div id="enviarDados"></div>
+                    </div>
                 </div>
                 <div id="falec2022"></div>
+
                 <div class="lutos" id="lutoTitle">
                 </div>
 
@@ -243,7 +186,7 @@
                 <div class="propagandaArtigo" id="propArtifo">
 
                 </div>
-                <div class="comentarios">
+                <div class="comentarios" id="obrigadoPeloEnvio2">
                     <h2>Deixe seu comentário</h2>
                     <div class="disclaimerComentario">
 
@@ -263,21 +206,7 @@
 
             </div>
             <div class="propaganda" id="adsArtigo">
-                <div style="width: 100%; text-align: center;">
-                    <div>
-                        <p>Procurando Dados - Por Gleiton Aparecido Soares de Souza</p>
-                        <div class="loadingio-spinner-magnify-kfh3vq1scyq">
-                            <div class="ldio-ayxwwg8ovqm">
-                                <div>
-                                    <div>
-                                        <div></div>
-                                        <div></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
 
@@ -307,6 +236,7 @@
     <script src="/scripts/imagens-artigo.js" defer></script>
 
     <script src="/falecimentos-lagoa-dos-patos-mg.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
 </body>

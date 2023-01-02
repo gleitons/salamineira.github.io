@@ -53,6 +53,7 @@ function carregarImage() {
     
 }
 
+
 function MenuPrincipal() {
     const menu = `<button id="btnmobile" onclick="menuMob()"><i class="bi bi-list"></i></button>
                     <nav id="naveMenu">

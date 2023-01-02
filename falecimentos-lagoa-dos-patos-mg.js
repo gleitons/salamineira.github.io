@@ -89,13 +89,13 @@ async function falecidos() {
     var con = 0;
 
     function contadorObitos() {
-        document.querySelector('#testt').innerHTML = 'Estatísticas: Sempre atualizamos nossos, baseado na API <a href="https://falecidosnobrasil.org.br/resultado2.php?&nome=nome&id_ees=MG&id_ecd=1990&exata=false" href="_blank">falecidosnobrasil.org.br</a>'
+        document.querySelector('#testt').innerHTML = '<p>Estatísticas: Sempre atualizamos nossos dados, baseado na API <a href="https://falecidosnobrasil.org.br/resultado2.php?&nome=nome&id_ees=MG&id_ecd=1990&exata=false" href="_blank">falecidosnobrasil.org.br</a> para enviar uma homenagem a um falecido, envie-nos um e-mail para <a href="/envie-obito-lagoa-dos-patos-mg.html">clique Aqui</a></p> <br>'
         var total = 0;
         var totHomens = 0;
         var totMulheres = 0;
 
-        
-        
+
+
         for (let index = 2022; index >= 1800; index--) {
             if (tabelaEs(index)[0] > 0) {
                 const falecimentoAno = tabelaEs(index);
@@ -108,17 +108,17 @@ async function falecidos() {
                     <td>${falecimentoAno[0]}</td>                             
                 </tr>                                   
             </tbody>         `
-            
-            }
-            
 
-            
+            }
+
+
+
             total = total + tabelaEs(index)[0];
             totHomens = totHomens + tabelaEs(index)[1];
             totMulheres = totMulheres + tabelaEs(index)[2];
-            
 
-            
+
+
 
         }
         document.querySelector('#totalCont').innerHTML += `           
@@ -130,7 +130,7 @@ async function falecidos() {
                     <td>${total}</td>                             
                 </tr>                                   
                    `
-        
+
     }
 
 
@@ -160,7 +160,7 @@ async function falecidos() {
         } else {
             if (imgFalecimento.length == 0) {
                 falec.imagem = imgM;
-                
+
             }
             filho = "Filha"
         }
@@ -172,18 +172,21 @@ async function falecidos() {
         } else {
             var apel = `Conhecido como ${falec.apelido}`
         }
-        if(falec.mae == "") {
+        if (falec.mae == "") {
             var mamae = "";
-        }else {
+        } else {
             var mamae = `${filho} de ${falec.mae}`;
         }
 
 
-        
+
         con = con + 1;
-       
-            if (5 > con) {
-                document.querySelector('#lutoTitle').innerHTML += `
+        const nomeID = falec.nome.replace(/ /g, '');
+
+
+
+        if (5 > con) {
+            document.querySelector('#lutoTitle').innerHTML += `
                 <div class="lutosC">
                     <img class="fita" src="/imagens/fita-falecimento.png" alt="">
                     <div class="imagemL">
@@ -191,7 +194,7 @@ async function falecidos() {
                     </div>
                     <div class="vidroF">
                         <p class="nomeF">${falec.nome}</p>
-                        <p class="aplido" id="apelidoT">${apel}</p>
+                        <p class="aplido" id="apelidoT${apel}${con}">${apel}</p>
                         <div class="nascFalec">
                             <i class="bi bi-star-fill"> ${falec.nascimento}</i>
                             <i class="bi bi-heartbreak-fill"> ${falec.falecimento}</i>
@@ -201,8 +204,11 @@ async function falecidos() {
                     <div class="nota">
                         <p>${falec.nota}</p>
                     </div>
+                    <div class="bntEditar">
+                                        <i class="bi bi-pencil-fill" id="abrirEditar${con}" onclick="abrirModal(${con})"> Editar</i>
+                                    </div>
                 </div>`;
-            } else {
+        } else {
             document.querySelector('#lutoTitle').innerHTML += `                
                 <div class="ocultando">
                                 <button id="cliqueOculto${con}" class="btnMostra" onclick="ocultarMostar(${con})" >${falec.nome} </br><i class="bi bi-star-fill"> ${falec.falecimento}</i></button>
@@ -224,16 +230,123 @@ async function falecidos() {
                                         <div class="nota">
                                             <p>${falec.nota}</p>
                                         </div>
+                                        <div class="bntEditar">
+                                        <i class="bi bi-pencil-fill" id="abrirEditar${con}" onclick="abrirModal(${con})"> Editar</i>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
             `;
+
+
+
         }
-        
-            
-        
-        
-            
+
+        document.querySelector('#enviarDados').innerHTML += `
+        <div class="modal" id="exampleModal${con}" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header dflex">
+                    <h5 class="modal-title" id="exampleModalLabel${con}"> <i class="bi bi-heart-fill"> Ajude a
+                            editar o cadastro de ${falec.nome} - ${con}</i></h5>
+                    <button type="button" class="btn-close btnfechaModal${con}" data-bs-dismiss="modal" aria-label="Close"   onclick="fecharAbrirEnviar(${con})"><i
+                            class="bi bi-x-lg"></i></button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://formsquash.io/f/GQziZ1MKm2rgVMzRsaOZ" method="post">
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Clique em cima do dado e
+                                edite:</label> <br>
+
+
+                            <label class="col-form-label">Nome:</label>
+                            <input type="text" class="form-control" id="1_nome_${nomeID}${con}"
+                                name="1_nome_${nomeID}${con}"
+                                placeholder="${falec.nome} - ${con}">
+
+                            <label class="col-form-label">Apelido:</label>
+                            <input type="text" class="form-control"
+                                id="2_apelido_${nomeID}${con}"
+                                name="2_apelido_${nomeID}${con}" placeholder=" ${falec.apelido}">
+
+                            <label class="col-form-label">Data Nascimento:</label>
+                            <input type="date" class="form-control"
+                                id="3_nascimento-${nomeID}${con}"
+                                name="3_nascimento-${nomeID}${con}">
+
+                            <label class="col-form-label">Data Falecimento:</label>
+                            <input type="date" class="form-control"
+                                id="4_falecimento-${nomeID}${con}"
+                                name="4_falecimento-${nomeID}${con}">
+
+                            <label class="col-form-label">Nome da Mãe:</label>
+                            <input type="text" class="form-control" id="5_mae_${nomeID}${con}"
+                                name="5_mae22_${nomeID}${con}" placeholder="INSIRA NOME DA MÃE">
+
+                            <label class="col-form-label">Nome do Pai:</label>
+                            <input type="text" class="form-control" id="6_pai-${nomeID}${con}"
+                                name="6_pai-${nomeID}${con}" placeholder="INSIRA NOME DO PAI">
+
+                            <label class="col-form-label">Foto:</label> <br>
+                            <p>Estamos Configurando nosso servidor para receber imagens, volte em breve.</p>
+                            <p>Caso deseje, poderá enviar uma foto em especial <a href="/envie-obito-lagoa-dos-patos-mg.html">clicando aqui</a>.</p>
+                            
+                            <input class="form-control" name="99_imagemLogo" id="valueImg${con}" onchange="previewFile(${con})" accept="image/*" type="hidden" readonly="">
+
+                            <input  type="hidden" name="99_logoImagem64" id="logoEmpresa${con}">
+
+
+                            <div class="fotoHomenagem">
+
+                                <img src="" alt="" id="previewfoto${con}">
+
+                            </div>
+                            
+
+                            <br><label class="col-form-label">Adicione uma Mensagem:</label> <br>
+                            <textarea class="form-control" name="9_mensagem-${nomeID}${con}"
+                                id="9_mensagem-${nomeID}_${con}" cols="30" rows="5"
+                                placeholder="Adicione uma mensagem para ${falec.nome}"></textarea>
+
+
+
+
+
+
+                            <input type="hidden" class="form-control" id="hide-${nomeID}"
+                                name="hide-${nomeID}${con}"
+                                placeholder="${falec.none}">
+
+
+
+                            <input type="hidden" class="form-control" id="recipient-name${con}" readonly="">
+                            <input type="hidden" id="idFalecimento${nomeID}${con}" value="22">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Mais erros? Descreva
+                                abaixo:</label>
+                            <textarea class="form-control" id="mais-erros${nomeID}${con}"></textarea>
+                        </div>
+                        <div class="modal-footer dflex">
+                            
+                            <button type="button" class="btn btn-secondary " data-bs-dismiss="modal" id="bBaixo${con}"  onclick="fecharAbrirEnviar(${con})">Fechar</button>
+                           
+                                <input type="submit" class="btn btn-primary"
+                                    ><i class="bi bi-heart-fill"> Ajudar</i></>
+                            
+                        </div>
+                    </form>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+`
+
+
+
+
     });
 }
 
@@ -246,10 +359,63 @@ function ocultarMostar(numb) {
     const botao = document.querySelector(`#cliqueOculto${numb}`);
     const ocultado = document.querySelector(`#falecOculto${numb}`)
 
-    botao.addEventListener('click', ()=> {
+    botao.addEventListener('click', () => {
         ocultado.classList.toggle('dnone');
-       
+
     })
 
-   
+
 }
+function previewFile(num) {
+
+    const preview = document.querySelector(`img`);
+    const file = document.querySelector('input[type=file]').files[0];
+    console.log(preview)
+    const reader = new FileReader();
+
+    reader.addEventListener("load", () => {
+        // convert image file to base64 string
+        preview.src = reader.result;
+        console.log(preview.src)
+
+        document.querySelector(`#logoEmpresa${num}`).value = preview.src
+        document.querySelector(`#previewfoto${num}`).src = preview.src;
+
+    }, false);
+
+    if (file) {
+        reader.readAsDataURL(file);
+
+    }
+}
+function fecharAbrirEnviar(nume) {
+    
+    console.log(nume)
+    const bClose = document.getElementById(`bBaixo${nume}`);
+    const botaoFecha = document.querySelector(`.btnfechaModal${nume}`);
+    const ocultado = document.querySelector(`#exampleModal${nume}`)
+   
+    botaoFecha.addEventListener('click', () => {
+        console.log(ocultado)
+        ocultado.style.display = "none";
+        
+    })
+    bClose.addEventListener('click', () => {
+        ocultado.style.display = "none";
+    })
+
+    
+    
+
+}
+function abrirModal(valor) {
+    const abrireEditar = document.querySelector(`#abrirEditar${valor}`);
+    const abrirbotao = document.querySelector(`#exampleModal${valor}`);
+   
+    abrireEditar.addEventListener('click', () => {
+        console.log(abrirbotao)
+        abrirbotao.style.display = "block";
+
+    })
+}
+

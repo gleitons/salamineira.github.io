@@ -233,7 +233,10 @@ header {
 .centerImg div img{
   cursor: crosshair;
 }
-
+#logoEmpresa {
+  width: 200px;
+  margin: auto;
+}
 /* anuncie aqui*/
 .AnuncieAqui{
   
