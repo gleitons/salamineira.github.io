@@ -27,6 +27,30 @@
             (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
     </div>
+    <style>
+        .coracaoLuto {
+            width: 100%;
+            background-color: black;
+            
+        }
+        .coracaoLuto > p {
+            
+            padding: .3em;
+            width: 40%;
+            margin: .3em auto;
+            font-size: 3em;
+            text-align: center;
+            color: white;
+        }
+        @media (max-width:360px) {
+            .coracaoLuto > p {
+            
+                width: 80%;
+                font-size: 1.7em;
+                
+            }
+        }
+    </style>
 
 
     <meta charset="UTF-8">
@@ -101,37 +125,11 @@
                     <h2>Homenagem aos nossos conterrâneos de Lagoa dos Patos MG</h2>
                     <h3>28/12/2022</h3>
                 </div>
-                <div>
-                    <img src="/imagens/coracao-em-luto.jpg" alt="">
+                <div class="coracaoLuto">
+                    <p>Meu <i class="bi bi-heart-fill" ></i> está em LUTO</p>
                 </div>
-
-                <div class="lutos" style="display: none;">
-                    <div class="lutosC">
-                        <img class="fita" src="/imagens/fita-falecimento.png" alt="">
-                        <div class="imagemL">
-                            <img src="/falecimento/anjo.png" alt="">
-                        </div>
-                        <div class="vidroF">
-                            <p class="nomeF">${falec.nome}</p>
-                            <p class="aplido" id="apelidoT">${apel}</p>
-                            <div class="nascFalec">
-                                <i class="bi bi-star-fill"> ${falec.nascimento}</i>
-                                <i class="bi bi-heartbreak-fill"> ${falec.falecimento}</i>
-                            </div>
-                            <p class="falecMae">${mamae}</p>
-                        </div>
-                        <div class="nota">
-                            <p>${falec.nota}</p>
-                        </div>
-                        <div class="bntEditar">
-                            <i class="bi bi-pencil-fill" id="abrirEditar" onclick="fecharAbrirEnviar()"> Editar</i>
-                        </div>
-                    </div>
-                </div>
-
-
+                
                 <div>
-
                     <div class="tabFalecimentos" id="criarTabela">
 
                     </div>
@@ -29623,11 +29621,7 @@
             </div>
 
 
-                <div class="propagandaArtigo" id="propArtifo"><script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8921692840146247" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-6x+dw+1m-1u+3o" data-ad-client="ca-pub-8921692840146247" data-ad-slot="4354203081"></ins>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-    </script></div>
+                <div class="propagandaArtigo" id="propArtifo"></div>
                 <div class="comentarios" id="obrigadoPeloEnvio2">
                     <h2>Deixe seu comentário</h2>
                     <div class="disclaimerComentario">
