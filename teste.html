@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Array</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        const resp = await fetch('https://www.salamineira.com/falecimentos');
+        const myObject = Object.assign({}, resp);
+        console.log(myObject)
+
+    //let pessoa = myObject
+    // // Transformar o objeto em string e salvar em localStorage
+    // localStorage.setItem('pessoa', JSON.stringify(pessoa));
+    // // Receber a string
+    // let pessoaString = localStorage.getItem('pessoa');
+    // // transformar em objeto novamente
+    // let pessoaObj = JSON.parse(pessoaString);
+    // console.log(pessoaObj.nome); // Matheus
+    </script>
+</body>
+
+</html>
