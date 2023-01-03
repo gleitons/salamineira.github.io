@@ -13,8 +13,14 @@
             text-align: center;
             margin: .4em 0em;
         }
+        .dnone {
+            display: none;
+        }
+        .dblock {
+            display: block;
+        }
 
-        .nomeL > div {
+        .nomeL>div {
             background-color: rebeccapurple;
             color: white;
             text-align: center;
@@ -28,59 +34,74 @@
 
     <div class="nomeL">
         <li>MARIA MERCES DOS SANTOS</li>
-        <div >
+        <div>
             <p>Caminho das Pedras</p>
         </div>
 
     </div>
-    <button onclick="cimab(5)">gerar</button>
+    <div id="btnge">
+
+    </div>
+    
     <div id="ajuda"></div>
     <div id="impri"></div>
 
     <script>
 
         const url = ('/falecimentos')
+        
+        async function btnbb(valor) {
+            const resp = await fetch(url);
+            const myOb = await resp.json();
+
+
+
+            myOb.map((item) => {
+                valor++
+                document.getElementById('btnge').innerHTML += `<button onclick="cimab(${valor})">Falecido ${valor}</button>`;
+            })
+        }
+        btnbb(0);
+
+
         async function cimab(valo) {
             const response = await fetch(url);
-            
+
             const myObject = await response.json();
 
-           
-            
-            myObject.map( (dataResp)=> {
-                valo++
-                console.log(gerador(dataResp, valo))
-                console.log(valo)
-                
-                
 
-                ;
-            
-                
+
+            myObject.map((dataResp) => {
+                                
+                document.getElementById('btnge').innerHTML += gerador(dataResp, valo);
+                valo++
+                console.log(gerador(dataResp[valo], valo[valo]))
+                console.log(valo);
+
             })
         }
 
-        
+
 
         function gerador(info, numero) {
+
             const printDiv = document.querySelector('#ajuda');
             var div = document.createElement("div");
             const divM = document.createElement('div')
             var li = document.createElement("li");
             var p = document.createElement("p");
-
             li.textContent = info.nome;
-            p.textContent = (info.falecimento +" - " + numero);
+            p.textContent = (info.falecimento + " - " + numero);
             div.classList.add('nomeL');
             div.appendChild(li);
             div.appendChild(divM)
             divM.appendChild(p);
 
             printDiv.appendChild(div);
-            
+
             console.log(div);
         }
-        function abreFecha(){
+        function abreFecha() {
 
         }
 
