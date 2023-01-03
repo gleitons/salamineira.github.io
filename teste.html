@@ -6,25 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testando Array</title>
+    <style>
+        .nomeL {
+            width: 40%;
+            border: black solid 1px;
+            text-align: center;
+        }
+
+        .nomeL>div {
+            background-color: rebeccapurple;
+            color: white;
+            text-align: center;
+            padding: .8em;
+        }
+    </style>
 </head>
 
 <body>
 
 
+    <div class="nomeL">
+        <li>MARIA MERCES DOS SANTOS</li>
+        <div>
+            <p>Caminho das Pedras</p>
+        </div>
+
+    </div>
+    <button onclick="gerador()">gerar</button>
+    <div id="ajuda"></div>
+    <div id="impri"></div>
 
     <script>
-        const resp = await fetch('https://www.salamineira.com/falecimentos');
-        const myObject = Object.assign({}, resp);
-        console.log(myObject)
 
-    //let pessoa = myObject
-    // // Transformar o objeto em string e salvar em localStorage
-    // localStorage.setItem('pessoa', JSON.stringify(pessoa));
-    // // Receber a string
-    // let pessoaString = localStorage.getItem('pessoa');
-    // // transformar em objeto novamente
-    // let pessoaObj = JSON.parse(pessoaString);
-    // console.log(pessoaObj.nome); // Matheus
+        const url = ('/falecimentos')
+        async function cimab() {
+            response = await fetch(url);
+            
+            const myObject = await response.json();
+
+            myObject.map((dataResp) => {
+                document.querySelector('#impri').innerHTML += `<li>${dataResp.nome}</li>`
+                
+            })
+        }
+
+        console.log(cimab())
+
+        async function gerador() {
+            const printDiv = document.querySelector('#ajuda');
+            var div = document.createElement("div");
+            var h1 = document.createElement("h1");
+            var p = document.createElement("p");
+            h1.textContent = "Me Ajuda";
+            p.textContent = "Preciso adicionar uma classe";
+            div.classList.add('nomeL');
+            div.appendChild(h1);
+            div.appendChild(p);
+
+            printDiv.appendChild(div);
+            
+            console.log(div);
+        }
+
+
+
     </script>
 </body>
 
