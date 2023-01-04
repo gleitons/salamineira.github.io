@@ -31,7 +31,7 @@
   justify-content: space-between;
   /* border: black 1px solid; */
   align-items: center;
-  display: flex;
+  
   
   
  
@@ -756,6 +756,9 @@ main {
   font-size: 150px;
   width: 50%;
   text-align: center;
+}
+.iconeInfo img {
+  width: 60%;
 }
 .borderIcon {
   border: #e68727 solid 2px;
@@ -1609,8 +1612,7 @@ footer {
   }
   .anucies {
     width: 100%; 
-    margin: auto;
-   
+    margin: auto;   
     background-color: white;
     
     
@@ -1628,8 +1630,7 @@ footer {
    
   }
   .anuncies > div img{
-    width: 50px; 
-    
+    width: 50px;  
     
     height: 50px;
     
