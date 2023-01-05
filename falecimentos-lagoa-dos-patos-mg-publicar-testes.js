@@ -172,11 +172,11 @@ async function falecidos() {
         console.log(falec.nascimento)
         if (falec.nascimento == 'Desconhecido') {
             var idadeF = '';
-            
+
         } else {
             const anoFalecimento = (`${anoF[2]}-${anoF[1]}-${anoF[0]}`)
             const anoNascimento = (`${anoN[2]}-${anoN[1]}-${anoN[0]}`)
-            console.log(anoFalecimento + " corrgigir")
+
             const idadeFOne = getAge(`${anoNascimento}`, `${anoFalecimento}`);
             var idadeF = parseInt(idadeFOne) + " anos";
         }
@@ -186,35 +186,11 @@ async function falecidos() {
 
 
         if (5 > con) {
-            
 
-            document.querySelector('#lutoTitle').innerHTML += `
-                <div class="lutosC">
-                    <img class="fita" src="/imagens/fita-falecimento.png" alt="">
-                    <div class="imagemL">
-                        <img src="${falec.imagem}" alt="">
-                    </div>
-                    <div class="vidroF">
-                        <p class="nomeF">${falec.nome}</p>
-                        <p class="aplido" id="apelidoT${apel}${con}">${apel}</p>
-                       
-                        <div class="nascFalec">
-                            <i class="bi bi-star-fill"> ${falec.nascimento}</i>
-                            <i class="bi bi-heartbreak-fill"> ${falec.falecimento}</i>
-                        </div>
-                        <strong>
-                            <p class="aplido" style="margin-bottom:.3em;">${idadeF}</p>
-                        </strong>
-                       
-                        <p class="falecMae">${mamae}</p>
-                    </div>
-                    <div class="nota">
-                        <p>${falec.nota}</p>
-                    </div>
-                    <div class="bntEditar">
-                                        <i class="bi bi-pencil-fill" id="abrirEditar${con}" onclick="abrirModal(${con})"> Editar</i>
-                                    </div>
-                </div>`;
+            montarTeste(falec, apel, con, idadeF, mamae);
+            console.log(montarTeste(falec))
+
+
         } else {
             document.querySelector('#lutoTitle').innerHTML += `                
                 <div class="ocultando">
@@ -372,7 +348,95 @@ async function falecidos() {
 
 falecidos();
 
+function montarTeste(falec, apel, con, idadeF, mamae) {
+    const divLuto = document.createElement('div');
+    divLuto.classList.add('lutosC');
+    const imgFita = document.createElement('img');
+    imgFita.src = ('/imagens/fita-falecimento.png');
+    imgFita.classList.add('fita');
+    divLuto.appendChild(imgFita);
+    const divImgFalecido = document.createElement('div');
+    divImgFalecido.classList.add('imagemL');
+    divLuto.appendChild(divImgFalecido)
+    const imgFalecido = document.createElement('img');
+    imgFalecido.src = (`${falec.imagem}`);
+    divImgFalecido.appendChild(imgFalecido)
+    const divVidro = document.createElement('div')
+    divVidro.classList.add('vidroF');
+    const nomeFalecido = document.createElement('p');
+    const apelidoFalecido = document.createElement('p');
+    nomeFalecido.classList.add('nomeF');
+    apelidoFalecido.setAttribute('class', 'aplido');
+    nomeFalecido.textContent = `${falec.nome}`;
+    apelidoFalecido.textContent = `${apel}`;
+    apelidoFalecido.setAttribute('id', `apelidoT${apel}${con}`);
 
+    const divNascFale = document.createElement('div');
+    divNascFale.setAttribute('class', 'nascFalec');
+
+    const iconeFalecimento = document.createElement('i');
+    iconeFalecimento.setAttribute('class', 'bi bi-heartbreak-fill');
+    iconeFalecimento.textContent = `${falec.Falecimento}`;
+
+
+
+    const iconeNacimento = document.createElement('i');
+    iconeNacimento.setAttribute('class', 'bi bi-star-fill');
+    iconeNacimento.textContent = `${falec.nascimento}`;
+
+    const pStrong = document.createElement('strong');
+    const idadefal = document.createElement('p');
+    idadefal.textContent = `${idadeF}`;
+    idadefal.setAttribute('class', 'aplido');
+    idadefal.setAttribute('style', 'margin-bottom:.3em;');
+
+
+
+    const nomeMae = document.createElement('p');
+    nomeMae.setAttribute('class', 'falecMae')
+    nomeMae.textContent = `${mamae}`;
+
+    const divNotaFalecimento = document.createElement('div');
+    divNotaFalecimento.setAttribute('class', 'nota')
+    const NotaFalecimento = document.createElement('p');
+    NotaFalecimento.textContent = `${falec.nota}`;
+
+    divNotaFalecimento.appendChild(NotaFalecimento);
+
+
+
+
+    pStrong.appendChild(idadefal);
+
+
+    divNascFale.appendChild(iconeNacimento)
+    divNascFale.appendChild(iconeFalecimento)
+
+
+    divVidro.appendChild(nomeFalecido);
+    divVidro.appendChild(apelidoFalecido)
+    divVidro.appendChild(divNascFale);
+    divVidro.appendChild(pStrong)
+    divVidro.appendChild(nomeMae)
+    divLuto.appendChild(divVidro);
+    divLuto.appendChild(divNotaFalecimento)
+
+    const divBtnEditar = document.createElement('div');
+    divBtnEditar.classList.add('bntEditar');
+    const iconeEditar = document.createElement('i');
+    iconeEditar.classList.add('bi', "bi-pencil-fill");
+    iconeEditar.textContent = "Editar";
+    iconeEditar.setAttribute('id', 'abrirEditar${con}')
+    iconeEditar.setAttribute('onclick', `abrirModal(${con})`)
+    divBtnEditar.appendChild(iconeEditar);
+    divLuto.appendChild(divBtnEditar);
+
+
+
+
+    const printDiv = document.querySelector(`#lutoTitle`)
+   printDiv.appendChild(divLuto);
+}
 
 
 
@@ -395,13 +459,12 @@ function previewFile(num) {
 
     const preview = document.querySelector(`img`);
     const file = document.querySelector('input[type=file]').files[0];
-    console.log(preview)
     const reader = new FileReader();
 
     reader.addEventListener("load", () => {
         // convert image file to base64 string
         preview.src = reader.result;
-        console.log(preview.src)
+
 
         document.querySelector(`#logoEmpresa${num}`).value = preview.src
         document.querySelector(`#previewfoto${num}`).src = preview.src;
@@ -415,13 +478,11 @@ function previewFile(num) {
 }
 function fecharAbrirEnviar(nume) {
 
-    console.log(nume)
     const bClose = document.getElementById(`bBaixo${nume}`);
     const botaoFecha = document.querySelector(`.btnfechaModal${nume}`);
     const ocultado = document.querySelector(`#exampleModal${nume}`)
 
     botaoFecha.addEventListener('click', () => {
-        console.log(ocultado)
         ocultado.style.display = "none";
 
     })
@@ -438,7 +499,6 @@ function abrirModal(valor) {
     const abrirbotao = document.querySelector(`#exampleModal${valor}`);
 
     abrireEditar.addEventListener('click', () => {
-        console.log(abrirbotao)
         abrirbotao.style.display = "block";
 
     })
@@ -446,14 +506,12 @@ function abrirModal(valor) {
 function getAge(nascimento, falecimentoF) {
     console.log("nasc: " + nascimento + " - " + falecimentoF + "falec <-")
     var falecimento = new Date(falecimentoF);
-    console.log(falecimento)
     var birthDate = new Date(nascimento);
     var age = falecimento.getFullYear() - birthDate.getFullYear();
     var m = falecimento.getMonth() - birthDate.getMonth();
     if (m < 0 || (m === 0 && falecimento.getDate() < birthDate.getDate())) {
         age--;
     }
-    console.log(birthDate)
-    console.log(age)
+
     return age;
 }

@@ -265,9 +265,9 @@
             divBtnEditar.classList.add('bntEditar');
             const iconeEditar = document.createElement('i');
             iconeEditar.classList.add('bi', "bi-pencil-fill");
-            iconeEditar.textContent = "Fechar";
-            iconeEditar.setAttribute('id',`fecharJanela`)
-            iconeEditar.setAttribute('onclick', `fechaJanela`)
+            iconeEditar.textContent = "Editar";
+            iconeEditar.setAttribute('id','abrirEditar${con}')
+            iconeEditar.setAttribute('onclick', "abrirModal(${con})")
             divBtnEditar.appendChild(iconeEditar);
             divLuto.appendChild(divBtnEditar);
            

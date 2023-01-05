@@ -529,6 +529,22 @@
         "estado": "MG",
         "apelido":"Sr Carrim"
     },
+    {
+        "id": 0,
+        "nome": "ANA FLÁVIA",
+        "sexo": "f",
+        "imagem": "",
+        "nascimento": "",
+        "falecimento": "12/01/2022",
+        "nota": "",
+        "obito": "Não identificado",
+        "mae": "MARIA SOARES DOS SANTOS",
+        "natural": "Lagoa dos Patos - MG",
+        "estadoFalecimento": "Minas Gerais",
+        "LocalFalecimento": "Lagoa dos Patos",
+        "estado": "MG",
+        "apelido":"Dona Angelina"
+    },
     
     {
         "id": 0,
@@ -561,6 +577,22 @@
         "LocalFalecimento": "Lagoa dos Patos",
         "estado": "MG",
         "apelido":"Paulo Catirino"
+    },
+    {
+        "id": 0,
+        "nome": "GENÁRIO DA GOIABEIRA",
+        "sexo": "m",
+        "imagem": "",
+        "nascimento": "",
+        "falecimento": "12/01/2022",
+        "nota": "",
+        "obito": "Não identificado",
+        "mae": "",
+        "natural": "Lagoa dos Patos - MG",
+        "estadoFalecimento": "Minas Gerais",
+        "LocalFalecimento": "Lagoa dos Patos",
+        "estado": "MG",
+        "apelido":"Sr Genário"
     },
     {
         "id": 8,
