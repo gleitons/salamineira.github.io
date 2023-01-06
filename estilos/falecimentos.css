@@ -1,24 +1,35 @@
+@font-face {
+  font-family: "fontP";
+  src: url(/fonts/cake.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --fontPostuma: fontP;
+  --fhgf: red;
+}
+
 .lutos {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .dnone {
-    display: none;
-    
+  display: none;
 }
-.ocultFalec {    
-    justify-content: space-between;
-    flex-wrap: wrap;
-    display: flex;    
-    border: black solid 1px;
+.ocultFalec {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: flex;
+  border: black solid 1px;
 }
 .ocultFalec .ocult {
-    width: 100%;
-    border: black solid 1px;
-    text-align: center;
+  width: 100%;
+  border: black solid 1px;
+  text-align: center;
 }
-
 
 .lutosC {
   width: 45%;
@@ -27,47 +38,52 @@
   border: rgb(151, 151, 151) solid 1px;
   position: relative;
   padding: 10px;
-  background-image: url('/falecimento/anjo.png');
+  background-image: url("/falecimento/anjo.png");
   background-size: cover;
   border-radius: 8px;
-  box-shadow: inset white 10px 0px 10px 10px, rgba(0, 0, 0, 0.51) 1px 1px 5px 2px ;
-  
-  
+  box-shadow: inset white 10px 0px 10px 10px,
+    rgba(0, 0, 0, 0.51) 1px 1px 5px 2px;
+}
+.lutosC::before {
+  content: "www.salamineira.com.br/obitos";
+  position: absolute;
+  color: #555;
+  right: -86px;
+  top: 94px;
+  rotate: -90deg;
+  font-size: 13px;
 }
 .ocultando {
-    width: 100%;
-    margin: 10px;
-    text-align: center;
-   
+  width: 100%;
+  margin: 10px;
+  text-align: center;
 }
 .ocultando button {
-    width: 100%;
+  width: 100%;
 }
 .btnMostra {
-    margin-top: .3em;
-    margin-bottom: -1em;
-    padding: .5em;
-    position: relative;
-    cursor: pointer;
+  margin-top: 0.3em;
+  margin-bottom: -1em;
+  padding: 0.5em;
+  position: relative;
+  cursor: pointer;
 }
 .btnMostra::after {
-    content: "Clique 2X";
-    position: absolute;
-    top: 0;
-    left: 0;
-    
-    font-size: .7em;
+  content: "Clique 2X";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  font-size: 0.7em;
 }
 .vidroF {
-   
-    background: rgba( 255, 255, 255, 0.55 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 4.5px );
--webkit-backdrop-filter: blur( 4.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-padding: .8em;
-
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 0.8em;
 }
 
 .lutosC .fita {
@@ -79,16 +95,15 @@ padding: .8em;
   z-index: 1;
 }
 .tabFalecimentos {
-    border: black solid 1px;
-    width: 80%;
-    text-align: center;
-    margin: auto;
+  border: black solid 1px;
+  width: 80%;
+  text-align: center;
+  margin: auto;
 }
-.tabFalecimentos td{
-    width: 10%;
-    border: black solid 1px;
-    padding: 5px;
-   
+.tabFalecimentos td {
+  width: 10%;
+  border: black solid 1px;
+  padding: 5px;
 }
 
 .imagemL {
@@ -97,22 +112,35 @@ padding: .8em;
   overflow: hidden;
   align-items: center;
   width: 150px;
-  height: 180px;  
+  height: 180px;
   filter: saturate(1.5);
-  
-  
 }
 .nota {
-    padding: .8em;
-    margin: .3em auto;
-    width: 90%;
-    border: #222 solid 1px;
-    position: relative;
-    background-color: white;
-    
-
+  padding: 0.8em;
+  margin: 0.3em auto;
+  width: 90%;
+  border: rgb(136, 136, 136) solid 1px;
+  position: relative;
+  background-color: white;
+  border-radius: 8px;
+}
+tbody tr:nth-child(even) {
+  background: lightgray;
 }
 
+thead {
+  background-color: orange;
+}
+tfoot {
+  background-color: #2e6da4;
+  color: white;
+}
+.infoG {
+  background-color: red;
+  color: rgb(255, 255, 255);
+  padding: 0.8em;
+  margin: 0.8em 0em;
+}
 
 .nascFalec {
   width: 80%;
@@ -124,178 +152,179 @@ padding: .8em;
   text-transform: capitalize;
 }
 .imagemL img {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
   border: rgba(0, 0, 0, 0.429) solid 1px;
   border-radius: 50%;
 }
 .dflex {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .nomeF {
   text-transform: uppercase;
   font-weight: 700;
+  /* font-family: var(--fontPostuma); */
+  /* font-size: 2em; */
 }
 .coracaoLuto {
   width: 100%;
   background-color: black;
-  
 }
 .coracaoLuto > p {
-  
-  padding: .3em;
+  padding: 0.3em;
   width: 40%;
-  margin: .3em auto;
+  margin: 0.3em auto;
   font-size: 3em;
   text-align: center;
   color: white;
 }
-@media (max-width:360px) {
+@media (max-width: 360px) {
   .coracaoLuto > p {
-  
-      width: 80%;
-      font-size: 1.7em;
-      
+    width: 80%;
+    font-size: 1.7em;
   }
 }
 
 /*Formulario */
 .modal {
-    display: block;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 999999;
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999999;
 }
-.bntEditar i{
-    background-color:red;
-    color: white;
-    margin: 15px;
-    padding: .2em;
-    border-radius: 8px;
-    cursor: pointer;
+.bntEditar i {
+  background-color: red;
+  color: white;
+  margin: 15px;
+  padding: 0.2em;
+  border-radius: 8px;
+  cursor: pointer;
 }
 .fotoHomenagem {
-    width: 260px;
-    margin: auto;
+  width: 260px;
+  margin: auto;
 }
 .modal-content {
-    position: relative;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #999;
-    border: 1px solid rgba(0,0,0,.2);
-    border-radius: 6px;
-    -webkit-box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
-    box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
-    outline: 0;
+  position: relative;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+  box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+  outline: 0;
 }
 .modal-header {
-    padding: 15px;
-    border-bottom: 1px solid #e5e5e5;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
 }
 .modal-body {
-    position: relative;
-    padding: 15px;
+  position: relative;
+  padding: 15px;
 }
 .form-control {
-    display: block;
-    width: 100%;
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #555;
-    background-color: #fff;
-    background-image: none;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
-    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
-    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  -webkit-transition: border-color ease-in-out 0.15s,
+    box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -webkit-transition: border-color ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
 }
 label {
-    display: inline-block;
-    max-width: 100%;
-    margin-bottom: 5px;
-    font-weight: 700;
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
 }
 .modal-footer {
-    padding: 15px;
-    text-align: right;
-    border-top: 1px solid #e5e5e5;
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
 }
 .btn {
-    display: inline-block;
-    margin-bottom: 0;
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    background-image: none;
-    border: 1px solid transparent;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    border-radius: 4px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .btn-primary {
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
 }
 
-
-
-@media (max-width:360px) {
-    .tabFalecimentos {
-       
-        width: 100%;
-       
-    }
-    .btnMostra{
-        margin: auto;
-        text-align: center;
-        padding: .5em;
-        width: 100%;
-    }
-    .lutosC {
-        width: 98%;
-        margin: 1em auto;
-        text-align: center;
-        border: black solid 1px;
-        position: relative;
-        padding: 10px;
-        background-image: url('/falecimento/anjo.png');
-        background-size: cover;
-        
-        
-      }
-    
+@media (max-width: 360px) {
+  .tabFalecimentos {
+    width: 100%;
+  }
+  .btnMostra {
+    margin: auto;
+    text-align: center;
+    padding: 0.5em;
+    width: 100%;
+  }
+  .lutosC {
+    width: 98%;
+    margin: 1em auto;
+    text-align: center;
+    border: black solid 1px;
+    position: relative;
+    padding: 10px;
+    background-image: url("/falecimento/anjo.png");
+    background-size: cover;
+  }
 }
-
 
 @keyframes ldio-ayxwwg8ovqm {
-    0%    { transform: translate(2px,2px) }
-   33.33% { transform: translate(102px,2px) }
-   66.66% { transform: translate(42px,102px) }
-  100%    { transform: translate(2px,2px) }
+  0% {
+    transform: translate(2px, 2px);
+  }
+  33.33% {
+    transform: translate(102px, 2px);
+  }
+  66.66% {
+    transform: translate(42px, 102px);
+  }
+  100% {
+    transform: translate(2px, 2px);
+  }
 }
-
 
 .ldio-ayxwwg8ovqm > div {
   transform: scale(0.8);
@@ -304,7 +333,7 @@ label {
 
 .ldio-ayxwwg8ovqm > div > div {
   animation: ldio-ayxwwg8ovqm 1s linear infinite;
-  position: absolute
+  position: absolute;
 }
 
 .ldio-ayxwwg8ovqm > div > div div:nth-child(1) {
@@ -312,18 +341,18 @@ label {
   height: 72px;
   border-radius: 50%;
   border: 12px solid #85a2b6;
-  background: #bbcedd
+  background: #bbcedd;
 }
 
 .ldio-ayxwwg8ovqm > div > div div:nth-child(2) {
   width: 17px;
-  height:  51px;
+  height: 51px;
   transform: rotate(-45deg);
   background: #85a2b6;
   border-radius: 0 0 8px 8px;
   position: absolute;
   top: 68px;
-  left: 85px
+  left: 85px;
 }
 .loadingio-spinner-magnify-kfh3vq1scyq {
   width: 200px;
@@ -340,5 +369,7 @@ label {
   backface-visibility: hidden;
   transform-origin: 0 0; /* see note above */
 }
-.ldio-ayxwwg8ovqm div { box-sizing: content-box; }
+.ldio-ayxwwg8ovqm div {
+  box-sizing: content-box;
+}
 /* generated by https://loading.io/ */

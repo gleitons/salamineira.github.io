@@ -357,10 +357,10 @@
         "id": 0,
         "nome": "MARIA APARECIDA CAETANO LIMA",
         "sexo": "f",
-        "imagem": "",
-        "nascimento": "",
+        "imagem": "/falecimento/cida-de-marcolino.png",
+        "nascimento": "20/11/1973",
         "falecimento": "18/08/2020",
-        "nota": "",
+        "nota": "Ela tem a capacidade de ouvir o silêncio. Adivinhar sentimentos. Encontrar a palavra certa nos momentos incertos. Nos fortalecer quando tudo ao nosso redor parece ruir. Sabedoria emprestada dos deuses para nos proteger e amparar.",
         "obito": "Não identificado",
         "mae": "SELVINA CAETANO DOS SANTOS",
         "natural": "Lagoa dos Patos - MG",
@@ -1684,22 +1684,7 @@
         "estado": "MG",
         "apelido":""
     },
-    {
-        "id": 0,
-        "nome": "ADELIANO PEREIRA ALVES",
-        "sexo": "m",
-        "imagem": "",
-        "nascimento": "",
-        "falecimento": "11/12/2013",
-        "nota": "",
-        "obito": "Não identificado",
-        "mae": "MARIA CLAUDIA PEREIRA ALVES",
-        "natural": "Lagoa dos Patos - MG",
-        "estadoFalecimento": "MG",
-        "LocalFalecimento": "Lagoa dos Patos",
-        "estado": "MG",
-        "apelido":""
-    },
+   
     {
         "id": 0,
         "nome": "ADELINO FERREIRA DE OLIVEIRA",
@@ -3144,7 +3129,7 @@
     {
         "id": 0,
         "nome": "FILHO DE MAURONA",
-        "sexo": "f",
+        "sexo": "m",
         "imagem": "",
         "nascimento": "",
         "falecimento": "01/10/2022",
@@ -3159,7 +3144,7 @@
     },
     {
         "id": 0,
-        "nome": "ESPOSA DE TIÃO BOCA",
+        "nome": "FIA ESPOSA DE TIÃO BOCA",
         "sexo": "f",
         "imagem": "/falecimento/dona-boca.png",
         "nascimento": "",
@@ -3543,23 +3528,6 @@
         "estado": "MG",
         "apelido":""
     },
-    {
-        "id": 0,
-        "nome": "CLAUDIA APARECIDA SANTOS",
-        "sexo": "f",
-        "imagem": "",
-        "nascimento": "",
-        "falecimento": "13/11/2011",
-        "nota": "",
-        "obito": "Não identificado",
-        "mae": "MARIA DO ROSARIO GOMES TRINDADE",
-        "natural": "Lagoa dos Patos - MG",
-        "estadoFalecimento": "MG",
-        "LocalFalecimento": "Lagoa dos Patos",
-        "estado": "MG",
-        "apelido":""
-    },
-   
     {
         "id": 0,
         "nome": " BELVINA JOAQUINA DE ALMEIDA",

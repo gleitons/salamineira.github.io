@@ -751,6 +751,16 @@ main {
   background-color: #333333;
   padding: 20px;
 }
+.telaInicial {
+  display: flex;
+  
+}
+.telaInicial > div:nth-child(1){
+  width: 75%;
+}
+.telaInicial > div:nth-child(2){
+  width: 25%;
+}
 .iconeInfo {
   color: #e68727;
   font-size: 150px;

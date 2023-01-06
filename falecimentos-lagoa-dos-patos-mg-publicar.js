@@ -74,7 +74,7 @@ async function falecidos() {
     var con = 0;
 
     function contadorObitos() {
-        document.querySelector('#testt').innerHTML = '<p>Estatísticas: Sempre atualizamos nossos dados, baseado na API <a href="https://falecidosnobrasil.org.br/resultado2.php?&nome=nome&id_ees=MG&id_ecd=1990&exata=false" href="_blank">falecidosnobrasil.org.br</a> para enviar uma homenagem a um falecido, envie-nos um e-mail para <a href="/envie-obito-lagoa-dos-patos-mg.html">clique Aqui</a></p> <br> <p>*ATENÇÃO: Você pode nos ajudar com os dados dos nossos conterrâneos, basta <strong>clicar 2x no botão</strong> <i class="bi bi-pencil-fill" id="abrirEditar${con}" onclick="abrirModal(${con})"> Editar</i> para atualizar o nosso banco de dados.</p>'
+        document.querySelector('#testt').innerHTML = '<p>Estatísticas: Sempre atualizamos nossos dados, baseado na API <a href="https://falecidosnobrasil.org.br/resultado2.php?&nome=nome&id_ees=MG&id_ecd=1990&exata=false" href="_blank">falecidosnobrasil.org.br</a> para enviar uma homenagem a um falecido, envie-nos um e-mail para <a href="/envie-obito-lagoa-dos-patos-mg.html">clique Aqui</a></p> <p class="infoG"><strong>*ATENÇÃO -</strong> Todos os nossos dados são retirados do site acima, caso tenha alguma informação errada neste artigo, favor clicar em editar, os dados podem estar desatualizados, então no caso, poderá ser resolvido clicando em editar, onde poderá alterar ou excluir da nossa base de dados no botão que está abaixo da mensagem do falecido. Você pode nos ajudar com os dados dos nossos conterrâneos, basta<strong>clicar 2x no botão</strong> <i class="bi bi-pencil-fill" id="abrirEditar${con}" onclick="abrirModal(${con})"> Editar</i> para atualizar o nosso banco de dados.</p>'
         var total = 0;
         var totHomens = 0;
         var totMulheres = 0;
@@ -169,14 +169,12 @@ async function falecidos() {
         const nomeID = falec.nome.replace(/ /g, '');
         const anoF = falec.falecimento.split('/');
         const anoN = falec.nascimento.split('/');
-        console.log(falec.nascimento)
         if (falec.nascimento == 'Desconhecido') {
             var idadeF = '';
             
         } else {
             const anoFalecimento = (`${anoF[2]}-${anoF[1]}-${anoF[0]}`)
             const anoNascimento = (`${anoN[2]}-${anoN[1]}-${anoN[0]}`)
-            console.log(anoFalecimento + " corrgigir")
             const idadeFOne = getAge(`${anoNascimento}`, `${anoFalecimento}`);
             var idadeF = parseInt(idadeFOne) + " anos";
         }
@@ -185,8 +183,7 @@ async function falecidos() {
 
 
 
-        if (5 > con) {
-            
+        if (5 > con) {  
 
             document.querySelector('#lutoTitle').innerHTML += `
                 <div class="lutosC">
@@ -383,9 +380,14 @@ function verficaM(a, b) {
 function ocultarMostar(numb) {
     const botao = document.querySelector(`#cliqueOculto${numb}`);
     const ocultado = document.querySelector(`#falecOculto${numb}`)
-
+  
     botao.addEventListener('click', () => {
-        ocultado.classList.toggle('dnone');
+        if ( ocultado.classList.contains('dnone') == true) {
+            ocultado.classList.remove('dnone');
+        } else {
+            ocultado.classList.add('dnone');
+        }
+       
 
     })
 
@@ -395,13 +397,12 @@ function previewFile(num) {
 
     const preview = document.querySelector(`img`);
     const file = document.querySelector('input[type=file]').files[0];
-    console.log(preview)
+   
     const reader = new FileReader();
 
     reader.addEventListener("load", () => {
         // convert image file to base64 string
         preview.src = reader.result;
-        console.log(preview.src)
 
         document.querySelector(`#logoEmpresa${num}`).value = preview.src
         document.querySelector(`#previewfoto${num}`).src = preview.src;
@@ -415,13 +416,11 @@ function previewFile(num) {
 }
 function fecharAbrirEnviar(nume) {
 
-    console.log(nume)
     const bClose = document.getElementById(`bBaixo${nume}`);
     const botaoFecha = document.querySelector(`.btnfechaModal${nume}`);
     const ocultado = document.querySelector(`#exampleModal${nume}`)
 
     botaoFecha.addEventListener('click', () => {
-        console.log(ocultado)
         ocultado.style.display = "none";
 
     })
@@ -438,22 +437,18 @@ function abrirModal(valor) {
     const abrirbotao = document.querySelector(`#exampleModal${valor}`);
 
     abrireEditar.addEventListener('click', () => {
-        console.log(abrirbotao)
         abrirbotao.style.display = "block";
 
     })
 }
 function getAge(nascimento, falecimentoF) {
-    console.log("nasc: " + nascimento + " - " + falecimentoF + "falec <-")
     var falecimento = new Date(falecimentoF);
-    console.log(falecimento)
     var birthDate = new Date(nascimento);
     var age = falecimento.getFullYear() - birthDate.getFullYear();
     var m = falecimento.getMonth() - birthDate.getMonth();
     if (m < 0 || (m === 0 && falecimento.getDate() < birthDate.getDate())) {
         age--;
     }
-    console.log(birthDate)
-    console.log(age)
+    
     return age;
 }
