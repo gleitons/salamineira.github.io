@@ -1,165 +1,51 @@
-
-
-
-
 const url = '/falecimentos-publicar';
-localStorage.setItem('imgHomem', '/falecimento/desconhecido-homem.png')
+localStorage.setItem('imgHomem', '/falecimento/homem-mulher.jpg')
 const imgH = localStorage.getItem('imgHomem');
 
-
-
 async function falecidos() {
-
-
+    var tabelaM = 1;
     const response = await fetch(url);
-
-
-
     const data = await response.json();
-
     const imgM = '/falecimento/desconhecido-mulher.png'
     const vidroR = document.querySelector('.vidroF');
     const tagApelido = document.getElementById('apelidoT');
-
-
-
-
     data.sort(toDate);
 
-    function ordemDecrescente(a, b) {
-
-        return a.falecimento - b.falecimento;
-    }
-
     function ordemCrescente(a, b) {
-
         return toDate(b) - toDate(a);
     }
 
     function toDate(fal) {
         const parts = fal.falecimento.split("/");
-
         const dataFor = new Date(parts[2], parts[1] - 1, parts[0]);
-
         return dataFor;
-
     }
-    function tabelaEs(anoNote) {
-        cont = 0;
-        masc = 0;
-        femi = 0;
-        data.map((obi) => {
-            const datas = obi.falecimento.split("/");
-            const ano = datas[2];
-            // const mes = datas[1] - 1;
-            // const dia = datas[0]
-
-            if (ano == anoNote) {
-                cont++;
-                if (obi.sexo == 'm') {
-                    masc++;
-                } else {
-                    femi++;
-                }
-            }
-
-        });
-        return [cont, masc, femi];
-
-    }
-
-
+    data.sort(toDate)
+    data.sort(ordemCrescente);
 
 
     var con = 0;
 
-    function contadorObitos() {
-        document.querySelector('#testt').innerHTML = '<p>Estatísticas: Sempre atualizamos nossos dados, baseado na API <a href="https://falecidosnobrasil.org.br/resultado2.php?&nome=nome&id_ees=MG&id_ecd=1990&exata=false" href="_blank">falecidosnobrasil.org.br</a> para enviar uma homenagem a um falecido, envie-nos um e-mail para <a href="/envie-obito-lagoa-dos-patos-mg.html">clique Aqui</a></p> <br> <p>*ATENÇÃO: Você pode nos ajudar com os dados dos nossos conterrâneos, basta <strong>clicar 2x no botão</strong> <i class="bi bi-pencil-fill" id="abrirEditar${con}" onclick="abrirModal(${con})"> Editar</i> para atualizar o nosso banco de dados.</p>'
-        var total = 0;
-        var totHomens = 0;
-        var totMulheres = 0;
-
-
-
-        for (let index = 2022; index >= 1800; index--) {
-            if (tabelaEs(index)[0] > 0) {
-                const falecimentoAno = tabelaEs(index);
-                document.querySelector('#tabEstatistica').innerHTML += `           
-            <tbody>
-                <tr>
-                    <td>${index}</td>
-                    <td>${falecimentoAno[1]}</td>
-                    <td>${falecimentoAno[2]}</td>
-                    <td>${falecimentoAno[0]}</td>                             
-                </tr>                                   
-            </tbody>         `
-
-            }
-
-
-
-            total = total + tabelaEs(index)[0];
-            totHomens = totHomens + tabelaEs(index)[1];
-            totMulheres = totMulheres + tabelaEs(index)[2];
-
-
-
-
-        }
-        document.querySelector('#totalCont').innerHTML += `           
-            
-                <tr>
-                    <td>Total</td>
-                    <td>${totHomens}</td>
-                    <td>${totMulheres}</td>
-                    <td>${total}</td>                             
-                </tr>                                   
-                   `
-
-    }
-
-
-
-    contadorObitos();
-
-    data.sort(toDate)
-    data.sort(ordemCrescente);
-
-    await data.map((falec) => {
+    data.map((falec) => {
 
         const falecID = falec.falecimento;
 
 
         const falecimento = falec.falecimento;
-        const imgFalecimento = falec.imagem;
-
+        if (falec.imagem == '') falec.imagem = imgH;
         if (falec.nascimento == "") { falec.nascimento = "Desconhecido" };
 
         if (falec.sexo == 'm') {
             filho = "Filho"
-            if (imgFalecimento.length == 0) {
-                falec.imagem = imgH;
-            }
-
-
         } else {
-            if (imgFalecimento.length == 0) {
-                falec.imagem = imgM;
-
-            }
             filho = "Filha"
         }
 
-        if (falec.apelido == "") {
-
-
-            var apel = "";
-        } else {
+        if (falec.apelido.length > 0) {
             var apel = `Conhecido como ${falec.apelido}`
         }
-        if (falec.mae == "") {
-            var mamae = "";
-        } else {
+
+        if (falec.mae.length > 1) {
             var mamae = `${filho} de ${falec.mae}`;
         }
 
@@ -167,9 +53,10 @@ async function falecidos() {
 
         con = con + 1;
         const nomeID = falec.nome.replace(/ /g, '');
+
+
         const anoF = falec.falecimento.split('/');
         const anoN = falec.nascimento.split('/');
-        console.log(falec.nascimento)
         if (falec.nascimento == 'Desconhecido') {
             var idadeF = '';
 
@@ -179,6 +66,7 @@ async function falecidos() {
 
             const idadeFOne = getAge(`${anoNascimento}`, `${anoFalecimento}`);
             var idadeF = parseInt(idadeFOne) + " anos";
+
         }
 
 
@@ -186,169 +74,134 @@ async function falecidos() {
 
 
         if (5 > con) {
-
-            montarTeste(falec, apel, con, idadeF, mamae);
-            console.log(montarTeste(falec))
-
-
+            const exibir = montarTeste(falec, apel, con, idadeF, mamae);
+            lutoTitle.appendChild(exibir)
         } else {
-            document.querySelector('#lutoTitle').innerHTML += `                
-                <div class="ocultando">
-                                <button id="cliqueOculto${con}" class="btnMostra" onclick="ocultarMostar(${con})" >${falec.nome} </br><i class="bi bi-star-fill"> ${falec.falecimento}</i></button>
-                                <div id="falecOculto${con}" class="lutosC dnone">                                    
-                                    <div>
-                                        <img class="fita" src="/imagens/fita-falecimento.png" alt="">
-                                        <div class="imagemL">
-                                            <img src="${falec.imagem}" alt="">
-                                        </div>
-                                        <div class="vidroF">
-                                            <p class="nomeF">${falec.nome}</p>
-                                            <p class="aplido" id="apelidoT">${apel}</p>
-                                            <div class="nascFalec">
-                                                <i class="bi bi-star-fill"> ${falec.nascimento}</i>
-                                                <i class="bi bi-heartbreak-fill"> ${falec.falecimento}</i>
-                                            </div>
-                                            <strong>
-                                            <p class="aplido " style="margin-bottom:.3em;" ">${idadeF}</p>
-                                        </strong>
-                                            <p class="falecMae">${mamae}</p>
-                                        </div>
-                                        <div class="nota">
-                                            <p>${falec.nota}</p>
-                                        </div>
-                                        <div class="bntEditar">
-                                        <i class="bi bi-pencil-fill" id="abrirEditar${con}" onclick="abrirModal(${con})"> Editar</i>
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-            `;
-
-
-
+            const exibirBtn = btnFalecido(falec, con, idadeF, mamae)
+            lutoTitle.appendChild(exibirBtn);
         }
-
-        document.querySelector('#enviarDados').innerHTML += `
-        <div class="modal" id="exampleModal${con}" style="display: none;">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header dflex">
-                    <h5 class="modal-title" id="exampleModalLabel${con}"> <i class="bi bi-heart-fill"> Ajude a
-                            editar o cadastro de ${falec.nome} - ${con}</i></h5>
-                    <button type="button" class="btn-close btnfechaModal${con}" data-bs-dismiss="modal" aria-label="Close"   onclick="fecharAbrirEnviar(${con})"><i
-                            class="bi bi-x-lg"></i></button>
-                </div>
-                <div class="modal-body">
-                    <form action="https://formsquash.io/f/GQziZ1MKm2rgVMzRsaOZ" method="post">
-                        <div class="mb-3">
-
-                        <label for="cars">Selecione:</label>
-                        <select class="col-form-label" name="cadastro" id="cadastro${con}">
-                        <option value="editar">Editar Cadastro</option>
-                        <option value="manter">Manter Cadastro</option>
-                        <option value="excluir">Excluir Cadastro</option>
-                        </select>
-                        <br>
-
-
-                            <label for="recipient-name" class="col-form-label">Clique em cima do dado e
-                                edite:</label> <br>
-
-
-                            <label class="col-form-label">Nome:</label>
-                            <input type="text" class="form-control" id="1_nome_${nomeID}${con}"
-                                name="1_nome_${nomeID}${con}"
-                                placeholder="${falec.nome} - ${con}">
-
-                            <label class="col-form-label">Apelido:</label>
-                            <input type="text" class="form-control"
-                                id="2_apelido_${nomeID}${con}"
-                                name="2_apelido_${nomeID}${con}" placeholder=" ${falec.apelido}">
-
-                            <label class="col-form-label">Data Nascimento:</label>
-                            <input type="date" class="form-control"
-                                id="3_nascimento-${nomeID}${con}"
-                                name="3_nascimento-${nomeID}${con}">
-
-                            <label class="col-form-label">Data Falecimento:</label>
-                            <input type="date" class="form-control"
-                                id="4_falecimento-${nomeID}${con}"
-                                name="4_falecimento-${nomeID}${con}">
-
-                            <label class="col-form-label">Nome da Mãe:</label>
-                            <input type="text" class="form-control" id="5_mae_${nomeID}${con}"
-                                name="5_mae22_${nomeID}${con}" placeholder="INSIRA NOME DA MÃE">
-
-                            <label class="col-form-label">Nome do Pai:</label>
-                            <input type="text" class="form-control" id="6_pai-${nomeID}${con}"
-                                name="6_pai-${nomeID}${con}" placeholder="INSIRA NOME DO PAI">
-
-                            <label class="col-form-label">Foto:</label> <br>
-                            <p>Estamos Configurando nosso servidor para receber imagens, volte em breve.</p>
-                            <p>Caso deseje, poderá enviar uma foto em especial <a href="/envie-obito-lagoa-dos-patos-mg.html">clicando aqui</a>.</p>
-                            
-                            <input class="form-control" name="99_imagemLogo" id="valueImg${con}" onchange="previewFile(${con})" accept="image/*" type="hidden" readonly="">
-
-                            <input  type="hidden" name="99_logoImagem64" id="logoEmpresa${con}">
-
-
-                            <div class="fotoHomenagem">
-
-                                <img src="" alt="" id="previewfoto${con}">
-
-                            </div>
-                            
-
-                            <br><label class="col-form-label">Adicione uma Mensagem:</label> <br>
-                            <textarea class="form-control" name="9_mensagem-${nomeID}${con}"
-                                id="9_mensagem-${nomeID}_${con}" cols="30" rows="5"
-                                placeholder="Adicione uma mensagem para ${falec.nome}"></textarea>
-
-
-
-
-
-
-                            <input type="hidden" class="form-control" id="hide-${nomeID}"
-                                name="hide-${nomeID}${con}"
-                                placeholder="${falec.none}">
-
-
-
-                            <input type="hidden" class="form-control" id="recipient-name${con}" readonly="">
-                            <input type="hidden" id="idFalecimento${nomeID}${con}" value="22">
-                        </div>
-                        <div class="mb-3">
-                            <label for="message-text" class="col-form-label">Mais erros? Descreva
-                                abaixo:</label>
-                            <textarea class="form-control" id="mais-erros${nomeID}${con}"></textarea>
-                        </div>
-                        <div class="modal-footer dflex">
-                            
-                            <button type="button" class="btn btn-secondary " data-bs-dismiss="modal" id="bBaixo${con}"  onclick="fecharAbrirEnviar(${con})">Fechar</button>
-                           
-                                <input type="submit" class="btn btn-primary"
-                                    ><i class="bi bi-heart-fill"> Ajudar</i></>
-                            
-                        </div>
-                    </form>
-                    
-                </div>
-                
-            </div>
-        </div>
-    </div>
-`
-
-
-
-
     });
+    const umArray = JSON.stringify(data.sort(ordemCrescente))
+    return umArray
+
 }
 
 falecidos();
 
+function tabelaEs(anoNote) {
+    cont = 0;
+    masc = 0;
+    femi = 0;
+    data.map((obi) => {
+        const datas = obi.falecimento.split("/");
+        const ano = datas[2];
+        if (ano == anoNote) {
+            cont++;
+            if (obi.sexo == 'm') {
+                masc++;
+            } else {
+                femi++;
+            }
+        }
+    });
+    return [cont, masc, femi];
+}
+
+
+
+function contadorObitos() {
+    var total = 0;
+    var totHomens = 0;
+    var totMulheres = 0;
+    for (let index = 2025; index >= 1800; index--) {
+        if (tabelaEs(index)[0] > 0) {
+            const falecimentoAno = tabelaEs(index);
+            document.querySelector('#tabEstatistica').innerHTML += `           
+        <tbody>
+            <tr>
+                <td>${index}</td>
+                <td>${falecimentoAno[1]}</td>
+                <td>${falecimentoAno[2]}</td>
+                <td>${falecimentoAno[0]}</td>                             
+            </tr>                                   
+        </tbody>`
+        }
+        total = total + tabelaEs(index)[0];
+        totHomens = totHomens + tabelaEs(index)[1];
+        totMulheres = totMulheres + tabelaEs(index)[2];
+    }
+    document.querySelector('#totalCont').innerHTML += `
+            <tr>
+                <td>Total</td>
+                <td>${totHomens}</td>
+                <td>${totMulheres}</td>
+                <td>${total}</td>                             
+            </tr>`
+
+}
+
+
+
+async function montarOculto(numero) {
+    const resp = await falecidos();
+    const myOb = await JSON.parse(resp)
+
+    const imprimiu = document.getElementById(`cliqueOculto${numero}`).value;
+    const printDiv = document.querySelector(`#impri${numero}`);
+
+    console.log(myOb[numero-1].nascimento.split('/') + myOb[numero-1].nome)
+        const anoF = myOb[numero].falecimento.split('/');
+        const anoN = myOb[numero - 1].nascimento.split('/');
+        if (myOb[numero-1].nascimento == 'Desconhecido') {
+            var idadeF = '';
+
+        } else {
+            const anoFalecimento = (`${anoF[2]}-${anoF[1]}-${anoF[0]}`)
+            const anoNascimento = (`${anoN[2]}-${anoN[1]}-${anoN[0]}`)
+
+            var idadeFOne = getAge(`${anoNascimento}`, `${anoFalecimento}`);
+            var idadeF = parseInt(idadeFOne) + " anos";
+           
+
+        }
+
+         
+         console.log(idadeF)
+          if (falec.mae.length > 1) {
+            var mamae = `${filho} de ${falec.mae}`;
+        }
+       //const mamae = 
+      
+
+   
+
+
+    }
+     if (imprimiu.length == 0) {
+        const mostra = document.getElementById(`cliqueOculto${numero}`);
+
+        mostra.setAttribute('value', 'mostrou');
+        mostra.setAttribute('onclick', `desmontar(${numero})`);
+        printDiv.classList.toggle('class', 'dnone')
+        printDiv.setAttribute('class', 'dblock');
+        const falec = myOb[numero - 1];
+        const apel = myOb[numero - 1].apelido;
+        const con = numero;
+
+        console.log(idadeF)
+
+
+        const exibir = montarTeste(falec, apel, con, idadeF, mamae)
+        printDiv.appendChild(exibir)
+
+
+}
+
 function montarTeste(falec, apel, con, idadeF, mamae) {
+
+    getAge
+    if (apel == undefined) apel = ""
+    if (mamae == undefined) mamae = ""
     const divLuto = document.createElement('div');
     divLuto.classList.add('lutosC');
     const imgFita = document.createElement('img');
@@ -370,73 +223,84 @@ function montarTeste(falec, apel, con, idadeF, mamae) {
     nomeFalecido.textContent = `${falec.nome}`;
     apelidoFalecido.textContent = `${apel}`;
     apelidoFalecido.setAttribute('id', `apelidoT${apel}${con}`);
-
     const divNascFale = document.createElement('div');
     divNascFale.setAttribute('class', 'nascFalec');
-
     const iconeFalecimento = document.createElement('i');
     iconeFalecimento.setAttribute('class', 'bi bi-heartbreak-fill');
-    iconeFalecimento.textContent = `${falec.Falecimento}`;
-
-
-
+    iconeFalecimento.textContent = `${falec.falecimento}`;
     const iconeNacimento = document.createElement('i');
     iconeNacimento.setAttribute('class', 'bi bi-star-fill');
     iconeNacimento.textContent = `${falec.nascimento}`;
-
     const pStrong = document.createElement('strong');
     const idadefal = document.createElement('p');
     idadefal.textContent = `${idadeF}`;
     idadefal.setAttribute('class', 'aplido');
     idadefal.setAttribute('style', 'margin-bottom:.3em;');
-
-
-
     const nomeMae = document.createElement('p');
     nomeMae.setAttribute('class', 'falecMae')
     nomeMae.textContent = `${mamae}`;
-
     const divNotaFalecimento = document.createElement('div');
     divNotaFalecimento.setAttribute('class', 'nota')
     const NotaFalecimento = document.createElement('p');
     NotaFalecimento.textContent = `${falec.nota}`;
-
     divNotaFalecimento.appendChild(NotaFalecimento);
-
-
-
-
     pStrong.appendChild(idadefal);
-
-
     divNascFale.appendChild(iconeNacimento)
-    divNascFale.appendChild(iconeFalecimento)
-
-
+    divNascFale.appendChild(iconeFalecimento);
     divVidro.appendChild(nomeFalecido);
     divVidro.appendChild(apelidoFalecido)
     divVidro.appendChild(divNascFale);
     divVidro.appendChild(pStrong)
     divVidro.appendChild(nomeMae)
     divLuto.appendChild(divVidro);
-    divLuto.appendChild(divNotaFalecimento)
-
+    divLuto.appendChild(divNotaFalecimento);
     const divBtnEditar = document.createElement('div');
     divBtnEditar.classList.add('bntEditar');
     const iconeEditar = document.createElement('i');
     iconeEditar.classList.add('bi', "bi-pencil-fill");
     iconeEditar.textContent = "Editar";
-    iconeEditar.setAttribute('id', 'abrirEditar${con}')
+    iconeEditar.setAttribute('id', `abrirEditar${con}`)
     iconeEditar.setAttribute('onclick', `abrirModal(${con})`)
     divBtnEditar.appendChild(iconeEditar);
     divLuto.appendChild(divBtnEditar);
 
-
-
-
-    const printDiv = document.querySelector(`#lutoTitle`)
-   printDiv.appendChild(divLuto);
+    return divLuto;
 }
+function desmontar(numero) {
+    const divMontada = document.getElementById(`impri${numero}`);
+    const divMButton = document.getElementById(`cliqueOculto${numero}`)
+
+    divMontada.removeAttribute('class', 'dblock')
+    divMontada.innerHTML = "";
+    divMButton.setAttribute('onclick', `montarOculto(${numero})`)
+    divMButton.setAttribute('value', "");
+
+}
+
+function btnFalecido(falec, con, idadeF, mamae) {
+
+    const divBtn = document.createElement('div');
+    const btnF = document.createElement('button');
+    divBtn.setAttribute('class', 'divMostra')
+    divBtn.appendChild(btnF)
+    btnF.setAttribute('id', `cliqueOculto${con}`)
+    btnF.setAttribute('onclick', `montarOculto(${con})`)
+    btnF.setAttribute('value', "")
+    const icone = document.createElement('i');
+    const divMostraF = document.createElement('div');
+    divMostraF.setAttribute('id', `impri${con}`)
+    icone.textContent = `${falec.falecimento}`
+    btnF.innerHTML = `<strong>${falec.nome} </strong></br>`;
+    icone.setAttribute('class', 'bi bi-star-fill');
+    btnF.setAttribute('class', 'btnMostra')
+    btnF.appendChild(icone);
+    btnF.appendChild(divMostraF)
+    return divBtn;
+    `onclick="ocultarMostar(${con})"
+    <button id="cliqueOculto${con}" class="btnMostra" onclick="ocultarMostar(${con})" >${falec.nome} </br><i class="bi bi-star-fill"> ${falec.falecimento}</i></button>`
+
+}
+
 
 
 
@@ -504,7 +368,6 @@ function abrirModal(valor) {
     })
 }
 function getAge(nascimento, falecimentoF) {
-    console.log("nasc: " + nascimento + " - " + falecimentoF + "falec <-")
     var falecimento = new Date(falecimentoF);
     var birthDate = new Date(nascimento);
     var age = falecimento.getFullYear() - birthDate.getFullYear();

@@ -30,7 +30,13 @@
   border: black solid 1px;
   text-align: center;
 }
-
+.btnMostra .lutosC {
+  width: 100%;
+  
+}
+.dblock {
+  display: block;
+}
 .lutosC {
   width: 45%;
   margin: 1em auto;
@@ -38,7 +44,7 @@
   border: rgb(151, 151, 151) solid 1px;
   position: relative;
   padding: 10px;
-  background-image: url("/falecimento/anjo.png");
+  background-image: url("/falecimento/anjo.jpg");
   background-size: cover;
   border-radius: 8px;
   box-shadow: inset white 10px 0px 10px 10px,
@@ -61,15 +67,48 @@
 .ocultando button {
   width: 100%;
 }
+.divMostra {
+  width: 45%;
+  background-color: #999;
+  margin: .6em 0em;
+  padding: 5px;
+  border-radius: 12px;
+}
+.divMostra .lutosC {
+  width: 100%;
+  animation: apareceF 1s normal;
+}
 .btnMostra {
-  margin-top: 0.3em;
-  margin-bottom: -1em;
+  border: none;
+  min-height: 0.3em;
+  box-shadow: rgb(137, 137, 137) 0px 0px 5px 0px;
+  border-radius: 8px;
+  width: 100%;
+  margin: 0.8em 0em;
   padding: 0.5em;
   position: relative;
   cursor: pointer;
+  
 }
+@keyframes apareceF {
+  0% {
+    filter: opacity(0%);
+    top: -100px;
+    
+  }
+
+  100% {
+    filter: opacity(100%);
+    top: 0px;
+  }
+}
+.btnMostra:active {
+  font-size: 0.8em;
+  background-color: rgb(191, 191, 191);
+}
+
 .btnMostra::after {
-  content: "Clique 2X";
+  content: "Clique para ver";
   position: absolute;
   top: 0;
   left: 0;
@@ -152,9 +191,12 @@ tfoot {
   text-transform: capitalize;
 }
 .imagemL img {
+  box-shadow: rgb(253, 253, 253) 0px 0px 10px 0px;
+  background-image: url(/falecimento/homem-mulher.jpg);
+  background-size: contain;
+  background-color: rgb(195, 68, 68);
   width: 150px;
   height: 150px;
-  border: rgba(0, 0, 0, 0.429) solid 1px;
   border-radius: 50%;
 }
 .dflex {
@@ -289,12 +331,15 @@ label {
   border-color: #2e6da4;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 568px) {
+  .divMostra {
+    width: 100%;
+  }
   .tabFalecimentos {
     width: 100%;
   }
   .btnMostra {
-    margin: auto;
+    margin: 0.6em auto;
     text-align: center;
     padding: 0.5em;
     width: 100%;
@@ -306,7 +351,7 @@ label {
     border: black solid 1px;
     position: relative;
     padding: 10px;
-    background-image: url("/falecimento/anjo.png");
+    background-image: url("/falecimento/anjo.jpg");
     background-size: cover;
   }
 }

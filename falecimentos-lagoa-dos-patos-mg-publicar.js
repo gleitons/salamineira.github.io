@@ -2,7 +2,7 @@
 
 
 
-const url = '/falecimentos-publicar';
+const url = '/falecimentos-teste';
 localStorage.setItem('imgHomem', '/falecimento/desconhecido-homem.png')
 const imgH = localStorage.getItem('imgHomem');
 
