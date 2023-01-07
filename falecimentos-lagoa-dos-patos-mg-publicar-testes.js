@@ -149,9 +149,10 @@ async function montarOculto(numero) {
     const imprimiu = document.getElementById(`cliqueOculto${numero}`).value;
     const printDiv = document.querySelector(`#impri${numero}`);
 
-    console.log(myOb[numero-1].nascimento.split('/') + myOb[numero-1].nome)
+  
         const anoF = myOb[numero].falecimento.split('/');
         const anoN = myOb[numero - 1].nascimento.split('/');
+
         if (myOb[numero-1].nascimento == 'Desconhecido') {
             var idadeF = '';
 
@@ -166,18 +167,16 @@ async function montarOculto(numero) {
         }
 
          
-         console.log(idadeF)
-          if (falec.mae.length > 1) {
-            var mamae = `${filho} de ${falec.mae}`;
-        }
-       //const mamae = 
+     //     if (myOb[numero].mae.length > 1) {
+     //       var mamae = `${filho} de ${myOb[numero].mae}`;
+      //  }
+      
       
 
    
 
 
-    }
-     if (imprimiu.length == 0) {
+      if (imprimiu.length == 0) {
         const mostra = document.getElementById(`cliqueOculto${numero}`);
 
         mostra.setAttribute('value', 'mostrou');
@@ -191,8 +190,10 @@ async function montarOculto(numero) {
         console.log(idadeF)
 
 
-        const exibir = montarTeste(falec, apel, con, idadeF, mamae)
+        const exibir = montarTeste(falec, apel, con, idadeF)
         printDiv.appendChild(exibir)
+      }
+    
 
 
 }
