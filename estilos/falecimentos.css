@@ -59,6 +59,14 @@
   rotate: -90deg;
   font-size: 13px;
 }
+.avisoAtualizacao {
+  background-color: blue; 
+ 
+  padding:.5em;
+}
+.avisoAtualizacao >p {
+  color: white; 
+}
 .ocultando {
   width: 100%;
   margin: 10px;

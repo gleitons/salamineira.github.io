@@ -365,7 +365,6 @@ function abrirModal(valor) {
 
     abrireEditar.addEventListener('click', () => {
         abrirbotao.style.display = "block";
-
     })
 }
 function getAge(nascimento, falecimentoF) {
