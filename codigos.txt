@@ -21,6 +21,8 @@
                     </div>
 
   document.querySelector('#enviarDados').innerHTML += `
+
+  
         <div class="modal" id="exampleModal${con}" style="display: none;">
         <div class="modal-dialog">
             <div class="modal-content">
