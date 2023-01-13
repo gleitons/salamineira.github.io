@@ -1,9 +1,9 @@
-const url = '/falecimentos-teste';
+const url = '/falecimentos-publicar';
 localStorage.setItem('imgHomem', '/falecimento/homem-mulher.jpg')
 const imgH = localStorage.getItem('imgHomem');
 
 async function falecidos() {
-    
+
     var tabelaM = 1;
     const response = await fetch(url);
     const data = await response.json();
@@ -11,11 +11,11 @@ async function falecidos() {
     const vidroR = document.querySelector('.vidroF');
     const tagApelido = document.getElementById('apelidoT');
     var falecIDi = document.getElementById('lutoTitle');
-    var spanF = document.getElementById('Informa').value;
-    
-   
 
-    
+
+
+
+
     data.sort(toDate);
 
     function ordemCrescente(a, b) {
@@ -33,8 +33,8 @@ async function falecidos() {
 
     var con = 0;
 
-   
-        data.map((falec) => {
+
+    data.map((falec) => {
 
         const falecID = falec.falecimento;
 
@@ -76,37 +76,37 @@ async function falecidos() {
             var idadeF = parseInt(idadeFOne) + " anos";
 
         }
-        if (spanF == '1'){
+
 
         if (5 > con) {
             var divGera = document.createElement('div')
-            divGera.setAttribute('class','infoLutos');
+            divGera.setAttribute('class', 'infoLutos');
             const divBottom = document.createElement('div')
             divBottom.innerHTML = `<div class="btnEditarV"><i class="bi bi-pencil-fill" id="abrirEditar${con}" onclick="abrirEnviar(${con})">Editar</i></div>
             <div id="enviarInformacao${con}"></div>`
-            
-            const exibir = montarTeste(falec, apel, con, idadeF, mamae);    
+
+            const exibir = montarTeste(falec, apel, con, idadeF, mamae);
             console.log(exibir)
-            divGera.appendChild(exibir)    
+            divGera.appendChild(exibir)
             divGera.appendChild(divBottom)
             lutoTitle.appendChild(divGera)
         } else {
             const exibirBtn = btnFalecido(falec, con, idadeF, mamae)
             lutoTitle.appendChild(exibirBtn);
         }
-    }
-    
-    }); 
-    
+
+
+    });
+
 
     const umArray = JSON.stringify(data.sort(ordemCrescente))
-    spanF.setAttribute('value','2')
-   
+
+
     return umArray
 
 }
 
-//falecidos();
+falecidos();
 
 async function tabelaEs(anoC) {
     const url = '/falecimentos-publicar'
@@ -115,7 +115,7 @@ async function tabelaEs(anoC) {
     var cont = 0;
     var masc = 0;
     var femi = 0;
-   // console.log(data)
+    // console.log(data)
     data.map((obi) => {
         const datas = obi.falecimento.split("/");
         //console.log(datas)       
@@ -144,12 +144,12 @@ async function contadorObitos() {
     var totMulheres = 0;
     for (let index = 2025; index >= 1800; index--) {
 
-       
+
 
 
         if (await tabelaEs(index) != '0,0,0') {
-            var  falecimentoAno = await tabelaEs(index);
-           
+            var falecimentoAno = await tabelaEs(index);
+
 
             document.getElementById('tabEstatistica').innerHTML += `           
         
@@ -160,12 +160,12 @@ async function contadorObitos() {
                 <td>${falecimentoAno[0]}</td>                             
             </tr>                                   
         `
-        var total = total + falecimentoAno[0];
-        var totHomens =  totHomens + falecimentoAno[1];
-        var totMulheres =  totMulheres + falecimentoAno[2];
+            var total = total + falecimentoAno[0];
+            var totHomens = totHomens + falecimentoAno[1];
+            var totMulheres = totMulheres + falecimentoAno[2];
         }
-        
-        
+
+
     }
 
     document.querySelector('#totalCont').innerHTML += `
@@ -194,57 +194,76 @@ function fecharTabela() {
 }
 
 async function montarOculto(numero) {
-    const resp = await falecidos();
-    const myOb = await JSON.parse(resp)
+    const resp = await fetch(url);
+    const myOb = await resp.json();
+
+    myOb.sort(toDate);
+
+    function ordemCrescente(a, b) {
+        return toDate(b) - toDate(a);
+    }
+
+    function toDate(fal) {
+        const parts = fal.falecimento.split("/");
+        const dataFor = new Date(parts[2], parts[1] - 1, parts[0]);
+        return dataFor;
+    }
+    
+    myOb.sort(toDate)
+    myOb.sort(ordemCrescente);
+
+    console.log(myOb[numero-1])
+
+    const anoF = myOb[numero-1].falecimento.split('/');
+    const anoN = myOb[numero-1].nascimento.split('/');
+    if (myOb[numero-1].nascimento == '') {
+        var idadeF = '';
+
+    } else {
+        const anoFalecimento = (`${anoF[2]}-${anoF[1]}-${anoF[0]}`)
+        const anoNascimento = (`${anoN[2]}-${anoN[1]}-${anoN[0]}`)
+
+        const idadeFOne = getAge(anoNascimento, anoFalecimento);
+        var idadeF = parseInt(idadeFOne) + " anos";
+
+    }
+
+
+   
 
     const imprimiu = document.getElementById(`cliqueOculto${numero}`).value;
-    const printDiv = document.querySelector(`#impri${numero}`);
+    const printDiv = document.querySelector(`#impri${numero}`);    
 
-  
-        const anoF = myOb[numero].falecimento.split('/');
-        const anoN = myOb[numero - 1].nascimento.split('/');
-
-        if (myOb[numero-1].nascimento == 'Desconhecido') {
-            var idadeF = '';
-
-        } else {
-            const anoFalecimento = (`${anoF[2]}-${anoF[1]}-${anoF[0]}`)
-            const anoNascimento = (`${anoN[2]}-${anoN[1]}-${anoN[0]}`)
-
-            var idadeFOne = getAge(`${anoNascimento}`, `${anoFalecimento}`);
-            var idadeF = parseInt(idadeFOne) + " anos";
-           
-
-        }
-      if (imprimiu.length == 0) {
+   
+    if (imprimiu.length == 0) {
         const mostra = document.getElementById(`cliqueOculto${numero}`);
 
         mostra.setAttribute('value', 'mostrou');
         mostra.setAttribute('onclick', `desmontar(${numero})`);
         printDiv.classList.toggle('class', 'dnone')
         printDiv.setAttribute('class', 'dblock');
-        const falec = myOb[numero - 1];
-        const apel = myOb[numero - 1].apelido;
-        const con = numero;
+        var falec = myOb[numero - 1];
+        var apel = myOb[numero - 1].apelido;
+        var con = numero;
 
         //console.log(idadeF)
 
 
-        const exibir = montarTeste(falec, apel, con, idadeF)
-        printDiv.appendChild(exibir)
-      }
-    
+       
+    }
+    const exibir = montarCard(falec, apel, con, idadeF, myOb.mae)
+    printDiv.appendChild(exibir)
+
 
 
 }
+function montarCard(falec, apel, con, idadeF, mamae) {
 
-function montarTeste(falec, apel, con, idadeF, mamae) {
-   
-    
+
     if (apel == undefined) apel = ""
     if (mamae == undefined) mamae = ""
-
-   
+    if (falec.nascimento == '') falec.nascimento = ' Desconhecido'
+    if (falec.imagem == '') falec.imagem = '/falecimento/homem-mulher.jpg'; 
 
     const divLuto = document.createElement('div');
     divLuto.classList.add('lutosC');
@@ -306,12 +325,90 @@ function montarTeste(falec, apel, con, idadeF, mamae) {
     iconeEditar.setAttribute('id', `abrirEditar${con}`)
     iconeEditar.setAttribute('onclick', `abrirEnviar(${con})`)
     //divGeral.appendChild(divLuto)
-   
+
     //divBtnEditar.appendChild(iconeEditar);
     divLuto.appendChild(divBtnEditar);
 
     return divLuto;
 }
+
+function montarTeste(falec, apel, con, idadeF, mamae) {
+
+
+    if (apel == undefined) apel = ""
+    if (mamae == undefined) mamae = ""
+
+
+
+    const divLuto = document.createElement('div');
+    divLuto.classList.add('lutosC');
+    const imgFita = document.createElement('img');
+    imgFita.src = ('/imagens/fita-falecimento.png');
+    imgFita.classList.add('fita');
+    divLuto.appendChild(imgFita);
+    const divImgFalecido = document.createElement('div');
+    divImgFalecido.classList.add('imagemL');
+    divLuto.appendChild(divImgFalecido)
+    const imgFalecido = document.createElement('img');
+    imgFalecido.src = (`${falec.imagem}`);
+    divImgFalecido.appendChild(imgFalecido)
+    const divVidro = document.createElement('div')
+    divVidro.classList.add('vidroF');
+    const nomeFalecido = document.createElement('p');
+    const apelidoFalecido = document.createElement('p');
+    nomeFalecido.classList.add('nomeF');
+    apelidoFalecido.setAttribute('class', 'aplido');
+    nomeFalecido.textContent = `${falec.nome}`;
+    apelidoFalecido.textContent = `${apel}`;
+    apelidoFalecido.setAttribute('id', `apelidoT${apel}${con}`);
+    const divNascFale = document.createElement('div');
+    divNascFale.setAttribute('class', 'nascFalec');
+    const iconeFalecimento = document.createElement('i');
+    iconeFalecimento.setAttribute('class', 'bi bi-heartbreak-fill');
+    iconeFalecimento.textContent = `${falec.falecimento}`;
+    const iconeNacimento = document.createElement('i');
+    iconeNacimento.setAttribute('class', 'bi bi-star-fill');
+    iconeNacimento.textContent = `${falec.nascimento}`;
+    const pStrong = document.createElement('strong');
+    const idadefal = document.createElement('p');
+    idadefal.textContent = `${idadeF}`;
+    idadefal.setAttribute('class', 'aplido');
+    idadefal.setAttribute('style', 'margin-bottom:.3em;');
+    const nomeMae = document.createElement('p');
+    nomeMae.setAttribute('class', 'falecMae')
+    nomeMae.textContent = `${mamae}`;
+    const divNotaFalecimento = document.createElement('div');
+    divNotaFalecimento.setAttribute('class', 'nota')
+    const NotaFalecimento = document.createElement('p');
+    NotaFalecimento.textContent = `${falec.nota}`;
+    divNotaFalecimento.appendChild(NotaFalecimento);
+    pStrong.appendChild(idadefal);
+    divNascFale.appendChild(iconeNacimento)
+    divNascFale.appendChild(iconeFalecimento);
+    divVidro.appendChild(nomeFalecido);
+    divVidro.appendChild(apelidoFalecido)
+    divVidro.appendChild(divNascFale);
+    divVidro.appendChild(pStrong)
+    divVidro.appendChild(nomeMae)
+    divLuto.appendChild(divVidro);
+    divLuto.appendChild(divNotaFalecimento);
+    const divBtnEditar = document.createElement('div');
+    divBtnEditar.classList.add('bntEditar');
+    const iconeEditar = document.createElement('i');
+    iconeEditar.classList.add('bi', "bi-pencil-fill");
+    iconeEditar.textContent = "Editar";
+    iconeEditar.setAttribute('id', `abrirEditar${con}`)
+    iconeEditar.setAttribute('onclick', `abrirEnviar(${con})`)
+    //divGeral.appendChild(divLuto)
+
+    //divBtnEditar.appendChild(iconeEditar);
+    divLuto.appendChild(divBtnEditar);
+
+    return divLuto;
+}
+
+
+
 
 async function abrirEnviar(numero) {
 
@@ -321,7 +418,7 @@ async function abrirEnviar(numero) {
 
     //console.log(data)
     const divModal = document.createElement('div')
-    divModal.setAttribute('class','modal')
+    divModal.setAttribute('class', 'modal')
     divModal.setAttribute('id', `exampleModal${numero}`)
 
     const divModalDialog = document.createElement('div')
@@ -330,7 +427,7 @@ async function abrirEnviar(numero) {
 
     const divModalContent = document.createElement('div')
     divModalContent.setAttribute('class', 'modal-content')
-    divModalContent.textContent = `Fechando pop - ${data[numero-1].nome} Numero ${numero}`
+    divModalContent.textContent = `Fechando pop - ${data[numero - 1].nome} Numero ${numero}`
     divModalDialog.appendChild(divModalContent)
 
     const divMFooter = document.createElement('div');
@@ -339,25 +436,25 @@ async function abrirEnviar(numero) {
 
     const btnFechar = document.createElement('button');
     btnFechar.setAttribute('type', 'button');
-    btnFechar.setAttribute('class','btn btn-secondary');
+    btnFechar.setAttribute('class', 'btn btn-secondary');
     btnFechar.setAttribute('id', `bBaixo${numero}`);
     btnFechar.setAttribute('onclick', `cardVisto(${numero})`)
     btnFechar.textContent = "Fechar"
 
     divModalContent.appendChild(btnFechar)
 
-    
+
     //console.log(div);
     const div = document.querySelector(`#enviarInformacao${numero}`)
-    
-    
-    
+
+
+
     div.appendChild(divModal)
     console.log(div);
-   return div
+    return div
 
 
-     `<div class="modal-footer dflex">
+        `<div class="modal-footer dflex">
                             
                             <button type="button" class="btn btn-secondary " data-bs-dismiss="modal" id="bBaixo${numero}"  onclick="fecharAbrirEnviar(${numero})">Fechar</button>
                            
@@ -365,7 +462,7 @@ async function abrirEnviar(numero) {
                                 ><i class="bi bi-heart-fill"> Ajudar</i></>
                         
                     </div>`
-    
+
 }
 function cardVisto(numero) {
     const card = document.querySelector(`#enviarInformacao${numero}`);
@@ -375,7 +472,7 @@ function cardVisto(numero) {
 //console.log(abrirEnviar())
 
 function montarEnviarInfo() {
-   ` <div class="modal" id="exampleModal${con}" style="display: none;">
+    ` <div class="modal" id="exampleModal${con}" style="display: none;">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header dflex">

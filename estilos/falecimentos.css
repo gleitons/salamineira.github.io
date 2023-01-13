@@ -86,7 +86,7 @@
 }
 .infoLutos {
   width: 50%;
-  border: #222 solid 1px;
+  /* border: #222 solid 1px; */
 }
 .infoLutos > div {
   width: 95%;
