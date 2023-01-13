@@ -8,7 +8,31 @@
   --fontPostuma: fontP;
   --fhgf: red;
 }
-
+.falecidoRecente {
+  padding: .8em;
+  width: 100%;
+  border-radius:12px ;
+  margin: .6em;
+  margin-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.444) 2px 2px 5px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url('https://www.funerariapatense.com.br/img/bg_obituario2.jpg');
+  background-size: contain;
+  
+}
+.falecidoRecente > div {
+  width: 45%; 
+  margin:  1em 0em;
+  
+ 
+}
+.falecidoRecente > div > div {
+  width: 100%;
+  margin:  1em 0em;
+}
 .lutos {
   position: relative;
   display: flex;
@@ -66,8 +90,9 @@
 }
 .btnEditarV {
     text-align: center;
+    width: 100%;
 }
-.btnEditarV i {
+.btnEditarV i { 
   background-color: rgb(166, 166, 166);
   padding: .2em;
   margin: .2em;
@@ -76,6 +101,7 @@
   border: #555 solid 1px;
   cursor: pointer;
   font-size: .9em;
+  display: block;
 }
 #calculando {
   text-align: center;
@@ -215,6 +241,31 @@
   background-color: white;
   border-radius: 8px;
 }
+.notaw {
+  
+  align-items: center;
+  padding: 0.8em;
+  margin: 0.3em auto;
+  width: 90%;
+  min-height: 350px;
+  border: rgb(136, 136, 136) solid 1px;
+  position: relative;
+  background-color: white;
+  border-radius: 8px;
+  position: relative;
+}
+.notaw p {
+  margin-top: 20%;
+  font-family:cursive, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.notaw::after {
+  content: 'Mensagem Gerada Aleatóriamente';
+  position: absolute;
+  rotate: -90deg;
+  font-size: .7em;
+  top: 233px;
+  right: -75px;
+}
 tbody tr:nth-child(even) {
   background: lightgray;
 }
@@ -265,6 +316,7 @@ tfoot {
   width: 100%;
   background-color: black;
 }
+
 .coracaoLuto > p {
   padding: 0.3em;
   width: 40%;
@@ -274,6 +326,12 @@ tfoot {
   color: white;
 }
 @media (max-width: 360px) {
+  .falecidoRecente > div {
+    width:100%; 
+    margin:  .2em 0em;
+    
+   
+  }
   .coracaoLuto > p {
     width: 80%;
     font-size: 1.7em;
@@ -288,7 +346,17 @@ tfoot {
   bottom: 0;
   left: 0;
   z-index: 999999;
+  /* animation: abriModal 5s infinite; */
 }
+/* @keyframes abriModal {
+  0% {
+    top: -10%;
+
+  }
+  100% {
+    top: 100%;
+  }
+} */
 .bntEditar i {
   background-color: red;
   color: white;

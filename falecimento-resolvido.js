@@ -1,5 +1,5 @@
 const url = '/falecimentos-publicar';
-localStorage.setItem('imgHomem', '/falecimento/homem-mulher.jpg')
+localStorage.setItem('imgHomem', '/coroa-homem-mulher-online.jpg')
 const imgH = localStorage.getItem('imgHomem');
 
 async function falecidos() {
@@ -41,7 +41,9 @@ async function falecidos() {
 
         const falecimento = falec.falecimento;
         if (falec.imagem == '') falec.imagem = imgH;
-        if (falec.nascimento == "") { falec.nascimento = "Desconhecido" };
+        if (falec.nascimento == "") {
+            falec.nascimento = "Desconhecido"
+        };
 
         if (falec.sexo == 'm') {
             filho = "Filho"
@@ -78,31 +80,51 @@ async function falecidos() {
         }
 
 
-        if (5 > con) {
+
+        const exibirBtn = btnFalecido(falec, con, idadeF, mamae)
+        lutoTitle.appendChild(exibirBtn);
+
+        // if ( 4 >= con) {
+        //     var divGera = document.createElement('div')
+        //     divGera.setAttribute('class', 'infoLutos');
+        //     const divBottom = document.createElement('div')
+        //     divBottom.innerHTML = `<div class="btnEditarV"><i class="bi bi-pencil-fill" id="abrirEditar${con}" onclick="abrirEnviar(${con})">Editar</i></div>
+        //     <div id="enviarInformacao${con}"></div>`
+        //     const exibir = montarTeste(falec, apel, con, idadeF, mamae);
+        //     console.log(exibir)
+        //     divGera.appendChild(exibir)
+        //     divGera.appendChild(divBottom)
+        //     lutoTitle.appendChild(divGera)
+        // } else {
+        //     const exibirBtn = btnFalecido(falec, con, idadeF, mamae)
+        //     lutoTitle.appendChild(exibirBtn);
+        // }
+        if (4 >= con) {
+            const numeroM1 = Math.floor(Math.random() * (20 - 1) + 1);
+            const numeroM2 = Math.floor(Math.random() * (20 - 11) + 11);
+            const numeroM3 = Math.floor(Math.random() * (30 - 21) + 21);
+            const numeroM4 = Math.floor(Math.random() * (40 - 31) + 31);
+            const mensa = [numeroM1, numeroM2, numeroM3, numeroM4]
+            const apresenta = mensa[Math.floor(Math.random() * (4 - 1) + 1)]
+            console.log(mensagens()[apresenta])
+            const homenagemFalecido = document.querySelector('#homenagemFalecido')
             var divGera = document.createElement('div')
             divGera.setAttribute('class', 'infoLutos');
             const divBottom = document.createElement('div')
-            divBottom.innerHTML = `<div class="btnEditarV"><i class="bi bi-pencil-fill" id="abrirEditar${con}" onclick="abrirEnviar(${con})">Editar</i></div>
-            <div id="enviarInformacao${con}"></div>`
-
+            divBottom.innerHTML = `<div class="notaw"><p>${mensagens()[apresenta].mensagem}</p></div>`;
             const exibir = montarTeste(falec, apel, con, idadeF, mamae);
             console.log(exibir)
             divGera.appendChild(exibir)
-            divGera.appendChild(divBottom)
-            lutoTitle.appendChild(divGera)
-        } else {
-            const exibirBtn = btnFalecido(falec, con, idadeF, mamae)
-            lutoTitle.appendChild(exibirBtn);
+            homenagemFalecido.appendChild(divBottom)
+            homenagemFalecido.appendChild(divGera)
         }
-
-
     });
 
 
-    const umArray = JSON.stringify(data.sort(ordemCrescente))
+    //const umArray = JSON.stringify(data.sort(ordemCrescente))
 
 
-    return umArray
+    // return umArray
 
 }
 
@@ -185,18 +207,14 @@ function abrirTabela() {
     telaTab.style.display = 'block'
     bttab.style.display = 'none'
 }
+
 function fecharTabela() {
-    // const telaTab = document.querySelector('#tabEstatistica');
-    // telaTab.style.display = 'none'
-    // telaTab.remove()
-    // const tabBelaBtn = document.querySelector('#btnTabela');
-    // tabBelaBtn.setAttribute('onclick', 'contadorObitos()')
+
 }
 
 async function montarOculto(numero) {
     const resp = await fetch(url);
     const myOb = await resp.json();
-
     myOb.sort(toDate);
 
     function ordemCrescente(a, b) {
@@ -208,15 +226,14 @@ async function montarOculto(numero) {
         const dataFor = new Date(parts[2], parts[1] - 1, parts[0]);
         return dataFor;
     }
-    
     myOb.sort(toDate)
     myOb.sort(ordemCrescente);
 
-    console.log(myOb[numero-1])
+    console.log(myOb[numero - 1])
 
-    const anoF = myOb[numero-1].falecimento.split('/');
-    const anoN = myOb[numero-1].nascimento.split('/');
-    if (myOb[numero-1].nascimento == '') {
+    const anoF = myOb[numero - 1].falecimento.split('/');
+    const anoN = myOb[numero - 1].nascimento.split('/');
+    if (myOb[numero - 1].nascimento == '') {
         var idadeF = '';
 
     } else {
@@ -225,16 +242,12 @@ async function montarOculto(numero) {
 
         const idadeFOne = getAge(anoNascimento, anoFalecimento);
         var idadeF = parseInt(idadeFOne) + " anos";
-
     }
 
-
-   
-
     const imprimiu = document.getElementById(`cliqueOculto${numero}`).value;
-    const printDiv = document.querySelector(`#impri${numero}`);    
+    const printDiv = document.querySelector(`#impri${numero}`);
 
-   
+
     if (imprimiu.length == 0) {
         const mostra = document.getElementById(`cliqueOculto${numero}`);
 
@@ -245,25 +258,21 @@ async function montarOculto(numero) {
         var falec = myOb[numero - 1];
         var apel = myOb[numero - 1].apelido;
         var con = numero;
-
-        //console.log(idadeF)
-
-
-       
     }
     const exibir = montarCard(falec, apel, con, idadeF, myOb.mae)
     printDiv.appendChild(exibir)
-
-
-
 }
+
+
+
+
 function montarCard(falec, apel, con, idadeF, mamae) {
-
-
     if (apel == undefined) apel = ""
     if (mamae == undefined) mamae = ""
     if (falec.nascimento == '') falec.nascimento = ' Desconhecido'
-    if (falec.imagem == '') falec.imagem = '/falecimento/homem-mulher.jpg'; 
+    if (falec.imagem == '') falec.imagem = '/coroa-homem-mulher-online.jpg';
+
+    const iconeE = document.getElementById(`abrirEditar${con}`)
 
     const divLuto = document.createElement('div');
     divLuto.classList.add('lutosC');
@@ -324,11 +333,9 @@ function montarCard(falec, apel, con, idadeF, mamae) {
     iconeEditar.textContent = "Editar";
     iconeEditar.setAttribute('id', `abrirEditar${con}`)
     iconeEditar.setAttribute('onclick', `abrirEnviar(${con})`)
-    //divGeral.appendChild(divLuto)
-
-    //divBtnEditar.appendChild(iconeEditar);
+    iconeE.style.display = "none"
     divLuto.appendChild(divBtnEditar);
-
+    
     return divLuto;
 }
 
@@ -409,61 +416,176 @@ function montarTeste(falec, apel, con, idadeF, mamae) {
 
 
 
-
 async function abrirEnviar(numero) {
+    const resp = await fetch(url);
+    const myOb = await resp.json();
+    myOb.sort(toDate);
 
-    const response = await falecidos();
-    const data = await JSON.parse(response)
-    var falecIDi = document.querySelector('#lutoTitle')
+    function ordemCrescente(a, b) {
+        return toDate(b) - toDate(a);
+    }
 
-    //console.log(data)
-    const divModal = document.createElement('div')
-    divModal.setAttribute('class', 'modal')
-    divModal.setAttribute('id', `exampleModal${numero}`)
+    function toDate(fal) {
+        const parts = fal.falecimento.split("/");
+        const dataFor = new Date(parts[2], parts[1] - 1, parts[0]);
+        return dataFor;
+    }
+    myOb.sort(toDate)
+    myOb.sort(ordemCrescente);
 
-    const divModalDialog = document.createElement('div')
-    divModalDialog.setAttribute('class', 'modal-dialog')
-    divModal.appendChild(divModalDialog)
+    console.log(myOb[numero - 1])
 
-    const divModalContent = document.createElement('div')
-    divModalContent.setAttribute('class', 'modal-content')
-    divModalContent.textContent = `Fechando pop - ${data[numero - 1].nome} Numero ${numero}`
-    divModalDialog.appendChild(divModalContent)
+    const anoF = myOb[numero - 1].falecimento.split('/');
+    const anoN = myOb[numero - 1].nascimento.split('/');
+    if (myOb[numero - 1].nascimento == '') {
+        var idadeF = '';
 
-    const divMFooter = document.createElement('div');
-    divMFooter.setAttribute('class', 'modal-footer dflex');
-    divModalContent.appendChild(divMFooter)
+    } else {
+        const anoFalecimento = (`${anoF[2]}-${anoF[1]}-${anoF[0]}`)
+        const anoNascimento = (`${anoN[2]}-${anoN[1]}-${anoN[0]}`)
 
-    const btnFechar = document.createElement('button');
-    btnFechar.setAttribute('type', 'button');
-    btnFechar.setAttribute('class', 'btn btn-secondary');
-    btnFechar.setAttribute('id', `bBaixo${numero}`);
-    btnFechar.setAttribute('onclick', `cardVisto(${numero})`)
-    btnFechar.textContent = "Fechar"
+        const idadeFOne = getAge(anoNascimento, anoFalecimento);
+        var idadeF = parseInt(idadeFOne) + " anos";
+    }
 
-    divModalContent.appendChild(btnFechar)
-
-
-    //console.log(div);
-    const div = document.querySelector(`#enviarInformacao${numero}`)
+    const imprimiu = document.getElementById(`cliqueOculto${numero}`).value;
+    const printDiv = document.querySelector(`#impri${numero}`);
 
 
+    if (imprimiu.length == 0) {
+        const mostra = document.getElementById(`cliqueOculto${numero}`);
 
-    div.appendChild(divModal)
-    console.log(div);
-    return div
+        mostra.setAttribute('value', 'mostrou');
+        mostra.setAttribute('onclick', `desmontar(${numero})`);
+        printDiv.classList.toggle('class', 'dnone')
+        printDiv.setAttribute('class', 'dblock');
+        var falec = myOb[numero - 1];
+        var apel = myOb[numero - 1].apelido;
+        var con = numero;
+    }
+    const exibir = montarEnvio(falec, apel, con, idadeF, myOb.mae)
+    printDiv.appendChild(exibir)
+}
+
+async function montarEnvio(falec, apel, con, idadeF) {
+    console.log(falec.nome)
+    const nomeID = falec.nome
+    const div = document.querySelector(`#enviarInformacao${con}`)
+    const dados = ` <div class="modal" id="exampleModal${con}" style="display: block;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header dflex">
+                <h5 class="modal-title" id="exampleModalLabel${con}"> <i class="bi bi-heart-fill"> Ajude a
+                        editar o cadastro de ${nomeID} - ${con}</i></h5>
+                <button type="button" class="btn-close btnfechaModal${con}" data-bs-dismiss="modal" aria-label="Close"   onclick="fecharAbrirEnviar(${con})"><i
+                        class="bi bi-x-lg"></i></button>
+            </div>
+            <div class="modal-body">
+                <form action="https://formsquash.io/f/GQziZ1MKm2rgVMzRsaOZ" method="post">
+                    <div class="mb-3">
+
+                    <label for="cars">Selecione:</label>
+                    <select class="col-form-label" name="cadastro" id="cadastro${con}">
+                    <option value="editar">Editar Cadastro</option>
+                    <option value="manter">Manter Cadastro</option>
+                    <option value="excluir">Excluir Cadastro</option>
+                    </select>
+                    <br>
 
 
-        `<div class="modal-footer dflex">
-                            
-                            <button type="button" class="btn btn-secondary " data-bs-dismiss="modal" id="bBaixo${numero}"  onclick="fecharAbrirEnviar(${numero})">Fechar</button>
-                           
+                        <label for="recipient-name" class="col-form-label">Clique em cima do dado e
+                            edite:</label> <br>
+
+
+                        <label class="col-form-label">Nome:</label>
+                        <input type="text" class="form-control" id="1_nome_${nomeID}${con}"
+                            name="1_nome_${nomeID}${con}"
+                            placeholder="${falec.nome} - ${con}">
+
+                        <label class="col-form-label">Apelido:</label>
+                        <input type="text" class="form-control"
+                            id="2_apelido_${nomeID}${con}"
+                            name="2_apelido_${nomeID}${con}" placeholder=" ${falec.apelido}">
+
+                        <label class="col-form-label">Data Nascimento:</label>
+                        <input type="date" class="form-control"
+                            id="3_nascimento-${nomeID}${con}"
+                            name="3_nascimento-${nomeID}${con}">
+
+                        <label class="col-form-label">Data Falecimento:</label>
+                        <input type="date" class="form-control"
+                            id="4_falecimento-${nomeID}${con}"
+                            name="4_falecimento-${nomeID}${con}">
+
+                        <label class="col-form-label">Nome da Mãe:</label>
+                        <input type="text" class="form-control" id="5_mae_${nomeID}${con}"
+                            name="5_mae22_${nomeID}${con}" placeholder="INSIRA NOME DA MÃE">
+
+                        <label class="col-form-label">Nome do Pai:</label>
+                        <input type="text" class="form-control" id="6_pai-${nomeID}${con}"
+                            name="6_pai-${nomeID}${con}" placeholder="INSIRA NOME DO PAI">
+
+                        <label class="col-form-label">Foto:</label> <br>
+                        <p>Estamos Configurando nosso servidor para receber imagens, volte em breve.</p>
+                        <p>Caso deseje, poderá enviar uma foto em especial <a href="/envie-obito-lagoa-dos-patos-mg.html">clicando aqui</a>.</p>
+                        
+                        <input class="form-control" name="99_imagemLogo" id="valueImg${con}" onchange="previewFile(${con})" accept="image/*" type="hidden" readonly="">
+
+                        <input  type="hidden" name="99_logoImagem64" id="logoEmpresa${con}">
+
+
+                        <div class="fotoHomenagem">
+
+                            <img src="" alt="" id="previewfoto${con}">
+
+                        </div>
+                        
+
+                        <br><label class="col-form-label">Adicione uma Mensagem:</label> <br>
+                        <textarea class="form-control" name="9_mensagem-${nomeID}${con}"
+                            id="9_mensagem-${nomeID}_${con}" cols="30" rows="5"
+                            placeholder="Adicione uma mensagem para ${falec.nome}"></textarea>
+
+
+
+
+
+
+                        <input type="hidden" class="form-control" id="hide-${nomeID}"
+                            name="hide-${nomeID}${con}"
+                            placeholder="${falec.none}">
+
+
+
+                        <input type="hidden" class="form-control" id="recipient-name${con}" readonly="">
+                        <input type="hidden" id="idFalecimento${nomeID}${con}" value="22">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Mais erros? Descreva
+                            abaixo:</label>
+                        <textarea class="form-control" id="mais-erros${nomeID}${con}"></textarea>
+                    </div>
+                    <div class="modal-footer dflex">
+                        
+                        <button type="button" class="btn btn-secondary " data-bs-dismiss="modal" id="bBaixo${con}"  onclick="fecharAbrirEnviar(${con})">Fechar</button>
+                       
                             <input type="submit" class="btn btn-primary"
                                 ><i class="bi bi-heart-fill"> Ajudar</i></>
                         
-                    </div>`
+                    </div>
+                </form>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>`
 
+    div.innerHTML = dados
+    console.log(div);
+    return div
 }
+
 function cardVisto(numero) {
     const card = document.querySelector(`#enviarInformacao${numero}`);
     card.setAttribute('class', 'vistoCard')
@@ -471,128 +593,19 @@ function cardVisto(numero) {
 }
 //console.log(abrirEnviar())
 
-function montarEnviarInfo() {
-    ` <div class="modal" id="exampleModal${con}" style="display: none;">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header dflex">
-                    <h5 class="modal-title" id="exampleModalLabel${con}"> <i class="bi bi-heart-fill"> Ajude a
-                            editar o cadastro de ${falec.nome} - ${con}</i></h5>
-                    <button type="button" class="btn-close btnfechaModal${con}" data-bs-dismiss="modal" aria-label="Close"   onclick="fecharAbrirEnviar(${con})"><i
-                            class="bi bi-x-lg"></i></button>
-                </div>
-                <div class="modal-body">
-                    <form action="https://formsquash.io/f/GQziZ1MKm2rgVMzRsaOZ" method="post">
-                        <div class="mb-3">
-
-                        <label for="cars">Selecione:</label>
-                        <select class="col-form-label" name="cadastro" id="cadastro${con}">
-                        <option value="editar">Editar Cadastro</option>
-                        <option value="manter">Manter Cadastro</option>
-                        <option value="excluir">Excluir Cadastro</option>
-                        </select>
-                        <br>
-
-
-                            <label for="recipient-name" class="col-form-label">Clique em cima do dado e
-                                edite:</label> <br>
-
-
-                            <label class="col-form-label">Nome:</label>
-                            <input type="text" class="form-control" id="1_nome_${nomeID}${con}"
-                                name="1_nome_${nomeID}${con}"
-                                placeholder="${falec.nome} - ${con}">
-
-                            <label class="col-form-label">Apelido:</label>
-                            <input type="text" class="form-control"
-                                id="2_apelido_${nomeID}${con}"
-                                name="2_apelido_${nomeID}${con}" placeholder=" ${falec.apelido}">
-
-                            <label class="col-form-label">Data Nascimento:</label>
-                            <input type="date" class="form-control"
-                                id="3_nascimento-${nomeID}${con}"
-                                name="3_nascimento-${nomeID}${con}">
-
-                            <label class="col-form-label">Data Falecimento:</label>
-                            <input type="date" class="form-control"
-                                id="4_falecimento-${nomeID}${con}"
-                                name="4_falecimento-${nomeID}${con}">
-
-                            <label class="col-form-label">Nome da Mãe:</label>
-                            <input type="text" class="form-control" id="5_mae_${nomeID}${con}"
-                                name="5_mae22_${nomeID}${con}" placeholder="INSIRA NOME DA MÃE">
-
-                            <label class="col-form-label">Nome do Pai:</label>
-                            <input type="text" class="form-control" id="6_pai-${nomeID}${con}"
-                                name="6_pai-${nomeID}${con}" placeholder="INSIRA NOME DO PAI">
-
-                            <label class="col-form-label">Foto:</label> <br>
-                            <p>Estamos Configurando nosso servidor para receber imagens, volte em breve.</p>
-                            <p>Caso deseje, poderá enviar uma foto em especial <a href="/envie-obito-lagoa-dos-patos-mg.html">clicando aqui</a>.</p>
-                            
-                            <input class="form-control" name="99_imagemLogo" id="valueImg${con}" onchange="previewFile(${con})" accept="image/*" type="hidden" readonly="">
-
-                            <input  type="hidden" name="99_logoImagem64" id="logoEmpresa${con}">
-
-
-                            <div class="fotoHomenagem">
-
-                                <img src="" alt="" id="previewfoto${con}">
-
-                            </div>
-                            
-
-                            <br><label class="col-form-label">Adicione uma Mensagem:</label> <br>
-                            <textarea class="form-control" name="9_mensagem-${nomeID}${con}"
-                                id="9_mensagem-${nomeID}_${con}" cols="30" rows="5"
-                                placeholder="Adicione uma mensagem para ${falec.nome}"></textarea>
-
-
-
-
-
-
-                            <input type="hidden" class="form-control" id="hide-${nomeID}"
-                                name="hide-${nomeID}${con}"
-                                placeholder="${falec.none}">
-
-
-
-                            <input type="hidden" class="form-control" id="recipient-name${con}" readonly="">
-                            <input type="hidden" id="idFalecimento${nomeID}${con}" value="22">
-                        </div>
-                        <div class="mb-3">
-                            <label for="message-text" class="col-form-label">Mais erros? Descreva
-                                abaixo:</label>
-                            <textarea class="form-control" id="mais-erros${nomeID}${con}"></textarea>
-                        </div>
-                        <div class="modal-footer dflex">
-                            
-                            <button type="button" class="btn btn-secondary " data-bs-dismiss="modal" id="bBaixo${con}"  onclick="fecharAbrirEnviar(${con})">Fechar</button>
-                           
-                                <input type="submit" class="btn btn-primary"
-                                    ><i class="bi bi-heart-fill"> Ajudar</i></>
-                            
-                        </div>
-                    </form>
-                    
-                </div>
-                
-            </div>
-        </div>
-    </div>`
-}
-
 
 
 function desmontar(numero) {
     const divMontada = document.getElementById(`impri${numero}`);
     const divMButton = document.getElementById(`cliqueOculto${numero}`)
+    const iconeE = document.getElementById(`abrirEditar${numero}`)
+
 
     divMontada.removeAttribute('class', 'dblock')
     divMontada.innerHTML = "";
     divMButton.setAttribute('onclick', `montarOculto(${numero})`)
     divMButton.setAttribute('value', "");
+    iconeE.style.display = "block"
 
 }
 
@@ -615,7 +628,7 @@ function btnFalecido(falec, con, idadeF, mamae) {
     const divLutosc = document.createElement('div');
     divLutosc.setAttribute('class', 'btnEditarV')
     const iconeEditar = document.createElement('i');
-    iconeEditar.classList.add('bi', "bi-pencil-fill");
+    iconeEditar.classList.add('bi', "bi-pencil-fill","btnEd");
     iconeEditar.textContent = "Editar";
     iconeEditar.setAttribute('id', `abrirEditar${con}`)
     iconeEditar.setAttribute('onclick', `abrirEnviar(${con})`)
@@ -651,6 +664,7 @@ function ocultarMostar(numb) {
 
 
 }
+
 function previewFile(num) {
 
     const preview = document.querySelector(`img`);
@@ -672,6 +686,7 @@ function previewFile(num) {
 
     }
 }
+
 function fecharAbrirEnviar(nume) {
 
     const bClose = document.getElementById(`bBaixo${nume}`);
@@ -690,6 +705,7 @@ function fecharAbrirEnviar(nume) {
 
 
 }
+
 function abrirModal(valor) {
     const abrireEditar = document.querySelector(`#abrirEditar${valor}`);
     const abrirbotao = document.querySelector(`#exampleModal${valor}`);
@@ -698,6 +714,7 @@ function abrirModal(valor) {
         abrirbotao.style.display = "block";
     })
 }
+
 function getAge(nascimento, falecimentoF) {
     var falecimento = new Date(falecimentoF);
     var birthDate = new Date(nascimento);
@@ -708,4 +725,184 @@ function getAge(nascimento, falecimentoF) {
     }
 
     return age;
+}
+
+
+function mensagens(numero) {
+    return [{
+            "mensagem": "A morte é uma certeza, mas continua nos surpreendendo quando chega sem aviso e leva uma pessoa tão querida. Não quero que você me veja chorando nem questionando a vontade de Deus. Tudo o que posso fazer hoje é rezar para que você encontre a luz e nos proteja para sempre."
+        },
+        {
+            "mensagem": "O brilho dos seus olhos, o calor do seu sorriso e a bondade de sua alma ficarão marcados em nossos corações. A sua morte é, sem dúvida, uma grande perda para todos nós. Você sempre deixará saudades, não importa quanto tempo passar."
+        },
+        {
+            "mensagem": "Você sempre foi uma pessoa tão alegre e eu sei que não gostaria de me ver sofrendo. Sua lembrança continua viva em cada canto da casa, cada rua e cada silêncio, mas eu não vou me entregar para a dor. Você que amava a vida, merece me ver sorrindo. Prometo que vou tentar… E um dia vou seguir em frente porque você me dá forças."
+        },
+        {
+            "mensagem": "Só quem já passou por isso consegue imaginar o sofrimento que eu estou sentindo agora. Minha mãe amada, grande amiga e melhor conselheira, deixou este mundo hoje. Mamãe, oro para que seu espírito encontre a paz e o descanso eterno.Suas palavras, seus abraços, sua voz doce, seu sorriso aberto… Tudo isso faz parte de mim e será lembrado todos os dias. Eu te amo eternamente, mãe. Que saudades…"
+        },
+        {
+            "mensagem": "Hoje é mais um dia em que a saudade nos domina e toca conta dos nossos espíritos. O luto permanece entre nós a cada amanhecer…Acredito que, aos poucos, o tempo vai me trazer algum conforto e eu vou aprender a aceitar a sua partida. Até lá, vou tentando estreitar ainda mais os laços entre todos que ficaram e servir de amparo para os outros, algo que eu aprendi com você."
+        },
+        {
+            "mensagem": "Sua voz, sua companhia, seu riso e suas palavras sábias… Tudo isso nos falta agora que você se foi. Ficamos aqui, nos sentindo desamparados sem você, mas sua presença e as memórias de tudo que vivemos são mais fortes que o tempo. Até um dia…"
+        },
+        {
+            "mensagem": "Como é difícil se livrar da dor que se instalou no meu peito desde que você partiu! Meu único consolo é saber que você está bem, em paz, sem sofrimento. Um dia sei que minhas lágrimas de dor vão se transformar em lágrimas de saudades, mas o vazio deixado pela sua perda jamais será preenchido. Descanse em paz!"
+        },
+        {
+            "mensagem": "Para conseguir suportar a sua partida, eu preciso recordar todas as coisas boas que vivemos, pequenos gestos que ficaram gravados na minha memória e que eu vou guardar com todo o carinho. As saudades são eternas, mas o amor é ainda maior."
+        },
+        {
+            "mensagem": "Hoje eu perdi uma pessoa essencial na minha vida! E eu, que vivia dizendo que nunca conseguiria viver sem você, vou ter que aprender a fazer justamente isso. Não será fácil, mas, pelo amor que sempre tive por você, eu prometo que vou tentar. Por favor, me ajude daí de cima quando o fardo parecer pesado demais. Te amarei para sempre!"
+        },
+        {
+            "mensagem": "Nunca estamos preparados para nos despedir para sempre, mesmo sabendo que isso faz parte da vida. Nossos corações estão pesados por perder alguém tão importante e especial... Hoje estamos de luto, lamentando a sua partida, mas celebraremos para sempre sua passagem inesquecível pelo mundo. Descanse em paz."
+        }, {
+            "mensagem": "Não existe despedida mais triste e dolorosa do que aquela que fazemos, de repente, quando parte alguém que era essencial para a nossa felicidade. É como se arrancassem o tapete debaixo dos nossos pés e continuássemos caindo durante muito tempo…Minha alma está de luto pela sua morte irreparável... Sei que nada será como antes, mas peço que você olhe por mim e me proteja, lá do céu."
+        }, {
+            "mensagem": "Tio querido, é com o coração apertado que eu escrevo estas palavras e me despeço de você, sabendo que a sua memória ficará comigo para sempre. Agradeço o seu carinho e todas as suas lições, prometo que vou fazer de tudo para você se orgulhar de mim. Vai com Deus, tio, e olha por nós!"
+        }, {
+            "mensagem": "Hoje o mundo acordou de luto pela perda de um anjo. O vazio que você deixou no meu peito ninguém vai conseguir preencher. Você é um ser de luz, muito diferente de todos que eu já conheci, e talvez por isso tenha partido tão cedo.Apesar de estar com o coração apertado, eu faço questão de sorrir em sua homenagem e agradecer por ter tido a sorte de encontrar alguém com você no meu caminho."
+        }, {
+            "mensagem": "A partida de uma avó é sempre um momento devastador para qualquer família. Sabemos que é a lei da vida, mas quando precisamos nos despedir, o coração não quer aceitar.Estamos de luto e sabemos que seu lugar nunca será preenchido. Descanse do lado de Deus, nosso amor por você é eterno."
+        }, {
+            "mensagem": "Uma grande alma nunca morre. Ela nos une cada vez mais."
+        }, {
+            "mensagem": "Você sempre foi uma grande fonte de inspiração e coragem para todos nós. Suas memórias ficarão para sempre guardadas em nossos corações. Rezo para que sua alma alcance a paz eterna…"
+        }, {
+            "mensagem": "Já se passaram 7 dias, mas aparece que foi há um segundo que meu coração se quebrou com a notícia do seu falecimento. Sei que você fechou os olhos para sempre, mas para mim continua presente em todos os pequenos gestos do cotidiano. Não existem palavras para traduzir essa saudade…"
+        }, {
+            "mensagem": "Hoje você partiu e só nos restou a saudade e uma dor enorme. Dói saber que não ouviremos mais suas risadas, não escutaremos mais a sua voz. Dói saber que você não estará mais presente nas comemorações em família.Mas eu sei que a lembrança de quem você foi e todos os bons momentos estarão guardados dentro do coração de cada um de nós. Descanse em paz!"
+        }, {
+            "mensagem": "O falecimento de um parente tão próximo é sempre um dia de sofrimento e saudade. A família está sentindo a sua falta a cada segundo e orando pelo seu descanso eterno. Por favor, cuida de nós…"
+        }, {
+            "mensagem": "Mãezinha, já são 30 dias de saudade… Sua partida quebrou meu coração, mas eu prometo que vou fazer de tudo para me reerguer e continuar te enchendo de orgulho. Nesse aniversário de 1 mês do seu falecimento, quero deixar uma homenagem para a mulher mais batalhadora que eu tive a honra de conhecer."
+        }, {
+            "mensagem": "Eu sei que nenhuma lágrima vai trazer você de volta… Meu coração tenta encontrar sossego, imaginando você em paz, sorrindo, entre as nuvens. Então, eu olho para o céu e agradeço por todas as coisas maravilhosas que você fez (e continuará fazendo) na minha vida."
+        }, {
+            "mensagem": "É com o coração cheio de mágoa que venho comunicar o falecimento do meu primo querido, um homem maravilhoso que sempre alegrou nossa família com seu espírito generoso e inspirador.Primo, você sempre será um orgulho para nós, descansa em paz e, por favor, cuida da nossa dor nessa hora."
+        }, {
+            "mensagem": "Dói muito dizer adeus a alguém como você, que sempre foi um sol nas nossas vidas e iluminou tudo o que estava em volta. A sua simpatia e o seu carinho serão repetidos por nós, todos os dias. Que você tenha o descanso eterno que merece, grande guerreiro."
+        }, {
+            "mensagem": "A vida nos dá a sensação de que temos todo o tempo do mundo pela frente e, do nada, nos prova o quanto é frágil e efêmera. Minha irmã querida, você ainda tinha tanto pela frente, tantos sonhos para concretizar…É muito duro aceitar a sua partida e me despedir da melhor amiga que eu já tive. Prometo que vou fazer de tudo para cuidar da nossa família e, sempre que eu olhar para o céu, estarei pensando em você. Fica com Deus, mana… Eu te amo eternamente!"
+        }, {
+            "mensagem": "Acordei, mais um dia, de luto pela morte do meu irmão. Uma pessoa que sempre se destacou das outras, repleta de luz e ideias geniais. Foram tantos os planos e os sonhos que ficaram por realizar…Mano, eu espero que você tenha encontrado o seu lugarzinho entre as nuvens. Um dia destes a gente se vê de novo."
+        }, {
+            "mensagem": "Meu pai querido, eu sei que as saudades vão virar rotina agora que você se foi, mas prometo que você sempre estará guardado em meu coração.Enquanto eu estiver nesse mundo, todos vão saber sobre o homem maravilhoso que eu sempre terei o orgulho de chamar de pai. O amor e a gratidão que eu sinto por você são infinitos. Fica com Deus, eu te amo!"
+        }, {
+            "mensagem": "Hoje o dia amanheceu triste com a notícia do falecimento de alguém tão querido e importante para nós. As saudades serão infinitas e sua memória estará sempre guardada em nossos corações. Descanse em paz, meu sogro..."
+        }, {
+            "mensagem": "Meu querido, que o seu sono seja profundo e repleto de paz e harmonia. Acredito, cada vez mais, que um dia nos veremos de novo e tudo vai fazer sentido. Por aqui, eu vou tocando o barco e prometo tentar cuidar de todo mundo, como você sempre me ensinou."
+        }, {
+            "mensagem": "Sei que um dia nos encontraremos de novo, mas até lá você estará em todos os meus pensamentos. Descanse em paz e até sempre…"
+        }, {
+            "mensagem": "A saudade eterniza a presença de quem se foi. Com o tempo esta dor se aquieta, se transforma em silêncio que espera, pelos braços da vida, um dia reencontrar."
+        }, {
+            "mensagem": "Perder um amigo de todas as horas é como perder um irmão. Hoje trago, com muita dor, a notícia do falecimento de um dos maiores companheiros que eu tive a honra de conhecer. Eu sei que você é tão bom que Deus te chamou para o lado dele muito cedo, mas saiba que tem um lugar na nossa mesa que sempre será seu. Saudades hoje e sempre!"
+        }, {
+            "mensagem": "Vó, você era o pilar que nos segurava, tudo o que nós temos e somos é graças à sua luta. Os valores que você me transmitiu permanecem comigo e serão sempre a bússola que me guia.Obrigada por tudo, meu anjo! Descanse em paz com a certeza de que foi a melhor avó do mundo e também a mais amada."
+        }, {
+            "mensagem": "Tio(a), meu amor por você não conhece barreiras e vai além da própria morte. Sua presença nesse mundo tocou muitos corações e despertou sorrisos em todos os lugares onde passou. Minha alma está de luto, mas também repleta de gratidão por ter conhecido uma pessoa tão maravilhosa como você."
+        }, {
+            "mensagem": "Algumas vontades de Deus são difíceis de aceitar… Já passou 1 ano desde o seu falecimento, mas cada dia continua sendo cinzento e preenchido pelas saudades.Rezo para que Deus traga algum consolo para meu coração machucado e prometo que suas memórias caminharão eternamente comigo."
+        }, {
+            "mensagem": "Uma grande amiga pode ser como um anjo enviado por Deus para cuidar de nós. A minha maior companheira se foi cedo demais e esse vazio no peito não some nunca. Sempre existirão coisas que eu só vou querer contar para você. Espero que você continue me escutando e me guiando lá no céu. Descansa em paz, irmã!"
+        }, {
+            "mensagem": "Mais que um tio, você foi como um pai para mim. A sua perda quebrou o meu coração, mas sei que vou carregar seus ensinamentos para o resto da vida. Adeus, meu tio querido…"
+        }, {
+            "mensagem": "Você partiu. Foi embora para bem longe de mim, bem longe da nossa família. Está agora repousando no Senhor. Como será dolorosa daqui pra frente a vida sem você! Mas serei eternamente grata ao Senhor pelo grande privilégio de todos os bons momentos que passamos juntos! Descanse em paz!"
+        }, {
+            "mensagem": "Meu coração vestiu o luto eterno porque você partiu deste mundo. Não sei como lhe dizer adeus para sempre quando ainda tinha tantas outras coisas para dizer. Queria ter tido mais tempo para dizer, e para fazer tudo que ainda sonhava viver ao seu lado. Agora virão os dias, os meses e os anos. O mundo continuará sua caminhada como antes, mas para mim nada voltará a ser igual. Sentirei sua falta todos os dias. Vá com Deus!"
+        }, {
+            "mensagem": "Com o coração pesado, oramos para que o nosso Senhor dê o merecido descanso para esta alma que partiu. Meus mais sinceros pêsames."
+        }, 
+        {
+            "mensagem": "Meus pêsames. Que Deus possa confortar o seu coração neste difícil momento."
+        }, 
+        {
+            "mensagem": "Meus mais profundos sentimentos para você e para a sua família. Espero que Deus lhe dê o conforto necessário para superar a dor que habita no seu peito neste momento."
+        }, 
+        {
+            "mensagem": "Que as lembranças alegres de quem partiu floresçam na sua mente e tragam conforto para o seu coração. Meus pêsames."
+        },
+         {
+            "mensagem": "Meus pêsames pela sua perda. Desejo que com o tempo, a sua dor possa diminuir e as boas lembranças de quem se foi prevaleçam na sua mente e no seu coração."
+        }, 
+        {
+            "mensagem": "Que Deus conforte o seu coração e dê forças para a sua família neste momento."
+        }, 
+        {
+            "mensagem": "Nós nunca iremos esquecê-lo. Ele foi uma força para muitas pessoas e iluminou a vida de muita gente. Meus pêsames."
+        }, 
+        {
+            "mensagem": "Espero que Deus possa oferecer o descanso eterno para o seu avô. Tive a honra e o privilégio de conhecê-lo e nunca vou me esquecer das palavras de sabedoria que ele me ofertou. Meus pêsames."
+        }, 
+        {
+            "mensagem": "Meu amigo, são nessas horas que vale lembrar que você pode contar comigo para o que der e vier. Lamento muito pela sua perda e espero que Deus possa confortar o seu coração neste momento triste que você está passando."
+        }, 
+        {
+            "mensagem": "Eu sei que o que você está passando neste momento é inexplicavelmente doloroso. Sei também, que nada, nem ninguém neste mundo, pode te preparar para esta inestimável perda. Venho por meio desta mensagem, desejar apenas conforto e paz para o seu coração e o da sua família neste momento. Meus mais sinceros sentimentos."
+        }, 
+        {
+            "mensagem": "Meu amigo, saiba que você e a sua família estão rodeados de amor neste momento de tristeza. Pode contar comigo para o que precisar. Meus pêsames."
+        }, 
+        {
+            "mensagem": "Palavras não secarão as suas lágrimas e os abraços não removerão a sua dor. Mas saiba que neste momento, você está rodeado de pessoas que te amam e que estarão ao seu lado para o que você precisar. Deus te abençoe muito e te dê muita força para conseguir superar este triste momento."
+        }, 
+        {
+            "mensagem": "Ela era uma pessoa maravilhosa e tenho certeza que ficará para sempre no coração de todos que tiveram o privilégio de conhecê-la. Meus sentimentos pela sua perda, meu grande amigo(a)."
+        }, 
+        {
+            "mensagem": "Eu só espero que Deus ofereça conforto, paz e esperança para este momento de dor que você está sentindo e que Ele possa acalentar o seu coração e o da sua família."
+        }, 
+        {
+            "mensagem": "Embora as minhas palavras não possam diminuir o seu sofrimento, saiba que estou orando para que Deus conforte a sua família levando paz para dentro da sua casa. Meus pêsames pela sua perda."
+        }, 
+        {
+            "mensagem": "Procure nas lembranças um fio de felicidade, busque os seus amigos para te recordar da sua força e saiba que te amamos muito e estamos com você neste momento difícil. Meus mais sinceros sentimentos."
+        }, 
+        {
+            "mensagem": "Nos momentos em que nada parece fazer sentido, ore para que Deus possa enviar um pouco de paz para dentro do seu coração. Meus pêsames."
+        }, 
+        {
+            "mensagem": "Qualquer palavra que dizemos neste momento parece fútil para tentar consolar a dor que emana do seu peito neste momento. Espero apenas que Deus possa levar um pouco de conforto para você e para a sua família nestes dias de luto. Meus mais sinceros sentimentos."
+        }, 
+        {
+            "mensagem": "Existem almas que brilham tão forte aqui na Terra, que Papai do Céu reserva um lugar especial no céu para que elas iluminem as nossas noites mais escuras."
+        }, 
+        {
+            "mensagem": "Ainda estou em choque pela notícia. Gostaria de estar ao seu lado neste momento para tentar levar um pouco de conforto para você e para a sua família."
+        }, 
+        {
+            "mensagem": "Que Deus possa cuidar da alma que partiu e confortar aqueles que ficaram. Meus mais sinceros sentimentos neste difícil momento de luto."
+        }, 
+        {
+            "mensagem": "Ele pode ter partido das nossas vidas, mas jamais sairá dos nossos corações. Meus pêsames, amigo."
+        }, 
+        {
+            "mensagem": "Depois que as lágrimas secarem, o que vai restar serão as memórias felizes de quem partiu. Sei que neste momento a dor fala mais alto e eu oro para que Deus conforte o seu coração. Estou à disposição para o que precisar. Meus mais sinceros sentimentos."
+        }, 
+        {
+            "mensagem": "Ele pode ter partido das nossas vidas, mas jamais sairá dos nossos corações. Meus pêsames, amigo."
+        }, 
+        {
+            "mensagem": "Depois que as lágrimas secarem, o que vai restar serão as memórias felizes de quem partiu. Sei que neste momento a dor fala mais alto e eu oro para que Deus conforte o seu coração. Estou à disposição para o que precisar. Meus mais sinceros sentimentos."
+        }, 
+        {
+            "mensagem": "Saiba que estou à disposição da sua família hoje e sempre, meu amigo. Sinto muito pela sua perda. Meus mais sinceros pêsames."
+        }, 
+        {
+            "mensagem": "Meus pensamentos e as minhas orações estão direcionadas a você e à sua família no dia de hoje. Sinto muito pela sua perda."
+        }, 
+        {
+            "mensagem": "Meus pêsames, amiga. Sei que é um momento difícil e gostaria de te lembrar que você pode contar comigo para o que precisar. Espero que o nosso Senhor possa confortar o seu coração e o da sua família neste momento."
+        }, 
+        {
+            "mensagem": "Lembre-se que ela estará no seu coração para toda a eternidade. Meus pêsames pela sua perda."
+        }, 
+        {
+            "mensagem": "Não existem palavras suficientes que possam expressar o quanto eu lamento a sua perda neste dia. Que Deus traga conforto e paz para sua casa."
+        }
+    ]
 }
