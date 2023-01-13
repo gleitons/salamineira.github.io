@@ -77,6 +77,13 @@
   cursor: pointer;
   font-size: .9em;
 }
+#calculando {
+  text-align: center;
+  width: 100%;
+}
+#calculando img {
+  width: 50%;
+}
 .infoLutos {
   width: 50%;
   border: #222 solid 1px;

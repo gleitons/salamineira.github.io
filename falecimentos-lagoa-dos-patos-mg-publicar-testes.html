@@ -140,8 +140,11 @@
                     </div>
                     </div>
                     <p>Estatísticas: Sempre atualizamos nossos dados, baseado na API <a href="https://falecidosnobrasil.org.br/resultado2.php?&nome=nome&id_ees=MG&id_ecd=1990&exata=false" href="_blank">falecidosnobrasil.org.br</a> para enviar uma homenagem a um falecido, envie-nos um e-mail para <a href="/envie-obito-lagoa-dos-patos-mg.html">clique Aqui</a></p> <p class="infoG"><strong>*ATENÇÃO -</strong> Todos os nossos dados são retirados do site acima, caso tenha alguma informação errada neste artigo, favor clicar em editar, os dados podem estar desatualizados, então no caso, poderá ser resolvido clicando em editar, onde poderá alterar ou excluir da nossa base de dados no botão que está abaixo da mensagem do falecido. Você pode nos ajudar com os dados dos nossos conterrâneos, basta<strong>clicar 2x no botão</strong> <i class="bi bi-pencil-fill" id="abrirEditar${con}"> Editar</i> para atualizar o nosso banco de dados.</p>                   
-
-                    <div class="tabFalecimentos">
+                    <div>                        
+                         <button style="background-color: green; color: white;" type="button" class="btn btn-danger" id="btnTabela" onclick="contadorObitos()">Veja as Estatísticas</button>
+                    </div>
+                   
+                    <div class="tabFalecimentos" id="tabFalec" style="display: none;">
                         <table>
                             <thead>
                                 <tr>
@@ -155,7 +158,17 @@
                             <tbody id="tabEstatistica">
 
                             </tbody>
-                            <tfoot id="totalCont"></tfoot>
+                            <tfoot > 
+                                <tr id="totalCont">
+                                  
+                                </tr>
+                                
+                            </tfoot>
+                            <div id="calculando">
+                                <img src="/falecimento/calculando.gif" alt="calculando falecimento">
+                                <p>Calculando...</p>
+                            </div>
+                            
                         </table>
                     </div>
 

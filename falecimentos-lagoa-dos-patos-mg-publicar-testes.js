@@ -94,6 +94,7 @@ async function falecidos(valor) {
     
 
     const umArray = JSON.stringify(data.sort(ordemCrescente))
+    falecIDi.setAttribute('id', 'mudd')
    
     return umArray
 
@@ -101,14 +102,20 @@ async function falecidos(valor) {
 
 //falecidos();
 
-function tabelaEs(anoNote) {
-    cont = 0;
-    masc = 0;
-    femi = 0;
+async function tabelaEs(anoC) {
+    const url = '/falecimentos-publicar'
+    const resposta = await fetch(url);
+    const data = await resposta.json();
+    var cont = 0;
+    var masc = 0;
+    var femi = 0;
+   // console.log(data)
     data.map((obi) => {
         const datas = obi.falecimento.split("/");
+        //console.log(datas)       
         const ano = datas[2];
-        if (ano == anoNote) {
+        //console.log(ano)
+        if (ano == anoC) {
             cont++;
             if (obi.sexo == 'm') {
                 masc++;
@@ -121,39 +128,64 @@ function tabelaEs(anoNote) {
 }
 
 
-
-function contadorObitos() {
+async function contadorObitos() {
+    const tabBelaBtn = document.querySelector('#btnTabela');
+    tabBelaBtn.setAttribute('onclick', 'fecharTabela()')
+    abrirTabela();
+    //console.log(await tabelaEs(2016) + " numero acima")
     var total = 0;
     var totHomens = 0;
     var totMulheres = 0;
     for (let index = 2025; index >= 1800; index--) {
-        if (tabelaEs(index)[0] > 0) {
-            const falecimentoAno = tabelaEs(index);
-            document.querySelector('#tabEstatistica').innerHTML += `           
-        <tbody>
+
+       
+
+
+        if (await tabelaEs(index) != '0,0,0') {
+            var  falecimentoAno = await tabelaEs(index);
+           
+
+            document.getElementById('tabEstatistica').innerHTML += `           
+        
             <tr>
                 <td>${index}</td>
                 <td>${falecimentoAno[1]}</td>
                 <td>${falecimentoAno[2]}</td>
                 <td>${falecimentoAno[0]}</td>                             
             </tr>                                   
-        </tbody>`
+        `
+        var total = total + falecimentoAno[0];
+        var totHomens =  totHomens + falecimentoAno[1];
+        var totMulheres =  totMulheres + falecimentoAno[2];
         }
-        total = total + tabelaEs(index)[0];
-        totHomens = totHomens + tabelaEs(index)[1];
-        totMulheres = totMulheres + tabelaEs(index)[2];
+        
+        
     }
+
     document.querySelector('#totalCont').innerHTML += `
             <tr>
-                <td>Total</td>
-                <td>${totHomens}</td>
-                <td>${totMulheres}</td>
-                <td>${total}</td>                             
-            </tr>`
+               <td>Total</td>
+               <td>${totHomens}</td>
+              <td>${totMulheres}</td>
+              <td>${total}</td>                             
+          </tr>`
+    document.querySelector('#calculando').innerHTML = ""
 
 }
 
-
+function abrirTabela() {
+    const telaTab = document.querySelector('#tabFalec');
+    const bttab = document.querySelector('#btnTabela')
+    telaTab.style.display = 'block'
+    bttab.style.display = 'none'
+}
+function fecharTabela() {
+    // const telaTab = document.querySelector('#tabEstatistica');
+    // telaTab.style.display = 'none'
+    // telaTab.remove()
+    // const tabBelaBtn = document.querySelector('#btnTabela');
+    // tabBelaBtn.setAttribute('onclick', 'contadorObitos()')
+}
 
 async function montarOculto(numero) {
     const resp = await falecidos();
