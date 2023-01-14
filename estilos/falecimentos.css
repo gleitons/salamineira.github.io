@@ -9,29 +9,58 @@
   --fhgf: red;
 }
 .falecidoRecente {
-  padding: .8em;
+  padding: 0.8em;
   width: 100%;
-  border-radius:12px ;
-  margin: .6em;
+  border-radius: 12px;
+  margin: 0.6em;
   margin-right: 10px;
   box-shadow: rgba(0, 0, 0, 0.444) 2px 2px 5px 0px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  background-image: url('https://www.funerariapatense.com.br/img/bg_obituario2.jpg');
+  background-color: #c6c6c3;
+  background-image: repeating-linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px,
+      transparent 60px
+    ),
+    repeating-linear-gradient(
+      60deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px,
+      transparent 60px
+    ),
+    linear-gradient(
+      60deg,
+      rgba(0, 0, 0, 0.1) 25%,
+      transparent 25%,
+      transparent 75%,
+      rgba(0, 0, 0, 0.1) 75%,
+      rgba(0, 0, 0, 0.1)
+    ),
+    linear-gradient(
+      120deg,
+      rgba(0, 0, 0, 0.1) 25%,
+      transparent 25%,
+      transparent 75%,
+      rgba(0, 0, 0, 0.1) 75%,
+      rgba(0, 0, 0, 0.1)
+    );
+  background-size: 70px 120px;
+
   background-size: contain;
-  
 }
 .falecidoRecente > div {
-  width: 45%; 
-  margin:  1em 0em;
-  
- 
+  width: 45%;
+  margin: 1em 0em;
 }
 .falecidoRecente > div > div {
   width: 100%;
-  margin:  1em 0em;
+  margin: 1em 0em;
 }
 .lutos {
   position: relative;
@@ -56,7 +85,6 @@
 }
 .btnMostra .lutosC {
   width: 100%;
-  
 }
 .dblock {
   display: block;
@@ -84,23 +112,23 @@
   font-size: 13px;
 }
 .avisoAtualizacao {
-  background-color: blue; 
- 
-  padding:.5em;
+  background-color: blue;
+
+  padding: 0.5em;
 }
 .btnEditarV {
-    text-align: center;
-    width: 100%;
+  text-align: center;
+  width: 100%;
 }
-.btnEditarV i { 
+.btnEditarV i {
   background-color: rgb(166, 166, 166);
-  padding: .2em;
-  margin: .2em;
+  padding: 0.2em;
+  margin: 0.2em;
   border-radius: 12px;
   color: white;
   border: #555 solid 1px;
   cursor: pointer;
-  font-size: .9em;
+  font-size: 0.9em;
   display: block;
 }
 #calculando {
@@ -116,25 +144,25 @@
 }
 .infoLutos > div {
   width: 95%;
- justify-content: space-between;
+  justify-content: space-between;
 }
 .vistoCard {
   margin: 5px;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 .btnEditarV i:active {
   background-color: rgb(91, 91, 91);
-  padding: .2em;
-  margin: .2em;
+  padding: 0.2em;
+  margin: 0.2em;
   border-radius: 12px;
   color: white;
-  font-size: .8em;
+  font-size: 0.8em;
   box-shadow: inset black 0px 3px 5px 0px;
   border: #555 solid 1px;
   cursor: pointer;
 }
-.avisoAtualizacao >p {
-  color: white; 
+.avisoAtualizacao > p {
+  color: white;
 }
 .ocultando {
   width: 100%;
@@ -145,34 +173,43 @@
   width: 100%;
 }
 .divMostra {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(194, 194, 194) 20%,
+    rgba(229, 229, 229, 0) 80%
+  );
   width: 45%;
-  background-color: #f7e5c1;
-  margin: .6em 0em;
-  border: rgb(186, 186, 186) solid 1px;
+
+  margin: 0.6em 0em;
+  /* border: rgb(186, 186, 186) solid 1px; */
   padding: 5px;
   border-radius: 12px;
 }
 .divMostra .lutosC {
   width: 100%;
-  animation: apareceF .3s normal;
+  animation: apareceF 0.3s normal;
 }
 .btnMostra {
   border: none;
   min-height: 0.3em;
-  box-shadow: rgb(137, 137, 137) 0px 0px 5px 0px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.612) 20%,
+    rgba(229, 229, 229, 0) 80%
+  );
+  width: 45%;
   border-radius: 8px;
   width: 100%;
   margin: 0.8em 0em;
   padding: 0.5em;
   position: relative;
   cursor: pointer;
-  
 }
+
 @keyframes apareceF {
   0% {
     filter: opacity(0%);
     top: -100px;
-    
   }
 
   100% {
@@ -242,10 +279,8 @@
   border-radius: 8px;
 }
 .notaw {
-  
-  
   align-items: center;
-  padding: .4em;
+  padding: 0.4em;
   margin: 0.3em auto;
   width: 90%;
   min-height: 350px;
@@ -257,18 +292,19 @@
 }
 .notaw p {
   font-size: 1.2em;
-  position: absolute;               
-   top: 50%;                        
-   transform: translate(0, -50%); 
-  font-family:cursive, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-family: cursive, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .notaw::after {
-  content: 'Mensagem Gerada Aleatóriamente';
+  content: "Mensagem Gerada Aleatóriamente";
   position: absolute;
-  
-  font-size: .6em;
+
+  font-size: 0.6em;
   top: 330px;
-    right: 6px;
+  right: 6px;
 }
 tbody tr:nth-child(even) {
   background: lightgray;
@@ -331,10 +367,8 @@ tfoot {
 }
 @media (max-width: 360px) {
   .falecidoRecente > div {
-    width:100%; 
-    margin:  .2em 0em;
-    
-   
+    width: 100%;
+    margin: 0.2em 0em;
   }
   .coracaoLuto > p {
     width: 80%;
@@ -342,17 +376,15 @@ tfoot {
   }
 }
 .btnCload {
-  
   padding: 10px;
-
 }
 #infoDados button:hover {
   background-color: rgb(5, 0, 164);
   /* background-color:rgb(180, 225, 0);color:rgb(0, 0, 0);margin:1em 0; border: black solid 1px; */
 }
-#infoDados p{
+#infoDados p {
   font-style: italic;
-  margin: .6em 0em;
+  margin: 0.6em 0em;
 }
 /*Formulario */
 .modal {
