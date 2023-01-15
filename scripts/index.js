@@ -283,7 +283,8 @@ function bannerAnuncieAqui() {
     </a>`
 }
 function footerMenu() {
-    return `<div class="infoFuncionamento"> 
+    return `
+   <div class="infoFuncionamento"> 
     <h1>Sala Mineira do Empreendedor de Lagoa dos Patos MG</h1>
     <h2>De Segunda a Sexta-feira</h2>
     <p>08:00hs às 11:00hs e 13:00hs às 16:00hs</p>
