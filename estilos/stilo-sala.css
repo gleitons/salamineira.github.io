@@ -1245,9 +1245,8 @@ footer {
     font-size: 20px;
     
   }
-  .AnuncieAqui{
-  
-    border: solid rgba(129, 129, 129, 0.582) 1px;
+  .AnuncieAqui{ 
+    
     box-shadow: black 0px 0px 3px 0px;
     height: 150px;
     width: 760px;
@@ -1255,8 +1254,9 @@ footer {
     margin-left: 0px;
     align-items: center;
   }
+  
   .AnuncieAqui > i {
-    
+    border-radius: 12px;
     
     height: 150px;
     
