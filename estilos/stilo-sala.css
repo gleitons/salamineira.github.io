@@ -1132,6 +1132,7 @@ footer {
   
   #naveMenu.active #listMenu li {
     display: block;
+    font-size: 1.2em;
   }
   body{
     width: 768px;
@@ -1392,16 +1393,17 @@ footer {
    
   }
 
-  #listMenu li{
+  #listMenu > a li{
     animation: menuSala 500ms normal;
+    
   }
   @keyframes menuSala {
     0% {
       padding-top: 100%;
-      padding-bottom: 100%;
+      padding-top: 100%;
     }
     100% {
-      padding-bottom: 0%;
+      padding-top: 0%;
     }
   }
   #naveMenu.active #listMenu li {
