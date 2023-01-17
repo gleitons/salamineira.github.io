@@ -516,7 +516,7 @@ main {
   height: 100%;
 }
 #myChart {
-  background-image:linear-gradient(to bottom, rgb(252, 236, 176),  rgb(252, 218, 108));
+  background-image:linear-gradient(to bottom, rgb(253, 250, 238),  rgb(248, 240, 214));
   color: black;
   box-shadow: inset rgba(0, 0, 0, 0.559) 0px 5px 5px 0px ;
   padding: 10px;
@@ -563,7 +563,9 @@ main {
 .modulo-sala >a {
   text-decoration: none;
 }
-
+.modulo-sala h2 {
+  color: white;
+}
 
 .blocoServicos {  
   color: rgb(211, 211, 211);
@@ -624,6 +626,7 @@ main {
   margin: 0 auto;
   background-size: 100%;
   transition: 200ms;
+  
 }
 .modulo-sala img {
   width: 100%;
@@ -1300,6 +1303,10 @@ footer {
     
     
   }
+  .topo-sala {    
+    padding-top: 17%;   
+  }
+
   .atendimentoWhats {  
     position: fixed;
     bottom: 50px;
@@ -1351,6 +1358,9 @@ footer {
     height: auto;
     background-color: #2e2e2e;
     width: 100%;
+    top: 0;
+    position: fixed;
+    
     z-index: 999;
   }
   .modal-content {
@@ -1382,7 +1392,18 @@ footer {
    
   }
 
-  
+  #listMenu li{
+    animation: menuSala 500ms normal;
+  }
+  @keyframes menuSala {
+    0% {
+      padding-top: 100%;
+      padding-bottom: 100%;
+    }
+    100% {
+      padding-bottom: 0%;
+    }
+  }
   #naveMenu.active #listMenu li {
     display: block;
     
@@ -1393,14 +1414,16 @@ footer {
     
   }
   #imgcovid > img{
-    width: 330px;
+    width: 100%;
     margin: auto;
     
   }
   .grafiCovid{
-    width: 600px;
+    display: none;
+    width: 100%;
+    height: 350px;
     transform: rotate(90deg);
-    margin: 230px -160px;
+    /* margin: 230px -160px; */
   }
 
   .seli{
