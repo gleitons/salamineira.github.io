@@ -259,9 +259,11 @@
                             border: black solid 1px;
                             padding: 5px;
                             background-color: orange;
+                            
                         }
                         .tabelaFeriado table {
                             border: black solid 1px;
+                           
                            
                             
                             
@@ -279,6 +281,13 @@
                         .tabelaFeriado strong {
                             font-size: 1.3em;
                         }
+                        @media (max-width: 768px) {  
+                            .tabelaFeriado table {
+                                display: none;                               
+                                
+                            }
+                              
+                            }
                         @media (max-width:360px) {
                             .tabelaFeriado tbody{
                                
@@ -295,7 +304,7 @@
                             <tbody>
                                 <tr>
                                     <td><strong>Janeiro</strong>
-                                        <li>Dia de São Sebastião - Feriado Municipal</li>
+                                        <li>20 - Dia de São Sebastião - Feriado Municipal</li>
                                     </td>
                                     <td><strong>Fevereiro</strong>
                                         <li>20 - Segunda Feira de carnaval</li>

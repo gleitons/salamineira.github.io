@@ -1115,6 +1115,10 @@ footer {
     background-color: #e68727;
     border: none;
   }
+  #listMenu  a{
+    z-index: 99999;
+    background-color: red;
+  }
   #naveMenu #listMenu li{
     
     display: none;
@@ -1129,9 +1133,10 @@ footer {
     border: black solid 1px;
     border-radius: 8px 0px 8px 0px;
   }
-  
+ 
   #naveMenu.active #listMenu li {
     display: block;
+   
     font-size: 1.2em;
   }
   body{
@@ -1293,7 +1298,7 @@ footer {
 
 /*----responsivo IV---*/
 
-@media (max-width: 360px) {  
+@media (max-width: 768px) {  
   #btnmobile {
     border-radius: 8px;
     display: block;

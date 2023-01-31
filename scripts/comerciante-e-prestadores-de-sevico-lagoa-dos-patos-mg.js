@@ -56,7 +56,7 @@ function comerciantesPrestadores() {
             'area': 'Engenharia Elétrica'
         },
         {
-            'imagem': 'https://www.naturfive.com/imagens-naturfive/restaurante-prato-nobre.jpeg',
+            'imagem': '/imagens-sala/restaurante-prato-nobre.jpeg',
             'nome': 'RESTAURANTE PRATO NOBRE',
             'link': '/restaurante-prato-nobre/',
             'tipo': 'Comerciante',
