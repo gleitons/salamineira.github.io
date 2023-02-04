@@ -16,6 +16,21 @@
         "LocalFalecimento": "Lagoa dos Patos",
         "estado": "MG",
         "apelido":""
+    },{
+        "id": 0,
+        "nome": "LAURA XAVIER",
+        "sexo": "f",
+        "imagem": "",
+        "nascimento": "",
+        "falecimento": "10/07/2012",
+        "nota": "",
+        "obito": "Não identificado",
+        "mae": "",
+        "natural": "Lagoa dos Patos - MG",
+        "estadoFalecimento": "MG",
+        "LocalFalecimento": "Lagoa dos Patos",
+        "estado": "MG",
+        "apelido":"Dona Laura"
     },
     {
         "id": 0,
@@ -3272,7 +3287,7 @@
     },
     {
         "id": 0,
-        "nome": "ONOFRA DONA DU",
+        "nome": "ONOFRA ALVES BARBOSA",
         "sexo": "f",
         "imagem": "/falecimento/dona-du.png",
         "nascimento": "",
@@ -3301,6 +3316,38 @@
         "LocalFalecimento": "Lagoa dos Patos",
         "estado": "MG",
         "apelido":""
+    },
+    {
+        "id": 0,
+        "nome": "JOÃO LOPES SIQUEIRA",
+        "sexo": "m",
+        "imagem": "",
+        "nascimento": "",
+        "falecimento": "01/01/2000",
+        "nota": "",
+        "obito": "Não identificado",
+        "mae": "LAURINDA MARIA DE JESUS",
+        "natural": "Lagoa dos Patos - MG",
+        "estadoFalecimento": "MG",
+        "LocalFalecimento": "Lagoa dos Patos",
+        "estado": "MG",
+        "apelido":""
+    },
+    {
+        "id": 0,
+        "nome": "JOAO JAIR NEVES MAIA",
+        "sexo": "m",
+        "imagem": "",
+        "nascimento": "19/11/1977",
+        "falecimento": "01/02/2023",
+        "nota": "",
+        "obito": "Não identificado",
+        "mae": "AUREBELA NEVES DOS SANTOS E JOAO MARIA DA CONCEIÇÃO",
+        "natural": "Lagoa dos Patos - MG",
+        "estadoFalecimento": "MG",
+        "LocalFalecimento": "Lagoa dos Patos",
+        "estado": "MG",
+        "apelido":"João Maia        "
     },
     {
         "id": 0,

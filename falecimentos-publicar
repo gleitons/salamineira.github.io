@@ -1395,22 +1395,7 @@
         "estado": "MG",
         "apelido":""
     },
-    {
-        "id": 0,
-        "nome": "SEBASTIAO CLAUDIO REIS",
-        "sexo": "m",
-        "imagem": "",
-        "nascimento": "",
-        "falecimento": "20/01/2009",
-        "nota": "",
-        "obito": "Não identificado",
-        "mae": "NAIR FERNANDES REIS",
-        "natural": "Lagoa dos Patos - MG",
-        "estadoFalecimento": "MG",
-        "LocalFalecimento": "Lagoa dos Patos",
-        "estado": "MG",
-        "apelido":""
-    },
+   
     {
         "id": 0,
         "nome": "SEBASTIAO PEREIRA DE ARAUJO",
@@ -1617,7 +1602,7 @@
         "estadoFalecimento": "MG",
         "LocalFalecimento": "Lagoa dos Patos",
         "estado": "MG",
-        "apelido":""
+        "apelido":"Tião Boca"
     },
     {
         "id": 0,
@@ -3416,6 +3401,22 @@
     },
     {
         "id": 0,
+        "nome": "JOAO JAIR NEVES MAIA",
+        "sexo": "m",
+        "imagem": "/falecimento/joao-maia.png",
+        "nascimento": "08/01/1957",
+        "falecimento": "01/02/2023",
+        "nota": "Meu pai querido, eu sei que as saudades vão virar rotina agora que você se foi, mas prometo que você sempre estará guardado em meu coração.Enquanto eu estiver nesse mundo, todos vão saber sobre o homem maravilhoso que eu sempre terei o orgulho de chamar de pai. O amor e a gratidão que eu sinto por você são infinitos. Fica com Deus, eu te amo!",
+        "obito": "Não identificado",
+        "mae": "AUREBELA NEVES DOS SANTOS E JOAO MARIA DA CONCEIÇÃO",
+        "natural": "Lagoa dos Patos - MG",
+        "estadoFalecimento": "MG",
+        "LocalFalecimento": "Lagoa dos Patos",
+        "estado": "MG",
+        "apelido":"João Maia        "
+    },
+    {
+        "id": 0,
         "nome": "SANTA RIBEIRO DOS REIS",
         "sexo": "f",
         "imagem": "/falecimento/santa-ribeiro.jpg",
@@ -3533,7 +3534,7 @@
         "imagem": "/falecimento/alexandre-felix.png",
         "nascimento": "02/09/1983",
         "falecimento": "30/10/2022",
-        "nota": "",
+        "nota": "Você partiu. Foi embora para bem longe de mim, bem longe da nossa família. Está agora repousando no Senhor. Como será dolorosa daqui pra frente a vida sem você! Mas serei eternamente grata ao Senhor pelo grande privilégio de todos os bons momentos que passamos juntos! Descanse em paz!",
         "obito": "Não identificado",
         "mae": "",
         "natural": "Lagoa dos Patos - MG",
@@ -3752,7 +3753,7 @@
     },
     {
         "id": 0,
-        "nome": "ROSÁRIO - NEGÃO DA BOA VISTA",
+        "nome": "ROSARIO PEREIRA DE OLIVEIRA",
         "sexo": "m",
         "imagem": "",
         "nascimento": "",
@@ -3878,11 +3879,11 @@
         "estadoFalecimento": "MG",
         "LocalFalecimento": "Lagoa dos Patos",
         "estado": "MG",
-        "apelido":"Clarice de Eupidio"
+        "apelido":""
     },
     {
         "id": 0,
-        "nome": "CLARICE DE EUPÍDIO",
+        "nome": "MARIA CLARICE RIBEIRO",
         "sexo": "f",
         "imagem": "",
         "nascimento": "",
@@ -3930,12 +3931,12 @@
     },
     {
         "id": 0,
-        "nome": "ONOFRA DONA DU",
+        "nome": "ONOFRA ALVES BARBOSA",
         "sexo": "f",
         "imagem": "/falecimento/dona-du.png",
         "nascimento": "",
-        "falecimento": "28/09/2006",
-        "nota": "",
+        "falecimento": "17/08/2021",
+        "nota": "Vó, você era o pilar que nos segurava, tudo o que nós temos e somos é graças à sua luta. Os valores que você me transmitiu permanecem comigo e serão sempre a bússola que me guia.Obrigada por tudo, meu anjo! Descanse em paz com a certeza de que foi a melhor avó do mundo e também a mais amada.",
         "obito": "Não identificado",
         "mae": "",
         "natural": "Lagoa dos Patos - MG",
@@ -3967,7 +3968,7 @@
         "imagem": "/falecimento/dona-belvina.png",
         "nascimento": "28/10/1925",
         "falecimento": "03/02/2022",
-        "nota": "'Filhos, obedeçam a seus pais no Senhor, pois isso é justo. 'Honra teu pai e tua mãe' — este é o primeiro mandamento com promessa — 'para que tudo te corra bem e tenhas longa vida sobre a terra'. Pais, não irritem seus filhos; antes criem-nos segundo a instrução e o conselho do Senhor.'Ser avô é ser pai duas vezes! Por esse motivo, vovô, você merece todo o meu respeito e honra, assim como Deus deseja que sejam dadas aos pais.'",
+        "nota": "Algumas vontades de Deus são difíceis de aceitar… Já passou 1 ano desde o seu falecimento, mas cada dia continua sendo cinzento e preenchido pelas saudades.Rezo para que Deus traga algum consolo para meu coração machucado e prometo que suas memórias caminharão eternamente comigo.",
         "obito": "Não identificado",
         "mae": "DONA MULCINHA",
         "natural": "Lagoa dos Patos - MG",
