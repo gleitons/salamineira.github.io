@@ -1,0 +1,49 @@
+[
+    {
+        "nome":"hercules-vandy",
+        "nomeCompleto":"Hercules Vandy Durães da Fonseca",
+        "numero":"",
+        "nota":"",
+        "imagemCapa":"/pessoas/vandinho-capa.png",
+        "profissao":"empresário",
+        "nascimento":"31/07/1967",
+        "falecimento":"",
+        "nomeUrna":"vandinho",
+        "apelido":"vandinho",
+        "funcao":"Prefeito de Lagoa dos Patos MG <br>ADM: 2008/2011",
+        "fotos":[
+            {
+                "imagem":"/img/acao-global-2009-hercules-vandy-duraes-lagoa-dos-patos-mg-vandinho.jpg"
+            },
+            {
+                "imagem":"/pessoas/vandinho-capa.png"
+            },
+            {
+                "imagem":"/pessoas/vandinho-capa-colorido.jpg"
+            },
+            {
+                "imagem":"/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg"
+            }
+        ],
+        "imagem": "<div class='imglagoapatenses'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
+    },
+    {
+        "nome":"pohebe",
+        "nomeCompleto":"Pohebe Maiumy Ferreira dos Santos",
+        "numero":"77111",
+        "nota":"Pohebe, candidata ao cargo de vereadora em Lagoa dos Patos-MG pelo SOLIDARIEDADE. Natural de Lagoa dos Patos - MG, Pohebe Maiumy Ferreira dos Santos nasceu em 25/09/1991.",
+        "imagemCapa":"/pessoas/poebe.jpg",
+        "profissao":"",
+        "nascimento":"25/09/1991",
+        "falecimento":"",
+        "nomeUrna":"Pohebe",
+        "apelido":"Pohebe",
+        "funcao":"",
+        "fotos":[
+            {
+                "imagem":"/pessoas/poebe.jpg"
+            }
+        ],
+        "imagem": "<div class='imglagoapatenses'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
+    }
+]

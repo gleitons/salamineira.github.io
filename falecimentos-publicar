@@ -3755,7 +3755,7 @@
         "id": 0,
         "nome": "ROSARIO PEREIRA DE OLIVEIRA",
         "sexo": "m",
-        "imagem": "",
+        "imagem": "/falecimento/rosaro-negao.png",
         "nascimento": "",
         "falecimento": "10/04/2022",
         "nota": "",
@@ -3899,9 +3899,25 @@
     },
     {
         "id": 0,
+        "nome": "EDNEU DE JESUS SOUZA",
+        "sexo": "m",
+        "imagem": "/falecimento/dneu.png",
+        "nascimento": "",
+        "falecimento": "27/04/2016",
+        "nota": "",
+        "obito": "Não identificado",
+        "mae": "NERITA MARIA DE JESUS",
+        "natural": "Lagoa dos Patos - MG",
+        "estadoFalecimento": "MG",
+        "LocalFalecimento": "Lagoa dos Patos",
+        "estado": "MG",
+        "apelido":"Dineu"
+    },
+    {
+        "id": 0,
         "nome": "DANIEL DE DONA ROSÁRIA",
         "sexo": "m",
-        "imagem": "",
+        "imagem": "/falecimento/daniel.png",
         "nascimento": "",
         "falecimento": "06/04/2022",
         "nota": "",
@@ -3981,7 +3997,7 @@
         "id": 0,
         "nome": "ROBSON ROGERIO SOARES SANTOS",
         "sexo": "m",
-        "imagem": "",
+        "imagem": "/falecimento/robson-r2.png",
         "nascimento": "",
         "falecimento": "29/06/2017",
         "nota": "",
@@ -3991,7 +4007,7 @@
         "estadoFalecimento": "MG",
         "LocalFalecimento": "Lagoa dos Patos",
         "estado": "MG",
-        "apelido":""
+        "apelido":"Robim de Julinha"
     },
     {
         "id": 0,

@@ -100,6 +100,9 @@ async function falecidos() {
     });
 }
 
+setTimeout('falecidos()', 5000)
+
+
 async function tabelaEs(anoC) {
     const url = '/falecimentos-publicar'
     const resposta = await fetch(url);
