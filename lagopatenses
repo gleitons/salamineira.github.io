@@ -2,7 +2,14 @@
     {
         "nome":"hercules-vandy",
         "nomeCompleto":"Hercules Vandy Durães da Fonseca",
+        "sexo":"m",
         "numero":"",
+        "estadoCivil":"",
+        "graduacao":"",
+        "cor":"",
+        "nacionalidade":"brasil",
+        "cidadeN":"Coração de Jesus",
+        "estado":"MG",
         "nota":"",
         "imagemCapa":"/pessoas/vandinho-capa.png",
         "profissao":"empresário",
@@ -30,7 +37,14 @@
     {
         "nome":"pohebe",
         "nomeCompleto":"Pohebe Maiumy Ferreira dos Santos",
+        "sexo":"f",
         "numero":"77111",
+        "estadoCivil":"",
+        "graduacao":"",
+        "cor":"",
+        "nacionalidade":"brasil",
+        "cidadeN":"Coração de Jesus",
+        "estado":"MG",
         "nota":"Pohebe, candidata ao cargo de vereadora em Lagoa dos Patos-MG pelo SOLIDARIEDADE. Natural de Lagoa dos Patos - MG, Pohebe Maiumy Ferreira dos Santos nasceu em 25/09/1991.",
         "imagemCapa":"/pessoas/poebe.jpg",
         "profissao":"",
@@ -52,7 +66,14 @@
     {
         "nome":"gleiton-aparecido-soares",
         "nomeCompleto":"Gleiton Aparecido Soares de Souza",
+        "sexo":"m",
         "numero":"",
+        "estadoCivil":"",
+        "graduacao":"",
+        "cor":"",
+        "nacionalidade":"brasil",
+        "cidadeN":"Coração de Jesus",
+        "estado":"MG",
         "nota":"",
         "imagemCapa":"/pessoas/gleiton-capa.jpg",
         "profissao":"",
@@ -60,7 +81,7 @@
         "falecimento":"",
         "nomeUrna":"Pohebe",
         "apelido":"Pohebe",
-        "funcao":"",
+        "funcao":"https://divulgacandcontas.tse.jus.br/divulga/#/2012 - https://divulgacandcontas.tse.jus.br/divulga/#/municipios/2004/14431/47457/candidatos - https://replicate.com/tencentarc/gfpgan",
         "fotos":[
             {
                 "imagem":"/pessoas/gleiton-min.png"
@@ -74,7 +95,14 @@
     {
         "nome":"adair-nobre",
         "nomeCompleto":"Adair Magalhaes Nobre",
+        "sexo":"m",
         "numero":"",
+        "estadoCivil":"",
+        "graduacao":"",
+        "cor":"",
+        "nacionalidade":"brasil",
+        "cidadeN":"Coração de Jesus",
+        "estado":"MG",
         "nota":"",
         "imagemCapa":"/pessoas/adair-2016.png",
         "profissao":"",
@@ -92,5 +120,270 @@
             }
         ],
         "imagem": "<div class='imglagoapatensess'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
+    },
+    {
+        "nome":"alberto",
+        "nomeCompleto":"ALBERTO ALVES FONSECA",
+        "sexo":"m",
+        "numero":"",
+        "estadoCivil":"",
+        "graduacao":"",
+        "cor":"",
+        "nacionalidade":"brasil",
+        "cidadeN":"Coração de Jesus",
+        "estado":"MG",
+        "nota":"",
+        "imagemCapa":"/pessoas/alberto-max.png",
+        "profissao":"",
+        "nascimento":"04/06/1973",
+        "falecimento":"",
+        "nomeUrna":"",
+        "apelido":"Alberto",
+        "funcao":"",
+        "fotos":[
+            {
+                "imagem":"/pessoas/alberto.png"
+            },
+            {
+                "imagem":"/pessoas/alberto-max.png"
+            }
+        ],
+        "imagem": "<div class='imglagoapatensess'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
+    },
+    {
+        "nome":"antonio-cabelo",
+        "nomeCompleto":"ANTONIO ALVES DE OLIVEIRA",
+        "sexo":"m",
+        "numero":"",
+        "estadoCivil":"",
+        "graduacao":"",
+        "cor":"",
+        "nacionalidade":"brasil",
+        "cidadeN":"Coração de Jesus",
+        "estado":"MG",
+        "nota":"",
+        "imagemCapa":"/pessoas/antonio-cabelo-max.png",
+        "profissao":"",
+        "nascimento":"12/07/1939",
+        "falecimento":"",
+        "nomeUrna":"",
+        "apelido":"Antônio Cabelo",
+        "funcao":"",
+        "fotos":[
+            {
+                "imagem":"/pessoas/antonio-cabelo.png"
+            },
+            {
+                "imagem":"/pessoas/antonio-cabelo-max.png"
+            }
+        ],
+        "imagem": ""
+    },
+    {
+        "nome":"arismar-de-duzin",
+        "nomeCompleto":"JOSÉ ARISMAR XAVIER GONÇALVES",
+        "sexo":"m",
+        "numero":"",
+        "estadoCivil":"",
+        "graduacao":"mc",
+        "cor":"",
+        "nacionalidade":"brasil",
+        "nota":"",
+        "imagemCapa":"/pessoas/arismar.png",
+        "profissao":"",
+        "nascimento":"09/11/1978",
+        "falecimento":"",
+        "nomeUrna":"Arismar de Duzin",
+        "apelido":"Arismar de Duzin",
+        "funcao":"Agricultor",
+        "fotos":[
+            {
+                "imagem":"/pessoas/arismar.png"
+            },
+            {
+                "imagem":"/pessoas/arismar.png"
+            }
+        ],
+        "imagem": ""
+    },
+    {
+        "nome":"arlei-cachaca",
+        "nomeCompleto":"WARLES SOARES DE ARAUJO",
+        "sexo":"m",
+        "numero":"",
+        "estadoCivil":"",
+        "graduacao":"mc",
+        "cor":"",
+        "nacionalidade":"b",
+        "nota":"",
+        "imagemCapa":"/pessoas/warles-max.png",
+        "profissao":"",
+        "nascimento":"30/07/1980",
+        "falecimento":"",
+        "nomeUrna":"",
+        "apelido":"Arlei cachaça",
+        "funcao":"",
+        "fotos":[
+            {
+                "imagem":"/pessoas/warles.png"
+            },
+            {
+                "imagem":"/pessoas/warles-max.png"
+            }
+        ],
+        "imagem": ""
+    },
+    {
+        "nome":"binga",
+        "nomeCompleto":"GERALDO BARBOSA REIS",
+        "sexo":"m",
+        "numero":"",
+        "estadoCivil":"",
+        "graduacao":"fc",
+        "cor":"",
+        "nacionalidade":"b",
+        "nota":"",
+        "imagemCapa":"/pessoas/binga-2016-max.png",
+        "profissao":"",
+        "nascimento":"05/12/1957",
+        "falecimento":"",
+        "nomeUrna":"Binga",
+        "apelido":"Binga",
+        "funcao":"",
+        "fotos":[
+            {
+                "imagem":"/pessoas/binga-2004.png"
+            },
+            {
+                "imagem":"/pessoas/binga-2004-max.png"
+            },
+            {
+                "imagem":"/pessoas/binga-2016.png"
+            },
+            {
+                "imagem":"/pessoas/binga-2008.png"
+            },
+            {
+                "imagem":"/pessoas/binga-2008-max.png"
+            },
+            {
+                "imagem":"/pessoas/binga-2016-max.png"
+            },
+            {
+                "imagem":"/pessoas/binga-2012.png"
+            },
+            {
+                "imagem":"/pessoas/binga-2012-max.png"
+            }
+        ],
+        "imagem": ""
+    },
+    {
+        "nome":"celhao",
+        "nomeCompleto":"PAULO CÉLIO RAMOS",
+        "sexo":"",
+        "numero":"",
+        "estadoCivil":"",
+        "graduacao":"fi",
+        "cor":"",
+        "nacionalidade":"b",
+        "nota":"",
+        "imagemCapa":"/pessoas/celio-max.png",
+        "profissao":"Cantor e Compositor",
+        "nascimento":"20/06/1974",
+        "falecimento":"",
+        "nomeUrna":"",
+        "apelido":"Celhão",
+        "funcao":"",
+        "fotos":[
+            {
+                "imagem":"/pessoas/celio.png"
+            },
+            {
+                "imagem":"/pessoas/celio-2004-max.png"
+            }
+        ],
+        "imagem": ""
+    },
+    {
+        "nome":"",
+        "nomeCompleto":"",
+        "sexo":"",
+        "numero":"",
+        "estadoCivil":"",
+        "graduacao":"",
+        "cor":"",
+        "nacionalidade":"",
+        "nota":"",
+        "imagemCapa":"/pessoas/.png",
+        "profissao":"",
+        "nascimento":"",
+        "falecimento":"",
+        "nomeUrna":"",
+        "apelido":"",
+        "funcao":"",
+        "fotos":[
+            {
+                "imagem":"/pessoas/.png"
+            },
+            {
+                "imagem":"/pessoas/.png"
+            }
+        ],
+        "imagem": "<div class='imglagoapatensess'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
+    },
+    {
+        "nome":"",
+        "nomeCompleto":"",
+        "sexo":"",
+        "numero":"",
+        "estadoCivil":"",
+        "graduacao":"",
+        "cor":"",
+        "nacionalidade":"",
+        "nota":"",
+        "imagemCapa":"/pessoas/.png",
+        "profissao":"",
+        "nascimento":"",
+        "falecimento":"",
+        "nomeUrna":"",
+        "apelido":"",
+        "funcao":"",
+        "fotos":[
+            {
+                "imagem":"/pessoas/.png"
+            },
+            {
+                "imagem":"/pessoas/.png"
+            }
+        ],
+        "imagem": ""
+    },
+    {
+        "nome":"",
+        "nomeCompleto":"",
+        "sexo":"",
+        "numero":"",
+        "estadoCivil":"",
+        "graduacao":"",
+        "cor":"",
+        "nacionalidade":"",
+        "nota":"",
+        "imagemCapa":"/pessoas/.png",
+        "profissao":"",
+        "nascimento":"",
+        "falecimento":"",
+        "nomeUrna":"",
+        "apelido":"",
+        "funcao":"",
+        "fotos":[
+            {
+                "imagem":"/pessoas/.png"
+            },
+            {
+                "imagem":"/pessoas/.png"
+            }
+        ],
+        "imagem": ""
     }
 ]
