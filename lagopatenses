@@ -42,8 +42,55 @@
         "fotos":[
             {
                 "imagem":"/pessoas/poebe.jpg"
+            },
+            {
+                "imagem":"/pessoas/pohebe-max.png"
             }
         ],
         "imagem": "<div class='imglagoapatenses'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
+    },
+    {
+        "nome":"gleiton-aparecido-soares",
+        "nomeCompleto":"Gleiton Aparecido Soares de Souza",
+        "numero":"",
+        "nota":"",
+        "imagemCapa":"/pessoas/gleiton-capa.jpg",
+        "profissao":"",
+        "nascimento":"19/08/1989",
+        "falecimento":"",
+        "nomeUrna":"Pohebe",
+        "apelido":"Pohebe",
+        "funcao":"",
+        "fotos":[
+            {
+                "imagem":"/pessoas/gleiton-min.png"
+            },
+            {
+                "imagem":"/pessoas/gleiton-max.png"
+            }
+        ],
+        "imagem": "<div class='imglagoapatensess'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
+    },
+    {
+        "nome":"adair-nobre",
+        "nomeCompleto":"Adair Magalhaes Nobre",
+        "numero":"",
+        "nota":"",
+        "imagemCapa":"/pessoas/adair-2016.png",
+        "profissao":"",
+        "nascimento":"11/05/1978",
+        "falecimento":"",
+        "nomeUrna":"Adair Nobre",
+        "apelido":"Adair Nobre",
+        "funcao":"",
+        "fotos":[
+            {
+                "imagem":"/pessoas/adair-2016.png"
+            },
+            {
+                "imagem":"/pessoas/adair-2018.png"
+            }
+        ],
+        "imagem": "<div class='imglagoapatensess'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
     }
 ]

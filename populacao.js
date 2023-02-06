@@ -7,6 +7,7 @@ async function moradores() {
 
 
 
+
     function ordemCrescente(a, b) {
         return toDate(b) - toDate(a);
     }
@@ -18,29 +19,32 @@ async function moradores() {
         const dataR = (new Date() - dataFor) / (31557600000);
         return dataR;
     }
+    
+
 
     data.map((pessoa) => {
-        document.querySelector('#titleHeader').innerText = pessoa.nomeCompleto + " - Sala Mineira do empreendedor de Lagoa dos Patos MG"
-        console.log(pessoa.nome)
+
+
+
         if (pessoa.nome == nomeURL) {
-            console.log(pessoa.nome)
+            document.querySelector('#titleHeader').innerText = pessoa.nomeCompleto + " - Sala Mineira do empreendedor de Lagoa dos Patos MG"
             function imagens() {
-            
-                for(let i = 0; i < pessoa.fotos.length; i++){            
-                 const imgs = pessoa.fotos[i];
-                 const imgT = JSON.stringify(imgs).replace('{"imagem":"', '').replace('"}','')
-                
-                 document.querySelector('#imagensR').innerHTML += `<div>
+
+                for (let i = 0; i < pessoa.fotos.length; i++) {
+                    const imgs = pessoa.fotos[i];
+                    const imgT = JSON.stringify(imgs).replace('{"imagem":"', '').replace('"}', '')
+
+                    document.querySelector('#imagensR').innerHTML += `<div>
                  <img src=${imgT}>
                  
              </div>`;
-     
-                 
-     
+
+
+
                 }
-                
-               
-             };
+
+
+            };
             const idade = Math.floor(toDate(pessoa.nascimento));
             const nomeCompleto = pessoa.nome.replace(/-/g, " ")
             document.getElementById('infoPessoa').innerHTML = `<div class="bloc bg-Barragem-20cheia-20Lagoa-20dos-20Patos-20--20MG-20-27032012 fixo l-bloc none" id="bloc-79">
@@ -79,11 +83,45 @@ async function moradores() {
                     
                     <!-- bloc-79 END -->`
 
-                    imagens();
-                } else {
-            console.log("ERROR")
+            imagens();
+        } else {
+
         }
-        
+
+
+       
+
     })
 }
+
+
+function organizar(datas) {
+    var nom = []  
+    var link = []
+    for (let i = 0; i < datas.length; i++) {               
+        
+        nom.push(datas[i].nomeCompleto)  
+        link.push(datas[i].nome)         
+        
+    }
+    return [nom.sort(), link.sort()]
+    
+
+   
+    
+}
+async function ordenarPessoas() {
+    const responses = await fetch(url);
+    const datas = await responses.json();   
+    
+    const ordemNames = organizar(datas)
+    datas.map( (element) => {
+        console.log(element)
+        document.getElementById('listaPopulacao').innerHTML += ` <a href="/populacao/${element.nome}">
+        <li>${element.nomeCompleto}</li>
+    </a>`
+    });
+    
+}
 moradores();
+ordenarPessoas();
