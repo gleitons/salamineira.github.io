@@ -54,7 +54,7 @@ async function moradores() {
                                     <div class="container-div-29274-style">
                                         <div class="row row-bloc-79-style">
                                             <div class="col-md-5 col-lg-3">
-                                                <div><img src="../img/lazyload-ph.png"
+                                                <div><img src=${pessoa.imagemCapa}
                                                         data-src=${pessoa.imagemCapa}
                                                         class="img-fluid img-328-style mx-auto d-block lazyload"
                                                         alt="placeholder image" /></div>
@@ -63,6 +63,7 @@ async function moradores() {
                                             <div class="col-md-6 col-lg-8 col-12">
                                                 <div class="container-div-0-style">
                                                     <h3 class="mg-md h3-bloc-79-style" style="text-transform: capitalize;">${pessoa.nomeCompleto}</h3>
+                                                    <h5>${pessoa.apelido}</h5>
                                                     <p class="p-265-style" style="text-transform: capitalize;">${pessoa.profissao}</p>
                                                     <p class="p-265-style" style="text-transform: capitalize;">${pessoa.funcao}</p>
                                                     <p class="p-265-style" > ${idade} anos de idade.</p>
@@ -117,8 +118,8 @@ async function ordenarPessoas() {
     const ordemNames = organizar(datas)
     datas.map( (element) => {
         console.log(element)
-        document.getElementById('listaPopulacao').innerHTML += ` <a href="/populacao/${element.nome}">
-        <li>${element.nomeCompleto}</li>
+        document.getElementById('listaPopulacao').innerHTML += ` <a  href="/populacao/${element.nome}">
+        <li style="text-transform: uppercase;">${element.nomeCompleto}</li>
     </a>`
     });
     
