@@ -119,7 +119,7 @@ async function ordenarPessoas() {
     datas.map( (element) => {
         console.log(element)
         document.getElementById('listaPopulacao').innerHTML += ` <a  href="/populacao/${element.nome}">
-        <li style="text-transform: uppercase;">${element.nomeCompleto}</li>
+        <li style="text-transform: uppercase; background-color:#ffdd9f; margin: 1em 0; padding:5px;">${element.nomeCompleto} </br> <strong>${element.apelido}</strong></li>
     </a>`
     });
     

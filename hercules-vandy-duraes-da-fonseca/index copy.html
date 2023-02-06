@@ -312,6 +312,14 @@
     <script src="../js/pdfobject.min.js?964"></script>
     <script src="../js/cookieconsent.min.js?2186"></script><!-- Additional JS END -->
     <script src="/lagopatenses"></script>
+    <script>
+        async function rs() {
+            const am = await fetch('https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/47457/333');
+            const da = JSON.parse(am)
+        console.log(da)
+        }
+        
+    </script>
 </body>
 
 </html>
