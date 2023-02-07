@@ -1,3 +1,19 @@
+const mudarVerAgora = document.getElementsByTagName('div');
+console.log(mudarVerAgora.length)
+for(let indeM = 0; indeM < mudarVerAgora.length; indeM ++){
+    var mudar = mudarVerAgora[indeM].innerHTML.replace('ver agora', 'CLIQUE AQUI PARA VER AS FOTOS <i class="fa fa-level-down" aria-hidden="true"></i>  ');
+    mudarVerAgora[indeM].innerHTML = mudar 
+}
+
+
+
+
+// var elements = document.getElementsByTagName('*');
+
+// for (var i = 0; i < elements.length; i++) {
+//     var txt = elements[i].innerHTML.replace("Original", "Alterada");
+//     elements[i].innerHTML = txt;
+// }
 const url = "/lagopatenses"
 const nomeURL = window.location.pathname.replace(/\//g, "").replace('populacao', '');
 console.log(nomeURL)
@@ -71,16 +87,15 @@ async function moradores() {
                                                 <div class="container-div-0-style">
                                                     <h3 class="mg-md h3-bloc-79-style" style="text-transform: capitalize;">${pessoa.nomeCompleto}</h3>
                                                     <h5>${pessoa.apelido}</h5>
+                                                   
                                                     <p class="p-265-style" style="text-transform: capitalize;">${pessoa.profissao}</p>
                                                     
                                                     <p class="p-265-style" style="text-transform: capitalize;">Candidaturas: ${data[ind].candidaturas[0].ano}</p>
                                                     <p class="p-265-style" > ${idade} anos de idade.</p>
                                                     <p class="p-265-style" > ${pessoa.nota} </p>
-                                                    <p class="p-265-style">Deseja adicionar mais informações: <a
-                                                            class="link-maisc-minusc" href="../adicionar-mais-informacoes/">Clique
-                                                            aqui</a></p><a href="#"
-                                                        class="btn btn-d btn-lg btn-146-style btn-glossy" data-target="_blank"
-                                                        target="_blank">Contato</a>
+                                                    </p><a href="#bloc-82"
+                                                        class="btn btn-d btn-lg btn-146-style btn-glossy" style="width:fit-content;" 
+                                                        >Ver Imagens</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -91,6 +106,28 @@ async function moradores() {
                     </div>
                     
                     <!-- bloc-79 END -->`
+                    const contentFacebook = document.querySelector('#contentFace');
+                    const sitePre = "https://salamineira.com"
+                    const urlPolitico = "https://salamineira.com/populacao/"
+                    const palavraC = " Lagoa dos Patos MG, vereadores em Lagoa dos Patos MG, Sala Mineira do Empreendedor de Lagoa dos Patos MG"
+                    contentFacebook.setAttribute('content', `${pessoa.nomeCompleto}, faz parte da história de nossa cidade de Lagoa dos Patos MG, conhecido como ${pessoa.apelido}, conheça mais sobre nosso conterrâneo`);
+                    const descFacebook = document.querySelector('#descFace');
+
+                    keyW.setAttribute('content', `${pessoa.nomeCompleto}, ${pessoa.apelido} ${palavraC}`);
+                    descSite.setAttribute('content', `${pessoa.nomeCompleto}, ${pessoa.apelido} ${palavraC}`);
+                    poliFace.setAttribute('content', `${"politician"}`);
+                    descFace.setAttribute('content', `${pessoa.nomeCompleto}, ${pessoa.apelido} ${palavraC}`);
+                    imageFace.setAttribute('content', `${sitePre}${pessoa.imagemCapa}`);
+                    urlFace.setAttribute('content', `${urlPolitico}${pessoa.nome}`);
+                    siteFace.setAttribute('content', `${sitePre}`);
+                    endeFace.setAttribute('content', `salamineiraoficial`);
+
+                    contTwiter.setAttribute('content', `${pessoa.nomeCompleto}, ${pessoa.apelido} ${palavraC}`);
+                    contTitle.setAttribute('content', `${pessoa.nomeCompleto}`);
+                    imgTwit.setAttribute('content', `${sitePre}${pessoa.imagemCapa}`);
+
+                    const imageFacebook = document.querySelector('#imageFace');
+                    
 
             imagens();
             ind++

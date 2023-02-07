@@ -11,7 +11,7 @@
         "cidadeN":"Coração de Jesus",
         "estado":"MG",
         "nota":"",
-        "imagemCapa":"/pessoas/vandinho-capa.png",
+        "imagemCapa":"/pessoas/vandinho-2004-max.png",
         "profissao":"empresário",
         "nascimento":"31/07/1967",
         "falecimento":"",
@@ -24,6 +24,24 @@
             }
         ],
         "fotos":[
+            {
+                "imagem":"/pessoas/vandinho-2004.png"
+            },
+            {
+                "imagem":"/pessoas/vandinho-2004-max.png"
+            },
+            {
+                "imagem":"/pessoas/vandinho-2008.png"
+            },
+            {
+                "imagem":"/pessoas/vandinho-2008-max.png"
+            },
+            {
+                "imagem":"/pessoas/vandinho-2012.png"
+            },
+            {
+                "imagem":"/pessoas/vandinho-2012-max.png"
+            },
             {
                 "imagem":"/img/acao-global-2009-hercules-vandy-duraes-lagoa-dos-patos-mg-vandinho.jpg"
             },
@@ -293,7 +311,7 @@
         "cidadeN":"Coração de Jesus",
         "estado":"MG",
         "nota":"",
-        "imagemCapa":"/pessoas/binga-2016-max.png",
+        "imagemCapa":"/pessoas/binga-2004-max.png",
         "profissao":"",
         "nascimento":"05/12/1957",
         "falecimento":"",
@@ -477,17 +495,91 @@
         ],
         "fotos":[
             {
-                "imagem":"/pessoas/.png"
+                "imagem":"/pessoas/dequinha-2004.png"
             },
             {
-                "imagem":"/pessoas/.png"
+                "imagem":"/pessoas/dequinha-2004-max.png"
+            },{
+                "imagem":"/pessoas/dequinha-2008.png"
+            },
+            {
+                "imagem":"/pessoas/dequinha-2008-max.png"
+            },{
+                "imagem":"/pessoas/dequinha-2012.png"
+            },
+            {
+                "imagem":"/pessoas/dequinha-2012-max.png"
+            },{
+                "imagem":"/pessoas/dequinha-2016.png"
+            },
+            {
+                "imagem":"/pessoas/dequinha-2016-max.png"
+            },{
+                "imagem":"/pessoas/dequinha-2020.png"
+            },
+            {
+                "imagem":"/pessoas/dequinha-2020-max.png"
             }
         ],
         "imagem": ""
     },
     {
-        "nome":"",
-        "nomeCompleto":"",
+        "nome":"edao",
+        "nomeCompleto":"ÉDEN CELESTINO VIEIRA",
+        "sexo":"m",
+        "numero":"",
+        "estadoCivil":"",
+        "graduacao":"fc",
+        "cor":"",
+        "nacionalidade":"b",
+        "cidadeN":"ldp",
+        "estado":"mg",
+        "nota":"",
+        "imagemCapa":"/pessoas/edao-2004-max.png",
+        "profissao":"",
+        "nascimento":"04/09/1968",
+        "falecimento":"",
+        "nomeUrna":"",
+        "apelido":"Edão",
+        "candidaturas":[
+            {
+                "ano": "2004",
+                "eleito":"s"
+            },
+            {
+                "ano": "2008",
+                "eleito":"n"
+            },
+            {
+                "ano": "2012",
+                "eleito":"n"
+            }
+        ],
+        "fotos":[
+            {
+                "imagem":"/pessoas/edao-2004.png"
+            },
+            {
+                "imagem":"/pessoas/edao-2004-max.png"
+            },
+            {
+                "imagem":"/pessoas/edao-2008.png"
+            },
+            {
+                "imagem":"/pessoas/edao-2008-max.png"
+            },
+            {
+                "imagem":"/pessoas/edao-2012.png"
+            },
+            {
+                "imagem":"/pessoas/edao-2012-max.png"
+            }
+        ],
+        "imagem": ""
+    },
+    {
+        "nome":"eder-da-farmacia",
+        "nomeCompleto":"ÉDER MARCONI SOARES",
         "sexo":"",
         "numero":"",
         "estadoCivil":"",
@@ -497,46 +589,56 @@
         "cidadeN":"",
         "estado":"",
         "nota":"",
-        "imagemCapa":"/pessoas/.png",
+        "imagemCapa":"/pessoas/eder-da-farmacia-2004-max.png",
         "profissao":"",
-        "nascimento":"",
+        "nascimento":"23/10/1968",
         "falecimento":"",
         "nomeUrna":"",
-        "apelido":"",
+        "apelido":"Eder da Farmácia",
         "candidaturas":[
             {
                 "ano": "2004",
+                "eleito":"s"
+            },
+            {
+                "ano": "2008",
                 "eleito":"n"
             }
         ],
         "fotos":[
             {
-                "imagem":"/pessoas/.png"
+                "imagem":"/pessoas/eder-da-farmacia-2004.png"
             },
             {
-                "imagem":"/pessoas/.png"
+                "imagem":"/pessoas/eder-da-farmacia-2004-max.png"
+            }, 
+            {
+                "imagem":"/pessoas/eder-da-farmacia-2008.png"
+            },
+            {
+                "imagem":"/pessoas/eder-da-farmacia-2008-max.png"
             }
         ],
         "imagem": ""
     },
     {
-        "nome":"",
-        "nomeCompleto":"",
-        "sexo":"",
+        "nome":"di-correia",
+        "nomeCompleto":"RAIMUNDO CORREIA FILHO",
+        "sexo":"m",
         "numero":"",
         "estadoCivil":"",
-        "graduacao":"",
+        "graduacao":"fc",
         "cor":"",
         "nacionalidade":"b",
-        "cidadeN":"",
-        "estado":"",
+        "cidadeN":"ldp",
+        "estado":"mg",
         "nota":"",
-        "imagemCapa":"/pessoas/.png",
+        "imagemCapa":"/pessoas/di-correia-2004-max.png",
         "profissao":"",
-        "nascimento":"",
+        "nascimento":"04/07/1942",
         "falecimento":"",
         "nomeUrna":"",
-        "apelido":"",
+        "apelido":"Di Correia",
         "candidaturas":[
             {
                 "ano": "2004",
@@ -545,32 +647,32 @@
         ],
         "fotos":[
             {
-                "imagem":"/pessoas/.png"
+                "imagem":"/pessoas/di-correia-2004.png"
             },
             {
-                "imagem":"/pessoas/.png"
+                "imagem":"/pessoas/di-correia-2004-max.png"
             }
         ],
         "imagem": ""
     },
     {
-        "nome":"",
-        "nomeCompleto":"",
-        "sexo":"",
+        "nome":"eliseu",
+        "nomeCompleto":"ELISEU PEREIRA DA SILVA",
+        "sexo":"m",
         "numero":"",
         "estadoCivil":"",
-        "graduacao":"",
+        "graduacao":"fi",
         "cor":"",
         "nacionalidade":"b",
-        "cidadeN":"",
-        "estado":"",
+        "cidadeN":"vzp",
+        "estado":"mg",
         "nota":"",
-        "imagemCapa":"/pessoas/.png",
+        "imagemCapa":"/pessoas/eliseu-2004-max.png",
         "profissao":"",
-        "nascimento":"",
+        "nascimento":"26/04/1973",
         "falecimento":"",
         "nomeUrna":"",
-        "apelido":"",
+        "apelido":"Eliseu Pio",
         "candidaturas":[
             {
                 "ano": "2004",
@@ -579,44 +681,10 @@
         ],
         "fotos":[
             {
-                "imagem":"/pessoas/.png"
+                "imagem":"/pessoas/eliseu-2004.png"
             },
             {
-                "imagem":"/pessoas/.png"
-            }
-        ],
-        "imagem": ""
-    },
-    {
-        "nome":"",
-        "nomeCompleto":"",
-        "sexo":"",
-        "numero":"",
-        "estadoCivil":"",
-        "graduacao":"",
-        "cor":"",
-        "nacionalidade":"b",
-        "cidadeN":"",
-        "estado":"",
-        "nota":"",
-        "imagemCapa":"/pessoas/.png",
-        "profissao":"",
-        "nascimento":"",
-        "falecimento":"",
-        "nomeUrna":"",
-        "apelido":"",
-        "candidaturas":[
-            {
-                "ano": "2004",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/.png"
-            },
-            {
-                "imagem":"/pessoas/.png"
+                "imagem":"/pessoas/eliseu-2004-max.png"
             }
         ],
         "imagem": ""
