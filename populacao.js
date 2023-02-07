@@ -20,33 +20,40 @@ async function moradores() {
         return dataR;
     }
     
+    
 
-
-    data.map((pessoa) => {
-
-
-
+    data.map((pessoa, ind) => {
+        
         if (pessoa.nome == nomeURL) {
             document.querySelector('#titleHeader').innerText = pessoa.nomeCompleto + " - Sala Mineira do empreendedor de Lagoa dos Patos MG"
             function imagens() {
-
                 for (let i = 0; i < pessoa.fotos.length; i++) {
                     const imgs = pessoa.fotos[i];
                     const imgT = JSON.stringify(imgs).replace('{"imagem":"', '').replace('"}', '')
 
                     document.querySelector('#imagensR').innerHTML += `<div>
                  <img src=${imgT}>
-                 
              </div>`;
-
-
-
                 }
-
-
             };
+            //var candidaturaOn = 0;
+            //for (let ints = 0; ints <= 10; ints++) {
+                
+            //    var cand = data[ind].candidaturas[ints].ano;
+           //     if (cand.length > 0){
+          //          candidaturaOn = candidaturaOn + 1;
+           //         console.log("timtim")
+           //     }
+                
+                
+                
+          //  }
+          //  console.log(candidaturaOn)
+
+
             const idade = Math.floor(toDate(pessoa.nascimento));
             const nomeCompleto = pessoa.nome.replace(/-/g, " ")
+            
             document.getElementById('infoPessoa').innerHTML = `<div class="bloc bg-Barragem-20cheia-20Lagoa-20dos-20Patos-20--20MG-20-27032012 fixo l-bloc none" id="bloc-79">
                         <div class="container bloc-sm-lg bloc-sm">
                             <div class="row fundo-perfil no-gutters">
@@ -65,7 +72,8 @@ async function moradores() {
                                                     <h3 class="mg-md h3-bloc-79-style" style="text-transform: capitalize;">${pessoa.nomeCompleto}</h3>
                                                     <h5>${pessoa.apelido}</h5>
                                                     <p class="p-265-style" style="text-transform: capitalize;">${pessoa.profissao}</p>
-                                                    <p class="p-265-style" style="text-transform: capitalize;">${pessoa.funcao}</p>
+                                                    
+                                                    <p class="p-265-style" style="text-transform: capitalize;">Candidaturas: ${data[ind].candidaturas[0].ano}</p>
                                                     <p class="p-265-style" > ${idade} anos de idade.</p>
                                                     <p class="p-265-style" > ${pessoa.nota} </p>
                                                     <p class="p-265-style">Deseja adicionar mais informações: <a
@@ -85,6 +93,7 @@ async function moradores() {
                     <!-- bloc-79 END -->`
 
             imagens();
+            ind++
         } else {
 
         }
@@ -119,7 +128,7 @@ async function ordenarPessoas() {
     datas.map( (element) => {
         console.log(element)
         document.getElementById('listaPopulacao').innerHTML += ` <a  href="/populacao/${element.nome}">
-        <li style="text-transform: uppercase; background-color:#ffdd9f; margin: 1em 0; padding:5px;">${element.nomeCompleto} </br> <strong>${element.apelido}</strong></li>
+        <li style="text-transform: uppercase; background-color:#ffdd9f; margin: 1em 0; padding:5px; text-align:center; list-style:none;">${element.nomeCompleto} </br> <strong>${element.apelido}</strong></li>
     </a>`
     });
     
