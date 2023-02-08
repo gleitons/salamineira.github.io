@@ -50,3 +50,12 @@
     background-color: red;
     margin-bottom: 1em;
 }
+@media (max-width:575px) {
+    .imgB div{ 
+        width: 100%;
+        
+        margin: auto;
+        position: relative;
+       
+    }
+}

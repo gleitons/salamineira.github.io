@@ -69,7 +69,7 @@
         "cidadeN":"Coração de Jesus",
         "estado":"MG",
         "nota":"Pohebe, candidata ao cargo de vereadora em Lagoa dos Patos-MG pelo SOLIDARIEDADE. Natural de Lagoa dos Patos - MG, Pohebe Maiumy Ferreira dos Santos nasceu em 25/09/1991.",
-        "imagemCapa":"/pessoas/poebe.jpg",
+        "imagemCapa":"/pessoas/pohebe-max.png",
         "profissao":"",
         "nascimento":"25/09/1991",
         "falecimento":"",
@@ -137,7 +137,7 @@
         "cidadeN":"Coração de Jesus",
         "estado":"MG",
         "nota":"",
-        "imagemCapa":"/pessoas/adair-2016.png",
+        "imagemCapa":"/pessoas/adair-2016-min.png",
         "profissao":"",
         "nascimento":"11/05/1978",
         "falecimento":"",
@@ -363,7 +363,7 @@
         "cidadeN":"",
         "estado":"MG",
         "nota":"",
-        "imagemCapa":"/pessoas/celio-2020-max.png",
+        "imagemCapa":"/pessoas/celio-2004-max.png",
         "profissao":"Cantor e Compositor",
         "nascimento":"20/06/1974",
         "falecimento":"",
@@ -377,7 +377,7 @@
         ],
         "fotos":[
             {
-                "imagem":"/pessoas/celio-2020.png"
+                "imagem":"/pessoas/celio.png"
             },
             {
                 "imagem":"/pessoas/celio-2004-max.png"

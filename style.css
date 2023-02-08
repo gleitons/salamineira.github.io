@@ -29,7 +29,7 @@ a:hover {
   width: 100%;
   clear: both;
   background: 50% 50% no-repeat;
-  padding: 0 20px;
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1705,8 +1705,8 @@ a {
   padding-top: 20px;
 }
 .img-328-style {
-  width: 263px;
-  height: 367px;
+  width: 100%;
+  height: 100%;
   margin: 10px 0px 0px 10px;
   box-shadow: #cb5d03 0px 5px 0px 0px;
   border-radius: 8px;
@@ -1736,7 +1736,7 @@ a {
 .container-div-29274-style {
 	
   width: 100%;
-  height: 435px;
+  height: 100%;
   padding: 30px 30px 30px 30px;
 }
 .fixo {
@@ -1767,6 +1767,9 @@ a {
 .card-body-style {
   width: 100%;
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+.wcem {
+  width: 100%;
 }
 .row-bloc-82-style {
   width: 100%;
@@ -3271,7 +3274,7 @@ li {
     font-size: 15px;
   }
   .container-div-29274-style {
-    height: 560px;
+    height: 100%;
   }
   .menu-moblee {
     color: #ffffff !important;
@@ -3482,7 +3485,7 @@ li {
     padding: 0px 0px 0px 0px;
   }
   .container-div-29274-style {
-    height: 750px;
+  
     padding: 0px 0px 0px 0px;
   }
   .img-328-style {

@@ -4,7 +4,10 @@ for(let indeM = 0; indeM < mudarVerAgora.length; indeM ++){
     var mudar = mudarVerAgora[indeM].innerHTML.replace('ver agora', 'CLIQUE AQUI PARA VER AS FOTOS <i class="fa fa-level-down" aria-hidden="true"></i>  ');
     mudarVerAgora[indeM].innerHTML = mudar 
 }
-
+// const aumentarPerfil = document.getElementsByClassName('fundo-perfil');
+// //var propriedade = window.getComputedStyle(aumentarPerfil).getPropertyValue("width");
+// aumentarPerfil.push('width', '100%')
+// console.log(aumentarPerfil)
 
 
 
