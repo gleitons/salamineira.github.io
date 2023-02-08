@@ -103,15 +103,15 @@
         "cidadeN":"Coração de Jesus",
         "estado":"MG",
         "nota":"",
-        "imagemCapa":"/pessoas/gleiton-capa.jpg",
+        "imagemCapa":"/pessoas/gleiton-capa-max.jpg",
         "profissao":"",
         "nascimento":"19/08/1989",
         "falecimento":"",
         "nomeUrna":"Pohebe",
-        "apelido":"tim",
+        "apelido":"Tim",
         "candidaturas":[
             {
-                "ano": "2004",
+                "ano": "0",
                 "eleito":"n"
             }
         ],
@@ -121,13 +121,20 @@
             },
             {
                 "imagem":"/pessoas/gleiton-max.png"
+            },
+            {
+                "imagem":"/pessoas/gleiton-capa.jpg"
+            },
+            {
+                "imagem":"/pessoas/gleiton-capa-max.jpg"
             }
+            
         ],
         "imagem": "<div class='imglagoapatensess'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
     },
     {
         "nome":"adair-nobre",
-        "nomeCompleto":"Adair Magalhaes Nobre",
+        "nomeCompleto":"ADAIR MAGALHAES NOBRE",
         "sexo":"m",
         "numero":"",
         "estadoCivil":"",
