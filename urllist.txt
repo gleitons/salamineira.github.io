@@ -1,3 +1,17 @@
+  <!-- <div>
+                    <p>Selecione o funcionário e o mês de referência</p>
+                    <p>Configure de acordo com a imagem abaixo</p>
+                    <img src="/mostrar-duvidas-sistema.png" alt=""></div>
+                <div>
+                    <h6>Configurações para impressão</h6>
+                    <p>*ATENÇÃO: UTILIZAR O CHROME PARA GERAR A FOLHA DE PONTO</p>
+                    <h4>Layout: Retrato</h4>
+                    <h4>Tamanho do Papel: A4</h4>
+                    <h4>Margens: Padrão</h4>
+                    <h4>Escala: Padrão</h4>
+                    <h4>Opções: Desmarcar - Cabeçalhos e rodapé <br> Marcar - Gráficos de segundo plano</h4>
+                    <button id="fechaAjuda" onclick="abrirAjuda()">Clique aqui para Fechar</button>
+                </div> -->
 https://www.salamineira.com/
 https://www.salamineira.com/divulgue-aqui
 https://www.salamineira.com/nota-fiscal/

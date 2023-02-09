@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="titleFol">Folha</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title id="titleFol">Folha de Ponto</title>
     <style>
         * {
             margin: 0;
@@ -13,6 +14,7 @@
             box-sizing: border-box;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             border-collapse: collapse;
+            scroll-behavior: smooth;
 
         }
 
@@ -81,7 +83,11 @@
         .tfot td {
             border: black solid 1px;
         }
-
+        
+        .preencherDark {
+            background-color: rgb(26, 26, 26);
+            color: white;
+        }
         .preencher fieldset {
             padding: 10px;
         }
@@ -122,9 +128,33 @@
         .duvidasS {
             display: flex;
             padding: 0px 20px;
+            animation: baixarS 200ms normal;
+        }
+        .duvidasS img{
+            width: 100%;
         }
         .dnone {
             display: none;
+        }
+        .mNoturno {
+            border: white solid 1px;
+            text-align: center;
+            background-color: rgb(28, 28, 28);
+            width: 50px;
+            height: 40px;
+            font-size: .8em;
+            padding: 5px;
+            border-radius: 8px;
+            cursor: pointer;
+            color: white;
+            margin: 5px 0;
+        }
+        select {
+            padding: 5px;
+            background-image: linear-gradient( 109.6deg,  rgba(45,116,213,1) 11.2%, rgba(121,137,212,1) 91.2% );
+            color: white;
+            font-weight: 700;
+            border-radius: 8px;
         }
         @media print{
             .noprint{
@@ -134,31 +164,39 @@
                 visibility: visible;
               }
          }
+         @media (max-width:720px) {
+            .duvidasS {
+                text-align: center;
+                display: block;
+                padding: 0px 20px;
+            }
+         }
+         @keyframes baixarS {
+            0% {
+                opacity: 0%;
+                margin-top: -100px;
+            }
+            100% {
+                opacity: 100%;
+            }
+         }
     </style>
 </head>
 
 <body>
 
-    <div class="preencher noprint">
+    <div class="preencher  noprint">
+        <!-- preencherDark -->
         <fieldset>
             <legend>Impressão de Folha</legend>
             <h6>FUNCIONÁRIOS - PREFEITURA VELHA</h6>
-            <button class="dimi" id="mostraR" onclick="abrirAjuda()">Como Utilizar o sistema "Livro de Ponto"</button>
-            <div class="duvidasS dnone" id="duviasS">
-                <div>
-                    <p>Selecione o funcionário e o mês de referência</p>
-                    <p>Configure de acordo com a imagem abaixo</p>
-                    <img src="/mostrar-duvidas-sistema.png" alt=""></div>
-                <div>
-                    <h6>Configurações para impressão</h6>
-                    <p>*ATENÇÃO: UTILIZAR O CHROME PARA GERAR A FOLHA DE PONTO</p>
-                    <h4>Layout: Retrato</h4>
-                    <h4>Tamanho do Papel: A4</h4>
-                    <h4>Margens: Padrão</h4>
-                    <h4>Escala: Padrão</h4>
-                    <h4>Opções: Desmarcar - Cabeçalhos e rodapé <br> Marcar - Gráficos de segundo plano</h4>
-                    <button id="fechaAjuda" onclick="abrirAjuda()">Clique aqui para Fechar</button>
-                </div>
+            <div class="mNoturno" onclick="modoNoite()">
+                <i class="bi bi-moon-stars-fill">Dark</i>
+            </div>
+            <button class="dimi" id="mostraR" onclick="abrirAjuda()"  >Como Utilizar o sistema "Livro de Ponto"</button>
+            
+            
+            <div class="duvidasS " id="duviasS">              
             </div>
             <fieldset id="cFunc" >
                 <legend>Funcionário</legend>

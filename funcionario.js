@@ -4,6 +4,14 @@ console.log("Escrito Por Gleiton Aparecido Soares de Souza")
 console.log("Acesse: www.gleiton.com.br")
 console.log(" ")
 
+function modoNoite() {
+    const modoN = document.querySelector('.preencher');
+    const modoL = document.querySelector('.mNoturno');
+    modoN.classList.toggle('preencherDark');
+    modoL.innerHTML = `<i class="bi bi-moon-stars-fill">Light</i>`
+    
+}
+
 function startFolha() {
     const mesR = document.querySelector('#mesReferencia');
     const  confere = mesR.options[mesR.selectedIndex].value;
@@ -133,7 +141,7 @@ async function imprimLivro() {
         doc.innerHTML += `<tr>
         <td>${diaA}</td>
         <td>${semana[dataA]}</td>
-        <td></td>
+        <td>${ass[dataA]}</td>
         
         <td>${saida[dataA]}</td>
         <td>${retornoTarde[dataA]}</td>
@@ -248,7 +256,7 @@ async function imprimLivro() {
     if (anoReferencia == '2023') {
        
         footTab.innerHTML = `<div>
-    <p>* O MÊS DE FEVEREIRO POSSUI ${temDias} DIAS.</p>
+    <p>* O MÊS DE ${smesReferencia} POSSUI ${temDias} DIAS.</p>
 </div>
 ${feriados[feriadoDia]}`
     } else {
@@ -273,8 +281,41 @@ function imprimir() {
 }
 
 function abrirAjuda() {
+    const mostraD = document.querySelector('#mostraR');
     const abreA = document.querySelector('#duviasS');
-    abreA.classList.toggle('dnone')
+    const primeiraDiv = document.createElement('div');
+    const primeiroTexto = document.createElement('p');
+    primeiroTexto.innerHTML = `Selecione o funcionário e o mês de referência <br>Configure de acordo com a imagem abaixo:`;
+    const imagemEx = document.createElement('img');
+    imagemEx.setAttribute('src', '/mostrar-duvidas-sistema.png');
+    imagemEx.setAttribute('alt','Duvidas ao usar sistema');
+    primeiraDiv.appendChild(primeiroTexto)
+    primeiraDiv.appendChild(imagemEx)
+
+    const segundaDiv = document.createElement('div');
+    const config = document.createElement('div')
+    config.innerHTML = `<h6>Configurações para impressão</h6>
+    <p>*ATENÇÃO: UTILIZAR O CHROME PARA GERAR A FOLHA DE PONTO</p>
+    <h4>Layout: Retrato</h4>
+    <h4>Tamanho do Papel: A4</h4>
+    <h4>Margens: Padrão</h4>
+    <h4>Escala: Padrão</h4>
+    <h4>Opções: Desmarcar - Cabeçalhos e rodapé <br> Marcar - Gráficos de segundo plano</h4>
+    <a href="#"><button id="fechaAjuda" onclick="fecharAjuda()">Clique aqui para Fechar</button></a>`;
+    segundaDiv.appendChild(config);
+
+    abreA.appendChild(primeiraDiv);
+    abreA.appendChild(segundaDiv)
+    mostraD.setAttribute('disabled', '')
+
+
+
+    //abreA.classList.toggle('dnone')
+}
+function fecharAjuda() {
+    const abreA = document.querySelector('#duviasS').innerHTML = ''
+    const mostraD = document.querySelector('#mostraR');
+    mostraD.removeAttribute('disabled')
 }
 //setInterval("imprimLivro()", 1000)
 //imprimLivro()
