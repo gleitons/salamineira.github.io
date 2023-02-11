@@ -583,7 +583,7 @@ function btnFalecido(falec, con, idadeF, mamae) {
     const divMostraF = document.createElement('div');
     divMostraF.setAttribute('id', `impri${con}`)
     icone.textContent = `${falec.falecimento}`
-    btnF.innerHTML = `<strong>${falec.nome} </strong></br>`;
+    btnF.innerHTML = `<strong>${falec.nome}</br>${falec.apelido} </strong></br>`;
     icone.setAttribute('class', 'bi bi-heartbreak-fill');
     btnF.setAttribute('class', 'btnMostra')
 

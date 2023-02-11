@@ -1147,8 +1147,15 @@ function covid_14_01_2021(){
 function vejaimgCovid(){
     const cImage = document.getElementById('verImg');
     const imgcovid = document.getElementById('imgcovid');
-    cImage.addEventListener('click',
-    imgcovid.classList.remove('dnone'));            
+   
+    cImage.textContent = 'Fechar Imagem' 
+    imgcovid.classList.toggle('dnone');
+     
+   
+       
+    
+    
+      
 
 }
 function fechaimgCovid(){
