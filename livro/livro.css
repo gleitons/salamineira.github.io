@@ -111,6 +111,10 @@ tbody {
 .dimiBaixar {
     animation: baixarS 200ms normal;
 }
+.dimiBaixar iframe {
+    width: 100%;
+}
+
 .diminuirCol {
     font-size: 14px;
     

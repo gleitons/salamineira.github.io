@@ -472,7 +472,8 @@ function abrirAjuda() {
 
     const segundaDiv = document.createElement('div');
     const config = document.createElement('div')
-    config.innerHTML = `<h6>Configurações para impressão</h6>
+    config.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/yErVP8GgnhQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h6>Configurações para impressão</h6>
     <p>*ATENÇÃO: UTILIZAR O CHROME PARA GERAR A FOLHA DE PONTO</p>
     <h4>Layout: Retrato</h4>
     <h4>Tamanho do Papel: A4</h4>
