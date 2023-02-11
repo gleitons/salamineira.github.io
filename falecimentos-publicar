@@ -19,6 +19,22 @@
     },
     {
         "id": 0,
+        "nome": "JACY BARBOSA DA FONSECA",
+        "sexo": "m",
+        "imagem": "",
+        "nascimento": "",
+        "falecimento": "07/02/2023",
+        "nota": "",
+        "obito": "Não identificado",
+        "mae": "",
+        "natural": "Lagoa dos Patos - MG",
+        "estadoFalecimento": "MG",
+        "LocalFalecimento": "Lagoa dos Patos",
+        "estado": "MG",
+        "apelido":"Sr Jacy do Cocal"
+    }, 
+    {
+        "id": 0,
         "nome": "MARIA SOARES DA SILVA",
         "sexo": "f",
         "imagem": "",
@@ -3673,10 +3689,10 @@
     },
     {
         "id": 0,
-        "nome": "MALAQUIAS DO BOQUEIRÃO",
+        "nome": "JOSE MALAQUIAS LAFETA LEITE",
         "sexo": "m",
         "imagem": "",
-        "nascimento": "",
+        "nascimento": "23/12/1951",
         "falecimento": "07/06/2022",
         "nota": "",
         "obito": "Não identificado",
@@ -3685,7 +3701,7 @@
         "estadoFalecimento": "MG",
         "LocalFalecimento": "Lagoa dos Patos",
         "estado": "MG",
-        "apelido":""
+        "apelido":"Malaquias do Boqueirão"
     },
     {
         "id": 0,

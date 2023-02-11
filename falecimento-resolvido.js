@@ -100,7 +100,7 @@ async function falecidos() {
     });
 }
 
-setTimeout('falecidos()', 5000)
+setTimeout('falecidos()', 1000)
 
 
 async function tabelaEs(anoC) {
