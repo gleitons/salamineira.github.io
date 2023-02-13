@@ -14,6 +14,77 @@
   margin: 10px;
   
 }
+.mostraP {
+  display: flex;
+  align-items: center;
+  list-style: none;
+ 
+}
+.mostraP img {
+  width: 20%;
+  margin: 10px 0;
+  
+}
+.mostraP a {
+  width: 100%;
+}
+.municipes {
+  margin-top: 2em;
+}
+.municipes h4{
+  font-size: 2em;
+  text-align: center;
+}
+#listaPopulacao {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+#listaPopulacao span{
+  text-transform: capitalize;
+}
+#listaPopulacao img {
+  width: 20%;
+}
+.munic {
+  
+  height: 400px;
+  border: rgb(212, 212, 212) solid 1px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: #3333339d 0px 2px 5px 0px ;
+  border-radius: 8px;
+  list-style: none;
+}
+.munic ol {
+
+  margin-top: -600%;
+
+  animation: munici 40s infinite linear ;
+}
+.munic ol li {
+  font-size: 1em;
+  margin-top: 10px;
+  background-color: orange;
+  text-transform: uppercase;
+  color: white;
+  padding: 5px;
+}
+.munic a {
+  text-decoration: none;
+
+}
+.munic ol li span {
+  text-transform: capitalize;
+}
+ 
+@keyframes munici {
+  0% {
+      margin-top: 100%;
+  }
+}
+
+
 .acoesLagoadosPatos {
   margin-top: -25px;
   animation: imagemD 500ms normal;

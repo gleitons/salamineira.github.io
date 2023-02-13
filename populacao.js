@@ -1,5 +1,4 @@
 const mudarVerAgora = document.getElementsByTagName('div');
-console.log(mudarVerAgora.length)
 for(let indeM = 0; indeM < mudarVerAgora.length; indeM ++){
     var mudar = mudarVerAgora[indeM].innerHTML.replace('ver agora', 'CLIQUE AQUI PARA VER AS FOTOS <i class="fa fa-level-down" aria-hidden="true"></i>  ');
     mudarVerAgora[indeM].innerHTML = mudar 
@@ -41,7 +40,7 @@ async function moradores() {
     
     
 
-    data.map((pessoa, ind) => {
+    data.map((pessoa) => {
         
         if (pessoa.nome == nomeURL) {
             document.querySelector('#titleHeader').innerText = pessoa.nomeCompleto + " - Sala Mineira do empreendedor de Lagoa dos Patos MG"
@@ -55,23 +54,51 @@ async function moradores() {
              </div>`;
                 }
             };
-            //var candidaturaOn = 0;
-            //for (let ints = 0; ints <= 10; ints++) {
-                
-            //    var cand = data[ind].candidaturas[ints].ano;
-           //     if (cand.length > 0){
-          //          candidaturaOn = candidaturaOn + 1;
-           //         console.log("timtim")
-           //     }
-                
-                
-                
-          //  }
-          //  console.log(candidaturaOn)
-
 
             const idade = Math.floor(toDate(pessoa.nascimento));
             const nomeCompleto = pessoa.nome.replace(/-/g, " ")
+
+            console.log(pessoa.nascimento)
+            function eleitoECargo(dado) {
+                if(dado == 'v'){
+                    return 'vereador(a)'
+                } else if (dado == 'p') {
+                    return 'prefeito(a)'
+                } else if (dado == 's') {
+                    return 'foi eleito(a)'
+                }  else if (dado == 'vp') {
+                    return 'vice-prefeito(a)'
+                } else {
+                    return 'não foi eleito(a)'
+                }
+            }
+
+            var candidaturas2004 = `${pessoa.candidaturas[0].ano} - ${eleitoECargo(pessoa.candidaturas[0].cargo)} - ${eleitoECargo(pessoa.candidaturas[0].eleito)} </br>`;             
+            var candidaturas2008 = `${pessoa.candidaturas[1].ano} - ${eleitoECargo(pessoa.candidaturas[1].cargo)} - ${eleitoECargo(pessoa.candidaturas[1].eleito)} </br>`;
+            var candidaturas2012 = `${pessoa.candidaturas[2].ano} - ${eleitoECargo(pessoa.candidaturas[2].cargo)} - ${eleitoECargo(pessoa.candidaturas[2].eleito)}</br>`;
+            var candidaturas2016 = `${pessoa.candidaturas[3].ano} - ${eleitoECargo(pessoa.candidaturas[3].cargo)} - ${eleitoECargo(pessoa.candidaturas[3].eleito)}</br>`;
+            var candidaturas2020 = `${pessoa.candidaturas[4].ano} - ${eleitoECargo(pessoa.candidaturas[4].cargo)} - ${eleitoECargo(pessoa.candidaturas[4].eleito)}</br>`;
+
+            if(pessoa.candidaturas[0].ano.length <= 0){
+                var candidaturas2004 = ""
+            }
+            if(pessoa.candidaturas[1].ano.length <= 0){
+                var candidaturas2008 = ""
+            }
+            if(pessoa.candidaturas[2].ano.length <= 0){
+                var candidaturas2012 = ""
+            }
+            if(pessoa.candidaturas[3].ano.length <= 0){
+                var candidaturas2016 = ""
+            }
+            if(pessoa.candidaturas[4].ano.length <= 0){
+                var candidaturas2020 = ""
+            }
+
+            
+            
+
+            
             
             document.getElementById('infoPessoa').innerHTML = `<div class="bloc bg-Barragem-20cheia-20Lagoa-20dos-20Patos-20--20MG-20-27032012 fixo l-bloc none" id="bloc-79">
                         <div class="container bloc-sm-lg bloc-sm">
@@ -80,21 +107,37 @@ async function moradores() {
                                     <div class="container-div-29274-style">
                                         <div class="row row-bloc-79-style">
                                             <div class="col-md-5 col-lg-3">
-                                                <div><img src=${pessoa.imagemCapa}
+                                            <figure>
+                                                <div>
+                                                <img src=${pessoa.imagemCapa}
                                                         data-src=${pessoa.imagemCapa}
                                                         class="img-fluid img-328-style mx-auto d-block lazyload"
-                                                        alt="placeholder image" /></div>
+                                                        alt="placeholder image" />
+                                                        <figcaption class="candPrimeira">
+                                                        ${pessoa.apelido} em sua primeira candidatura
+                                                        </figcaption>
+                                                       
+                                                </div>
+                                            </figure>
                                             </div>
                                             <div id="shi"></div>
                                             <div class="col-md-6 col-lg-8 col-12">
                                                 <div class="container-div-0-style">
                                                     <h3 class="mg-md h3-bloc-79-style" style="text-transform: capitalize;">${pessoa.nomeCompleto}</h3>
-                                                    <h5>${pessoa.apelido}</h5>
+                                                    
                                                    
                                                     <p class="p-265-style" style="text-transform: capitalize;">${pessoa.profissao}</p>
+                                                    <p class="p-265-style" > <strong>${idade} </strong>anos de idade.</p>
                                                     
-                                                    <p class="p-265-style" style="text-transform: capitalize;">Candidaturas: ${data[ind].candidaturas[0].ano}</p>
-                                                    <p class="p-265-style" > ${idade} anos de idade.</p>
+                                                    <p class="p-265-style" style="text-transform: capitalize;">Candidaturas: 
+                                                    </br>
+                                                    ${candidaturas2020} 
+                                                    ${candidaturas2016} 
+                                                    ${candidaturas2012} 
+                                                    ${candidaturas2008} 
+                                                    ${candidaturas2004}
+                                                    </p>
+                                                   
                                                     <p class="p-265-style" > ${pessoa.nota} </p>
                                                     </p><a href="#bloc-82"
                                                         class="btn btn-d btn-lg btn-146-style btn-glossy" style="width:fit-content;" 
@@ -142,7 +185,7 @@ async function moradores() {
                     
 
             imagens();
-            ind++
+           
         } else {
 
         }
@@ -175,7 +218,6 @@ async function ordenarPessoas() {
     
     const ordemNames = organizar(datas)
     datas.map( (element) => {
-        console.log(element)
         document.getElementById('listaPopulacao').innerHTML += ` <a  href="/populacao/${element.nome}">
         <li style="text-transform: uppercase; background-color:#ffdd9f; margin: 1em 0; padding:5px; text-align:center; list-style:none;">${element.nomeCompleto} </br> <strong>${element.apelido}</strong></li>
     </a>`

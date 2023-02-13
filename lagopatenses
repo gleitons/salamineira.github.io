@@ -1,767 +1,1383 @@
-[
-    {
-        "nome":"hercules-vandy",
-        "nomeCompleto":"Hercules Vandy Durães da Fonseca",
-        "sexo":"m",
-        "numero":"",
-        "estadoCivil":"",
-        "graduacao":"",
-        "cor":"",
-        "nacionalidade":"brasil",
-        "cidadeN":"Coração de Jesus",
-        "estado":"MG",
-        "nota":"",
-        "imagemCapa":"/pessoas/vandinho-2004-max.png",
-        "profissao":"empresário",
-        "nascimento":"31/07/1967",
-        "falecimento":"",
-        "nomeUrna":"vandinho",
-        "apelido":"vandinho",
-        "candidaturas":[
-            {
-                "ano": "2004",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/vandinho-2004.png"
-            },
-            {
-                "imagem":"/pessoas/vandinho-2004-max.png"
-            },
-            {
-                "imagem":"/pessoas/vandinho-2008.png"
-            },
-            {
-                "imagem":"/pessoas/vandinho-2008-max.png"
-            },
-            {
-                "imagem":"/pessoas/vandinho-2012.png"
-            },
-            {
-                "imagem":"/pessoas/vandinho-2012-max.png"
-            },
-            {
-                "imagem":"/img/acao-global-2009-hercules-vandy-duraes-lagoa-dos-patos-mg-vandinho.jpg"
-            },
-            {
-                "imagem":"/pessoas/vandinho-capa.png"
-            },
-            {
-                "imagem":"/pessoas/vandinho-capa-colorido.jpg"
-            },
-            {
-                "imagem":"/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg"
-            }
-        ],
-        "imagem": "<div class='imglagoapatenses'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
-    },
-    {
-        "nome":"pohebe",
-        "nomeCompleto":"Pohebe Maiumy Ferreira dos Santos",
-        "sexo":"f",
-        "numero":"77111",
-        "estadoCivil":"",
-        "graduacao":"",
-        "cor":"",
-        "nacionalidade":"brasil",
-        "cidadeN":"Coração de Jesus",
-        "estado":"MG",
-        "nota":"Pohebe, candidata ao cargo de vereadora em Lagoa dos Patos-MG pelo SOLIDARIEDADE. Natural de Lagoa dos Patos - MG, Pohebe Maiumy Ferreira dos Santos nasceu em 25/09/1991.",
-        "imagemCapa":"/pessoas/pohebe-max.png",
-        "profissao":"",
-        "nascimento":"25/09/1991",
-        "falecimento":"",
-        "nomeUrna":"Pohebe",
-        "apelido":"Pohebe",
-        "candidaturas":[
-            {
-                "ano": "2004",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/poebe.jpg"
-            },
-            {
-                "imagem":"/pessoas/pohebe-max.png"
-            }
-        ],
-        "imagem": "<div class='imglagoapatenses'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
-    },
-    {
-        "nome":"gleiton-aparecido-soares",
-        "nomeCompleto":"Gleiton Aparecido Soares de Souza",
-        "sexo":"m",
-        "numero":"",
-        "estadoCivil":"",
-        "graduacao":"",
-        "cor":"",
-        "nacionalidade":"brasil",
-        "cidadeN":"Coração de Jesus",
-        "estado":"MG",
-        "nota":"",
-        "imagemCapa":"/pessoas/gleiton-capa-max.jpg",
-        "profissao":"",
-        "nascimento":"19/08/1989",
-        "falecimento":"",
-        "nomeUrna":"Pohebe",
-        "apelido":"Tim",
-        "candidaturas":[
-            {
-                "ano": "0",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/gleiton-min.png"
-            },
-            {
-                "imagem":"/pessoas/gleiton-max.png"
-            },
-            {
-                "imagem":"/pessoas/gleiton-capa.jpg"
-            },
-            {
-                "imagem":"/pessoas/gleiton-capa-max.jpg"
-            }
-            
-        ],
-        "imagem": "<div class='imglagoapatensess'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
-    },
-    {
-        "nome":"adair-nobre",
-        "nomeCompleto":"ADAIR MAGALHAES NOBRE",
-        "sexo":"m",
-        "numero":"",
-        "estadoCivil":"",
-        "graduacao":"",
-        "cor":"",
-        "nacionalidade":"brasil",
-        "cidadeN":"Coração de Jesus",
-        "estado":"MG",
-        "nota":"",
-        "imagemCapa":"/pessoas/adair-2016-min.png",
-        "profissao":"",
-        "nascimento":"11/05/1978",
-        "falecimento":"",
-        "nomeUrna":"Adair Nobre",
-        "apelido":"Adair Nobre",
-        "candidaturas":[
-            {
-                "ano": "2004",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/adair-2016.png"
-            },
-            {
-                "imagem":"/pessoas/adair-2018.png"
-            }
-        ],
-        "imagem": "<div class='imglagoapatensess'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
-    },
-    {
-        "nome":"alberto",
-        "nomeCompleto":"ALBERTO ALVES FONSECA",
-        "sexo":"m",
-        "numero":"",
-        "estadoCivil":"",
-        "graduacao":"",
-        "cor":"",
-        "nacionalidade":"brasil",
-        "cidadeN":"Coração de Jesus",
-        "estado":"MG",
-        "nota":"",
-        "imagemCapa":"/pessoas/alberto-max.png",
-        "profissao":"",
-        "nascimento":"04/06/1973",
-        "falecimento":"",
-        "nomeUrna":"",
-        "apelido":"Alberto",
-        "candidaturas":[
-            {
-                "ano": "2004",
-                "eleito":"n"
-            },
-            {
-                "ano": "2005",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/alberto.png"
-            },
-            {
-                "imagem":"/pessoas/alberto-max.png"
-            }
-        ],
-        "imagem": ""
-    },
-    {
-        "nome":"antonio-cabelo",
-        "nomeCompleto":"ANTONIO ALVES DE OLIVEIRA",
-        "sexo":"m",
-        "numero":"",
-        "estadoCivil":"",
-        "graduacao":"",
-        "cor":"",
-        "nacionalidade":"brasil",
-        "cidadeN":"Coração de Jesus",
-        "estado":"MG",
-        "nota":"",
-        "imagemCapa":"/pessoas/antonio-cabelo-max.png",
-        "profissao":"",
-        "nascimento":"12/07/1939",
-        "falecimento":"",
-        "nomeUrna":"",
-        "apelido":"Antônio Cabelo",
-        "candidaturas":[
-            {
-                "ano": "2004",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/antonio-cabelo.png"
-            },
-            {
-                "imagem":"/pessoas/antonio-cabelo-max.png"
-            }
-        ],
-        "imagem": ""
-    },
-    {
-        "nome":"arismar-de-duzin",
-        "nomeCompleto":"JOSÉ ARISMAR XAVIER GONÇALVES",
-        "sexo":"m",
-        "numero":"",
-        "estadoCivil":"",
-        "graduacao":"mc",
-        "cor":"",
-        "nacionalidade":"b",
-        "cidadeN":"Coração de Jesus",
-        "estado":"MG",
-        "nota":"",
-        "imagemCapa":"/pessoas/arismar.png",
-        "profissao":"",
-        "nascimento":"09/11/1978",
-        "falecimento":"",
-        "nomeUrna":"Arismar de Duzin",
-        "apelido":"Arismar de Duzin",
-        "candidaturas":[
-            {
-                "ano": "2004",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/arismar.png"
-            },
-            {
-                "imagem":"/pessoas/arismar.png"
-            }
-        ],
-        "imagem": ""
-    },
-    {
-        "nome":"arlei-cachaca",
-        "nomeCompleto":"WARLES SOARES DE ARAUJO",
-        "sexo":"m",
-        "numero":"",
-        "estadoCivil":"",
-        "graduacao":"mc",
-        "cor":"",
-        "nacionalidade":"b",
-        "cidadeN":"Coração de Jesus",
-        "estado":"MG",
-        "nota":"",
-        "imagemCapa":"/pessoas/warles-max.png",
-        "profissao":"",
-        "nascimento":"30/07/1980",
-        "falecimento":"",
-        "nomeUrna":"",
-        "apelido":"Arlei cachaça",
-        "candidaturas":[
-            {
-                "ano": "2004",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/warles.png"
-            },
-            {
-                "imagem":"/pessoas/warles-max.png"
-            }
-        ],
-        "imagem": ""
-    },
-    {
-        "nome":"binga",
-        "nomeCompleto":"GERALDO BARBOSA REIS",
-        "sexo":"m",
-        "numero":"",
-        "estadoCivil":"",
-        "graduacao":"fc",
-        "cor":"",
-        "nacionalidade":"b",
-        "cidadeN":"Coração de Jesus",
-        "estado":"MG",
-        "nota":"",
-        "imagemCapa":"/pessoas/binga-2004-max.png",
-        "profissao":"",
-        "nascimento":"05/12/1957",
-        "falecimento":"",
-        "nomeUrna":"Binga",
-        "apelido":"Binga",
-        "candidaturas":[
-            {
-                "ano": "2004",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/binga-2004.png"
-            },
-            {
-                "imagem":"/pessoas/binga-2004-max.png"
-            },
-            {
-                "imagem":"/pessoas/binga-2016.png"
-            },
-            {
-                "imagem":"/pessoas/binga-2008.png"
-            },
-            {
-                "imagem":"/pessoas/binga-2008-max.png"
-            },
-            {
-                "imagem":"/pessoas/binga-2016-max.png"
-            },
-            {
-                "imagem":"/pessoas/binga-2012.png"
-            },
-            {
-                "imagem":"/pessoas/binga-2012-max.png"
-            }
-        ],
-        "imagem": ""
-    },
-    {
-        "nome":"celhao",
-        "nomeCompleto":"PAULO CÉLIO RAMOS",
-        "sexo":"",
-        "numero":"",
-        "estadoCivil":"",
-        "graduacao":"fi",
-        "cor":"",
-        "nacionalidade":"b",
-        "cidadeN":"",
-        "estado":"MG",
-        "nota":"",
-        "imagemCapa":"/pessoas/celio-2004-max.png",
-        "profissao":"Cantor e Compositor",
-        "nascimento":"20/06/1974",
-        "falecimento":"",
-        "nomeUrna":"",
-        "apelido":"Celhão",
-        "candidaturas":[
-            {
-                "ano": "2004",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/celio.png"
-            },
-            {
-                "imagem":"/pessoas/celio-2004-max.png"
-            }
-        ],
-        "imagem": ""
-    },
-    {
-        "nome":"cimar-de-olimpio",
-        "nomeCompleto":"GERCIMAR PEREIRA DA SILVA",
-        "sexo":"m",
-        "numero":"",
-        "estadoCivil":"",
-        "graduacao":"fi",
-        "cor":"",
-        "nacionalidade":"b",
-        "cidadeN":"",
-        "estado":"MG",
-        "nota":"",
-        "imagemCapa":"/pessoas/cimar-de-olimpio-max.png",
-        "profissao":"",
-        "nascimento":"11/06/1971",
-        "falecimento":"",
-        "nomeUrna":"",
-        "apelido":"Cimar de Olimpio",
-        "candidaturas":[
-            {
-                "ano": "2004",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/cimar-de-olimpio.png"
-            },
-            {
-                "imagem":"/pessoas/cimar-de-olimpio-max.png"
-            }
-        ],
-        "imagem": ""
-    },
-    {
-        "nome":"cissi",
-        "nomeCompleto":"FELICIA PEREIRA ALVES",
-        "sexo":"f",
-        "numero":"70234",
-        "estadoCivil":"",
-        "graduacao":"fi",
-        "cor":"",
-        "nacionalidade":"b",
-        "cidadeN":"ldp",
-        "estado":"mg",
-        "nota":"",
-        "imagemCapa":"/pessoas/cissi-max.png",
-        "profissao":"",
-        "nascimento":"19/02/1964",
-        "falecimento":"",
-        "nomeUrna":"Cissi",
-        "apelido":"Cissi",
-        "candidaturas":[
-            {
-                "ano": "2004",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/cissi.png"
-            },
-            {
-                "imagem":"/pessoas/cissi-max.png"
-            }
-        ],
-        "imagem": ""
-    },
-    {
-        "nome":"dequinha",
-        "nomeCompleto":"JOSE GERALDO RODRIGUES PARRELA",
-        "sexo":"m",
-        "numero":"",
-        "estadoCivil":"",
-        "graduacao":"mi",
-        "cor":"",
-        "nacionalidade":"b",
-        "cidadeN":"moc",
-        "estado":"mg",
-        "nota":"",
-        "imagemCapa":"/pessoas/dequinha-2004-max.png",
-        "profissao":"",
-        "nascimento":"28/12/1952",
-        "falecimento":"",
-        "nomeUrna":"",
-        "apelido":"Dequinha",
-        "candidaturas":[
-            {
-                "ano": "2004",
-                "eleito":"n"
-            },
-            {
-                "ano": "2008",
-                "eleito":"n"
-            },
-            {
-                "ano": "2012",
-                "eleito":"s"
-            },
-            {
-                "ano": "2016",
-                "eleito":"n"
-            },
-            {
-                "ano": "2020",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/dequinha-2004.png"
-            },
-            {
-                "imagem":"/pessoas/dequinha-2004-max.png"
-            },{
-                "imagem":"/pessoas/dequinha-2008.png"
-            },
-            {
-                "imagem":"/pessoas/dequinha-2008-max.png"
-            },{
-                "imagem":"/pessoas/dequinha-2012.png"
-            },
-            {
-                "imagem":"/pessoas/dequinha-2012-max.png"
-            },{
-                "imagem":"/pessoas/dequinha-2016.png"
-            },
-            {
-                "imagem":"/pessoas/dequinha-2016-max.png"
-            },{
-                "imagem":"/pessoas/dequinha-2020.png"
-            },
-            {
-                "imagem":"/pessoas/dequinha-2020-max.png"
-            }
-        ],
-        "imagem": ""
-    },
-    {
-        "nome":"edao",
-        "nomeCompleto":"ÉDEN CELESTINO VIEIRA",
-        "sexo":"m",
-        "numero":"",
-        "estadoCivil":"",
-        "graduacao":"fc",
-        "cor":"",
-        "nacionalidade":"b",
-        "cidadeN":"ldp",
-        "estado":"mg",
-        "nota":"",
-        "imagemCapa":"/pessoas/edao-2004-max.png",
-        "profissao":"",
-        "nascimento":"04/09/1968",
-        "falecimento":"",
-        "nomeUrna":"",
-        "apelido":"Edão",
-        "candidaturas":[
-            {
-                "ano": "2004",
-                "eleito":"s"
-            },
-            {
-                "ano": "2008",
-                "eleito":"n"
-            },
-            {
-                "ano": "2012",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/edao-2004.png"
-            },
-            {
-                "imagem":"/pessoas/edao-2004-max.png"
-            },
-            {
-                "imagem":"/pessoas/edao-2008.png"
-            },
-            {
-                "imagem":"/pessoas/edao-2008-max.png"
-            },
-            {
-                "imagem":"/pessoas/edao-2012.png"
-            },
-            {
-                "imagem":"/pessoas/edao-2012-max.png"
-            }
-        ],
-        "imagem": ""
-    },
-    {
-        "nome":"eder-da-farmacia",
-        "nomeCompleto":"ÉDER MARCONI SOARES",
-        "sexo":"",
-        "numero":"",
-        "estadoCivil":"",
-        "graduacao":"",
-        "cor":"",
-        "nacionalidade":"b",
-        "cidadeN":"",
-        "estado":"",
-        "nota":"",
-        "imagemCapa":"/pessoas/eder-da-farmacia-2004-max.png",
-        "profissao":"",
-        "nascimento":"23/10/1968",
-        "falecimento":"",
-        "nomeUrna":"",
-        "apelido":"Eder da Farmácia",
-        "candidaturas":[
-            {
-                "ano": "2004",
-                "eleito":"s"
-            },
-            {
-                "ano": "2008",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/eder-da-farmacia-2004.png"
-            },
-            {
-                "imagem":"/pessoas/eder-da-farmacia-2004-max.png"
-            }, 
-            {
-                "imagem":"/pessoas/eder-da-farmacia-2008.png"
-            },
-            {
-                "imagem":"/pessoas/eder-da-farmacia-2008-max.png"
-            }
-        ],
-        "imagem": ""
-    },
-    {
-        "nome":"di-correia",
-        "nomeCompleto":"RAIMUNDO CORREIA FILHO",
-        "sexo":"m",
-        "numero":"",
-        "estadoCivil":"",
-        "graduacao":"fc",
-        "cor":"",
-        "nacionalidade":"b",
-        "cidadeN":"ldp",
-        "estado":"mg",
-        "nota":"",
-        "imagemCapa":"/pessoas/di-correia-2004-max.png",
-        "profissao":"",
-        "nascimento":"04/07/1942",
-        "falecimento":"",
-        "nomeUrna":"",
-        "apelido":"Di Correia",
-        "candidaturas":[
-            {
-                "ano": "2004",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/di-correia-2004.png"
-            },
-            {
-                "imagem":"/pessoas/di-correia-2004-max.png"
-            }
-        ],
-        "imagem": ""
-    },
-    {
-        "nome":"eliseu",
-        "nomeCompleto":"ELISEU PEREIRA DA SILVA",
-        "sexo":"m",
-        "numero":"",
-        "estadoCivil":"",
-        "graduacao":"fi",
-        "cor":"",
-        "nacionalidade":"b",
-        "cidadeN":"vzp",
-        "estado":"mg",
-        "nota":"",
-        "imagemCapa":"/pessoas/eliseu-2004-max.png",
-        "profissao":"",
-        "nascimento":"26/04/1973",
-        "falecimento":"",
-        "nomeUrna":"",
-        "apelido":"Eliseu Pio",
-        "candidaturas":[
-            {
-                "ano": "2004",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/eliseu-2004.png"
-            },
-            {
-                "imagem":"/pessoas/eliseu-2004-max.png"
-            }
-        ],
-        "imagem": ""
-    },
-    {
-        "nome":"",
-        "nomeCompleto":"",
-        "sexo":"",
-        "numero":"",
-        "estadoCivil":"",
-        "graduacao":"",
-        "cor":"",
-        "nacionalidade":"b",
-        "cidadeN":"",
-        "estado":"",
-        "nota":"",
-        "imagemCapa":"/pessoas/.png",
-        "profissao":"",
-        "nascimento":"",
-        "falecimento":"",
-        "nomeUrna":"",
-        "apelido":"",
-        "candidaturas":[
-            {
-                "ano": "2004",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/.png"
-            },
-            {
-                "imagem":"/pessoas/.png"
-            }
-        ],
-        "imagem": ""
-    },
-    {
-        "nome":"",
-        "nomeCompleto":"",
-        "sexo":"",
-        "numero":"",
-        "estadoCivil":"",
-        "graduacao":"",
-        "cor":"",
-        "nacionalidade":"b",
-        "cidadeN":"",
-        "estado":"",
-        "nota":"",
-        "imagemCapa":"/pessoas/.png",
-        "profissao":"",
-        "nascimento":"",
-        "falecimento":"",
-        "nomeUrna":"",
-        "apelido":"",
-        "candidaturas":[
-            {
-                "ano": "2004",
-                "eleito":"n"
-            }
-        ],
-        "fotos":[
-            {
-                "imagem":"/pessoas/.png"
-            },
-            {
-                "imagem":"/pessoas/.png"
-            }
-        ],
-        "imagem": ""
-    }
+[   {
+    "nome": "expedito-de-fulo", "nomeCompleto": "EXPEDITO NUNES PEREIRA", "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "mc",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/expedito-de-fulo-2004-max.png",
+    "profissao": "",
+    "nascimento": "06/12/1961",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "Expedito de fulô",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "n",
+        "cargo": "vp"
+      },
+      {
+        "ano": "",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "s",
+        "cargo": "v"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/expedito-de-fulo-2004.png"
+      },
+      {
+        "imagem": "/pessoas/expedito-de-fulo-2004-max.png"
+      }
+    ],
+    "imagem": ""
+  },
+  {    
+      "nome": "gilmar-de-oscarino",
+      "nomeCompleto": "GILMAR ALVES OLIVEIRA",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/gilmar-de-oscarino-2004-max.png",
+      "profissao": "",
+      "nascimento": "21/07/1975",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "gilmar de oscarino",
+      "candidaturas": [
+        {
+          "ano": "2004",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "2008",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "2012",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/gilmar-de-oscarino-2004.png"},{"imagem":"/pessoas/gilmar-de-oscarino-2004-max.png"},{"imagem":"/pessoas/gilmar-de-oscarino-2008.png"},{"imagem":"/pessoas/gilmar-de-oscarino-2008-max.png"},{"imagem":"/pessoas/gilmar-de-oscarino-2012.png"},{"imagem":"/pessoas/gilmar-de-oscarino-2012-max.png"}],
+      "imagem": ""
+  },
+  {
+    "nome": "jesus-de-miguel",
+    "nomeCompleto": "TEREZA DE JESUS FONSECA BRAGA",
+    "sexo": "f",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "mc",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/jesus-de-miguel-2012-max.png",
+    "profissao": "",
+    "nascimento": "22/10/1957",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "Jesus de Miguel",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "vp"
+      },
+      {
+        "ano": "",
+        "eleito": "n",
+        "cargo": "vp"
+      },
+      {
+        "ano": "2012",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2016",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2020",
+        "eleito": "s",
+        "cargo": "v"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/jesus-de-miguel-2012.png"
+      },
+      {
+        "imagem": "/pessoas/jesus-de-miguel-2012-max.png"
+      },
+      {
+        "imagem": "/pessoas/jesus-de-miguel-2016.png"
+      },
+      {
+        "imagem": "/pessoas/jesus-de-miguel-2016-max.png"
+      },
+      {
+        "imagem": "/pessoas/jesus-de-miguel-2020.png"
+      },
+      {
+        "imagem": "/pessoas/jesus-de-miguel-2020-max.png"
+      }
+    ],
+    "imagem": ""
+  },
+  {
+    "nome": "orlinda",
+    "nomeCompleto": "ORLINDA NETA ELEUTÉRIO",
+    "sexo": "f",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "sc",
+    "cor": "",
+    "nacionalidade": "brasil",
+    "cidadeN": "sjp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/orlinda-2008-max.png",
+    "profissao": "Professor(a)",
+    "nascimento": "06/02/1955",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "Orlinda",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "s",
+        "cargo": "vp"
+      },
+      {
+        "ano": "2008",
+        "eleito": "n",
+        "cargo": "vp"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/orlinda-2008.png"
+      },
+      {
+        "imagem": "/pessoas/orlinda-2008-max.png"
+      }
+    ],
+    "imagem": "<div class='imglagoapatenses'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
+  },
+  {
+    "nome": "hercules-vandy",
+    "nomeCompleto": "Hercules Vandy Durães da Fonseca",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "brasil",
+    "cidadeN": "Coração de Jesus",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/vandinho-2004-max.png",
+    "profissao": "empresário",
+    "nascimento": "31/07/1967",
+    "falecimento": "",
+    "nomeUrna": "vandinho",
+    "apelido": "vandinho",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "p"
+      },
+      {
+        "ano": "2008",
+        "eleito": "s",
+        "cargo": "p"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2012",
+        "eleito": "s",
+        "cargo": "p"
+      },
+      {
+        "ano": "2020",
+        "eleito": "s",
+        "cargo": "p"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/vandinho-2004.png"
+      },
+      {
+        "imagem": "/pessoas/vandinho-2004-max.png"
+      },
+      {
+        "imagem": "/pessoas/vandinho-2008.png"
+      },
+      {
+        "imagem": "/pessoas/vandinho-2008-max.png"
+      },
+      {
+        "imagem": "/pessoas/vandinho-2012.png"
+      },
+      {
+        "imagem": "/pessoas/vandinho-2012-max.png"
+      },
+      {
+        "imagem": "/img/acao-global-2009-hercules-vandy-duraes-lagoa-dos-patos-mg-vandinho.jpg"
+      },
+      {
+        "imagem": "/pessoas/vandinho-capa.png"
+      },
+      {
+        "imagem": "/pessoas/vandinho-capa-colorido.jpg"
+      },
+      {
+        "imagem": "/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg"
+      }
+    ],
+    "imagem": "<div class='imglagoapatenses'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
+  },
+  {
+    "nome": "pohebe",
+    "nomeCompleto": "Pohebe Maiumy Ferreira dos Santos",
+    "sexo": "f",
+    "numero": "77111",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "brasil",
+    "cidadeN": "Coração de Jesus",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/pohebe-max.png",
+    "profissao": "",
+    "nascimento": "25/09/1991",
+    "falecimento": "",
+    "nomeUrna": "Pohebe",
+    "apelido": "Pohebe",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/poebe.jpg"
+      },
+      {
+        "imagem": "/pessoas/pohebe-max.png"
+      }
+    ],
+    "imagem": "<div class='imglagoapatenses'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
+  },
+  {
+    "nome": "gleiton-aparecido-soares",
+    "nomeCompleto": "Gleiton Aparecido Soares de Souza",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "brasil",
+    "cidadeN": "Coração de Jesus",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/gleiton-capa-max.jpg",
+    "profissao": "",
+    "nascimento": "19/08/1989",
+    "falecimento": "",
+    "nomeUrna": "Pohebe",
+    "apelido": "Tim",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/gleiton-min.png"
+      },
+      {
+        "imagem": "/pessoas/gleiton-max.png"
+      },
+      {
+        "imagem": "/pessoas/gleiton-capa.jpg"
+      },
+      {
+        "imagem": "/pessoas/gleiton-capa-max.jpg"
+      }
+    ],
+    "imagem": "<div class='imglagoapatensess'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
+  },
+  {
+    "nome": "adair-nobre",
+    "nomeCompleto": "ADAIR MAGALHAES NOBRE",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "brasil",
+    "cidadeN": "Coração de Jesus",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/adair-2016-min.png",
+    "profissao": "",
+    "nascimento": "11/05/1978",
+    "falecimento": "",
+    "nomeUrna": "Adair Nobre",
+    "apelido": "Adair Nobre",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/adair-2016.png"
+      },
+      {
+        "imagem": "/pessoas/adair-2018.png"
+      }
+    ],
+    "imagem": "<div class='imglagoapatensess'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
+  },
+  {
+    "nome": "alberto",
+    "nomeCompleto": "ALBERTO ALVES FONSECA",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "brasil",
+    "cidadeN": "Coração de Jesus",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/alberto-max.png",
+    "profissao": "",
+    "nascimento": "04/06/1973",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "Alberto",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/alberto.png"
+      },
+      {
+        "imagem": "/pessoas/alberto-max.png"
+      }
+    ],
+    "imagem": ""
+  },
+  {
+    "nome": "antonio-cabelo",
+    "nomeCompleto": "ANTONIO ALVES DE OLIVEIRA",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "brasil",
+    "cidadeN": "Coração de Jesus",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/antonio-cabelo-max.png",
+    "profissao": "",
+    "nascimento": "12/07/1939",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "Antônio Cabelo",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/antonio-cabelo.png"
+      },
+      {
+        "imagem": "/pessoas/antonio-cabelo-max.png"
+      }
+    ],
+    "imagem": ""
+  },
+  {
+    "nome": "arismar-de-duzin",
+    "nomeCompleto": "JOSÉ ARISMAR XAVIER GONÇALVES",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "mc",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "Coração de Jesus",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/arismar.png",
+    "profissao": "",
+    "nascimento": "09/11/1978",
+    "falecimento": "",
+    "nomeUrna": "Arismar de Duzin",
+    "apelido": "Arismar de Duzin",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/arismar.png"
+      },
+      {
+        "imagem": "/pessoas/arismar.png"
+      }
+    ],
+    "imagem": ""
+  },
+  {
+    "nome": "arlei-cachaca",
+    "nomeCompleto": "WARLES SOARES DE ARAUJO",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "mc",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "Coração de Jesus",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/warles-max.png",
+    "profissao": "",
+    "nascimento": "30/07/1980",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "Arlei cachaça",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/warles.png"
+      },
+      {
+        "imagem": "/pessoas/warles-max.png"
+      }
+    ],
+    "imagem": ""
+  },
+  {
+    "nome": "binga",
+    "nomeCompleto": "GERALDO BARBOSA REIS",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "fc",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "Coração de Jesus",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/binga-2004-max.png",
+    "profissao": "",
+    "nascimento": "05/12/1957",
+    "falecimento": "",
+    "nomeUrna": "Binga",
+    "apelido": "Binga",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/binga-2004.png"
+      },
+      {
+        "imagem": "/pessoas/binga-2004-max.png"
+      },
+      {
+        "imagem": "/pessoas/binga-2016.png"
+      },
+      {
+        "imagem": "/pessoas/binga-2008.png"
+      },
+      {
+        "imagem": "/pessoas/binga-2008-max.png"
+      },
+      {
+        "imagem": "/pessoas/binga-2016-max.png"
+      },
+      {
+        "imagem": "/pessoas/binga-2012.png"
+      },
+      {
+        "imagem": "/pessoas/binga-2012-max.png"
+      }
+    ],
+    "imagem": ""
+  },
+  {
+    "nome": "celhao",
+    "nomeCompleto": "PAULO CÉLIO RAMOS",
+    "sexo": "",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "fi",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/celio-2004-max.png",
+    "profissao": "Cantor e Compositor",
+    "nascimento": "20/06/1974",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "Celhão",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/celio.png"
+      },
+      {
+        "imagem": "/pessoas/celio-2004-max.png"
+      }
+    ],
+    "imagem": ""
+  },
+  {
+    "nome": "cimar-de-olimpio",
+    "nomeCompleto": "GERCIMAR PEREIRA DA SILVA",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "fi",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/cimar-de-olimpio-max.png",
+    "profissao": "",
+    "nascimento": "11/06/1971",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "Cimar de Olimpio",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/cimar-de-olimpio.png"
+      },
+      {
+        "imagem": "/pessoas/cimar-de-olimpio-max.png"
+      }
+    ],
+    "imagem": ""
+  },
+  {
+    "nome": "cissi",
+    "nomeCompleto": "FELICIA PEREIRA ALVES",
+    "sexo": "f",
+    "numero": "70234",
+    "estadoCivil": "",
+    "graduacao": "fi",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "mg",
+    "nota": "",
+    "imagemCapa": "/pessoas/cissi-max.png",
+    "profissao": "",
+    "nascimento": "19/02/1964",
+    "falecimento": "",
+    "nomeUrna": "Cissi",
+    "apelido": "Cissi",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/cissi.png"
+      },
+      {
+        "imagem": "/pessoas/cissi-max.png"
+      }
+    ],
+    "imagem": ""
+  },
+  {
+    "nome": "dequinha",
+    "nomeCompleto": "JOSE GERALDO RODRIGUES PARRELA",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "mi",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "moc",
+    "estado": "mg",
+    "nota": "",
+    "imagemCapa": "/pessoas/dequinha-2004-max.png",
+    "profissao": "",
+    "nascimento": "28/12/1952",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "Dequinha",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2012",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/dequinha-2004.png"
+      },
+      {
+        "imagem": "/pessoas/dequinha-2004-max.png"
+      },
+      {
+        "imagem": "/pessoas/dequinha-2008.png"
+      },
+      {
+        "imagem": "/pessoas/dequinha-2008-max.png"
+      },
+      {
+        "imagem": "/pessoas/dequinha-2012.png"
+      },
+      {
+        "imagem": "/pessoas/dequinha-2012-max.png"
+      },
+      {
+        "imagem": "/pessoas/dequinha-2016.png"
+      },
+      {
+        "imagem": "/pessoas/dequinha-2016-max.png"
+      },
+      {
+        "imagem": "/pessoas/dequinha-2020.png"
+      },
+      {
+        "imagem": "/pessoas/dequinha-2020-max.png"
+      }
+    ],
+    "imagem": ""
+  },
+  {
+    "nome": "edao",
+    "nomeCompleto": "ÉDEN CELESTINO VIEIRA",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "fc",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "mg",
+    "nota": "",
+    "imagemCapa": "/pessoas/edao-2004-max.png",
+    "profissao": "",
+    "nascimento": "04/09/1968",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "Edão",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "s",
+        "cargo": "p"
+      },
+      {
+        "ano": "2008",
+        "eleito": "n",
+        "cargo": "p"
+      },
+      {
+        "ano": "2012",
+        "eleito": "n",
+        "cargo": "p"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/edao-2004.png"
+      },
+      {
+        "imagem": "/pessoas/edao-2004-max.png"
+      },
+      {
+        "imagem": "/pessoas/edao-2008.png"
+      },
+      {
+        "imagem": "/pessoas/edao-2008-max.png"
+      },
+      {
+        "imagem": "/pessoas/edao-2012.png"
+      },
+      {
+        "imagem": "/pessoas/edao-2012-max.png"
+      }
+    ],
+    "imagem": ""
+  },
+  {
+    "nome": "eder-da-farmacia",
+    "nomeCompleto": "ÉDER MARCONI SOARES",
+    "sexo": "",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "",
+    "estado": "",
+    "nota": "",
+    "imagemCapa": "/pessoas/eder-da-farmacia-2004-max.png",
+    "profissao": "",
+    "nascimento": "23/10/1968",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "Eder da Farmácia",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/eder-da-farmacia-2004.png"
+      },
+      {
+        "imagem": "/pessoas/eder-da-farmacia-2004-max.png"
+      },
+      {
+        "imagem": "/pessoas/eder-da-farmacia-2008.png"
+      },
+      {
+        "imagem": "/pessoas/eder-da-farmacia-2008-max.png"
+      }
+    ],
+    "imagem": ""
+  },
+  {
+    "nome": "di-correia",
+    "nomeCompleto": "RAIMUNDO CORREIA FILHO",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "fc",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "mg",
+    "nota": "",
+    "imagemCapa": "/pessoas/di-correia-2004-max.png",
+    "profissao": "",
+    "nascimento": "04/07/1942",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "Di Correia",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/di-correia-2004.png"
+      },
+      {
+        "imagem": "/pessoas/di-correia-2004-max.png"
+      }
+    ],
+    "imagem": ""
+  },
+  {
+    "nome": "eliseu",
+    "nomeCompleto": "ELISEU PEREIRA DA SILVA",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "fi",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "vzp",
+    "estado": "mg",
+    "nota": "",
+    "imagemCapa": "/pessoas/eliseu-2004-max.png",
+    "profissao": "",
+    "nascimento": "26/04/1973",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "Eliseu Pio",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/eliseu-2004.png"
+      },
+      {
+        "imagem": "/pessoas/eliseu-2004-max.png"
+      }
+    ],
+    "imagem": ""
+  },
+  {
+    "nome": "ellys-de-nieta",
+    "nomeCompleto": "ELLYS CONSTANTINO VIEIRA",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "Lagoa dos Patos",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/ellys-max.png",
+    "profissao": "",
+    "nascimento": "10/03/1971",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "Ellys de Nieta",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/ellys.png"
+      },
+      {
+        "imagem": "/pessoas/ellys-max.png"
+      }
+    ],
+    "imagem": ""
+  },
+  {
+    "nome": "evandro-cabra",
+    "nomeCompleto": "JOSÉ EVANDRO SOUZA DA SILVA",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "cdj",
+    "estado": "",
+    "nota": "",
+    "imagemCapa": "/pessoas/evandro-cabra-max.png",
+    "profissao": "",
+    "nascimento": "09/05/1980",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "Evandro Cabra",
+    "candidaturas": [
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2008",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2012",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2016",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2020",
+        "eleito": "n",
+        "cargo": "v"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/evandro-cabra.png"
+      },
+      {
+        "imagem": "/pessoas/evandro-cabra-max.png"
+      },
+      {
+        "imagem": "/pessoas/evandro-cabra-2008.png"
+      },
+      {
+        "imagem": "/pessoas/evandro-cabra-2008-max.png"
+      },
+      {
+        "imagem": "/pessoas/evandro-cabra-2012.png"
+      },
+      {
+        "imagem": "/pessoas/evandro-cabra-2012-max.png"
+      },
+      {
+        "imagem": "/pessoas/evandro-cabra-2016.png"
+      },
+      {
+        "imagem": "/pessoas/evandro-cabra-2016-max.png"
+      },
+      {
+        "imagem": "/pessoas/evandro-cabra-2020.png"
+      },
+      {
+        "imagem": "/pessoas/evandro-cabra-2020-max.png"
+      }
+    ],
+    "imagem": ""
+  }
 ]

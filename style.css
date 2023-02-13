@@ -6,12 +6,20 @@
 	Built with Blocs
 -----------------------------------------------------------------------------------*/
 body {
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   background: #ffffff;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.candPrimeira {
+  background-color: white;
+  text-align: center;
+  color: #292929;
+  border-radius: 0px 0px 12px 12px;
+  padding: 10px;
 }
 .page-container {
   overflow: hidden;

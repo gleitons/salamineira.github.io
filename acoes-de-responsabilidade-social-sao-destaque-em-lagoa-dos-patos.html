@@ -42,7 +42,8 @@
         .fundoTotal {
             position: fixed;
             width: 100%;
-            height: 100%;
+            height: 100vh;
+            
             top: 0;
             z-index: 99999;
             margin: auto;
@@ -53,6 +54,15 @@ backdrop-filter: blur( 6.5px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
             text-align: center;
+        }
+        .fundoTotal img {
+            margin: 0;
+            
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
         }
 
         .totalImg {
@@ -230,7 +240,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
                         <img onclick="abrirImagem(1)" src="/imagens-sala/vandinho-festa-do-idoso-melhor-idade-min.jpg"
                             alt="" title="No Dia do Idoso, o prefeito Hércules Vandy (Vandinho), participou do momento de confraternização no baile 
     da Melhor Idade">
-                        <figcaption>No Dia do Idoso, o prefeito <a href="/hercules-vandy-duraes-da-fonseca/"> Hércules Vandy (Vandinho)</a>, participou do momento de
+                        <figcaption>No Dia do Idoso, o prefeito <a href="/populacao/hercules-vandy/"> Hércules Vandy (Vandinho)</a>, participou do momento de
                             confraternização no baile
                             da "Melhor idade"</figcaption>
                         <div>
@@ -347,6 +357,14 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
                                 <img src="https://www.salamineira.com/img/acao-global-2009-hercules-vandy-duraes-lagoa-dos-patos-mg-vandinho.jpg" alt="">
                             </div>
                         </div>
+                            <!-- document.addEventListener("keypress", function(e) {
+                           
+                            console.log(Escape)
+                            if(e.key === Escape) {
+                                materiaOriginal()
+                                                     
+                            }
+                          }); -->
 
 
 
@@ -376,11 +394,35 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
                             const mostraImg = document.querySelector('#imagemFront');
                             mostraImg.classList.toggle('displayN')
-                            console.log("clicou" + numero)
+                            
                         }
                         function relo() {
                             location.reload();
                         }
+
+
+                        document.onkeydown = function(e) {
+                            if(e.key === 'Escape') {
+                                abrirImagem()
+                                materiaOriginal()
+                                
+                            }
+                          }
+
+
+
+                        function keyPressed(e){
+                            e = e || window.event;
+                            var key = e.keyCode || e.which;
+                            //console.log(key)
+                            return String.fromCharCode(key); 
+                        }
+                        document.onkeypress = function(e) {
+                            console.log(keyPressed(e));
+                        }; 
+
+
+                    
                     </script>
                 </div>
 
