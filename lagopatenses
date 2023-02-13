@@ -16,7 +16,17 @@
     "apelido": "Expedito de fulô",
     "candidaturas": [
       {
+        "ano": "2000",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
         "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
         "eleito": "n",
         "cargo": "v"
       },
@@ -70,6 +80,12 @@
       "nomeUrna": "",
       "apelido": "gilmar de oscarino",
       "candidaturas": [
+      
+        {
+          "ano": "2000",
+          "eleito": "n",
+          "cargo": "v"
+        },
         {
           "ano": "2004",
           "eleito": "s",
@@ -118,6 +134,16 @@
     "nomeUrna": "",
     "apelido": "Jesus de Miguel",
     "candidaturas": [
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "vp"
+      },
       {
         "ano": "2004",
         "eleito": "n",
@@ -186,6 +212,11 @@
     "apelido": "Orlinda",
     "candidaturas": [
       {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
         "ano": "2004",
         "eleito": "s",
         "cargo": "vp"
@@ -240,6 +271,11 @@
     "nomeUrna": "vandinho",
     "apelido": "vandinho",
     "candidaturas": [
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
       {
         "ano": "2004",
         "eleito": "n",
@@ -320,6 +356,11 @@
     "apelido": "Pohebe",
     "candidaturas": [
       {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
         "ano": "2004",
         "eleito": "n",
         "cargo": "v"
@@ -374,6 +415,11 @@
     "nomeUrna": "Pohebe",
     "apelido": "Tim",
     "candidaturas": [
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
       {
         "ano": "2004",
         "eleito": "n",
@@ -436,6 +482,11 @@
     "apelido": "Adair Nobre",
     "candidaturas": [
       {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
         "ano": "2004",
         "eleito": "n",
         "cargo": "v"
@@ -490,6 +541,11 @@
     "nomeUrna": "",
     "apelido": "Alberto",
     "candidaturas": [
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
       {
         "ano": "2004",
         "eleito": "n",
@@ -546,6 +602,11 @@
     "apelido": "Antônio Cabelo",
     "candidaturas": [
       {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
         "ano": "2004",
         "eleito": "n",
         "cargo": "v"
@@ -600,6 +661,11 @@
     "nomeUrna": "Arismar de Duzin",
     "apelido": "Arismar de Duzin",
     "candidaturas": [
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
       {
         "ano": "2004",
         "eleito": "n",
@@ -656,6 +722,11 @@
     "apelido": "Arlei cachaça",
     "candidaturas": [
       {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
         "ano": "2004",
         "eleito": "n",
         "cargo": "v"
@@ -710,6 +781,11 @@
     "nomeUrna": "Binga",
     "apelido": "Binga",
     "candidaturas": [
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
       {
         "ano": "2004",
         "eleito": "n",
@@ -784,6 +860,11 @@
     "apelido": "Celhão",
     "candidaturas": [
       {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
         "ano": "2004",
         "eleito": "n",
         "cargo": "v"
@@ -838,6 +919,11 @@
     "nomeUrna": "",
     "apelido": "Cimar de Olimpio",
     "candidaturas": [
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
       {
         "ano": "2004",
         "eleito": "n",
@@ -894,6 +980,11 @@
     "apelido": "Cissi",
     "candidaturas": [
       {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
         "ano": "2004",
         "eleito": "n",
         "cargo": "v"
@@ -948,6 +1039,11 @@
     "nomeUrna": "",
     "apelido": "Dequinha",
     "candidaturas": [
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
       {
         "ano": "2004",
         "eleito": "n",
@@ -1028,6 +1124,11 @@
     "apelido": "Edão",
     "candidaturas": [
       {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
         "ano": "2004",
         "eleito": "s",
         "cargo": "p"
@@ -1095,6 +1196,11 @@
     "apelido": "Eder da Farmácia",
     "candidaturas": [
       {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
         "ano": "2004",
         "eleito": "n",
         "cargo": "v"
@@ -1156,6 +1262,11 @@
     "apelido": "Di Correia",
     "candidaturas": [
       {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
         "ano": "2004",
         "eleito": "n",
         "cargo": "v"
@@ -1210,6 +1321,11 @@
     "nomeUrna": "",
     "apelido": "Eliseu Pio",
     "candidaturas": [
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
       {
         "ano": "2004",
         "eleito": "n",
@@ -1266,6 +1382,11 @@
     "apelido": "Ellys de Nieta",
     "candidaturas": [
       {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
         "ano": "2004",
         "eleito": "n",
         "cargo": "v"
@@ -1320,6 +1441,11 @@
     "nomeUrna": "",
     "apelido": "Evandro Cabra",
     "candidaturas": [
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
       {
         "ano": "2004",
         "eleito": "n",

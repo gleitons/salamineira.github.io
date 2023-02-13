@@ -58,7 +58,6 @@ async function moradores() {
             const idade = Math.floor(toDate(pessoa.nascimento));
             const nomeCompleto = pessoa.nome.replace(/-/g, " ")
 
-            console.log(pessoa.nascimento)
             function eleitoECargo(dado) {
                 if(dado == 'v'){
                     return 'vereador(a)'
@@ -72,30 +71,33 @@ async function moradores() {
                     return 'não foi eleito(a)'
                 }
             }
+            var candidaturas2000 = `${pessoa.candidaturas[0].ano} - ${eleitoECargo(pessoa.candidaturas[0].cargo)} - ${eleitoECargo(pessoa.candidaturas[0].eleito)} </br>`; 
 
-            var candidaturas2004 = `${pessoa.candidaturas[0].ano} - ${eleitoECargo(pessoa.candidaturas[0].cargo)} - ${eleitoECargo(pessoa.candidaturas[0].eleito)} </br>`;             
-            var candidaturas2008 = `${pessoa.candidaturas[1].ano} - ${eleitoECargo(pessoa.candidaturas[1].cargo)} - ${eleitoECargo(pessoa.candidaturas[1].eleito)} </br>`;
-            var candidaturas2012 = `${pessoa.candidaturas[2].ano} - ${eleitoECargo(pessoa.candidaturas[2].cargo)} - ${eleitoECargo(pessoa.candidaturas[2].eleito)}</br>`;
-            var candidaturas2016 = `${pessoa.candidaturas[3].ano} - ${eleitoECargo(pessoa.candidaturas[3].cargo)} - ${eleitoECargo(pessoa.candidaturas[3].eleito)}</br>`;
-            var candidaturas2020 = `${pessoa.candidaturas[4].ano} - ${eleitoECargo(pessoa.candidaturas[4].cargo)} - ${eleitoECargo(pessoa.candidaturas[4].eleito)}</br>`;
+            var candidaturas2004 = `${pessoa.candidaturas[1].ano} - ${eleitoECargo(pessoa.candidaturas[1].cargo)} - ${eleitoECargo(pessoa.candidaturas[1].eleito)} </br>`;             
+            var candidaturas2008 = `${pessoa.candidaturas[2].ano} - ${eleitoECargo(pessoa.candidaturas[2].cargo)} - ${eleitoECargo(pessoa.candidaturas[2].eleito)} </br>`;
+            var candidaturas2012 = `${pessoa.candidaturas[3].ano} - ${eleitoECargo(pessoa.candidaturas[3].cargo)} - ${eleitoECargo(pessoa.candidaturas[3].eleito)}</br>`;
+            var candidaturas2016 = `${pessoa.candidaturas[4].ano} - ${eleitoECargo(pessoa.candidaturas[4].cargo)} - ${eleitoECargo(pessoa.candidaturas[4].eleito)}</br>`;
+            var candidaturas2020 = `${pessoa.candidaturas[5].ano} - ${eleitoECargo(pessoa.candidaturas[5].cargo)} - ${eleitoECargo(pessoa.candidaturas[5].eleito)}</br>`;
+
 
             if(pessoa.candidaturas[0].ano.length <= 0){
-                var candidaturas2004 = ""
+                var candidaturas2000 = ""
             }
             if(pessoa.candidaturas[1].ano.length <= 0){
-                var candidaturas2008 = ""
+                var candidaturas2004 = ""
             }
             if(pessoa.candidaturas[2].ano.length <= 0){
-                var candidaturas2012 = ""
+                var candidaturas2008 = ""
             }
             if(pessoa.candidaturas[3].ano.length <= 0){
-                var candidaturas2016 = ""
+                var candidaturas2012 = ""
             }
             if(pessoa.candidaturas[4].ano.length <= 0){
-                var candidaturas2020 = ""
+                var candidaturas2016 = ""
             }
-
-            
+            if(pessoa.candidaturas[5].ano.length <= 0){
+                var candidaturas2020 = ""
+            }           
             
 
             
@@ -130,14 +132,14 @@ async function moradores() {
                                                     <p class="p-265-style" > <strong>${idade} </strong>anos de idade.</p>
                                                     
                                                     <p class="p-265-style" style="text-transform: capitalize;">Candidaturas: 
-                                                    </br>
+                                                    </br>                                                   
                                                     ${candidaturas2020} 
                                                     ${candidaturas2016} 
                                                     ${candidaturas2012} 
                                                     ${candidaturas2008} 
                                                     ${candidaturas2004}
-                                                    </p>
-                                                   
+                                                    ${candidaturas2000} 
+                                                    </p>                                                   
                                                     <p class="p-265-style" > ${pessoa.nota} </p>
                                                     </p><a href="#bloc-82"
                                                         class="btn btn-d btn-lg btn-146-style btn-glossy" style="width:fit-content;" 

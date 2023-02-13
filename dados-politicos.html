@@ -56,6 +56,13 @@
             
             <!-- IMAGEM CAPA:<input type="number" id="imgCapa" value=""  ><br> -->
 
+            ELEITO 2000:<input type="number" id="e2000" value="0">
+            CARGO: 
+            <select name="" id="ele2000" >
+                <option value="v">Vereador</option>
+                <option value="p">Prefeito</option>
+                <option value="vp">Vice-Prefeito</option>
+            </select> <br>
             ELEITO 2004:<input type="number" id="e2004" value="0">
             CARGO: 
             <select name="" id="ele2004" >
@@ -133,6 +140,7 @@
             const apelido = document.querySelector('#apelido').value;
             const nomeCompleto = document.querySelector('#nomeC').value;
             const dataNascimento = document.querySelector('#nascimento').value;
+            const e2000 = document.querySelector('#e2000').value;
             const e2004 = document.querySelector('#e2004').value;
             const e2008= document.querySelector('#e2008').value;
             const e2012= document.querySelector('#e2012').value;
@@ -142,6 +150,9 @@
 
             const sex = document.querySelector('#sexo');
             const sexo = sex.options[sex.selectedIndex].value;
+
+            const c2000 = document.querySelector('#ele2000');
+            const cargo2000 = c2000.options[c2000.selectedIndex].value;
 
             const c2004 = document.querySelector('#ele2004');
             const cargo2004 = c2004.options[c2004.selectedIndex].value;
@@ -162,12 +173,12 @@
 
 
 
-            console.log(sexo)
 
             const aLink = apelido.toLowerCase()
 
             const link = aLink.replace(/ /g, '-');
 
+            var eleicoes2000 = [];
             var eleicoes2004 = [];
             var eleicoes2008 = [];
             var eleicoes2012 = [];
@@ -175,6 +186,24 @@
             var eleicoes2020 = [];
             var imagemcapa = '';
             const fotos = []
+
+            console.log(e2004 + "ww")
+
+            if(e2000 == 0) {
+                eleicoes2000 = { "ano": "", "eleito": "", "cargo": ""}               
+            } else if (e2000 == 1) {
+                eleicoes2000 = { "ano": "2000", "eleito": "n", "cargo": cargo2000}
+                imagemcapa = `/pessoas/${link}-2000-max.png`
+                imagemMin = `/pessoas/${link}-2000.png`
+                fotos.push({"imagem":`${imagemMin}`});
+                fotos.push({"imagem":`${imagemcapa}`});
+            } else {
+                eleicoes2000 = { "ano": "2000", "eleito": "s", "cargo": cargo2000}
+                imagemcapa = `/pessoas/${link}-2000-max.png`
+                imagemMin = `/pessoas/${link}-2000.png`
+                fotos.push({"imagem":`${imagemMin}`});
+                 fotos.push({"imagem":`${imagemcapa}`});
+            }
 
             if(e2004 == 0) {
                 eleicoes2004 = { "ano": "", "eleito": "", "cargo": ""}               
@@ -263,7 +292,8 @@
             console.log(JSON.stringify(fotos))
 
 
-
+            console.log(eleicoes2000.ano)
+            console.log(eleicoes2000.eleito)
 
 
             const dadoPolitico = `
@@ -286,6 +316,11 @@
                 "nomeUrna": "",
                 "apelido": "${apelido.toLowerCase()}",
                 "candidaturas": [
+                {
+                    "ano": "${eleicoes2000.ano}",
+                    "eleito": "${eleicoes2000.eleito}",
+                    "cargo": "${eleicoes2000.cargo}"
+                  },
                   {
                     "ano": "${eleicoes2004.ano}",
                     "eleito": "${eleicoes2004.eleito}",
