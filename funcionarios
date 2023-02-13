@@ -48,6 +48,14 @@
         "cargo":"TECNICO NIVEL SUPER. ADMINISTR"
     },
     {
+        "nome":"NATALINO PEREIRA DE ARAUJO",
+        "nomeFolha":"natalino",
+        "matricula":"254",
+        "cpf":"085.076.596-08",
+        "admissao":"01/01/2008",
+        "cargo":"ASSISTENTE EDUCACIONAL"
+    },
+    {
         "nome":"ROSALIA CARDOSO DOS SANTOS SOUZA",
         "nomeFolha":"rosa",
         "matricula":"355",
