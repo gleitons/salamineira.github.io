@@ -1,4 +1,216 @@
 [
+  {    
+      "nome": "joao-da-copasa",
+      "nomeCompleto": "JOÃO BATISTA SALES",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/joao-da-copasa-2004-max.png",
+      "profissao": "",
+      "nascimento": "08/07/1948",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "joao da copasa",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2016",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/joao-da-copasa-2004.png"},{"imagem":"/pessoas/joao-da-copasa-2004-max.png"},{"imagem":"/pessoas/joao-da-copasa-2016.png"},{"imagem":"/pessoas/joao-da-copasa-2016-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "ivani-pisca",
+      "nomeCompleto": "MARIA IVANI ALVES SILVA",
+      "sexo": "f",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/ivani-pisca-2004-max.png",
+      "profissao": "",
+      "nascimento": "11/09/1972",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "ivani pisca",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/ivani-pisca-2004.png"},{"imagem":"/pessoas/ivani-pisca-2004-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "jane-braga",
+      "nomeCompleto": "JANICLER FONSECA BRAGA",
+      "sexo": "f",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/jane-braga-2004-max.png",
+      "profissao": "",
+      "nascimento": "09/02/1958",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "jane braga",
+      "candidaturas": [
+      {
+          "ano": "2000",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "2004",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "2008",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "2012",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "2016",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "2020",
+          "eleito": "n",
+          "cargo": "v"
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/jane-braga-2000.png"},{"imagem":"/pessoas/jane-braga-2000-max.png"},{"imagem":"/pessoas/jane-braga-2004.png"},{"imagem":"/pessoas/jane-braga-2004-max.png"},{"imagem":"/pessoas/jane-braga-2008.png"},{"imagem":"/pessoas/jane-braga-2008-max.png"},{"imagem":"/pessoas/jane-braga-2012.png"},{"imagem":"/pessoas/jane-braga-2012-max.png"},{"imagem":"/pessoas/jane-braga-2016.png"},{"imagem":"/pessoas/jane-braga-2016-max.png"},{"imagem":"/pessoas/jane-braga-2020.png"},{"imagem":"/pessoas/jane-braga-2020-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "gil",
+      "nomeCompleto": "JOSEFINO ANTONIO MENDES",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/gil-2000-max.png",
+      "profissao": "",
+      "nascimento": "",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "gil",
+      "candidaturas": [
+      {
+          "ano": "2000",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/gil-2000.png"},{"imagem":"/pessoas/gil-2000-max.png"}],
+      "imagem": ""
+  },
   {
     "nome": "ze-cabelo",
     "nomeCompleto": "JOSÉ APARECIDO RODRIGUES",
