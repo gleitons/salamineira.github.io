@@ -1,5 +1,12 @@
 
 const urlL = "/funcionarios";
+var sBrowser, sUsrAg = navigator.userAgent;
+
+if (sUsrAg.indexOf("Firefox") > -1) {
+    alert("UTILIZE O GOOGLE CHROME, PARA UTILIZAR O SISTEMA CORRETAMENTE, ");
+}
+
+
 
 
 
