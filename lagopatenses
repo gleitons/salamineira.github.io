@@ -1,5 +1,140 @@
-[   {
-    "nome": "expedito-de-fulo", "nomeCompleto": "EXPEDITO NUNES PEREIRA", "sexo": "m",
+[
+  {
+    "nome": "ze-cabelo",
+    "nomeCompleto": "JOSÉ APARECIDO RODRIGUES",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/ze-cabelo-2000-max.png",
+    "profissao": "",
+    "nascimento": "",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "ze cabelo",
+    "candidaturas": [
+      {
+        "ano": "2000",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/ze-cabelo-2000.png"
+      },
+      {
+        "imagem": "/pessoas/ze-cabelo-2000-max.png"
+      }
+    ],
+    "imagem": ""
+  },
+  {
+    "nome": "ze-firmato",
+    "nomeCompleto": "JOSÉ FIRMATO DE OLIVEIRA",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/ze-firmato-2004-max.png",
+    "profissao": "",
+    "nascimento": "02/07/1965",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "ze firmato",
+    "candidaturas": [
+      {
+        "ano": "2000",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2008",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/ze-firmato-2000.png"
+      },
+      {
+        "imagem": "/pessoas/ze-firmato-2000-max.png"
+      },
+      {
+        "imagem": "/pessoas/ze-firmato-2004.png"
+      },
+      {
+        "imagem": "/pessoas/ze-firmato-2004-max.png"
+      },
+      {
+        "imagem": "/pessoas/ze-firmato-2008.png"
+      },
+      {
+        "imagem": "/pessoas/ze-firmato-2008-max.png"
+      }
+    ],
+    "imagem": ""
+  },
+  {
+    "nome": "expedito-de-fulo",
+    "nomeCompleto": "EXPEDITO NUNES PEREIRA",
+    "sexo": "m",
     "numero": "",
     "estadoCivil": "",
     "graduacao": "mc",
@@ -61,59 +196,77 @@
     ],
     "imagem": ""
   },
-  {    
-      "nome": "gilmar-de-oscarino",
-      "nomeCompleto": "GILMAR ALVES OLIVEIRA",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/gilmar-de-oscarino-2004-max.png",
-      "profissao": "",
-      "nascimento": "21/07/1975",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "gilmar de oscarino",
-      "candidaturas": [
-      
-        {
-          "ano": "2000",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "2004",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "2008",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "2012",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/gilmar-de-oscarino-2004.png"},{"imagem":"/pessoas/gilmar-de-oscarino-2004-max.png"},{"imagem":"/pessoas/gilmar-de-oscarino-2008.png"},{"imagem":"/pessoas/gilmar-de-oscarino-2008-max.png"},{"imagem":"/pessoas/gilmar-de-oscarino-2012.png"},{"imagem":"/pessoas/gilmar-de-oscarino-2012-max.png"}],
-      "imagem": ""
+  {
+    "nome": "gilmar-de-oscarino",
+    "nomeCompleto": "GILMAR ALVES OLIVEIRA",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/gilmar-de-oscarino-2004-max.png",
+    "profissao": "",
+    "nascimento": "21/07/1975",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "gilmar de oscarino",
+    "candidaturas": [
+      {
+        "ano": "2000",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2004",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2008",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2012",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/gilmar-de-oscarino-2004.png"
+      },
+      {
+        "imagem": "/pessoas/gilmar-de-oscarino-2004-max.png"
+      },
+      {
+        "imagem": "/pessoas/gilmar-de-oscarino-2008.png"
+      },
+      {
+        "imagem": "/pessoas/gilmar-de-oscarino-2008-max.png"
+      },
+      {
+        "imagem": "/pessoas/gilmar-de-oscarino-2012.png"
+      },
+      {
+        "imagem": "/pessoas/gilmar-de-oscarino-2012-max.png"
+      }
+    ],
+    "imagem": ""
   },
   {
     "nome": "jesus-de-miguel",
