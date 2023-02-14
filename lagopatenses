@@ -1,5 +1,164 @@
 [
   {    
+      "nome": "nazare",
+      "nomeCompleto": "NAZARÉ DA GLÓRIA MAIA",
+      "sexo": "f",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/nazare-2004-max.png",
+      "profissao": "",
+      "nascimento": "12/02/1961",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "nazare",
+      "candidaturas": [
+      {
+          "ano": "2000",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "2004",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "2008",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "2012",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "2016",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "2020",
+          "eleito": "s",
+          "cargo": "v"
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/nazare-2000.png"},{"imagem":"/pessoas/nazare-2000-max.png"},{"imagem":"/pessoas/nazare-2004.png"},{"imagem":"/pessoas/nazare-2004-max.png"},{"imagem":"/pessoas/nazare-2008.png"},{"imagem":"/pessoas/nazare-2008-max.png"},{"imagem":"/pessoas/nazare-2012.png"},{"imagem":"/pessoas/nazare-2012-max.png"},{"imagem":"/pessoas/nazare-2016.png"},{"imagem":"/pessoas/nazare-2016-max.png"},{"imagem":"/pessoas/nazare-2020.png"},{"imagem":"/pessoas/nazare-2020-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "aldo-boca",
+      "nomeCompleto": "ALDO SEBASTIAO ROSA DE FARIA",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/aldo-boca-2012-max.png",
+      "profissao": "",
+      "nascimento": "21/03/1989",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "aldo boca",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2012",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "2016",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "2020",
+          "eleito": "s",
+          "cargo": "v"
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/aldo-boca-2012.png"},{"imagem":"/pessoas/aldo-boca-2012-max.png"},{"imagem":"/pessoas/aldo-boca-2016.png"},{"imagem":"/pessoas/aldo-boca-2016-max.png"},{"imagem":"/pessoas/aldo-boca-2020.png"},{"imagem":"/pessoas/aldo-boca-2020-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "sueli-lopes",
+      "nomeCompleto": "SUELI LOPES ALMEIDA",
+      "sexo": "f",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/sueli-lopes-2012-max.png",
+      "profissao": "",
+      "nascimento": "16/11/1970",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "sueli lopes",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2012",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/sueli-lopes-2012.png"},{"imagem":"/pessoas/sueli-lopes-2012-max.png"}],
+      "imagem": ""
+  },
+  {    
       "nome": "joao-da-copasa",
       "nomeCompleto": "JOÃO BATISTA SALES",
       "sexo": "m",

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pt-br</title>
+    <title>Dados Politicos - Sala Mineira do Empreendedor</title>
 </head>
 
 <body>
@@ -294,7 +294,11 @@
 
             console.log(eleicoes2000.ano)
             console.log(eleicoes2000.eleito)
-
+            const imgC = JSON.stringify(fotos[1]);
+            
+           
+            const imagCorreto = imgC.replace("{\"imagem\":\"", '').replace(/\"}/g, "")
+           
 
             const dadoPolitico = `
             {    
@@ -309,7 +313,7 @@
                 "cidadeN": "ldp",
                 "estado": "MG",
                 "nota": "",
-                "imagemCapa": "${imagemcapa}",
+                "imagemCapa": "${imagCorreto}",
                 "profissao": "",
                 "nascimento": "${dataNascimento}",
                 "falecimento": "",

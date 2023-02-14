@@ -65,11 +65,12 @@ async function moradores() {
                 } else if (dado == 'p') {
                     return 'prefeito(a)'
                 } else if (dado == 's') {
-                    return 'foi eleito(a)'
+                    return `<span style="background-color:rgb(0, 121, 18); padding:2px; color:white;	border-radius:8px; margin: 15px 0px;">Eleito(A)</span>`
                 }  else if (dado == 'vp') {
                     return 'vice-prefeito(a)'
                 } else {
-                    return 'não foi eleito(a)'
+                    return `<span style="background-color:gray; padding:2px; color:white;border-radius:8px; margin: 15px 0px;">Suplente</span>
+                    `
                 }
             }
             var candidaturas2000 = `${pessoa.candidaturas[0].ano} - ${eleitoECargo(pessoa.candidaturas[0].cargo)} - ${eleitoECargo(pessoa.candidaturas[0].eleito)} </br>`; 
