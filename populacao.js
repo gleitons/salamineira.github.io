@@ -102,6 +102,15 @@ async function moradores() {
             }           
             
 
+            //Iniciando Apresentacao População
+            const divBarragem = document.createElement('div')
+            divBarragem.setAttribute('class', 'bloc bg-Barragem-20cheia-20Lagoa-20dos-20Patos-20--20MG-20-27032012 fixo l-bloc none');
+            divBarragem.setAttribute('id', 'bloc-79');
+
+            
+
+            console.log(divBarragem)
+
             
             
             document.getElementById('infoPessoa').innerHTML = `<div class="bloc bg-Barragem-20cheia-20Lagoa-20dos-20Patos-20--20MG-20-27032012 fixo l-bloc none" id="bloc-79">

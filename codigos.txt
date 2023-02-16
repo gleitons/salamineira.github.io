@@ -1,5 +1,32 @@
  /* January, February, March, April, May, June, July, August, September, October, November, December -  new Date('Feb 01 2022') */
 
+const divEmpresa = document.createElement('div')
+    divEmpresa.setAttribute('class', 'container-div-2574-style');
+    
+    const divR = document.createElement('div')
+    divR.setAttribute('class', 'row align-items-center');
+
+    const divC = document.createElement('div')
+    const nFan = document.createElement('div');
+    nFan.setAttribute('class', 'col-12 col-lg-3')
+    nFan.textContent = 'Nome fantasia';
+    const endEm = document.createElement('p');
+    endEm.setAttribute('class','mg-md p-288-style')
+    endEm.textContent = 'Endereço da Empresa';
+    const contatoE = document.createElement('div');
+    contatoE.setAttribute('class', 'col-lg-3');
+    const contatE = document.createElement('p');
+    contatE.textContent = 'Contato';
+    contatoE.setAttribute('class','mg-md p-288-style')
+    divC.setAttribute('class', 'col-lg-3')
+    const nomeEmpresa = document.createElement('p');
+    nomeEmpresa.setAttribute('class', 'mg-md p-288-style');
+    nomeEmpresa.textContent = "AGROPECUARIA IBIAI LTDA"  ;
+
+    divC.appendChild(nFan);
+
+    divEmpresa.appendChild(divC);
+    empresaO.appendChild(divEmpresa);
 
   <div id="testt">
                         <div style="width: 100%; text-align: center;">

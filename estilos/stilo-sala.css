@@ -140,15 +140,15 @@
 .atendimentoWhats {  
   position: fixed;
   bottom: 20px;
-  right: 18%;
+  right: 5%;
   z-index: 1;
 }
 .atendimentoWhats div img{
-  width: 100px;
+  width: 360px;
   transition: 300ms;
 }
 .atendimentoWhats div img:hover{
-  width: 110px;  
+  filter: brightness(102);  
 }
 
 
@@ -1402,16 +1402,16 @@ footer {
 
   .atendimentoWhats {  
     position: fixed;
-    bottom: 50px;
-    right: 17%;
+    bottom: 0;
+    right: 0;
     z-index: 1;
   }
   .atendimentoWhats div img{
-    width: 100px;
+    width: 360px;
     transition: 300ms;
   }
   .atendimentoWhats div img:hover{
-    width: 110px;  
+    filter: brightness(105%);  
   }
 
 

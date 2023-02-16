@@ -71,9 +71,10 @@ function MenuPrincipal() {
                         <a href="/pesquisar/"><li>Pesquisar</li></a>
                         </ul>
                     </nav>
+
                     <div class="atendimentoWhats">
             <div>
-                <a href="/atendimento.html" target="_blank"><img src="/imagens-sala/whatsapp-icon-atendimento-sala-mineira-lagoa-dos-patos-min.png" alt=""></a>
+                <a href="https://api.whatsapp.com/send?l=pt-BR&phone=553899020384&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20*Sala%20Mineira%20do%20empreendedor*%20em%20Lagoa%20dos%20Patos%20MG" target="_blank"><img src="/imagens-sala/whatsapp-icon-atendimento-sala-mineira-lagoa-dos-patos-min.png" alt=""></a>
             </div>
         </div>`
     return menu;

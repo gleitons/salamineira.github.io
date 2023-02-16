@@ -33,8 +33,9 @@
         }
     </style>
     <div id="modelo">
-        <input type="text" id="recebe"
-            value="">
+        <input type="text" id="recsebe"
+            value="" hidden>
+            <textarea  name="" id="recebe" cols="100" rows="5"></textarea>
         <button onclick="magica()">Gerar</button> <br>
 
         <input type="text" id="diminui" hidden>
@@ -44,11 +45,13 @@
            
         </div>
 
-
+       
     </div>
     <script>
+        const original = "b57c054175af65f2ff2c0fda653f925c92f6ce94"
+            console.log(original.length)
         function magica() {
-
+            
             const diminuis = document.querySelector('#recebe').value;
             
             const recebes = diminuis.replace(/  /g, ' ');
