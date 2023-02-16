@@ -860,6 +860,59 @@
     ],
     "imagem": "<div class='imglagoapatenses'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
   },
+  {    
+      "nome": "tom-seco",
+      "nomeCompleto": "ANTONIO DURÃES DE QUEIROZ",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/tom-seco-2004-max.png",
+      "profissao": "",
+      "nascimento": "29/05/1963",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "tom seco",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2004",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "2008",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "2012",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/tom-seco-2004.png"},{"imagem":"/pessoas/tom-seco-2004-max.png"},{"imagem":"/pessoas/tom-seco-2008.png"},{"imagem":"/pessoas/tom-seco-2008-max.png"},{"imagem":"/pessoas/tom-seco-2012.png"},{"imagem":"/pessoas/tom-seco-2012-max.png"}],
+      "imagem": ""
+  },
   {
     "nome": "pohebe",
     "nomeCompleto": "Pohebe Maiumy Ferreira dos Santos",
@@ -945,7 +998,7 @@
         "cargo": ""
       },
       {
-        "ano": "2004",
+        "ano": "",
         "eleito": "n",
         "cargo": "v"
       },
