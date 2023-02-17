@@ -37,12 +37,14 @@ async function mostrarPoliticos() {
     console.log(data)
 
     data.map((politico) => {
-        lista.innerHTML += `<div class="mostraP">
-        <img src="${politico.imagemCapa}" alt="">
-        <a href="/populacao/${politico.nome}/" target="_blank">
-            <li>${politico.nomeCompleto} <br><span> ${politico.apelido}</span> </li>
-        </a>
-    </div>`
+        lista.innerHTML += `<a href="/populacao/${politico.nome}">
+            <div class="mostraP">
+            <img src="${politico.imagemCapa}" alt="">
+            <a href="/populacao/${politico.nome}/" target="_blank">
+                <li>${politico.nomeCompleto} <br><span> ${politico.apelido}</span> </li>
+            </a>
+                </div>
+        </a>`
         
     })
 

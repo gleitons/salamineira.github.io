@@ -27,6 +27,7 @@
  
 }
 .mostraP img {
+  min-height: 150px;
   width: 20%;
   margin: 10px 0;
   padding-left: 20px;
@@ -59,7 +60,7 @@
   text-transform: capitalize;
 }
 #listaPopulacao img {
-  width: 20%;
+  width: 90%;
 }
 .munic {
   
@@ -1420,6 +1421,16 @@ footer {
     bottom: 0;
     right: 0;
     z-index: 1;
+  }
+  .mostraP {
+    display: block;
+  }
+  .mostraP img {
+    min-height: 150px;
+    width: 100%;
+    margin: 10px 0;
+    padding-left: 0px;
+    border-radius: 12px;
   }
   .atendimentoWhats div img{
     width: 360px;

@@ -1064,7 +1064,7 @@
         "cargo": ""
       },
       {
-        "ano": "2004",
+        "ano": "",
         "eleito": "n",
         "cargo": "v"
       },
@@ -1079,14 +1079,14 @@
         "cargo": ""
       },
       {
-        "ano": "",
-        "eleito": "",
-        "cargo": ""
+        "ano": "2016",
+        "eleito": "n",
+        "cargo": "v"
       },
       {
-        "ano": "",
-        "eleito": "",
-        "cargo": ""
+        "ano": "2020",
+        "eleito": "n",
+        "cargo": "v"
       }
     ],
     "fotos": [
@@ -1095,9 +1095,506 @@
       },
       {
         "imagem": "/pessoas/adair-2018.png"
+      },{
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/adair-nobre-1.jpg"
+      },
+      {
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/adair-nobre-2.jpg"
+      },
+      {
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/adair-nobre-3.jpg"
+      }, {
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/adair-nobre-56-max.jpeg"
+      },{
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/IMG-20200311-WA0038.jpg"
+      },{
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/IMG-20201009-WA0036.jpg"
+      },{
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/IMG-20201105-WA0066.jpg"
+      },{
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/IMG-20220710-WA0018.jpg"
+      },{
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/IMG-20201105-WA0066.jpg"
       }
     ],
     "imagem": "<div class='imglagoapatensess'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
+  },
+  {    
+      "nome": "joao-helio",
+      "nomeCompleto": "JOÃO HELIO ALVES DE MEDEIROS",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/joao-helio-2004-max.png",
+      "profissao": "",
+      "nascimento": "19/03/1969",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "joao helio",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "2008",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/joao-helio-2004.png"},{"imagem":"/pessoas/joao-helio-2004-max.png"},{"imagem":"/pessoas/joao-helio-2008.png"},{"imagem":"/pessoas/joao-helio-2008-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "joaquim-de-toca",
+      "nomeCompleto": "JOAQUIM DE FÁTIMA REIS",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/joaquim-de-toca-2004-max.png",
+      "profissao": "",
+      "nascimento": "04/02/1957",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "joaquim de toca",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/joaquim-de-toca-2004.png"},{"imagem":"/pessoas/joaquim-de-toca-2004-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "joaquim-temoso",
+      "nomeCompleto": "JOAQUIM HONÓRIO DE JESUS",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/joaquim-temoso-2004-max.png",
+      "profissao": "",
+      "nascimento": "22/10/1956",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "joaquim temoso",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/joaquim-temoso-2004.png"},{"imagem":"/pessoas/joaquim-temoso-2004-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "jose-do-carmo",
+      "nomeCompleto": "JOSÉ DO CARMO AMARAL",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/jose-do-carmo-2004-max.png",
+      "profissao": "",
+      "nascimento": "20/05/1969",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "jose do carmo",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/jose-do-carmo-2004.png"},{"imagem":"/pessoas/jose-do-carmo-2004-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "juvenal",
+      "nomeCompleto": "JUVENAL JOSÉ CARDOSO",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/juvenal-2004-max.png",
+      "profissao": "",
+      "nascimento": "21/08/1968",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "juvenal",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "2008",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/juvenal-2004.png"},{"imagem":"/pessoas/juvenal-2004-max.png"},{"imagem":"/pessoas/juvenal-2008.png"},{"imagem":"/pessoas/juvenal-2008-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "liene",
+      "nomeCompleto": "ELIENE ALVES PEREIRA",
+      "sexo": "f",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/liene-2004-max.png",
+      "profissao": "",
+      "nascimento": "11/02/1984",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "liene",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/liene-2004.png"},{"imagem":"/pessoas/liene-2004-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "luiz-carlos",
+      "nomeCompleto": "LUIZ CARLOS DE JESUS",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/luiz-carlos-2004-max.png",
+      "profissao": "",
+      "nascimento": "18/01/1975",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "luiz carlos",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2004",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "2008",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "2012",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "2016",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "2020",
+          "eleito": "s",
+          "cargo": "v"
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/luiz-carlos-2004.png"},{"imagem":"/pessoas/luiz-carlos-2004-max.png"},{"imagem":"/pessoas/luiz-carlos-2008.png"},{"imagem":"/pessoas/luiz-carlos-2008-max.png"},{"imagem":"/pessoas/luiz-carlos-2012.png"},{"imagem":"/pessoas/luiz-carlos-2012-max.png"},{"imagem":"/pessoas/luiz-carlos-2016.png"},{"imagem":"/pessoas/luiz-carlos-2016-max.png"},{"imagem":"/pessoas/luiz-carlos-2020.png"},{"imagem":"/pessoas/luiz-carlos-2020-max.png"},{"imagem":"/pessoas/luiz-carlos-1.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/luiz-carlos-3-max.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/luiz-carlos-1-max.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/luiz-carlos-3.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/luiz-carlos-2.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/luiz-carlos-10.jpg"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/luiz-carlos-varmi-1.jpg"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "manel-da-tesoura",
+      "nomeCompleto": "MANOEL DE JESUS SANTOS ALVES",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manel%20da%20Tesoura/manel-da-tesoura-2004-max.png",
+      "profissao": "",
+      "nascimento": "05/08/1953",
+      "falecimento": "26/10/2018",
+      "nomeUrna": "",
+      "apelido": "manel da tesoura",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manel%20da%20Tesoura/manel-da-tesoura-2004-max.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manel%20da%20Tesoura/manel-tesoura.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "manoel-boca",
+      "nomeCompleto": "MANOEL JOSÉ COELHO",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2004-max.png",
+      "profissao": "",
+      "nascimento": "03/06/1974",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "manoel boca",
+      "candidaturas": [
+      {
+          "ano": "2000",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "2008",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "2012",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2004.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2004-max.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2008.png  "},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2008-max.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2008.png"},{"imagem":"/pessoas/manoel-boca-2008-max.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2012.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2012-max.png"}],
+      "imagem": ""
   },
   {
     "nome": "alberto",
