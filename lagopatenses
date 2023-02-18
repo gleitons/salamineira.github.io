@@ -1120,6 +1120,589 @@
     "imagem": "<div class='imglagoapatensess'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
   },
   {    
+      "nome": "maria-meleta",
+      "nomeCompleto": "MARIA JOSÉ ALVES FONSECA",
+      "sexo": "f",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/maria-meleta-2004-max.png",
+      "profissao": "",
+      "nascimento": "20/05/1962",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "maria meleta",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/maria-meleta-2004.png"},{"imagem":"/pessoas/maria-meleta-2004-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "mario-silva",
+      "nomeCompleto": "MARIO NASCIMENTO SILVA",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/mario-silva-2004-max.png",
+      "profissao": "",
+      "nascimento": "25/12/1955",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "mario silva",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/mario-silva-2004.png"},{"imagem":"/pessoas/mario-silva-2004-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "miraelton",
+      "nomeCompleto": "MIRAELTON PEREIRA MARTINS",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/miraelton-2004-max.png",
+      "profissao": "",
+      "nascimento": "31/03/1976",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "miraelton",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/miraelton-2004.png"},{"imagem":"/pessoas/miraelton-2004-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "netinho-da-ambulancia",
+      "nomeCompleto": "TORQUATO EURIPEDES JESUS",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/netinho-da-ambulancia-2004-max.png",
+      "profissao": "",
+      "nascimento": "17/07/1976",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "netinho da ambulancia",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/netinho-da-ambulancia-2004.png"},{"imagem":"/pessoas/netinho-da-ambulancia-2004-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "neuzinha",
+      "nomeCompleto": "NEUZA ANTUNES DA FONSECA PARRELA",
+      "sexo": "f",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/neuzinha-2004-max.png",
+      "profissao": "",
+      "nascimento": "02/10/1961",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "neuzinha",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/neuzinha-2004.png"},{"imagem":"/pessoas/neuzinha-2004-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "osvaldino",
+      "nomeCompleto": "OSVALDINO DURÃES PEREIRA",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/osvaldino-2004-max.png",
+      "profissao": "",
+      "nascimento": "15/10/1968",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "osvaldino",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "2008",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/osvaldino-2004.png"},{"imagem":"/pessoas/osvaldino-2004-max.png"},{"imagem":"/pessoas/osvaldino-2008.png"},{"imagem":"/pessoas/osvaldino-2008-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "paulim-de-dineu",
+      "nomeCompleto": "PAULO CESAR CARDOSO SOUZA",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/paulim-de-dineu-2004-max.png",
+      "profissao": "",
+      "nascimento": "11/07/1973",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "paulim de dineu",
+      "candidaturas": [
+      {
+          "ano": "2000",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/paulim-de-dineu-2000.png"},{"imagem":"/pessoas/paulim-de-dineu-2000-max.png"},{"imagem":"/pessoas/paulim-de-dineu-2004.png"},{"imagem":"/pessoas/paulim-de-dineu-2004-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "raul-reis",
+      "nomeCompleto": "JOSÉ RAUL REIS",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/raul-reis-2004-max.png",
+      "profissao": "",
+      "nascimento": "28/02/1973",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "raul reis",
+      "candidaturas": [
+      {
+          "ano": "2000",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "2004",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "2008",
+          "eleito": "n",
+          "cargo": "vp"
+        },
+        {
+          "ano": "2012",
+          "eleito": "s",
+          "cargo": "vp"
+        },
+        {
+          "ano": "2016",
+          "eleito": "s",
+          "cargo": "p"
+        },
+        {
+          "ano": "2020",
+          "eleito": "n",
+          "cargo": "p"
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/raul-reis-2000.png"},{"imagem":"/pessoas/raul-reis-2000-max.png"},{"imagem":"/pessoas/raul-reis-2004.png"},{"imagem":"/pessoas/raul-reis-2004-max.png"},{"imagem":"/pessoas/raul-reis-2008.png"},{"imagem":"/pessoas/raul-reis-2008-max.png"},{"imagem":"/pessoas/raul-reis-2012.png"},{"imagem":"/pessoas/raul-reis-2012-max.png"},{"imagem":"/pessoas/raul-reis-2016.png"},{"imagem":"/pessoas/raul-reis-2016-max.png"},{"imagem":"/pessoas/raul-reis-2020.png"},{"imagem":"/pessoas/raul-reis-2020-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "pedrim",
+      "nomeCompleto": "PEDRO FERNANDES GONÇALVES",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/pedrim-2004-max.png",
+      "profissao": "",
+      "nascimento": "01/11/1967",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "pedrim",
+      "candidaturas": [
+      {
+          "ano": "2000",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/pedrim-2000.png"},{"imagem":"/pessoas/pedrim-2000-max.png"},{"imagem":"/pessoas/pedrim-2004.png"},{"imagem":"/pessoas/pedrim-2004-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "nora",
+      "nomeCompleto": "MARIA NORACI SOARES DE QUEIROZ",
+      "sexo": "f",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/nora-2004-max.png",
+      "profissao": "",
+      "nascimento": "19/08/1958",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "nora",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/nora-2004.png"},{"imagem":"/pessoas/nora-2004-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "maria-jose",
+      "nomeCompleto": "MARIA JOSE RODRIGUES MOTA",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Maria%20Jos%C3%A9/maria-jose-2004-max.png",
+      "profissao": "",
+      "nascimento": "09/02/1954",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "maria jose de Lidim",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2004",
+          "eleito": "n",
+          "cargo": "v"
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/maria-jose-2004.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Maria%20Jos%C3%A9/maria-jose-2004-max.png"}],
+      "imagem": ""
+  },
+  {    
       "nome": "joao-helio",
       "nomeCompleto": "JOÃO HELIO ALVES DE MEDEIROS",
       "sexo": "m",
