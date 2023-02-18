@@ -1491,6 +1491,377 @@
       "imagem": ""
   },
   {    
+      "nome": "alan-pancinha",
+      "nomeCompleto": "ALAN ANTUNES ALVES DE CAMPOS",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/alan-pancinha-2020-max.png",
+      "profissao": "",
+      "nascimento": "14/06/1991",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "alan pancinha",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2020",
+          "eleito": "n",
+          "cargo": "v"
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/alan-pancinha-2020.png"},{"imagem":"/pessoas/alan-pancinha-2020-max.png"},{"imagem":"/pessoas/alan-pancinha-2020-c.png"},{"imagem":"/pessoas/alan-pancinha-2020-c-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "guila-barbosa",
+      "nomeCompleto": "GUILHERME BARBOSA DA SILVA",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/guila-barbosa-2020-max.png",
+      "profissao": "",
+      "nascimento": "29/03/1993",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "guila barbosa",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2020",
+          "eleito": "s",
+          "cargo": "v"
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/guila-barbosa-2020.png"},{"imagem":"/pessoas/guila-barbosa-2020-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "laudi-do-cocal",
+      "nomeCompleto": "JOSE GERALDO DOS REIS OLIVEIRA",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/laudi-do-cocal-2020-max.png",
+      "profissao": "",
+      "nascimento": "01/12/1982",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "laudi do cocal",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2020",
+          "eleito": "s",
+          "cargo": "v"
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/laudi-do-cocal-2020.png"},{"imagem":"/pessoas/laudi-do-cocal-2020-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "sargento-junior",
+      "nomeCompleto": "JOSE SOARES DOS SANTOS JÚNIOR",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/sargento-junior-2020-max.png",
+      "profissao": "",
+      "nascimento": "15/01/1970",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "sargento junior",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2020",
+          "eleito": "s",
+          "cargo": "v"
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/sargento-junior-2020.png"},{"imagem":"/pessoas/sargento-junior-2020-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "ze-maria-de-birro",
+      "nomeCompleto": "JOSE MARIA NASCIMENTO NETO",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/ze-maria-de-birro-2020-max.png",
+      "profissao": "",
+      "nascimento": "25/12/1983",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "ze maria de birro",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2020",
+          "eleito": "s",
+          "cargo": "v"
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/ze-maria-de-birro-2020.png"},{"imagem":"/pessoas/ze-maria-de-birro-2020-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "gezin-verdade",
+      "nomeCompleto": "JOSE GERALDO XAVIER LEITE",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/gezin-verdade-2008-max.png",
+      "profissao": "",
+      "nascimento": "11/12/1977",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "gezin verdade",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2008",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "2012",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "2016",
+          "eleito": "s",
+          "cargo": "v"
+        },
+        {
+          "ano": "2020",
+          "eleito": "s",
+          "cargo": "v"
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/gezin-verdade-2008.png"},{"imagem":"/pessoas/gezin-verdade-2008-max.png"},{"imagem":"/pessoas/gezin-verdade-2012.png"},{"imagem":"/pessoas/gezin-verdade-2012-max.png"},{"imagem":"/pessoas/gezin-verdade-2016.png"},{"imagem":"/pessoas/gezin-verdade-2016-max.png"},{"imagem":"/pessoas/gezin-verdade-2020.png"},{"imagem":"/pessoas/gezin-verdade-2020-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "aldair-playboy",
+      "nomeCompleto": "ALDAIR JOSE SILVA NUNES",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/adair-playboy-2020-max.png",
+      "profissao": "",
+      "nascimento": "18/06/1995",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "aldair playboy",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2020",
+          "eleito": "n",
+          "cargo": "v"
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/adair-playboy-2020.png"},{"imagem":"/pessoas/adair-playboy-2020-max.png"},{"imagem":"/pessoas/adair-playboy-2020-c.png"},{"imagem":"/pessoas/adair-playboy-2020-max-c-max.png"}],
+      "imagem": ""
+  },
+  {    
       "nome": "raul-reis",
       "nomeCompleto": "JOSÉ RAUL REIS",
       "sexo": "m",

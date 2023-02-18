@@ -37,14 +37,27 @@ async function mostrarPoliticos() {
     console.log(data)
 
     data.map((politico) => {
-        lista.innerHTML += `<a href="/populacao/${politico.nome}">
-            <div class="mostraP">
-            <img src="${politico.imagemCapa}" alt="">
-            <a href="/populacao/${politico.nome}/" target="_blank">
-                <li>${politico.nomeCompleto} <br><span> ${politico.apelido}</span> </li>
-            </a>
-                </div>
-        </a>`
+        const linkP = document.createElement('a');
+        linkP.setAttribute('href',`/populacao/${politico.nome}`);
+        const mostraP = document.createElement('div');
+        mostraP.setAttribute('class', 'mostraP');
+        const imgCapa = document.createElement('img');
+        imgCapa.setAttribute('src', `${politico.imagemCapa}`);
+        imgCapa.setAttribute('alt', `${politico.nomeCompleto}`);
+        const linkInterno = document.createElement('a');
+        linkInterno.setAttribute('href', `/populacao/${politico.nome}/`);
+        linkInterno.setAttribute('target', '_blank');
+        const liNome = document.createElement('li');
+        liNome.innerHTML = `${politico.nomeCompleto} <br><span> ${politico.apelido}</span>`;
+
+        linkInterno.appendChild(liNome);
+        mostraP.appendChild(imgCapa);
+        mostraP.appendChild(linkInterno)
+        linkP.appendChild(mostraP)
+
+        lista.appendChild(linkP)
+
+        
         
     })
 

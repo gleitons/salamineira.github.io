@@ -112,7 +112,7 @@ async function moradores() {
             
             
             document.getElementById('infoPessoa').innerHTML = `<div class="bloc bg-Barragem-20cheia-20Lagoa-20dos-20Patos-20--20MG-20-27032012 fixo l-bloc none" id="bloc-79">
-                        <div class="container bloc-sm-lg bloc-sm"><span style="color:red;">*Estamos em constante atualização, os dados serão adicionados gradualmente. <span style="background-color:red;color:white;" >Erro poderão ocorrer</span></span>
+                        <div class="container bloc-sm-lg bloc-sm"><span style="color:red;">*Estamos em constante atualização, os dados serão adicionados gradualmente. <span style="background-color:red;color:white;" >Erros poderão ocorrer</span></span>
                             <div class="row fundo-perfil no-gutters">
                                 <div class="col">
                                     <div class="container-div-29274-style">
