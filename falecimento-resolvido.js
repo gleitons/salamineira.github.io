@@ -128,25 +128,52 @@ async function tabelaEs(anoC) {
 
 async function contadorObitos() {
     const tabBelaBtn = document.querySelector('#btnTabela');
+    const tabelaT = document.getElementById('tabEstatistica')
+    const carregaPorcent = document.getElementById('carregaPorcent')
     tabBelaBtn.setAttribute('onclick', 'fecharTabela()')
     abrirTabela();
     var total = 0;
     var totHomens = 0;
     var totMulheres = 0;
-    for (let index = 2025; index >= 1800; index--) {
-        if (await tabelaEs(index) != '0,0,0') {
+    var fimI = 2023
+    var inici = 1982
+    const oneP = fimI - inici
+        const fimP = oneP / 100;
+    
+
+    for (let index = fimI; index >= inici; index--) {
+        
+
+        carregaPorcent.innerHTML = `${index}`  
+
+
+
+              
+        if (await tabelaEs(index) != '0,0,0') {            
             var falecimentoAno = await tabelaEs(index);
-            document.getElementById('tabEstatistica').innerHTML += ` 
-            <tr>
-                <td>${index}</td>
-                <td>${falecimentoAno[1]}</td>
-                <td>${falecimentoAno[2]}</td>
-                <td>${falecimentoAno[0]}</td>                             
-            </tr>`
-            var total = total + falecimentoAno[0];
+            const linhaTab = document.createElement('tr');
+            const colunaTabIndex = document.createElement('td');
+            colunaTabIndex.textContent = `${index}`
+            const colunaTabFalecOne = document.createElement('td');
+            colunaTabFalecOne.textContent = `${falecimentoAno[1]}`
+            const colunaTabFalecTwo = document.createElement('td');
+            colunaTabFalecTwo.textContent = `${falecimentoAno[2]}`
+            const colunaTabFalecTree = document.createElement('td');
+            colunaTabFalecTree.textContent = `${falecimentoAno[0]}`
+            linhaTab.appendChild(colunaTabIndex);
+            linhaTab.appendChild(colunaTabFalecOne);
+            linhaTab.appendChild(colunaTabFalecTwo);
+            linhaTab.appendChild(colunaTabFalecTree);
+            tabelaT.appendChild(linhaTab)
+
             var totHomens = totHomens + falecimentoAno[1];
             var totMulheres = totMulheres + falecimentoAno[2];
+            var total = total + falecimentoAno[0];
+           
         }
+       
+        
+
     }
     document.querySelector('#totalCont').innerHTML += `
             <tr>
@@ -157,6 +184,8 @@ async function contadorObitos() {
           </tr>`
     document.querySelector('#calculando').innerHTML = ""
 }
+
+
 
 function abrirTabela() {
     const telaTab = document.querySelector('#tabFalec');
@@ -694,32 +723,32 @@ function diaFalecidos(falecimento) {
     const days = Math.ceil(diff / (1000 * 60 * 60 * 24)); // Divide o total pelo total de milisegundos correspondentes a 1 dia. (1000 milisegundos = 1 segundo).
     const dateAnos = days / 365;
     const mesesDias = dateAnos - (dateAnos.toFixed(0))
-    var meses = (mesesDias * 365)/30;
-    var diasDM = meses.toFixed(0,2)
+    var meses = (mesesDias * 365) / 30;
+    var diasDM = meses.toFixed(0, 2)
     var mesesC = meses.toFixed();
     console.log(diasDM + " primeiro log")
     var dias = ((meses.toFixed(0)) - (meses.toFixed(3)) * 30)
     console.log(dateAnos)
-    if(dateAnos >= 0.70) { 
-        var an =Math.round(dateAnos.toFixed(2));
+    if (dateAnos >= 0.70) {
+        var an = Math.round(dateAnos.toFixed(2));
         console.log(an)
-        if(an > 1){
+        if (an > 1) {
             var anos = `${an} Anos`
         } else {
             var anos = `${an} Ano`
         }
-        
+
     } else {
         var anos = ''
     }
-    if(mesesC > 1 ) { 
+    if (mesesC > 1) {
         var me = (meses.toFixed(0));
         var mesesON = `${me} Meses`
     } else {
         var mesesON = ''
         dias = ''
     }
-    if(dias >= 30 && mesesC > 1){
+    if (dias >= 30 && mesesC > 1) {
         dias = ' ' + days + ' dias'
     } else {
         dias = ''
@@ -727,9 +756,9 @@ function diaFalecidos(falecimento) {
 
 
     // Mostra a diferença em dias
-    return('Aproximadamente ' + anos + mesesON + dias);
+    return ('Aproximadamente ' + anos + mesesON + dias);
 
-    
+
 }
 
 
