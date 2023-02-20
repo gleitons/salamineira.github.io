@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Imagem</title>
+</head>
+<body>
+    <div id="capture"  onclick="gerarImagem()" >
+        <div id="sumir" style="padding: 10px; background: #f5da55"  >
+            <h4 style="color: #000; ">Gerar Imagem!</h4>
+        </div>
+    </div>
+
+
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+
+    <script>
+
+
+        const sumir = document.querySelector('#sumir')
+        function gerarImagem() {
+        html2canvas(document.querySelector("#capture")).then(canvas => {
+            document.body.appendChild(canvas)
+        });
+        sumir.style.display = "none"
+        }
+
+
+    </script>
+</body>
+</html>

@@ -8,7 +8,6 @@ var items = [
     { name: 'bagnetic', value: 0 },
     { name: 'Zeros', value: 37 }
 ];
-console.log(items)
 
 
 items.sort((a, b) => {
@@ -16,7 +15,6 @@ items.sort((a, b) => {
     if (a.name > b.name) return 1;
     return 0;
 })
-console.table(items)
 
 async function mostrarPoliticos() {
     const response = await fetch(url);
@@ -34,7 +32,6 @@ async function mostrarPoliticos() {
 
     
 
-    console.log(data)
 
     data.map((politico) => {
         const linkP = document.createElement('a');
