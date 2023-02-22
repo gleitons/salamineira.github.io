@@ -390,7 +390,7 @@ figcaption{
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 576px) {
     .fixaPropaganda {
         margin-left: 20%;
         position: relative;

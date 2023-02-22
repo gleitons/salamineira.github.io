@@ -60,6 +60,7 @@ function MenuPrincipal() {
                         <ul id="listMenu">                        
                         <a href="/"><li>Inicio</li></a>
                         <a href="/nota-fiscal"><li>nf-e</li></a>
+                        <a href="/empresas-lagoa-dos-patos-mg.html"><li>Empresas</li></a>
                         <a href="/arquivos"><li>Arquivos</li></a>
                         <a href="/falecimentos-lagoa-dos-patos-mg.html"><li>Óbitos</li></a>
                         <a href="/noticias/index.html"><li>Notícias</li></a>
@@ -230,6 +231,10 @@ function adsNoArtigo() {
 function maisArtigos() {
     return `<ul class="leiaMais">
     <h3>Leia Mais</h3>
+    <li><a href="/horario-de-funcionamento.html">Horário de funcionamento da Sala Mineira do empreendedor</a></li>
+    <li><a href="/downloads-leis-lagoa-dos-patos-mg.html">Leis do Municipio de Lagoa dos Patos MG
+    </a></li>
+    <li><a href="/habitantes-de-lagoa-dos-patos-mg.html">Conheça nossos munícipes da nossa cidade de Lagoa dos Patos MG</a></li>
     <li><a href="/fiv-sebrae-lagoa-dos-patos-mg/">Fiv em Lagoa dos Patos MG</a></li>
     <li><a href="/cursos-gratuitos-senac-em-montes-claros-mg">Cursos gratuitos com 196 vagas no Senac Montes Claros MG</a></li>
     <li><a href="/acao-social-emissao-de-carteira-de-identidade-lagoa-dos-patos-mg/">Secretaria de Assistência Social, CRAS e prefeitura municipal realiza ação social em Lagoa dos Patos MG</a></li>
@@ -243,7 +248,11 @@ function artigosSalaMineira() {
     return `<ul class="leiaMais">
     <h3>Leia Mais</h3>
     <li><a href="/fiv-sebrae-lagoa-dos-patos-mg/">Fiv em Lagoa dos Patos MG</a></li>
+    <li><a href="/horario-de-funcionamento.html">Horário de funcionamento da Sala Mineira do empreendedor</a></li>
     <li><a href="/cursos-gratuitos-senac-em-montes-claros-mg">Cursos gratuitos com 196 vagas no Senac Montes Claros MG</a></li>
+    <li><a href="/downloads-leis-lagoa-dos-patos-mg.html">Leis do Municipio de Lagoa dos Patos MG
+    </a></li>
+    <li><a href="/habitantes-de-lagoa-dos-patos-mg.html">Conheça nossos munícipes da nossa cidade de Lagoa dos Patos MG</a></li>
     <li><a href="/acao-social-emissao-de-carteira-de-identidade-lagoa-dos-patos-mg/">Secretaria de Assistência Social, CRAS e prefeitura municipal realiza ação social em Lagoa dos Patos MG</a></li>
     <li><a href="/campanha-de-vacinacao-antirrabica-em-lagoa-dos-patos-mg/">Campanha de vacinação antirrábica em Lagoa dos Patos MG</a></li>
 </ul>
@@ -253,9 +262,13 @@ function artigosSalaMineira() {
 function artigosLagoadosPatos() {
     return `<ul class="leiaMais">
     <h3>Leia Mais</h3>
+    <li><a href="/downloads-leis-lagoa-dos-patos-mg.html">Leis do Municipio de Lagoa dos Patos MG
+    </a></li>
     <li><a href="/fiv-sebrae-lagoa-dos-patos-mg/">Fiv em Lagoa dos Patos MG</a></li>
     <li><a href="/cursos-gratuitos-senac-em-montes-claros-mg">Cursos gratuitos com 196 vagas no Senac Montes Claros MG</a></li>
     <li><a href="/acao-social-emissao-de-carteira-de-identidade-lagoa-dos-patos-mg/">Secretaria de Assistência Social, CRAS e prefeitura municipal realiza ação social em Lagoa dos Patos MG</a></li>
+    <li><a href="/horario-de-funcionamento.html">Horário de funcionamento da Sala Mineira do empreendedor</a></li>
+    <li><a href="/habitantes-de-lagoa-dos-patos-mg.html">Conheça nossos munícipes da nossa cidade de Lagoa dos Patos MG</a></li>
     <li><a href="/campanha-de-vacinacao-antirrabica-em-lagoa-dos-patos-mg/">Campanha de vacinação antirrábica em Lagoa dos Patos MG</a></li>
 </ul>
 <p style="text-align: center;">.... Anuncio ....</p>

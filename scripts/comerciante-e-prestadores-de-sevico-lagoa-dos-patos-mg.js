@@ -1,15 +1,35 @@
 const anuncios = comerciantesPrestadores();
 
 anuncios.forEach(function (anuncio) {
-    console.log(anuncio.nome);
-    document.getElementById('anunciantes').innerHTML += `<a href="${anuncio.link}" target = "_blank">
-    <div class="comerciantePrestador">
-        <img class="imgC" src="${anuncio.imagem}" alt="">
-        <h2>${anuncio.nome}</h2>
-        <p>${anuncio.tipo}</p>
-        <p>${anuncio.area}</p>
-    </div>
-</a>`
+    const divAnun = document.getElementById('anunciantes')
+    const linkA = document.createElement('a');
+    linkA.setAttribute('href', `${anuncio.link}`);
+    linkA.setAttribute('target', '_blank');
+    const divInterno = document.createElement('div');
+    divInterno.setAttribute('class', 'comerciantePrestador' );
+    const imgS = document.createElement('img');
+    imgS.setAttribute('class', 'imgC');
+    imgS.setAttribute('src', `${anuncio.imagem}`)
+    imgS.setAttribute('alt', `${anuncio.nome}`);
+
+    const nomeh = document.createElement('h2');
+    nomeh.textContent = `${anuncio.nome}`
+    const tipoh = document.createElement('p');
+    tipoh.textContent = `${anuncio.tipo}`
+    const areah = document.createElement('p');
+    areah.textContent = `${anuncio.area}`
+
+    divInterno.appendChild(imgS)
+    divInterno.appendChild(nomeh);
+    divInterno.appendChild(tipoh)
+    divInterno.appendChild(areah)
+
+    linkA.appendChild(divInterno)
+
+    divAnun.appendChild(linkA)
+
+
+    
 
 });
 
