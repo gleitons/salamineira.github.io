@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Fetch</title>
+</head>
+
+<body>
+    <div id="dadospegados">
+
+    </div>
+    <div id="Ver">
+
+    </div>
+
+    <script>
+        const url = ('https://casadosdados.com.br/empresas/localidade/mg/sao-joao-da-lagoa');
+
+        //fetch('https://www.google.com')
+        //.then(response => response.text())
+        //.then(data => console.log(data))
+        //.catch(error => console.error(error));
+        var saidaTag = document.querySelector('#dadospegados');
+
+        fetch(url)
+
+            //.then((resp) => JSON.stringify(resp))
+            .then((resp) => resp.text())
+            .then(function (data) {
+
+                Ver.innerHTML = data
+                const dados = document.createElement('div');
+                const criaN = document.createElement('div')
+                const tbod = document.getElementsByTagName('tbody')[0];
+
+
+
+                const contagemEmpresa = tbod.getElementsByTagName('tr')
+
+               
+                //contagemEmpresa.length
+
+                for (let i = 0; i <= contagemEmpresa.length; i++) {
+                   
+                    var empresa = tbod.getElementsByTagName('tr')[i];
+                    const po = empresa.getElementsByTagName('td')[0]
+                    const position = po.innerText
+                    console.log(position)
+                    //const CNPJ = empresa.getElementsByTagName('td')[1]
+                    //const razao = empresa.getElementsByTagName('td')[2]
+                    //const capitalSocial = empresa.getElementsByTagName('td')[3]
+
+                    //criaN.appendChild(position)
+                   // empresa.appendChild(CNPJ)
+                   // empresa.appendChild(razao)
+                   // empresa.appendChild(capitalSocial)
+                   
+                   //criaN.appendChild(position)
+                }
+                //dados.appendChild(empresa) 
+
+            })
+            .catch(function (error) {
+                console.log(error)
+            });
+
+
+    </script>
+
+</body>
+
+</html>
