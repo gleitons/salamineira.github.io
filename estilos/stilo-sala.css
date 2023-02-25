@@ -750,9 +750,9 @@ main {
   width: 250px;
   height: 120px;
   border-radius: 12px;
-  justify-content: center;
+  justify-content: space-between;
+  margin: auto;
   display: flex;
-  margin: 0 auto;
   background-size: 100%;
   transition: 200ms;
   
@@ -780,6 +780,7 @@ main {
 }
 .dNoticias {
   display: flex;
+  justify-content: space-between;
 }
 .noticiasRed {
   background-color: white;
@@ -858,7 +859,7 @@ main {
   margin-top: 15px;
 }
 .ultimos-artigos {
-  width: 80%;
+ width: 70%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -1329,6 +1330,7 @@ footer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
   }
   .propaganda {
     width: 100%;
@@ -1427,7 +1429,7 @@ footer {
 
 /*----responsivo IV---*/
 
-@media (max-width: 768px) { 
+@media (max-width: 576px) { 
 
   #btnmobile {
     border-radius: 8px;
@@ -1448,6 +1450,7 @@ footer {
     bottom: 0;
     right: 0;
     z-index: 1;
+    width: 100%;
   }
   .mostraP {
     display: block;
@@ -1582,10 +1585,10 @@ footer {
 
   
   body{
-    width: 360px;
+    width:100%;
   }
   .container {
-    width: 360px;
+    width: 100%;
     margin: 0 auto;
   }
   .blocoServicos.DFlex{
@@ -1636,24 +1639,25 @@ footer {
     width: 360px;
   }
   
-  .info {
-    
-    width: 360px;
+  .info {    
+    width: 100%;
     margin: 0 auto;
+      display: flex;
+    flex-wrap: wrap;
+    margin: auto;
   }
   .artigo {
     background-color: rgb(255, 240, 217);
-    width: 340px;
-    padding-bottom: 10px;
-    border: rgb(214, 214, 214) solid 1px;
+    width: 100%;
+    border: rgb(5, 5, 5) solid 1px;
     border-radius: 8px;
     
     align-items: center;
     transition: 100ms;
   }
   .artigo > img {
-    width: 320px; 
-    height: 150px;  
+    width: 250px; 
+    height: 100%;  
     
   }
   .infoMateria {
@@ -1760,9 +1764,7 @@ footer {
     font-size: 15px;
     
   }
-  .ultimos-artigos > a {
-    margin-left: 30px;
-  }
+  
 
   .AnuncieAqui div > h3 {
     font-size: 10px;
@@ -1779,7 +1781,8 @@ footer {
     line-height: 3rem;
   }
   .dNoticias {
-    margin-left: -30px;
+   margin: auto;
+   text-align: center;
     display: block;
   }
   .calculadoraMark {

@@ -112,7 +112,76 @@
                     <h2>Feriados no município de Lagoa dos Patos MG</h2>
                     <h3>01/01/2023</h3>
                 </div>
+                <h6>Todos os horários são baseados na cidade de Lagoa dos Patos MG - GTM -3:00 Brasília</h6>
+                <div id="funciona">
+                    <div class="funcionamento cverde">
+                        <div >
+                            <i class="bi bi-emoji-smile-fill"></i>
+                            <p>HOJE <strong>ESTAMOS</strong> funcionando</p>
+                        </div>
+                        <button><a href="https://api.whatsapp.com/send?l=pt-BR&phone=553899020384&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20*Sala%20Mineira%20do%20empreendedor*%20em%20Lagoa%20dos%20Patos%20MG">Clique aqui e fale conosco</a></button>
+                       
+                    </div>
+                    <li>08:00 às 11:00hs</li> 
+                    <li>13:00 às 16:00hs</li>
+                    
+                </div>
+               
+                <h4>Confira nosso funcionamento para amanhã</h4>
+
+                <div id="funcionaAmanha">
+                    <div class="funcionamento cverde">
+                        <div >
+                            <i class="bi bi-emoji-smile-fill"></i>
+                            <p>AMANHÃ <strong>IREMOS</strong> funcionar</p>
+                        </div>
+                        <button><a href="https://api.whatsapp.com/send?l=pt-BR&phone=553899020384&text=Gostaria de agendar meu atendimento para amanhã na Sala%20Mineira%20do%20empreendedor*%20em%20Lagoa%20dos%20Patos%20MG">Clique aqui e Agende</a></button>
+                    </div>
+                </div>
                 <style>
+                    .fotosAntigas picture img {
+                        border: 10px rgb(255, 255, 255) solid;
+                        border-bottom: 40px rgb(255, 255, 255) solid;
+                        box-shadow: rgba(0, 0, 0, 0.394) 2px 0px 10px 5px;
+                        padding: 10px;
+                        margin: 20px;
+                        margin-left: -5px;
+            
+            
+                    }
+                    .funcionamento{
+                        
+                        border: black solid 1px;
+                        display: flex;
+                        padding: 10px;
+                        color: white;
+                        margin: 20px 0;
+                    }
+                    .funcionamento p {
+                        color: white;
+                    }
+                    .funcionamento div  {
+                        font-size: 25px;
+                        display: flex;
+                        width: fit-content;
+                        margin: auto;
+                        gap: 10px;
+                        color: white;            
+                    }
+                    .funcionamento a {
+                        text-decoration: none;
+                    }
+                    .funcionamento button {
+                        padding: 5px;
+                        border: none;
+                        border-radius: 12px;
+                    }
+                    .cverde {
+                        background-color: green;
+                    }
+                    .cvermelho {
+                        background-color: red;
+                    }
                     .tabelaFeriado {
 
                         border: black solid 1px;
@@ -337,6 +406,7 @@
     <script src="/scripts/index.js"></script>
     <script src="/scripts/imagens-artigo.js"></script>
     <script src="/scripts/markup.js"></script>
+    <script src="/funcionamento.js"></script>
 
 
 </body>
