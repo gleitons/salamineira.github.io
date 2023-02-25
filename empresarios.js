@@ -33,7 +33,7 @@ async function empresas() {
     divC.innerHTML= `
     <div class="row align-items-center">
     <div class="col-lg-nome ${color[fundoColor]}">
-        <p class="mg-md p-288-style">${mostra.razaoSocial}</p>
+        <p class="mg-md p-288-style">${mostra.razaoSocial} - ${mostra.cnpjN}</p>
     </div>
     <div class="col-12 col-lg-3">
         <p class="mg-md p-288-style"><strong>${mostra.nomeFantasia}</strong><br></p>
