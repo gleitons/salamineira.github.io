@@ -34,12 +34,14 @@ async function mostrarPoliticos() {
 
 
     data.map((politico) => {
+        const imgMin = (politico.imagemCapa).replace(/-max/g, '');
+        
         const linkP = document.createElement('a');
         linkP.setAttribute('href',`/populacao/${politico.nome}`);
         const mostraP = document.createElement('div');
         mostraP.setAttribute('class', 'mostraP');
         const imgCapa = document.createElement('img');
-        imgCapa.setAttribute('src', `${politico.imagemCapa}`);
+        imgCapa.setAttribute('src', `${imgMin}`);
         imgCapa.setAttribute('alt', `${politico.nomeCompleto}`);
         const linkInterno = document.createElement('a');
         linkInterno.setAttribute('href', `/populacao/${politico.nome}/`);

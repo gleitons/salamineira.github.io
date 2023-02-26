@@ -1809,6 +1809,271 @@
       "imagem": ""
   },
   {    
+      "nome": "junior-da-farmacia",
+      "nomeCompleto": "JOÃO PEDRO ELEUTERIO DO COUTO JUNIOR",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/junior-da-farmacia-2020-max.png",
+      "profissao": "",
+      "nascimento": "30/06/1983",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "junior da farmacia",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2020",
+          "eleito": "s",
+          "cargo": "vp"
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/junior-da-farmacia-2020.png"},{"imagem":"/pessoas/junior-da-farmacia-2020-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "laudir",
+      "nomeCompleto": "LAUDIR LEITE MUNIZ",
+      "sexo": "f",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "ldp",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/laudir-2020-max.png",
+      "profissao": "",
+      "nascimento": "18/03/1989",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "laudir",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2020",
+          "eleito": "n",
+          "cargo": "vp"
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/laudir-2020.png"},{"imagem":"/pessoas/laudir-2020-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "marcos-emater",
+      "nomeCompleto": "MARCOS VICENTE RAMOS ROCHA",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "cdj",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/marcos-emater-2020-max.png",
+      "profissao": "",
+      "nascimento": "17/04/1967",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "marcos emater",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2020",
+          "eleito": "n",
+          "cargo": "vp"
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/marcos-emater-2020.png"},{"imagem":"/pessoas/marcos-emater-2020-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "ro-eleuterio",
+      "nomeCompleto": "JOSÉ ROBERTO ELEUTERIO RABELO",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "moc",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/ro-eleuterio-2020-max.png",
+      "profissao": "",
+      "nascimento": "11/04/1960",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "ro eleuterio",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2020",
+          "eleito": "n",
+          "cargo": "p"
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/ro-eleuterio-2020.png"},{"imagem":"/pessoas/ro-eleuterio-2020-max.png"}],
+      "imagem": ""
+  },
+  {    
+      "nome": "rafael-muniz",
+      "nomeCompleto": "RAFAEL LEITE MUNIZ",
+      "sexo": "m",
+      "numero": "",
+      "estadoCivil": "",
+      "graduacao": "",
+      "cor": "",
+      "nacionalidade": "b",
+      "cidadeN": "brt",
+      "estado": "MG",
+      "nota": "",
+      "imagemCapa": "/pessoas/rafael-muniz-2020-max.png",
+      "profissao": "",
+      "nascimento": "18/08/1991",
+      "falecimento": "",
+      "nomeUrna": "",
+      "apelido": "rafael muniz",
+      "candidaturas": [
+      {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "",
+          "eleito": "",
+          "cargo": ""
+        },
+        {
+          "ano": "2020",
+          "eleito": "n",
+          "cargo": "p"
+        }
+      ],
+      "fotos": [{"imagem":"/pessoas/rafael-muniz-2020.png"},{"imagem":"/pessoas/rafael-muniz-2020-max.png"}],
+      "imagem": ""
+  },
+  {    
       "nome": "aldair-playboy",
       "nomeCompleto": "ALDAIR JOSE SILVA NUNES",
       "sexo": "m",

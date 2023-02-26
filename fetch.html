@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <div id="veja"></div>
     <div id="dadospegados">
 
     </div>
@@ -19,7 +20,8 @@
     </div>
 
     <script>
-        const url = ('https://casadosdados.com.br/empresas/localidade/mg/sao-joao-da-lagoa');
+        var url = ('https://casadosdados.com.br/solucao/cnpj/dn-moveis-ltda-18770652000170');
+        const arrayDados = []
 
         //fetch('https://www.google.com')
         //.then(response => response.text())
@@ -28,46 +30,107 @@
         var saidaTag = document.querySelector('#dadospegados');
 
         fetch(url)
-
-            //.then((resp) => JSON.stringify(resp))
             .then((resp) => resp.text())
             .then(function (data) {
-
                 Ver.innerHTML = data
                 const dados = document.createElement('div');
                 const criaN = document.createElement('div')
-                const tbod = document.getElementsByTagName('tbody')[0];
 
-
-
-                const contagemEmpresa = tbod.getElementsByTagName('tr')
-
-               
-                //contagemEmpresa.length
-
-                for (let i = 0; i <= contagemEmpresa.length; i++) {
-                   
-                    var empresa = tbod.getElementsByTagName('tr')[i];
-                    const po = empresa.getElementsByTagName('td')[0]
-                    const position = po.innerText
-                    console.log(position)
-                    //const CNPJ = empresa.getElementsByTagName('td')[1]
-                    //const razao = empresa.getElementsByTagName('td')[2]
-                    //const capitalSocial = empresa.getElementsByTagName('td')[3]
-
-                    //criaN.appendChild(position)
-                   // empresa.appendChild(CNPJ)
-                   // empresa.appendChild(razao)
-                   // empresa.appendChild(capitalSocial)
-                   
-                   //criaN.appendChild(position)
+                for(let i=0; i < 1 ;i++) {
+                    const tbod = document.getElementsByClassName('column is-6')[i];
+                    const divEm = tbod.getElementsByClassName('subtitle')
+                    var ver = tbod.getElementsByTagName('a')[0].href.replace(/http:\/\/127.0.0.1:5500/g, '');
+    
+    
+    
+                    const arrp = pegarDados(`https://casadosdados.com.br${ver}`)
                 }
-                //dados.appendChild(empresa) 
+               
+                
+                
 
             })
             .catch(function (error) {
                 console.log(error)
             });
+
+
+        function pegarDados(link) {
+            const veja = document.querySelector('#veja')
+            fetch(link)
+                .then((respo) => respo.text())
+                .then(function (Data) {
+
+
+                    Ver.innerHTML = Data
+                    const getCnpj = document.getElementsByTagName('p')[1].innerHTML;
+                    const razaoS = document.getElementsByTagName('p')[3].innerHTML;
+                    const getNomeFantasia = document.getElementsByTagName('p')[5].innerHTML;
+                    const getTipo = document.getElementsByTagName('p')[7].innerHTML;
+                    const getDataAbertura = document.getElementsByTagName('p')[12].innerHTML;
+                    const getsituacaoCadastral = document.getElementsByTagName('p')[10].innerHTML;
+                    const getdataSituacao = document.getElementsByTagName('p')[12].innerHTML;
+                    const getcapitalSocial = document.getElementsByTagName('p')[11].innerHTML;
+                    const getnaturezaJuridica = document.getElementsByTagName('p')[19].innerHTML;
+                    const getempresaMEI = document.getElementsByTagName('p')[18].innerHTML;
+                    const getlogradouro = document.getElementsByTagName('p')[20].innerHTML;
+                    const getnumero = document.getElementsByTagName('p')[22].innerHTML;
+                    const getcep = document.getElementsByTagName('p')[26].innerHTML;
+                    const getbairro = document.getElementsByTagName('p')[28].innerHTML;
+                    const getmunicipio = document.getElementsByTagName('p')[30].textContent;
+                    const getuf = document.getElementsByTagName('p')[33].innerHTML;
+                    const gettelefone = document.getElementsByTagName('p')[35].innerHTML;
+                    const getemail = document.getElementsByTagName('p')[37].innerHTML;
+                    const getquadroSocio = document.getElementsByTagName('p')[39].innerHTML;
+                    const getatividadePrincipal = document.getElementsByTagName('p')[41].innerHTML;
+                    const getatividadeSecundaria = document.getElementsByTagName('p')[43].innerHTML;
+                    const getdataConsulta = document.getElementsByTagName('p')[45].innerHTML;
+
+
+
+
+
+                    const empresa = {
+                        "cnpj":`${getCnpj}`, 
+                        "razao":`${razaoS}`,
+                        "nomeFantasia":`${getNomeFantasia}`,
+                        "tipo":`${getTipo}`,
+                        "dataAbertura":`${getDataAbertura}`,
+                        "situacaoCadastral":`${getsituacaoCadastral}`,
+                        "dataSituacao":`${getdataSituacao}`,
+                        "capitalSocial":`${getcapitalSocial}`,
+                        "naturezaJuridica":`${getnaturezaJuridica}`,
+                        "empresaMEI":`${getempresaMEI}`,
+                        "logradouro":`${getlogradouro}`,
+                        "numero":`${getnumero}`,
+                        "cep":`${getcep}`,
+                        "bairro":`${getbairro}`,
+                        "municipio":`${getmunicipio}`,
+                        "uf":`${getuf}`,
+                        "telefone":`${gettelefone}`,
+                        "email":`${getemail}`,
+                        "quadroSocio":`${getquadroSocio}`,
+                        "atividadePrincipal":`${getatividadePrincipal}`,
+                        "atividadeSecundaria":`${getatividadeSecundaria}`,
+                        "dataConsulta":`${getdataConsulta}`
+                }
+
+                    //const divEm = tbod.getElementsByClassName('subtitle');
+                   
+                    
+                    arrayDados.push(empresa)
+                    console.log(arrayDados)
+                    const dadoI = JSON.stringify(arrayDados)
+                    console.log(dadoI)
+                    veja.innerHTML = dadoI
+
+                    
+                })
+                .catch(function (error) {
+                    console.log(error)
+                })
+                
+        }
 
 
     </script>

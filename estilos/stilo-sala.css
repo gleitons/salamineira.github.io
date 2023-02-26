@@ -33,6 +33,7 @@
   font-size: 40px;
 }
 .mostraP {
+
   display: flex;
   align-items: center;
   list-style: none;
@@ -43,9 +44,18 @@
   border-left: 30px solid transparent;
   box-shadow: rgba(0, 0, 0, 0.377) 0px 2px 5px 0px;
   font-weight: 700;
+  position: relative;
 
   
  
+}
+.mostraP::after {
+  content: "Clique para ver";
+  position: absolute;
+  top: 107px;
+  left: -84px;
+  rotate: -90deg;
+  color: #333333;
 }
 .mostraP img {
   min-height: 150px;
