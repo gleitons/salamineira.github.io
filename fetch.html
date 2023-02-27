@@ -30,17 +30,21 @@
         
 
        
-        function linkL(num) {
+        function linkL() {
               
-            
-            return  `https://casadosdados.com.br/solucao/cnpj?q=a&uf=MG&municipio=MONTES%20CLAROS&page=${num}`
+            for(let i = 1; i <= 2; i++){
+                var site =  `https://casadosdados.com.br/solucao/cnpj?q=a&uf=MG&municipio=MONTES%20CLAROS&page=${i}`
+            }
+            return site
           
             //var url = ();
         }
+        //linkL()
 
         function porPesquisa() {
             
-            var url = linkL(3);
+            var url = `https://casadosdados.com.br/solucao/cnpj?q=n&uf=MG&municipio=MONTES%20CLAROS&page=5`
+           
 
             console.log(url)
 
@@ -63,14 +67,14 @@
                     const contadoLink = empresaP.length
                     //console.log(quantidadePaginas)
 
-                    for (let i = 0; i < quantidadePaginas; i++) {
+                    //for (let i = 0; i < quantidadePaginas; i++) {
                         for (let i = 0; i < contadoLink; i++) {
                             const linkE = empresaP[i].href.replace('http://127.0.0.1:5500', '');
                             //console.log(linkE)
                             pegarDados(`https://casadosdados.com.br${linkE}`)
 
                         }
-                    }
+                    //}
 
 
 
@@ -87,7 +91,7 @@
         
 
 
-        function pegarDados(link) {
+function pegarDados(link) {
             const veja = document.querySelector('#veja')
             var limpaAnterio = document.querySelector('#dadospegados');
 
