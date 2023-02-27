@@ -24,12 +24,12 @@
         "cargo":"SEC.MUN. DE CULT. ESP. E LAZER"
     }, 
     {
-        "nome":"JOSE CARLOS ALMEIDA GONCALVES",
-        "nomeFolha":"tadeu",
-        "matricula":"597",
-        "cpf":"041.684.476-69",
-        "admissao":"22/01/2008",
-        "cargo":"AUX DE SERV PUBLICOS-OPERARIO"
+        "nome":"EDSON PEREIRA CAETANO",
+        "nomeFolha":"edson",
+        "matricula":"1651",
+        "cpf":"107.396.826-01",
+        "admissao":"17/02/2016",
+        "cargo":"FISCAL DE TRANSPORTE ESCOLAR"
     }, 
     {
         "nome":"GLEITON APARECIDO SOARES DE SOUZA",
@@ -55,6 +55,15 @@
         "admissao":"03/01/2005",
         "cargo":"TECNICO NIVEL SUPER. ADMINISTR"
     },
+     
+    {
+        "nome":"JOSE CARLOS ALMEIDA GONCALVES",
+        "nomeFolha":"ze",
+        "matricula":"597",
+        "cpf":"041.684.476-69",
+        "admissao":"22/01/2008",
+        "cargo":"AUX DE SERV PUBLICOS-OPERARIO"
+    }, 
     {
         "nome":"NATALINO PEREIRA DE ARAUJO",
         "nomeFolha":"natalino",
