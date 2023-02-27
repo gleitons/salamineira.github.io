@@ -1,0 +1,42 @@
+
+        function porLink() {
+            //https://casadosdados.com.br/solucao/cnpj/49504309-emily-emanoelle-soares-fonseca-49504309000108
+            //https://casadosdados.com.br/solucao/cnpj/instituicao-adv-de-educ-e-assist-social-este-brasileira-73686370021952
+            var url = ('https://casadosdados.com.br/solucao/cnpj/alberto-felype-domingues-mourao-39970155000196');
+
+            //fetch('https://www.google.com')
+            //.then(response => response.text())
+            //.then(data => console.log(data))
+            //.catch(error => console.error(error));
+            var saidaTag = document.querySelector('#dadospegados');
+
+
+            fetch(url)
+                .then((resp) => resp.text())
+                .then(function (data) {
+                    Ver.innerHTML = data
+                    const dados = document.createElement('div');
+                    const criaN = document.createElement('div')
+
+
+                    for (let i = 0; i < 1; i++) {
+                        const tbod = document.getElementsByClassName('column is-6')[i];
+                        const divEm = tbod.getElementsByClassName('subtitle')
+                        var ver = tbod.getElementsByTagName('a')[0].href.replace(/http:\/\/127.0.0.1:5500/g, '');
+
+
+
+                        pegarDados(`https://casadosdados.com.br${ver}`)
+                        var linkAcesso = `https://casadosdados.com.br${ver}`
+                    }
+
+
+
+                })
+
+                .catch(function (error) {
+                    console.log(error)
+                });
+        }
+
+

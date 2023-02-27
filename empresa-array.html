@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresas MOC</title>
+</head>
+<body>
+    <div id="contador">
+
+    </div>
+    <script>
+
+        
+        const url = '/empresa-array'
+        async function pegaD() {
+            const response = await fetch(url)
+            const data = await response.json()
+
+            console.log(data)
+            
+            const func = data.filter(function (a) {
+                return !this[JSON.stringify(a)] && (this[JSON.stringify(a)] = true);
+            }, Object.create(null))
+            
+            console.log(func)
+        }
+        pegaD()
+       
+    </script>
+</body>
+</html>
