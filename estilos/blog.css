@@ -432,6 +432,14 @@ figcaption{
 }
 
 @media (max-width: 576px) {
+    main {
+        width: 100%;
+    }
+    .artigoComplete .esquerdoArtigo {
+        width: 100%;
+    }
+   
+  
     .fixaPropaganda {
         margin-left: 20%;
         position: relative;
@@ -463,7 +471,7 @@ figcaption{
     }
     .Quebra{
         
-        width: 360px;
+        width: 100%;
         display: block;
     }
     .esquerdoArtigo > p{
