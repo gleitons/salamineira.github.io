@@ -1,6 +1,6 @@
 body{
     margin: auto;
-    width: 800px;
+    width: 90%;
 }
 
 .lateral {
@@ -21,4 +21,12 @@ body{
 .tabelaTerra {
     border: black solid 1px ;
     
+}
+@media (max-width: 576px) {
+    .body{
+        width: 100%;
+    }
+    .anovtn {
+        width: 100%;
+    }
 }
