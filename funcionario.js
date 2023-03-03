@@ -140,7 +140,11 @@ function cadastrarFuncionario() {
 async function arra(funcionaCadastro) {
     const respo = await fetch(urlL)
     var data = await respo.json();
-
+     data.sort( function(a,b) {
+        if(a.nome > b.nome) return 1;
+        if(a.nome < b.nome) return -1;
+        return 0
+    }) ;
 
     var dadosFuncionario = [funcionaCadastro];
     for (let index = 0; index < dadosFuncionario.length; index++) {
