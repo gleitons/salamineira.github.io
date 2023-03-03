@@ -7,6 +7,24 @@
     scroll-behavior: smooth;
 
 }
+.infoFuncionario {
+   
+    visibility: hidden;
+    height: 0px;
+    overflow: hidden;
+}
+.mostraFuncionario {
+    background-color: #001f67;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.divdoFuncionario div{
+    background-color: #174cca;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+}
 
 table {
     width: 100%;
@@ -57,7 +75,7 @@ tbody {
 }
 
 .corpoT tr td {
-    font-size: .8em;
+    font-size: .6em;
     border: black solid 1px;
 }
 

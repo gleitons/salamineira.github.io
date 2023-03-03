@@ -6,107 +6,207 @@ if (sUsrAg.indexOf("Firefox") > -1) {
     alert("UTILIZE O GOOGLE CHROME, PARA UTILIZAR O SISTEMA CORRETAMENTE, ");
 }
 
-async function carregaFuncionarios() {
-    const nomeFuncionario = document.querySelector('#nomeFuncionario')
-    const funcionarioInfo = document.querySelector('.infoFuncionario')
+async function arrayFuncionario() {
     const response = await fetch(urlL)
     const data = await response.json();
 
-    data.sort( function(a,b) {
+    return data;
+}
+
+
+
+
+
+function abrirAviso() {
+    fecharForm()
+    const aviso = document.querySelector('.aviso');
+    aviso.innerHTML = ` <div>
+    <p>O cadastro é realizado manualmente, geralmente leva de um a dois dias, você pode entrar em contato diretamente comigo para incluir, editar ou excluir funcionários, fico a disposição, estou disponível no WhatsApp, <a href="https://api.whatsapp.com/send?phone=555198280551&text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20Gleiton%20Soares sobre como adicionar funcionários para imprimir folha de ponto (presença)." target="_blank" >basta clicar aqui</a>. Voce concorda com os termos acima?</p>
+    <!-- <p>Este usuário que será cadastrado, servirá apenas para este navegador e apenas para este computador, utilizamos um armazenamento temporário para gerar uma folha de ponto do cadastro. Devido a isso, seus dados cadastrados posteriormente, poderão ser perdidos. Você concorda utilizar o armazenamento temporário?</p> -->
+    <button onclick="abriForm()">Sim</button>
+    <button onclick="fecharAviso()">Não</button>
+</div>`;
+}
+
+function abriForm() {
+    const formu = document.querySelector('.formCadastrar');
+
+    formu.innerHTML = `<form action="https://formsquash.io/f/tIGbRhZOLHCk1SoFbFCr" method="POST">
+    <div>
+        <i class="bi bi-person-plus-fill">Nome:</i><input type="text" name="1-Nome Funcionario" id="nFuncionario" required> <br>
+        <i class="bi bi-list-ol">Matricula:</i><input type="number" name="2 - Matricula" id="nMatricula" required> <br>
+        <i class="bi bi-grid-3x3-gap">CPF:</i><input type="text" name="3 - CPF" id="nCPF" placeholder="Ex: 083.030.206-85" required> <br>
+        <i class="bi bi-building-fill-down">Admissão</i><input type="date" name="4 - Admissão" id="nAdmissao" required> <br>
+        <i class="bi bi-person-workspace">Função</i><input type="text" name="05 - funcao" id="nFuncao" required> <br>
+
+        <button type="submit" onclick="cadastrarFuncionario()">Cadastrar</button>                       
+        <button onclick="fecharForm()" id="btnExcluir" >Excluir</button>
+    </div>
+</form>`
+    fecharAviso()
+}
+
+const nomeURL = window.location.hash
+
+function avisoCadastro() {
+
+    const cadastroOk = document.querySelector('.cadastroSucesso');
+
+    if (nomeURL == "#enviado") {
+        cadastroOk.innerHTML = `<p>CADASTRADO COM SUCESSO, EM BREVE O CADASTRO ESTARÁ DISPONÍVEL NO NOSSO BANCO DE DADOS</p>`
+    }
+    setInterval("apagarSucesso()", 5000)
+}
+avisoCadastro()
+function apagarSucesso() {
+    const cadastroOk = document.querySelector('.cadastroSucesso');
+    cadastroOk.innerHTML = ``
+}
+
+
+function fecharForm() {
+    const addL = document.querySelector('#btnExcluir');
+
+    const formu = document.querySelector('.formCadastrar');
+
+    formu.innerHTML = ``
+
+    // addL.addEventListener("click", function () {
+    //     formu.innerHTML = ``
+    // })
+
+
+}
+
+function fecharAviso() {
+    const aviso = document.querySelector('.aviso');
+    aviso.innerHTML = "";
+
+}
+
+const getItensBD = () => JSON.parse(localStorage.getItem('dbfunc')) ?? [];
+const setItensBD = () => localStorage.setItem('dbfunc', JSON.stringify(itens))
+
+
+
+
+
+
+
+
+
+async function pegaArray() {
+    const respo = await fetch(urlL)
+    var data = await respo.json();
+    const paraLocal = JSON.stringify(data)
+    window.localStorage.setItem('funcionariosLDP', paraLocal);
+}
+
+
+function cadastrarFuncionario() {
+    const nfunc = document.querySelector('#nFuncionario').value;
+
+    const dadosFunc = {
+        "nome": `${nfunc}`,
+        "nomeFolha": `${nfunc}`,
+        "matricula": `${nfunc}`,
+        "cpf": `${nfunc}`,
+        "admissao": `${nfunc}`,
+        "cargo": `${nfunc}`
+    }
+    arra(dadosFunc)
+    converteP()
+    //return dadosFunc;
+
+
+}
+
+async function arra(funcionaCadastro) {
+    const respo = await fetch(urlL)
+    var data = await respo.json();
+     data.sort( function(a,b) {
         if(a.nome > b.nome) return 1;
         if(a.nome < b.nome) return -1;
         return 0
     }) ;
-    
-    data.map((mostraFunc) => {
-        const optionGera = document.createElement('option');
-        optionGera.setAttribute('value', `${mostraFunc.nome} `);
-        optionGera.textContent = `${mostraFunc.nome} ${mostraFunc.cpf}`
 
-        const divFunci = document.createElement('div')
-        divFunci.setAttribute('class', 'divdoFuncionario')
-        const nomeF = document.createElement('p')
-        nomeF.innerHTML = `NOME: ${mostraFunc.nome}`
-        const CPFF = document.createElement('p')
-        CPFF.innerHTML = `CPF: <input type="text" name="" id="" value="${mostraFunc.cpf}">`
+    var dadosFuncionario = [funcionaCadastro];
+    for (let index = 0; index < dadosFuncionario.length; index++) {
+        var cArray = data.push(dadosFuncionario[index])
 
-        const Admissao = document.createElement('p')
-        Admissao.innerHTML = `ADMISSÃO: <input type="text" name="" id="" value="${mostraFunc.admissao}">`
-
-        const cargo = document.createElement('p')
-        cargo.innerHTML = `CARGO: ${mostraFunc.cargo}`
-
-
-        divFunci.appendChild(nomeF);
-        divFunci.appendChild(CPFF);
-        divFunci.appendChild(Admissao);
-        divFunci.appendChild(cargo);
-
-        funcionarioInfo.appendChild(divFunci);
-
-
-        nomeFuncionario.appendChild(optionGera);
-
-        // funcionarioInfo.innerHTML += `
-        // <p>NOME:</p>
-        // <p>CPF: <input type="text" name="" id=""></p>
-        // <p>ADMISSÃO: <input type="text" name="" id=""></p>
-        // <p>CARGO: <input type="text" name="" id=""></p>`
-    })
-
-    
-}
-carregaFuncionarios();
-
-async function mostraInfo() {
-    const nomeFuncionarioOne = document.querySelector('#nomeFuncionario');
-    const mostraFuncionario = document.querySelector('#mostraFuncionario');
-    
-    const nomeFuncionario = nomeFuncionarioOne.options[nomeFuncionarioOne.selectedIndex].textContent;
-    const funcionarioInfo = document.getElementsByClassName('divdoFuncionario');
-
-   
-    const response = await fetch(urlL)
-    const data = await response.json();
-    
-    data.map((mostraFunc) => {
-        if(nomeFuncionario == mostraFunc.nome + " " + mostraFunc.cpf) {
-            mostraFuncionario.innerHTML = ` <p id="nommeDoFunc">NOME: ${mostraFunc.nome}</p>
-            <p>MATRICULA: <input type="text" name="" id="matriculaDoFunc" value="${mostraFunc.matricula}" placeholder="ex: 1745"></p>
-            <p>CPF: <input type="text" name="" id="cpfDoFunc" value="${mostraFunc.cpf}" placeholder="ex: 083.030.206-92"></p>
-            <p>ADMISSÃO: <input type="text" name="" id="admissaoDoFunc" value="${mostraFunc.admissao}" placeholder="ex: 21/12/21"></p>
-            <p id="cargoDoFunc">CARGO: ${mostraFunc.cargo}</p>
-            <a style="padding:5px; text-decoration:none; cursor:pointer; background-color: green; border:none; border-radius: 8px; color: white;"  onclick="enviarDados()"><button>Gerar Cadastro</button></a>`
-            
-        }
-    })
-}
-
-function enviarDados() {
-    const nommeDoFunc = document.querySelector('#nommeDoFunc').innerHTML
-    const matriculaDoFunc = document.querySelector('#matriculaDoFunc').value
-    const cpfDoFunc = document.querySelector('#cpfDoFunc').value
-    const admissaoDoFunc = document.querySelector('#admissaoDoFunc').value
-    const enviarFo = document.querySelector('#enviarFo')
-
-    if(cpfDoFunc.length == 0){
-        enviarFo.innerHTML = `
-        <a href="https://api.whatsapp.com/send?phone=553899167841&text=Olá, complete o cadastro de ${nommeDoFunc}, CPF: ${cpfDoFunc} e a admissão ${admissaoDoFunc}, obrigado" target="_blank"><button onclick="enviarDados()">PREENCHA O CPF E ADMISSÃO ANTES</button></a>`
-    } else {
-        enviarFo.innerHTML = `
-    <a href="https://api.whatsapp.com/send?phone=553899167841&text=Olá, complete o cadastro de ${nommeDoFunc}, CPF: ${cpfDoFunc} e a admissão ${admissaoDoFunc}, obrigado" target="_blank"><button onclick="enviarDados()">ENVIAR</button></a>`
     }
+    const bee = JSON.stringify(data)
 
-    
 
-    console.log(cpfDoFunc)
+
+    const cee = JSON.parse(bee)
+
+
+    return data;
 }
-//acima agora abaixo corrigir
+function escolhaArray() {
+    const arraySalvo = window.localStorage.getItem('funcionariosLDP');
+
+    if (arraySalvo) {
+        converteP()
+    } else {
+        pegaArray();
+    }
+}
+escolhaArray()
+
+async function converteP() {
+    const data = await arra();
+    const paraLocal = JSON.stringify(data)
+    const arraySalvo = window.localStorage.setItem('funcionariosLDP', paraLocal);
+
+
+}
+
+
+async function arrCompleto() {
+    const pegaDados = window.localStorage.getItem('funcionariosLDP');
+    var retornaD = JSON.parse(pegaDados)
+
+
+    //const funcio = await arrCompleto();
+
+
+    return retornaD
+
+}
 
 
 
 
 
+async function gerarFuncionario() {
+    const funcionarios = document.querySelector('#nomeFuncionario');
+    const gfunc = document.querySelector('#loadFunc');
+    gfunc.style.display = 'none'
+
+    const funcio = await arrCompleto();
+
+    funcio.map((func) => {
+        funcionarios.innerHTML += `<option value="${func.nome}">${func.nome}</option>`
+    })
+}
+
+
+// console.log(" ")
+// console.log("Escrito Por Gleiton Aparecido Soares de Souza")
+// console.log("Acesse: www.gleiton.com.br")
+// console.log(" ")
+
+function modoNoite() {
+    const modoN = document.querySelector('.preencher');
+    const modoL = document.querySelector('.mNoturno');
+    const esconder = function () {
+        modoN.classList.toggle('preencherDark');
+    }
+    esconder();
+    modoL.innerHTML = `<i class="bi bi-moon-stars-fill">Light</i>`
+}
 
 function startFolha() {
     const mesR = document.querySelector('#mesReferencia');
@@ -255,19 +355,8 @@ async function imprimLivro() {
     // smesReferencia = mesRefe.options[mesRefe.selectedIndex].value;
     // var mesF = document.querySelector('#mesF').value = smesReferencia;
 
-    
-    const nommeDoFuncs = document.querySelector('#nommeDoFunc').innerHTML
-    const nommeDoFunc = nommeDoFuncs.replace('NOME: ','')
-    const matriculaDoFunc = document.querySelector('#matriculaDoFunc').value
-    const cpfDoFunc = document.querySelector('#cpfDoFunc').value
-    const admissaoDoFunc = document.querySelector('#admissaoDoFunc').value
-    const cargoDoFunc = document.querySelector('#cargoDoFunc').innerHTML;
-    const enviarFo = document.querySelector('#enviarFo')
-
-    console.log(nommeDoFunc)
-
     data.map((func) => {
-        if (func.nome == nommeDoFunc) {
+        if (func.nome == comparaFuncionario) {
             var ctabela = `<tr>
     <td colspan="3">
         <p>EMPREGADOR: NOME / EMPRESA</p>
@@ -304,26 +393,26 @@ async function imprimLivro() {
    
     <td colspan="2">
         <p>EMPREGADO (A)</p>
-        <h5>${nommeDoFunc}</h2>
+        <h5>${func.nome}</h2>
     </td>
     <td colspan="1">
     <p>MATRÍCULA</p>
-    <h5>${matriculaDoFunc}</h5>
+    <h5>${func.matricula}</h5>
     </td>
     <td colspan="1">
         <p>DATA DE ADMISSÃO</p>
-        <h5>${admissaoDoFunc}</h5>
+        <h5>${func.admissao}</h5>
     </td>
     
 </tr>
 <tr>
     <td colspan="2">
         <p>CARGO/FUNÇÃO:</p>
-        <h5>${cargoDoFunc}</h5>
+        <h5>${func.cargo}</h5>
     </td>
     <td colspan="2">
         <p>CPF:</p>
-        <h5>${cpfDoFunc}</h2>
+        <h5>${func.cpf}</h2>
     </td>
     <td colspan="0" hidden>
         <p>DATA DE ADMISSÃO</p>
@@ -348,7 +437,7 @@ async function imprimLivro() {
 </tr>`
             cabecaTabela.innerHTML = ctabela;
         }
-   });
+    });
     if (anoReferencia == '2023') {
         footTab.innerHTML = `<div>
     <p>* O MÊS DE ${smesReferencia} POSSUI ${temDias} DIAS.</p>

@@ -29,24 +29,20 @@
             </div>
             <fieldset id="cFunc" >
                 <legend>Funcionário</legend>
-                <select name="" id="nomeFuncionario" onchange="mostraInfo()">
-                    <option value="">EM BRANCO</option>
-                  
+                <select name="" id="nomeFuncionario" onchange="removeCFunc()">
+                    <option value=" " >EM BRANCO</option>
+                    <!-- <option value="ANTONIO DURAES DE QUEIROZ">ANTONIO DURAES DE QUEIROZ</option>
+                    <option value="DAMARIZE ALMEIDA FONSECA">DAMARIZE ALMEIDA FONSECA</option>
+                    <option value="ELDER TADEU BOSSER">ELDER TADEU BOSSER</option>
+                    <option value="GLEITON APARECIDO SOARES DE SOUZA">GLEITON APARECIDO SOARES DE SOUZA</option>
+                    <option value="JHESSYK DAIENY REIS BRITO">JHESSYK DAIENY REIS BRITO</option>
+                    <option value="JOAO MARTINS GUEDES">JOAO MARTINS GUEDES</option>
+                    <option value="ROSALIA CARDOSO DOS SANTOS SOUZA">ROSALIA CARDOSO DOS SANTOS SOUZA</option>
+                    <option value="VANDER DE JESUS MAGALHAES NOBRE">VANDER DE JESUS MAGALHAES NOBRE</option> -->
                 </select>    
-                
-                <div id="mostraFuncionario">
-                    
-                </div>
-                <div id="enviarFo">
-                   <!-- <input type="text" name="" id="" placeholder="pa"> -->
-                    <!-- <a href="https://api.whatsapp.com/send?phone=553899167841&text=Olá, complete o cadastro de fulano, CPF: ${mostraFunc.cpf} e a admissão ${mostraFunc.admissao}, obrigado" target="_blank"><button onclick="enviarDados()">Enviar</button></a> -->
-                </div>
-                <div class="infoFuncionario">
-                </div>
-                
-                <!-- <i class="iconeCadastrar bi bi-arrow-clockwise" onclick="gerarFuncionario()" id="loadFunc">Carregar Funcionarios</i>             
+                <i class="iconeCadastrar bi bi-arrow-clockwise" onclick="gerarFuncionario()" id="loadFunc">Carregar Funcionarios</i>             
                     <i class="iconeCadastrar bi bi-person-plus-fill" onclick="abrirAviso()">Cadastrar</i>                
-                <td></td> -->
+                <td></td>
                 <input type="text" name="" id="" placeholder="Selecione anteriormente" hidden>
          
 
@@ -96,7 +92,6 @@
                     <option value="2020">2020</option>
                     <option value="2019">2019</option>
                     <option value="2019">2019</option>
-                    <option value="2018">2018</option>
                     <option value=" ">Em Branco</option>
                 </select>
                 <td>Ano:</td>
@@ -109,13 +104,9 @@
                     <select name="" id="iniM">
                         <option value="07:00">07:00</option>
                         <option value="08:00">08:00</option>
-                        <option value="06:00">06:00</option>
-                        <option value="05:00">05:00</option>
-                        <option value="04:00">04:00</option>
-                        <option value="03:00">03:00</option>
-                        <option value="02:00">02:00</option>
-                        <option value="01:00">01:00</option>
-                        <option value="00:00">00:00</option>
+                        <option value="07:00">06:00</option>
+                        <option value="07:00">05:00</option>
+                        <option value="07:00">04:00</option>
                         <option value="">Em Branco</option>
                         
                        
@@ -126,9 +117,9 @@
                     <select name="" id="fiM">
                         <option value="11:00">11:00</option>
                         <option value="12:00">12:00</option>
-                        <option value="13:00">13:00</option>
-                        <option value="10:00">10:00</option>
-                        <option value="09:00">09:00</option>
+                        <option value="11:00">13:00</option>
+                        <option value="11:00">10:00</option>
+                        <option value="11:00">09:00</option>
                         <option value="">Em Branco</option>
                         
                         
@@ -142,11 +133,6 @@
                     <select name="" id="iniT">
                         <option value="13:00">13:00</option>
                         <option value="12:00">12:00</option>
-                        <option value="14:00">14:00</option>
-                        <option value="15:00">15:00</option>
-                        <option value="16:00">16:00</option>
-                        <option value="17:00">17:00</option>
-                        <option value="18:00">18:00</option>
                         <option value="">Em Branco</option>
                     
                     </select>
@@ -166,7 +152,6 @@
             <div id="geradorL">
                 <button onclick="startFolha()"  >GERAR FOLHA DE PONTO</button>
                 <button onclick="loadP()">NOVO</button>
-                <a href="./folha.html"><button >VERSÃO ANTERIOR</button></a>
             </div>
             
         </fieldset>
@@ -282,11 +267,11 @@
                 </tr>
                 <tr>
                     <td>ENTRADA</td>
-                    <td>ASSINATURA DO FUNCIONÁRIO MUNICIPAL</td>
+                    <td>ASSINATURA</td>
                     <td>SAÍDA</td>
                     <td>ENTRADA</td>
                     <td>SAÍDA</td>
-                    <td>ASSINATURA DO FUNCIONÁRIO MUNICIPAL</td>
+                    <td>ASSINATURA</td>
                 </tr>
             </thead>
             <tbody class="tbod" id="tabelaData">
@@ -308,7 +293,7 @@
         </table>
     </div>
 </div>
-    <script src="/funcionario.js"></script>
+    <script src="/funcionariooriginal.js"></script>
 
 </body>
 
