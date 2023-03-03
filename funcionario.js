@@ -37,7 +37,7 @@ function abriForm() {
         <i class="bi bi-list-ol">Matricula:</i><input type="number" name="2 - Matricula" id="nMatricula" required> <br>
         <i class="bi bi-grid-3x3-gap">CPF:</i><input type="text" name="3 - CPF" id="nCPF" placeholder="Ex: 083.030.206-85" required> <br>
         <i class="bi bi-building-fill-down">Admissão</i><input type="date" name="4 - Admissão" id="nAdmissao" required> <br>
-        <i class="bi bi-person-workspace">Função</i><input type="text" name="" id="nFuncao" required> <br>
+        <i class="bi bi-person-workspace">Função</i><input type="text" name="05 - funcao" id="nFuncao" required> <br>
 
         <button type="submit" onclick="cadastrarFuncionario()">Cadastrar</button>                       
         <button onclick="fecharForm()" id="btnExcluir" >Excluir</button>
