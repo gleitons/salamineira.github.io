@@ -6,6 +6,56 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Arial,
     Helvetica, sans-serif;
 }
+.sCNPJ {
+  margin: auto;
+  text-align: center;
+}
+.sCNPJ span {
+  background-color: red;
+  font-size: 10px;
+  border-radius: 8px;
+  padding: 5px;
+  color: white;
+}
+.sCNPJ div {
+  margin: 20px 0;
+  background-color: white;
+  width: fit-content;
+  margin: auto;
+  padding: 15px 30px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.52) 0px 5px 10px 2px;
+}
+.sCNPJ2 {
+  margin: auto;
+  text-align: center;
+  width: fit-content;
+}
+.sCNPJ2 div div{
+ display: flex;
+ padding: 20px 0;
+ text-align: center;
+}
+.sCNPJ2 i {
+  background-color: red;
+  padding: 5px;
+  border-radius: 0px 8px 8px;
+  color: white;
+  cursor: pointer;
+}
+.mostraAnimaCNPJ {
+  background-color: white;
+  padding: 10px;
+  border-radius: 0px 0px 12px 12px;
+  box-shadow: inset  rgba(0, 0, 0, 0.425) 0px 2px 10px 0px;
+  animation: descCNPJ 500ms normal;
+}
+@keyframes descCNPJ {
+  0% {
+    opacity: 0;
+    margin-top: -100px;
+  }
+}
 .anucies {
   width: 100%;
   margin: auto;

@@ -51,18 +51,18 @@
             for (let idx = 6; idx <= alphabet.length; idx++) {
                 (function (indx) {
                     setTimeout(function () {
-                        var letra = alphabet[idx]
+                        var letra = 'a'//alphabet[idx]
                         console.log(letra)
 
 
                         var init = 1
-                        var limit = 20
+                        var limit = 50
 
                         for (let i = init; i <= limit; i++) {
                             (function (ind) {
                                 setTimeout(function () {
                                     console.log(i);
-                                    var url = `https://casadosdados.com.br/solucao/cnpj?q=${letra}&uf=MG&municipio=LAGOA%20DOS%20PATOS&page=${i}`
+                                    var url = `https://casadosdados.com.br/solucao/cnpj?q=${letra}&uf=MG&municipio=PIRAPORA&page=${i}`
                                     console.log(url)
                                     var saidaTag = document.querySelector('#dadospegados');
                                     fetch(url)

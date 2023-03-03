@@ -60,23 +60,24 @@
                 (function (ind) {
                     setTimeout(function () {
                         console.log(i);
-                        var url = `https://casadosdados.com.br/empresas/localidade/mg/pirapora`
-                        console.log(url)
+                        var url = `https://www.contabilizei.com.br/contabilidade-online/extrato-simples-nacional/`
+                        
                         var saidaTag = document.querySelector('#dadospegados');
                         fetch(url)
                             .then((resp) => resp.text())
                             .then(function (data) {
                                 Ver.innerHTML = data
-                                const paginas = document.getElementsByTagName('tbody');
+                                const paginas = document.getElementsByClassName('post__title');
 
-                                const tabelaCerta = paginas[0].getElementsByTagName('tr')
+                                const tabelaCerta = paginas[0].getElementsByTagName('h1')
+
 
 
                                 
 
                                 
-
-                                console.log(tabelaCerta.length)
+                                console.log(paginas)
+                                console.log(tabelaCerta)
 
                                
                                 //const empresaP = pesquisa[0].getElementsByTagName('a')
@@ -84,13 +85,7 @@
                                 //console.log(quantidadePaginas)
 
                                 //for (let i = 0; i < quantidadePaginas; i++) {
-                                for (let i = 0; i < tabelaCerta.length; i++) {
-                                    const tabelaLink = tabelaCerta[i].getElementsByTagName('a')[1];
-                                    const linkE = tabelaLink.href.replace('http://127.0.0.1:5500', '');
-                                    console.log(linkE)
-                                    pegarDados(`https://casadosdados.com.br${linkE}`)
-
-                                }//}
+                                
 
                                 //porPesquisa();
 

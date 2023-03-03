@@ -119,6 +119,53 @@
             <div class="adsTopo" id="ADSTopo">
 
             </div>
+            <div class="sCNPJ">
+                <div>
+                    <span>beta</span> Pesquise um CNPJ:  <input type="text" name="" id="pesquisaCN" placeholder="ex: 26300217000150" value="" ><input type="button" onclick=" buscaCNPJB()" value="Pesquisar">
+                </div>                
+            </div>
+            <div id="vejamosS" class=" sCNPJ2">
+                
+            </div>
+            <script>
+                function fecharCNP() {
+                    const vejamosS = document.querySelector('#vejamosS')
+                    vejamosS.innerHTML = '';
+                }
+               
+                async function buscaCNPJB() {
+                    //console.log(urlC)
+                    const vejamosS = document.querySelector('#vejamosS')
+                    const pesquisaCN = document.querySelector('#pesquisaCN').value
+                const urlC = `https://minhareceita.org/${pesquisaCN}`
+                console.log(urlC)
+                    const response = await fetch(urlC);
+                    const data = await response.json();
+                    console.log(data)
+                        vejamosS.innerHTML = `
+                        
+                        <div class="mostraAnimaCNPJ">
+                            <div>
+                                <h4>CNPJ: </h4><p> ${data.cnpj}</p>
+                            </div>
+                            <div>
+                                <h4>RAZÃO SOCIAL:</h4><p>${data.razao_social}</p>
+                            </div>
+                            <div>
+                                <h4>NOME FANTASIA:</h4><p>${data.nome_fantasia}</p>
+                            </div>
+                            <div>
+                                <h4>CIDADE:</h4><p>${data.municipio}</p>
+                            </div>
+                            <div>
+                                <h4>ENDEREÇO:</h4><p>${data.logradouro}</p>
+                            </div>
+                            <i class="bi bi-x-square-fill" onclick="fecharCNP()">FECHAR</i>
+                        </div>`
+                }
+                //buscaCNPJB()    
+                
+            </script>
             <div class="infoCentralizada">
                 <h1>Sala Mineira do Empreendedor de Lagoa dos Patos - MG</h1>
 
