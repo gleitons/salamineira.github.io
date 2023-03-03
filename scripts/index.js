@@ -81,6 +81,11 @@ function MenuPrincipal() {
     return menu;
 }
 
+function fechaProp() {
+    const fechaNiver = document.querySelector('.parabensLagoa')
+    fechaNiver.classList.toggle('disNone')
+}
+
 
 
 
