@@ -439,7 +439,7 @@ var bodyClasses = document.querySelector('#bodyClasse')
 
 console.log(verificas)
 
-if(verificas == 0) {
+if(verificas == 1) {
     bodyClasses.classList.add('bodyS')
 } else {
     bodyClasses.classList.remove('bodyS')
