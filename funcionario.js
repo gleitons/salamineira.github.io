@@ -112,12 +112,14 @@ async function mostraInfo() {
     
     data.map((mostraFunc) => {
         if(nomeFuncionario == mostraFunc.nome + " " + mostraFunc.cpf) {
-            mostraFuncionario.innerHTML = ` <p id="nommeDoFunc">NOME: ${mostraFunc.nome}</p>
-            <p>MATRICULA: <input type="text" name="" id="matriculaDoFunc" value="${mostraFunc.matricula}" placeholder="ex: 1745"></p>
-            <p>CPF: <input type="text" name="" id="cpfDoFunc" value="${mostraFunc.cpf}" placeholder="ex: 083.030.206-92"></p>
-            <p>ADMISSÃO: <input type="text" name="" id="admissaoDoFunc" value="${mostraFunc.admissao}" placeholder="ex: 21/12/21"></p>
-            <p id="cargoDoFunc">CARGO: ${mostraFunc.cargo}</p>
-            <a style="padding:5px; text-decoration:none; cursor:pointer; background-color: green; border:none; border-radius: 8px; color: white;"  onclick="enviarDados()"><button>Gerar Cadastro</button></a>`
+            mostraFuncionario.innerHTML = ` <div class="loadFuncionario">
+                <p id="nommeDoFunc">NOME: ${mostraFunc.nome}</p>
+                <p>MATRICULA: <input type="text" name="" id="matriculaDoFunc" value="${mostraFunc.matricula}" placeholder="ex: 1745"></p>
+                <p>CPF: <input type="text" name="" id="cpfDoFunc" value="${mostraFunc.cpf}" placeholder="ex: 083.030.206-92"></p>
+                <p>ADMISSÃO: <input type="text" name="" id="admissaoDoFunc" value="${mostraFunc.admissao}" placeholder="ex: 21/12/21"></p>
+                <p id="cargoDoFunc">CARGO: ${mostraFunc.cargo}</p>
+                <a style="padding:5px; text-decoration:none; cursor:pointer; background-color: green; border:none; border-radius: 8px; color: white;"  onclick="enviarDados()"><button>Gerar Cadastro</button></a>
+            </div>`
             
         }
     })
@@ -407,6 +409,40 @@ ${feriados[feriadoDia]}`
 //FIM FUNÇÃO IMPRIMIR FOLHA
 function imprimir() {
     window.print()
+}
+
+function modoNoite() {
+    var bodyClasse = document.querySelector('#bodyClasse')
+    bodyClasse.classList.toggle('bodyS');
+
+    const verifica = localStorage.getItem('modoDark')
+
+    console.log(verifica)
+
+    if(verifica == 0){
+        localStorage.setItem('modoDark', 1)
+    } else {
+        localStorage.setItem('modoDark', 0)
+    }
+
+   
+}
+if (localStorage.getItem('modoDark') === null) {    
+    localStorage.setItem('modoDark', 0);
+  } else {
+    // Copiando o array existente no localstorage e adicionando o novo objeto ao final.
+    localStorage.getItem('modoDark');
+  }
+    
+const verificas = localStorage.getItem('modoDark')
+var bodyClasses = document.querySelector('#bodyClasse')
+
+console.log(verificas)
+
+if(verificas == 0) {
+    bodyClasses.classList.add('bodyS')
+} else {
+    bodyClasses.classList.remove('bodyS')
 }
 
 function abrirAjuda() {
