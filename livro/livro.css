@@ -13,6 +13,27 @@
     height: 0px;
     overflow: hidden;
 }
+#infoCadastroF {
+    background-color: antiquewhite;
+    padding: 1em;
+    width: fit-content;
+    border-radius: 8px;
+    font-weight: 550;
+    box-shadow: rgba(0, 0, 0, 0.336) 0px 5px 10px 0px;
+    position: relative;
+    cursor: pointer;
+}
+#infoCadastroF::after {
+    content: "Clique para fechar";
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: .7em;
+    color: white;
+    background-color: rgba(202, 14, 14, 0.357);
+    padding: 3px;
+    border-radius: 8px;
+}
 .mostraFuncionario {
     background-color: #001f67;
     padding: 10px;

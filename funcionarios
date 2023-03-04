@@ -37,7 +37,7 @@
     "matricula": "1651",
     "cpf": "107.396.826-01",
     "admissao": "17/02/2016",
-    "cargo": "FISCAL DE TRANSPORTE ESCOLAR"
+    "cargo": "FISCAL DE TRANSPORTE ESCOLAR - MANUT.ATIV. TRANSPORTE ESC FUNDAM(EFET 118"
   },
   {
     "nome": "GLEITON APARECIDO SOARES DE SOUZA",
@@ -53,7 +53,7 @@
     "matricula": "1756",
     "cpf": "095.402.436-29",
     "admissao": "18/04/2016",
-    "cargo": "ASSISTENTE ADMINISTRATIVO"
+    "cargo": "ASSISTENTE ADMINISTRATIVO - MANUT. ATIV.SEC.MUN.FINANÇAS(COMISSIONADOS)"
   },
   {
     "nome": "JOAO MARTINS GUEDES",
@@ -69,7 +69,7 @@
     "matricula": "597",
     "cpf": "041.684.476-69",
     "admissao": "22/01/2008",
-    "cargo": "AUX DE SERV PUBLICOS-OPERARIO"
+    "cargo": "AUX DE SERV PUBLICOS-OPERARIO - MANUT.ATIV. TRANSPORTE ESC FUNDAM(EFET 118)"
   },
   {
     "nome": "JOSE GERALDO SANTOS",
@@ -77,7 +77,7 @@
     "matricula": "315",
     "cpf": "369.155.136-04",
     "admissao": "01/02/2000",
-    "cargo": "AUXILIAR DE SERVICOS GERAIS"
+    "cargo": "AUXILIAR DE SERVICOS GERAIS - MANUT.ATIV.SEC.MUN.TRANSPORTE(EFETIVO)"
   },
   {
     "nome": "NATALINO PEREIRA DE ARAUJO",
@@ -109,7 +109,7 @@
     "matricula": "1771",
     "cpf": "094.866.516-55",
     "admissao": "01/06/2016",
-    "cargo": "AUX DE SERV PUBLICOS-OPERARIO"
+    "cargo": "AUX DE SERV PUBLICOS-OPERARIO - MANUT.ATIV. TRANSPORTE ESC FUNDAM(EFET 118)"
   },
   {
     "nome": "HIAGO ALVES ARAUJO",
@@ -117,7 +117,7 @@
     "matricula": "1658",
     "cpf": "117.611.286-47",
     "admissao": "17/02/2016",
-    "cargo": "COND. DE VEIC. PESADOS HAB. D"
+    "cargo": "COND. DE VEIC. PESADOS HAB. D - MANUT. ATIV.TRANSPORTE ENS SUPERIOR(EFET 100)"
   },
   {
     "nome": "TORQUATO EURIPEDES JESUS NOBRE",
@@ -133,7 +133,7 @@
     "matricula": "2050",
     "cpf": "554.237.366-68",
     "admissao": "14/03/2019",
-    "cargo": "COND. DE VEIC. PESADOS HAB. D"
+    "cargo": "COND. DE VEIC. PESADOS HAB. D - MANUT.ATIV.SEC.MUN.TRANSPORTE(EFETIVO)"
   },
   {
     "nome": "MARDEN DIAS GONCALVES",
@@ -149,7 +149,7 @@
     "matricula": "1692",
     "cpf": "075.873.166-39",
     "admissao": "02/03/2016",
-    "cargo": "AUX DE SERV PUBLICOS-OPERARIO"
+    "cargo": "AUX DE SERV PUBLICOS-OPERARIO - MANT.ATIV.ADMI.SEC.MUN.OBR/TRA/SER (SECRETARIO)"
   },
   {
     "nome": "MARCOS VIEIRA DA FONSECA",
@@ -192,28 +192,12 @@
     "cargo": "COND. DE VEIC. PESADOS HAB. D MANUT.ATIV.SEC.MUN.TRANSPORTE(EFETIVO)"
   },
   {
-    "nome": "ABRAAO PEREIRA DA SILVA",
-    "nomeFolha": "",
-    "matricula": "1",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "COND. DE VEIC. PESADOS HAB. D - MANUT.ATIV.SEC.MUN.TRANSPORTE(EFETIVO)"
-  },
-  {
     "nome": "ADAIR MAGALHAES NOBRE",
     "nomeFolha": "",
     "matricula": "2259",
     "cpf": "",
     "admissao": "",
     "cargo": "COND. DE VEIC. LEVES-HAB.- B - MANUT.ATIV.SEC.MUN.TRANSPORTE(EFETIVO)"
-  },
-  {
-    "nome": "ADELINA RODRIGUES SANTOS",
-    "nomeFolha": "",
-    "matricula": "662",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "TEC. PEDAG. OME - APOSENTADO - INATIVOS E PENSIONISTAS- APOSENTAD- REC15000000"
   },
   {
     "nome": "ADRIANA ELEUTERIO CORDEIRO",
@@ -237,7 +221,7 @@
     "matricula": "2260",
     "cpf": "",
     "admissao": "",
-    "cargo": "CHEFE DE SE«√O - MANUT.ATIV.ADMIN.SEC.MUN.OB/TRANSP/SERV (COMISS)"
+    "cargo": "CHEFE DE SEÇÃO - MANUT.ATIV.ADMIN.SEC.MUN.OB/TRANSP/SERV (COMISS)"
   },
   {
     "nome": "ALAN JUNIOR PEREIRA AMORIM",
@@ -350,14 +334,6 @@
     "cpf": "",
     "admissao": "",
     "cargo": "SEC. MUN. AGRICUL. E MEIO AMB. - MANUT.ATIV.SEC.MUN.AGROP.M.AMBIEN.(SECRETARIO)"
-  },
-  {
-    "nome": "ANTONIO FRANCISCO PERES",
-    "nomeFolha": "",
-    "matricula": "617",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "PENSIONISTA - INATIVOS E PENSIONISTAS (PENSIONISTAS)"
   },
   {
     "nome": "APARECIDA DA GUIA CARDOSO",
@@ -816,14 +792,6 @@
     "cargo": "PROFESSOR - MANUT.ATIV.ENSINO INFA.CRECHE(EFET 118)"
   },
   {
-    "nome": "EDSON PEREIRA CAETANO",
-    "nomeFolha": "",
-    "matricula": "1651",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "FISCAL DE TRANSPORTE ESCOLAR - MANUT.ATIV. TRANSPORTE ESC FUNDAM(EFET 118)"
-  },
-  {
     "nome": "EDSON RAMOS DE SOUZA",
     "nomeFolha": "",
     "matricula": "1701",
@@ -1053,7 +1021,7 @@
     "matricula": "1950",
     "cpf": "",
     "admissao": "",
-    "cargo": "TEC. NIVEL MEDIO EM POLIT SOC. - MANUT. ATIV.GEST√O IGD-PAB EFET32785-9"
+    "cargo": "TEC. NIVEL MEDIO EM POLIT SOC. - MANUT. ATIV.GESTÃO IGD-PAB EFET32785-9"
   },
   {
     "nome": "FABRICIA FONSECA RAMOS MORAIS",
@@ -1086,14 +1054,6 @@
     "cpf": "",
     "admissao": "",
     "cargo": "PROFESSOR - MANUT.ATIV.ENSINO FUNDAMENTAL(EFET-118)"
-  },
-  {
-    "nome": "FRANCISCO DA SOLEDADE ARAUJO",
-    "nomeFolha": "",
-    "matricula": "2050",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "COND. DE VEIC. PESADOS HAB. D - MANUT.ATIV.SEC.MUN.TRANSPORTE(EFETIVO)"
   },
   {
     "nome": "GEDEON EMANUEL CARDOSO DE OLIVEIRA",
@@ -1157,7 +1117,7 @@
     "matricula": "1949",
     "cpf": "",
     "admissao": "",
-    "cargo": "TEC. NIVEL MEDIO EM POLIT SOC. - MANUT.ATIV.GEST√O BOLSA FAMILIA( EFET 100)"
+    "cargo": "TEC. NIVEL MEDIO EM POLIT SOC. - MANUT.ATIV.GESTÃO BOLSA FAMILIA( EFET 100)"
   },
   {
     "nome": "GESLANE SOUZA DE JESUS",
@@ -1229,7 +1189,7 @@
     "matricula": "2265",
     "cpf": "",
     "admissao": "",
-    "cargo": "CHEFE DE SE«√O - MANUT.ATIV.SEC.MUM.ADMINISTRAÇÃO(COMISSIONADO)"
+    "cargo": "CHEFE DE SEÇÃO - MANUT.ATIV.SEC.MUM.ADMINISTRAÇÃO(COMISSIONADO)"
   },
   {
     "nome": "HERCULES VANDY DURAES DA FONSECA",
@@ -1238,14 +1198,6 @@
     "cpf": "",
     "admissao": "",
     "cargo": "PREFEITO - MANUT. ATIV.GABINETE DO PREFEITO (PREFEITO)"
-  },
-  {
-    "nome": "HIAGO ALVES ARAUJO",
-    "nomeFolha": "",
-    "matricula": "1658",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "COND. DE VEIC. PESADOS HAB. D - MANUT. ATIV.TRANSPORTE ENS SUPERIOR(EFET 100)"
   },
   {
     "nome": "HIGO FONSECA SOARES",
@@ -1400,14 +1352,6 @@
     "cargo": "PROFESSOR AUXILIAR - MONITOR - MANUT.ATIV.ENSINO FUNDAMENTAL(EFET-118)"
   },
   {
-    "nome": "JHESSYK DAIENY REIS BRITO",
-    "nomeFolha": "",
-    "matricula": "1756",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "ASSISTENTE ADMINISTRATIVO - MANUT. ATIV.SEC.MUN.FINANÇAS(COMISSIONADOS)"
-  },
-  {
     "nome": "JOANA D ARC APARECIDA DOS REIS GONCALVES",
     "nomeFolha": "",
     "matricula": "296",
@@ -1480,36 +1424,12 @@
     "cargo": "COND. DE VEIC. PESADOS HAB. D - MANUT CENTRO DE SAUDE - ATENÇÃO BÁSICA EF159"
   },
   {
-    "nome": "JOSE CAMILO NETO",
-    "nomeFolha": "",
-    "matricula": "1692",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "AUX DE SERV PUBLICOS-OPERARIO - MANT.ATIV.ADMI.SEC.MUN.OBR/TRA/SER (SECRETARIO)"
-  },
-  {
-    "nome": "JOSE CARLOS ALMEIDA GONCALVES",
-    "nomeFolha": "",
-    "matricula": "597",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "AUX DE SERV PUBLICOS-OPERARIO - MANUT.ATIV. TRANSPORTE ESC FUNDAM(EFET 118)"
-  },
-  {
     "nome": "JOSE DA PASCOA DE ALMEIDA",
     "nomeFolha": "",
     "matricula": "77",
     "cpf": "",
     "admissao": "",
     "cargo": "AUXILIAR DE SERVICOS GERAIS - MANUT.ATIV. SERV DE LIMP.CONSERV.URB.(EFETIVO)"
-  },
-  {
-    "nome": "JOSE DA SOLEDADE DA GUIA",
-    "nomeFolha": "",
-    "matricula": "132",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "COND. DE VEIC. PESADOS HAB. D - MANUT.ATIV. SERV DE LIMP.CONSERV.URB.(EFETIVO)"
   },
   {
     "nome": "JOSE DE ARAUJO SANTOS JUNIOR",
@@ -1552,36 +1472,12 @@
     "cargo": "AUXILIAR DE SERVICOS GERAIS - MANUT.ATIV. TRANSPORTE ESC FUNDAM(EFET 118)"
   },
   {
-    "nome": "JOSE GERALDO BARBOSA DA SILVA",
-    "nomeFolha": "",
-    "matricula": "1702",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "AUXILIAR DE SERVICOS GERAIS - MANUT.ATIV. SERV DE LIMP.CONSERV.URB.(EFETIVO)"
-  },
-  {
-    "nome": "JOSE GERALDO SANTOS",
-    "nomeFolha": "",
-    "matricula": "315",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "AUXILIAR DE SERVICOS GERAIS - MANUT.ATIV.SEC.MUN.TRANSPORTE(EFETIVO)"
-  },
-  {
     "nome": "JOSE HUMBERTO RIBEIRO DA CRUZ",
     "nomeFolha": "",
     "matricula": "2189",
     "cpf": "",
     "admissao": "",
     "cargo": "MEDICO-CLINICO GERAL - MANUT ATIV PROG ESTRAT SAUDE FAM ESF(CONT155)"
-  },
-  {
-    "nome": "JOSE LAUDELINO NETO",
-    "nomeFolha": "",
-    "matricula": "38",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "PENSIONISTA - INATIVOS E PENSIONISTAS (PENSIONISTAS)"
   },
   {
     "nome": "JOSIELE DOS REIS OLIVEIRA",
@@ -1872,10 +1768,10 @@
     "cargo": "PROFESSOR AUXILIAR - MONITOR - MANUT.ATIV.ENSINO FUNDAMENTAL(EFET-118)"
   },
   {
-    "nome": "MARCIA DAGMAR SOARES",
+    "nome": "MARCIA DAGMAR SOARES SILVA",
     "nomeFolha": "",
     "matricula": "342",
-    "cpf": "",
+    "cpf": "959.513.426-00",
     "admissao": "",
     "cargo": "GARI - MANUT.ATIV. ENSINO FUNDAMENTAL( EFETIVO 101)"
   },
@@ -1902,14 +1798,6 @@
     "cpf": "",
     "admissao": "",
     "cargo": "PROFESSOR - MANUT.ATIV.ENSINO FUNDAMENTAL(EFET-118)"
-  },
-  {
-    "nome": "MARCOS VIEIRA DA FONSECA",
-    "nomeFolha": "",
-    "matricula": "1661",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "COND. DE VEIC. PESADOS HAB. D - MANUT.ATIV.CONSER E MELHOR ESTRAD VICINAIS(EFE100)"
   },
   {
     "nome": "MARDEN DIAS GONCALVES",
@@ -2064,14 +1952,6 @@
     "cargo": "PROFESSOR AUXILIAR - MONITOR - MANUT.ATIV. ENSINO ESPECIAL( EFETIVO118)"
   },
   {
-    "nome": "MARIA NEIDE RABELO CARDOSO",
-    "nomeFolha": "",
-    "matricula": "47",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "SEC. JSM - APOSENTADO - INATIVOS E PENSIONISTAS- APOSENTAD- REC15000000"
-  },
-  {
     "nome": "MARIA NILDE DA SILVA",
     "nomeFolha": "",
     "matricula": "465",
@@ -2224,14 +2104,6 @@
     "cargo": "PROFESSOR - MANUT. ENSINO PRE ESCOLA- CONTR- REC15400007"
   },
   {
-    "nome": "MIGUELA ROSA DE OLIVEIRA",
-    "nomeFolha": "",
-    "matricula": "644",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "PENSIONISTA - INATIVOS E PENSIONISTAS (PENSIONISTAS)"
-  },
-  {
     "nome": "MIRIAN BRAGA SIQUEIRA",
     "nomeFolha": "",
     "matricula": "225",
@@ -2277,7 +2149,7 @@
     "matricula": "2200",
     "cpf": "",
     "admissao": "",
-    "cargo": "CHEFE DE SE«√O - MANUT.ATIV.SEC.MUM.ADMINISTRAÇÃO(COMISSIONADO)"
+    "cargo": "CHEFE DE SEÇÃO - MANUT.ATIV.SEC.MUM.ADMINISTRAÇÃO(COMISSIONADO)"
   },
   {
     "nome": "OLGA REGIANE FERREIRA BARBOSA",
@@ -2333,7 +2205,7 @@
     "matricula": "2258",
     "cpf": "",
     "admissao": "",
-    "cargo": "CHEFE DE SE«√O - MANUT.ATIV.ADMIN.CULT. ESPOR E LAZER(COMISS)"
+    "cargo": "CHEFE DE SEÇÃO - MANUT.ATIV.ADMIN.CULT. ESPOR E LAZER(COMISS)"
   },
   {
     "nome": "PEDRO SERGIO SILVA",
@@ -2513,14 +2385,6 @@
     "cargo": "ENFERMEIRO - MANUTEN«√O DO CENTRO DE SAUDE CONT159"
   },
   {
-    "nome": "SEBASTIANA PEREIRA DE OLIVEIRA",
-    "nomeFolha": "",
-    "matricula": "615",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "PROFESSOR - APOSENTADO - INATIVOS E PENSIONISTAS- APOSENTAD- REC15000000"
-  },
-  {
     "nome": "SEBASTIAO CLAUDIO REIS",
     "nomeFolha": "",
     "matricula": "1663",
@@ -2615,14 +2479,6 @@
     "cpf": "",
     "admissao": "",
     "cargo": "MOTORISTA HABILITACAO - A - MANUT.ATIV.CONSER E MELHOR ESTRAD VICINAIS(EFE100)"
-  },
-  {
-    "nome": "TORQUATO EURIPEDES JESUS NOBRE",
-    "nomeFolha": "",
-    "matricula": "264",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "COND. DE VEIC. PESADOS HAB. D - MANUT.ATIV. TRANSPORTE ESC FUNDAM(EFET 118)"
   },
   {
     "nome": "VALDECI FERREIRA DOS SANTOS",
@@ -2775,14 +2631,6 @@
     "cpf": "",
     "admissao": "",
     "cargo": "MOTORISTA HABILITACAO - A - MANUT CENTRO DE SAUDE - ATENÇÃO BÁSICA EF159"
-  },
-  {
-    "nome": "WILLIAN SHELTON FERREIRA NOBRE",
-    "nomeFolha": "",
-    "matricula": "1771",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "AUX DE SERV PUBLICOS-OPERARIO - MANUT.ATIV. TRANSPORTE ESC FUNDAM(EFET 118)"
   },
   {
     "nome": "ZENAIDE APARECIDA PEREIRA XAVIER",

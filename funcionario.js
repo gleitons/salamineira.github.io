@@ -6,6 +6,47 @@ if (sUsrAg.indexOf("Firefox") > -1) {
     alert("UTILIZE O GOOGLE CHROME, PARA UTILIZAR O SISTEMA CORRETAMENTE, ");
 }
 
+function fecharIn() {
+    const informacoes = document.querySelector('#fechT')
+    informacoes.innerHTML = ''
+}
+async function infoCadastroFu() {
+    const informacoes = document.querySelector('#infoCadastroF')
+    
+    const response = await fetch(urlL)
+    const data = await response.json();
+
+    // data.sort( function(a,b) {
+    //     if(a.nome > b.nome) return 1;
+    //     if(a.nome < b.nome) return -1;
+    //     return 0
+    // }) ;
+    var comCPF = 0
+    var semCPF = 0
+    var admiss = 0
+    var semadmiss = 0
+    
+    data.map((mostraFunc) => {
+        if(mostraFunc.cpf.length > 0){
+            comCPF = comCPF + 1
+        } else {
+            semCPF = semCPF + 1
+        }
+        if(mostraFunc.admissao.length > 0){
+            admiss = admiss + 1
+        } else {
+            semadmiss = semadmiss + 1
+        }
+
+        informacoes.innerHTML = `
+        Servidores Cadastrados: ${data.length} <br>
+        CPF incluído: ${comCPF}<br>
+        Sem CPF: ${semCPF}<br>
+        Com Admissão: ${admiss}<br>
+        Sem Admissão: ${semadmiss}<br>`
+    })
+}
+infoCadastroFu()
 async function carregaFuncionarios() {
     const nomeFuncionario = document.querySelector('#nomeFuncionario')
     const funcionarioInfo = document.querySelector('.infoFuncionario')
@@ -361,7 +402,7 @@ ${feriados[feriadoDia]}`
     titleFol.innerHTML = comparaFuncionario + " - " + smesReferencia + "-" + anoReferencia
     window.print()
     geradorL.innerHTML = `<button onclick=" imprimir()"  >IMPRIMIR NOVAMENTE</button>
-    <button onclick="loadP()">NOVO</button>`
+    <button onclick="location.reload()">NOVO</button>`
 }
 //FIM FUNÇÃO IMPRIMIR FOLHA
 function imprimir() {
