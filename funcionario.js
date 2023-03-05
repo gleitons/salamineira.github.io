@@ -16,17 +16,18 @@ async function infoCadastroFu() {
     const response = await fetch(urlL)
     const data = await response.json();
 
-    // data.sort( function(a,b) {
-    //     if(a.nome > b.nome) return 1;
-    //     if(a.nome < b.nome) return -1;
-    //     return 0
-    // }) ;
+    data.sort( function(a,b) {
+        if(a.nome > b.nome) return 1;
+        if(a.nome < b.nome) return -1;
+        return 0
+    }) ;
     var comCPF = 0
     var semCPF = 0
     var admiss = 0
     var semadmiss = 0
     
     data.map((mostraFunc) => {
+        //nomess.innerHTML += mostraFunc.nome + `<br>`
         if(mostraFunc.cpf.length > 0){
             comCPF = comCPF + 1
         } else {
