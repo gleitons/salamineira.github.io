@@ -77,6 +77,29 @@
   padding: 3px;
   border-radius: 8px;
 }
+#lisServidor {
+  height: 100px;
+  overflow: hidden;
+  border: #000000 solid 1px;
+}
+.servidorSelecionado {
+  background-image: linear-gradient( 135deg, #9708CC 10%, #43CBFF 100%);
+  margin: 10px 0;
+  font-size: 1em; 
+  padding: 5px;
+  font-weight: 700;
+  color: white;
+  width: 50%;
+  border-radius: 8px;
+  cursor: pointer;
+  
+}
+.servidorSelecionado:hover {
+  background-image: linear-gradient( 135deg, #b527e9 10%, #71d1f7 100%);
+  box-shadow: black 0px 2px 10px 0px;
+  font-size: 1.1em; 
+  transition: 200ms;
+}
 #mostraFuncionario {
   background-color: #45878c;
   padding: 10px;
@@ -85,6 +108,13 @@
   width: fit-content;
   color: white;
   font-weight: 500;
+}
+.buscaServidor  input {
+  padding: 8px;
+  color: #000000;
+  font-weight: 600;
+  border-radius: 8px;
+  margin: 10px 0;
 }
 #mostraFuncionario  input {
     padding: 8px;

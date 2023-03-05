@@ -60,9 +60,12 @@ async function carregaFuncionarios() {
         return 0
     }) ;
     
-    data.map((mostraFunc) => {
+    data.map((mostraFunc, i) => {
+        loadFuncionario.innerHTML = ''
+        listServidor.innerHTML += `<li class="servidorSelecionado" id="servidorSelecionado${i}" value="${mostraFunc.nome}" onclick="mostraInfo(${i})">${mostraFunc.nome} ${mostraFunc.cpf}</li>`
         const optionGera = document.createElement('option');
         optionGera.setAttribute('value', `${mostraFunc.nome} `);
+        optionGera.setAttribute('class', 'buscaOption')
         optionGera.textContent = `${mostraFunc.nome} ${mostraFunc.cpf}`
 
         const divFunci = document.createElement('div')
@@ -100,7 +103,8 @@ async function carregaFuncionarios() {
 }
 carregaFuncionarios();
 
-async function mostraInfo() {
+async function mostraInfo(idF) {
+    const porSearch = document.querySelector(`#servidorSelecionado${idF}`).innerHTML
     const nomeFuncionarioOne = document.querySelector('#nomeFuncionario');
     const mostraFuncionario = document.querySelector('#mostraFuncionario');
     
@@ -112,7 +116,8 @@ async function mostraInfo() {
     const data = await response.json();
     
     data.map((mostraFunc) => {
-        if(nomeFuncionario == mostraFunc.nome + " " + mostraFunc.cpf) {
+        
+        if(nomeFuncionario == mostraFunc.nome + " " + mostraFunc.cpf ||  porSearch == mostraFunc.nome + " " + mostraFunc.cpf) {
             mostraFuncionario.innerHTML = ` <div class="loadFuncionario">
                 <p id="nommeDoFunc">NOME: ${mostraFunc.nome}</p>
                 <p>MATRICULA: <input type="text" name="" id="matriculaDoFunc" value="${mostraFunc.matricula}" placeholder="ex: 1745"></p>
@@ -143,7 +148,6 @@ function enviarDados() {
 
     
 
-    console.log(cpfDoFunc)
 }
 //acima agora abaixo corrigir
 
@@ -308,7 +312,7 @@ async function imprimLivro() {
     const cargoDoFunc = document.querySelector('#cargoDoFunc').innerHTML;
     const enviarFo = document.querySelector('#enviarFo')
 
-    console.log(nommeDoFunc)
+    
 
     data.map((func) => {
         if (func.nome == nommeDoFunc) {
@@ -418,7 +422,7 @@ function modoNoite() {
 
     const verifica = localStorage.getItem('modoDark')
 
-    console.log(verifica)
+   
 
     if(verifica == 0){
         localStorage.setItem('modoDark', 1)
@@ -438,7 +442,7 @@ if (localStorage.getItem('modoDark') === null) {
 const verificas = localStorage.getItem('modoDark')
 var bodyClasses = document.querySelector('#bodyClasse')
 
-console.log(verificas)
+
 
 if(verificas == 1) {
     bodyClasses.classList.add('bodyS')
@@ -520,7 +524,7 @@ function verificaLocal() {
     console.log(typeof arraySalvo)
     if (arraySalvo == typeof String) {
         gerarFuncionario()
-        console.log(arraySalvo.length)
+        
 
 
     } else {
@@ -532,5 +536,5 @@ const funcionariosFunc = []
 function cadastroFuncionario() {
     const addFuncionario = arrayFuncionario();
 
-    console.log(addFuncionario)
+   
 }

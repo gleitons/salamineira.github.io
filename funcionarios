@@ -1629,7 +1629,7 @@
     "nomeFolha": "",
     "matricula": "342",
     "cpf": "959.513.426-00",
-    "admissao": "",
+    "admissao": "01/04/2001",
     "cargo": "GARI - MANUT.ATIV. ENSINO FUNDAMENTAL( EFETIVO 101)"
   },
   {
@@ -1983,14 +1983,6 @@
     "cpf": "",
     "admissao": "",
     "cargo": "AUX. SERV. DIVERSOS EM SAUDE - MANUT. AGENTES COMUNIT. DE SAÚDE- EFET- R16000000"
-  },
-  {
-    "nome": "NATALINO PEREIRA DE ARAUJO",
-    "nomeFolha": "",
-    "matricula": "254",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "ASSISTENTE EDUCACIONAL - MANUT.ATIV.SEC.MUM.ADMINISTRAÇÃO(COMISSIONADO)"
   },
   {
     "nome": "NIUMAR PEREIRA XAVIER",
@@ -2633,14 +2625,6 @@
     "cargo": "COND. DE VEIC. PESADOS HAB. D - MANUT.ATIV. TRANSPORTE ESC FUNDAM(EFET 118)"
   },
   {
-    "nome": "NATALINO PEREIRA DE ARAUJO",
-    "nomeFolha": "",
-    "matricula": "254",
-    "cpf": "085.076.596-08",
-    "admissao": "01/01/2008",
-    "cargo": "ASSISTENTE EDUCACIONAL"
-  },
-  {
     "nome": "MIGUELA CASSIA DE JESUS AMARAL",
     "nomeFolha": "",
     "matricula": "2236",
@@ -2783,14 +2767,6 @@
     "cpf": "056.880.976-98",
     "admissao": "",
     "cargo": "AUX. DE SERV. GERAIS DA EDUCAÇÃO - MANUT.ATIV.ENSINO FUNDAMENTAL(EFET-118)"
-  },
-  {
-    "nome": "GLEITON APARECIDO SOARES DE SOUZA",
-    "nomeFolha": "",
-    "matricula": "1749",
-    "cpf": "26.300.217/0001-00",
-    "admissao": "01/04/2016",
-    "cargo": "AGENTE ADMINIST. FAZENDARIO - MANUT.ATIV.SEC.MUN.FINANÇAS (EFETIVOS)"
   },
   {
     "nome": "MARLEUDE APARECIDA PEREIRA RAMOS",
@@ -3327,15 +3303,7 @@
     "cpf": "109.072.296-62",
     "admissao": "",
     "cargo": "MONITOR DE CRECHE - MANUT.ATIV.ENSINO INFA.CRECHE(EFET 118)"
-  },
-  {
-    "nome": "GLEITON APARECIDO SOARES DE SOUZA",
-    "nomeFolha": "",
-    "matricula": "1749",
-    "cpf": "083.030.206-92",
-    "admissao": "01/04/2016",
-    "cargo": "AGENTE ADMINIST. FAZENDARIO - MANUT.ATIV.SEC.MUN.FINANÇAS (EFETIVOS)"
-  },
+  } ,
   {
     "nome": "GERALDO TEIXEIRA GONCALVES JUNIOR",
     "nomeFolha": "",

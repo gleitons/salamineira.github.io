@@ -12,9 +12,9 @@
 
 <body>
     <div id="veja"></div>
-    <div id="dadospegados">
+    <div id="dadospegados" >
     </div>
-    <div id="Ver">
+    <div id="Ver" style="display: none;">
 
     </div>
 
@@ -41,9 +41,14 @@
         }
         //linkL()
 
-
-        var funcioArray = []
-        function porPesquisa() {
+        if(localStorage.getItem('funcionarios') == null){
+            var funcioArray = []
+        } else {
+            const arraAntes = JSON.parse(localStorage.getItem('funcionarios'))
+            var funcioArray = arraAntes
+        }
+        
+       function porPesquisa() {
             //https://casadosdados.com.br/solucao/cnpj?q=0&uf=MG&municipio=MONTES%20CLAROS&page=1
             //https://casadosdados.com.br/solucao/cnpj?q=${letra}&uf=RS&page=${i}
 
@@ -53,8 +58,8 @@
 
 
 
-            var init = 1
-            var limit = 41292
+            var init = 40000
+            var limit = 42000 
 
             console.log('carregando...')
             for (let i = init; i <= limit; i++) {
@@ -64,11 +69,13 @@
                         var url = `http://177.152.105.125:8070/ecidade_transparencia/folha_pagamentos/view/${i}`
                         
                         var saidaTag = document.querySelector('#dadospegados');
+                       
                         fetch(url)
                             .then((resp) => resp.text())
                             .then(function (data) {
                                 Ver.innerHTML = data
                                 const paginas = document.getElementsByTagName('tbody');
+                                saidaTag.innerHTML = i
 
                                 const tabelaCerta = paginas[0].getElementsByTagName('tr');
                                 const nome = tabelaCerta[1].getElementsByTagName('th')[0].innerText
@@ -88,12 +95,16 @@
                                   }
                                 
                                   funcioArray.push(funcion)
+                                  const textoJ = JSON.stringify(funcioArray)
 
-                                console.log(i)
+                                  localStorage.setItem('funcionarios', textoJ)
 
-                                if(funcioArray.length ==limit){
-                                    console.log( (JSON.stringify(funcioArray)))
-                                }
+                                //console.log(i)
+
+                               // if(funcioArray.length ==limit){
+                                   
+                                    
+                               // }
 
                               
 
@@ -129,10 +140,11 @@
                             .catch(function (error) {
                                 console.log(error)
                             });
-                    }, 1000 + (100 * ind));
+                    }, 1 + (10 * ind));
                 })(i);
             }
         }
+    
 
         porPesquisa()
 
@@ -313,7 +325,7 @@
         }
 
     </script>
-    <link rel="stylesheet" href="/fetch.css">
+    <!-- <link rel="stylesheet" href="/fetch.css"> -->
 </body>
 
 </html>
