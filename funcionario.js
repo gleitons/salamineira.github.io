@@ -62,7 +62,8 @@ async function carregaFuncionarios() {
     
     data.map((mostraFunc, i) => {
         loadFuncionario.innerHTML = ''
-        listServidor.innerHTML += `<li class="servidorSelecionado" id="servidorSelecionado${i}" value="${mostraFunc.nome}" onclick="mostraInfo(${i})">${mostraFunc.nome} ${mostraFunc.cpf}</li>`
+        listServidor.innerHTML += `<li class="servidorSelecionado" onmouseover="PlaySound('mySound')" 
+        onmouseout="StopSound('mySound')" id="servidorSelecionado${i}" value="${mostraFunc.nome}" onclick="mostraInfo(${i})">${mostraFunc.nome} ${mostraFunc.cpf}</li>`
         const optionGera = document.createElement('option');
         optionGera.setAttribute('value', `${mostraFunc.nome} `);
         optionGera.setAttribute('class', 'buscaOption')
