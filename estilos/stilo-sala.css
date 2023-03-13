@@ -43,12 +43,26 @@
   color: white;
   cursor: pointer;
 }
+.sCNPJ2 i:hover{
+  background-color: rgb(231, 94, 94);
+}
 .mostraAnimaCNPJ {
   background-color: white;
   padding: 10px;
   border-radius: 0px 0px 12px 12px;
   box-shadow: inset  rgba(0, 0, 0, 0.425) 0px 2px 10px 0px;
   animation: descCNPJ 500ms normal;
+}
+.mostraAnimaCNPJ div {
+  gap: 10px;
+  border: black solid 1px;
+  
+}
+.mostraAnimaCNPJ div h4 {  
+  margin-left: 10px;
+}
+.mostraAnimaCNPJ div p {  
+  margin-right: 10px;
 }
 @keyframes descCNPJ {
   0% {

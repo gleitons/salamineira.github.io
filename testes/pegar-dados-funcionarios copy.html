@@ -51,7 +51,7 @@
 
         function porPesquisa() {
             var init = 1
-            var limit = 2 
+            var limit = 1000   
             console.log('carregando...')
             for (let i = init; i <= limit; i++) {
                 (function (ind) {
@@ -63,22 +63,26 @@
                             .then(function (data) {
                                 Ver.innerHTML = data
                                 const paginas = document.getElementsByTagName('tbody');
+                                const valores = paginas[1].getElementsByTagName('tr');
                                 saidaTag.innerHTML = i
                                 const tabelaCerta = paginas[0].getElementsByTagName('tr');
                                 const nome = tabelaCerta[1].getElementsByTagName('th')[0].innerText
                                 const cargoOne = tabelaCerta[3].getElementsByTagName('th')[0].innerText
                                 const cargoTwo = tabelaCerta[4].getElementsByTagName('th')[0].innerText
                                 const admissao = tabelaCerta[3].getElementsByTagName('th')[1].innerText;
-                               
-                             
+                                const salario = valores[4].getElementsByTagName('td')[2].textContent
+                                const desconto = valores[5].getElementsByTagName('td')[2].textContent
+                                const anosMes = tabelaCerta[0].getElementsByTagName('th')[0].textContent
+                                console.log(anosMes)
 
 
                                 const funcion = {
                                     "nome": nome,
+                                    "anomes": anosMes,
                                     "matricula": "",
                                     "cpf": "",
-                                    "salario": "",
-                                    "desconto": "",
+                                    "salario": salario.replace(/ /g, '').replace(/\n/g, ''),
+                                    "desconto": desconto.replace(/ /g, '').replace(/\n/g, ''),
                                     "admissao": admissao,
                                     "cargo": cargoOne + cargoTwo
                                 }

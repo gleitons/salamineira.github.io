@@ -19,6 +19,7 @@ for (let index = 0; index < feriados.length; index++) {
 
 
     if (diaD == 6 || diaD == 0) {
+        
 
         funciona.innerHTML = `<div class="funcionamento cvermelho">
         <div >
