@@ -120,10 +120,11 @@
             <div class="adsTopo" id="ADSTopo">
 
             </div>
+            <!-- http://177.152.105.125:8070/e-cidadeonline/digitaconsultaprocesso.php -->
             <div class="sCNPJ">
                 <div>
                     <span>beta</span> Pesquise um CNPJ: <input type="text" name="" id="pesquisaCN"
-                        placeholder="ex: 26300217000150" value=""><input type="button" onclick=" buscaCNPJB()"
+                        placeholder="ex: 26300217000150" value="26300217000100"><input type="button" onclick=" buscaCNPJB()"
                         value="Pesquisar">
                 </div>
             </div>
@@ -138,30 +139,33 @@
 
                 async function buscaCNPJB() {
                     //console.log(urlC)
+                    var ati = []
                     const vejamosS = document.querySelector('#vejamosS')
                     const pesquisaCN = document.querySelector('#pesquisaCN').value
-                    console.log(pesquisaCN.lenght)
+                    
                     const urlC = `https://minhareceita.org/${pesquisaCN}`
                    
                     const response = await fetch(urlC);
                     const data = await response.json();
+                    var atvsec = document.querySelector('#atvsec')
                    
 
                     if (data.cnpj != undefined || pesquisaCN.toString().lenght > 0) {
+                       
+                       
 
-                        console.log(data.cnaes_secundarios.lenght)
+                      //  for(let i=0; i < 3; i++){
+                      //      var listaSe = document.createElement('li');
+                      //      listaSe.innerHTML = data.cnaes_secundarios[i]
+                     //       atvsec.appendChild(listaSe)
+                            
 
-                        for(let i=0; i < 3; i++){
-
-                            var  atividadeSec = data.cnaes_secundarios[i]
-                            console.log(atividadeSec)
-
-                        }
+                      //  }
                         const reve = data.data_situacao_cadastral.split('-').reverse();
                         var uatualiza = `${reve[0]}/${reve[1]}/${reve[2]}`
 
                                            
-                        
+                        console.log(ati)
 
                         vejamosS.innerHTML = `
                         
@@ -194,7 +198,8 @@
                                 <h4>ATIVIDADE PRINCIPAL: </h4> <p>${data.cnae_fiscal_descricao}</p>
                             </div>
                             <div>
-                                <h4>ATIVIDADE SECUNDÁRIA: </h4> <p>${atividadeSec}</p>
+                                <h4>ATIVIDADE SECUNDÁRIA: </h4> <div id="atvsec"></div>
+                                 
                             </div>
                             <div>
                                 <h4>ÚLTIMA ATUALIZAÇÃO: </h4> <p>${uatualiza}</p>
