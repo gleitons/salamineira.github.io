@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerar</title>
+</head>
+<body>
+    <div id="ver">
+ssss
+    </div>
+    <script>
+        var url = "http://177.152.105.125:8070/e-cidadeonline/digitamatricula.php"
+        //var url = 'https://casadosdados.com.br/empresas/localidade/mg/pirapora'
+        //http://177.152.105.125:8070/e-cidadeonline/listabicimovel.php?matricula=819&id_usuario=&cgccpf=08303020692=
+        var ver = document.querySelector('#ver');
+
+        fetch(url)
+            .then((resp) => resp.text())
+            .then (function (data) {
+                ver.innerHTML = data
+                console.log("tim")
+
+            })
+            .catch(function (error) {
+                console.log(error)
+            });
+    </script>
+</body>
+</html>
