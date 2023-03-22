@@ -8971,8 +8971,13 @@
         localStorage.setItem('empresaMRPirapora', empresasmr)
 
         var empresaLagoa = []
+        var empresaPirapora = []
 
         arr.map((empresa) => {
+
+            if(empresa[4] == 'Pirapora'){
+                empresaPirapora.push(empresa)
+            }
 
             if(empresa[4] == 'Lagoa dos Patos'){
                 empresaLagoa.push(empresa)
@@ -8981,6 +8986,7 @@
         })
 
         console.log(empresaLagoa)
+        console.log(empresaPirapora)
 
         
 
