@@ -10,6 +10,55 @@
   margin: auto;
   text-align: center;
 }
+.comEditais {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  /* border: black solid 1px; */
+}
+.editaisShow {
+  background-color: rgb(175, 175, 175);
+  padding: 5px;
+  
+  margin:0 5px;
+  border-radius: 8px;
+}
+.editaisShow h6{
+  text-align: center;
+}
+.buscadorS {
+  display: flex;
+  background-color: white;
+  width: 90%;
+  margin: 10px auto;
+  box-shadow: rgba(0, 0, 0, 0.354) 0px 2px 5px 0px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 8px;
+  
+}
+.infoLicita {
+  text-align: center;
+  
+}
+.buscadorS i:hover {
+ color: rgb(138, 160, 138);
+ cursor: pointer;
+}
+.buscadorS input {
+  border: none;
+  outline: 0;
+}
+.comEditais .container {
+  /* border: black solid 1px; */
+  width: 80%;
+  
+}
+.comEditais .editaisShow {
+  width: 20%;
+  
+}
 .sCNPJ span {
   background-color: red;
   font-size: 10px;
@@ -785,8 +834,8 @@ main {
 }
 
 .container {
-  width: 1200px;
-  margin: 0 auto;
+  width: 100%;
+  
 }
 .infoCentralizada {
   padding-top: 10px;
@@ -816,7 +865,7 @@ main {
   height: 120px;
   border-radius: 12px;
   justify-content: space-between;
-  margin: auto;
+  margin: 2px;
   display: flex;
   background-size: 100%;
   transition: 200ms;
@@ -1084,7 +1133,7 @@ footer {
     width: 1024px;
   }
   .container {
-    width: 1024px;
+    width: 100%;
     margin: 0 auto;
   }
   .modulo-sala {
@@ -1178,7 +1227,7 @@ footer {
     width: 960px;
   }
   .container {
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
   }
   .modulo-sala {
@@ -1301,7 +1350,7 @@ footer {
     width: 768px;
   }
   .container {
-    width: 768px;
+    width: 100%;
     margin: 0 auto;
   }
   .modulo-sala {
