@@ -1489,6 +1489,13 @@ footer {
 /*----responsivo IV---*/
 
 @media (max-width: 576px) {
+  .comEditais {
+  display: block;
+  margin: auto;
+  width: 90%;
+  /* border: black solid 1px; */
+}
+  
   .parabensLagoa img {
     /* width: 80%; */
    position: absolute;
