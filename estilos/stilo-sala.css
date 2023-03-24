@@ -19,7 +19,8 @@
 .editaisShow {
   background-color: rgb(175, 175, 175);
   padding: 5px;
-  
+  max-height: 2500px;
+  overflow: hidden;
   margin:0 5px;
   border-radius: 8px;
 }
@@ -176,6 +177,20 @@
     opacity: 0;
   }
 }
+.todosEditais .infoEdi {
+
+}
+.todosEditais li fieldset{
+  padding: 5px;
+}
+
+.todosEditais li {
+  list-style: none;
+  margin: 5px auto;
+  padding: 5px;
+  background-color: rgb(215, 215, 215);
+  border-radius: 8px;
+}
 .parabensLagoa img {
   /* width: 80%; */
  position: absolute;
@@ -186,9 +201,9 @@
 }
 .parabensLagoa i {
   position: absolute;
-  top: 132px;
+  top: 50px;
   color: red;
-  left: 484px;
+  left: 380px;
   font-size: 3em;
   z-index: 9999999;
   cursor: pointer;
@@ -883,8 +898,40 @@ main {
   height: 110%;
   margin-left: -4%;
 }
+.situacaoEd {
+  
+  padding: 5px;
+  border-radius: 8px;
+  
+}
+
+.todosEditais button {
+  padding: 5px;
+  border-radius: 8px;
+  background-color: rgb(252, 226, 192);
+  border: none;
+  margin: 5px auto;
+  border: #747474 solid 1px;
+}
+.todosEditais button:hover{
+  background-color: rgb(244, 186, 111);
+  cursor: pointer;
+}
+.ocultarObjeto {
+  display: none;
+}
+.fundoAberto {
+  background-color: rgb(7, 98, 0);
+}
+.fundoFechado {
+  background-color: red;
+}
+.situacaoEd p {
+  color: white;
+}
 .padd {
   margin-bottom: 20px;
+  justify-content: space-between;
 }
 .info {
   width: 1200px;

@@ -30,14 +30,14 @@ async function mostrarPoliticos() {
 
 
 
-    
+
 
 
     data.map((politico) => {
         const imgMin = (politico.imagemCapa).replace(/-max/g, '');
-        
+
         const linkP = document.createElement('a');
-        linkP.setAttribute('href',`/populacao/${politico.nome}`);
+        linkP.setAttribute('href', `/populacao/${politico.nome}`);
         const mostraP = document.createElement('div');
         mostraP.setAttribute('class', 'mostraP');
         const imgCapa = document.createElement('img');
@@ -56,8 +56,8 @@ async function mostrarPoliticos() {
 
         lista.appendChild(linkP)
 
-        
-        
+
+
     })
 
 
@@ -66,4 +66,102 @@ mostrarPoliticos()
 
 function emOrdem(nomeOne, nometwo) {
 
+}
+const urlEditais = '/editais-lagoa-dos-patos-mg'
+async function mostraEdit() {
+
+    const responde = await fetch(urlEditais)
+    const data = await responde.json()
+    console.log(data)
+
+    //const ab = data.dataP.toString()    
+    //console.log(data[0].dataP )
+
+    const cLoadin = document.getElementById(`loadi`)
+    cLoadin.remove()
+
+    
+
+    function toDate(dad) {
+        const verifica = dad.dataP;
+        if(verifica != 'undefinedundefined/undefinedundefined/undefinedundefinedundefinedundefined'){
+            const vai = dad.dataP
+            console.log(vai)
+            const parts = dad.dataP.split("/");
+            const dataFor = new Date(parts[2], parts[1] - 1, parts[0]);
+           
+            return dataFor;
+
+        }
+       
+    }
+    function ordemCrescente(a, b) {
+        return toDate(b) - toDate(a);
+    }
+
+
+    data.sort(toDate)
+    data.sort(ordemCrescente);
+
+    
+
+    data.map((infoE, index) => {
+        const todosEditais = document.querySelector('.todosEditais')
+        const cSituacao = infoE.situacao.replace(/[^fechada]/gi, '').replace('a', '')
+
+        if (cSituacao == "Fechada") {
+            var classCor = 'fundoFechado'
+            var sit = 'Fechada'
+        } else {
+            var classCor = 'fundoAberto'
+            var sit = 'Aberto'
+        }
+
+        todosEditais.innerHTML += ` <li>
+    <fieldset>
+        <div class="infoEdi">
+            <p>${infoE.processo}</p>
+        </div>
+        <div class="situacaoEd ${classCor}">
+            <p>Situação: <strong>${sit}</strong></p>
+            <p>até: ${infoE.dataP}</p>
+        </div>
+        <fieldset>
+            <legend>Objeto</legend>
+            <button onclick="mostraObjeto(${index})" >Ver Objeto <i class="bi bi-arrow-down-circle-fill"></i></button>
+            <div class="ocultarObjeto" id="objetoVer${index}">
+                <p>${infoE.infolicita}</p>                                                      
+            </div>
+            
+        </fieldset>
+        <a href="${infoE.urlS}" target="_blank"><button>Saber Mais</button></a>
+    </fieldset>
+</li>`
+
+
+    })
+
+
+
+}
+//mostraEdit()
+function mostraObjeto(numero) {
+
+    const ocultarObjeto = document.getElementById(`objetoVer${numero}`)
+    ocultarObjeto.classList.toggle('ocultarObjeto')
+
+
+}
+
+function carregaEdita() {
+    const ocultarObjeto = document.getElementById(`loadi`)
+    const cli = document.getElementById(`cliq`)
+
+    ocultarObjeto.classList.toggle('ocultarObjeto')
+    btnCar.remove()
+
+    cli.remove()
+    mostraEdit()
+
+    
 }

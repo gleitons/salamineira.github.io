@@ -38,7 +38,7 @@
 
 <body onload="promocaoIndex()">
 
-    <div class="parabensLagoa">
+    <div class="parabensLagoda">
         <i class="bi bi-x-circle-fill" id="fechaPropaganda" onclick="fechaProp()"></i>
         <a href="https://www.salamineira.com/lagoa-dos-patos-60-anos.html"><img
                 src="/lagoa-dos-patos-60-anos/lagoa-dos-patos-mg-60-anos.jpg" alt=""></a>
@@ -629,7 +629,7 @@
                     </div>
                 </div>
                 <div class="editaisShow">
-                    <h6>Encontre licitações abertas e receba alertas para baixar os editais em Lagoa dos Patos MG.
+                    <h6>Encontre licitações abertas e receba alertas para baixar os editais em Lagoa dos Patos MG. Todos os Editais são retirados do site oficial da Prefeitura Municipal de Lagoa dos Patos MG - <a href="https://lagoadospatos.mg.gov.br/licitacoes/" target="_blank" >Saiba Mais</a>
                     </h6>
                     <div>
                         <div class="buscadorUP">
@@ -638,9 +638,107 @@
                                 <i class="bi bi-search" onclick="buscandoP()"></i>
                             </div>
                             <div class="infoLicita">
+                                <div class="todosEditais">
+                                    <div id="btnCar">
+                                        <button onclick="carregaEdita()">CARREGAR EDITAIS</button>
+                                    </div>
+                                   <div id="loadi" class="ocultarObjeto">
+                                    <div class="loadingio-spinner-spinner-srb2q25os49"><div class="ldio-viwp6dlcf3">
+                                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                                        </div></div>
+                                        <style type="text/css">
+                                        @keyframes ldio-viwp6dlcf3 {
+                                          0% { opacity: 1 }
+                                          100% { opacity: 0 }
+                                        }
+                                        .ldio-viwp6dlcf3 div {
+                                          left: 94px;
+                                          top: 48px;
+                                          position: absolute;
+                                          
+                                          animation: ldio-viwp6dlcf3 linear 1s infinite;
+                                          background: #fe718d;
+                                          width: 12px;
+                                          height: 24px;
+                                          border-radius: 6px / 12px;
+                                          transform-origin: 6px 52px;
+                                        }.ldio-viwp6dlcf3 div:nth-child(1) {
+                                          transform: rotate(0deg);
+                                          animation-delay: -0.9166666666666666s;
+                                          background: #fe718d;
+                                        }.ldio-viwp6dlcf3 div:nth-child(2) {
+                                          transform: rotate(30deg);
+                                          animation-delay: -0.8333333333333334s;
+                                          background: #fe718d;
+                                        }.ldio-viwp6dlcf3 div:nth-child(3) {
+                                          transform: rotate(60deg);
+                                          animation-delay: -0.75s;
+                                          background: #fe718d;
+                                        }.ldio-viwp6dlcf3 div:nth-child(4) {
+                                          transform: rotate(90deg);
+                                          animation-delay: -0.6666666666666666s;
+                                          background: #fe718d;
+                                        }.ldio-viwp6dlcf3 div:nth-child(5) {
+                                          transform: rotate(120deg);
+                                          animation-delay: -0.5833333333333334s;
+                                          background: #fe718d;
+                                        }.ldio-viwp6dlcf3 div:nth-child(6) {
+                                          transform: rotate(150deg);
+                                          animation-delay: -0.5s;
+                                          background: #fe718d;
+                                        }.ldio-viwp6dlcf3 div:nth-child(7) {
+                                          transform: rotate(180deg);
+                                          animation-delay: -0.4166666666666667s;
+                                          background: #fe718d;
+                                        }.ldio-viwp6dlcf3 div:nth-child(8) {
+                                          transform: rotate(210deg);
+                                          animation-delay: -0.3333333333333333s;
+                                          background: #fe718d;
+                                        }.ldio-viwp6dlcf3 div:nth-child(9) {
+                                          transform: rotate(240deg);
+                                          animation-delay: -0.25s;
+                                          background: #fe718d;
+                                        }.ldio-viwp6dlcf3 div:nth-child(10) {
+                                          transform: rotate(270deg);
+                                          animation-delay: -0.16666666666666666s;
+                                          background: #fe718d;
+                                        }.ldio-viwp6dlcf3 div:nth-child(11) {
+                                          transform: rotate(300deg);
+                                          animation-delay: -0.08333333333333333s;
+                                          background: #fe718d;
+                                        }.ldio-viwp6dlcf3 div:nth-child(12) {
+                                          transform: rotate(330deg);
+                                          animation-delay: 0s;
+                                          background: #fe718d;
+                                        }
+                                        .loadingio-spinner-spinner-srb2q25os49 {
+                                          width: 200px;
+                                          height: 200px;
+                                          display: inline-block;
+                                          overflow: hidden;
+                                          background: #ffffff;
+                                        }
+                                        .ldio-viwp6dlcf3 {
+                                          width: 100%;
+                                          height: 100%;
+                                          border-radius: 50%;
+                                          position: relative;
+                                          transform: translateZ(0) scale(1);
+                                          backface-visibility: hidden;
+                                          transform-origin: 0 0; /* see note above */
+                                        }
+                                        .ldio-viwp6dlcf3 div { box-sizing: content-box; }
+                                        /* generated by https://loading.io/ */
+                                        </style>
+                                        CARREGANDO EDITAIS...
+                                   </div>
+                                </div>
+                               
+                               <div id="cliq">
                                 <i class="bi bi-arrow-up-circle-fill"></i>
-                               <p>Para pesquisar um edital em Lagoa dos Patos MG - Digite na barre de busca acima:</p>
-                               <p>Em breve iremos adicionar vários editais, fique ligado!!</p>
+                                   <p>Clique no botão acima para carregar ou pesquisar um edital em Lagoa dos Patos MG - Digite na barre de busca acima:</p>
+                                   <p>Em breve iremos adicionar vários editais, fique ligado!!</p>
+                               </div>
                                 
                             </div>
                         </div>
