@@ -60,11 +60,25 @@
   background-color: rgb(177, 255, 215);
   border-radius: 8px;
   padding: 5px;
+
   box-shadow: rgb(109, 198, 46) 0px 5px 10px 0px;
 }
+.coloriFielAtencao p {
+  margin: 10px auto;
+  
+}
+
 .fundoField {
   border-radius: 8px;
   padding: 5px;
+  position: relative;
+}
+.fundoField button {
+  padding: 10px;
+  position: absolute;
+  top: -22px;
+  left: 33%;
+  text-align: center;
 }
 .comEditais .editaisShow {
   width: 30%;
