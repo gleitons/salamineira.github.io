@@ -24,6 +24,7 @@
   margin:0 5px;
   border-radius: 8px;
 }
+
 .editaisShow h6{
   text-align: center;
 }
@@ -79,6 +80,7 @@
   top: -22px;
   left: 33%;
   text-align: center;
+  
 }
 .comEditais .editaisShow {
   width: 30%;
@@ -226,13 +228,25 @@ fieldset {
   transform: translate(-50%, -50%);
   width: 40%;
 }
-.parabensLagoa i {
+.parabensLagoa .fecharAg {
   position: absolute;
   top: 50px;
-  color: red;
+  color: rgb(81, 225, 73);
   left: 380px;
   font-size: 3em;
   z-index: 9999999;
+  cursor: pointer;
+}
+.parabensLagoa .fecharSempre  {
+  position: absolute;
+  background-color: rgb(128, 0, 0);
+  top: 50px;
+  color: rgb(255, 255, 255);
+  right: 380px;
+  font-size: 1em;
+  z-index: 9999999;
+  padding: 5px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
@@ -1036,7 +1050,7 @@ main {
   width: 230px;
   font-size: 13px;
   max-width: 150ch;
-  overflow: hidden;
+ 
   text-overflow: ellipsis;
 }
 .divulgueSeunegocio > h2,
@@ -1577,6 +1591,19 @@ footer {
 /*----responsivo IV---*/
 
 @media (max-width: 576px) {
+  .parabensLagoa .fecharSempre  {
+    position: absolute;
+    width: 150px;
+    
+    top: 00px;
+    color: rgb(255, 255, 255);
+    right: 580px;
+    font-size: 1em;
+    z-index: 9999999;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
   .comEditais {
   display: block;
   margin: auto;
@@ -1792,6 +1819,7 @@ footer {
   .infoCentralizada {
     width: 360px;
   }
+  
 
   .info {
     width: 100%;

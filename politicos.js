@@ -78,21 +78,23 @@ async function mostraEdit() {
 
     const cLoadin = document.getElementById(`loadi`)
     cLoadin.remove()
-
     
+    console.log(responde.lenght)
+
+
 
     function toDate(dad) {
         const verifica = dad.dataP;
-        if(verifica != 'undefinedundefined/undefinedundefined/undefinedundefinedundefinedundefined'){
+        if (verifica != 'undefinedundefined/undefinedundefined/undefinedundefinedundefinedundefined') {
             const vai = dad.dataP
-           
+
             const parts = dad.dataP.split("/");
             const dataFor = new Date(parts[2], parts[1] - 1, parts[0]);
-           
+
             return dataFor;
 
         }
-       
+
     }
     function ordemCrescente(a, b) {
         return toDate(b) - toDate(a);
@@ -102,46 +104,45 @@ async function mostraEdit() {
     data.sort(toDate)
     data.sort(ordemCrescente);
 
-    
 
     data.map((infoE, index) => {
         const todosEditais = document.querySelector('.todosEditais')
         const cSituacao = infoE.situacao.replace(/Situação :/g, '').replace(/[^A-Z]/g, '')
 
-        console.log(cSituacao)
+       
 
         if (cSituacao == "A") {
             var classCor = 'fundoAberto'
             var sit = 'Aberta'
-        } else if (cSituacao == "D"){
+        } else if (cSituacao == "D") {
             var classCor = 'fundoFechado'
             var sit = 'Deserta'
-        }  else if (cSituacao == "R"){
+        } else if (cSituacao == "R") {
             var classCor = 'fundoFechado'
             var sit = 'Revogada'
-            
-        } else if (cSituacao == "E"){
+
+        } else if (cSituacao == "E") {
             var classCor = 'fundoAndamento'
             var sit = 'Em Andamento'
 
-        } else if (cSituacao == "F"){
+        } else if (cSituacao == "F") {
             var classCor = 'fundoFechado'
             var sit = 'Fechada'
 
-            
-        } else if (cSituacao == "FINALIZADA"){
+
+        } else if (cSituacao == "FINALIZADA") {
             var classCor = 'fundoFinalizada'
             var sit = 'Finalizada'
-           
+
         } else {
             var classCor = 'fundoSuspensa'
             var sit = 'Suspensa'
-            
-            
+
+
         }
-
-
-        todosEditais.innerHTML += ` <li>
+        
+        
+            todosEditais.innerHTML += `<li>
     <fieldset>
         <div class="infoEdi">
             <p>${infoE.processo}</p>
@@ -154,7 +155,7 @@ async function mostraEdit() {
             <legend>Objeto</legend>
             <button onclick="mostraObjeto(${index})" >Ver Objeto <i class="bi bi-arrow-down-circle-fill"></i></button>
             <div class="ocultarObjeto" id="objetoVer${index}">
-                <p>${infoE.infolicita}</p>                                                      
+                <p id="infodaLicita${index}"></p>                                                      
             </div>
             
         </fieldset>
@@ -162,18 +163,63 @@ async function mostraEdit() {
     </fieldset>
 </li>`
 
+        
+
+
+        
 
     })
 
 
 
+
 }
+async function descObjeto(numb) {
+    const infodaLicita = document.querySelector(`#infodaLicita${numb}`)
+    
+    const responde = await fetch(urlEditais)
+    const data = await responde.json()
+
+    //console.log(data[0].infolicita)
+
+    function toDate(dad) {
+        const verifica = dad.dataP;
+        if (verifica != 'undefinedundefined/undefinedundefined/undefinedundefinedundefinedundefined') {
+            const vai = dad.dataP
+
+            const parts = dad.dataP.split("/");
+            const dataFor = new Date(parts[2], parts[1] - 1, parts[0]);
+
+            return dataFor;
+
+        }
+
+    }
+
+function ordemCrescente(a, b) {
+    return toDate(b) - toDate(a);
+}
+
+
+data.sort(toDate)
+data.sort(ordemCrescente);
+
+
+infodaLicita.innerHTML = `${data[numb].infolicita}`
+
+ 
+
+}
+
+
 //mostraEdit()
 function mostraObjeto(numero) {
     const ocultarObjeto = document.getElementById(`objetoVer${numero}`)
     ocultarObjeto.classList.toggle('ocultarObjeto')
     const objetosLumiar = document.getElementById(`showLumi${numero}`)
     objetosLumiar.classList.toggle('coloriFielAtencao')
+
+    descObjeto(numero)
 
     //coloriFielAtencao
 
@@ -190,5 +236,19 @@ function carregaEdita() {
     cli.remove()
     mostraEdit()
 
+
+}
+
+function fecharSempre() {
     
+    const parabensLagoa = document.getElementsByClassName('parabensLagoa')
+    const fechaNiver = document.querySelector('.parabensLagoa')
+    fechaNiver.classList.toggle('disNone')
+
+    localStorage.setItem('niverLagoa', 'e')
+    
+}
+if(localStorage.getItem('niverLagoa') != null){
+    const fechaNiver = document.querySelector('.parabensLagoa')
+    fechaNiver.classList.toggle('disNone')
 }
