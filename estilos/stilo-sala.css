@@ -19,8 +19,8 @@
 .editaisShow {
   background-color: rgb(175, 175, 175);
   padding: 5px;
-  max-height: 2500px;
-  overflow: hidden;
+  max-height: 1500px;
+  overflow: auto;
   margin:0 5px;
   border-radius: 8px;
 }
@@ -53,11 +53,21 @@
 }
 .comEditais .container {
   /* border: black solid 1px; */
-  width: 80%;
+  width: 70%;
   
 }
+.coloriFielAtencao {
+  background-color: rgb(177, 255, 215);
+  border-radius: 8px;
+  padding: 5px;
+  box-shadow: rgb(109, 198, 46) 0px 5px 10px 0px;
+}
+.fundoField {
+  border-radius: 8px;
+  padding: 5px;
+}
 .comEditais .editaisShow {
-  width: 20%;
+  width: 30%;
   
 }
 .sCNPJ span {
@@ -189,6 +199,9 @@
   margin: 5px auto;
   padding: 5px;
   background-color: rgb(215, 215, 215);
+  border-radius: 8px;
+}
+fieldset {
   border-radius: 8px;
 }
 .parabensLagoa img {
@@ -606,10 +619,11 @@ header {
   margin-bottom: 20px;
 }
 .dadosCovid {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
 
-  width: 1200px;
+
+  width: 100%;
   align-content: center;
   justify-content: center;
 }
@@ -700,7 +714,7 @@ main {
 }
 .topo-menu {
   padding: 15px;
-  height: 70px;
+  min-height: 70px;
   background-color: #2e2e2e;
   width: 100%;
 }
@@ -834,8 +848,8 @@ main {
   align-items: center;
 }
 .blocoServicos h2 {
-  width: 130px;
-  font-size: 12px;
+  width: 100%;
+  font-size: .8em;
   text-decoration: none;
 }
 .blocoServicos > i {
@@ -926,6 +940,17 @@ main {
 .fundoFechado {
   background-color: red;
 }
+.fundoAndamento {
+  background-color: rgb(0, 119, 255);
+}
+.fundoFinalizada {
+  background-color: rgb(111, 112, 114);
+}
+.fundoSuspensa {
+  background-color: rgb(186, 188, 190);
+  color: black;
+}
+
 .situacaoEd p {
   color: white;
 }
@@ -1177,24 +1202,26 @@ footer {
 
 @media (max-width: 1024px) {
   body {
-    width: 1024px;
+    width: 100%;
   }
   .container {
     width: 100%;
     margin: 0 auto;
   }
   .modulo-sala {
-    width: 200px;
+    width: 100%;
     height: 120px;
   }
   .blocoServicos {
     color: rgb(211, 211, 211);
     padding-top: 11%;
     align-items: center;
+    display: block;
+    text-align: center;
   }
   .blocoServicos h2 {
     width: 130px;
-    font-size: 10px;
+    font-size: .6em;
     text-decoration: none;
   }
   .blocoServicos > i {
@@ -1541,6 +1568,15 @@ footer {
   margin: auto;
   width: 90%;
   /* border: black solid 1px; */
+}
+.comEditais .container {
+  width: 100%;
+}
+.comEditais .editaisShow {
+  width: 100%;
+}
+.editaisShow h6{
+  font-size: 1em;
 }
   
   .parabensLagoa img {

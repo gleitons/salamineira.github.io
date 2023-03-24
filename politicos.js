@@ -72,7 +72,6 @@ async function mostraEdit() {
 
     const responde = await fetch(urlEditais)
     const data = await responde.json()
-    console.log(data)
 
     //const ab = data.dataP.toString()    
     //console.log(data[0].dataP )
@@ -86,7 +85,7 @@ async function mostraEdit() {
         const verifica = dad.dataP;
         if(verifica != 'undefinedundefined/undefinedundefined/undefinedundefinedundefinedundefined'){
             const vai = dad.dataP
-            console.log(vai)
+           
             const parts = dad.dataP.split("/");
             const dataFor = new Date(parts[2], parts[1] - 1, parts[0]);
            
@@ -107,15 +106,40 @@ async function mostraEdit() {
 
     data.map((infoE, index) => {
         const todosEditais = document.querySelector('.todosEditais')
-        const cSituacao = infoE.situacao.replace(/[^fechada]/gi, '').replace('a', '')
+        const cSituacao = infoE.situacao.replace(/Situação :/g, '').replace(/[^A-Z]/g, '')
 
-        if (cSituacao == "Fechada") {
+        console.log(cSituacao)
+
+        if (cSituacao == "A") {
+            var classCor = 'fundoAberto'
+            var sit = 'Aberta'
+        } else if (cSituacao == "D"){
+            var classCor = 'fundoFechado'
+            var sit = 'Deserta'
+        }  else if (cSituacao == "R"){
+            var classCor = 'fundoFechado'
+            var sit = 'Revogada'
+            
+        } else if (cSituacao == "E"){
+            var classCor = 'fundoAndamento'
+            var sit = 'Em Andamento'
+
+        } else if (cSituacao == "F"){
             var classCor = 'fundoFechado'
             var sit = 'Fechada'
+
+            
+        } else if (cSituacao == "FINALIZADA"){
+            var classCor = 'fundoFinalizada'
+            var sit = 'Finalizada'
+           
         } else {
-            var classCor = 'fundoAberto'
-            var sit = 'Aberto'
+            var classCor = 'fundoSuspensa'
+            var sit = 'Suspensa'
+            
+            
         }
+
 
         todosEditais.innerHTML += ` <li>
     <fieldset>
@@ -126,7 +150,7 @@ async function mostraEdit() {
             <p>Situação: <strong>${sit}</strong></p>
             <p>até: ${infoE.dataP}</p>
         </div>
-        <fieldset>
+        <fieldset class="fundoField" id="showLumi${index}">
             <legend>Objeto</legend>
             <button onclick="mostraObjeto(${index})" >Ver Objeto <i class="bi bi-arrow-down-circle-fill"></i></button>
             <div class="ocultarObjeto" id="objetoVer${index}">
@@ -134,7 +158,7 @@ async function mostraEdit() {
             </div>
             
         </fieldset>
-        <a href="${infoE.urlS}" target="_blank"><button>Saber Mais</button></a>
+        <a href="${infoE.urlS}" target="_blank"><button>Veja este edital</button></a>
     </fieldset>
 </li>`
 
@@ -146,9 +170,12 @@ async function mostraEdit() {
 }
 //mostraEdit()
 function mostraObjeto(numero) {
-
     const ocultarObjeto = document.getElementById(`objetoVer${numero}`)
     ocultarObjeto.classList.toggle('ocultarObjeto')
+    const objetosLumiar = document.getElementById(`showLumi${numero}`)
+    objetosLumiar.classList.toggle('coloriFielAtencao')
+
+    //coloriFielAtencao
 
 
 }
