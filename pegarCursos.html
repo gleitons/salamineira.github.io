@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pegar Cursos</title>
+</head>
+
+<body>
+    <div id="ver">
+
+    </div>
+    <script>
+        var editais = []
+       
+        function pegandoEditais() {
+        //    for (let i = 3585; i <= 3618; i++) {
+        //        const url =
+
+                    //pegarDados(`https://lagoadospatos.mg.gov.br/licitacao/${i}/`)
+
+                    pegarDados('https://www.sebrae.com.br/sites/PortalSebrae/cursosonline/')
+
+          //  }
+        }
+        pegandoEditais()
+
+
+        function pegarDados(endereco) {
+
+            fetch(endereco)
+                .then((resp) => resp.text())
+                .then(function (data) {
+                    ver.innerHTML = data
+                    const corpoLicita = document.querySelector('#ver');
+
+                        const editalInfo = {
+                            
+                                "categoria":"Vendas",
+                                "curso": "Marketing digital para sua empresa: equipe comercial",
+                                "duracao":"3h",
+                                "conclusao":"30 dias",
+                                "link": "https://www.sebrae.com.br/sites/PortalSebrae/cursosonline/marketing-digital-para-sua-empresa-equipe-comercial,12e7125576a4e710VgnVCM100000d701210aRCRD",
+                                "imagem":"/cursos/card-marketing-Trilha3-Marketing-digital-para-sua-mpresa-equipe-comercial-123rf-photo_51510748%20(1)-webp.webp"
+                            
+                        }
+
+                        editais.push(editalInfo)
+
+
+
+
+                    
+                })
+                .catch(function (error) {
+                    console.log(error)
+                });
+
+
+        }
+
+
+
+
+
+
+
+    </script>
+    <script src="./Sebrae/Portal%20Sebrae/resources/js/sb-ead.js"></script>
+</body>
+
+</html>
