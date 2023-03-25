@@ -17,19 +17,22 @@
   /* border: black solid 1px; */
 }
 .editaisShow {
-  background-color: rgb(175, 175, 175);
+  background-color: rgb(255, 255, 255);
   padding: 5px;
+  height: min-content;
   max-height: 1500px;
   overflow: auto;
-  margin:0 5px;
+  margin: 0 5px;
   border-radius: 8px;
+  border: #acacac 1px solid;
 }
 
-.editaisShow h6{
+.editaisShow h6 {
   text-align: center;
 }
 .buscadorS {
   display: flex;
+  border: #acacac 1px solid;
   background-color: white;
   width: 90%;
   margin: 10px auto;
@@ -38,15 +41,13 @@
   justify-content: space-between;
   padding: 8px;
   border-radius: 8px;
-  
 }
 .infoLicita {
   text-align: center;
-  
 }
 .buscadorS i:hover {
- color: rgb(138, 160, 138);
- cursor: pointer;
+  color: rgb(138, 160, 138);
+  cursor: pointer;
 }
 .buscadorS input {
   border: none;
@@ -55,7 +56,6 @@
 .comEditais .container {
   /* border: black solid 1px; */
   width: 70%;
-  
 }
 .coloriFielAtencao {
   background-color: rgb(177, 255, 215);
@@ -66,7 +66,6 @@
 }
 .coloriFielAtencao p {
   margin: 10px auto;
-  
 }
 
 .fundoField {
@@ -80,11 +79,9 @@
   top: -22px;
   left: 33%;
   text-align: center;
-  
 }
 .comEditais .editaisShow {
   width: 30%;
-  
 }
 .sCNPJ span {
   background-color: red;
@@ -107,10 +104,10 @@
   text-align: center;
   width: fit-content;
 }
-.sCNPJ2 div div{
- display: flex;
- padding: 20px 0;
- text-align: center;
+.sCNPJ2 div div {
+  display: flex;
+  padding: 20px 0;
+  text-align: center;
 }
 .sCNPJ2 i {
   background-color: red;
@@ -119,25 +116,24 @@
   color: white;
   cursor: pointer;
 }
-.sCNPJ2 i:hover{
+.sCNPJ2 i:hover {
   background-color: rgb(231, 94, 94);
 }
 .mostraAnimaCNPJ {
   background-color: white;
   padding: 10px;
   border-radius: 0px 0px 12px 12px;
-  box-shadow: inset  rgba(0, 0, 0, 0.425) 0px 2px 10px 0px;
+  box-shadow: inset rgba(0, 0, 0, 0.425) 0px 2px 10px 0px;
   animation: descCNPJ 500ms normal;
 }
 .mostraAnimaCNPJ div {
   gap: 10px;
   border: black solid 1px;
-  
 }
-.mostraAnimaCNPJ div h4 {  
+.mostraAnimaCNPJ div h4 {
   margin-left: 10px;
 }
-.mostraAnimaCNPJ div p {  
+.mostraAnimaCNPJ div p {
   margin-right: 10px;
 }
 @keyframes descCNPJ {
@@ -186,8 +182,17 @@
 .disNone {
   display: none;
 }
+#cliq button{
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: transparent;
+  background-color: green;
+  color: white;
+  margin: 10px auto;
+}
 .parabensLagoa {
-  /* display: none; */
+  display: none; 
   width: 100%;
   height: 100vh;
   background-color: #000000dc;
@@ -198,15 +203,17 @@
   position: fixed;
   animation: propa 1s normal;
 }
+.dblockLagoa {
+  display: block;
+}
 @keyframes propa {
   0% {
     opacity: 0;
   }
 }
 .todosEditais .infoEdi {
-
 }
-.todosEditais li fieldset{
+.todosEditais li fieldset {
   padding: 5px;
 }
 
@@ -214,7 +221,7 @@
   list-style: none;
   margin: 5px auto;
   padding: 5px;
-  background-color: rgb(215, 215, 215);
+  background-color: rgb(249, 243, 215);
   border-radius: 8px;
 }
 fieldset {
@@ -222,7 +229,7 @@ fieldset {
 }
 .parabensLagoa img {
   /* width: 80%; */
- position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -237,7 +244,7 @@ fieldset {
   z-index: 9999999;
   cursor: pointer;
 }
-.parabensLagoa .fecharSempre  {
+.parabensLagoa .fecharSempre {
   position: absolute;
   background-color: rgb(128, 0, 0);
   top: 50px;
@@ -378,7 +385,7 @@ fieldset {
 }
 .atendimentoWhats {
   position: fixed;
-  bottom: 20px;
+  bottom: -4px;
   right: 5%;
   z-index: 1;
 }
@@ -650,7 +657,6 @@ header {
   display: flex;
   flex-wrap: wrap;
 
-
   width: 100%;
   align-content: center;
   justify-content: center;
@@ -877,7 +883,7 @@ main {
 }
 .blocoServicos h2 {
   width: 100%;
-  font-size: .8em;
+  font-size: 0.6em;
   text-decoration: none;
 }
 .blocoServicos > i {
@@ -892,7 +898,6 @@ main {
 
 .container {
   width: 100%;
-  
 }
 .infoCentralizada {
   padding-top: 10px;
@@ -941,10 +946,8 @@ main {
   margin-left: -4%;
 }
 .situacaoEd {
-  
   padding: 5px;
   border-radius: 8px;
-  
 }
 
 .todosEditais button {
@@ -955,7 +958,7 @@ main {
   margin: 5px auto;
   border: #747474 solid 1px;
 }
-.todosEditais button:hover{
+.todosEditais button:hover {
   background-color: rgb(244, 186, 111);
   cursor: pointer;
 }
@@ -1050,7 +1053,7 @@ main {
   width: 230px;
   font-size: 13px;
   max-width: 150ch;
- 
+
   text-overflow: ellipsis;
 }
 .divulgueSeunegocio > h2,
@@ -1249,7 +1252,7 @@ footer {
   }
   .blocoServicos h2 {
     width: 130px;
-    font-size: .6em;
+    font-size: 0.5em;
     text-decoration: none;
   }
   .blocoServicos > i {
@@ -1591,10 +1594,10 @@ footer {
 /*----responsivo IV---*/
 
 @media (max-width: 576px) {
-  .parabensLagoa .fecharSempre  {
+  .parabensLagoa .fecharSempre {
     position: absolute;
     width: 150px;
-    
+
     top: 00px;
     color: rgb(255, 255, 255);
     right: 580px;
@@ -1605,34 +1608,32 @@ footer {
     cursor: pointer;
   }
   .comEditais {
-  display: block;
-  margin: auto;
-  width: 90%;
-  /* border: black solid 1px; */
-}
-.comEditais .container {
-  width: 100%;
-}
-.comEditais .editaisShow {
-  width: 100%;
-}
-.editaisShow h6{
-  font-size: 1em;
-}
-  
+    display: block;
+    margin: auto;
+    width: 90%;
+    /* border: black solid 1px; */
+  }
+  .comEditais .container {
+    width: 100%;
+  }
+  .comEditais .editaisShow {
+    width: 100%;
+  }
+  .editaisShow h6 {
+    font-size: 1em;
+  }
+
   .parabensLagoa img {
     /* width: 80%; */
-   position: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
   }
   .parabensLagoa i {
-   
     top: 132px;
     left: 272px;
-    
   }
   #btnmobile {
     border-radius: 8px;
@@ -1819,7 +1820,6 @@ footer {
   .infoCentralizada {
     width: 360px;
   }
-  
 
   .info {
     width: 100%;

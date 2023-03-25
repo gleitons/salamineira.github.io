@@ -243,12 +243,18 @@ function fecharSempre() {
     
     const parabensLagoa = document.getElementsByClassName('parabensLagoa')
     const fechaNiver = document.querySelector('.parabensLagoa')
-    fechaNiver.classList.toggle('disNone')
+    fechaNiver.classList.toggle('dblockLagoa')
 
     localStorage.setItem('niverLagoa', 'e')
     
 }
-if(localStorage.getItem('niverLagoa') != null){
+if(localStorage.getItem('niverLagoa') == null){
     const fechaNiver = document.querySelector('.parabensLagoa')
-    fechaNiver.classList.toggle('disNone')
+    fechaNiver.classList.add('dblockLagoa')
+}
+
+function verBannerA() {
+    const fechaNiver = document.querySelector('.parabensLagoa')
+    fechaNiver.classList.add('dblockLagoa')
+
 }

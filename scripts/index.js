@@ -83,7 +83,7 @@ function MenuPrincipal() {
 
 function fechaProp() {
     const fechaNiver = document.querySelector('.parabensLagoa')
-    fechaNiver.classList.toggle('disNone')
+    fechaNiver.classList.toggle('dblockLagoa')
 }
 
 

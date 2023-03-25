@@ -7960,16 +7960,6 @@
     ]
   },
   {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3608/",
-    "dataP": "06/04/2023",
-    "processo": "Processo : PROC. 010/2023 PP 007/2023",
-    "publicado": "Publicação : 13/03/2023",
-    "abertura": "Abertura :  06/04/2023",
-    "modalidade": "Modalidade : \n\t\t\t\t\t\tPREGÃO PRESENCIAL\t\t\t\t\t\n\t\t\t\t\t",
-    "situacao": "Situação : \n\t\t\t\t\t\tAberta\t\n\t\t\t\t\t",
-    "infolicita": "Contratação de empresa especializada na prestação de diversos serviços para realização da vaquejada que acontecerá nos dias 11, 12, 13 e 14 de maio de 2023 no município de Lagoa dos Patos/MG"
-  },
-  {
     "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3615/",
     "dataP": "04/04/2023",
     "processo": "Processo : Proc. 014/2023 PREGÃO PRESENCIAL PARA SRP nº 008/2023 ",
@@ -7990,22 +7980,6 @@
     "infolicita": ""
   },
   {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3611/",
-    "dataP": "31/03/2023",
-    "processo": "Processo : Proc. n° 012/2023 TOMADA DE PREÇO nº 002/2023 ",
-    "publicado": "Publicação : 14/03/2023",
-    "abertura": "Abertura :  31/03/2023",
-    "modalidade": "Modalidade : \n\t\t\t\t\t\tTomada de Preços\t\t\t\t\t\n\t\t\t\t\t",
-    "situacao": "Situação : \n\t\t\t\t\t\tAberta\t\n\t\t\t\t\t",
-    "infolicita": "Contratação de empresa especializada em obras de engenharia para urbanização dos canteiros da Avenida Presidente Médici (trecho 1) no município de Lagoa dos Patos/MG.",
-    "baixarEdital": [
-      {
-        "nomeDesc": "EDITAL TP 002-2023",
-        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/EDITAL-TP-002-2023.pdf"
-      }
-    ]
-  },
-  {
     "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3609/",
     "dataP": "20/03/2023",
     "processo": "Processo : PROC. 011/2023 CRED. 001 INEX. 002/2023",
@@ -8020,16 +7994,6 @@
         "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/EDITAL-CREDENCIAMENTO-No-001-2023.pdf"
       }
     ]
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3616/",
-    "dataP": "11/04/2023",
-    "processo": "Processo : Proc. 015/2023 PREGÃO PRESENCIAL PARA SRP nº 009/2023",
-    "publicado": "Publicação : 16/03/2023",
-    "abertura": "Abertura :  11/04/2023",
-    "modalidade": "Modalidade : \n\t\t\t\t\t\tPREGÃO PRESENCIAL\t\t\t\t\t\n\t\t\t\t\t",
-    "situacao": "Situação : \n\t\t\t\t\t\tAberta\t\n\t\t\t\t\t",
-    "infolicita": "Registro de preço para aquisição de uniformes, cama, mesa e banho e material de proteção para manutenção das atividades das diversas secretarias do município de Lagoa dos Patos/MG"
   },
   {
     "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3132/",
@@ -8590,16 +8554,6 @@
     ]
   },
   {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3618/",
-    "dataP": "18/04/2023",
-    "processo": "Processo : Proc. 017/2023 PREGÃO PRESENCIAL PARA SRP nº 010/2023 ",
-    "publicado": "Publicação : 16/03/2023",
-    "abertura": "Abertura :  18/04/2023",
-    "modalidade": "Modalidade : \n\t\t\t\t\t\tPREGÃO PRESENCIAL\t\t\t\t\t\n\t\t\t\t\t",
-    "situacao": "Situação : \n\t\t\t\t\t\tAberta\t\n\t\t\t\t\t",
-    "infolicita": "Registro de preço para contratação de empresa especializada na prestação de serviços e confecção de material gráfico para manutenção das atividades das diversas secretarias do município de Lagoa dos Patos/MG"
-  },
-  {
     "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3393/",
     "dataP": "05/12/2022",
     "processo": "Processo : PROC. 096/2022 DISPENSA 022/2022",
@@ -8612,6 +8566,198 @@
       {
         "nomeDesc": "CONTRATO 022-2022",
         "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2022/12/CONTRATO-022-2022.pdf"
+      }
+    ]
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3611/",
+    "dataP": "31/03/2023",
+    "processo": "Processo : Proc. n° 012/2023 TOMADA DE PREÇO nº 002/2023 ",
+    "publicado": "Publicação : 14/03/2023",
+    "abertura": "Abertura :  31/03/2023",
+    "modalidade": "Modalidade : \n\t\t\t\t\t\tTomada de Preços\t\t\t\t\t\n\t\t\t\t\t",
+    "situacao": "Situação : \n\t\t\t\t\t\tAberta\t\n\t\t\t\t\t",
+    "infolicita": "Contratação de empresa especializada em obras de engenharia para urbanização dos canteiros da Avenida Presidente Médici (trecho 2) no município de Lagoa dos Patos/MG.",
+    "baixarEdital": [
+      {
+        "nomeDesc": "EDITAL TP 002-2023",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/EDITAL-TP-002-2023-1.pdf"
+      },
+      {
+        "nomeDesc": "ARQUITETÔNICO P1-02- TRECHO 2",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/ARQUITETONICO-P1-02-TRECHO-2.pdf"
+      },
+      {
+        "nomeDesc": "BDI",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/BDI-1.pdf"
+      },
+      {
+        "nomeDesc": "CRONOGRAMA – TRECHO 2",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/CRONOGRAMA-TRECHO-2.pdf"
+      },
+      {
+        "nomeDesc": "MEMORIA DE CALCULO – TRECHO 2",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/MEMORIA-DE-CALCULO-TRECHO-2.pdf"
+      },
+      {
+        "nomeDesc": "ORÇAMENTO MÃO DE OBRA – TRECHO 2",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/ORCAMENTO-MAO-DE-OBRA-TRECHO-2.pdf"
+      },
+      {
+        "nomeDesc": "PLANILHA ORÇAMENTARIA – TRECHO 2",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/PLANILHA-ORCAMENTARIA-TRECHO-2.pdf"
+      }
+    ]
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3617/",
+    "dataP": "undefinedundefined/undefinedundefined/undefinedundefinedundefinedundefined",
+    "processo": "Processo : ",
+    "publicado": "",
+    "abertura": "Abertura :  ",
+    "modalidade": "Modalidade : \n\t\t\t\t\t\tDispensa\t\t\t\t\t\n\t\t\t\t\t",
+    "situacao": "Situação : \n\t\t\t\t\t\tAberta\t\n\t\t\t\t\t",
+    "infolicita": ""
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3613/",
+    "dataP": "31/03/2023",
+    "processo": "Processo : Proc. n° 013/2023 TOMADA DE PREÇO nº 003/2023",
+    "publicado": "Publicação : 14/03/2023",
+    "abertura": "Abertura :  31/03/2023",
+    "modalidade": "Modalidade : \n\t\t\t\t\t\tTomada de Preços\t\t\t\t\t\n\t\t\t\t\t",
+    "situacao": "Situação : \n\t\t\t\t\t\tAberta\t\n\t\t\t\t\t",
+    "infolicita": "Contratação de empresa especializada em obras de engenharia para reforma do campo society no município de Lagoa dos Patos/MG.",
+    "baixarEdital": [
+      {
+        "nomeDesc": "EDITAL TP 003-2023",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/EDITAL-TP-003-2023.pdf"
+      },
+      {
+        "nomeDesc": "ARQ P1-02 (A0)",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/ARQ-P1-02-A0.pdf"
+      },
+      {
+        "nomeDesc": "ARQ P2-02 (A2)",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/ARQ-P2-02-A2.pdf"
+      },
+      {
+        "nomeDesc": "BDI",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/BDI-2.pdf"
+      },
+      {
+        "nomeDesc": "CRONOGRAMA",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/CRONOGRAMA.pdf"
+      },
+      {
+        "nomeDesc": "ELE P1-01 (A1)",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/ELE-P1-01-A1.pdf"
+      },
+      {
+        "nomeDesc": "EST P1-05 (A1)",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/EST-P1-05-A1.pdf"
+      },
+      {
+        "nomeDesc": "EST P2-05 (A1)",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/EST-P2-05-A1.pdf"
+      },
+      {
+        "nomeDesc": "EST P3-05 (A1)",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/EST-P3-05-A1.pdf"
+      },
+      {
+        "nomeDesc": "EST P4-05 (A1)",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/EST-P4-05-A1.pdf"
+      },
+      {
+        "nomeDesc": "EST P5-05 (A1)",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/EST-P5-05-A1.pdf"
+      },
+      {
+        "nomeDesc": "HID P1-01 (A1)",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/HID-P1-01-A1.pdf"
+      },
+      {
+        "nomeDesc": "MEMORIA DE CALCULO",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/MEMORIA-DE-CALCULO.pdf"
+      },
+      {
+        "nomeDesc": "MEMORIAL DESCRITIVO",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/MEMORIAL-DESCRITIVO.pdf"
+      },
+      {
+        "nomeDesc": "PLANILHA ORÇAMENTARIA",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/PLANILHA-ORCAMENTARIA.pdf"
+      },
+      {
+        "nomeDesc": "RELATORIO FOTOGRAFICO",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/RELATORIO-FOTOGRAFICO.pdf"
+      },
+      {
+        "nomeDesc": "SAN P1-01 (A1)",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/SAN-P1-01-A1.pdf"
+      }
+    ]
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3600/",
+    "dataP": "23/03/2023",
+    "processo": "Processo : PROC. 009/2023 PP SRP 006/2023",
+    "publicado": "Publicação : 08/03/2023",
+    "abertura": "Abertura :  23/03/2023",
+    "modalidade": "Modalidade : \n\t\t\t\t\t\tPREGÃO PRESENCIAL\t\t\t\t\t\n\t\t\t\t\t",
+    "situacao": "Situação : \n\t\t\t\t\t\tAberta\t\n\t\t\t\t\t",
+    "infolicita": "REGISTRO DE PREÇOS PARA FUTURAS E EVENTUAIS CONTRATAÇÕES DE EMPRESAS ESPECIALIZADAS NA PRESTAÇÃO DE SERVIÇOS DE MANUTENÇÃO PREVENTIVA E CORRETIVA NOS VEICULOS LINHA PESADA E MAQUINAS PERTENCENTES A FROTA DO MUNICIPIO DE LAGOA DOS PATOS/MG, COM FORNECIMENTO DE PEÇAS E ACESSÓRIOS GENUÍNOS OU ORIGINAIS DE FÁBRICA, CONFORME ESPECIFICAÇÕES CONSTANTES DO TERMO DE REFERÊNCIA, ANEXO I.",
+    "baixarEdital": [
+      {
+        "nomeDesc": "EDITAL PP 006-2023",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/EDITAL-PP-006-2023.pdf"
+      }
+    ]
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3616/",
+    "dataP": "11/04/2023",
+    "processo": "Processo : Proc. 015/2023 PREGÃO PRESENCIAL PARA SRP nº 009/2023",
+    "publicado": "Publicação : 16/03/2023",
+    "abertura": "Abertura :  11/04/2023",
+    "modalidade": "Modalidade : \n\t\t\t\t\t\tPREGÃO PRESENCIAL\t\t\t\t\t\n\t\t\t\t\t",
+    "situacao": "Situação : \n\t\t\t\t\t\tAberta\t\n\t\t\t\t\t",
+    "infolicita": "Registro de preço para aquisição de uniformes, cama, mesa e banho e material de proteção para manutenção das atividades das diversas secretarias do município de Lagoa dos Patos/MG"
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3618/",
+    "dataP": "18/04/2023",
+    "processo": "Processo : Proc. 017/2023 PREGÃO PRESENCIAL PARA SRP nº 010/2023 ",
+    "publicado": "Publicação : 16/03/2023",
+    "abertura": "Abertura :  18/04/2023",
+    "modalidade": "Modalidade : \n\t\t\t\t\t\tPREGÃO PRESENCIAL\t\t\t\t\t\n\t\t\t\t\t",
+    "situacao": "Situação : \n\t\t\t\t\t\tAberta\t\n\t\t\t\t\t",
+    "infolicita": "Registro de preço para contratação de empresa especializada na prestação de serviços e confecção de material gráfico para manutenção das atividades das diversas secretarias do município de Lagoa dos Patos/MG"
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3608/",
+    "dataP": "06/04/2023",
+    "processo": "Processo : PROC. 010/2023 PP 007/2023",
+    "publicado": "Publicação : 13/03/2023",
+    "abertura": "Abertura :  06/04/2023",
+    "modalidade": "Modalidade : \n\t\t\t\t\t\tPREGÃO PRESENCIAL\t\t\t\t\t\n\t\t\t\t\t",
+    "situacao": "Situação : \n\t\t\t\t\t\tAberta\t\n\t\t\t\t\t",
+    "infolicita": "Contratação de empresa especializada na prestação de diversos serviços para realização da vaquejada que acontecerá nos dias 11, 12, 13 e 14 de maio de 2023 no município de Lagoa dos Patos/MG"
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3609/",
+    "dataP": "20/03/2023",
+    "processo": "Processo : PROC. 011/2023 CRED. 001 INEX. 002/2023",
+    "publicado": "Publicação : 13/03/2023",
+    "abertura": "Abertura :  20/03/2023",
+    "modalidade": "Modalidade : \n\t\t\t\t\t\tCredenciamento por Inexigibilidade\t\t\t\t\t\n\t\t\t\t\t",
+    "situacao": "Situação : \n\t\t\t\t\t\tAberta\t\n\t\t\t\t\t",
+    "infolicita": "CREDENCIAMENTO PARA CONTRATAÇÃO DE PROFISSIONAIS MÉDICOS PLANTONISTAS EM ESCALA DE 12 HORAS E FERIADOS PARA PRESTAÇÃO DE SERVIÇOS MÉDICOS NO ATENDIMENTO A URGÊNCIAS E EMERGÊNCIAS NO MUNICIPIO DE LAGOA DOS PATOS/MG",
+    "baixarEdital": [
+      {
+        "nomeDesc": "EDITAL CREDENCIAMENTO Nº 001-2023",
+        "link": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2023/03/EDITAL-CREDENCIAMENTO-No-001-2023.pdf"
       }
     ]
   }
