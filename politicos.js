@@ -69,18 +69,13 @@ function emOrdem(nomeOne, nometwo) {
 }
 const urlEditais = '/editais-lagoa-dos-patos-mg'
 async function mostraEdit() {
+    const fecharEdi = document.querySelector('.fecharEdi')
 
     const responde = await fetch(urlEditais)
     const data = await responde.json()
 
-    //const ab = data.dataP.toString()    
-    //console.log(data[0].dataP )
-
     const cLoadin = document.getElementById(`loadi`)
     cLoadin.remove()
-    
-    console.log(responde.lenght)
-
 
 
     function toDate(dad) {
@@ -109,7 +104,7 @@ async function mostraEdit() {
         const todosEditais = document.querySelector('.todosEditais')
         const cSituacao = infoE.situacao.replace(/Situação :/g, '').replace(/[^A-Z]/g, '')
 
-       
+
 
         if (cSituacao == "A") {
             var classCor = 'fundoAberto'
@@ -140,9 +135,9 @@ async function mostraEdit() {
 
 
         }
-        
-        
-            todosEditais.innerHTML += `<li>
+
+
+        todosEditais.innerHTML += `<li>
     <fieldset>
         <div class="infoEdi">
             <p>${infoE.processo}</p>
@@ -163,24 +158,28 @@ async function mostraEdit() {
     </fieldset>
 </li>`
 
-        
 
 
-        
+
+
 
     })
 
-
+    fecharEdi.innerHTML = ` <button onclick="fechareditaisON()" id="btnFechaEd" >Fechar Editais</button>
+    <div>
+        <div id="carregaCursos" style="display:none;">
+            <img src="./cursos/processando.gif" alt=""> Fechando, Aguarde...
+                
+        </div>
+    </div>`
 
 
 }
 async function descObjeto(numb) {
     const infodaLicita = document.querySelector(`#infodaLicita${numb}`)
-    
+
     const responde = await fetch(urlEditais)
     const data = await responde.json()
-
-    //console.log(data[0].infolicita)
 
     function toDate(dad) {
         const verifica = dad.dataP;
@@ -196,18 +195,18 @@ async function descObjeto(numb) {
 
     }
 
-function ordemCrescente(a, b) {
-    return toDate(b) - toDate(a);
-}
+    function ordemCrescente(a, b) {
+        return toDate(b) - toDate(a);
+    }
 
 
-data.sort(toDate)
-data.sort(ordemCrescente);
+    data.sort(toDate)
+    data.sort(ordemCrescente);
 
 
-infodaLicita.innerHTML = `${data[numb].infolicita}`
+    infodaLicita.innerHTML = `${data[numb].infolicita}`
 
- 
+
 
 }
 
@@ -240,15 +239,15 @@ function carregaEdita() {
 }
 
 function fecharSempre() {
-    
+
     const parabensLagoa = document.getElementsByClassName('parabensLagoa')
     const fechaNiver = document.querySelector('.parabensLagoa')
     fechaNiver.classList.toggle('dblockLagoa')
 
     localStorage.setItem('niverLagoa', 'e')
-    
+
 }
-if(localStorage.getItem('niverLagoa') == null){
+if (localStorage.getItem('niverLagoa') == null) {
     const fechaNiver = document.querySelector('.parabensLagoa')
     fechaNiver.classList.add('dblockLagoa')
 }
@@ -257,4 +256,239 @@ function verBannerA() {
     const fechaNiver = document.querySelector('.parabensLagoa')
     fechaNiver.classList.add('dblockLagoa')
 
+}
+
+const urlCursos = "/cursos/cursos-online";
+
+async function cursonOnlineSebra() {
+    const maisCursos = document.querySelector('#maisCursos')
+    const response = await fetch(urlCursos)
+    
+    const data = await response.json();
+
+    console.log(data.length)
+    
+    const numerodoCurso = Math.floor(Math.random(11) * 260)
+
+    console.log(numerodoCurso)
+
+    for(let i = numerodoCurso; i > numerodoCurso - 5; i--){
+
+        const numeroAle = Math.floor(Math.random(0) * 4)
+    if(numeroAle == 1){
+        var corLater = "bordaCursoOnlineGreen"
+    } else  if(numeroAle == 2){
+        var corLater = "bordaCursoOnlineRed"
+    } else  if(numeroAle == 3){
+        var corLater = "bordaCursoOnlineBlue"
+    } else {
+        var corLater = "bordaCursoOnlinePurpe"
+    }
+       
+        const urlImagem = `https://www.sebrae.com.br${data[i].imagem.split('\"')[0]}`
+
+        console.log(urlImagem)
+       
+
+        maisCursos.innerHTML += `
+        <div style="background-image: url(${urlImagem}); background-size: cover;" class="cardCurso ${corLater}">               
+                <div class="infodoCurso">
+                    <div >
+                        <p>${data[i].categoria}</p>
+                        <a class="classeA" href="${data[i].link}" target="_blank">
+                            <h3 class="tituloCu">${data[i].curso}</h3>
+                        </a>
+                        <div>
+                            <div>
+                                <i class="bi bi-alarm"> Duração: ${data[i].duracao}</i><br>
+                                <i class="bi bi-calendar3"> Conclusão: ${data[i].conclusao}</i>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="${data[i].link}" target="_blank">
+                    <button>Saiba Mais</button>
+                    </a>
+                </div>
+        
+        </div>`
+    }
+
+
+    // data.map((curso) => {
+       
+
+    // })
+
+
+   
+}
+
+cursonOnlineSebra()
+
+
+function fechareditaisON() {
+    const fecharEdi = document.querySelector('.fecharEdi')
+    const escondEditais = document.querySelector('.todosEditais');
+    const carregaCursos = document.querySelector('#carregaCursos')
+    carregaCursos.style.display = 'block'
+
+
+
+    escondEditais.innerHTML = ` <div class="todosEditais">
+    <div id="btnCar">
+        <button onclick="carregaEdita()">CARREGAR EDITAIS</button>
+    </div>
+    <div id="loadi" class="ocultarObjeto">
+        <div class="loadingio-spinner-spinner-srb2q25os49">
+            <div class="ldio-viwp6dlcf3">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <style type="text/css">
+            @keyframes ldio-viwp6dlcf3 {
+                0% {
+                    opacity: 1
+                }
+
+                100% {
+                    opacity: 0
+                }
+            }
+
+            .ldio-viwp6dlcf3 div {
+                left: 94px;
+                top: 48px;
+                position: absolute;
+
+                animation: ldio-viwp6dlcf3 linear 1s infinite;
+                background: #f68438;
+                width: 12px;
+                height: 24px;
+                border-radius: 6px / 12px;
+                transform-origin: 6px 52px;
+            }
+
+            .ldio-viwp6dlcf3 div:nth-child(1) {
+                transform: rotate(0deg);
+                animation-delay: -0.9166666666666666s;
+                background: #f68438;
+            }
+
+            .ldio-viwp6dlcf3 div:nth-child(2) {
+                transform: rotate(30deg);
+                animation-delay: -0.8333333333333334s;
+                background: #f68438;
+            }
+
+            .ldio-viwp6dlcf3 div:nth-child(3) {
+                transform: rotate(60deg);
+                animation-delay: -0.75s;
+                background: #f68438;
+            }
+
+            .ldio-viwp6dlcf3 div:nth-child(4) {
+                transform: rotate(90deg);
+                animation-delay: -0.6666666666666666s;
+                background: #f68438;
+            }
+
+            .ldio-viwp6dlcf3 div:nth-child(5) {
+                transform: rotate(120deg);
+                animation-delay: -0.5833333333333334s;
+                background: #f68438;
+            }
+
+            .ldio-viwp6dlcf3 div:nth-child(6) {
+                transform: rotate(150deg);
+                animation-delay: -0.5s;
+                background: #f68438;
+            }
+
+            .ldio-viwp6dlcf3 div:nth-child(7) {
+                transform: rotate(180deg);
+                animation-delay: -0.4166666666666667s;
+                background: #f68438;
+            }
+
+            .ldio-viwp6dlcf3 div:nth-child(8) {
+                transform: rotate(210deg);
+                animation-delay: -0.3333333333333333s;
+                background: #f68438;
+            }
+
+            .ldio-viwp6dlcf3 div:nth-child(9) {
+                transform: rotate(240deg);
+                animation-delay: -0.25s;
+                background: #f68438;
+            }
+
+            .ldio-viwp6dlcf3 div:nth-child(10) {
+                transform: rotate(270deg);
+                animation-delay: -0.16666666666666666s;
+                background: #f68438;
+            }
+
+            .ldio-viwp6dlcf3 div:nth-child(11) {
+                transform: rotate(300deg);
+                animation-delay: -0.08333333333333333s;
+                background: #f68438;
+            }
+
+            .ldio-viwp6dlcf3 div:nth-child(12) {
+                transform: rotate(330deg);
+                animation-delay: 0s;
+                background: #f68438;
+            }
+
+            .loadingio-spinner-spinner-srb2q25os49 {
+                width: 200px;
+                height: 200px;
+                display: inline-block;
+                overflow: hidden;
+                background: #ffffff00;
+            }
+
+            .ldio-viwp6dlcf3 {
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                position: relative;
+                transform: translateZ(0) scale(1);
+                backface-visibility: hidden;
+                transform-origin: 0 0;
+                /* see note above */
+            }
+
+            .ldio-viwp6dlcf3 div {
+                box-sizing: content-box;
+            }
+
+            /* generated by https://loading.io/ */
+        </style> <br>
+        CARREGANDO EDITAIS...
+    </div>
+
+</div>
+
+<div id="cliq">
+    <i class="bi bi-arrow-up-circle-fill"></i>
+    <p>Clique no botão acima para carregar ou pesquisar um edital em Lagoa dos Patos
+        MG - Digite na barre de busca acima:</p>
+    <p>Em breve iremos adicionar vários editais, fique ligado!!</p>
+    <button onclick="verBannerA()">Ver Banner do Aniversário de Lagoa </button>
+</div>`
+
+carregaCursos.style.display = 'none'
+fecharEdi.innerHTML = ``
 }

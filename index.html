@@ -143,29 +143,29 @@
                     var ati = []
                     const vejamosS = document.querySelector('#vejamosS')
                     const pesquisaCN = document.querySelector('#pesquisaCN').value
-                    
+
                     const urlC = `https://minhareceita.org/${pesquisaCN}`
-                   
+
                     const response = await fetch(urlC);
                     const data = await response.json();
                     var atvsec = document.querySelector('#atvsec')
-                   
+
 
                     if (data.cnpj != undefined || pesquisaCN.toString().lenght > 0) {
-                       
-                       
 
-                      //  for(let i=0; i < 3; i++){
-                      //      var listaSe = document.createElement('li');
-                      //      listaSe.innerHTML = data.cnaes_secundarios[i]
-                     //       atvsec.appendChild(listaSe)
-                            
 
-                      //  }
+
+                        //  for(let i=0; i < 3; i++){
+                        //      var listaSe = document.createElement('li');
+                        //      listaSe.innerHTML = data.cnaes_secundarios[i]
+                        //       atvsec.appendChild(listaSe)
+
+
+                        //  }
                         const reve = data.data_situacao_cadastral.split('-').reverse();
                         var uatualiza = `${reve[0]}/${reve[1]}/${reve[2]}`
 
-                                           
+
                         console.log(ati)
 
                         vejamosS.innerHTML = `
@@ -207,7 +207,7 @@
                             </div>
                             <i class="bi bi-x-square-fill" onclick="fecharCNP()">FECHAR</i>
                         </div>`
-                    } else if(pesquisaCN.lenght == undefined){
+                    } else if (pesquisaCN.lenght == undefined) {
                         vejamosS.innerHTML = ` <div class="mostraAnimaCNPJ">INSIRA UM CNPJ, TENTE NOVAMENTE </div>`
                     }
                     else {
@@ -396,7 +396,8 @@
                                         alt="Solar Prime lagoa dos Patos MG" /></a>Solar Prime
                             </div>
                             <div>
-                                <a href="/padaria-souza.html"><img src="/imagens-sala/2022/04/jenilson-padaria-souza.jpeg"
+                                <a href="/padaria-souza.html"><img
+                                        src="/imagens-sala/2022/04/jenilson-padaria-souza.jpeg"
                                         alt="Padaria Souza Jenilson Lagoa dos Patos MG" /></a>Padaria Souza
                             </div>
                             <div>
@@ -419,6 +420,7 @@
                                 background-image: linear-gradient(0deg, #e95c00 0%, #d0b080 100%);
                                 color: white;
                             }
+
                             .tabelaFeriado table td {
                                 border: black solid 1px;
                                 padding: 1.3em;
@@ -427,17 +429,21 @@
                                 background-color: #ffffff;
                                 column-gap: normal;
                             }
+
                             .calendarI {
                                 text-align: center;
                             }
+
                             .tabelaFeriado strong {
                                 font-size: 1.3em;
                             }
+
                             @media (max-width: 768px) {
                                 .tabelaFeriado table {
                                     display: none;
                                 }
                             }
+
                             @media (max-width:576px) {
                                 .tabelaFeriado tbody {}
                             }
@@ -501,9 +507,11 @@
                             </table>
                         </div>
                         <div class="salaGeral">
-                            <h2>Sala mineira do empreendedor de Lagoa dos Patos- MG, Nota fiscal, alvará de funcionamento,
+                            <h2>Sala mineira do empreendedor de Lagoa dos Patos- MG, Nota fiscal, alvará de
+                                funcionamento,
                                 certidão negativa em Lagoa dos Patos MG.</h2>
-                            <h3><span>ATENÇÃO * Os serviços municipais são referente a cidade de Lagoa dos Patos-MG</span>
+                            <h3><span>ATENÇÃO * Os serviços municipais são referente a cidade de Lagoa dos
+                                    Patos-MG</span>
                             </h3>
                         </div>
                     </div>
@@ -629,138 +637,200 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="editaisShow">
-                    <h6>Encontre licitações abertas e receba alertas para baixar os editais em Lagoa dos Patos MG. Todos os Editais são retirados do site oficial da Prefeitura Municipal de Lagoa dos Patos MG - <a href="https://lagoadospatos.mg.gov.br/licitacoes/" target="_blank" >Saiba Mais</a>
+                    <h6>Encontre licitações abertas e receba alertas para baixar os editais em Lagoa dos Patos MG.
+                        Todos os Editais são retirados do site oficial da Prefeitura Municipal de Lagoa dos Patos MG
+                        - <a href="https://lagoadospatos.mg.gov.br/licitacoes/" target="_blank">Saiba Mais</a>
                     </h6>
                     <div>
                         <div class="buscadorUP">
                             <div class="buscadorS">
-                                <input type="text" autofocus name="" id="buscaD"  >
+                                <input type="text" autofocus name="" id="buscaD">
                                 <i class="bi bi-search" onclick="buscandoP()"></i>
+                            </div>
+                            <div class="fecharEdi" >
+                               
                             </div>
                             <div class="infoLicita">
                                 <div class="todosEditais">
                                     <div id="btnCar">
                                         <button onclick="carregaEdita()">CARREGAR EDITAIS</button>
                                     </div>
-                                   <div id="loadi" class="ocultarObjeto">
-                                    <div class="loadingio-spinner-spinner-srb2q25os49"><div class="ldio-viwp6dlcf3">
-                                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                                        </div></div>
+                                    <div id="loadi" class="ocultarObjeto">
+                                        <div class="loadingio-spinner-spinner-srb2q25os49">
+                                            <div class="ldio-viwp6dlcf3">
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                            </div>
+                                        </div>
                                         <style type="text/css">
-                                        @keyframes ldio-viwp6dlcf3 {
-                                          0% { opacity: 1 }
-                                          100% { opacity: 0 }
-                                        }
-                                        .ldio-viwp6dlcf3 div {
-                                          left: 94px;
-                                          top: 48px;
-                                          position: absolute;
-                                          
-                                          animation: ldio-viwp6dlcf3 linear 1s infinite;
-                                          background: #f68438;
-                                          width: 12px;
-                                          height: 24px;
-                                          border-radius: 6px / 12px;
-                                          transform-origin: 6px 52px;
-                                        }.ldio-viwp6dlcf3 div:nth-child(1) {
-                                          transform: rotate(0deg);
-                                          animation-delay: -0.9166666666666666s;
-                                          background: #f68438;
-                                        }.ldio-viwp6dlcf3 div:nth-child(2) {
-                                          transform: rotate(30deg);
-                                          animation-delay: -0.8333333333333334s;
-                                          background: #f68438;
-                                        }.ldio-viwp6dlcf3 div:nth-child(3) {
-                                          transform: rotate(60deg);
-                                          animation-delay: -0.75s;
-                                          background: #f68438;
-                                        }.ldio-viwp6dlcf3 div:nth-child(4) {
-                                          transform: rotate(90deg);
-                                          animation-delay: -0.6666666666666666s;
-                                          background: #f68438;
-                                        }.ldio-viwp6dlcf3 div:nth-child(5) {
-                                          transform: rotate(120deg);
-                                          animation-delay: -0.5833333333333334s;
-                                          background: #f68438;
-                                        }.ldio-viwp6dlcf3 div:nth-child(6) {
-                                          transform: rotate(150deg);
-                                          animation-delay: -0.5s;
-                                          background: #f68438;
-                                        }.ldio-viwp6dlcf3 div:nth-child(7) {
-                                          transform: rotate(180deg);
-                                          animation-delay: -0.4166666666666667s;
-                                          background: #f68438;
-                                        }.ldio-viwp6dlcf3 div:nth-child(8) {
-                                          transform: rotate(210deg);
-                                          animation-delay: -0.3333333333333333s;
-                                          background: #f68438;
-                                        }.ldio-viwp6dlcf3 div:nth-child(9) {
-                                          transform: rotate(240deg);
-                                          animation-delay: -0.25s;
-                                          background: #f68438;
-                                        }.ldio-viwp6dlcf3 div:nth-child(10) {
-                                          transform: rotate(270deg);
-                                          animation-delay: -0.16666666666666666s;
-                                          background: #f68438;
-                                        }.ldio-viwp6dlcf3 div:nth-child(11) {
-                                          transform: rotate(300deg);
-                                          animation-delay: -0.08333333333333333s;
-                                          background: #f68438;
-                                        }.ldio-viwp6dlcf3 div:nth-child(12) {
-                                          transform: rotate(330deg);
-                                          animation-delay: 0s;
-                                          background: #f68438;
-                                        }
-                                        .loadingio-spinner-spinner-srb2q25os49 {
-                                          width: 200px;
-                                          height: 200px;
-                                          display: inline-block;
-                                          overflow: hidden;
-                                          background: #ffffff00;
-                                        }
-                                        .ldio-viwp6dlcf3 {
-                                          width: 100%;
-                                          height: 100%;
-                                          border-radius: 50%;
-                                          position: relative;
-                                          transform: translateZ(0) scale(1);
-                                          backface-visibility: hidden;
-                                          transform-origin: 0 0; /* see note above */
-                                        }
-                                        .ldio-viwp6dlcf3 div { box-sizing: content-box; }
-                                        /* generated by https://loading.io/ */
+                                            @keyframes ldio-viwp6dlcf3 {
+                                                0% {
+                                                    opacity: 1
+                                                }
+
+                                                100% {
+                                                    opacity: 0
+                                                }
+                                            }
+
+                                            .ldio-viwp6dlcf3 div {
+                                                left: 94px;
+                                                top: 48px;
+                                                position: absolute;
+
+                                                animation: ldio-viwp6dlcf3 linear 1s infinite;
+                                                background: #f68438;
+                                                width: 12px;
+                                                height: 24px;
+                                                border-radius: 6px / 12px;
+                                                transform-origin: 6px 52px;
+                                            }
+
+                                            .ldio-viwp6dlcf3 div:nth-child(1) {
+                                                transform: rotate(0deg);
+                                                animation-delay: -0.9166666666666666s;
+                                                background: #f68438;
+                                            }
+
+                                            .ldio-viwp6dlcf3 div:nth-child(2) {
+                                                transform: rotate(30deg);
+                                                animation-delay: -0.8333333333333334s;
+                                                background: #f68438;
+                                            }
+
+                                            .ldio-viwp6dlcf3 div:nth-child(3) {
+                                                transform: rotate(60deg);
+                                                animation-delay: -0.75s;
+                                                background: #f68438;
+                                            }
+
+                                            .ldio-viwp6dlcf3 div:nth-child(4) {
+                                                transform: rotate(90deg);
+                                                animation-delay: -0.6666666666666666s;
+                                                background: #f68438;
+                                            }
+
+                                            .ldio-viwp6dlcf3 div:nth-child(5) {
+                                                transform: rotate(120deg);
+                                                animation-delay: -0.5833333333333334s;
+                                                background: #f68438;
+                                            }
+
+                                            .ldio-viwp6dlcf3 div:nth-child(6) {
+                                                transform: rotate(150deg);
+                                                animation-delay: -0.5s;
+                                                background: #f68438;
+                                            }
+
+                                            .ldio-viwp6dlcf3 div:nth-child(7) {
+                                                transform: rotate(180deg);
+                                                animation-delay: -0.4166666666666667s;
+                                                background: #f68438;
+                                            }
+
+                                            .ldio-viwp6dlcf3 div:nth-child(8) {
+                                                transform: rotate(210deg);
+                                                animation-delay: -0.3333333333333333s;
+                                                background: #f68438;
+                                            }
+
+                                            .ldio-viwp6dlcf3 div:nth-child(9) {
+                                                transform: rotate(240deg);
+                                                animation-delay: -0.25s;
+                                                background: #f68438;
+                                            }
+
+                                            .ldio-viwp6dlcf3 div:nth-child(10) {
+                                                transform: rotate(270deg);
+                                                animation-delay: -0.16666666666666666s;
+                                                background: #f68438;
+                                            }
+
+                                            .ldio-viwp6dlcf3 div:nth-child(11) {
+                                                transform: rotate(300deg);
+                                                animation-delay: -0.08333333333333333s;
+                                                background: #f68438;
+                                            }
+
+                                            .ldio-viwp6dlcf3 div:nth-child(12) {
+                                                transform: rotate(330deg);
+                                                animation-delay: 0s;
+                                                background: #f68438;
+                                            }
+
+                                            .loadingio-spinner-spinner-srb2q25os49 {
+                                                width: 200px;
+                                                height: 200px;
+                                                display: inline-block;
+                                                overflow: hidden;
+                                                background: #ffffff00;
+                                            }
+
+                                            .ldio-viwp6dlcf3 {
+                                                width: 100%;
+                                                height: 100%;
+                                                border-radius: 50%;
+                                                position: relative;
+                                                transform: translateZ(0) scale(1);
+                                                backface-visibility: hidden;
+                                                transform-origin: 0 0;
+                                                /* see note above */
+                                            }
+
+                                            .ldio-viwp6dlcf3 div {
+                                                box-sizing: content-box;
+                                            }
+
+                                            /* generated by https://loading.io/ */
                                         </style> <br>
                                         CARREGANDO EDITAIS...
-                                   </div>
-                                   
+                                    </div>
+
                                 </div>
-                               
-                               <div id="cliq">
-                                <i class="bi bi-arrow-up-circle-fill"></i>
-                                   <p>Clique no botão acima para carregar ou pesquisar um edital em Lagoa dos Patos MG - Digite na barre de busca acima:</p>
-                                   <p>Em breve iremos adicionar vários editais, fique ligado!!</p>
-                                   <button onclick="verBannerA()">Ver Banner do Aniversário de Lagoa </button>
-                               </div>
-                                
+
+                                <div id="cliq">
+                                    <i class="bi bi-arrow-up-circle-fill"></i>
+                                    <p>Clique no botão acima para carregar ou pesquisar um edital em Lagoa dos Patos
+                                        MG - Digite na barre de busca acima:</p>
+                                    <p>Em breve iremos adicionar vários editais, fique ligado!!</p>
+                                    <button onclick="verBannerA()">Ver Banner do Aniversário de Lagoa </button>
+                                </div>
+
                             </div>
-                            
+
                         </div>
                         <div>
-                            
+
                         </div>
-                        
+
                         <script>
                             function buscandoP() {
                                 const constB = document.querySelector('#buscaD').value
 
                                 window.location.href = `https://lagoadospatos.mg.gov.br/licitacoes/?_sf_s=PREG%C3%83O&_sft_objeto=${constB}`
                             }
-                            
+
                         </script>
                         <!-- https://lagoadospatos.mg.gov.br/licitacoes/?_sf_s=PREG%C3%83O&_sft_modalidade_licitacoes=pregao -->
                     </div>
+                    <h3>Cursos Online Gratuitos</h3>
+                    <div class="cursoOnline" id="maisCursos">
+                       
+                    </div>
                 </div>
+
             </div>
 
         </div>
