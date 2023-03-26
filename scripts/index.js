@@ -144,7 +144,6 @@ function selecioneTipoForm() {
     const setaD = document.getElementById('setaD');
     const classdoForm = document.getElementById('classDoForm')
     const avcpfcnpj = document.getElementById('avcpfcnpj')
-    console.log(selecTipo);
     if (selecTipo == "CNPJ") {
         avcpfcnpj.setAttribute('style', 'display: none')
         classdoForm.classList.remove('DFlex');

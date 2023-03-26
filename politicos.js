@@ -173,7 +173,6 @@ async function mostraEdit() {
         </div>
     </div>`
 
-
 }
 async function descObjeto(numb) {
     const infodaLicita = document.querySelector(`#infodaLicita${numb}`)
@@ -266,11 +265,11 @@ async function cursonOnlineSebra() {
     
     const data = await response.json();
 
-    console.log(data.length)
+   
     
     const numerodoCurso = Math.floor(Math.random(11) * 260)
 
-    console.log(numerodoCurso)
+   
 
     for(let i = numerodoCurso; i > numerodoCurso - 5; i--){
 
@@ -287,7 +286,6 @@ async function cursonOnlineSebra() {
        
         const urlImagem = `https://www.sebrae.com.br${data[i].imagem.split('\"')[0]}`
 
-        console.log(urlImagem)
        
 
         maisCursos.innerHTML += `
