@@ -45,7 +45,7 @@ for (let index = 0; index < feriados.length; index++) {
 
     console.log(hora)
 
-    if (hora >= 7 ) {
+    if (hora < 8 ) {
         funciona.innerHTML = `<div class="funcionamento cvermelho">
             <div >
                 <i class="bi bi-emoji-smile-fill"></i>
