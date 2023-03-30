@@ -40,6 +40,26 @@
     "imagem": "/Sebrae/Portal%20Sebrae/EAD2/Card-Destaque/Card_comunicacao-processo-vendas-webp.webp"
   },
   {
+    "categoria": "Cursos Presenciais",
+    "curso": "Cursos gratuitos com 196 vagas no senac montes claros MG",
+    "valor": "Gratuito",
+    "tipo": "Online",
+    "duracao": "Duração 6 Meses",
+    "conclusao": "Conclusão em 6 meses",
+    "link": "https://www.salamineira.com/cursos-gratuitos-senac-em-montes-claros-mg/",
+    "imagem": "https://www.salamineira.com/img/fachada-senac-montes-claros-sala-mineira-lagoa-dos-patos-mg.jpg"
+  },
+  {
+    "categoria": "Moda e Beleza",
+    "curso": "Curso de unhas em fibra de vidro",
+    "valor": "Pago",
+    "tipo": "Online",
+    "duracao": "Duração 6h ",
+    "conclusao": "Conclusão em 365 dias",
+    "link": "https://www.salamineira.com/curso-de-unhas-em-fibra-de-vidro",
+    "imagem": "https://www.salamineira.com/img/curso-unha-de-fibra-de-vifro-veronica.jpg"
+  },
+  {
     "categoria": " Leis",
     "curso": "Ética e integridade empresarial na prevenção da corrupção",
     "valor": "Gratuito",

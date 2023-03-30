@@ -191,17 +191,19 @@
                             <img src="./processando.gif" alt=""> Processando cursos, Aguarde...
                                 
                         </div>
-                        <div class="cursosS" id="cursosOnline">
-                           
+                        <div class="cursosS" style="margin-bottom: 20px;" id="cursosOnline">                           
                         </div>
-                        <h3 class="mg-md h3-91-style"><a href="../curso-de-unhas-em-fibra-de-vidro/"><span
+                        <div class="cursosS"  id="cursosOnlineTwo">                           
+                        </div>
+                    <!-- <h3 class="mg-md h3-91-style"><a href="../curso-de-unhas-em-fibra-de-vidro/"><span
                             class="fa fa-arrow-circle-right icon-md"></span></a> <a
                         href="../curso-de-unhas-em-fibra-de-vidro/">Cursos de unha de fibra de vidro</a><br>
-                </h3>
-                <h3 class="mg-md h3-91-style"><a href="../curso-de-unhas-em-fibra-de-vidro/"><span
+                    </h3>
+                    <h3 class="mg-md h3-91-style"><a href="../curso-de-unhas-em-fibra-de-vidro/"><span
                             class="fa fa-arrow-circle-right icon-md"></span></a> <a
                         href="../cursos-gratuitos-senac-em-montes-claros-mg/">Cursos gratuitos em montes
-                        claros</a><br></h3>
+                        claros</a><br>
+                    </h3> -->
                     </div>
                 </div>
             </div>
@@ -312,37 +314,98 @@
 
         async function cursoSebrae() {
             const response = await fetch(url)
-            console.log(response)
+          
             const data = await response.json();
+
+            
+            localStorage.setItem('cursonOn', JSON.stringify(data))
+        
+           
+
+            data.map((curso, index) => {
+                if(index <= 8){
+                    console.log(index)
+                    if(curso.imagem[0] == '/'){
+                        var urlImagem = `https://www.sebrae.com.br${curso.imagem}`
+                    } else {
+                        var urlImagem = curso.imagem
+                    }
+                   
+                    document.querySelector('#cursosOnline').innerHTML += ` <div class="cardCurso borda  me-1">
+                        <div>
+                            <img src="${urlImagem}" alt="">
+                        </div>
+                        <div class="p-3">
+                            <p>${curso.categoria}</p>
+                            <a class="classeA" href="${curso.link}" target="_blank">
+                                <h3>${curso.curso}</h3>
+                            </a>
+                            <div>
+                                <div>
+                                    <i class="bi bi-alarm"> Duração: ${curso.duracao}</i><br>
+                                    <i class="bi bi-calendar3"> Conclusão: ${curso.conclusao}</i><br>
+                                    <i class="bi bi-cash-coin"> Custo: ${curso.valor}</i>
+                                </div>
+                            </div>
+                            <a  href="${curso.link}" target="_blank"><button class="botaoC btn btn-primary">Saiba Mais</button></a>
+                        </div>
+    
+                    </div>
+                   `
+                }
+
+               
+            })
             
 
-            data.map((curso) => {
-                const urlImagem = `https://www.sebrae.com.br${curso.imagem}`
-                document.querySelector('#cursosOnline').innerHTML += ` <div class="cardCurso borda  me-1">
-                    <div>
-                        <img src="${urlImagem}" alt="">
-                    </div>
-                    <div class="p-3">
-                        <p>${curso.categoria}</p>
-                        <a class="classeA" href="${curso.link}" target="_blank">
-                            <h3>${curso.curso}</h3>
-                        </a>
-                        <div>
-                            <div>
-                                <i class="bi bi-alarm"> Duração: ${curso.duracao}</i><br>
-                                <i class="bi bi-calendar3"> Conclusão: ${curso.conclusao}</i>
-                            </div>
-                        </div>
-                        <a  href="${curso.link}" target="_blank"><button class="botaoC btn btn-primary">Saiba Mais</button></a>
-                    </div>
-
-                </div>
-               `
-            })
-
-            carregaCursos.innerHTML = `<h3>A Sala Mineira do Empreendedor de Lagoa dos Patos MG, disponibilizou ${data.length} cursos nesta página, navegue a vontade</h3>`
+             setTimeout('restanteCursos()', 1000)
+             carregaCursos.innerHTML = `<h3>A Sala Mineira do Empreendedor de Lagoa dos Patos MG, disponibilizou ${data.length} cursos nesta página, navegue a vontade</h3>`
+            
         }
-        setTimeout('cursoSebrae()', 1000)
+
+
+        function restanteCursos() {
+            const data = JSON.parse(localStorage.getItem('cursonOn'))
+
+            console.log(data)
+
+            data.map((curso, index) => {
+                if(index > 8){
+                    console.log(index)
+                    if(curso.imagem[0] == '/'){
+                        var urlImagem = `https://www.sebrae.com.br${curso.imagem}`
+                    } else {
+                        var urlImagem = curso.imagem
+                    }
+                   
+                    document.querySelector('#cursosOnlineTwo').innerHTML += ` <div class="cardCurso borda  me-1">
+                        <div>
+                            <img src="${urlImagem}" alt="">
+                        </div>
+                        <div class="p-3">
+                            <p>${curso.categoria}</p>
+                            <a class="classeA" href="${curso.link}" target="_blank">
+                                <h3>${curso.curso}</h3>
+                            </a>
+                            <div>
+                                <div>
+                                    <i class="bi bi-alarm"> Duração: ${curso.duracao}</i><br>
+                                    <i class="bi bi-calendar3"> Conclusão: ${curso.conclusao}</i><br>
+                                    <i class="bi bi-cash-coin"> Custo: ${curso.valor}</i>
+                                </div>
+                            </div>
+                            <a  href="${curso.link}" target="_blank"><button class="botaoC btn btn-primary">Saiba Mais</button></a>
+                        </div>
+    
+                    </div>
+                   `
+                }
+
+               
+            })
+        }
+        cursoSebrae()
+        //setTimeout('cursoSebrae()', 1000)
         
 
 
