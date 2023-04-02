@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas 2016</title>
+    <link rel="stylesheet" href="./style.css">
+   
+</head>
+
+<body onload="avaliacoes(2016)">
+    <div class="brasaoLagoa">
+        <img src="./img/braso-lagoa-min.jpg" alt="">
+        <h3>PREFEITURA MUNICIPAL DE LAGOA DOS PATOS MG</h3>
+    </div>
+    <div class="tabelaShow">
+        <div>
+            <a href="./"><button>VOLTAR</button></a>
+        </div>
+        <div>
+           Selecione a cidade:
+           <select name="" id="cidadeC" onchange="avaliacoes(2016)">
+            <option value="Lagoa dos Patos">Selecione a Cidade</option>
+           </select>
+           <!-- <input type="submit" value="Verificar"> -->
+        </div>
+        <div>
+            Selecione o Ano:
+            <nav id="menuTopInfo">
+            </nav>
+        </div>
+        <div class="cabecalho"  id="tabelaAvaliacaoVenal">
+            <div style="height:45px;">
+                <img src="./imagens/emater-mg-logo-6FDB59CBDA-seeklogo.com_.png.webp" alt="">
+            </div>
+            <h2>Valor de terra nua Municipal</h2>
+        </div>
+
+    </div>
+
+
+    <script src="./informacao.js"></script>
+</body>
+</html>

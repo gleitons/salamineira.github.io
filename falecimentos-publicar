@@ -33,6 +33,22 @@
   },
   {
     "id": 0,
+    "nome": "JOAQUIM",
+    "sexo": "m",
+    "imagem": "",
+    "nascimento": "",
+    "falecimento": "26/03/2023",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Lagoa dos Patos",
+    "estado": "MG",
+    "apelido": "Torré"
+  },
+  {
+    "id": 0,
     "nome": "MARIA SOARES DA SILVA",
     "sexo": "f",
     "imagem": "",

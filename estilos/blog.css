@@ -10,6 +10,15 @@
     text-align: center;
    
 }
+.esquerdoArtigo p {
+    line-height: 1.8em;
+}
+.esquerdoArtigo h3{
+    margin: 10px 0px;
+}
+.esquerdoArtigo h4{
+    margin: 10px 0px;
+}
 
 .musica {
     font-style: arial;
