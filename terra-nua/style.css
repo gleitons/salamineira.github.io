@@ -52,6 +52,12 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-sm{
 	padding:20px;
 }
+.curiosidadeS {
+	background-color: rgb(228, 17, 17);
+	color: white;
+	padding: 10px;
+	border-radius: 8px;
+}
 
 
 /* Light theme */

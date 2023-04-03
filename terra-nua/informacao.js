@@ -28,7 +28,34 @@ async function avaliacoes(anoS) {
     const response = await fetch(url)
     var data = await response.json()
 
-    //console.log(data)
+    function verMaior(a, b) {
+        //console.log(a.aptidaoBoa)
+        const aa = Number(a.aptidaoBoa.replace(/[^0-9]/g, ''))
+        const bb = Number(b.aptidaoBoa.replace(/[^0-9]/g, ''))
+        //console.log(aa)
+        //console.log(bb)
+        if (aa < bb) return 1;
+        if (aa > bb) return -1;
+        return 0;
+        
+    }
+    // function verMenor(c, d) {
+    //     //console.log(a.aptidaoBoa)
+    //     const cc = Number(c.aptidaoBoa.replace(/[^0-9]/g, ''))
+    //     const dd = Number(d.aptidaoBoa.replace(/[^0-9]/g, ''))
+    //     //console.log(aa)
+    //     //console.log(bb)
+    //     if (cc < dd) return -1;
+    //     if (cc > dd) return  1;
+    //     return 0;
+        
+    // }
+   
+
+    var agoraN =  data.sort(verMaior)
+    //var menorValor = data.sort(verMenor)
+
+    //console.log(menorValor)
 
     if(localStorage.getItem(`city${anoS}`) == null){
         
@@ -103,6 +130,7 @@ async function avaliacoes(anoS) {
 <p class="cidadeDown" onclick="esconde()" >Veja a Assinatura da Reunião em ${city.ano} em Lagoa dos Patos - MG</p>
 
 <p >Baixe a planilha completa - <a href="./arquivos/valor-terra-nua-${anoS}.pdf#">Clique Aqui</a></p>
+<p class="curiosidadeS" ><strong>*CURIOSIDADE:</strong> Você sabia que a cidade com maior valor da terra nua em <strong>${city.ano} foi ${agoraN[0].nome}</strong>, com valor venal de aptidão Boa no valor de R$ <strong>${agoraN[0].aptidaoBoa} mil reais</strong></p>
 <div class="assinaturaTermo ocultaEsome" id="imgOclude">
     <img src="./img/terra-nua-${anoS}.jpg" onclick="esconde()" style="cursor:pointer;" alt="Valor de terra nua do município de ${city.nome} no ano de ${city.ano}">
 </div>`   
