@@ -49,6 +49,22 @@
   },
   {
     "id": 0,
+    "nome": "HERCÍLIA FÉLIX DA SILVA",
+    "sexo": "f",
+    "imagem": "/falecimento/dona-cila.png",
+    "nascimento": "27/02/1938",
+    "falecimento": "22/04/2012",
+    "nota": "Não há dor maior do que ter de dizer adeus aos que amamos. Nem há saudade tão eterna como aquela que nasce com o luto. Por isso oro a Deus para que lhe conceda conforto e força nesta hora tão difícil.",
+    "obito": "Não identificado",
+    "mae": "MARIA GOMES DOS REIS",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Lagoa dos Patos",
+    "estado": "MG",
+    "apelido": "Dona Cila"
+  },
+  {
+    "id": 0,
     "nome": "MARIA SOARES DA SILVA",
     "sexo": "f",
     "imagem": "",

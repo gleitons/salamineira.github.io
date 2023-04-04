@@ -2050,3 +2050,14 @@ footer {
     align-items: center;
   }
 }
+@media (min-width:360px) {
+  .parabensLagoa i {
+    top: 132px;
+    left: 120px;
+  }
+  .parabensLagoa .fecharAg {
+    top: 132px;
+    left: 120px;
+  }
+  
+}

@@ -141,9 +141,6 @@ async function avaliacoes(anoS) {
         
     })
  gerarNomes(anoS)
- 
-  
-
     
 }
 
@@ -155,7 +152,7 @@ function esconde() {
 function gerarMenu() {
     var menuTopInfo = document.querySelector('#menuTopInfo')
 
-    for(let i = 2015; i <= 2023; i++) {
+    for(let i = 2010; i <= 2023; i++) {
         menuTopInfo.innerHTML += `<a href="./venal-${i}.html">
         <li>${i}</li>
         </a>`
