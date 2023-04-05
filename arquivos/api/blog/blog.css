@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    width: 70%;
+    margin: auto;
+   
+}
+.blog {
+    width: 70%;
+    border: rgb(148, 148, 148) solid 1px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+.blog h2 {
+   margin: 10px 0;
+}
+.blog img {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.blog p {
+    margin: 10px 0;
+ }

@@ -381,3 +381,84 @@ function rdo(){
 //             </div>
 
 //         </div>`
+
+function fecharCNP() {
+    const vejamosS = document.querySelector('#vejamosS')
+    vejamosS.innerHTML = '';
+}
+
+async function buscaCNPJB() {
+    //console.log(urlC)
+    var ati = []
+    const vejamosS = document.querySelector('#vejamosS')
+    const pesquisaCN = document.querySelector('#pesquisaCN').value
+
+    const urlC = `https://minhareceita.org/${pesquisaCN}`
+
+    const response = await fetch(urlC);
+    const data = await response.json();
+    var atvsec = document.querySelector('#atvsec')
+    if (data.cnpj != undefined || pesquisaCN.toString().lenght > 0) {
+
+
+
+        //  for(let i=0; i < 3; i++){
+        //      var listaSe = document.createElement('li');
+        //      listaSe.innerHTML = data.cnaes_secundarios[i]
+        //       atvsec.appendChild(listaSe)
+
+
+        //  }
+        const reve = data.data_situacao_cadastral.split('-').reverse();
+        var uatualiza = `${reve[0]}/${reve[1]}/${reve[2]}`
+
+
+        console.log(ati)
+
+        vejamosS.innerHTML = `
+        
+        <div class="mostraAnimaCNPJ">
+            <div>
+                <h4>CNPJ: </h4><p> ${data.cnpj}</p>
+            </div>
+            <div>
+                <h4>RAZÃO SOCIAL:</h4><p>${data.razao_social}</p>
+            </div>
+            <div>
+                <h4>NOME FANTASIA:</h4> <p>${data.nome_fantasia}</p>
+            </div>
+            <div>
+                <h4>CEP:</h4><p>${data.cep}</p>
+            </div>
+            <div>
+                <h4>CIDADE:</h4><p>${data.municipio}</p>
+            </div>
+            <div>
+                <h4>BAIRRO:</h4><p>${data.bairro}</p>
+            </div>
+            <div>
+                <h4>ENDEREÇO:</h4><p>${data.logradouro}</p>
+            </div>
+            <div>
+                <h4>NÚMERO:</h4> <p>${data.numero}</p>
+            </div>
+            <div>
+                <h4>ATIVIDADE PRINCIPAL: </h4> <p>${data.cnae_fiscal_descricao}</p>
+            </div>
+            <div>
+                <h4>ATIVIDADE SECUNDÁRIA: </h4> <div id="atvsec"></div>
+                 
+            </div>
+            <div>
+                <h4>ÚLTIMA ATUALIZAÇÃO: </h4> <p>${uatualiza}</p>
+            </div>
+            <i class="bi bi-x-square-fill" onclick="fecharCNP()">FECHAR</i>
+        </div>`
+    } else if (pesquisaCN.lenght == undefined) {
+        vejamosS.innerHTML = ` <div class="mostraAnimaCNPJ">INSIRA UM CNPJ, TENTE NOVAMENTE </div>`
+    }
+    else {
+        vejamosS.innerHTML = ` <div class="mostraAnimaCNPJ">CNPJ INEXISTENTE, TENTE NOVAMENTE </div>`
+    }
+}
+//buscaCNPJB()
