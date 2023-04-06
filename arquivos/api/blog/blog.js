@@ -12,7 +12,7 @@ async function geraArtigo() {
 
         const addButton = document.createElement('button');
         addButton.setAttribute('onclick', `blogArquive(${index})`)
-        addButton.innerHTML = `<h2>${artigo.titulo}</h2> <i class="bi bi-arrow-down-right-circle-fill"></i>`
+        addButton.innerHTML = `<h2>${artigo.titulo}</h2> ${index + 1} &#8505;`
         addButton.setAttribute('id', `btn${index}`)
         const divDoPost = document.createElement('div')
         divDoPost.setAttribute('id', `post${index}`)
