@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    max-width: 576px;
+    height: 100vh;
+    margin: auto;
+    
+}
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(192, 96, 5);
+    position: relative;
+}
+.SearchB {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px ;
+    align-items: center;
+}
+.SearchB input {
+    width: 100%;
+    font-size: 1.5em;
+    background-color: rgb(192, 96, 5);
+    border: none;
+    border-bottom: white solid 1px;
+    outline: none;
+    
+}
+
+.SearchB input::placeholder {
+    color: rgb(194, 194, 194);
+}
+.SearchB i {
+    font-size: 1.5em;
+    color: white;
+}
+main {
+    width: 100%;
+    height: 85vh;
+    border: black solid 1px;
+    overflow: auto;
+    background-color: red;
+   
+}
+main img {
+    width: 100%;
+}
+.menuTop {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    bottom: 0px;
+    /* border: black solid 1px; */
+}
+.menuTop nav{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+    
+    text-decoration: none;
+   
+}
+.menuTop nav a {
+    width: 100%;
+    margin: 2px 2px;
+    text-decoration: none;
+    color: rgb(192, 96, 5);
+    align-items: center;
+}
+.menuTop nav li {
+   
+    padding: 5px;
+    list-style: none;
+    background-color: white;  
+    border-radius: 8px;
+    font-size: 1.3em;
+}
+.fooNav {
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+}
+.fooNav nav {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    font-size: .8em;
+    justify-content: space-between;
+    align-items: center;
+}
+.fooNav nav a li {
+    display: block;
+    text-align: center;
+}
+.fooNav nav a li img {
+    width: 60%;
+}
