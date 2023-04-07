@@ -32,6 +32,36 @@
   },
   {
     "id": [
+      "prefeitura", "publica"
+    ],
+    "cnpj": "16901381000110",
+    "cnpjN": "16.901.381/0001-10",
+    "razaoSocial": "MUNICIPIO DE LAGOA DOS PATOS",
+    "nomeFantasia": "LAGOA DOS PATOS PREFEITURA GABINETE DO PREFEITO",
+    "imagem": "",
+    "tipo": "MATRIZ",
+    "abertura": "26/12/1974",
+    "situacao": "ATIVA",
+    "capitalSocial": "0",
+    "naturezaJuridica": "1244 - MUNICIPIO",
+    "empresaMei": "Não",
+    "endereco": "PC 31 DE MARCO",
+    "numero": "S N",
+    "complemento": "",
+    "cep": "39360-000",
+    "bairro": "CENTRO",
+    "cidade": "LAGOA DOS PATOS ",
+    "estado": "MG  E-MAIL  Quadro Societário Atividade Principal 8411600 - Administração pública em geral Atividades Secundárias Data da Consulta 06/06/20",
+    "telefone": "901.381/0001-10 Razão Social MUNICIPIO DE LAGOA DOS PATOS Nome Fantasia LAGOA DOS PATOS PREFEITURA GABINETE DO PREFEITO Tipo MATRIZ Data Abertura 26/12/1974 Situação Cadastral ATIVA Data da Situação Cadastral 21/05/2005 Capital Social R$ 0 Natureza Jurídica 1244 - MUNICIPIO Empresa MEI Não Logradouro PC 31 DE MARCO Número S N Complemento CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG ",
+    "email": "",
+    "socio": "",
+    "atividadePrincipal": "8411600 - Administração pública em geral",
+    "atividadeSecundaria": "",
+    "dataConsulta": "06/06/2022",
+    "todosDados": "CNPJ 16.901.381/0001-10 Razão Social MUNICIPIO DE LAGOA DOS PATOS Nome Fantasia LAGOA DOS PATOS PREFEITURA GABINETE DO PREFEITO Tipo MATRIZ Data Abertura 26/12/1974 Situação Cadastral ATIVA Data da Situação Cadastral 21/05/2005 Capital Social R$ 0 Natureza Jurídica 1244 - MUNICIPIO Empresa MEI Não Logradouro PC 31 DE MARCO Número S N Complemento CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG  E-MAIL  Quadro Societário Atividade Principal 8411600 - Administração pública em geral Atividades Secundárias Data da Consulta 06/06/2022"
+  },
+  {
+    "id": [
       "roupas",
       "sapatos"
     ],
@@ -363,7 +393,7 @@
   },
   {
     "id": [
-      "escola"
+      "escola", "publica"
     ],
     "cnpj": "03210172000188",
     "cnpjN": "03.210.172/0001-88",
@@ -393,7 +423,7 @@
   },
   {
     "id": [
-      "escola"
+      "escola", "publica"
     ],
     "cnpj": "11461543000122",
     "cnpjN": "11.461.543/0001-22",
@@ -423,7 +453,7 @@
   },
   {
     "id": [
-      "escola"
+      "escola", "publica"
     ],
     "cnpj": "01931512000134",
     "cnpjN": "01.931.512/0001-34",
@@ -453,7 +483,7 @@
   },
   {
     "id": [
-      "escola"
+      "escola", "publica"
     ],
     "cnpj": "19143858000133",
     "cnpjN": "19.143.858/0001-33",
@@ -4360,7 +4390,7 @@
     "cnpj": "17119597000190",
     "cnpjN": "17.119.597/0001-90",
     "razaoSocial": "EVANDRO NERES DA SILVA",
-    "nomeFantasia": "",
+    "nomeFantasia": "AGROFENO II",
     "imagem": "",
     "tipo": "MATRIZ",
     "abertura": "06/11/2012",
@@ -4904,37 +4934,7 @@
   },
   {
     "id": [
-      "prefeitura"
-    ],
-    "cnpj": "16901381000110",
-    "cnpjN": "16.901.381/0001-10",
-    "razaoSocial": "MUNICIPIO DE LAGOA DOS PATOS",
-    "nomeFantasia": "LAGOA DOS PATOS PREFEITURA GABINETE DO PREFEITO",
-    "imagem": "",
-    "tipo": "MATRIZ",
-    "abertura": "26/12/1974",
-    "situacao": "ATIVA",
-    "capitalSocial": "0",
-    "naturezaJuridica": "1244 - MUNICIPIO",
-    "empresaMei": "Não",
-    "endereco": "PC 31 DE MARCO",
-    "numero": "S N",
-    "complemento": "",
-    "cep": "39360-000",
-    "bairro": "CENTRO",
-    "cidade": "LAGOA DOS PATOS ",
-    "estado": "MG  E-MAIL  Quadro Societário Atividade Principal 8411600 - Administração pública em geral Atividades Secundárias Data da Consulta 06/06/20",
-    "telefone": "901.381/0001-10 Razão Social MUNICIPIO DE LAGOA DOS PATOS Nome Fantasia LAGOA DOS PATOS PREFEITURA GABINETE DO PREFEITO Tipo MATRIZ Data Abertura 26/12/1974 Situação Cadastral ATIVA Data da Situação Cadastral 21/05/2005 Capital Social R$ 0 Natureza Jurídica 1244 - MUNICIPIO Empresa MEI Não Logradouro PC 31 DE MARCO Número S N Complemento CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG ",
-    "email": "",
-    "socio": "",
-    "atividadePrincipal": "8411600 - Administração pública em geral",
-    "atividadeSecundaria": "",
-    "dataConsulta": "06/06/2022",
-    "todosDados": "CNPJ 16.901.381/0001-10 Razão Social MUNICIPIO DE LAGOA DOS PATOS Nome Fantasia LAGOA DOS PATOS PREFEITURA GABINETE DO PREFEITO Tipo MATRIZ Data Abertura 26/12/1974 Situação Cadastral ATIVA Data da Situação Cadastral 21/05/2005 Capital Social R$ 0 Natureza Jurídica 1244 - MUNICIPIO Empresa MEI Não Logradouro PC 31 DE MARCO Número S N Complemento CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG  E-MAIL  Quadro Societário Atividade Principal 8411600 - Administração pública em geral Atividades Secundárias Data da Consulta 06/06/2022"
-  },
-  {
-    "id": [
-      "camara"
+      "camara", "publica"
     ],
     "cnpj": "66489659000161",
     "cnpjN": "66.489.659/0001-61",
@@ -5054,7 +5054,7 @@
   },
   {
     "id": [
-      ""
+      "publica"
     ],
     "cnpj": "36836644000161",
     "cnpjN": "36.836.644/0001-61",
@@ -6188,7 +6188,7 @@
     "id": [
       "mercado",
       "padaria",
-      "verdura"
+      "verdura", "gas"
     ],
     "cnpj": "11360452000109",
     "cnpjN": "11.360.452/0001-09",

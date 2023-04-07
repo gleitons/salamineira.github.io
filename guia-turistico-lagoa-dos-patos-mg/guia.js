@@ -2,6 +2,7 @@ var infoVisivel = document.querySelector('#infoVisivel')
 var urlEmpresas = '/empresas'
 
 async function combustivel() {
+    fechaEmpresaL()
     infoVisivel.innerHTML = ''
     const inicio = document.querySelector('#inicio')
     //inicio.remove()
@@ -23,7 +24,57 @@ async function combustivel() {
     })
 
 }
+
+async function empresaGas() {
+    fechaEmpresaL()
+    infoVisivel.innerHTML = ''
+    const inicio = document.querySelector('#inicio')
+    //inicio.remove()
+    const response = await fetch(urlEmpresas);
+    const data = await response.json();
+    data.map((empresaL, index) => {
+        console.log(empresaL.id.length)
+        for(let i = 0; i < empresaL.id.length; i++ ) {
+            console.log(empresaL.id[i])
+            if(empresaL.id[i] == "gas") {
+                infoVisivel.innerHTML += `
+                <div class="btnEmpresa" onclick="verEmpresaShow(${index})">
+                    <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
+                </div>`
+            }
+        }
+        
+       
+    })
+
+}
+
+
+async function empresaPublicas() {
+    fechaEmpresaL()
+    infoVisivel.innerHTML = ''
+    const inicio = document.querySelector('#inicio')
+    //inicio.remove()
+    const response = await fetch(urlEmpresas);
+    const data = await response.json();
+    data.map((empresaL, index) => {
+        console.log(empresaL.id.length)
+        for(let i = 0; i < empresaL.id.length; i++ ) {
+            console.log(empresaL.id[i])
+            if(empresaL.id[i] == "publica") {
+                infoVisivel.innerHTML += `
+                <div class="btnEmpresa" onclick="verEmpresaShow(${index})">
+                    <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
+                </div>`
+            }
+        }
+        
+       
+    })
+
+}
 async function farmacia() {
+    fechaEmpresaL()
     infoVisivel.innerHTML = ''
     const inicio = document.querySelector('#inicio')
     //inicio.remove()
@@ -46,6 +97,7 @@ async function farmacia() {
 
 }
 async function mercado() {
+    fechaEmpresaL()
     infoVisivel.innerHTML = ''
     const inicio = document.querySelector('#inicio')
     //inicio.remove()
@@ -68,6 +120,7 @@ async function mercado() {
 
 }
 async function restaurante() {
+    fechaEmpresaL()
     infoVisivel.innerHTML = ''
     const inicio = document.querySelector('#inicio')
     //inicio.remove()
@@ -80,7 +133,7 @@ async function restaurante() {
             if(empresaL.id[i] == "restaurante") {
                 infoVisivel.innerHTML += `
                 <div class="btnEmpresa" onclick="verEmpresaShow(${index})">
-                    <li><span>${empresaL.nomeFantasia}</span> ${empresaL.razaoSocial} - ${empresaL.cnpjN} </li>
+                    <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
                 </div>`
             }
         }
@@ -90,6 +143,7 @@ async function restaurante() {
 
 }
 async function empresas() {
+    fechaEmpresaL()
     infoVisivel.innerHTML = ''
     const inicio = document.querySelector('#inicio')
     //inicio.remove()
@@ -113,6 +167,7 @@ async function empresas() {
 
 }
 async function localizaEmpresas() {
+    fechaEmpresaL()
     infoVisivel.innerHTML = ''
     
     const inicio = document.querySelector('#inicio')
@@ -139,6 +194,7 @@ async function localizaEmpresas() {
 }
 
 async function maisEmpresas() {
+   fechaEmpresaL()
     infoVisivel.innerHTML = ''
     
     const inicio = document.querySelector('#inicio')
@@ -281,5 +337,9 @@ for(let i = 0; i < imagensOne.length; i++){
         </div>
     </div>`
 }   
+}
+function apagaSeta() {
+    document.querySelector('#rightT').remove()
+    console.log('roloou')
 }
 
