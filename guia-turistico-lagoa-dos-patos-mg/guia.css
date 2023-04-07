@@ -9,11 +9,12 @@ body {
   max-width: 576px;
   height: 90vh;
   margin: auto;
+  background-color: rgb(20, 40, 65);
 }
 header {
   height: 15vh;
   width: 100%;
-  background-color: rgb(192, 96, 5);
+  background-color: rgb(66, 113, 175);
   position: relative;
 }
 .SearchB {
@@ -29,7 +30,7 @@ header {
 .SearchB input {
   width: 100%;
   font-size: 1.5em;
-  background-color: rgb(192, 96, 5);
+  background-color: rgb(66, 113, 175);
   border: none;
   border-bottom: white solid 1px;
   outline: none;
@@ -38,6 +39,10 @@ header {
 .SearchB input::placeholder {
   color: rgb(194, 194, 194);
 }
+.SearchB input:focus {
+  color: rgb(194, 194, 194);
+}
+
 .SearchB img {
   width: 50px;
   border-radius: 20%;
@@ -46,14 +51,24 @@ main {
   width: 100%;
   height: 76vh;
   overflow: auto;
+  background-image: url(./imgguia/futuro-consultoria.jpg);
+  background-size: cover;
   background-color: rgb(224, 224, 224);
   padding: 10px;
 }
+.tamanhosImg {
+  margin: 20px auto;
+  border: #0093e9 solid 10px;
+  border-radius: 12px;
+  
+}
+
 #infoVisivel {
   margin-bottom: 60px;
 }
 .enderecoEmp {
   color: white;
+  margin: 10px auto;
 }
 .carregando {
   width: 100%;
@@ -62,7 +77,6 @@ main {
 .carregando img {
   width: 40px;
   margin: 10px auto;
-  
 }
 .dnone {
   display: none;
@@ -72,17 +86,29 @@ main img {
 }
 .btnEmpresa {
   list-style: none;
-  background-image: linear-gradient(to right, #1da3b5 0%, #514A9D 51%, #24C6DC 100%);
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 10px;
-  margin: 10px auto;
+  line-height: 1.9em;
+  margin: 20px auto;
   border-radius: 8px;
   color: rgb(255, 255, 255);
   font-weight: 600;
   box-shadow: black 0px 2px 5px 0px;
   text-align: center;
+  animation: apareceTela 400ms normal;
+}
+@keyframes apareceTela {
+  0% {
+    opacity: 0;
+  }
 }
 .btnEmpresa span {
-  background-color: rgb(0, 118, 0);
+  background-color: rgb(20, 40, 65) ;
   padding: 5px;
   border-radius: 8px;
   margin: 10px auto;
@@ -107,7 +133,7 @@ main img {
   width: 100%;
   margin: 2px 2px;
 
-  color: rgb(192, 96, 5);
+  color: rgb(66, 113, 175);
   align-items: center;
 }
 .menuTop nav li {
@@ -118,17 +144,15 @@ main img {
   font-size: 1.3em;
 }
 footer {
-  max-width: 576px;  
+  z-index: 99999;
+  max-width: 576px;
   position: absolute;
   bottom: 0px;
 }
 .fooNav {
-  max-width:576px;  
- 
- 
+  max-width: 576px;
 }
 .fooNav nav {
-  
   min-width: 576px;
   background-color: white;
   padding: 10px;
@@ -147,17 +171,18 @@ footer {
 .fooNav nav a li img {
   width: 30px;
 }
-.contatoEmpresa a{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    text-decoration: none;
-    background-color: white;
-    padding: 2px;
-    border-radius: 8px;
+.contatoEmpresa a {
+  display: flex;
+  margin: 10px auto;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  background-color: white;
+  padding: 2px;
+  border-radius: 8px;
 }
 .contatoEmpresa img {
-    width: 30px;
+  width: 30px;
 }
 .fundoEmpresaLocal {
   background-color: rgba(0, 0, 0, 0.855);
@@ -165,9 +190,7 @@ footer {
   height: 100vh;
   position: absolute;
   top: 0;
- 
 }
-
 
 .empresaLocal {
   position: absolute;
@@ -185,9 +208,9 @@ footer {
   animation: empresaShow 500ms normal;
 }
 @keyframes empresaShow {
-    0% {
-      bottom: -100%;
-    }
+  0% {
+    bottom: -100%;
+  }
 }
 .mapaLocalizacao iframe {
   width: 100%;
@@ -200,22 +223,21 @@ footer {
   color: white;
 }
 .btnAcessar {
-    width: 100%;
-    /* border: black 1px solid; */
-    text-align: center;
+  width: 100%;
+  /* border: black 1px solid; */
+  text-align: center;
 }
 .btnAcessar button {
-    text-align: center;
-    width: fit-content;
-    padding: 10px;
-    border-radius: 8px;
+  text-align: center;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 8px;
 }
-.fecharDivEndereco img{
+.fecharDivEndereco img {
   position: absolute;
   top: 16%;
   width: 50px;
   left: 5px;
-  
 }
 .fotosEmpresas {
   display: flex;
@@ -223,13 +245,12 @@ footer {
   justify-content: space-between;
 }
 .fotosEmpresas img {
-  width: 49%; 
+  width: 49%;
   gap: 10px;
- 
 }
 
 @media (max-width: 360px) {
-  .fooNav nav {   
+  .fooNav nav {
     min-width: 360px;
     background-color: white;
     padding: 10px;

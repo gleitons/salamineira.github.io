@@ -38,7 +38,7 @@
     "cnpj": "04806607000114",
     "cnpjN": "04.806.607/0001-14",
     "razaoSocial": "FILOMENA DA CONCEICAO RAMOS NUNES",
-    "nomeFantasia": "",
+    "nomeFantasia": "CRIS MODAS",
     "imagem": "",
     "tipo": "MATRIZ",
     "abertura": "23/10/2001",
@@ -758,7 +758,7 @@
     "cnpj": "14665838000109",
     "cnpjN": "14.665.838/0001-09",
     "razaoSocial": "JOANA DOS PASSOS ALVES FONSECA",
-    "nomeFantasia": "",
+    "nomeFantasia": "RESTAURANTE ANTUNES",
     "imagem": "",
     "tipo": "MATRIZ",
     "abertura": "24/11/2011",
@@ -2258,6 +2258,34 @@
     "dataConsulta": "06/06/2022",
     "todosDados": "CNPJ 24.427.782/0001-08 Razão Social ROMILTON XAVIER DA SILVA Nome Fantasia PADARIA SILVA Tipo MATRIZ Data Abertura 21/03/2016 Situação Cadastral ATIVA Data da Situação Cadastral 21/03/2016 Capital Social R$ 1.000 Natureza Jurídica 2135 - EMPRESARIO (INDIVIDUAL) Empresa MEI Sim Logradouro R RUA FAUSTINO MAIA Número 22 Complemento CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG  Telefone 38 3745-1239 E-MAIL romilton55@hotmail.com Quadro Societário Atividade Principal 1091101 - Fabricação de produtos de panificação industrial Atividades Secundárias 1096100 - Fabricação de alimentos e pratos prontos 8230001 - Serviços de organização de feiras, congressos, exposições e festas 5620101 - Fornecimento de alimentos preparados preponderantemente para empresas 4729699 - Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente Data da Consulta 06/06/2022"
   },
+  {
+    "id": ["criar site", "criar aplicativo", "consultoria SEO", "marketing","perfumaria"],
+    "cnpj": "26300217000100",
+    "cnpjN": "26.300.217/0001-00",
+    "razaoSocial": "GLEITON APARECIDO SOARES DE SOUZA",
+    "nomeFantasia": "FUTURO CONSULTORIA",
+    "imagem": "",
+    "tipo": "MATRIZ",
+    "abertura": "05/10/2016",
+    "situacao": "ATIVA",
+    "capitalSocial": "2.300",
+    "naturezaJuridica": "2135 - EMPRESARIO (INDIVIDUAL)",
+    "empresaMei": "Sim",
+    "endereco": "",
+    "numero": "",
+    "complemento": "",
+    "cep": "",
+    "bairro": "",
+    "cidade": "",
+    "estado": "",
+    "telefone": "38 9916-7841",
+    "email": "gleitonsoares@outlook.com",
+    "socio": "",
+    "atividadePrincipal": "-",
+    "atividadeSecundaria": "4781400 - Comércio varejista de artigos do vestuário e acessórios 7319003 - Marketing direto 4729699 - Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente",
+    "dataConsulta": "29/06/2022",
+    "todosDados":"CNPJ 26.300.217/0001-00 Razão Social GLEITON APARECIDO SOARES DE SOUZA Nome Fantasia HD PRODUTOS DIGITAIS Tipo MATRIZ Data Abertura 05/10/2016 Situação Cadastral INAPTA Data da Situação Cadastral 03/02/2021 Capital Social R$ 2.300 Natureza Jurídica 2135 - EMPRESARIO (INDIVIDUAL) Empresa MEI Sim Logradouro Número Complemento CEP Bairro Município UF Telefone 38 9916-7841 E-MAIL gleitonsoares@outlook.com Quadro Societário Atividade Principal - Atividades Secundárias 4781400 - Comércio varejista de artigos do vestuário e acessórios 7319003 - Marketing direto 4729699 - Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente Data da Consulta 29/06/2022"
+},
   {
     "id": [
       "salao"
@@ -5633,7 +5661,12 @@
   },
   {
     "id": [
-      "combustivel"
+      "combustivel",
+      "gasolina",
+      "oleo diesel",
+      "óleo diesel",
+      "abastecer",
+      "lubrificante"
     ],
     "cnpj": "01578655000104",
     "cnpjN": "01.578.655/0001-04",
@@ -5755,6 +5788,10 @@
   {
     "id": [
       "combustivel",
+      "gasolina",
+      "oleo diesel",
+      "óleo diesel",
+      "abastecer",
       "lubrificante"
     ],
     "cnpj": "03552819000230",
