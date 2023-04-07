@@ -28,7 +28,9 @@
     "atividadePrincipal": "6110803 - Serviços de comunicação multimídia - SCM",
     "atividadeSecundaria": "4751201 - Comércio varejista especializado de equipamentos e suprimentos de informática 4752100 - Comércio varejista especializado de equipamentos de telefonia e comunicação 4759899 - Comércio varejista de outros artigos de uso pessoal e doméstico não especificados anteriormente 6190699 - Outras atividades de telecomunicações não especificadas anteriormente",
     "dataConsulta": "06/06/2022",
-    "todosDados": "CNPJ 26.823.642/0001-84 Razão Social ALESSANDRO DA SOLEDADE GONCALVES Nome Fantasia NETWORK SERVICES Tipo MATRIZ Data Abertura 09/01/2017 Situação Cadastral ATIVA Data da Situação Cadastral 09/01/2017 Capital Social R$ 10.000 Natureza Jurídica 2135 - EMPRESARIO (INDIVIDUAL) Empresa MEI Sim Logradouro R CORONEL ARISTIDES BATISTA Número 281 Complemento LETRA A CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG  Telefone 38 9972-9737 E-MAIL alessandro@waal.com.br Quadro Societário Atividade Principal 6110803 - Serviços de comunicação multimídia - SCM Atividades Secundárias 4751201 - Comércio varejista especializado de equipamentos e suprimentos de informática 4752100 - Comércio varejista especializado de equipamentos de telefonia e comunicação 4759899 - Comércio varejista de outros artigos de uso pessoal e doméstico não especificados anteriormente 6190699 - Outras atividades de telecomunicações não especificadas anteriormente Data da Consulta 06/06/2022"
+    "todosDados": "CNPJ 26.823.642/0001-84 Razão Social ALESSANDRO DA SOLEDADE GONCALVES Nome Fantasia NETWORK SERVICES Tipo MATRIZ Data Abertura 09/01/2017 Situação Cadastral ATIVA Data da Situação Cadastral 09/01/2017 Capital Social R$ 10.000 Natureza Jurídica 2135 - EMPRESARIO (INDIVIDUAL) Empresa MEI Sim Logradouro R CORONEL ARISTIDES BATISTA Número 281 Complemento LETRA A CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG  Telefone 38 9972-9737 E-MAIL alessandro@waal.com.br Quadro Societário Atividade Principal 6110803 - Serviços de comunicação multimídia - SCM Atividades Secundárias 4751201 - Comércio varejista especializado de equipamentos e suprimentos de informática 4752100 - Comércio varejista especializado de equipamentos de telefonia e comunicação 4759899 - Comércio varejista de outros artigos de uso pessoal e doméstico não especificados anteriormente 6190699 - Outras atividades de telecomunicações não especificadas anteriormente Data da Consulta 06/06/2022",
+    "imagensEmpresa": ["https://www.salamineira.com/img/internet-movel-historia-lagoa-dos-patos-mg-gleiton-aparecido-soares-de-souza.jpg", "https://www.salamineira.com/img/4g-vivo-lagoa-dos-patos-mulher-surpresa-vendo-celular.jpg"]
+    
   },
   {
     "id": [
@@ -758,7 +760,7 @@
     "cnpj": "14716780000185",
     "cnpjN": "14.716.780/0001-85",
     "razaoSocial": "JENILSON DE JESUS SOUZA",
-    "nomeFantasia": "",
+    "nomeFantasia": "PADARIA SOUZA",
     "imagem": "",
     "tipo": "MATRIZ",
     "abertura": "05/12/2011",
@@ -976,7 +978,7 @@
     "capitalSocial": "1",
     "naturezaJuridica": "2135 - EMPRESARIO (INDIVIDUAL)",
     "empresaMei": "Sim",
-    "endereco": "R DONA DUCHA",
+    "endereco": "R DONA DUXA",
     "numero": "38",
     "complemento": "",
     "cep": "39360-000",
@@ -989,7 +991,7 @@
     "atividadePrincipal": "8230001 - Serviços de organização de feiras, congressos, exposições e festas",
     "atividadeSecundaria": "9001902 - Produção musical 7729202 - Aluguel de móveis, utensílios e aparelhos de uso doméstico e pessoal; instrumentos musicais 7739003 - Aluguel de palcos, coberturas e outras estruturas de uso temporário, exceto andaimes",
     "dataConsulta": "23/06/2022",
-    "todosDados": "CNPJ 17.192.908/0001-47 Razão Social SANDRO EULANDO RAMOS Tipo MATRIZ Data Abertura 21/11/2012 Situação Cadastral ATIVA Data da Situação Cadastral 26/08/2021 Capital Social R$ 1 Natureza Jurídica 2135 - EMPRESARIO (INDIVIDUAL) Empresa MEI Sim Logradouro R DONA DUCHA Número 38 Complemento CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG  Telefone 38 9827-9867 E-MAIL sandroramosbp@hotmail.com Quadro Societário Atividade Principal 8230001 - Serviços de organização de feiras, congressos, exposições e festas Atividades Secundárias 9001902 - Produção musical 7729202 - Aluguel de móveis, utensílios e aparelhos de uso doméstico e pessoal; instrumentos musicais 7739003 - Aluguel de palcos, coberturas e outras estruturas de uso temporário, exceto andaimes Data da Consulta 23/06/2022"
+    "todosDados": "CNPJ 17.192.908/0001-47 Razão Social SANDRO EULANDO RAMOS Tipo MATRIZ Data Abertura 21/11/2012 Situação Cadastral ATIVA Data da Situação Cadastral 26/08/2021 Capital Social R$ 1 Natureza Jurídica 2135 - EMPRESARIO (INDIVIDUAL) Empresa MEI Sim Logradouro R DONA DUXA Número 38 Complemento CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG  Telefone 38 9827-9867 E-MAIL sandroramosbp@hotmail.com Quadro Societário Atividade Principal 8230001 - Serviços de organização de feiras, congressos, exposições e festas Atividades Secundárias 9001902 - Produção musical 7729202 - Aluguel de móveis, utensílios e aparelhos de uso doméstico e pessoal; instrumentos musicais 7739003 - Aluguel de palcos, coberturas e outras estruturas de uso temporário, exceto andaimes Data da Consulta 23/06/2022"
   },
   {
     "id": [
@@ -1927,7 +1929,6 @@
   },
   {
     "id": [
-      "gas",
       "eletrica",
       "ferragens"
     ],
@@ -1942,7 +1943,7 @@
     "capitalSocial": "1.000",
     "naturezaJuridica": "2135 - EMPRESARIO (INDIVIDUAL)",
     "empresaMei": "Sim",
-    "endereco": "R DONA DUCHA",
+    "endereco": "R DONA DUXA",
     "numero": "254",
     "complemento": "",
     "cep": "39360-000",
@@ -1955,7 +1956,7 @@
     "atividadePrincipal": "4713002 - Lojas de variedades, exceto lojas de departamentos ou magazines",
     "atividadeSecundaria": "4742300 - Comércio varejista de material elétrico 4789099 - Comércio varejista de outros produtos não especificados anteriormente 4744003 - Comércio varejista de materiais hidráulicos 4755502 - Comercio varejista de artigos de armarinho 4744001 - Comércio varejista de ferragens e ferramentas 4744099 - Comércio varejista de materiais de construção em geral",
     "dataConsulta": "16/05/2022",
-    "todosDados": "CNPJ 41.991.617/0001-01 Razão Social ILMA FREITAS SILVA Nome Fantasia AGROFENO Tipo MATRIZ Data Abertura 18/05/2021 Situação Cadastral ATIVA Data da Situação Cadastral 18/05/2021 Capital Social R$ 1.000 Natureza Jurídica 2135 - EMPRESARIO (INDIVIDUAL) Empresa MEI Sim Logradouro R DONA DUCHA Número 254 Complemento CEP 39360-000 Bairro SANTO ANDRE Município LAGOA DOS PATOS  UF MG  Telefone 38 9937-5117 E-MAIL ilmafreitassilva@gmail.com Quadro Societário Atividade Principal 4713002 - Lojas de variedades, exceto lojas de departamentos ou magazines Atividades Secundárias 4742300 - Comércio varejista de material elétrico 4789099 - Comércio varejista de outros produtos não especificados anteriormente 4744003 - Comércio varejista de materiais hidráulicos 4755502 - Comercio varejista de artigos de armarinho 4744001 - Comércio varejista de ferragens e ferramentas 4744099 - Comércio varejista de materiais de construção em geral Data da Consulta 16/05/2022"
+    "todosDados": "CNPJ 41.991.617/0001-01 Razão Social ILMA FREITAS SILVA Nome Fantasia AGROFENO Tipo MATRIZ Data Abertura 18/05/2021 Situação Cadastral ATIVA Data da Situação Cadastral 18/05/2021 Capital Social R$ 1.000 Natureza Jurídica 2135 - EMPRESARIO (INDIVIDUAL) Empresa MEI Sim Logradouro R DONA DUXA Número 254 Complemento CEP 39360-000 Bairro SANTO ANDRE Município LAGOA DOS PATOS  UF MG  Telefone 38 9937-5117 E-MAIL ilmafreitassilva@gmail.com Quadro Societário Atividade Principal 4713002 - Lojas de variedades, exceto lojas de departamentos ou magazines Atividades Secundárias 4742300 - Comércio varejista de material elétrico 4789099 - Comércio varejista de outros produtos não especificados anteriormente 4744003 - Comércio varejista de materiais hidráulicos 4755502 - Comercio varejista de artigos de armarinho 4744001 - Comércio varejista de ferragens e ferramentas 4744099 - Comércio varejista de materiais de construção em geral Data da Consulta 16/05/2022"
   },
   {
     "id": [
@@ -2256,7 +2257,7 @@
     "atividadeSecundaria": "4723700 - Comércio varejista de bebidas 5611203 - Lanchonetes, casas de chá, de sucos e similares",
     "dataConsulta": "04/06/2022",
     "todosDados": "CNPJ 32.449.549/0001-54 Razão Social ROMILSON FELIX DA SILVA Nome Fantasia ROMILSON FELIX DA SILVA 84081902615 Tipo MATRIZ Data Abertura 15/01/2019 Situação Cadastral ATIVA Data da Situação Cadastral 15/01/2019 Capital Social R$ 1.000 Natureza Jurídica 2135 - EMPRESARIO (INDIVIDUAL) Empresa MEI Sim Logradouro R SETE DE SETEMBRO Número 32 Complemento CASA CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG  Telefone 38 3745-1239 E-MAIL  Quadro Societário Atividade Principal 5611204 - Bares e outros estabelecimentos especializados em servir bebidas, sem entretenimento Atividades Secundárias 4723700 - Comércio varejista de bebidas 5611203 - Lanchonetes, casas de chá, de sucos e similares Data da Consulta 04/06/2022",
-    "mapa": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3815.8267740416472!2d-44.57629553453829!3d-16.983069010709293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xaaf1583fba4b11%3A0x160cd67d3a31f3bb!2sBar%20sete%20de%20setembro!5e0!3m2!1spt-BR!2sbr!4v1680814947419!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>"
+    "mapa": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3815.8267740416472!2d-44.57629553453829!3d-16.983069010709293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xaaf1583fba4b11%3A0x160cd67d3a31f3bb!2sBar%20sete%20de%20setembro!5e0!3m2!1spt-BR!2sbr!4v1680814947419!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe> - https://google.com"
   },
   {
     "id": [
@@ -2301,17 +2302,17 @@
     "capitalSocial": "2.300",
     "naturezaJuridica": "2135 - EMPRESARIO (INDIVIDUAL)",
     "empresaMei": "Sim",
-    "endereco": "",
-    "numero": "",
+    "endereco": "AV AVENIDA PRESIDENTE MEDICI",
+    "numero": "235",
     "complemento": "",
-    "cep": "",
-    "bairro": "",
-    "cidade": "",
-    "estado": "",
+    "cep": "39360000",
+    "bairro": "VILA BRANCA",
+    "cidade": "LAGOA DOS PATOS",
+    "estado": "MG",
     "telefone": "38 9916-7841",
     "email": "gleitonsoares@outlook.com",
     "socio": "",
-    "atividadePrincipal": "-",
+    "atividadePrincipal": "Atividades de Criação de Sites e Apps",
     "atividadeSecundaria": "4781400 - Comércio varejista de artigos do vestuário e acessórios 7319003 - Marketing direto 4729699 - Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente",
     "dataConsulta": "29/06/2022",
     "todosDados":"CNPJ 26.300.217/0001-00 Razão Social GLEITON APARECIDO SOARES DE SOUZA Nome Fantasia HD PRODUTOS DIGITAIS Tipo MATRIZ Data Abertura 05/10/2016 Situação Cadastral INAPTA Data da Situação Cadastral 03/02/2021 Capital Social R$ 2.300 Natureza Jurídica 2135 - EMPRESARIO (INDIVIDUAL) Empresa MEI Sim Logradouro Número Complemento CEP Bairro Município UF Telefone 38 9916-7841 E-MAIL gleitonsoares@outlook.com Quadro Societário Atividade Principal - Atividades Secundárias 4781400 - Comércio varejista de artigos do vestuário e acessórios 7319003 - Marketing direto 4729699 - Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente Data da Consulta 29/06/2022"
@@ -2644,11 +2645,15 @@
     "atividadePrincipal": "5611201 - Restaurantes e similares",
     "atividadeSecundaria": "5620104 - Fornecimento de alimentos preparados preponderantemente para consumo domiciliar 4723700 - Comércio varejista de bebidas",
     "dataConsulta": "04/06/2022",
-    "todosDados": "CNPJ 24.147.273/0001-21 Razão Social SONIA MARIA MAGALHAES NOBRE Nome Fantasia PRATO NOBRE Tipo MATRIZ Data Abertura 11/02/2016 Situação Cadastral ATIVA Data da Situação Cadastral 11/02/2016 Capital Social R$ 5.000 Natureza Jurídica 2135 - EMPRESARIO (INDIVIDUAL) Empresa MEI Sim Logradouro R ITATIAIA Número 303 Complemento CEP 39360-000 Bairro CIDADE NOVA Município LAGOA DOS PATOS  UF MG  Telefone 38 9950-4730 E-MAIL sala696@yahoo.com.br Quadro Societário Atividade Principal 5611201 - Restaurantes e similares Atividades Secundárias 5620104 - Fornecimento de alimentos preparados preponderantemente para consumo domiciliar 4723700 - Comércio varejista de bebidas Data da Consulta 04/06/2022"
+    "todosDados": "CNPJ 24.147.273/0001-21 Razão Social SONIA MARIA MAGALHAES NOBRE Nome Fantasia PRATO NOBRE Tipo MATRIZ Data Abertura 11/02/2016 Situação Cadastral ATIVA Data da Situação Cadastral 11/02/2016 Capital Social R$ 5.000 Natureza Jurídica 2135 - EMPRESARIO (INDIVIDUAL) Empresa MEI Sim Logradouro R ITATIAIA Número 303 Complemento CEP 39360-000 Bairro CIDADE NOVA Município LAGOA DOS PATOS  UF MG  Telefone 38 9950-4730 E-MAIL sala696@yahoo.com.br Quadro Societário Atividade Principal 5611201 - Restaurantes e similares Atividades Secundárias 5620104 - Fornecimento de alimentos preparados preponderantemente para consumo domiciliar 4723700 - Comércio varejista de bebidas Data da Consulta 04/06/2022",
+    "mapa": "<iframe src='https://www.google.com/maps/embed?pb=Rua sete de setembro 185 39360-000!5e0!3m2!1spt-BR!2sbr!4v1680905641529!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe> | https://goo.gl/maps/ERaqTmNmTpj2LgcQ7",
+    "imagensEmpresa": ["https://lh5.googleusercontent.com/p/AF1QipNYG0vfCNVUwn0Ylpo_bZXp7T2CJA64F6lWg9Ed=w544-h306-k-no"]
+    
   },
   {
     "id": [
       "petshop",
+      "animal",
       "salaoanimais"
     ],
     "cnpj": "46304166000100",
@@ -3888,7 +3893,7 @@
   },
   {
     "id": [
-      "show"
+      "show", "internet"
     ],
     "cnpj": "19950694000156",
     "cnpjN": "19.950.694/0001-56",
@@ -3901,7 +3906,7 @@
     "capitalSocial": "5.000",
     "naturezaJuridica": "2135 - EMPRESARIO (INDIVIDUAL)",
     "empresaMei": "Sim",
-    "endereco": "R DONA DUCHA",
+    "endereco": "R DONA DUXA",
     "numero": "152",
     "complemento": "",
     "cep": "39360-000",
@@ -3914,7 +3919,7 @@
     "atividadePrincipal": "9001902 - Produção musical",
     "atividadeSecundaria": "8230001 - Serviços de organização de feiras, congressos, exposições e festas 7739003 - Aluguel de palcos, coberturas e outras estruturas de uso temporário, exceto andaimes",
     "dataConsulta": "23/07/2022",
-    "todosDados": "CNPJ 19.950.694/0001-56 Razão Social MARCOS CLEITON RAMOS Nome Fantasia TR PRODUCOES Tipo MATRIZ Data Abertura 26/03/2014 Situação Cadastral ATIVA Data da Situação Cadastral 26/03/2014 Capital Social R$ 5.000 Natureza Jurídica 2135 - EMPRESARIO (INDIVIDUAL) Empresa MEI Sim Logradouro R DONA DUCHA Número 152 Complemento CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG  Telefone 38 9995-9779 E-MAIL tuturamos@yahoo.com.br Quadro Societário Atividade Principal 9001902 - Produção musical Atividades Secundárias 8230001 - Serviços de organização de feiras, congressos, exposições e festas 7739003 - Aluguel de palcos, coberturas e outras estruturas de uso temporário, exceto andaimes Data da Consulta 23/07/2022"
+    "todosDados": "CNPJ 19.950.694/0001-56 Razão Social MARCOS CLEITON RAMOS Nome Fantasia TR PRODUCOES Tipo MATRIZ Data Abertura 26/03/2014 Situação Cadastral ATIVA Data da Situação Cadastral 26/03/2014 Capital Social R$ 5.000 Natureza Jurídica 2135 - EMPRESARIO (INDIVIDUAL) Empresa MEI Sim Logradouro R DONA DUXA Número 152 Complemento CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG  Telefone 38 9995-9779 E-MAIL tuturamos@yahoo.com.br Quadro Societário Atividade Principal 9001902 - Produção musical Atividades Secundárias 8230001 - Serviços de organização de feiras, congressos, exposições e festas 7739003 - Aluguel de palcos, coberturas e outras estruturas de uso temporário, exceto andaimes Data da Consulta 23/07/2022"
   },
   {
     "id": [
@@ -4398,7 +4403,7 @@
     "capitalSocial": "10.000",
     "naturezaJuridica": "2135 - EMPRESARIO (INDIVIDUAL)",
     "empresaMei": "Sim",
-    "endereco": "R DONA DUCHA",
+    "endereco": "R DONA DUXA",
     "numero": "297",
     "complemento": "",
     "cep": "39360-000",
@@ -4411,7 +4416,7 @@
     "atividadePrincipal": "4784900 - Comércio varejista de gás liqüefeito de petróleo (GLP)",
     "atividadeSecundaria": "4744099 - Comércio varejista de materiais de construção em geral 4541206 - Comércio a varejo de peças e acessórios novos para motocicletas e motonetas 1099604 - Fabricação de gelo comum 4712100 - Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns 4789002 - Comércio varejista de plantas e flores naturais 4732600 - Comércio varejista de lubrificantes 4530703 - Comércio a varejo de peças e acessórios novos para veículos automotores 4744001 - Comércio varejista de ferragens e ferramentas 4742300 - Comércio varejista de material elétrico 4744003 - Comércio varejista de materiais hidráulicos 4744004 - Comércio varejista de cal, areia, pedra britada, tijolos e telhas 4753900 - Comércio varejista especializado de eletrodomésticos e equipamentos de áudio e vídeo 4723700 - Comércio varejista de bebidas 4789004 - Comércio varejista de animais vivos e de artigos e alimentos para animais de estimação 4729699 - Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente",
     "dataConsulta": "25/07/2022",
-    "todosDados": "CNPJ 17.119.597/0001-90 Razão Social EVANDRO NERES DA SILVA Tipo MATRIZ Data Abertura 06/11/2012 Situação Cadastral ATIVA Data da Situação Cadastral 06/11/2012 Capital Social R$ 10.000 Natureza Jurídica 2135 - EMPRESARIO (INDIVIDUAL) Empresa MEI Sim Logradouro R DONA DUCHA Número 297 Complemento CEP 39360-000 Bairro NOVO HORIZONTE Município LAGOA DOS PATOS  UF MG  Telefone 38 9976-7027 E-MAIL evandroneres39@yahoo.com Quadro Societário Atividade Principal 4784900 - Comércio varejista de gás liqüefeito de petróleo (GLP) Atividades Secundárias 4744099 - Comércio varejista de materiais de construção em geral 4541206 - Comércio a varejo de peças e acessórios novos para motocicletas e motonetas 1099604 - Fabricação de gelo comum 4712100 - Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns 4789002 - Comércio varejista de plantas e flores naturais 4732600 - Comércio varejista de lubrificantes 4530703 - Comércio a varejo de peças e acessórios novos para veículos automotores 4744001 - Comércio varejista de ferragens e ferramentas 4742300 - Comércio varejista de material elétrico 4744003 - Comércio varejista de materiais hidráulicos 4744004 - Comércio varejista de cal, areia, pedra britada, tijolos e telhas 4753900 - Comércio varejista especializado de eletrodomésticos e equipamentos de áudio e vídeo 4723700 - Comércio varejista de bebidas 4789004 - Comércio varejista de animais vivos e de artigos e alimentos para animais de estimação 4729699 - Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente Data da Consulta 25/07/2022"
+    "todosDados": "CNPJ 17.119.597/0001-90 Razão Social EVANDRO NERES DA SILVA Tipo MATRIZ Data Abertura 06/11/2012 Situação Cadastral ATIVA Data da Situação Cadastral 06/11/2012 Capital Social R$ 10.000 Natureza Jurídica 2135 - EMPRESARIO (INDIVIDUAL) Empresa MEI Sim Logradouro R DONA DUXA Número 297 Complemento CEP 39360-000 Bairro NOVO HORIZONTE Município LAGOA DOS PATOS  UF MG  Telefone 38 9976-7027 E-MAIL evandroneres39@yahoo.com Quadro Societário Atividade Principal 4784900 - Comércio varejista de gás liqüefeito de petróleo (GLP) Atividades Secundárias 4744099 - Comércio varejista de materiais de construção em geral 4541206 - Comércio a varejo de peças e acessórios novos para motocicletas e motonetas 1099604 - Fabricação de gelo comum 4712100 - Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns 4789002 - Comércio varejista de plantas e flores naturais 4732600 - Comércio varejista de lubrificantes 4530703 - Comércio a varejo de peças e acessórios novos para veículos automotores 4744001 - Comércio varejista de ferragens e ferramentas 4742300 - Comércio varejista de material elétrico 4744003 - Comércio varejista de materiais hidráulicos 4744004 - Comércio varejista de cal, areia, pedra britada, tijolos e telhas 4753900 - Comércio varejista especializado de eletrodomésticos e equipamentos de áudio e vídeo 4723700 - Comércio varejista de bebidas 4789004 - Comércio varejista de animais vivos e de artigos e alimentos para animais de estimação 4729699 - Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente Data da Consulta 25/07/2022"
   },
   {
     "id": [
@@ -4857,7 +4862,7 @@
     "capitalSocial": "0",
     "naturezaJuridica": "3271 - ORGAO DE DIRECAO LOCAL DE PARTIDO POLITICO",
     "empresaMei": "Não",
-    "endereco": "R DONA DUCHA",
+    "endereco": "R DONA DUXA",
     "numero": "141",
     "complemento": "",
     "cep": "39360-000",
@@ -4870,7 +4875,7 @@
     "atividadePrincipal": "9492800 - Atividades de organizações políticas",
     "atividadeSecundaria": "",
     "dataConsulta": "20/05/2022",
-    "todosDados": "CNPJ 24.681.440/0001-10 Razão Social PARTIDO TRABALHISTA NACIONAL - COMISSAO PROVISORIA Tipo MATRIZ Data Abertura 11/03/2016 Situação Cadastral ATIVA Data da Situação Cadastral 31/03/2020 Capital Social R$ 0 Natureza Jurídica 3271 - ORGAO DE DIRECAO LOCAL DE PARTIDO POLITICO Empresa MEI Não Logradouro R DONA DUCHA Número 141 Complemento CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG  Telefone 38 9952-8481 E-MAIL  Quadro Societário Atividade Principal 9492800 - Atividades de organizações políticas Atividades Secundárias Data da Consulta 20/05/2022"
+    "todosDados": "CNPJ 24.681.440/0001-10 Razão Social PARTIDO TRABALHISTA NACIONAL - COMISSAO PROVISORIA Tipo MATRIZ Data Abertura 11/03/2016 Situação Cadastral ATIVA Data da Situação Cadastral 31/03/2020 Capital Social R$ 0 Natureza Jurídica 3271 - ORGAO DE DIRECAO LOCAL DE PARTIDO POLITICO Empresa MEI Não Logradouro R DONA DUXA Número 141 Complemento CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG  Telefone 38 9952-8481 E-MAIL  Quadro Societário Atividade Principal 9492800 - Atividades de organizações políticas Atividades Secundárias Data da Consulta 20/05/2022"
   },
   {
     "id": [
@@ -5491,7 +5496,7 @@
     "capitalSocial": "0",
     "naturezaJuridica": "3271 - ORGAO DE DIRECAO LOCAL DE PARTIDO POLITICO",
     "empresaMei": "Não",
-    "endereco": "R DONA DUCHA",
+    "endereco": "R DONA DUXA",
     "numero": "161",
     "complemento": "",
     "cep": "39360-000",
@@ -5504,7 +5509,7 @@
     "atividadePrincipal": "9492800 - Atividades de organizações políticas",
     "atividadeSecundaria": "",
     "dataConsulta": "29/06/2022",
-    "todosDados": "CNPJ 24.169.390/0001-96 Razão Social COMISSAO PROVISORIA MUNICIPAL DO PARTIDO SOCIAL DEMOCRATICO DE LAGOA DOS PATOS - MG. Nome Fantasia PSD DE LAGOA DOS PATOS Tipo MATRIZ Data Abertura 30/07/2015 Situação Cadastral ATIVA Data da Situação Cadastral 03/09/2020 Capital Social R$ 0 Natureza Jurídica 3271 - ORGAO DE DIRECAO LOCAL DE PARTIDO POLITICO Empresa MEI Não Logradouro R DONA DUCHA Número 161 Complemento CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG  Telefone 38 9914-7638 E-MAIL dmcontabilidade.contabilidade@gmail.com Quadro Societário Atividade Principal 9492800 - Atividades de organizações políticas Atividades Secundárias Data da Consulta 29/06/2022"
+    "todosDados": "CNPJ 24.169.390/0001-96 Razão Social COMISSAO PROVISORIA MUNICIPAL DO PARTIDO SOCIAL DEMOCRATICO DE LAGOA DOS PATOS - MG. Nome Fantasia PSD DE LAGOA DOS PATOS Tipo MATRIZ Data Abertura 30/07/2015 Situação Cadastral ATIVA Data da Situação Cadastral 03/09/2020 Capital Social R$ 0 Natureza Jurídica 3271 - ORGAO DE DIRECAO LOCAL DE PARTIDO POLITICO Empresa MEI Não Logradouro R DONA DUXA Número 161 Complemento CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG  Telefone 38 9914-7638 E-MAIL dmcontabilidade.contabilidade@gmail.com Quadro Societário Atividade Principal 9492800 - Atividades de organizações políticas Atividades Secundárias Data da Consulta 29/06/2022"
   },
   {
     "id": [
@@ -5722,7 +5727,8 @@
     "atividadePrincipal": "2330302 - Fabricação de artefatos de cimento para uso na construção",
     "atividadeSecundaria": "2342702 - Fabricação de artefatos de cerâmica e barro cozido para uso na construção, exceto azulejos e pisos 4744004 - Comércio varejista de cal, areia, pedra britada, tijolos e telhas",
     "dataConsulta": "04/07/2022",
-    "todosDados": "CNPJ 40.623.317/0001-07 Razão Social TIJOLEGO COMERCIO E FABRICO DE TIJOLOS EIRELI Nome Fantasia TIJOLEGO Tipo MATRIZ Data Abertura 29/01/2021 Situação Cadastral ATIVA Data da Situação Cadastral 29/01/2021 Capital Social R$ 110.000 Natureza Jurídica 2305 - EMPRESA INDIVIDUAL DE RESP.LIMITADA (DE NATUREZA EMPRESARIA) Empresa MEI Não Logradouro AV PRESIDENTE MEDICI Número 2 Complemento CEP 39360-000 Bairro INDEPENDENCIA Município LAGOA DOS PATOS  UF MG  Telefone 38 9972-9737 E-MAIL financeiro@networkservices.net.br Quadro Societário ALESSANDRO DA SOLEDADE GONCALVES - Titular Pessoa Física Residente ou Domiciliado no Brasil Atividade Principal 2330302 - Fabricação de artefatos de cimento para uso na construção Atividades Secundárias 2342702 - Fabricação de artefatos de cerâmica e barro cozido para uso na construção, exceto azulejos e pisos 4744004 - Comércio varejista de cal, areia, pedra britada, tijolos e telhas Data da Consulta 04/07/2022"
+    "todosDados": "CNPJ 40.623.317/0001-07 Razão Social TIJOLEGO COMERCIO E FABRICO DE TIJOLOS EIRELI Nome Fantasia TIJOLEGO Tipo MATRIZ Data Abertura 29/01/2021 Situação Cadastral ATIVA Data da Situação Cadastral 29/01/2021 Capital Social R$ 110.000 Natureza Jurídica 2305 - EMPRESA INDIVIDUAL DE RESP.LIMITADA (DE NATUREZA EMPRESARIA) Empresa MEI Não Logradouro AV PRESIDENTE MEDICI Número 2 Complemento CEP 39360-000 Bairro INDEPENDENCIA Município LAGOA DOS PATOS  UF MG  Telefone 38 9972-9737 E-MAIL financeiro@networkservices.net.br Quadro Societário ALESSANDRO DA SOLEDADE GONCALVES - Titular Pessoa Física Residente ou Domiciliado no Brasil Atividade Principal 2330302 - Fabricação de artefatos de cimento para uso na construção Atividades Secundárias 2342702 - Fabricação de artefatos de cerâmica e barro cozido para uso na construção, exceto azulejos e pisos 4744004 - Comércio varejista de cal, areia, pedra britada, tijolos e telhas Data da Consulta 04/07/2022",
+    "mapa": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3815.8267740416472!2d-44.57629553453829!3d-16.983069010709293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xaaf1583fba4b11%3A0x160cd67d3a31f3bb!2sBar%20sete%20de%20setembro!5e0!3m2!1spt-BR!2sbr!4v1680814947419!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe> - https://google.com"
   },
   {
     "id": [
@@ -6232,7 +6238,7 @@
     "capitalSocial": "60.000",
     "naturezaJuridica": "2062 - SOCIEDADE EMPRESARIA LIMITADA",
     "empresaMei": "Não",
-    "endereco": "R DONA DUCHA",
+    "endereco": "R DONA DUXA",
     "numero": "113",
     "complemento": "LOJA: B;",
     "cep": "39360-000",
@@ -6245,7 +6251,7 @@
     "atividadePrincipal": "4754701 - Comércio varejista de móveis",
     "atividadeSecundaria": "4753900 - Comércio varejista especializado de eletrodomésticos e equipamentos de áudio e vídeo",
     "dataConsulta": "04/06/2022",
-    "todosDados": "CNPJ 20.385.493/0001-32 Razão Social LANO MOVEIS E ELETROS LTDA Nome Fantasia LANO MOVEIS E ELETROS Tipo MATRIZ Data Abertura 04/06/2014 Situação Cadastral ATIVA Data da Situação Cadastral 04/06/2014 Capital Social R$ 60.000 Natureza Jurídica 2062 - SOCIEDADE EMPRESARIA LIMITADA Empresa MEI Não Logradouro R DONA DUCHA Número 113 Complemento LOJA: B; CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG  Telefone 38 9966-5681 E-MAIL afincon@hotmail.com Quadro Societário JOSE FERNANDO VIEIRA BARBRIRI - Sócio-Administrador HELAINE NEVES DUARTE - Sócio Atividade Principal 4754701 - Comércio varejista de móveis Atividades Secundárias 4753900 - Comércio varejista especializado de eletrodomésticos e equipamentos de áudio e vídeo Data da Consulta 04/06/2022"
+    "todosDados": "CNPJ 20.385.493/0001-32 Razão Social LANO MOVEIS E ELETROS LTDA Nome Fantasia LANO MOVEIS E ELETROS Tipo MATRIZ Data Abertura 04/06/2014 Situação Cadastral ATIVA Data da Situação Cadastral 04/06/2014 Capital Social R$ 60.000 Natureza Jurídica 2062 - SOCIEDADE EMPRESARIA LIMITADA Empresa MEI Não Logradouro R DONA DUXA Número 113 Complemento LOJA: B; CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG  Telefone 38 9966-5681 E-MAIL afincon@hotmail.com Quadro Societário JOSE FERNANDO VIEIRA BARBRIRI - Sócio-Administrador HELAINE NEVES DUARTE - Sócio Atividade Principal 4754701 - Comércio varejista de móveis Atividades Secundárias 4753900 - Comércio varejista especializado de eletrodomésticos e equipamentos de áudio e vídeo Data da Consulta 04/06/2022"
   },
   {
     "id": [
@@ -6280,7 +6286,7 @@
   {
     "id": [
       "mercado",
-      "transporte"
+      "transporte", "gas"
     ],
     "cnpj": "64409006000108",
     "cnpjN": "64.409.006/0001-08",
@@ -6293,14 +6299,14 @@
     "capitalSocial": "20.000",
     "naturezaJuridica": "2135 - EMPRESARIO (INDIVIDUAL)",
     "empresaMei": "Sim",
-    "endereco": "R ARISTIDES BATISTA",
+    "endereco": "RUA  CORONEL ARISTIDES BATISTA",
     "numero": "160",
     "complemento": "",
     "cep": "39360-000",
     "bairro": "CENTRO",
     "cidade": "LAGOA DOS PATOS ",
-    "estado": "MG  E-MAIL  Quadro Societário Atividade Principal 4712100 - Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns Atividades Secundárias 4744099 - Comércio varejista de materiais de construção em geral 4930202 - Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional 4924800 - Transporte escolar Data da Consulta 05/06/20",
-    "telefone": "409.006/0001-08 Razão Social CLESIO ANDRADE RABELO - CPF Nome Fantasia COMERCIO E TRANSPORTES MINEIRO Tipo MATRIZ Data Abertura 27/11/1990 Situação Cadastral ATIVA Data da Situação Cadastral 03/11/2005 Capital Social R$ 20.000 Natureza Jurídica 2135 - EMPRESARIO (INDIVIDUAL) Empresa MEI Sim Logradouro R ARISTIDES BATISTA Número 160 Complemento CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG ",
+    "estado": "MG",
+    "telefone": "38 99982-7027",
     "email": "",
     "socio": "",
     "atividadePrincipal": "4712100 - Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns",
@@ -6342,7 +6348,7 @@
   {
     "id": [
       "manutencaodecomputadores",
-      "equipamentosdeinformatica"
+      "equipamentosdeinformatica", "internet"
     ],
     "cnpj": "35941396000156",
     "cnpjN": "35.941.396/0001-56",

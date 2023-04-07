@@ -103,6 +103,12 @@ main img {
   text-align: center;
   animation: apareceTela 400ms normal;
 }
+#infoId {
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 400;
+}
 @keyframes apareceTela {
   0% {
     opacity: 0;
@@ -145,8 +151,8 @@ main img {
   font-size: 1.3em;
 }
 footer {
-  z-index: 99999;
-  position: absolute;
+  
+  position: fixed;
   overflow-x: auto;
   bottom: 0px;
   width: 100%;
@@ -154,23 +160,51 @@ footer {
 }
 
 footer nav {  
-  padding: 10px;
+  
   display: flex;
-  font-size: 0.8em;
+  font-size: 0.7em;
+  padding: 2px;
   /* justify-content: space-between; */
  
   
 }
 footer nav a {
   text-decoration: none;
+  text-align: center;
 }
 footer nav a li {
   display: block;
   text-align: center;
-  width: 65px;
+  width: 60px;
+  margin: 3px 5px;
+  padding: 5px 10px;
+  
+}
+.slideHande {
+  position: absolute;
+  bottom: -15px;
+  right: 0px;
+  
+}
+.slideHande img {
+  width: 80px;
+  z-index: 999999999;
+  
+}
+.addSeleciona {
+  background-color: rgb(66, 113, 175);  
+  border-radius: 8px;
+  color: white;
+  box-shadow: inset black 0px 2px 5px 0px;
+  font-size: 0.7em;
+  filter: saturate(1);
+
+}
+.addSeleciona img {
+  width: 23px;
 }
 footer nav a li img {
-  width: 30px;
+  width: 24px;
 }
 .contatoEmpresa a {
   display: flex;
