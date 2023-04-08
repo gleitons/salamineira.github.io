@@ -426,9 +426,20 @@ function apagaSeleciona() {
 
 function fechaEmpresaL() {
     const mostraEmpresa = document.querySelector('#mostraEmpresa');
+    const item = document.querySelector('.fundoEmpresaLocal');
+item.addEventListener('animationend', () => {
+  item.classList.remove('empresaLocal');
+});
+
    // apagaSeleciona()
     mostraEmpresa.innerHTML = ''
 }
+
+const item = document.querySelector('.item');
+item.addEventListener('animationend', () => {
+  item.classList.remove('animar');
+});
+
 
 
 
@@ -467,7 +478,7 @@ async function verEmpresaShow(numero) {
     }
     const mostraEmpresa = document.querySelector('#mostraEmpresa');
     mostraEmpresa.innerHTML = ` <div class="fundoEmpresaLocal" >
-    <div class="empresaLocal">
+    <div class="empresaLocal ">
         <div class="apresentaEndereco">
         <h2>${data[numero].razaoSocial}</h2>
             <h2>${data[numero].nomeFantasia}</h2>
@@ -571,4 +582,6 @@ function fechaGif() {
     const verSlide = document.querySelector('#verSlide')
     verSlide.classList.add('dnone')
 }
+
+
 

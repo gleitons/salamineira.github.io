@@ -241,11 +241,44 @@ footer nav a li img {
   border-radius: 10% 10% 0% 0%;
   padding: 10px;
   border: #0093e9 solid 10px;
-  animation: empresaShow 500ms normal;
+  animation: empresaShow 1s normal;
+  
 }
+.animar {
+  animation: minha-animacao 500ms ease-in-out;
+}
+
+.animar {
+  animation: minha-animacao 2s ease-in-out;
+}
+
+@keyframes minha-animacao {
+  0% {
+    opacity: 1;
+    transform: translateX(-100%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+
 @keyframes empresaShow {
   0% {
+    opacity: 0;
     bottom: -100%;
+  }
+  50% {
+    opacity: 1;
+    bottom: -50%;
+  }
+  100% {
+    bottom: 0;
   }
 }
 .mapaLocalizacao iframe {
@@ -271,9 +304,9 @@ footer nav a li img {
 }
 .fecharDivEndereco img {
   position: absolute;
-  top: 16%;
+  bottom: 16px;
   width: 50px;
-  left: 5px;
+  right: 5px;
 }
 .fotosEmpresas {
   display: flex;

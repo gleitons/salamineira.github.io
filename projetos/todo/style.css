@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(227, 88, 88), rgb(235, 71, 235));   
+    text-align: center;
+    padding-top: 10px;
+}
+#tasks-container {
+    width: 500px;
+    margin: auto;     
+}
+
+#tasks-header {
+   margin-top: 40px;
+}
+.hide {
+    display: none;
+}
+.template {
+
+}
+#add-task-form {
+    display: flex;
+   text-align: center;
+  
+   
+}
+
+#add-task-form input {
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 1.1em;
+    width: 100%;
+}
+#add-btn {
+    width: 10%;
+    font-size: 1.1em;
+    cursor: pointer;
+    
+}
+#task-list {
+    margin: auto;
+   
+    padding-inline-start: 0px;
+ }
+.task-box {        
+    background-color: white;       
+    list-style: none;      
+    position: relative;
+    margin: 10px auto;
+    padding: 10px;
+    
+    
+}
+
+.task-title {
+    left: 0;   
+    padding: 10px;
+    
+}
+.done-btn {
+    background-color: rgb(189, 249, 189);
+    padding: 10px;
+    right: 40px;
+    top: 0;
+    position: absolute;
+   color: black;
+}
+.done-btn:hover {
+    background-color: green;
+    transition: 500ms;
+    color: white;
+    cursor: pointer;
+}
+
+.remove-btn {
+    color: black;
+    top: 0;
+    position: absolute;
+    padding: 10px;
+    background-color: rgb(248, 223, 223);
+    right: 0px;
+    
+    
+}
+.remove-btn:hover {
+    background-color: red;
+    transition: 500ms;
+    color: white;
+    cursor: pointer;
+}
+#task-list li.done {
+    background-color: rgb(108, 1, 122);
+    text-decoration: line-through;
+    color: white;
+}
