@@ -423,7 +423,7 @@ async function animalEmpresas() {
     infoId.innerHTML = 'Ração e Beleza Animal';
     favoritosMarcados()
 }
-async function restaurante() {    
+async function restaurante() {
     fechaEmpresaL()
     infoId.innerHTML = 'Carregando..'
     apagaSeleciona()
@@ -467,7 +467,7 @@ function marcaTop(numero) {
 }
 function desmarcaTop() {
     const marcador = document.querySelectorAll('.menuTop nav a')
-    for(let i = 0; i < marcador.length;i++){
+    for (let i = 0; i < marcador.length; i++) {
         marcador[i].classList.remove('marcado')
     }
     //marcador.classList.tog('marcado')
@@ -475,14 +475,17 @@ function desmarcaTop() {
 }
 function contadorFavorite() {
     const contadorF = document.querySelector('#contadorF')
-    var arrayContFavorite = JSON.parse(localStorage.getItem( 'favoritosEmpresas'))
-    if(arrayContFavorite.length == 0){
-        contadorF.textContent = arrayContFavorite.length +1
-    } else {
-        contadorF.textContent = 0
+    if (JSON.parse(localStorage.getItem('favoritosEmpresas')) != null) {
+        var arrayContFavorite = JSON.parse(localStorage.getItem('favoritosEmpresas'))
+        if (arrayContFavorite.length == 0) {
+            contadorF.textContent = arrayContFavorite.length
+        } else {
+            contadorF.textContent = 0
+        }
     }
-   
-    
+
+
+
     contadorF.textContent = arrayContFavorite.length
     //console.log(arrayContFavorite.length)
 
@@ -494,17 +497,17 @@ async function favoritosEmpresasOn() {
     desmarcaTop()
     marcaTop(2)
     fechaEmpresaL()
-    
+
     infoId.innerHTML = 'Carregando..'
     apagaSeleciona()
-   // linkSelect[0].classList.add('addSeleciona')
+    // linkSelect[0].classList.add('addSeleciona')
     infoVisivel.innerHTML = ''
     const inicio = document.querySelector('#inicio')
     //inicio.remove()
 
     var favoritos = JSON.parse(localStorage.getItem('favoritosEmpresas'))
     //console.log(favoritos.length)
-   
+
     if (favoritos === null) {
         infoVisivel.innerHTML += ` <div class="btnEmpresa" >                   
                 VOCÊ AINDA NÃO POSSUI FAVORITOS
@@ -515,13 +518,13 @@ async function favoritosEmpresasOn() {
                 VOCÊ AINDA NÃO POSSUI FAVORITOS
            
         </div>`
-    } 
+    }
     else {
         const response = await fetch(urlEmpresas);
         const data = await response.json();
 
-        for(let i =0; i < favoritos.length;i++){
-            const numeroEmpresa = favoritos[i] 
+        for (let i = 0; i < favoritos.length; i++) {
+            const numeroEmpresa = favoritos[i]
             infoVisivel.innerHTML += `
 
             <div class="btnEmpresa" >                   
@@ -541,12 +544,12 @@ async function favoritosEmpresasOn() {
             //     infoVisivel.innerHTML += `${empresaL[numeroEmpresa]} `
             // })
 
-            
-            
+
+
             //console.log(data[i])
         }
-        
-            
+
+
 
         //     for (let i = 0; i < empresaL.id.length; i++) {
         //         if (empresaL.id[i] == "restaurante") {
@@ -555,26 +558,26 @@ async function favoritosEmpresasOn() {
         //             <div  class="dadosEmp">
         //                 <img class="imgSetor" src="./imgguia/restaurante-gps.png" alt="">
         //                 <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
-                        
+
         //             </div>
         //             <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
         //                 <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
         //                 <p>Ver</p>
         //             </div>
-                   
+
         //         </div>
-           
+
         // </div>`
         //         }
         //     }
-       
+
     }
 
 
     infoId.innerHTML = 'Favoritos';
     favoritosMarcados()
     contadorFavorite()
-    
+
 }
 
 
@@ -738,13 +741,13 @@ async function verEmpresaShow(numero) {
     const ligarCelular = "+55" + data[numero].telefone.replace(' ', '9').replace('-', '')
     const mostraCelular = data[numero].telefone.replace(' ', ' 9')
     var whatsAppTel = "55" + data[numero].telefone.replace(' ', '').replace('-', '')
-    
-   
+
+
     //const linkTemp = `https://www.google.com/maps/place/R.+Sete+de+Setembro,+32,+Lagoa+dos+Patos+-+MG,+39360-000`
     // if(data[numero].mapa != undefined){
-        
+
     // } else {
-       
+
     // }
 
     if (data[numero].mapa != undefined) {
@@ -856,7 +859,7 @@ function fotosLagoa() {
     infoVisivel.innerHTML = ''
     const mostraI = document.querySelector('#infoVisivel')
 
-   
+
 
     const imagensOne = ['Barragem cheia Lagoa dos Patos - MG. -27_03_2012_120.jpg', 'Barragem cheia Lagoa dos Patos - MG. -27032012.jpg', 'Barragem-lagoa-dos-patos-mg-27032012121.jpg', 'coletanea-FOTOS-de-lagoa-dos-patos-MG-Sala-mineira.jpg', 'HDR-Lagoa-dos-patos-mg-barragem.png', 'Lagoa-dos-patos-mg-barragem-cheia-27_03_2012122.jpg', 'Tim, Rodrigo, Edson, Cassio, Valdo - mortal Kombat(9).jpg']
 
@@ -952,25 +955,25 @@ async function favoritosMarcados() {
     // var iconFavoT = document.querySelector(`#iconFavo${numero}`).src
     // const iconF = document.querySelector(`#iconFavo${numero}`)
     // const valorId = document.querySelector(`#id_${numero}`).id.replace(/id_/g, '')
-    
-    
+
+
     //console.log(favor.length)
     var favor = JSON.parse(localStorage.getItem('favoritosEmpresas'))
-    
-    for(let i = 0; i < favor.length; i++){
+
+    for (let i = 0; i < favor.length; i++) {
         const numerFav = favor[i]
         const verImagem = document.querySelector(`#iconFavo${numerFav}`)
-       
 
-        if(verImagem != null){
+
+        if (verImagem != null) {
             document.querySelector(`#iconFavo${numerFav}`).src = './imgguia/favorito-adicionado.png'
         }
 
         // if(document.querySelector(`#iconFavo${numerFav}`).src != null){
         //     document.querySelector(`#iconFavo${numerFav}`).src = './imgguia/favorito-adicionado.png'
         // }
-        
-        
+
+
         // console.log()
         // data.map((favEmp) => {
 
@@ -980,9 +983,9 @@ async function favoritosMarcados() {
         // var imgtroca = JSON.parse(localStorage.getItem('favoritosEmpresas'))
         //document.querySelector(`#iconFavo${data.indexOf(i)}`).src = './imgguia/favorito-adicionado.png'
         //console.log(data.indexOf(i))
-        
-    } 
-    
+
+    }
+
 }
 //favoritosMarcados()
 //setInterval('favoritosMarcados()', 1000)
