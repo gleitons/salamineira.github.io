@@ -61,6 +61,7 @@ header {
   border-radius: 8px;
   box-shadow: black 0px 2px 5px 0px;
 }
+
 .infoDaEmpresa p {
   background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
   border-radius: 8px;
@@ -175,17 +176,27 @@ main img {
 .menuTop nav a {
   width: 100%;
   margin: 2px 2px;
-
   color: rgb(66, 113, 175);
   align-items: center;
 }
 .menuTop nav li {
   padding: 5px;
+  
   list-style: none;
   background-color: white;
   border-radius: 8px;
   font-size: 1.3em;
 }
+.marcado{
+  background-color: #c1c1c100;
+  border-radius: 8px;
+  border: rgb(0, 55, 126) solid 5px;
+  font-size: .7em;
+  
+  
+}
+
+
 footer {
   
   position: fixed;
@@ -216,6 +227,7 @@ footer nav a li {
   padding: 5px 10px;
   
 }
+
 .slideHande {
   position: absolute;
   bottom: -15px;

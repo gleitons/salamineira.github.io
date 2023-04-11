@@ -19,26 +19,25 @@ async function padariaEmpresas() {
         for (let i = 0; i < empresaL.id.length; i++) {
 
             if (empresaL.id[i] == "padaria") {
-                infoVisivel.innerHTML += `
-               <div class="btnEmpresa" >                   
-                <div class="empresasSituado" id="id_0" >
-                    <div  class="dadosEmp">
+                infoVisivel.innerHTML += ` 
+                <div class="btnEmpresa" >                   
+                <div class="empresasSituado" id="id_${index}" >
+                    <div  class="dadosEmp" onclick="favoritarEmpresa(${index})">
                         <img class="imgSetor" src="./imgguia/padaria-gps.jpg" alt="">
-                        <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
+                        <img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt="">
                         
                     </div>
                     <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
                         <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
                         <p>Ver</p>
-                    </div>
-                   
-                </div>
-           
-        </div>`
+                    </div>                           
+                </div>                   
+        </div> `
             }
         }
     })
     infoId.innerHTML = 'Padarias'
+    favoritosMarcados();
 }
 
 async function lanchoneteEmpresas() {
@@ -55,26 +54,25 @@ async function lanchoneteEmpresas() {
         for (let i = 0; i < empresaL.id.length; i++) {
 
             if (empresaL.id[i] == "lanchonete") {
-                infoVisivel.innerHTML += `
-               <div class="btnEmpresa" >                   
-                <div class="empresasSituado" id="id_0" >
-                    <div  class="dadosEmp">
+                infoVisivel.innerHTML += ` 
+                <div class="btnEmpresa" >                   
+                <div class="empresasSituado" id="id_${index}" >
+                    <div  class="dadosEmp" onclick="favoritarEmpresa(${index})">
                         <img class="imgSetor" src="./imgguia/lanchonete-gps.jpg" alt="">
-                        <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
+                        <img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt="">
                         
                     </div>
                     <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
                         <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
                         <p>Ver</p>
-                    </div>
-                   
-                </div>
-           
-        </div>`
+                    </div>                           
+                </div>                   
+        </div> `
             }
         }
     })
     infoId.innerHTML = 'Bares e Lanchonetes'
+    favoritosMarcados()
 }
 async function barEmpresas() {
     infoId.innerHTML = 'Carregando...'
@@ -90,26 +88,25 @@ async function barEmpresas() {
         for (let i = 0; i < empresaL.id.length; i++) {
 
             if (empresaL.id[i] == "bar") {
-                infoVisivel.innerHTML += `
+                infoVisivel.innerHTML += ` 
                 <div class="btnEmpresa" >                   
-                <div class="empresasSituado" id="id_0" >
-                    <div  class="dadosEmp">
+                <div class="empresasSituado" id="id_${index}" >
+                    <div  class="dadosEmp" onclick="favoritarEmpresa(${index})">
                         <img class="imgSetor" src="./imgguia/bar-gps.png" alt="">
-                        <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
+                        <img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt="">
                         
                     </div>
                     <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
                         <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
                         <p>Ver</p>
-                    </div>
-                   
-                </div>
-           
-        </div>`
+                    </div>                           
+                </div>                   
+        </div> `
             }
         }
     })
     infoId.innerHTML = 'Bares'
+    favoritosMarcados()
 }
 
 async function combustivel() {
@@ -126,26 +123,25 @@ async function combustivel() {
         for (let i = 0; i < empresaL.id.length; i++) {
 
             if (empresaL.id[i] == "combustivel") {
-                infoVisivel.innerHTML += `
+                infoVisivel.innerHTML += ` 
                 <div class="btnEmpresa" >                   
-                <div class="empresasSituado" id="id_0" >
-                    <div  class="dadosEmp">
+                <div class="empresasSituado" id="id_${index}" >
+                    <div  class="dadosEmp" onclick="favoritarEmpresa(${index})">
                         <img class="imgSetor" src="./imgguia/posto-gps.png" alt="">
-                        <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
+                        <img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt="">
                         
                     </div>
                     <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
                         <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
                         <p>Ver</p>
-                    </div>
-                   
-                </div>
-           
-        </div>`
+                    </div>                           
+                </div>                   
+        </div> `
             }
         }
     })
     infoId.innerHTML = 'Posto de Combustível'
+    favoritosMarcados()
 }
 
 async function empresaGas() {
@@ -162,28 +158,27 @@ async function empresaGas() {
         for (let i = 0; i < empresaL.id.length; i++) {
 
             if (empresaL.id[i] == "gas") {
-                infoVisivel.innerHTML += `
-               <div class="btnEmpresa" >                   
-                <div class="empresasSituado" id="id_0" >
-                    <div  class="dadosEmp">
+                infoVisivel.innerHTML += ` 
+                <div class="btnEmpresa" >                   
+                <div class="empresasSituado" id="id_${index}" >
+                    <div  class="dadosEmp" onclick="favoritarEmpresa(${index})">
                         <img class="imgSetor" src="./imgguia/geral-gps.png" alt="">
-                        <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
+                        <img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt="">
                         
                     </div>
                     <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
                         <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
                         <p>Ver</p>
-                    </div>
-                   
-                </div>
-           
-        </div>`
+                    </div>                           
+                </div>                   
+        </div> `
             }
         }
 
 
     })
     infoId.innerHTML = 'Empresas de gás'
+    favoritosMarcados()
 
 }
 async function empresasTaxi() {
@@ -199,26 +194,25 @@ async function empresasTaxi() {
     data.map((empresaL, index) => {
         for (let i = 0; i < empresaL.id.length; i++) {
             if (empresaL.id[i] == "taxi") {
-                infoVisivel.innerHTML += `
-               <div class="btnEmpresa" >                   
-                <div class="empresasSituado" id="id_0" >
-                    <div  class="dadosEmp">
+                infoVisivel.innerHTML += ` 
+                <div class="btnEmpresa" >                   
+                <div class="empresasSituado" id="id_${index}" >
+                    <div  class="dadosEmp" onclick="favoritarEmpresa(${index})">
                         <img class="imgSetor" src="./imgguia/taxi-gps.png" alt="">
-                        <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
+                        <img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt="">
                         
                     </div>
                     <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
                         <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
                         <p>Ver</p>
-                    </div>
-                   
-                </div>
-           
-        </div>`
+                    </div>                           
+                </div>                   
+        </div> `
             }
         }
     })
     infoId.innerHTML = 'Táxis'
+    favoritosMarcados()
 }
 
 
@@ -235,26 +229,25 @@ async function empresaPublicas() {
     data.map((empresaL, index) => {
         for (let i = 0; i < empresaL.id.length; i++) {
             if (empresaL.id[i] == "publica") {
-                infoVisivel.innerHTML += `
-               <div class="btnEmpresa" >                   
-                <div class="empresasSituado" id="id_0" >
-                    <div  class="dadosEmp">
+                infoVisivel.innerHTML += ` 
+                <div class="btnEmpresa" >                   
+                <div class="empresasSituado" id="id_${index}" >
+                    <div  class="dadosEmp" onclick="favoritarEmpresa(${index})">
                         <img class="imgSetor" src="./imgguia/geral-gps.png" alt="">
-                        <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
+                        <img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt="">
                         
                     </div>
                     <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
                         <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
                         <p>Ver</p>
-                    </div>
-                   
-                </div>
-           
+                    </div>                           
+                </div>                   
         </div>`
             }
         }
     })
     infoId.innerHTML = 'Empresa Pública'
+    favoritosMarcados()
 }
 async function farmacia() {
     infoId.innerHTML = 'Carregando...'
@@ -271,26 +264,25 @@ async function farmacia() {
         for (let i = 0; i < empresaL.id.length; i++) {
 
             if (empresaL.id[i] == "farmacia") {
-                infoVisivel.innerHTML += `
+                infoVisivel.innerHTML += ` 
                 <div class="btnEmpresa" >                   
-                <div class="empresasSituado" id="id_0" >
-                    <div  class="dadosEmp">
+                <div class="empresasSituado" id="id_${index}" >
+                    <div  class="dadosEmp" onclick="favoritarEmpresa(${index})">
                         <img class="imgSetor" src="./imgguia/farmacia-gps.png" alt="">
-                        <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
+                        <img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt="">
                         
                     </div>
                     <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
                         <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
                         <p>Ver</p>
-                    </div>
-                   
-                </div>
-           
-        </div>`
+                    </div>                           
+                </div>                   
+        </div> `
             }
         }
     })
     infoId.innerHTML = 'Farmácias'
+    favoritosMarcados()
 }
 async function mercado() {
     infoId.innerHTML = 'Carregando...'
@@ -304,32 +296,29 @@ async function mercado() {
     const response = await fetch(urlEmpresas);
     const data = await response.json();
     data.map((empresaL, index) => {
-
         for (let i = 0; i < empresaL.id.length; i++) {
-
             if (empresaL.id[i] == "mercado") {
-                infoVisivel.innerHTML += `
+                infoVisivel.innerHTML += ` 
                 <div class="btnEmpresa" >                   
-                <div class="empresasSituado" id="id_0" >
-                    <div  class="dadosEmp">
+                <div class="empresasSituado" id="id_${index}" >
+                    <div  class="dadosEmp" onclick="favoritarEmpresa(${index})">
                         <img class="imgSetor" src="./imgguia/mercado-gps.png" alt="">
-                        <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
+                        <img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt="">
                         
                     </div>
                     <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
                         <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
                         <p>Ver</p>
-                    </div>
-                   
-                </div>
-           
-        </div>`
+                    </div>                           
+                </div>                   
+        </div> `
             }
         }
 
 
     })
     infoId.innerHTML = 'Mercados'
+    favoritosMarcados()
 
 }
 
@@ -346,26 +335,25 @@ async function gasEmpresas() {
     data.map((empresaL, index) => {
         for (let i = 0; i < empresaL.id.length; i++) {
             if (empresaL.id[i] == "gas") {
-                infoVisivel.innerHTML += `
-               <div class="btnEmpresa" >                   
-                <div class="empresasSituado" id="id_0" >
-                    <div  class="dadosEmp">
+                infoVisivel.innerHTML += ` 
+                <div class="btnEmpresa" >                   
+                <div class="empresasSituado" id="id_${index}" >
+                    <div  class="dadosEmp" onclick="favoritarEmpresa(${index})">
                         <img class="imgSetor" src="./imgguia/geral-gps.png" alt="">
-                        <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
+                        <img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt="">
                         
                     </div>
                     <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
                         <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
                         <p>Ver</p>
-                    </div>
-                   
-                </div>
-           
-        </div>`
+                    </div>                           
+                </div>                   
+        </div> favoritosMarcados()`
             }
         }
     })
     infoId.innerHTML = 'Gás';
+    favoritosMarcados()
 }
 
 async function internetEmpresas() {
@@ -381,26 +369,25 @@ async function internetEmpresas() {
     data.map((empresaL, index) => {
         for (let i = 0; i < empresaL.id.length; i++) {
             if (empresaL.id[i] == "internet") {
-                infoVisivel.innerHTML += `
-               <div class="btnEmpresa" >                   
-                <div class="empresasSituado" id="id_0" >
-                    <div  class="dadosEmp">
+                infoVisivel.innerHTML += ` 
+                <div class="btnEmpresa" >                   
+                <div class="empresasSituado" id="id_${index}" >
+                    <div  class="dadosEmp" onclick="favoritarEmpresa(${index})">
                         <img class="imgSetor" src="./imgguia/internet-gps.png" alt="">
-                        <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
+                        <img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt="">
                         
                     </div>
                     <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
                         <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
                         <p>Ver</p>
-                    </div>
-                   
-                </div>
-           
-        </div>`
+                    </div>                           
+                </div>                   
+        </div> `
             }
         }
     })
     infoId.innerHTML = 'Provedores';
+    favoritosMarcados()
 }
 
 async function animalEmpresas() {
@@ -416,28 +403,27 @@ async function animalEmpresas() {
     data.map((empresaL, index) => {
         for (let i = 0; i < empresaL.id.length; i++) {
             if (empresaL.id[i] == "animal" || empresaL.id[i] == "racao") {
-                infoVisivel.innerHTML += `
-               <div class="btnEmpresa" >                   
-                <div class="empresasSituado" id="id_0" >
-                    <div  class="dadosEmp">
+                infoVisivel.innerHTML += ` 
+                <div class="btnEmpresa" >                   
+                <div class="empresasSituado" id="id_${index}" >
+                    <div  class="dadosEmp" onclick="favoritarEmpresa(${index})">
                         <img class="imgSetor" src="./imgguia/geral-gps.png" alt="">
-                        <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
+                        <img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt="">
                         
                     </div>
                     <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
                         <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
                         <p>Ver</p>
-                    </div>
-                   
-                </div>
-           
-        </div>`
+                    </div>                           
+                </div>                   
+        </div> `
             }
         }
     })
     infoId.innerHTML = 'Ração e Beleza Animal';
+    favoritosMarcados()
 }
-async function restaurante() {
+async function restaurante() {    
     fechaEmpresaL()
     infoId.innerHTML = 'Carregando..'
     apagaSeleciona()
@@ -447,11 +433,14 @@ async function restaurante() {
     //inicio.remove()
     const response = await fetch(urlEmpresas);
     const data = await response.json();
+
     data.map((empresaL, index) => {
+        const restaurante = "restaurante-gps.png"
+        const mercado = "mercado-gps.png"
+        const padaria = "padaria-gps.png"
         for (let i = 0; i < empresaL.id.length; i++) {
             if (empresaL.id[i] == "restaurante") {
                 infoVisivel.innerHTML += ` 
-
                 <div class="btnEmpresa" >                   
                 <div class="empresasSituado" id="id_${index}" >
                     <div  class="dadosEmp" onclick="favoritarEmpresa(${index})">
@@ -469,13 +458,29 @@ async function restaurante() {
         }
     })
     infoId.innerHTML = 'Restaurantes';
+    favoritosMarcados()
 }
-
+function marcaTop(numero) {
+    const marcador = document.querySelectorAll('.menuTop nav a')
+    marcador[numero].classList.add('marcado')
+    //console.log(marcador)
+}
+function desmarcaTop() {
+    const marcador = document.querySelectorAll('.menuTop nav a')
+    for(let i = 0; i < marcador.length;i++){
+        marcador[i].classList.remove('marcado')
+    }
+    //marcador.classList.tog('marcado')
+    //console.log(marcador)
+}
+//marcaTop()
 async function favoritosEmpresasOn() {
+    desmarcaTop()
+    marcaTop(2)
     fechaEmpresaL()
     infoId.innerHTML = 'Carregando..'
     apagaSeleciona()
-    linkSelect[0].classList.add('addSeleciona')
+   // linkSelect[0].classList.add('addSeleciona')
     infoVisivel.innerHTML = ''
     const inicio = document.querySelector('#inicio')
     //inicio.remove()
@@ -498,11 +503,11 @@ async function favoritosEmpresasOn() {
             <div class="btnEmpresa" >                   
                         <div class="empresasSituado" id="id_${numeroEmpresa}" >
                             <div  class="dadosEmp" onclick="favoritarEmpresa(${numeroEmpresa})">
-                                <img class="imgSetor" src="./imgguia/animais-de-estimacao.png" alt="">
+                                <img class="imgSetor" src="./imgguia/favorito-gps.png" alt="">
                                 <img class="favoritar" id="iconFavo${numeroEmpresa}"  src="./imgguia/favorito-adicionado.png" alt="">
                             </div>
                             <div class="infoDaEmpresa" onclick="verEmpresaShow(${numeroEmpresa})">
-                                <li><span>${data[numeroEmpresa].nomeFantasia}</span> <br> ${data[numeroEmpresa].razaoSocial} <br> $${data[numeroEmpresa].cnpjN} </li>
+                                <li><span>${data[numeroEmpresa].nomeFantasia}</span> <br> ${data[numeroEmpresa].razaoSocial} <br> ${data[numeroEmpresa].cnpjN} </li>
                                 <p>Ver</p>
                             </div>
                         </div>
@@ -512,7 +517,7 @@ async function favoritosEmpresasOn() {
             //     infoVisivel.innerHTML += `${empresaL[numeroEmpresa]} `
             // })
 
-            console.log(numeroEmpresa)
+            
             
             //console.log(data[i])
         }
@@ -543,10 +548,13 @@ async function favoritosEmpresasOn() {
 
 
     infoId.innerHTML = 'Favoritos';
+    favoritosMarcados()
 }
 
 
 async function empresas() {
+    desmarcaTop()
+    marcaTop(1)
     infoId.innerHTML = 'Carregando...'
     apagaSeleciona();
     infoVisivel.innerHTML = ''
@@ -673,6 +681,8 @@ async function maisEmpresas() {
 
 
 function inicioApp() {
+    desmarcaTop()
+    marcaTop(0)
     apagaSeleciona()
     infoId.innerHTML = 'Home'
     infoVisivel.innerHTML = `<a class="logoM" href="/app"> <div class="logocaracter">
@@ -700,16 +710,22 @@ async function verEmpresaShow(numero) {
     const data = await response.json();
     const ligarCelular = "+55" + data[numero].telefone.replace(' ', '9').replace('-', '')
     const mostraCelular = data[numero].telefone.replace(' ', ' 9')
-    const whatsAppTel = "+55" + data[numero].telefone.replace(' ', '').replace('-', '')
-    const linkOpe = `https://www.google.com/maps/place/${data[numero].endereco.replace(/ /g, '+')},${data[numero].numero.replace(/ /g, '+')},+Lagoa+dos+Patos+-+MG,+39360-000`
-    const linkTemp = `https://www.google.com/maps/place/R.+Sete+de+Setembro,+32,+Lagoa+dos+Patos+-+MG,+39360-000`
+    var whatsAppTel = "55" + data[numero].telefone.replace(' ', '').replace('-', '')
+    
+   
+    //const linkTemp = `https://www.google.com/maps/place/R.+Sete+de+Setembro,+32,+Lagoa+dos+Patos+-+MG,+39360-000`
+    // if(data[numero].mapa != undefined){
+        
+    // } else {
+       
+    // }
 
     if (data[numero].mapa != undefined) {
         var mapaS = data[numero].mapa.split('|')[0]
-        var linkIr = data[numero].mapa.split('|')[1]
+        var linkOpe = data[numero].mapa.split('|')[1]
     } else {
         var mapaS = `<iframe src='https://www.google.com/maps/embed?pb=Rua sete de setembro 185 39360-000!5e0!3m2!1spt-BR!2sbr!4v1680905641529!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>`
-        var linkIr = linkOpe
+        var linkOpe = `https://www.google.com/maps/place/${data[numero].endereco.replace(/ /g, '+').toLowerCase()},${data[numero].numero.replace(/ /g, '+')},+Lagoa+dos+Patos+-+MG,+39360-000`
     }
 
     if (data[numero].imagensEmpresa != undefined) {
@@ -738,7 +754,7 @@ async function verEmpresaShow(numero) {
         </div>
         <div>
             <div class="contatoEmpresa">
-                <a href="tel:${data[numero].telefone.replace(/ /g, '').replace(/-/g, '')}">
+                <a href="https://api.whatsapp.com/send?l=pt-BR&phone=${whatsAppTel}&text=Olá ${data[numero].nomeFantasia} ${data[numero].razaoSocial}, gostaria de algumas informações, poderia me ajudar?">
                 <img src="./imgguia/whatsapp.png" alt="">
 
                     <h4>${data[numero].telefone}</h4>
@@ -755,7 +771,7 @@ async function verEmpresaShow(numero) {
             </div>
         </div>
         <div class="btnAcessar">
-        <a href="${linkOpe.toLowerCase()}" target="_blank"><button>MOSTRAR ROTA</button></a>
+        <a href="${linkOpe}" target="_blank"><button>MOSTRAR ROTA</button></a>
     </div>
         <div class="enderecoEmp">
             <h3>Endereço:</h3> ${enderecoRua}, ${data[numero].numero}, ${data[numero].bairro} - ${data[numero].cidade} ${data[numero].estado}
@@ -808,6 +824,8 @@ function buscaEmpresa() {
 }
 
 function fotosLagoa() {
+    desmarcaTop()
+    marcaTop(3)
     infoVisivel.innerHTML = ''
     const mostraI = document.querySelector('#infoVisivel')
 
@@ -939,4 +957,4 @@ async function favoritosMarcados() {
     
 }
 //favoritosMarcados()
-setInterval('favoritosMarcados()', 1000)
+//setInterval('favoritosMarcados()', 1000)
