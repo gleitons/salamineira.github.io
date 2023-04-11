@@ -482,11 +482,9 @@ function contadorFavorite() {
         } else {
             contadorF.textContent = 0
         }
+        contadorF.textContent = arrayContFavorite.length
     }
-
-
-
-    contadorF.textContent = arrayContFavorite.length
+   
     //console.log(arrayContFavorite.length)
 
 }
