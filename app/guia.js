@@ -1,7 +1,7 @@
 var infoVisivel = document.querySelector('#infoVisivel')
 var iconesNav = document.getElementsByClassName('iconesNav')[0]
 var linkSelect = iconesNav.getElementsByTagName('a')
-console.log("s")
+
 var urlEmpresas = '/empresas'
 
 
@@ -473,11 +473,28 @@ function desmarcaTop() {
     //marcador.classList.tog('marcado')
     //console.log(marcador)
 }
+function contadorFavorite() {
+    const contadorF = document.querySelector('#contadorF')
+    var arrayContFavorite = JSON.parse(localStorage.getItem( 'favoritosEmpresas'))
+    if(arrayContFavorite.length == 0){
+        contadorF.textContent = arrayContFavorite.length +1
+    } else {
+        contadorF.textContent = 0
+    }
+   
+    
+    contadorF.textContent = arrayContFavorite.length
+    //console.log(arrayContFavorite.length)
+
+}
+//setInterval('contadorFavorite()', 2000)
+
 //marcaTop()
 async function favoritosEmpresasOn() {
     desmarcaTop()
     marcaTop(2)
     fechaEmpresaL()
+    
     infoId.innerHTML = 'Carregando..'
     apagaSeleciona()
    // linkSelect[0].classList.add('addSeleciona')
@@ -487,12 +504,19 @@ async function favoritosEmpresasOn() {
 
     var favoritos = JSON.parse(localStorage.getItem('favoritosEmpresas'))
     //console.log(favoritos.length)
-    if (favoritos == null) {
+   
+    if (favoritos === null) {
         infoVisivel.innerHTML += ` <div class="btnEmpresa" >                   
                 VOCÊ AINDA NÃO POSSUI FAVORITOS
            
         </div>`
-    } else {
+    } else if (favoritos.length == 0) {
+        infoVisivel.innerHTML += ` <div class="btnEmpresa" >                   
+                VOCÊ AINDA NÃO POSSUI FAVORITOS
+           
+        </div>`
+    } 
+    else {
         const response = await fetch(urlEmpresas);
         const data = await response.json();
 
@@ -549,6 +573,8 @@ async function favoritosEmpresasOn() {
 
     infoId.innerHTML = 'Favoritos';
     favoritosMarcados()
+    contadorFavorite()
+    
 }
 
 
@@ -564,19 +590,16 @@ async function empresas() {
     const data = await response.json();
     data.map((empresaL, index) => {
         infoVisivel.innerHTML += ` <div class="btnEmpresa" >                   
-        <div class="empresasSituado" id="id_0" >
-            <div  class="dadosEmp">
-                <img class="imgSetor" src="./imgguia/geral-gps.png" alt="">
-                <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
-                
+        <div class="empresasSituado" id="id_${index}" >
+            <div  class="dadosEmp" onclick="favoritarEmpresa(${index})">
+                <img class="imgSetor" src="./imgguia/favorito-gps.png" alt="">
+                <img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt="">
             </div>
             <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
-                <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
+                <li><span>${data[index].nomeFantasia}</span> <br> ${data[index].razaoSocial} <br> ${data[index].cnpjN} </li>
                 <p>Ver</p>
             </div>
-           
         </div>
-   
 </div>`
         // console.log(empresaL.id.length)
         // for(let i = 0; i < empresaL.id.length; i++ ) {
@@ -629,6 +652,7 @@ async function localizaEmpresas() {
 
 
     })
+    infoId.innerHTML = ''
 
 }
 
@@ -681,12 +705,14 @@ async function maisEmpresas() {
 
 
 function inicioApp() {
+    contadorFavorite()
     desmarcaTop()
     marcaTop(0)
     apagaSeleciona()
     infoId.innerHTML = 'Home'
     infoVisivel.innerHTML = `<a class="logoM" href="/app"> <div class="logocaracter">
     <h1><span class="colorwhite">SALA</span> <span class="colorOr">MINEIRA</span></h1> <h2><span class="colorwhite">do Empreendedor de</span> <span class="colorOr">Lagoa dos Patos-MG</span></h2> </div> </a>`
+    contadorFavorite()
 }
 function apagaSeleciona() {
     for (let i = 0; i < linkSelect.length; i++) {
@@ -701,6 +727,7 @@ function fechaEmpresaL() {
     // apagaSeleciona()
     mostraEmpresa.innerHTML = ''
 }
+inicioApp()
 
 
 
@@ -829,7 +856,7 @@ function fotosLagoa() {
     infoVisivel.innerHTML = ''
     const mostraI = document.querySelector('#infoVisivel')
 
-    console.log(mostraI)
+   
 
     const imagensOne = ['Barragem cheia Lagoa dos Patos - MG. -27_03_2012_120.jpg', 'Barragem cheia Lagoa dos Patos - MG. -27032012.jpg', 'Barragem-lagoa-dos-patos-mg-27032012121.jpg', 'coletanea-FOTOS-de-lagoa-dos-patos-MG-Sala-mineira.jpg', 'HDR-Lagoa-dos-patos-mg-barragem.png', 'Lagoa-dos-patos-mg-barragem-cheia-27_03_2012122.jpg', 'Tim, Rodrigo, Edson, Cassio, Valdo - mortal Kombat(9).jpg']
 
@@ -853,8 +880,9 @@ function fechaGif() {
     verSlide.classList.add('dnone')
 }
 
-function favoritarEmpresa(numero) {
 
+function favoritarEmpresa(numero) {
+    contadorFavorite()
 
     var iconFavo = document.querySelector(`#iconFavo${numero}`).src
     const iconF = document.querySelector(`#iconFavo${numero}`)
@@ -932,7 +960,7 @@ async function favoritosMarcados() {
     for(let i = 0; i < favor.length; i++){
         const numerFav = favor[i]
         const verImagem = document.querySelector(`#iconFavo${numerFav}`)
-        console.log(verImagem + " " + i)
+       
 
         if(verImagem != null){
             document.querySelector(`#iconFavo${numerFav}`).src = './imgguia/favorito-adicionado.png'

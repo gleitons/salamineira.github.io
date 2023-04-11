@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./guia.css">
 </head>
 
-<body>
+<body onclick="contadorFavorite()">
     <header>
         <div>
             <!-- <p>FUTURO CONSULTORIA</p> -->
@@ -34,8 +34,11 @@
                     <a onclick="empresas()">
                         <li>Empresas</li>
                     </a>
-                    <a onclick="favoritosEmpresasOn()" >
-                        <li >Favoritos</li>
+                    <a onclick="favoritosEmpresasOn()" class="nfavorito"  >
+                        <li >Favorito</li>
+                        <div class="contadorFavorito" >
+                            <p id="contadorF">0</p>
+                        </div>
                     </a>
                     <a onclick="fotosLagoa()">
                         <li>Fotos</li>
