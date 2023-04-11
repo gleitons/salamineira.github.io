@@ -450,25 +450,99 @@ async function restaurante() {
     data.map((empresaL, index) => {
         for (let i = 0; i < empresaL.id.length; i++) {
             if (empresaL.id[i] == "restaurante") {
-                infoVisivel.innerHTML += ` <div class="btnEmpresa" >                   
-                <div class="empresasSituado" id="id_0" >
-                    <div  class="dadosEmp">
+                infoVisivel.innerHTML += ` 
+
+                <div class="btnEmpresa" >                   
+                <div class="empresasSituado" id="id_${index}" >
+                    <div  class="dadosEmp" onclick="favoritarEmpresa(${index})">
                         <img class="imgSetor" src="./imgguia/restaurante-gps.png" alt="">
-                        <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
+                        <img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt="">
                         
                     </div>
                     <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
                         <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
                         <p>Ver</p>
-                    </div>
-                   
-                </div>
-           
+                    </div>                           
+                </div>                   
         </div>`
             }
         }
     })
     infoId.innerHTML = 'Restaurantes';
+}
+
+async function favoritosEmpresasOn() {
+    fechaEmpresaL()
+    infoId.innerHTML = 'Carregando..'
+    apagaSeleciona()
+    linkSelect[0].classList.add('addSeleciona')
+    infoVisivel.innerHTML = ''
+    const inicio = document.querySelector('#inicio')
+    //inicio.remove()
+
+    var favoritos = JSON.parse(localStorage.getItem('favoritosEmpresas'))
+    //console.log(favoritos.length)
+    if (favoritos == null) {
+        infoVisivel.innerHTML += ` <div class="btnEmpresa" >                   
+                VOCÊ AINDA NÃO POSSUI FAVORITOS
+           
+        </div>`
+    } else {
+        const response = await fetch(urlEmpresas);
+        const data = await response.json();
+
+        for(let i =0; i < favoritos.length;i++){
+            const numeroEmpresa = favoritos[i] 
+            infoVisivel.innerHTML += `
+
+            <div class="btnEmpresa" >                   
+                        <div class="empresasSituado" id="id_${numeroEmpresa}" >
+                            <div  class="dadosEmp" onclick="favoritarEmpresa(${numeroEmpresa})">
+                                <img class="imgSetor" src="./imgguia/animais-de-estimacao.png" alt="">
+                                <img class="favoritar" id="iconFavo${numeroEmpresa}"  src="./imgguia/favorito-adicionado.png" alt="">
+                            </div>
+                            <div class="infoDaEmpresa" onclick="verEmpresaShow(${numeroEmpresa})">
+                                <li><span>${data[numeroEmpresa].nomeFantasia}</span> <br> ${data[numeroEmpresa].razaoSocial} <br> $${data[numeroEmpresa].cnpjN} </li>
+                                <p>Ver</p>
+                            </div>
+                        </div>
+                </div>`
+            //if(n)
+            // data.map((empresaL, index) => {  
+            //     infoVisivel.innerHTML += `${empresaL[numeroEmpresa]} `
+            // })
+
+            console.log(numeroEmpresa)
+            
+            //console.log(data[i])
+        }
+        
+            
+
+        //     for (let i = 0; i < empresaL.id.length; i++) {
+        //         if (empresaL.id[i] == "restaurante") {
+        //             infoVisivel.innerHTML += ` <div class="btnEmpresa" >                   
+        //         <div class="empresasSituado" id="id_0" >
+        //             <div  class="dadosEmp">
+        //                 <img class="imgSetor" src="./imgguia/restaurante-gps.png" alt="">
+        //                 <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
+                        
+        //             </div>
+        //             <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
+        //                 <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
+        //                 <p>Ver</p>
+        //             </div>
+                   
+        //         </div>
+           
+        // </div>`
+        //         }
+        //     }
+       
+    }
+
+
+    infoId.innerHTML = 'Favoritos';
 }
 
 
@@ -614,7 +688,7 @@ function apagaSeleciona() {
 
 function fechaEmpresaL() {
     const mostraEmpresa = document.querySelector('#mostraEmpresa');
-   // apagaSeleciona()
+    // apagaSeleciona()
     mostraEmpresa.innerHTML = ''
 }
 
@@ -640,16 +714,16 @@ async function verEmpresaShow(numero) {
 
     if (data[numero].imagensEmpresa != undefined) {
         var imagensEmpresa = data[numero].imagensEmpresa
-    
-    var fotosEmpresaG = [];
 
-    for (let i = 0; i < imagensEmpresa.length; i++) {              
-        const imageE = `<img src="${imagensEmpresa[i]}" alt="">`
-        fotosEmpresaG.push(imageE)
+        var fotosEmpresaG = [];
 
-    }
-    var imagensdaEmp = JSON.stringify(fotosEmpresaG).replace(/\["/g, '').replace(/\\"/g,'\"').replace(/\",\"/g, ' ').replace(/\"\]/g, "Futuro Consultoria")
-    //const imagensdaEmp = ``
+        for (let i = 0; i < imagensEmpresa.length; i++) {
+            const imageE = `<img src="${imagensEmpresa[i]}" alt="">`
+            fotosEmpresaG.push(imageE)
+
+        }
+        var imagensdaEmp = JSON.stringify(fotosEmpresaG).replace(/\["/g, '').replace(/\\"/g, '\"').replace(/\",\"/g, ' ').replace(/\"\]/g, "Futuro Consultoria")
+        //const imagensdaEmp = ``
     } else {
         var imagensdaEmp = `Sem Fotos no momento`
     }
@@ -762,25 +836,107 @@ function fechaGif() {
 }
 
 function favoritarEmpresa(numero) {
-    
-    const favoritos = []
-    const iconFavo = document.querySelector('#iconFavo0').src
-    const iconF = document.querySelector('#iconFavo0')
-    const valorId = document.querySelector('#id_0').id.replace(/id_/g, '')
-    console.log(valorId)
-    if(localStorage.getItem('favoritosEmpresas') != null){
-        console.log('empresas adicionadas')
-    }
 
-    if(iconFavo == "http://127.0.0.1:5500/app/imgguia/add-favorito.png") {
-        console.log("Favoritado")
-        iconF.src = './imgguia/favorito-adicionado.png'
-        favoritos.push(valorId)
-        localStorage.setItem('favoritosEmpresas', JSON.stringify(favoritos))
+
+    var iconFavo = document.querySelector(`#iconFavo${numero}`).src
+    const iconF = document.querySelector(`#iconFavo${numero}`)
+    const valorId = document.querySelector(`#id_${numero}`).id.replace(/id_/g, '')
+
+    if (localStorage.getItem("favoritosEmpresas") === null) {
+        var empresasFavoritas = []
+        //console.log(cheio.length)
     } else {
-        console.log("Desfavoritado")
-        iconF.src = './imgguia/add-favorito.png'
+        const cheio = localStorage.getItem('favoritosEmpresas')
+        const favorite = JSON.parse(cheio);
+        var empresasFavoritas = favorite
     }
 
+
+    var favoriteSalvo = valorId
+
+
+
+    const index = empresasFavoritas.indexOf(favoriteSalvo);
+    const seFavoExiste = index != -1;
+    if (seFavoExiste) {
+        empresasFavoritas.splice(index, 1);
+        iconF.src = './imgguia/add-favorito.png'
+
+    } else {
+        empresasFavoritas.push(favoriteSalvo)
+        iconF.src = './imgguia/favorito-adicionado.png'
+    }
+    localStorage.setItem('favoritosEmpresas', JSON.stringify(empresasFavoritas))
+
+
+
+    //console.log(empresasFavoritas)
+
+
+
+
+
+    // console.log(iconFavo)
+    // if(localStorage.getItem('favoritosEmpresas') != null){
+    //     console.log('empresas adicionadas')
+    // }
+    // if(ind)
+
+    // if(iconFavo != null) {
+    //     console.log("Favoritado")
+    //     //iconF.style.backgroundColor = "red";
+    //     iconF.src = './imgguia/favorito-adicionado.png'
+    //     iconFavo = null
+    //     favoritos.push(valorId)
+    //     localStorage.setItem('favoritosEmpresas', JSON.stringify(favoritos))
+    // } else {
+    //     console.log("Desfavoritado")
+    //     //iconF.style.backgroundColor = "gree"
+    //     iconF.style.backgroundColor = "gray";
+    //     iconF.src = './imgguia/add-favorito.png'
+    // }
+
+
+}
+async function favoritosMarcados() {
+
+    const response = await fetch(urlEmpresas);
+    const data = await response.json();
+
+    // var iconFavoT = document.querySelector(`#iconFavo${numero}`).src
+    // const iconF = document.querySelector(`#iconFavo${numero}`)
+    // const valorId = document.querySelector(`#id_${numero}`).id.replace(/id_/g, '')
+    
+    
+    //console.log(favor.length)
+    var favor = JSON.parse(localStorage.getItem('favoritosEmpresas'))
+    
+    for(let i = 0; i < favor.length; i++){
+        const numerFav = favor[i]
+        const verImagem = document.querySelector(`#iconFavo${numerFav}`)
+        console.log(verImagem + " " + i)
+
+        if(verImagem != null){
+            document.querySelector(`#iconFavo${numerFav}`).src = './imgguia/favorito-adicionado.png'
+        }
+
+        // if(document.querySelector(`#iconFavo${numerFav}`).src != null){
+        //     document.querySelector(`#iconFavo${numerFav}`).src = './imgguia/favorito-adicionado.png'
+        // }
+        
+        
+        // console.log()
+        // data.map((favEmp) => {
+
+
+
+        // })
+        // var imgtroca = JSON.parse(localStorage.getItem('favoritosEmpresas'))
+        //document.querySelector(`#iconFavo${data.indexOf(i)}`).src = './imgguia/favorito-adicionado.png'
+        //console.log(data.indexOf(i))
+        
+    } 
     
 }
+//favoritosMarcados()
+setInterval('favoritosMarcados()', 1000)
