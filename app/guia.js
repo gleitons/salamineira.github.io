@@ -736,6 +736,8 @@ async function verEmpresaShow(numero) {
 
     const response = await fetch(urlEmpresas);
     const data = await response.json();
+
+    
     const ligarCelular = "+55" + data[numero].telefone.replace(' ', '9').replace('-', '')
     const mostraCelular = data[numero].telefone.replace(' ', ' 9')
     var whatsAppTel = "55" + data[numero].telefone.replace(' ', '').replace('-', '')

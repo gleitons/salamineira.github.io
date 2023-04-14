@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <script>
+        var empres = []
+        async function tur() {
+            const response = await fetch('./empresas')
+            const data = await response.json()
+
+            data.map((e) => {
+                if(e.mapa != undefined){
+                    var mapaI = e.mapa.split('|')[0]
+                    var rota = e.mapa.split('|')[1]
+                } else {
+                    var mapaI = "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238.48993549475856!2d-44.57982752406025!3d-16.982469491202668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xaaf030eeebb2c7%3A0x103e12adffc5ea7e!2sPraca%20Trinta%20e%20Um%20De%20Marco%2C%2031%20-%20Lagoa%20Dos%20Patos%2C%20Lagoa%20dos%20Patos%20-%20MG%2C%2039360-000!5e0!3m2!1spt-BR!2sbr!4v1681210253561!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>"
+                    var rota = "https://goo.gl/maps/bU2Hb9jxM7fWrACF6"
+                }
+
+                console.log(e.imagensEmpresa)
+
+                if(e.imagensEmpresa != undefined){
+                    var imgEmpresa = e.imagensEmpresa
+                } else {
+                    var imgEmpresa = ["https://www.salamineira.com/app/futuro-consultoria.png"]
+                }
+
+
+                const empresa = {
+                    "id": e.id,
+                    "cnpj": e.cnpj,
+                    "cnpjN": e.cnpjN,
+                    "razaoSocial": e.razaoSocial,
+                    "nomeFantasia": e.nomeFantasia,
+                    "imagem": e.imagem,
+                    "tipo": e.tipo,
+                    "abertura": e.abertura,
+                    "situacao": e.situacao,
+                    "capitalSocial": e.capitalSocial,
+                    "naturezaJuridica": e.naturezaJuridica,
+                    "empresaMei": e.empresaMei,
+                    "endereco": e.endereco,
+                    "numero": e.numero,
+                    "complemento": e.complemento,
+                    "cep": e.cep,
+                    "bairro": e.bairro,
+                    "cidade": e.cidade,
+                    "estado": e.estado,
+                    "email": e.email,
+                    "socio": e.socio,
+                    "atividadePrincipal": e.atividadePrincipal,
+                    "atividadeSecundaria": e.atividadeSecundaria,
+                    "dataConsulta": e.dataConsulta,
+                    "todosDados": e.todosDados,
+                    "mapa": mapaI,
+                    "rota":rota,
+                    "imagensEmpresa": imgEmpresa
+                  }
+                  empres.push(empresa)
+                  
+                  
+       
+                  
+            })  
+            localStorage.setItem('empresasTop', JSON.stringify(empres))
+           //document.body.innerHTML = texto 
+        }
+        tur()   
+        
+    </script>
+</body>
+</html>
