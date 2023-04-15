@@ -63,6 +63,23 @@
     "estado": "MG",
     "apelido": "Dona Cila"
   },
+
+  {
+    "id": 0,
+    "nome": "GISCARDE LOPES BARBOSA",
+    "sexo": "m",
+    "imagem": "",
+    "nascimento": "",
+    "falecimento": "28/12/2010",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "LIETE LOPES DE SOUZA",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Belo Horizonte",
+    "estado": "MG",
+    "apelido":""
+},
   {
     "id": 0,
     "nome": "MARIA SOARES DA SILVA",
