@@ -413,7 +413,7 @@ async function buscaCNPJB() {
         var uatualiza = `${reve[0]}/${reve[1]}/${reve[2]}`
 
 
-        console.log(ati)
+      
 
         vejamosS.innerHTML = `
         
@@ -462,3 +462,48 @@ async function buscaCNPJB() {
     }
 }
 //buscaCNPJB()
+
+const linkURL = "/editaistopo"
+// "urlS": urls,
+// "dataP": abertura,
+// "processo": processos,
+// "publicado": publicacao,
+// "abertura": abertura,
+// "modalidade": modalidade,
+// "situacao": situacao,
+// "infolicita": infoLicita
+
+async function editaisEmAb() {
+    const editaisEmAberto = document.querySelector('#editaisEmAberto')
+    const response = await fetch(linkURL);
+    const data = await response.json()
+   
+    data.map((editalt) => {
+        
+        if(editalt.processo.toString().replace(/ /g,'').length > 10){
+        if(editalt.situacao == "Situação : Aberta") {
+            var imageSituacao = '/img-editais/edital-aberto.jpg'
+        } else if(editalt.situacao == "Situação : Em andamento")  {
+            var imageSituacao = '/img-editais/edital-em-andamento.jpg'
+        } else if(editalt.situacao == "Situação : Revogada")  {
+            var imageSituacao = '/img-editais/edital-revogado.jpg'
+        } else {
+            var imageSituacao = '/img-editais/edital-finalizado.jpg'
+        }
+
+        editaisEmAberto.innerHTML += `<div class="cardEdital">
+        <a href="${editalt.urlS}" target="_blank">
+                <img  class="infoLic"
+                src="${imageSituacao}"
+                alt="${editalt.infolicita}" /></a>
+                <abbr class="abbrTexto" title="${editalt.infolicita}">${editalt.processo.replace(/PREGÃO PRESENCIAL/gi, 'P.P')}</abbr>
+    </div>
+    <div class="infoEdi"><p>${editalt.infolicita}</p></div>`
+        }
+    })
+    console.clear()
+    console.log('www.gleiton.com.br')
+    console.warn('Por: Gleiton Soares')
+    
+}
+editaisEmAb()

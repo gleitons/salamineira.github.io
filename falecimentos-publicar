@@ -47,6 +47,23 @@
     "estado": "MG",
     "apelido": "Torré"
   },
+
+  {
+    "id": 0,
+    "nome": "JOAO MARTINHO SOARES LIMA",
+    "sexo": "m",
+    "imagem": "",
+    "nascimento": "",
+    "falecimento": "15/10/2008",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "BERNARDINA SOARES LIMA",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Montes Claros",
+    "estado": "MG",
+    "apelido":""
+},
   {
     "id": 0,
     "nome": "HERCÍLIA FÉLIX DA SILVA",

@@ -547,8 +547,67 @@ fieldset {
   margin: 10px;
   align-items: center;
 }
-.anuncies > div img:hover {
+.anunciesED > div img:hover {
   filter: brightness(120%);
+}
+.anunciesED div {
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
+  /* border: black 1px solid; */
+  align-items: center;
+}
+.editaisTop {
+  display: flex;
+  background-color: #2e2e2e;
+  padding: 10px;
+  width: 100%;
+  overflow: auto;
+  position: relative;
+  
+}
+.cardEdital {
+  position: relative;
+}
+.editaisTop div {
+  
+}
+.editaisTop img {
+  width: 150px;
+  height: 150px;
+  margin-right: 5px;
+  border-radius: 8px;
+}
+.editaisTop img:hover{
+  filter: brightness(1.2);
+}
+.abbrTexto {
+  text-decoration: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  font-size: .7em;
+  font-weight: 700;
+ 
+}
+.infoEdi {
+  background-color: white;
+  margin-right: 10px;
+  padding: 2px;
+  font-size: .8em;
+  
+  position: relative;
+  width: 100%;
+  height: 150px;
+}
+.infoEdi p {
+  background-color: white;
 }
 .atendimentoWhats {
   position: fixed;
@@ -683,6 +742,7 @@ header {
 .Quebra {
   display: flex;
 }
+
 .logoM {
   text-decoration: none;
 }
