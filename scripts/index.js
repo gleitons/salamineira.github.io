@@ -3,8 +3,7 @@ function bannerPrincipal() {
     return `<div class="hero">
     <img src="/imagens-sala/lagoa-dos-patos-mg-hero.jpg" />
     <h1 class="btn-saiba-mais"></h1>           
-    </div>`;
-    
+    </div>`;   
 
     
 }
