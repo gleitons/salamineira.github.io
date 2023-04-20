@@ -490,15 +490,34 @@ async function editaisEmAb() {
             var imageSituacao = '/img-editais/edital-finalizado.jpg'
         }
         if(index < 7){
-            editaisEmAberto.innerHTML += `    <div class="cardEdita" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal_${index}" onclick="geraAba(${index})">
+            editaisEmAberto.innerHTML += `    <div class="cardEdita" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal_${index}" >
         <div class="luzRefletor"></div>
         <div class="infoEditalS">
             <p>${editalt.processo.replace(/PREGÃO PRESENCIAL/gi, 'P.P')}</p>
             <h2>${editalt.situacao.replace(/Situação : /g, '')}</h2>
-            <h3>${editalt.dataP} </br>Clique 2X</h3>
+            <h3>${editalt.dataP} </br>Clique e veja</h3>
         </div>
         <div class="sombraEdi"></div>
     </div>
+
+    <div class="modal fade" id="exampleModal_${index}" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">${editalt.processo} - ${editalt.dataP} - ${editalt.modalidade}</h5>
+                <button type="button" class="btn-close" data-mdb-dismiss="modal"
+                    aria-label="Close"></button>
+            </div>
+            <div class="modal-body">${editalt.infolicita}</div>
+            <a href="${editalt.urlS}" target="_blank"><button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Veja o edital Completo</button></a>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Fechar</button>
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+        </div>
+    </div>
+</div>
     `
         }
         
