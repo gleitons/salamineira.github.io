@@ -477,7 +477,7 @@ async function editaisEmAb() {
     const response = await fetch(linkURL);
     const data = await response.json()
    
-    data.map((editalt) => {
+    data.map((editalt, index) => {
         
         if(editalt.processo.toString().replace(/ /g,'').length > 10){
         if(editalt.situacao == "Situação : Aberta") {
@@ -489,15 +489,19 @@ async function editaisEmAb() {
         } else {
             var imageSituacao = '/img-editais/edital-finalizado.jpg'
         }
-
-        editaisEmAberto.innerHTML += `<div class="cardEdital">
-        <a href="${editalt.urlS}" target="_blank">
-                <img  class="infoLic"
-                src="${imageSituacao}"
-                alt="${editalt.infolicita}" /></a>
-                <abbr class="abbrTexto" title="${editalt.infolicita}">${editalt.processo.replace(/PREGÃO PRESENCIAL/gi, 'P.P')}</abbr>
+        if(index < 7){
+            editaisEmAberto.innerHTML += `    <div class="cardEdita" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal_${index}" onclick="geraAba(${index})">
+        <div class="luzRefletor"></div>
+        <div class="infoEditalS">
+            <p>${editalt.processo.replace(/PREGÃO PRESENCIAL/gi, 'P.P')}</p>
+            <h2>${editalt.situacao.replace(/Situação : /g, '')}</h2>
+            <h3>${editalt.dataP} </br>Clique 2X</h3>
+        </div>
+        <div class="sombraEdi"></div>
     </div>
-    <div class="infoEdi"><p>${editalt.infolicita}</p></div>`
+    `
+        }
+        
         }
     })
     console.clear()
@@ -506,3 +510,30 @@ async function editaisEmAb() {
     
 }
 editaisEmAb()
+
+
+async function geraAba(valor) {
+    const valorModal = `exampleModal_${valor}`
+    console.log(valorModal)
+    const abreEditalInfo = document.querySelector('#abreEditalInfo')
+    const response = await fetch(linkURL);
+    const data = await response.json()
+    abreEditalInfo.innerHTML = ` <div class="modal fade" id="${valorModal}" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">${data[valor].processo} - ${data[valor].dataP} - ${data[valor].modalidade}</h5>
+                <button type="button" class="btn-close" data-mdb-dismiss="modal"
+                    aria-label="Close"></button>
+            </div>
+            <div class="modal-body">${data[valor].infolicita}</div>
+            <a href="${data[valor].urlS}" target="_blank"><button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Veja o edital Completo</button></a>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Fechar</button>
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+        </div>
+    </div>
+</div>`
+}

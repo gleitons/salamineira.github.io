@@ -43,7 +43,6 @@
   text-decoration: none;
 }
 
-
 .funcionamento button {
   padding: 5px;
   border: none;
@@ -79,12 +78,13 @@
 
 @media (max-width: 768px) {
   .tabelaFeriado table {
-      display: none;
+    display: none;
   }
 }
 
-@media (max-width:576px) {
-  .tabelaFeriado tbody {}
+@media (max-width: 576px) {
+  .tabelaFeriado tbody {
+  }
 }
 .cverde {
   background-color: green;
@@ -518,6 +518,104 @@ fieldset {
     margin-top: -25px;
   }
 }
+/***************************/
+.editaisNovos {
+  display: flex;  
+  padding: 10px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  justify-content: space-between;
+}
+.cardEdita {
+  margin: 0px 10px; 
+  width: 150px;
+  height: 150px;
+  border: #242424 solid 1px;
+  background-color: #60e900;
+  background-image: linear-gradient(160deg, #60e900 0%, #acd080 100%);
+  background: rgba(14, 244, 0, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.cardEdita:hover {
+  background-color: #77f51e;
+  background-image: linear-gradient(160deg, #b3f187 0%, #e0fbbf 100%);
+  background: rgba(39, 180, 31, 0.774);
+}
+.luzRefletor {
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.25);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: absolute;
+  border-radius: 50%;
+  top: -131px;
+  left: -30px;
+}
+.sombraEdi {
+  width: 200px;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: absolute;
+  border-radius: 50%;
+  bottom: -150px;
+  left: -30px;
+}
+.infoEditalS {
+  text-align: center;
+  width: 100% ;
+}
+.infoEditalS p {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  color: #747474;
+  font-size: .6em;
+}
+.infoEditalS h2 {
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  font-size: 1em;
+  text-align: center;
+  
+}
+.infoEditalS h3 {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  font-size: 1em;
+  color: #141414;
+}
+@media (max-width: 576px) {
+    .editaisNovos {
+      display: block;
+    }
+    .cardEdita {
+      width: 100%;
+      margin: 10px auto;
+    }
+}
+
 .video {
   width: 100%;
   margin: auto;
@@ -562,24 +660,23 @@ fieldset {
   display: flex;
   background-color: #2e2e2e;
   padding: 10px;
-  width: 100%;
-  overflow: auto;
+
   position: relative;
-  
 }
 .cardEdital {
   position: relative;
+ 
 }
-.editaisTop div {
-  
-}
-.editaisTop img {
+.cardEdital img {
   width: 150px;
   height: 150px;
   margin-right: 5px;
   border-radius: 8px;
 }
-.editaisTop img:hover{
+/* <div class="infoEdi"><p>${editalt.infolicita}</p></div> */
+.editaisTop img {
+}
+.editaisTop img:hover {
   filter: brightness(1.2);
 }
 .abbrTexto {
@@ -590,16 +687,15 @@ fieldset {
   width: 90%;
   margin: auto;
   text-align: center;
-  font-size: .7em;
+  font-size: 0.7em;
   font-weight: 700;
- 
 }
 .infoEdi {
   background-color: white;
   margin-right: 10px;
   padding: 2px;
-  font-size: .8em;
-  
+  font-size: 0.8em;
+
   position: relative;
   width: 100%;
   height: 150px;
@@ -1123,6 +1219,7 @@ main {
 
 .container {
   width: 100%;
+  overflow: hidden;
 }
 .infoCentralizada {
   padding-top: 10px;
@@ -2198,7 +2295,7 @@ footer {
     align-items: center;
   }
 }
-@media (min-width:360px) {
+@media (min-width: 360px) {
   .parabensLagoa i {
     top: 132px;
     left: 120px;
@@ -2207,5 +2304,4 @@ footer {
     top: 132px;
     left: 120px;
   }
-  
 }
