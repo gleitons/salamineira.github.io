@@ -50,6 +50,22 @@
 
   {
     "id": 0,
+    "nome": "MARCOLINO PEREIRA LIMA",
+    "sexo": "m",
+    "imagem": "/falecimento/marcolino.png",
+    "nascimento": "",
+    "falecimento": "14/09/2005",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Montes Claros",
+    "estado": "MG",
+    "apelido":""
+},
+  {
+    "id": 0,
     "nome": "JOAO MARTINHO SOARES LIMA",
     "sexo": "m",
     "imagem": "",

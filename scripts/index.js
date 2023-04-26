@@ -476,7 +476,16 @@ async function editaisEmAb() {
     const editaisEmAberto = document.querySelector('#editaisEmAberto')
     const response = await fetch(linkURL);
     const data = await response.json()
-   
+    const cardEdita = document.querySelectorAll('.cardEdita')
+    const modal = document.querySelectorAll('.modal')
+    for (let index = 0; index < cardEdita.length; index++) {
+        const element = cardEdita[index];
+        const modl = modal[index];
+       
+        element.remove(element)
+        element.remove(modl)
+        
+    }
     data.map((editalt, index) => {
         
         if(editalt.processo.toString().replace(/ /g,'').length > 10){
