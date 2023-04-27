@@ -1,0 +1,51 @@
+[
+  {
+    "nome": "Aldo Sebastião",
+    "nomeurna": "Aldo Boca",
+    "posicao": "Vereador",
+    "foto": "https://www.salamineira.com/pessoas/aldo-boca-2020-max.png",
+    "legislativo": [
+      {
+        "datainicial": "22/03/2022",
+        "datafinal": "22/03/2023",
+        "posicao": "sub-secretario",
+        "informacao": "<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi sint facere non, quae totam assumenda soluta ex repellat nesciunt expedita fugit minus omnis veritatis vitae voluptate perferendis magni ea dolorum.</p>"
+      }
+    ],
+    "historia": "<p>Vereador Sebastião Lorem ipsum dolor sit amet consectetur adipisicing elit. </p> <p>Ad cumque ipsum eum vel facilis iste doloremque quas laudantium, inventore natus impedit optio provident suscipit temporibus assumenda illum officia, ex veniam!</p>",
+    "projetos": [
+      {
+        "data": "13/04/2023",
+        "numero": "99",
+        "ano": "2023",
+        "nomeinfo": "informacoes",
+        "informacao": "projetos acomeciado",
+        "situacao": "em vigor",
+        "download": [
+          {
+            "link": "https://googel.com"
+          },
+          {
+            "link": "https://goole.com"
+          }
+        ]
+      },
+      {
+        "data": "10/03/2023",
+        "numero": "103",
+        "ano": "2023",
+        "nomeinfo": "informacoes",
+        "informacao": "projetos acomeciado",
+        "situacao": "em vigor",
+        "download": [
+          {
+            "link": "https://googel.com"
+          },
+          {
+            "link": "https://goole.com"
+          }
+        ]
+      }
+    ]
+  }
+]

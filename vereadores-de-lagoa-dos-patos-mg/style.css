@@ -4,10 +4,15 @@
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+body {
+    background-color: red;
+    padding: 10px;
+}
 
 .container {
-    width: 70%;
+    width: 90%;
     margin: auto;
+    background-color: white;
 }
 .faceVereadores {
     display: flex;
@@ -26,7 +31,7 @@
 .esquerdoLateral {
     padding: 10px;
     width: 70%;
-    border: black solid 1px;
+    /* border: black solid 1px; */
 }
 .imgFundoLagoa {
     background-image: url(https://static.wixstatic.com/media/7343dd_780f45dc1d8d4067bad6868cf9cfc407~mv2.png/v1/fill/w_974,h_731,al_c,q_90,usm_0.66_1.00_0.01/HDR-Lagoa-dos-patos-mg-barragem.jpg);
@@ -63,19 +68,154 @@
 .menuInfoVereador nav li{
     cursor: pointer;
     gap: 20px;
-    background-color: red;
+    background-color: rgb(210, 210, 210);
+    border-radius: 8px 8px 0px 0px;
     padding: 10px;
     list-style: none;
     margin-right:10px;
+    border: rgb(141, 141, 141) solid 1px;
+    border-bottom: none;
 }
 p {
     line-height: 1.5em;
     margin: 10px 0px;
 }
 .infoVereador {
-    margin: 10px 0px;
+    padding: 10px 5px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.267) 0px 2px 5px 0px;
   
 }
 .geraisVereador {
-    background-color: aliceblue;
+    margin-top: 20px;
+    
+}
+.or-spacer {
+    margin: 42px auto 10px auto;
+    width: 90%;
+    position: relative;
+}
+.or-spacer .mask {
+    overflow: hidden;
+    height: 20px;
+}
+
+.or-spacer .mask:after {
+    content: "";
+    display: block;
+    margin: -25px auto 0;
+    width: 100%;
+    height: 25px;
+    border-radius: 125px/12px;
+    -webkit-box-shadow: 0 0 8px black;
+    -khtml-box-shadow: 0 0 8px black;
+    -moz-box-shadow: 0 0 8px black;
+    -ms-box-shadow: 0 0 8px black;
+    -o-box-shadow: 0 0 8px black;
+    box-shadow: 0 0 8px black;
+}
+.fotoPresident img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: black solid 2px;
+}
+.presidenteDacamara div h2 {
+    font-size: 1.3em;
+}
+.presidenteDacamara {
+    display: flex;
+    align-items: center ;
+    gap: 10px;
+    line-height: 10px;
+    margin-top: 20px;
+}
+.vereadoresDireita {
+    padding: 20px;
+    width: 30%;
+}
+.or-spacer span {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 100%;
+    margin-bottom: -25px;
+    left: 50%;
+    margin-left: -25px;
+    border-radius: 100%;
+  
+}
+.cardVereador {
+   
+}
+.vereadoresTodos {
+   
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cardVereador {
+    margin-top: 30px;
+    width: 40%;
+}
+.cardVereador img {
+    width: 100%;
+    border: red solid 2px;
+    border-radius: 50%;
+}
+.cardVereador div p {
+    text-align: center;
+    width: fit-content;
+    border-radius: 8px;
+    margin: -20px auto;
+    
+    line-height: 1em;
+    background-color:rgb(94, 133, 176);
+    color: white;
+    padding: 2px 5px;
+    padding-top: 20px;
+}
+.infoState {
+    margin: 20px auto;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    border: rgb(227, 227, 227) solid 1px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.199) 0px 2px 5px 0px;
+}
+.infoState button {
+    padding: 5px;
+    border: rgb(152, 152, 152) solid 1px;
+    box-shadow: rgba(0, 0, 0, 0.199) 0px 2px 5px 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.infoState span {
+    font-size: 8em;
+    color: rgb(108, 175, 8);
+}
+.cardInfoLegislativo {
+    margin: 10px auto;
+    background-color: white;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+    border: rgba(0, 0, 0, 0.223) solid 1px;  
+    border-radius: 8px;  
+}
+.cardInfoLegislativo li {
+    width: 100%;
+
+}
+
+@media (max-width: 567px) {
+    .faceVereadores {
+        display: block;
+    }
 }
