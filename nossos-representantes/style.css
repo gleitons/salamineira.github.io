@@ -5,7 +5,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body {
-    background-color: red;
+    background-color: rgb(197, 197, 197);
     padding: 10px;
 }
 
@@ -15,6 +15,7 @@ body {
     background-color: white;
 }
 .faceVereadores {
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
@@ -100,6 +101,9 @@ p {
     overflow: hidden;
     height: 20px;
 }
+.mask img {
+    width: 50px;
+}
 
 .or-spacer .mask:after {
     content: "";
@@ -121,6 +125,7 @@ p {
     border-radius: 50%;
     border: black solid 2px;
     transition: 200ms ease-in;
+    object-fit: cover;
 }
 .fotoPresident img:hover {
     transition: 200ms ease-out;
@@ -141,8 +146,13 @@ p {
     margin-top: 20px;
 }
 .vereadoresDireita {
-    padding: 20px;
+    padding: 50px;
     width: 30%;
+    height: 100vh;
+    overflow-y: auto;
+    position: fixed;
+    right: 40px;
+    background-color: white;
 }
 .or-spacer span {
     width: 50px;
@@ -168,11 +178,14 @@ p {
 .cardVereador {
     margin-top: 30px;
     width: 40%;
+    cursor: pointer;
 }
 .cardVereador img {
-    width: 100%;
+    width: 100px;
+    height: 100px;
     border: red solid 2px;
     border-radius: 50%;
+    object-fit: cover;
 }
 .cardVereador div p {
     text-align: center;
@@ -208,6 +221,10 @@ p {
     font-size: 8em;
     color: rgb(108, 175, 8);
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 .cardInfoLegislativo {
     margin: 10px auto;
     background-color: white;
@@ -226,5 +243,34 @@ p {
 @media (max-width: 567px) {
     .faceVereadores {
         display: block;
+    }
+    .esquerdoLateral {
+        width: 100%;
+    }
+    .vereadoresDireita {
+        /* height: 100vh; */
+        width: 100%;
+        overflow-y: none;
+        position: relative;
+        right: 0;
+    }
+}
+
+@media (max-width: 360px) {
+    .container {
+        width: 100%;
+    }
+    .faceVereadores {
+        display: block;
+    }
+    .esquerdoLateral {
+        width: 100%;
+    }
+    .vereadoresDireita {
+        /* height: 100vh; */
+        width: 100%;
+        overflow-y: none;
+        position: relative;
+        right: 0;
     }
 }
