@@ -165,9 +165,7 @@ p {
     border-radius: 100%;
   
 }
-.cardVereador {
-   
-}
+
 .vereadoresTodos {
    
     display: flex;
@@ -189,10 +187,9 @@ p {
 }
 .cardVereador div p {
     text-align: center;
-    width: fit-content;
+    width: 110px;
     border-radius: 8px;
-    margin: -20px auto;
-    
+    margin: -20px auto;    
     line-height: 1em;
     background-color:rgb(94, 133, 176);
     color: white;
@@ -272,5 +269,21 @@ a {
         overflow-y: none;
         position: relative;
         right: 0;
+    }
+    v.infoState {
+        margin: 20px auto;
+        display: flex;
+        padding: 5px;
+        /* justify-content: space-between; */
+        align-items: center;
+        border: rgb(227, 227, 227) solid 1px;
+        border-radius: 8px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.199) 0px 2px 5px 0px;
+    }
+    .infoState {
+        margin: 20px auto;
+        display: block;
+        text-align: center;
     }
 }

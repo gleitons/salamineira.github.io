@@ -9,31 +9,31 @@
   "fotomin": "./img/vandinho-min.png",
   "legislativo": [
     {
-      "datainicial": "22/03/2022",
-      "datafinal": "22/03/2023",
-      "posicao": "sub-secretario",
-      "informacao": "<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi sint facere non, quae totam assumenda soluta ex repellat nesciunt expedita fugit minus omnis veritatis vitae voluptate perferendis magni ea dolorum.</p>"
+      "datainicial": "--/--/----",
+      "datafinal": "--/--/----",
+      "posicao": "-----",
+      "informacao": "<p>----</p>"
     }
   ],
   "historia": "<p>HERCULES VANDY DURÃES DA FONSECA NOME COMPLETO 31/07/1967 DATA DE NASCIMENTO Masculino GÊNERO PARDA COR / RAÇA Casado(a) ESTADO CIVIL Brasileira nata / MG-LAGOA DOS PATOS NACIONALIDADE / NATURALIDADE Ensino Médio completo GRAU DE INSTRUÇÃO Produtor Agropecuário OCUPAÇÃO CORRENTE DO BEM COLIGAÇÃO SOLIDARIEDADE / CIDADANIA COMPOSIÇÃO DA COLIGAÇÃO</p>",
   "projetos": [
     {
-      "data": "13/04/2023",
-      "numero": "99",
-      "ano": "2023",
-      "nomeinfo": "informacoes",
-      "informacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-      "situacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-      "download": "https://googel.com"
+      "data": "--/--/----",
+      "numero": "--",
+      "ano": "----",
+      "nomeinfo": "Informações",
+      "informacao": "---------------- --",
+      "situacao": "---------------- --",
+      "download": "https://gleiton.com.br"
     },
     {
-      "data": "10/03/2023",
-      "numero": "103",
-      "ano": "2023",
-      "nomeinfo": "informacoes",
-      "informacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-      "situacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-      "download": "https://googel.com"
+      "data": "--/--/----",
+      "numero": "---",
+      "ano": "----",
+      "nomeinfo": "Informações",
+      "informacao": "---------------- ---",
+      "situacao": "---------------- ---",
+      "download": "https://gleiton.com.br"
     }
   ]
 },
@@ -48,31 +48,31 @@
   "fotomin": "./img/junior-da-farmacia-min.png",
   "legislativo": [
     {
-      "datainicial": "22/03/2022",
-      "datafinal": "22/03/2023",
-      "posicao": "sub-secretario",
-      "informacao": "<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi sint facere non, quae totam assumenda soluta ex repellat nesciunt expedita fugit minus omnis veritatis vitae voluptate perferendis magni ea dolorum.</p>"
+      "datainicial": "--/--/----",
+      "datafinal": "--/--/----",
+      "posicao": "-----",
+      "informacao": "<p>----</p>"
     }
   ],
   "historia": "<p>JOÃO PEDRO ELEUTERIO DO COUTO JUNIOR NOME COMPLETO 30/06/1983 DATA DE NASCIMENTO Masculino GÊNERO PARDA COR / RAÇA Casado(a) ESTADO CIVIL Brasileira nata / MG-MONTES CLAROS NACIONALIDADE / NATURALIDADE Superior completo GRAU DE INSTRUÇÃO Empresário OCUPAÇÃO CORRENTE DO BEM COLIGAÇÃO SOLIDARIEDADE / CIDADANIA COMPOSIÇÃO DA COLIGAÇÃO</p>",
   "projetos": [
     {
-      "data": "13/04/2023",
-      "numero": "99",
-      "ano": "2023",
-      "nomeinfo": "informacoes",
-      "informacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-      "situacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-      "download": "https://googel.com"
+      "data": "--/--/----",
+      "numero": "--",
+      "ano": "----",
+      "nomeinfo": "Informações",
+      "informacao": "---------------- --",
+      "situacao": "---------------- --",
+      "download": "https://gleiton.com.br"
     },
     {
-      "data": "10/03/2023",
-      "numero": "103",
-      "ano": "2023",
-      "nomeinfo": "informacoes",
-      "informacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-      "situacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-      "download": "https://googel.com"
+      "data": "--/--/----",
+      "numero": "---",
+      "ano": "----",
+      "nomeinfo": "Informações",
+      "informacao": "---------------- ---",
+      "situacao": "---------------- ---",
+      "download": "https://gleiton.com.br"
     }
   ]
 },
@@ -86,8 +86,8 @@
     "fotomin": "https://divulgacandcontas.tse.jus.br/candidaturas/oficial/2020/MG/47457/426/candidatos/754840/foto.jpg",
     "legislativo": [
       {
-        "datainicial": "22/03/2022",
-        "datafinal": "22/03/2023",
+        "datainicial": "--/--/----",
+        "datafinal": "--/--/----",
         "posicao": "Função",
         "informacao": "<p>...</p>"
       }
@@ -95,37 +95,37 @@
     "historia": "<p>...</p>",
     "projetos": [
       {
-        "data": "13/04/2023",
-        "numero": "99",
-        "ano": "2023",
-        "nomeinfo": "informacoes",
-        "informacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-        "situacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-        "download": "https://googel.com"
+        "data": "--/--/----",
+        "numero": "--",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- --",
+        "situacao": "---------------- --",
+        "download": "https://gleiton.com.br"
       },
       {
-        "data": "10/03/2023",
-        "numero": "103",
-        "ano": "2023",
-        "nomeinfo": "informacoes",
-        "informacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-        "situacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-        "download": "https://googel.com"
+        "data": "--/--/----",
+        "numero": "---",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- ---",
+        "situacao": "---------------- ---",
+        "download": "https://gleiton.com.br"
       }
     ]
   },
   {
     "nome": "GUILHERME BARBOSA DA SILVA",
     "genero": "m",
-    "nascimento": "29/03/1993",
+    "nascimento": "29/03/1--3",
     "nomeurna": "GUILA BARBOSA",
     "posicao": "vereador",
     "foto": "https://divulgacandcontas.tse.jus.br/candidaturas/oficial/2020/MG/47457/426/candidatos/764934/foto.jpg",
     "fotomin": "https://divulgacandcontas.tse.jus.br/candidaturas/oficial/2020/MG/47457/426/candidatos/764934/foto.jpg",
     "legislativo": [
       {
-        "datainicial": "22/03/2022",
-        "datafinal": "22/03/2023",
+        "datainicial": "--/--/----",
+        "datafinal": "--/--/----",
         "posicao": "Função",
         "informacao": "<p>...</p>"
       }
@@ -133,22 +133,22 @@
     "historia": "<p>...</p>",
     "projetos": [
       {
-        "data": "13/04/2023",
-        "numero": "99",
-        "ano": "2023",
-        "nomeinfo": "informacoes",
-        "informacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-        "situacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-        "download": "https://googel.com"
+        "data": "--/--/----",
+        "numero": "--",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- --",
+        "situacao": "---------------- --",
+        "download": "https://gleiton.com.br"
       },
       {
-        "data": "10/03/2023",
-        "numero": "103",
-        "ano": "2023",
-        "nomeinfo": "informacoes",
-        "informacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-        "situacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-        "download": "https://googel.com"
+        "data": "--/--/----",
+        "numero": "---",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- ---",
+        "situacao": "---------------- ---",
+        "download": "https://gleiton.com.br"
       }
     ]
   },
@@ -162,31 +162,31 @@
     "fotomin": "https://divulgacandcontas.tse.jus.br/candidaturas/oficial/2020/MG/47457/426/candidatos/789522/foto.jpg",
     "legislativo": [
       {
-        "datainicial": "22/03/2022",
-        "datafinal": "22/03/2023",
-        "posicao": "sub-secretario",
+        "datainicial": "--/--/----",
+        "datafinal": "--/--/----",
+        "posicao": "-----",
         "informacao": "<p>...</p>"
       }
     ],
     "historia": "<p>...</p>",
     "projetos": [
       {
-        "data": "13/04/2023",
-        "numero": "99",
-        "ano": "2023",
-        "nomeinfo": "informacoes",
-        "informacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-        "situacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-        "download": "https://googel.com"
+        "data": "--/--/----",
+        "numero": "--",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- --",
+        "situacao": "---------------- --",
+        "download": "https://gleiton.com.br"
       },
       {
-        "data": "10/03/2023",
-        "numero": "103",
-        "ano": "2023",
-        "nomeinfo": "informacoes",
-        "informacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-        "situacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-        "download": "https://googel.com"
+        "data": "--/--/----",
+        "numero": "---",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- ---",
+        "situacao": "---------------- ---",
+        "download": "https://gleiton.com.br"
       }
     ]
   },
@@ -200,31 +200,31 @@
     "fotomin": "./img/jesus-de-miguel-min.png",
     "legislativo": [
       {
-        "datainicial": "22/03/2022",
-        "datafinal": "22/03/2023",
-        "posicao": "sub-secretario",
+        "datainicial": "--/--/----",
+        "datafinal": "--/--/----",
+        "posicao": "-----",
         "informacao": "<p>...</p>"
       }
     ],
     "historia": "<p>TEREZA DE JESUS FONSECA BRAGA NOME COMPLETO 22/10/1957 DATA DE NASCIMENTO Feminino GÊNERO BRANCA COR / RAÇA Casado(a) ESTADO CIVIL Brasileira nata / MG-LAGOA DOS PATOS NACIONALIDADE / NATURALIDADE Ensino Médio completo GRAU DE INSTRUÇÃO Professor de Ensino Médio OCUPAÇÃO AVANTE PARTIDO ISOLADO Não se aplica COMPOSIÇÃO DA COLIGAÇÃO</p>",
     "projetos": [
       {
-        "data": "13/04/2023",
-        "numero": "99",
-        "ano": "2023",
-        "nomeinfo": "informacoes",
-        "informacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-        "situacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-        "download": "https://googel.com"
+        "data": "--/--/----",
+        "numero": "--",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- --",
+        "situacao": "---------------- --",
+        "download": "https://gleiton.com.br"
       },
       {
-        "data": "10/03/2023",
-        "numero": "103",
-        "ano": "2023",
-        "nomeinfo": "informacoes",
-        "informacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-        "situacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-        "download": "https://googel.com"
+        "data": "--/--/----",
+        "numero": "---",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- ---",
+        "situacao": "---------------- ---",
+        "download": "https://gleiton.com.br"
       }
     ]
   },
@@ -238,31 +238,31 @@
     "fotomin": "./img/nazare-min.png",
     "legislativo": [
       {
-        "datainicial": "22/03/2022",
-        "datafinal": "22/03/2023",
-        "posicao": "sub-secretario",
+        "datainicial": "--/--/----",
+        "datafinal": "--/--/----",
+        "posicao": "-----",
         "informacao": "<p>...</p>"
       }
     ],
     "historia": "<p>...</p>",
     "projetos": [
       {
-        "data": "13/04/2023",
-        "numero": "99",
-        "ano": "2023",
-        "nomeinfo": "informacoes",
-        "informacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-        "situacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-        "download": "https://googel.com"
+        "data": "--/--/----",
+        "numero": "--",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- --",
+        "situacao": "---------------- --",
+        "download": "https://gleiton.com.br"
       },
       {
-        "data": "10/03/2023",
-        "numero": "103",
-        "ano": "2023",
-        "nomeinfo": "informacoes",
-        "informacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-        "situacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-        "download": "https://googel.com"
+        "data": "--/--/----",
+        "numero": "---",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- ---",
+        "situacao": "---------------- ---",
+        "download": "https://gleiton.com.br"
       }
     ]
   },
@@ -277,31 +277,49 @@
     "fotomin": "./img/luiz-carlos-min.png",
     "legislativo": [
       {
-        "datainicial": "22/03/2022",
-        "datafinal": "22/03/2023",
-        "posicao": "sub-secretario",
-        "informacao": "<p>...</p>"
-      }
-    ],
-    "historia": "<p>JOSE SOARES DOS SANTOS JÚNIOR NOME COMPLETO 15/01/1970 DATA DE NASCIMENTO Masculino GÊNERO PARDA COR / RAÇA Casado(a) ESTADO CIVIL Brasileira nata / MG-LAGOA DOS PATOS NACIONALIDADE / NATURALIDADE Ensino Médio completo GRAU DE INSTRUÇÃO Policial Militar OCUPAÇÃO CIDADANIA PARTIDO ISOLADO Não se aplica COMPOSIÇÃO DA COLIGAÇÃO</p>",
-    "projetos": [
-      {
-        "data": "13/04/2023",
-        "numero": "99",
-        "ano": "2023",
-        "nomeinfo": "informacoes",
-        "informacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-        "situacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-        "download": "https://googel.com"
+        "datainicial": "01/01/2004",
+        "datafinal": "31/12/2007",
+        "posicao": "Vereador",
+        "informacao": "<p>Vereador Municipal</p>"
       },
       {
-        "data": "10/03/2023",
-        "numero": "103",
-        "ano": "2023",
-        "nomeinfo": "informacoes",
-        "informacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-        "situacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-        "download": "https://googel.com"
+        "datainicial": "01/01/2008",
+        "datafinal": "31/12/2011",
+        "posicao": "Vereador",
+        "informacao": "<p>Vereador Municipal</p>"
+      },
+      {
+        "datainicial": "01/01/2016",
+        "datafinal": "31/12/2020",
+        "posicao": "Vereador",
+        "informacao": "<p>Vereador Municipal</p>"
+      },
+      {
+        "datainicial": "01/01/2021",
+        "datafinal": "31/12/2024",
+        "posicao": "Vereador",
+        "informacao": "<p>Vereador Municipal</p>"
+      }
+    ],
+    "historia": "<p>---</p>",
+    "projetos": [
+      {
+        "data": "--/--/----",
+        "numero": "--",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- --",
+        "situacao": "---------------- --",
+        "download": "https://gleiton.com.br"
+      },
+      {
+        "data": "--/--/----",
+        "numero": "---",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- ---",
+        "situacao": "---------------- ---",
+        "download": "https://gleiton.com.br"
       }
     ]
   },
@@ -316,31 +334,31 @@
     "fotomin": "./img/sargento-junior-min.png",
     "legislativo": [
       {
-        "datainicial": "22/03/2022",
-        "datafinal": "22/03/2023",
-        "posicao": "sub-secretario",
+        "datainicial": "--/--/----",
+        "datafinal": "--/--/----",
+        "posicao": "-----",
         "informacao": "<p>...</p>"
       }
     ],
     "historia": "<p>JOSE SOARES DOS SANTOS JÚNIOR NOME COMPLETO 15/01/1970 DATA DE NASCIMENTO Masculino GÊNERO PARDA COR / RAÇA Casado(a) ESTADO CIVIL Brasileira nata / MG-LAGOA DOS PATOS NACIONALIDADE / NATURALIDADE Ensino Médio completo GRAU DE INSTRUÇÃO Policial Militar OCUPAÇÃO CIDADANIA PARTIDO ISOLADO Não se aplica COMPOSIÇÃO DA COLIGAÇÃO</p>",
     "projetos": [
       {
-        "data": "13/04/2023",
-        "numero": "99",
-        "ano": "2023",
-        "nomeinfo": "informacoes",
-        "informacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-        "situacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-        "download": "https://googel.com"
+        "data": "--/--/----",
+        "numero": "--",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- --",
+        "situacao": "---------------- --",
+        "download": "https://gleiton.com.br"
       },
       {
-        "data": "10/03/2023",
-        "numero": "103",
-        "ano": "2023",
-        "nomeinfo": "informacoes",
-        "informacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-        "situacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-        "download": "https://googel.com"
+        "data": "--/--/----",
+        "numero": "---",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- ---",
+        "situacao": "---------------- ---",
+        "download": "https://gleiton.com.br"
       }
     ]
   },
@@ -354,31 +372,31 @@
     "fotomin": "./img/ze-maria-de-birro-min.png",
     "legislativo": [
       {
-        "datainicial": "22/03/2022",
-        "datafinal": "22/03/2023",
-        "posicao": "sub-secretario",
+        "datainicial": "--/--/----",
+        "datafinal": "--/--/----",
+        "posicao": "-----",
         "informacao": "<p>JOSE MARIA NASCIMENTO NETO NOME COMPLETO 25/12/1983 DATA DE NASCIMENTO Masculino GÊNERO PARDA COR / RAÇA Casado(a) ESTADO CIVIL Brasileira nata / MG-LAGOA DOS PATOS NACIONALIDADE / NATURALIDADE Ensino Fundamental completo GRAU DE INSTRUÇÃO Produtor Agropecuário OCUPAÇÃO SOLIDARIEDADE PARTIDO ISOLADO Não se aplica COMPOSIÇÃO DA COLIGAÇÃO</p>"
       }
     ],
     "historia": "<p>JOSE MARIA NASCIMENTO NETO NOME COMPLETO 25/12/1983 DATA DE NASCIMENTO Masculino GÊNERO PARDA COR / RAÇA Casado(a) ESTADO CIVIL Brasileira nata / MG-LAGOA DOS PATOS NACIONALIDADE / NATURALIDADE Ensino Fundamental completo GRAU DE INSTRUÇÃO Produtor Agropecuário OCUPAÇÃO SOLIDARIEDADE PARTIDO ISOLADO Não se aplica COMPOSIÇÃO DA COLIGAÇÃO</p>",
     "projetos": [
       {
-        "data": "13/04/2023",
-        "numero": "99",
-        "ano": "2023",
-        "nomeinfo": "informacoes",
-        "informacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-        "situacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-        "download": "https://googel.com"
+        "data": "--/--/----",
+        "numero": "--",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- --",
+        "situacao": "---------------- --",
+        "download": "https://gleiton.com.br"
       },
       {
-        "data": "10/03/2023",
-        "numero": "103",
-        "ano": "2023",
-        "nomeinfo": "informacoes",
-        "informacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-        "situacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-        "download": "https://googel.com"
+        "data": "--/--/----",
+        "numero": "---",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- ---",
+        "situacao": "---------------- ---",
+        "download": "https://gleiton.com.br"
       }
     ]
   },
@@ -395,31 +413,31 @@
     "fotomin": "./img/aldo-boca-min.png",
     "legislativo": [
       {
-        "datainicial": "22/03/2022",
-        "datafinal": "22/03/2023",
-        "posicao": "sub-secretario",
-        "informacao": "<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi sint facere non, quae totam assumenda soluta ex repellat nesciunt expedita fugit minus omnis veritatis vitae voluptate perferendis magni ea dolorum.</p>"
+        "datainicial": "--/--/----",
+        "datafinal": "--/--/----",
+        "posicao": "-----",
+        "informacao": "<p>----</p>"
       }
     ],
     "historia": "<p>ALDO SEBASTIÃO ROSA DE FARIA NOME COMPLETO 21/03/1989 DATA DE NASCIMENTO Masculino GÊNERO PARDA COR / RAÇA Casado(a) ESTADO CIVIL Brasileira nata / MG-LAGOA DOS PATOS NACIONALIDADE / NATURALIDADE Ensino Médio completo GRAU DE INSTRUÇÃO Outros OCUPAÇÃO AVANTE PARTIDO ISOLADO Não se aplica COMPOSIÇÃO DA COLIGAÇÃO</p>",
     "projetos": [
       {
-        "data": "13/04/2023",
-        "numero": "99",
-        "ano": "2023",
-        "nomeinfo": "informacoes",
-        "informacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-        "situacao": "projeto identificado para receber informações de mais de um produto, projeto 99",
-        "download": "https://googel.com"
+        "data": "--/--/----",
+        "numero": "--",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- --",
+        "situacao": "---------------- --",
+        "download": "https://gleiton.com.br"
       },
       {
-        "data": "10/03/2023",
-        "numero": "103",
-        "ano": "2023",
-        "nomeinfo": "informacoes",
-        "informacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-        "situacao": "projeto identificado para receber informações de mais de um produto, projeto 103",
-        "download": "https://googel.com"
+        "data": "--/--/----",
+        "numero": "---",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- ---",
+        "situacao": "---------------- ---",
+        "download": "https://gleiton.com.br"
       }
     ]
   }

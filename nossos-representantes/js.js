@@ -22,6 +22,7 @@ async function carregaParlamentar(numb) {
     const projetosPoliticos = document.querySelector('#projetosPoliticos')
     infoNoLegislativo.innerHTML = ''
     projetosPoliticos.innerHTML = ''
+    historiaRepresentante.textContent = `HISTÓRIA DE ${data[numb].nome.toUpperCase()} `
 
     
 
@@ -161,3 +162,12 @@ const todosParlamentaresOn = async () => {
 
 todosVereadoresOn()
 todosParlamentaresOn()
+
+
+function geraRepre() {
+    const numeroA = Math.floor(Math.random()*11)
+    console.log(numeroA)
+
+    carregaParlamentar(numeroA)
+}
+geraRepre()
