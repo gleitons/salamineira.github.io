@@ -60,6 +60,7 @@ function MenuPrincipal() {
                         <a href="/"><li>Inicio</li></a>
                         <a href="/nota-fiscal"><li>nf-e</li></a>
                         <a href="/empresas-lagoa-dos-patos-mg.html"><li>Empresas</li></a>
+                        <a href="/gabinete-virtual"><li>Gabinete Virtual</li></a>
                         <a href="/arquivos"><li>Arquivos</li></a>
                         <a href="/falecimentos-lagoa-dos-patos-mg.html"><li>Óbitos</li></a>
                         <a href="/noticias/index.html"><li>Notícias</li></a>

@@ -52,15 +52,31 @@ async function carregaParlamentar(numb) {
         
     }
 
+    if(data[numb].genero != 'f'){
+        var conhecido = 'conhecido'
+    } else {
+        var conhecido = 'conhecida'
+    }
+    
+   
+    const idade = calcularIdade(data[numb].nascimento) 
     
 
-    dadosDoVereador.innerHTML = `${data[numb].historia}`
-
-
-
-
+    dadosDoVereador.innerHTML = `<strong>${data[numb].nome}</strong> ${conhecido} como <strong>${data[numb].nomeurna}</strong>, tem ${idade} anos, ${data[numb].posicao} de Lagoa dos Patos - MG. Sua história começa ...`
     
 }
+
+function calcularIdade(aniversario) {
+    var nascimento = aniversario.split("/");
+    var dataNascimento = new Date(parseInt(nascimento[2], 10),
+                  parseInt(nascimento[1], 10) - 1,
+                  parseInt(nascimento[0], 10));
+
+    var diferenca = Date.now() -  dataNascimento.getTime();
+    var idade = new Date(diferenca); // miliseconds from epoch
+    return Math.abs(idade.getUTCFullYear() - 1970);
+}
+
 
 //carregaParlamentar(0)
 
@@ -171,3 +187,18 @@ function geraRepre() {
     carregaParlamentar(numeroA)
 }
 geraRepre()
+
+
+async function geraTamb() {
+    const response = await fetch('./parlamentares');
+    const data = await response.json();
+    const repre = document.querySelector('.repre')
+
+    data.map((foto) => {
+        repre.innerHTML += `<img src="${foto.foto}" alt="">`
+    })
+    
+    
+}
+
+geraTamb()

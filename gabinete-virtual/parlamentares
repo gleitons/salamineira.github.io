@@ -117,7 +117,7 @@
   {
     "nome": "GUILHERME BARBOSA DA SILVA",
     "genero": "m",
-    "nascimento": "29/03/1--3",
+    "nascimento": "29/03/1993",
     "nomeurna": "GUILA BARBOSA",
     "posicao": "vereador",
     "foto": "https://divulgacandcontas.tse.jus.br/candidaturas/oficial/2020/MG/47457/426/candidatos/764934/foto.jpg",
@@ -273,8 +273,8 @@
     "nascimento": "18/01/1975",
     "nomeurna": "LUIZ CARLOS",
     "posicao": "vereador",
-    "foto": "https://www.salamineira.com/pessoas/luiz-carlos-2020-max.png",
-    "fotomin": "./img/luiz-carlos-min.png",
+    "foto": "https://divulgacandcontas.tse.jus.br/candidaturas/oficial/2020/MG/47457/426/candidatos/765182/foto.jpg",
+    "fotomin": "https://divulgacandcontas.tse.jus.br/candidaturas/oficial/2020/MG/47457/426/candidatos/765182/foto.jpg",
     "legislativo": [
       {
         "datainicial": "01/01/2004",
@@ -368,8 +368,8 @@
     "nascimento": "25/12/1983",
     "nomeurna": "ZÉ MARIA DE BIRRO",
     "posicao": "vereador",
-    "foto": "https://www.salamineira.com/pessoas/ze-maria-de-birro-2020-max.png",
-    "fotomin": "./img/ze-maria-de-birro-min.png",
+    "foto": "https://divulgacandcontas.tse.jus.br/candidaturas/oficial/2020/MG/47457/426/candidatos/765120/foto.jpg",
+    "fotomin": "https://divulgacandcontas.tse.jus.br/candidaturas/oficial/2020/MG/47457/426/candidatos/765120/foto.jpg",
     "legislativo": [
       {
         "datainicial": "--/--/----",
