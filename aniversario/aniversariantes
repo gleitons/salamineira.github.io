@@ -472,7 +472,7 @@
   {
     "matricula": "2241",
     "nome": "ZILDENE APARECIDA ALVES CAETANO",
-    "genero": "m",
+    "genero": "f",
     "endereco": "CORONEL ARISTIDES BATISTA ",
     "numero": "241",
     "bairro": "CENTRO",
@@ -582,7 +582,7 @@
   {
     "matricula": "153",
     "nome": "LAURENE IARA FERREIRA",
-    "genero": "m",
+    "genero": "f",
     "endereco": "R DR JK OLIVEIRA ",
     "numero": "206",
     "bairro": "CENTRO",
@@ -673,10 +673,10 @@
     "matricula": "120",
     "nome": "MARIA AGNESIA FERNANDES SOARES",
     "genero": "f",
-    "endereco": "\"R FERNAO DIAS",
-    "numero": "",
-    "bairro": " 85 85\"",
-    "nascimento": "CENTRO",
+    "endereco": " FERNAO DIAS",
+    "numero": "85",
+    "bairro": "centro",
+    "nascimento": "03/05/1971",
     "admissao": "03/05/1971"
   },
   {
@@ -712,7 +712,7 @@
   {
     "matricula": "505",
     "nome": "SILVENY ALVES DOS SANTOS",
-    "genero": "m",
+    "genero": "f",
     "endereco": "CORONEL ARISTIDES BATISTA ",
     "numero": "52",
     "bairro": "CENTRO",
@@ -722,7 +722,7 @@
   {
     "matricula": "2198",
     "nome": "SHAENE CRISTINE NEVES DOS SANTOS",
-    "genero": "m",
+    "genero": "f",
     "endereco": "SEVERO CARDOSO ",
     "numero": "222",
     "bairro": "CENTRO",
@@ -792,7 +792,7 @@
   {
     "matricula": "1699",
     "nome": "MARLENE ALVES MARCAL",
-    "genero": "m",
+    "genero": "f",
     "endereco": "SAO JOSE ",
     "numero": "180",
     "bairro": "CENTRO",
@@ -842,7 +842,7 @@
   {
     "matricula": "2206",
     "nome": "EMANUELLE AGUIAR RABELO",
-    "genero": "m",
+    "genero": "f",
     "endereco": "ALTO BIZORRETE  CASA",
     "numero": "425",
     "bairro": "CENTRO",
@@ -852,7 +852,7 @@
   {
     "matricula": "2224",
     "nome": "EMANUELLE DARDANY MAGALHAES FARNESE",
-    "genero": "m",
+    "genero": "f",
     "endereco": "SÃO JOSE ",
     "numero": "3",
     "bairro": "CENTRO",
@@ -1023,10 +1023,10 @@
     "matricula": "1710",
     "nome": "CLAUDINEI FERNANDES PEREIRA",
     "genero": "m",
-    "endereco": "\"DONA DUXA",
-    "numero": "",
-    "bairro": " 232\"",
-    "nascimento": "CENTRO",
+    "endereco": "DONA DUXA",
+    "numero": "232",
+    "bairro": " CENTRO",
+    "nascimento": "11/06/1992",
     "admissao": "11/06/1992"
   },
   {
@@ -1163,10 +1163,10 @@
     "matricula": "1756",
     "nome": "JHESSYK DAIENY REIS BRITO",
     "genero": "m",
-    "endereco": "\"ALTO BIZORRETE",
+    "endereco": "ALTO BIZORRETE",
     "numero": "",
-    "bairro": " 385\"",
-    "nascimento": "CENTRO",
+    "bairro": " VILA BRANCA",
+    "nascimento": "05/07/1991",
     "admissao": "05/07/1991"
   },
   {
@@ -2472,7 +2472,7 @@
   {
     "matricula": "1767",
     "nome": "ELIANE APARECIDA TEIXEIRA SILVA",
-    "genero": "m",
+    "genero": "f",
     "endereco": "JOANA DARC ",
     "numero": "94",
     "bairro": "CENTRO",
@@ -2532,7 +2532,7 @@
   {
     "matricula": "2222",
     "nome": "ELIANE APARECIDA CARNEIRO DE JESUS",
-    "genero": "m",
+    "genero": "f",
     "endereco": "AV:PRESIDENTE MEDICI ",
     "numero": "326",
     "bairro": "CENTRO",
@@ -2542,7 +2542,7 @@
   {
     "matricula": "1770",
     "nome": "IVONE ALVES FERNANDES",
-    "genero": "m",
+    "genero": "f",
     "endereco": "SÃO JOSE ",
     "numero": "287",
     "bairro": "CENTRO",
@@ -2562,7 +2562,7 @@
   {
     "matricula": "1816",
     "nome": "JOSIELE DOS REIS OLIVEIRA",
-    "genero": "m",
+    "genero": "f",
     "endereco": "PRAÇA DA MATRIZ ",
     "numero": "11",
     "bairro": "COMUNIDADE COCAL",
@@ -2612,7 +2612,7 @@
   {
     "matricula": "225",
     "nome": "MIRIAN BRAGA SIQUEIRA",
-    "genero": "m",
+    "genero": "f",
     "endereco": "R SANTO ANTONIO ",
     "numero": "232",
     "bairro": "CENTRO",
@@ -2622,7 +2622,7 @@
   {
     "matricula": "613",
     "nome": "ROZIMAR APARECIDA RABELO DA FONSECA",
-    "genero": "m",
+    "genero": "f",
     "endereco": "R ITATIAIA ",
     "numero": "118",
     "bairro": "CENTRO",
@@ -2632,7 +2632,7 @@
   {
     "matricula": "256",
     "nome": "ZENAIDE APARECIDA PEREIRA XAVIER",
-    "genero": "m",
+    "genero": "f",
     "endereco": "PRESIDENTE MEDICE  CS",
     "numero": "718",
     "bairro": "CIDADE NOVA",
@@ -2642,7 +2642,7 @@
   {
     "matricula": "2094",
     "nome": "EUDIRENE APARECIDA PEREIRA ALVES",
-    "genero": "m",
+    "genero": "f",
     "endereco": "ALTO BIZORRETE ",
     "numero": "54",
     "bairro": "VILA BRANCA",
@@ -2703,10 +2703,10 @@
     "matricula": "31",
     "nome": "GERALDO BARBOSA REIS",
     "genero": "m",
-    "endereco": "\"FRANCELINO RIBEIRO",
-    "numero": "",
-    "bairro": " 273\"",
-    "nascimento": "CENTRO",
+    "endereco": "FRANCELINO RIBEIRO",
+    "numero": "273",
+    "bairro": "CENTRO",
+    "nascimento": "05/12/1957",
     "admissao": "05/12/1957"
   },
   {
