@@ -176,6 +176,27 @@ p {
   background-color: aliceblue;
   padding: 20px;
 }
+.inTime {
+  font-size: 3em;
+}
+.btnServidor {
+  padding: 5px;
+  cursor: pointer;
+}
+.dnone {
+  display: none;
+}
+.idade {
+  width: fit-content;
+  padding: 10px;
+  background-color: white;
+  box-shadow: black 0px 1px 5px 0px;
+  border-radius: 8px;
+  
+}
+.idade li {
+  list-style: none;
+}
 .fotoPresident img {
   height: 100px;
   width: 100px;
