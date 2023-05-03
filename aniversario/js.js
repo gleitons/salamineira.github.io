@@ -117,6 +117,10 @@ var ate60anosArray = []
 var ate70anosArray = []
 var ate80anosArray = []
 
+var servidorVelho = []
+var servidorNovo = []
+
+
 const todosParlamentaresOn = async () => {
     const response = await fetch('./aniversariantes');
     const data = await response.json();
@@ -149,8 +153,9 @@ const todosParlamentaresOn = async () => {
             var sexo = './img/niver-h.jpg'
         }
 
-
-        if (dataMEs == dataHoje()[2]) {
+              
+        if (dataMEs == dataHoje()[4]) {
+            
             aniversarioHoje.innerHTML += `
              <div class="imgFundoLagoa">
                                 <div class="fotoVereador">
@@ -160,7 +165,8 @@ const todosParlamentaresOn = async () => {
                                 <h3>${aniversario.nascimento}</h3>
                                 <h3>${idade} anos</h3>
                             </div>`
-
+                           
+            ninguemFaz.innerHTML = ''
            
         } 
         const niverS = aniversario.nascimento.split('/')
@@ -198,10 +204,12 @@ const todosParlamentaresOn = async () => {
         
 
         if (mesNiverTrabalho == dataHoje()[4]) {                                       
-            aniversarioT.innerHTML = `<div class="imgFundoTrabalho">                           
-                            <h2>${aniversario.nome}</h2>                           
-                            <h3><span class="inTime"><strong>${idadeAdmissao}</strong></span> anos <br> fazendo seu melhor!!</h3>
-                            <h3>PARABÉNS POR MAIS UM ANO COLABORANDO</h3>
+            aniversarioT.innerHTML += `<div class="imgFundoTrabalho">                           
+                            <div class="vitro">
+                                <h2>${aniversario.nome}</h2>
+                                <h3><span class="inTime"><strong>${idadeAdmissao}</strong></span> anos <br> fazendo seu melhor!!</h3>
+                                <h3>PARABÉNS POR MAIS UM ANO COLABORANDO</h3>
+                            </div>
                         </div>`
         }
         if (aniversario.genero == 'm') {
@@ -245,11 +253,14 @@ const todosParlamentaresOn = async () => {
             const nome80anos = `<p>${aniversario.nome} - ${idade} anos</p>`
             ate80anosArray.push(nome80anos)
         }
+
+        const totServidores = parseInt(homens) + parseInt(mulheres)
        
 
         infoNoLegislativo.innerHTML = `
         ${homens}: Servidores </br> 
         ${mulheres}: Servidoras </br> 
+        Total de ${totServidores} Servidores </br> 
         * Em Atualização <br>
         >>Informações Interessantes: <br>
         <br>
@@ -343,7 +354,12 @@ const todosParlamentaresOn = async () => {
        
 
     })
+     
 }
+function removeLoad() {
+    carregandoL.remove();
+}
+setTimeout('removeLoad()', 5000)
 
 function dataHoje() {
     const data = new Date();
@@ -412,9 +428,6 @@ function verServidores(numb) {
     var btnServidor60 = document.querySelector('#btn60')
     var btnServidor70 = document.querySelector('#btn70')
     var btnServidor80 = document.querySelector('#btn80')
-    
-    
-
     if(numb == 0){
         btnServidor20.classList.toggle('dnone')
     } else  if(numb == 1){
@@ -430,8 +443,5 @@ function verServidores(numb) {
     }else {
         btnServidor80.classList.toggle('dnone')
     }
-
-    
-
     
 }

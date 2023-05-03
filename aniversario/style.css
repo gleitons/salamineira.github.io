@@ -10,6 +10,23 @@ body {
   padding: 10px;
 }
 
+.loadCarregando {
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: absolute;
+  z-index: 2;
+}
+.carregandoInterno {
+  text-align: center;
+  color: white;
+}
+
 .container {
   width: 90%;
   margin: auto;
@@ -65,37 +82,46 @@ body {
   width: 800px;
   height: 450px;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 10%;
   padding-bottom: 5%;
 }
 .imgFundoTrabalho h2 {
   margin: auto;
- 
   color: rgb(28, 28, 28);
   width: fit-content;
-  padding-top: 40px;
 }
 .imgFundoTrabalho h3 {
   margin: auto;
-  background-color: rgb(255, 255, 255);
   color: rgb(28, 28, 28);
   width: fit-content;
   padding: 2px;
   font-weight: 500;
   margin-top: 5px;
 }
+.vitro {
+  margin-top: 10%;
+  padding: 10px;
+  width: fit-content;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
 /****/
 .repre {
-    width: 400px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px auto;
+  width: 400px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px auto;
 }
 .repre img {
-    width: 95px;
-    height: 95px;
-    object-fit: cover;
-    filter: saturate(0);
+  width: 95px;
+  height: 95px;
+  object-fit: cover;
+  filter: saturate(0);
 }
 .imgFundoLagoa h2 {
   margin: auto;
@@ -192,7 +218,6 @@ p {
   background-color: white;
   box-shadow: black 0px 1px 5px 0px;
   border-radius: 8px;
-  
 }
 .idade li {
   list-style: none;
@@ -327,10 +352,8 @@ a {
     right: 0;
   }
   .imgFundoTrabalho {
-   
     width: 100%;
     height: 450px;
-    
   }
 }
 

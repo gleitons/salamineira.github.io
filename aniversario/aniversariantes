@@ -677,7 +677,7 @@
     "numero": "85",
     "bairro": "centro",
     "nascimento": "03/05/1971",
-    "admissao": "03/05/1971"
+    "admissao": "01/03/2002"
   },
   {
     "matricula": "290",
@@ -2838,5 +2838,465 @@
     "bairro": "CENTRO",
     "nascimento": "23/12/1965",
     "admissao": "01/02/2005"
+  },
+  {
+    "matricula": "2262",
+    "nome": "LUCIANO NERES RODRIGUES",
+    "genero": "m",
+    "endereco": "CONSOLAÇÃO  CS",
+    "numero": "0",
+    "bairro": "MONTE ALEGRE",
+    "nascimento": "08/02/1977",
+    "admissao": "01/12/2022"
+  },
+  {
+    "matricula": "313",
+    "nome": "JANAI PEREIRA DE ASSIS",
+    "genero": "m",
+    "endereco": "R ITATIAIA ",
+    "numero": "77",
+    "bairro": "CENTRO",
+    "nascimento": "06/02/1975",
+    "admissao": "01/09/2003"
+  },
+  {
+    "matricula": "1663",
+    "nome": "SEBASTIAO CLAUDIO REIS",
+    "genero": "m",
+    "endereco": "FLORIANO PEIXOTO ",
+    "numero": "63",
+    "bairro": "CENTRO",
+    "nascimento": "02/02/1976",
+    "admissao": "17/02/2016"
+  },
+  {
+    "matricula": "440",
+    "nome": "ARTIMINIA MARIA BRAGA DA FONSECA",
+    "genero": "f",
+    "endereco": "R SETE DE SETEMBRO ",
+    "numero": "364",
+    "bairro": "CENTRO",
+    "nascimento": "21/02/1982",
+    "admissao": "16/02/2005"
+  },
+  {
+    "matricula": "2062",
+    "nome": "BETANIA DE JESUS SILVA",
+    "genero": "f",
+    "endereco": "B  CS",
+    "numero": "40",
+    "bairro": "VILA BRANCA",
+    "nascimento": "16/02/1994",
+    "admissao": "06/05/2019"
+  },
+  {
+    "matricula": "2089",
+    "nome": "JOSE DE ARAUJO SANTOS JUNIOR",
+    "genero": "m",
+    "endereco": "RUA SANTA EFIGENIA  CS",
+    "numero": "180",
+    "bairro": "CIDADE NOVA",
+    "nascimento": "09/02/1993",
+    "admissao": "11/11/2019"
+  },
+  {
+    "matricula": "80",
+    "nome": "JOSE EDIVAN RUAS",
+    "genero": "m",
+    "endereco": "PRESIDENTE JUSCELINO KUBITSCHEK ",
+    "numero": "271",
+    "bairro": "CENTRO",
+    "nascimento": "27/02/1964",
+    "admissao": "10/07/1989"
+  },
+  {
+    "matricula": "270",
+    "nome": "MARIA CELMA DA SILVA",
+    "genero": "f",
+    "endereco": "R ITATIAIA ",
+    "numero": "269",
+    "bairro": "CENTRO",
+    "nascimento": "24/02/1978",
+    "admissao": "01/02/2001"
+  },
+  {
+    "matricula": "1647",
+    "nome": "ZENEIDE PEREIRA XAVIER",
+    "genero": "m",
+    "endereco": "AVENIDA PRESIDENTE MEDICI  CS",
+    "numero": "342",
+    "bairro": "CENTRO",
+    "nascimento": "16/02/1985",
+    "admissao": "17/02/2016"
+  },
+  {
+    "matricula": "2194",
+    "nome": "GESLANE SOUZA DE JESUS",
+    "genero": "m",
+    "endereco": "AV PRESIDENTE MEDICI  CS",
+    "numero": "559",
+    "bairro": "CIDADE NOVA II",
+    "nascimento": "13/02/1986",
+    "admissao": "10/03/2021"
+  },
+  {
+    "matricula": "1",
+    "nome": "ABRAAO PEREIRA DA SILVA",
+    "genero": "m",
+    "endereco": "MIGUEL BRAGA ",
+    "numero": "23",
+    "bairro": "CENTRO",
+    "nascimento": "23/02/1966",
+    "admissao": "16/03/1988"
+  },
+  {
+    "matricula": "533",
+    "nome": "ANTONIO DA LUZ XAVIER FONSECA",
+    "genero": "m",
+    "endereco": "MIGUEL BRAGA ",
+    "numero": "137",
+    "bairro": "CENTRO",
+    "nascimento": "02/02/1965",
+    "admissao": "05/01/1980"
+  },
+  {
+    "matricula": "1763",
+    "nome": "RAILTON FREIRE DUARTE",
+    "genero": "m",
+    "endereco": "DONA GUIOMAR ",
+    "numero": "337",
+    "bairro": "CENTRO",
+    "nascimento": "09/02/1988",
+    "admissao": "02/05/2016"
+  },
+  {
+    "matricula": "1983",
+    "nome": "BARBARA ELIZABETH CORREIA FONSECA",
+    "genero": "f",
+    "endereco": "ITATIAIA ",
+    "numero": "254",
+    "bairro": "CENTRO",
+    "nascimento": "11/02/1990",
+    "admissao": "01/08/2017"
+  },
+  {
+    "matricula": "1957",
+    "nome": "ISMAEL ALVES DE JESUS",
+    "genero": "m",
+    "endereco": "AV VISTA ALEGRE ",
+    "numero": "27",
+    "bairro": "CENTRO",
+    "nascimento": "11/02/1988",
+    "admissao": "02/05/2017"
+  },
+  {
+    "matricula": "1716",
+    "nome": "JAMILLA KAREN MAGALHAES FONSECA",
+    "genero": "f",
+    "endereco": "DOUTOR JK OLIVEIRA ",
+    "numero": "218",
+    "bairro": "CENTRO",
+    "nascimento": "07/02/1988",
+    "admissao": "02/03/2016"
+  },
+  {
+    "matricula": "1737",
+    "nome": "JARBAS NEVES BICALHO",
+    "genero": "m",
+    "endereco": "PRÍNCIPE REGENTE ",
+    "numero": "363",
+    "bairro": "SANTA RITA I",
+    "nascimento": "27/02/1985",
+    "admissao": "02/03/2016"
+  },
+  {
+    "matricula": "1951",
+    "nome": "KAMILA BRAGA BAVOZA",
+    "genero": "f",
+    "endereco": "RUA SAO PEDRO ",
+    "numero": "158",
+    "bairro": "CENTRO",
+    "nascimento": "04/02/1990",
+    "admissao": "02/05/2017"
+  },
+  {
+    "matricula": "1687",
+    "nome": "MATHEUS ANDRE LIMA DOS SANTOS",
+    "genero": "m",
+    "endereco": "SETE DE SETEMBRO ",
+    "numero": "516",
+    "bairro": "CENTRO",
+    "nascimento": "22/02/1996",
+    "admissao": "02/03/2016"
+  },
+  {
+    "matricula": "1721",
+    "nome": "OLGA REGIANE FERREIRA BARBOSA",
+    "genero": "f",
+    "endereco": "BELO HORIZONTE ",
+    "numero": "157",
+    "bairro": "CIDADE NOVA",
+    "nascimento": "25/02/1994",
+    "admissao": "02/03/2016"
+  },
+  {
+    "matricula": "2238",
+    "nome": "WILSON TOME FILHO",
+    "genero": "m",
+    "endereco": "SETE DE SETEMBRO  CS",
+    "numero": "8",
+    "bairro": "CENTRO",
+    "nascimento": "22/02/1977",
+    "admissao": "15/02/2022"
+  },
+  {
+    "matricula": "2178",
+    "nome": "GILSON FERREIRA LEITE",
+    "genero": "m",
+    "endereco": "DOUTOR SANTOS  SL ",
+    "numero": "256604",
+    "bairro": "CENTRO",
+    "nascimento": "20/01/1969",
+    "admissao": "04/01/2021"
+  },
+  {
+    "matricula": "2181",
+    "nome": "ALEX ANDRADE DA SILVA",
+    "genero": "m",
+    "endereco": "BELO HORIZONTE ",
+    "numero": "95",
+    "bairro": "CIDADE NOVA",
+    "nascimento": "16/01/1988",
+    "admissao": "..."
+  },
+  {
+    "matricula": "2265",
+    "nome": "HENRIQUE SOUZA MOTA",
+    "genero": "m",
+    "endereco": "DONA DUXA  CASA",
+    "numero": "38",
+    "bairro": "CENTRO",
+    "nascimento": "21/01/1992",
+    "admissao": "23/01/2023"
+  },
+  {
+    "matricula": "1665",
+    "nome": "JULIANA APARECIDA PEREIRA RAMOS",
+    "genero": "f",
+    "endereco": "PRESIDENTE MEDICE ",
+    "numero": "137",
+    "bairro": "CENTRO",
+    "nascimento": "22/01/1996",
+    "admissao": "02/03/2016"
+  },
+  {
+    "matricula": "2082",
+    "nome": "AILDE XAVIER DA SILVA",
+    "genero": "m",
+    "endereco": "FRANCELINO RIBEIRO  B",
+    "numero": "78",
+    "bairro": "CIDADE NOVA",
+    "nascimento": "30/01/1974",
+    "admissao": "06/09/2019"
+  },
+  {
+    "matricula": "1673",
+    "nome": "CLAUDIA XAVIER DUARTE",
+    "genero": "f",
+    "endereco": "FLORIANO PEIXOTO ",
+    "numero": "0",
+    "bairro": "CENTRO",
+    "nascimento": "25/01/1970",
+    "admissao": "02/03/2016"
+  },
+  {
+    "matricula": "1701",
+    "nome": "EDSON RAMOS DE SOUZA",
+    "genero": "m",
+    "endereco": "OSVALDO BRAGA ",
+    "numero": "78",
+    "bairro": "CIDADE NOVA",
+    "nascimento": "15/01/1991",
+    "admissao": "02/03/2016"
+  },
+  {
+    "matricula": "1682",
+    "nome": "EVANDERLIANE SOARES DA COSTA",
+    "genero": "m",
+    "endereco": "DONA GUIOMAR ",
+    "numero": "55",
+    "bairro": "INDEPENDENCIA",
+    "nascimento": "02/01/1973",
+    "admissao": "02/03/2016"
+  },
+  {
+    "matricula": "242",
+    "nome": "JOSE EDMILSON DOS SANTOS",
+    "genero": "m",
+    "endereco": "R CEL ARISTIDES BATISTA ",
+    "numero": "89",
+    "bairro": "CENTRO",
+    "nascimento": "30/01/1963",
+    "admissao": "03/02/2000"
+  },
+  {
+    "matricula": "1785",
+    "nome": "KARLA PEREIRA DA SILVA",
+    "genero": "f",
+    "endereco": "FRANCELINO RIBEIRO  CS",
+    "numero": "75",
+    "bairro": "CENTRO",
+    "nascimento": "11/01/1987",
+    "admissao": "01/08/2016"
+  },
+  {
+    "matricula": "1800",
+    "nome": "LUCIOLA NUBIA ANTUNES MARTINS RABELO",
+    "genero": "f",
+    "endereco": "PRESIDENTE MEDICI ",
+    "numero": "301",
+    "bairro": "NOVO HORIZONTE",
+    "nascimento": "16/01/1982",
+    "admissao": "05/10/2016"
+  },
+  {
+    "matricula": "1648",
+    "nome": "MARILIA APARECIDA PEREIRA RAMOS",
+    "genero": "f",
+    "endereco": "FERNAO DIAS  CA B",
+    "numero": "17",
+    "bairro": "CENTRO",
+    "nascimento": "05/01/1990",
+    "admissao": "17/02/2016"
+  },
+  {
+    "matricula": "325",
+    "nome": "REISMAR MAGALHAES CARDOSO",
+    "genero": "m",
+    "endereco": "R MIGUEL BRAGA ",
+    "numero": "216",
+    "bairro": "CENTRO",
+    "nascimento": "05/01/1968",
+    "admissao": "09/02/2004"
+  },
+  {
+    "matricula": "563",
+    "nome": "RENATO DE JESUS NOBRE",
+    "genero": "m",
+    "endereco": "RUA MIGUEL BRAGA ",
+    "numero": "64",
+    "bairro": "CENTRO",
+    "nascimento": "02/01/1971",
+    "admissao": "01/03/2007"
+  },
+  {
+    "matricula": "2243",
+    "nome": "EUGENIA MARCIA XAVIER DUARTE",
+    "genero": "f",
+    "endereco": "SETE DE SETEMBRO ",
+    "numero": "154",
+    "bairro": "CENTRO",
+    "nascimento": "28/01/1992",
+    "admissao": "23/05/2022"
+  },
+  {
+    "matricula": "363",
+    "nome": "IRANEIDE DA CONCEICAO FERREIRA AGUIAR",
+    "genero": "m",
+    "endereco": "RUA E ",
+    "numero": "9",
+    "bairro": "COHAB CIDADE NOVA",
+    "nascimento": "29/01/1980",
+    "admissao": "01/04/2001"
+  },
+  {
+    "matricula": "1717",
+    "nome": "JUNIA MARA OLIVEIRA SILVA",
+    "genero": "f",
+    "endereco": "COSTA E SILVA ",
+    "numero": "194",
+    "bairro": "CENTRO",
+    "nascimento": "11/01/1991",
+    "admissao": "02/03/2016"
+  },
+  {
+    "matricula": "1703",
+    "nome": "LUCAS SEBASTIAO PEREIRA DA SILVA",
+    "genero": "m",
+    "endereco": "PRESIDENTE MEDICE ",
+    "numero": "508",
+    "bairro": "CENTRO",
+    "nascimento": "20/01/1994",
+    "admissao": "02/03/2016"
+  },
+  {
+    "matricula": "1734",
+    "nome": "DAIANE CRISTINA CARDOSO",
+    "genero": "m",
+    "endereco": "SETE DE SETEMBRO ",
+    "numero": "159",
+    "bairro": "CENTRO",
+    "nascimento": "22/01/1991",
+    "admissao": "02/03/2016"
+  },
+  {
+    "matricula": "1973",
+    "nome": "ELIANE APARECIDA DE JESUS ARAGAO",
+    "genero": "m",
+    "endereco": "C  CS",
+    "numero": "20",
+    "bairro": "COHAB CIDADE NOVA",
+    "nascimento": "19/01/1986",
+    "admissao": "13/07/2017"
+  },
+  {
+    "matricula": "1787",
+    "nome": "JOSE APARECIDO PEREIRA DA FONSECA",
+    "genero": "m",
+    "endereco": "SANTA EFIGENIA ",
+    "numero": "93",
+    "bairro": "CIDADE NOVA",
+    "nascimento": "31/01/1977",
+    "admissao": "08/08/2016"
+  },
+  {
+    "matricula": "1718",
+    "nome": "LEANDRO FERNANDES GONCALVES",
+    "genero": "m",
+    "endereco": "FAUSTINO MAIA ",
+    "numero": "139",
+    "bairro": "CENTRO",
+    "nascimento": "28/01/1991",
+    "admissao": "02/03/2016"
+  },
+  {
+    "matricula": "1739",
+    "nome": "MARIA CLEUZA DOS REIS QUEIROZ",
+    "genero": "f",
+    "endereco": "DONA DUXA  CA C",
+    "numero": "20",
+    "bairro": "CENTRO",
+    "nascimento": "10/01/1969",
+    "admissao": "02/03/2016"
+  },
+  {
+    "matricula": "2215",
+    "nome": "SAMIRA DIAS GONCALVES",
+    "genero": "f",
+    "endereco": "PRESIDENTE MEDICI  CASA",
+    "numero": "1043",
+    "bairro": "CENTRO",
+    "nascimento": "04/01/1995",
+    "admissao": "03/05/2021"
+  },
+  {
+    "matricula": "1729",
+    "nome": "VILCIENE APARECIDA SOARES PEREIRA",
+    "genero": "m",
+    "endereco": "PRESIDENTE MEDICI ",
+    "numero": "60",
+    "bairro": "INDEPENDENCIA",
+    "nascimento": "06/01/1977",
+    "admissao": "02/03/2016"
   }
 ]
