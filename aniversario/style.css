@@ -84,6 +84,7 @@ body {
   text-align: center;
   padding-top: 10%;
   padding-bottom: 5%;
+  
 }
 .imgFundoTrabalho h2 {
   margin: auto;
@@ -100,7 +101,7 @@ body {
 }
 .vitro {
   margin-top: 10%;
-  padding: 10px;
+  padding: 5px;
   width: fit-content;
   margin: auto;
   background: rgba(255, 255, 255, 0.3);
@@ -109,6 +110,9 @@ body {
   -webkit-backdrop-filter: blur(5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.vitro img{
+  width: 90%;
 }
 /****/
 .repre {

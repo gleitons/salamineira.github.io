@@ -1,67 +1,6 @@
 
 
 
-async function carregaParlamentar(numb) {
-    const response = await fetch('./aniversariantes')
-    const data = await response.json()
-    const nomeVeradorCima = document.querySelector('.esquerdoLateral div p')
-    nomeVeradorCima.innerHTML = data[numb].posicao.toUpperCase() + " " + data[numb].nome
-
-    const nomeVereadorImagem = document.querySelector('.imgFundoLagoa h2')
-    nomeVereadorImagem.innerHTML = data[numb].nome.toUpperCase()
-
-    const cargo = document.querySelector('.imgFundoLagoa h3')
-    cargo.innerHTML = data[numb].posicao.toUpperCase()
-
-    fotoVereador.src = data[numb].foto
-
-    const infoNoLegislativo = document.querySelector('#infoNoLegislativo')
-    const projetosPoliticos = document.querySelector('#projetosPoliticos')
-    infoNoLegislativo.innerHTML = ''
-    projetosPoliticos.innerHTML = ''
-    historiaRepresentante.textContent = `HISTÓRIA DE ${data[numb].nome.toUpperCase()} `
-
-
-
-    for (let i = 0; i < data[numb].legislativo.length; i++) {
-        infoNoLegislativo.innerHTML += `<div class="cardInfoLegislativo">
-        <li><strong>Cargo:</strong> <p>${data[numb].legislativo[i].posicao} ${data[numb].legislativo[i].informacao}</p> </li>
-        <li><strong>Inicio:</strong> <p>${data[numb].legislativo[i].datainicial}</p></li>
-        <li><strong>Fim:</strong> <p>${data[numb].legislativo[i].datafinal}</p></li>
-    </div>`
-    }
-
-    for (let index = 0; index < data[numb].projetos.length; index++) {
-
-        projetosPoliticos.innerHTML += `<div class="infoState">
-        <span>&#9745;</span>
-        <div>
-            <h3>Requerimento nº ${data[numb].projetos[index].numero}/${data[numb].projetos[index].ano}</h3>
-            <p>Requerimento | Data: ${data[numb].projetos[index].data}</p>
-            <p>Ementa: ${data[numb].projetos[index].nomeinfo}</p>
-            <p>Informação: ${data[numb].projetos[index].informacao}</p>
-            
-            <a href="${data[numb].projetos[index].download}" target="_blank">
-                <button>Saiba Mais</button>
-            </a>
-        </div>
-    </div>`
-
-    }
-
-    if (data[numb].genero != 'f') {
-        var conhecido = 'conhecido'
-    } else {
-        var conhecido = 'conhecida'
-    }
-
-
-    const idade = calcularIdade(data[numb].nascimento)
-
-
-    dadosDoVereador.innerHTML = `<strong>${data[numb].nome}</strong> ${conhecido} como <strong>${data[numb].nomeurna}</strong>, tem ${idade} anos, ${data[numb].posicao} de Lagoa dos Patos - MG. Sua história começa ...`
-
-}
 
 function calcularIdade(aniversario) {
     var nascimento = aniversario.split("/");
@@ -74,8 +13,6 @@ function calcularIdade(aniversario) {
     return Math.abs(idade.getUTCFullYear() - 1970);
 }
 
-
-//carregaParlamentar(0)
 
 
 const todosVereadoresOn = async () => {
@@ -120,6 +57,57 @@ var ate80anosArray = []
 var servidorVelho = []
 var servidorNovo = []
 
+async function carregaAntes() {
+    const response = await fetch('./aniversariantes');
+    const data = await response.json();
+
+    const aniversarioHoje = document.querySelector('#aniversarioHoje')
+    const classificacaoParlamentares = document.querySelector('#classificacaoParlamentares')
+
+    const meses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
+
+    const dataH = document.querySelector('#dataH')
+
+    dataH.innerHTML = ` <h3>ANIVERSÁRIO HOJE <span >${dataHoje()[5]}</span></h3>`;
+    //const anoo = 
+    mesDoNiver.innerHTML = ` <h4>${meses[parseInt(dataHoje()[3])]} de ${new Date().getFullYear()} </h4>`
+
+    aniversarioHoje.innerHTML = ''
+    data.map((aniversario, index) => {
+        const idade = calcularIdade(aniversario.nascimento)
+        const idadeAdmissao = calcularIdade(aniversario.admissao)
+
+        const dataMEs = `${aniversario.nascimento[0]}${aniversario.nascimento[1]}/${aniversario.nascimento[3]}${aniversario.nascimento[4]}`
+
+        const mesNiverTrabalho = `${aniversario.admissao[0]}${aniversario.admissao[1]}/${aniversario.admissao[3]}${aniversario.admissao[4]}`
+
+        const desseMes = `${aniversario.nascimento[3]}${aniversario.nascimento[4]}`
+
+        if (aniversario.genero != 'm') {
+            var sexo = './img/niver-m.png'
+        } else {
+            var sexo = './img/niver-h.jpg'
+        }
+
+
+        if (dataMEs == dataHoje()[4]) {
+
+            aniversarioHoje.innerHTML += `
+             <div class="imgFundoLagoa">
+                                <div class="fotoVereador">
+                                    <img id="fotoVereador${index}" src=${sexo} alt="">
+                                </div>
+                                <h2>${aniversario.nome}</h2>
+                                <h3>${aniversario.nascimento}</h3>
+                                <h3>${idade} anos</h3>
+                            </div>`
+
+            ninguemFaz.innerHTML = ''
+
+        }
+    })
+}
+//carregaAntes();
 
 const todosParlamentaresOn = async () => {
     const response = await fetch('./aniversariantes');
@@ -135,7 +123,7 @@ const todosParlamentaresOn = async () => {
     dataH.innerHTML = ` <h3>ANIVERSÁRIO HOJE <span >${dataHoje()[5]}</span></h3>`;
     //const anoo = 
     mesDoNiver.innerHTML = ` <h4>${meses[parseInt(dataHoje()[3])]} de ${new Date().getFullYear()} </h4>`
-
+    //aniversarioHoje.innerHTML = ''
 
     data.map((aniversario, index) => {
         const idade = calcularIdade(aniversario.nascimento)
@@ -153,9 +141,9 @@ const todosParlamentaresOn = async () => {
             var sexo = './img/niver-h.jpg'
         }
 
-              
+
         if (dataMEs == dataHoje()[4]) {
-            
+
             aniversarioHoje.innerHTML += `
              <div class="imgFundoLagoa">
                                 <div class="fotoVereador">
@@ -164,11 +152,12 @@ const todosParlamentaresOn = async () => {
                                 <h2>${aniversario.nome}</h2>
                                 <h3>${aniversario.nascimento}</h3>
                                 <h3>${idade} anos</h3>
+                               
                             </div>`
-                           
+
             ninguemFaz.innerHTML = ''
-           
-        } 
+
+        }
         const niverS = aniversario.nascimento.split('/')
 
         if (desseMes == parseInt(dataHoje()[3]) + 1) {
@@ -201,14 +190,15 @@ const todosParlamentaresOn = async () => {
                             </div>
         </a>`
         }
-        
 
-        if (mesNiverTrabalho == dataHoje()[4]) {                                       
+
+        if (mesNiverTrabalho == dataHoje()[4]) {
             aniversarioT.innerHTML += `<div class="imgFundoTrabalho">                           
                             <div class="vitro">
                                 <h2>${aniversario.nome}</h2>
                                 <h3><span class="inTime"><strong>${idadeAdmissao}</strong></span> anos <br> fazendo seu melhor!!</h3>
                                 <h3>PARABÉNS POR MAIS UM ANO COLABORANDO</h3>
+                                <h3>NESSES ${idadeAdmissao} ANOS ABENÇOADOS, SÓ TEMOS A TE AGRADECER</h3>                                
                             </div>
                         </div>`
         }
@@ -217,34 +207,34 @@ const todosParlamentaresOn = async () => {
         } else {
             mulheres = mulheres + 1
         }
-      
-        if(idade < 20) {
+
+        if (idade < 20) {
             ate20Anos = ate20Anos + 1;
 
             const nome20anos = `<p>${aniversario.nome} - ${idade} anos</p>`
             ate20anosArray.push(nome20anos)
-          
-            
-        } else if(idade > 20 && idade <= 30) {
-            ate30Anos = ate30Anos + 1;   
+
+
+        } else if (idade > 20 && idade <= 30) {
+            ate30Anos = ate30Anos + 1;
 
             const nome30anos = `<p>${aniversario.nome} - ${idade} anos</p>`
             ate30anosArray.push(nome30anos)
 
-            
-        } else if(idade > 30 && idade <= 40) {
+
+        } else if (idade > 30 && idade <= 40) {
             ate40Anos = ate40Anos + 1;
             const nome40anos = `<p>${aniversario.nome} - ${idade} anos</p>`
             ate40anosArray.push(nome40anos)
-        } else if(idade > 40 && idade <= 50) {
+        } else if (idade > 40 && idade <= 50) {
             ate50Anos = ate50Anos + 1;
             const nome50anos = `<p>${aniversario.nome} - ${idade} anos</p>`
             ate50anosArray.push(nome50anos)
-        } else if(idade > 50 && idade <= 60) {
+        } else if (idade > 50 && idade <= 60) {
             ate60Anos = ate60Anos + 1;
             const nome60anos = `<p>${aniversario.nome} - ${idade} anos</p>`
             ate60anosArray.push(nome60anos)
-        } else if(idade > 60 && idade <= 70) {
+        } else if (idade > 60 && idade <= 70) {
             ate70Anos = ate70Anos + 1;
             const nome70anos = `<p>${aniversario.nome} - ${idade} anos</p>`
             ate70anosArray.push(nome70anos)
@@ -255,7 +245,7 @@ const todosParlamentaresOn = async () => {
         }
 
         const totServidores = parseInt(homens) + parseInt(mulheres)
-       
+
 
         infoNoLegislativo.innerHTML = `
         ${homens}: Servidores </br> 
@@ -329,35 +319,38 @@ const todosParlamentaresOn = async () => {
         <br>`
 
 
-        for(let i = 0; i < ate20anosArray.length; i++){
+        for (let i = 0; i < ate20anosArray.length; i++) {
             btnA20.innerHTML += ate20anosArray[i]
         }
-        for(let i = 0; i < ate30anosArray.length; i++){
+        for (let i = 0; i < ate30anosArray.length; i++) {
             btnA30.innerHTML += ate30anosArray[i]
         }
-        for(let i = 0; i < ate40anosArray.length; i++){
+        for (let i = 0; i < ate40anosArray.length; i++) {
             btnA40.innerHTML += ate40anosArray[i]
         }
-        for(let i = 0; i < ate50anosArray.length; i++){
+        for (let i = 0; i < ate50anosArray.length; i++) {
             btnA50.innerHTML += ate50anosArray[i]
         }
-        for(let i = 0; i < ate60anosArray.length; i++){
+        for (let i = 0; i < ate60anosArray.length; i++) {
             btnA60.innerHTML += ate60anosArray[i]
         }
-        for(let i = 0; i < ate70anosArray.length; i++){
+        for (let i = 0; i < ate70anosArray.length; i++) {
             btnA70.innerHTML += ate70anosArray[i]
         }
-        for(let i = 0; i < ate80anosArray.length; i++){
+        for (let i = 0; i < ate80anosArray.length; i++) {
             btnA80.innerHTML += ate80anosArray[i]
         }
-        
-       
+
+
 
     })
-     
+
 }
+
 function removeLoad() {
     carregandoL.remove();
+   
+
 }
 setTimeout('removeLoad()', 5000)
 
@@ -379,9 +372,9 @@ function dataHoje() {
         var mesames = mes
     }
     if (mes.toString().length == 1) {
-        var mesAd = '0' + parseInt(mes +1);
+        var mesAd = '0' + parseInt(mes + 1);
     } else {
-        var mesAd = parseInt(mes +1 ) ;
+        var mesAd = parseInt(mes + 1);
     }
     const anoNormal = `${diaaDia}/${mesames}/${ano}`
     const anoS = `${dia}/${mes}/${ano}`
@@ -394,31 +387,9 @@ function dataHoje() {
 }
 
 
-//todosVereadoresOn()
-todosParlamentaresOn()
 
 
-function geraRepre() {
-    const numeroA = Math.floor(Math.random() * 11)
 
-    carregaParlamentar(numeroA)
-}
-//geraRepre()
-
-
-async function geraTamb() {
-    const response = await fetch('./aniversariantes');
-    const data = await response.json();
-    const repre = document.querySelector('.repre')
-
-    data.map((foto) => {
-        repre.innerHTML += `<img src="${foto.foto}" alt="">`
-    })
-
-
-}
-
-//geraTamb()
 
 function verServidores(numb) {
     var btnServidor20 = document.querySelector('#btn20')
@@ -428,20 +399,21 @@ function verServidores(numb) {
     var btnServidor60 = document.querySelector('#btn60')
     var btnServidor70 = document.querySelector('#btn70')
     var btnServidor80 = document.querySelector('#btn80')
-    if(numb == 0){
+    if (numb == 0) {
         btnServidor20.classList.toggle('dnone')
-    } else  if(numb == 1){
+    } else if (numb == 1) {
         btnServidor30.classList.toggle('dnone')
-    } else  if(numb == 2){
+    } else if (numb == 2) {
         btnServidor40.classList.toggle('dnone')
-    } else  if(numb == 3){
+    } else if (numb == 3) {
         btnServidor50.classList.toggle('dnone')
-    } else  if(numb == 4){
+    } else if (numb == 4) {
         btnServidor60.classList.toggle('dnone')
-    } else  if(numb == 5){
+    } else if (numb == 5) {
         btnServidor70.classList.toggle('dnone')
-    }else {
+    } else {
         btnServidor80.classList.toggle('dnone')
     }
-    
+
 }
+todosParlamentaresOn();
