@@ -1,7 +1,3 @@
-
-
-
-
 function calcularIdade(aniversario) {
     var nascimento = aniversario.split("/");
     var dataNascimento = new Date(parseInt(nascimento[2], 10),
@@ -356,7 +352,7 @@ setTimeout('removeLoad()', 5000)
 
 function dataHoje() {
     const data = new Date();
-    var dia = data.getDay()
+    var dia = data.getDate()
     var mes = data.getMonth();
     var ano = data.getFullYear()
 
