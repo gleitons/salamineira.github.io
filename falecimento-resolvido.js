@@ -92,7 +92,8 @@ async function falecidos() {
             divGera.setAttribute('class', 'infoLutos');
             const divBottom = document.createElement('div')
             divBottom.innerHTML = `<div class="notaw"><p>${mensagens()[apresenta].mensagem}</p></div>`;
-            const exibir = montarTeste(falec, apel, con, idadeF, mamae);
+            
+            const exibir = montarTeste(falec, apel, con, idadeF, mamae, falec.id);
             divGera.appendChild(exibir)
             homenagemFalecido.appendChild(divBottom)
             homenagemFalecido.appendChild(divGera)
@@ -138,18 +139,18 @@ async function contadorObitos() {
     var fimI = 2023
     var inici = 1982
     const oneP = fimI - inici
-        const fimP = oneP / 100;
-    
+    const fimP = oneP / 100;
+
 
     for (let index = fimI; index >= inici; index--) {
-        
-
-        carregaPorcent.innerHTML = `${index}`  
 
 
+        carregaPorcent.innerHTML = `${index}`
 
-              
-        if (await tabelaEs(index) != '0,0,0') {            
+
+
+
+        if (await tabelaEs(index) != '0,0,0') {
             var falecimentoAno = await tabelaEs(index);
             const linhaTab = document.createElement('tr');
             const colunaTabIndex = document.createElement('td');
@@ -169,10 +170,10 @@ async function contadorObitos() {
             var totHomens = totHomens + falecimentoAno[1];
             var totMulheres = totMulheres + falecimentoAno[2];
             var total = total + falecimentoAno[0];
-           
+
         }
-       
-        
+
+
 
     }
     document.querySelector('#totalCont').innerHTML += `
@@ -226,10 +227,6 @@ async function montarOculto(numero) {
 
     } else {
 
-
-        // const diaFa = dataFa.getUTCDay();
-        // const mesFa = dataFa.getUTCMonth();
-        // const anoFa = dataFa.getFullYear();
         const diaAtual = (`${hoje[2]}-${hoje[1]}-${hoje[0]}`)
         const anoFalecimento = (`${anoF[2]}-${anoF[1]}-${anoF[0]}`)
         const anoNascimento = (`${anoN[2]}-${anoN[1]}-${anoN[0]}`)
@@ -264,11 +261,16 @@ async function montarOculto(numero) {
 
 
 
-function montarCard(falec, apel, con, idadeF, mamae, tempoFalec) {
+function montarCard(falec, apel, con, idadeF, mamae, tempoFalec, falecCodigo) {
     if (apel == undefined) apel = ""
     if (mamae == undefined) mamae = ""
     if (falec.nascimento == '') falec.nascimento = ' Desconhecido'
     if (falec.imagem == '') falec.imagem = '/coroa-homem-mulher-online.jpg';
+
+
+    console.log(falecCodigo)
+    const divCodigo = document.createElement('div')
+    divCodigo.innerHTML = ``
 
     const iconeE = document.getElementById(`abrirEditar${con}`)
 
@@ -327,6 +329,7 @@ function montarCard(falec, apel, con, idadeF, mamae, tempoFalec) {
     divVidro.appendChild(nomeMae)
     divLuto.appendChild(divVidro);
     divLuto.appendChild(divNotaFalecimento);
+    divLuto.appendChild(divCodigo)
     const divBtnEditar = document.createElement('div');
     divBtnEditar.classList.add('bntEditar');
     const iconeEditar = document.createElement('i');
@@ -340,11 +343,20 @@ function montarCard(falec, apel, con, idadeF, mamae, tempoFalec) {
     return divLuto;
 }
 
-function montarTeste(falec, apel, con, idadeF, mamae) {
+function montarTeste(falec, apel, con, idadeF, mamae, falecCod) {
 
 
     if (apel == undefined) apel = ""
     if (mamae == undefined) mamae = ""
+    var mostCID = ''
+
+    falecCod != 0 ? mostCID = falecCod : '';
+    const divCodigo = document.createElement('div')
+    
+    divCodigo.innerHTML = mostCID
+
+    
+
 
 
 
@@ -400,6 +412,7 @@ function montarTeste(falec, apel, con, idadeF, mamae) {
     divVidro.appendChild(nomeMae)
     divLuto.appendChild(divVidro);
     divLuto.appendChild(divNotaFalecimento);
+    divLuto.appendChild(divCodigo)
     const divBtnEditar = document.createElement('div');
     divBtnEditar.classList.add('bntEditar');
     const iconeEditar = document.createElement('i');

@@ -473,6 +473,8 @@ const linkURL = "/editaistopo"
 // "situacao": situacao,
 // "infolicita": infoLicita
 
+
+
 async function editaisEmAb() {
     const editaisEmAberto = document.querySelector('#editaisEmAberto')
     const response = await fetch(linkURL);
@@ -538,7 +540,9 @@ async function editaisEmAb() {
     console.warn('Por: Gleiton Soares')
     
 }
-editaisEmAb()
+
+document.querySelector('#editaisEmAberto') != null ? editaisEmAb() : ''
+
 
 
 async function geraAba(valor) {
