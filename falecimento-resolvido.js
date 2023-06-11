@@ -953,3 +953,9 @@ function mensagens(numero) {
     }
     ]
 }
+
+function montraInfoImportante() {
+    const aDiv = document.querySelector('.infoIm')
+
+    aDiv.classList.toggle('dnone')
+}

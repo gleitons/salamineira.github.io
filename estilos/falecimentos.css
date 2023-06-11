@@ -8,6 +8,16 @@
   --fontPostuma: fontP;
   --fhgf: red;
 }
+.maisInfo {
+  padding: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.infoIm {
+  padding: 10px;
+}
 .falecidoRecente {
   padding: 0.8em;
   width: 100%;
@@ -359,7 +369,7 @@ tfoot {
 
 .coracaoLuto > p {
   padding: 0.3em;
-  width: 40%;
+  width: 80%;
   margin: 0.3em auto;
   font-size: 3em;
   text-align: center;
