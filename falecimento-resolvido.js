@@ -956,6 +956,13 @@ function mensagens(numero) {
 
 function montraInfoImportante() {
     const aDiv = document.querySelector('.infoIm')
+    const maisInfo = document.querySelector('.maisInfo')
+    if(maisInfo.textContent == '+ Informações importantes') {
+        maisInfo.textContent = '^ Fechar'
+    } else {
+        maisInfo.textContent = '+ Informações importantes'
+    }
+    
 
     aDiv.classList.toggle('dnone')
 }
