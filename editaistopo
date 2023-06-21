@@ -1,5 +1,15 @@
 [
   {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3831/",
+    "dataP": "27/06/2023",
+    "processo": "PROC. 031/2023 TP 008/2023",
+    "publicado": "06/06/2023",
+    "abertura": "27/06/2023",
+    "modalidade": "Tomada de Preços",
+    "situacao": "Aberta",
+    "infolicita": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM OBRAS DE ENGENHARIA PARA OBRA DE PAVIMENTAÇÃO AFALTICO EM PMF EM VIAS PUBLICAS DO MUNICIPIO DE LAGOA DOS PATOS – RECURSOS ORIUNDOS DA LEI Nº23830/2021."
+  },
+  {
     "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3820/",
     "dataP": "15/06/2023",
     "processo": "PROC. 030/2023 TP 007/2023",
@@ -88,15 +98,5 @@
     "modalidade": "Inexigibilidade",
     "situacao": "FINALIZADA",
     "infolicita": "CONTRATAÇÃO DA BANDA KALO NO PÉ PARA APRESENTAÇÃO DE SHOW ARTÍSTICO NO DIA 12 DE MAIO DE 2023 NA FESTA DE VAQUEJADA NACIONAL DE LAGOA DOS PATOS/MG"
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3689/",
-    "dataP": "28/03/2023",
-    "processo": "PROC. 021/2023 DISP. 003/2023",
-    "publicado": "24/03/2023",
-    "abertura": "28/03/2023",
-    "modalidade": "Dispensa",
-    "situacao": "Em andamento",
-    "infolicita": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EVENTUAL PRESTAÇÃO DE SERVIÇO DE CONTROLE DE MOSQUITOS NO MUNICÍPIO DE LAGOA DOS PATOS, ATRAVÉS DE ASPERSÃO DE INSETICIDA EM BOMBA DE CARRO FUMACÊ (TERMONEBULIZADOR)."
   }
 ]

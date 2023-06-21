@@ -240,7 +240,9 @@ async function montarOculto(numero) {
 
 
     const imprimiu = document.getElementById(`cliqueOculto${numero}`).value;
+    const divdoBtn = document.createElement('div')
     const printDiv = document.querySelector(`#impri${numero}`);
+
 
 
     if (imprimiu.length == 0) {
@@ -255,7 +257,8 @@ async function montarOculto(numero) {
         var con = numero;
     }
     const exibir = montarCard(falec, apel, con, idadeF, myOb.mae, tempoFalec)
-    printDiv.appendChild(exibir)
+    divdoBtn.appendChild(exibir)
+    printDiv.appendChild(divdoBtn)
 }
 
 
