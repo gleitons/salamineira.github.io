@@ -395,23 +395,19 @@ async function buscaCNPJB() {
 
     const urlC = `https://minhareceita.org/${pesquisaCN}`
 
+    console.log(pesquisaCN)
+    //const urlC = `https://minhareceita.org/26300217000100`
+
     const response = await fetch(urlC);
     const data = await response.json();
     var atvsec = document.querySelector('#atvsec')
     if (data.cnpj != undefined || pesquisaCN.toString().lenght > 0) {
 
-
-
-        //  for(let i=0; i < 3; i++){
-        //      var listaSe = document.createElement('li');
-        //      listaSe.innerHTML = data.cnaes_secundarios[i]
-        //       atvsec.appendChild(listaSe)
-
-
-        //  }
-        const reve = data.data_situacao_cadastral.split('-').reverse();
+        const reve = data.data_situacao_cadastral != null ? data.data_situacao_cadastral.split('-').reverse() : ''
+        console.log(reve)
         var uatualiza = `${reve[0]}/${reve[1]}/${reve[2]}`
-
+        
+      
 
       
 
@@ -446,7 +442,7 @@ async function buscaCNPJB() {
                 <h4>ATIVIDADE PRINCIPAL: </h4> <p>${data.cnae_fiscal_descricao}</p>
             </div>
             <div>
-                <h4>ATIVIDADE SECUNDÁRIA: </h4> <div id="atvsec"></div>
+                <h4>ATIVIDADE SECUNDÁRIA: <span id="atvSec"></span></h4>
                  
             </div>
             <div>
@@ -454,6 +450,15 @@ async function buscaCNPJB() {
             </div>
             <i class="bi bi-x-square-fill" onclick="fecharCNP()">FECHAR</i>
         </div>`
+
+        for(let i = 0; i < data.cnaes_secundarios.length; i++){
+            const fSecond = `<br>${data.cnaes_secundarios[i].descricao} <br>`
+            atvSec.innerHTML += fSecond
+        }
+        console.log(JSON.stringify(ati))
+
+
+
     } else if (pesquisaCN.lenght == undefined) {
         vejamosS.innerHTML = ` <div class="mostraAnimaCNPJ">INSIRA UM CNPJ, TENTE NOVAMENTE </div>`
     }
@@ -537,7 +542,7 @@ async function editaisEmAb() {
         }
     })
     spinLoad.remove()
-    console.clear()
+    //console.clear()
     console.log('www.gleiton.com.br')
     console.warn('Por: Gleiton Soares')
     
