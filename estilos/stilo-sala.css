@@ -10,7 +10,14 @@
   max-width: 1200px;
   margin: auto;
 }
-
+#spinLoad {
+  width: 100%;
+  text-align: center;
+}
+#spinLoad img {
+  margin: auto;
+  width: 30%;
+}
 .funcionamento {
   border-radius: 10px;
   border: rgb(183, 183, 183) solid 1px;
