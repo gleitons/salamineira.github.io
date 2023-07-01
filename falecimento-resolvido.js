@@ -141,7 +141,7 @@ async function contadorObitos() {
     const oneP = fimI - inici
     const fimP = oneP / 100;
 
-
+    var totalQtd = []
     for (let index = fimI; index >= inici; index--) {
 
 
@@ -166,10 +166,12 @@ async function contadorObitos() {
             linhaTab.appendChild(colunaTabFalecTwo);
             linhaTab.appendChild(colunaTabFalecTree);
             tabelaT.appendChild(linhaTab)
+            
 
             var totHomens = totHomens + falecimentoAno[1];
             var totMulheres = totMulheres + falecimentoAno[2];
             var total = total + falecimentoAno[0];
+            totalQtd.push(index)
 
         }
 
@@ -181,9 +183,9 @@ async function contadorObitos() {
                <td>Total</td>
                <td>${totHomens}</td>
               <td>${totMulheres}</td>
-              <td>${total}</td>                             
+              <td>${total}</td>                                           
           </tr>`
-    document.querySelector('#calculando').innerHTML = ""
+    document.querySelector('#calculando').innerHTML = `<p>Média de : <strong>${Math.floor((total / totalQtd.length))}</strong> mortes por ano</p>`
 }
 
 
