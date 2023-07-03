@@ -210,7 +210,7 @@
   {
     "id": 0,
     "nome": "MANOEL BISPO DOS SANTOS",
-    "sexo": "f",
+    "sexo": "m",
     "imagem": "",
     "nascimento": "",
     "falecimento": "13/09/2020",
@@ -222,6 +222,22 @@
     "LocalFalecimento": "Montes Claros",
     "estado": "MG",
     "apelido": ""
+  },
+  {
+    "id": "<div> <h4>Fotos Históricas</h4> <img src='https://www.salamineira.com/fotos-antigas/remini/fotos-antigas-lagoa-dos-patos-mg-60.jpg' alt=''> </div>",
+    "nome": "JOSE WILSON MAGALHÃES RABELO",
+    "sexo": "m",
+    "imagem": "/falecimento/ze-wilson.png",
+    "nascimento": "18/01/1950",
+    "falecimento": "04/12/2021",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "ADELINA DE SA MAGALHAES",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Montes Claros",
+    "estado": "MG",
+    "apelido": "Zé Wilson"
   },
   {
     "id": 0,

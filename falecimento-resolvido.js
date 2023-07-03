@@ -322,8 +322,11 @@ function montarCard(falec, apel, con, idadeF, mamae, tempoFalec, falecCodigo) {
     const divNotaFalecimento = document.createElement('div');
     divNotaFalecimento.setAttribute('class', 'nota')
     const NotaFalecimento = document.createElement('p');
+    const conteudoHTML = document.createElement('div')
+    conteudoHTML.innerHTML = falec.id
     NotaFalecimento.textContent = `${falec.nota}`;
     divNotaFalecimento.appendChild(NotaFalecimento);
+
     pStrong.appendChild(idadefal);
     divNascFale.appendChild(iconeNacimento)
     divNascFale.appendChild(iconeFalecimento);
@@ -334,6 +337,7 @@ function montarCard(falec, apel, con, idadeF, mamae, tempoFalec, falecCodigo) {
     divVidro.appendChild(nomeMae)
     divLuto.appendChild(divVidro);
     divLuto.appendChild(divNotaFalecimento);
+    divLuto.appendChild(conteudoHTML)
     divLuto.appendChild(divCodigo)
     const divBtnEditar = document.createElement('div');
     divBtnEditar.classList.add('bntEditar');
