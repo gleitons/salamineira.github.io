@@ -1,5 +1,25 @@
 [
   {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3890/",
+    "dataP": "11/07/2023",
+    "processo": "PROC. 033/2023 PP SRP 013/2023",
+    "publicado": "12/06/2023",
+    "abertura": "11/07/2023",
+    "modalidade": "PREGÃO PRESENCIAL",
+    "situacao": "Aberta",
+    "infolicita": "REGISTRO DE PREÇO PARA AQUISIÇÃO DE EQUIPAMENTOS MEDICOS HOSPITALAR PARA SECRETARIA MUNICIPAL DE SAUDE DE LAGOA DOS PATOS/MG, CONFORME AS ESPECIFICAÇÕES CONSTANTES NO TERMO DE REFERÊNCIA – ANEXO I DESTE EDITAL."
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3865/",
+    "dataP": "06/07/2023",
+    "processo": "PROC. 032/2023 PP 012/2023",
+    "publicado": "16/06/2023",
+    "abertura": "06/07/2023",
+    "modalidade": "Pregão",
+    "situacao": "Aberta",
+    "infolicita": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIOS TECNICOS ESPECIALIZADOS NO DESENVOLVIMENTO DO APLICATIVO E SOFTWARE PARA GERENCIAR O PROGRAMA DE INCENTIVO À RECICLAGEM – PIR COM SUPORTE TECNICO/ASSISTENCIA PARA OPERAÇÃO DA CENTRAL DE RECICLAGEM NO MUNICIPIO DE LAGOA DOS PATOS CONFORME A LEI MUNICIPAL 890/2022"
+  },
+  {
     "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3831/",
     "dataP": "13/07/2023",
     "processo": "PROC. 031/2023 TP 008/2023",
@@ -31,10 +51,10 @@
   },
   {
     "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3775/",
-    "dataP": "13/06/2023",
+    "dataP": "18/07/2023",
     "processo": "PROC. 028/2023 TP 005/2023",
     "publicado": "22/05/2023",
-    "abertura": "13/06/2023",
+    "abertura": "18/07/2023",
     "modalidade": "Tomada de Preços",
     "situacao": "Aberta",
     "infolicita": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM OBRAS DE ENGENHARIA PARA RECONSTRUÇÃO DE CASA POPULAR NA COMUNIDADE BARRO, ZONA RURAL DE LAGOA DOS PATOS CONFORME PROCESSO Nº 59053.006622/2022-92 S2ID SECRETARIA NACIONAL DE PROTEÇÃO E DEFESA CIVIL."
@@ -78,25 +98,5 @@
     "modalidade": "Inexigibilidade",
     "situacao": "FINALIZADA",
     "infolicita": "CONTRATAÇÃO DO CANTOR KLEBIM O MORAL PARA APRESENTAÇÃO DE SHOW ARTÍSTICO NO DIA 12 DE MAIO DE 2023 NA FESTA DE VAQUEJADA NACIONAL DE LAGOA DOS PATOS/MG"
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3741/",
-    "dataP": "24/04/2023",
-    "processo": "PROC. 023/2023 INEX. 005/2023",
-    "publicado": "13/04/2023",
-    "abertura": "24/04/2023",
-    "modalidade": "Inexigibilidade",
-    "situacao": "FINALIZADA",
-    "infolicita": "CONTRATAÇÃO DO CANTOR BRENO LEONARDO PARA APRESENTAÇÃO DE SHOW ARTÍSTICO NO DIA 13 DE MAIO DE 2023 NA FESTA DE VAQUEJADA NACIONAL DE LAGOA DOS PATOS/MG"
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3740/",
-    "dataP": "17/04/2023",
-    "processo": "PROC. 022/2023 INEX. 004/2023",
-    "publicado": "13/04/2023",
-    "abertura": "17/04/2023",
-    "modalidade": "Inexigibilidade",
-    "situacao": "FINALIZADA",
-    "infolicita": "CONTRATAÇÃO DA BANDA KALO NO PÉ PARA APRESENTAÇÃO DE SHOW ARTÍSTICO NO DIA 12 DE MAIO DE 2023 NA FESTA DE VAQUEJADA NACIONAL DE LAGOA DOS PATOS/MG"
   }
 ]

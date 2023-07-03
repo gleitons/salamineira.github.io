@@ -341,6 +341,8 @@ const todosParlamentaresOn = async () => {
 
     })
 
+    setTimeout('removeLoad()', 5000)
+
 }
 
 function removeLoad() {
@@ -348,7 +350,7 @@ function removeLoad() {
    
 
 }
-setTimeout('removeLoad()', 5000)
+//
 
 function dataHoje() {
     const data = new Date();
