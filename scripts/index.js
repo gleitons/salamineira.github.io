@@ -406,9 +406,6 @@ async function buscaCNPJB() {
         const reve = data.data_situacao_cadastral != null ? data.data_situacao_cadastral.split('-').reverse() : ''
         console.log(reve)
         var uatualiza = `${reve[0]}/${reve[1]}/${reve[2]}`
-        
-      
-
       
 
         vejamosS.innerHTML = `
@@ -468,6 +465,112 @@ async function buscaCNPJB() {
 }
 //buscaCNPJB()
 
+async function cadastroCNPJB() {
+    //console.log(urlC)
+    var ati = []
+    const vejamosS = document.querySelector('#vejamosS')
+    const pesquisaCN = document.querySelector('#pesquisaCN').value
+
+
+
+    const urlC = `https://minhareceita.org/${pesquisaCN}`
+
+    console.log(pesquisaCN)
+    //const urlC = `https://minhareceita.org/26300217000100`
+
+    const response = await fetch(urlC);
+    const data = await response.json();
+    var atvsec = document.querySelector('#atvsec')
+    if (data.cnpj != undefined || pesquisaCN.toString().lenght > 0) {
+
+        const reve = data.data_situacao_cadastral != null ? data.data_situacao_cadastral.split('-').reverse() : ''
+      
+        var uatualiza = `${reve[0]}/${reve[1]}/${reve[2]}`
+        
+        const cnpjC = `${data.cnpj[0]}${data.cnpj[1]}.${data.cnpj[2]}${data.cnpj[3]}${data.cnpj[4]}.${data.cnpj[5]}${data.cnpj[6]}${data.cnpj[7]}/${data.cnpj[8]}${data.cnpj[9]}${data.cnpj[10]}${data.cnpj[11]}-${data.cnpj[12]}${data.cnpj[13]}`
+
+        vejamosS.innerHTML = `
+       
+        
+        <span id="cdrasto">
+            <div class="cEmpresa">
+            <br> <br>
+            CNPJ: <input type="text" name="" id="cnpjR" value="${cnpjC}"> <br> <br>
+            RAZÃO SOCIAL: <input type="text" name="" id="razaoR" value="${data.razao_social}"> <br> <br>
+            
+            NOME FANTASIA: <input type="text" name="" id="nfantaR" value="${data.nome_fantasia}"> <br> <br>
+            
+            CIDADE: <input type="text" name="" id="cidadeR" value="${data.municipio} - ${data.uf}">
+            <br> <br>
+            <button onclick="empresaR()">Cadastrar Empresa</button>
+                </div>
+        </span>`
+
+       
+
+
+    } else if (pesquisaCN.lenght == undefined) {
+        vejamosS.innerHTML = ` <div class="mostraAnimaCNPJ">INSIRA UM CNPJ, TENTE NOVAMENTE </div>`
+    }
+    else {
+        vejamosS.innerHTML = ` <div class="mostraAnimaCNPJ">CNPJ INEXISTENTE, TENTE NOVAMENTE </div>`
+    }
+}
+function empresaR() {
+    const cnpj = document.querySelector('#cnpjR').value
+    const razaoR = document.querySelector('#razaoR').value
+    const nfantaR = document.querySelector('#nfantaR').value
+    const cidadeR = document.querySelector('#cidadeR').value
+    const maisEmpresa = [{
+        "cnpj": cnpj,
+        "razao": razaoR,
+        "fantasia": nfantaR,
+        "cidade": cidadeR
+    }]
+    if(localStorage.getItem('empresaR') != null){
+        const arrEmpresaR = JSON.parse(localStorage.getItem('empresaR'))
+        console.log(arrEmpresaR)
+        arrEmpresaR.push(maisEmpresa)
+
+        console.log(arrEmpresaR)
+        localStorage.setItem('empresaR', JSON.stringify(maisEmpresa))
+        
+        regarregaEmpresass()
+
+        cdrasto.innerHTML = ` <div class="cEmpresa">
+        <br> <br>
+        <h3>CADASTRO EFETUADO COM SUCESSO</h3>
+        <br> <br>
+        <a ><button onclick="fechar(), preencheDadoss()" >FECHAR</button></a>
+            </div>`
+    } 
+}
+if(localStorage.getItem('empresaR') == null) {localStorage.setItem('empresaR', '[]')}
+
+function fechar() {
+    cdrasto.innerHTML = ''
+}
+function regarregaEmpresass() {
+    const cdrasto = document.querySelector('#empresasss')
+    const empre = JSON.parse(localStorage.getItem('empresaR'))
+    console.log(empre[0])
+    for(let i = 0; i < empre.length; i++){
+       
+        cdrasto.innerHTML += `<option value="${i}" >${empre[i].razao} - ${empre[i].cnpj}</option>`
+    }
+
+}
+function preencheDadoss() {
+    const posicao = document.querySelector('#empresasss').selectedIndex
+
+    console.log(posicao)
+
+    const empre = JSON.parse(localStorage.getItem('empresaR'))
+    cnpj.value = empre[posicao].cnpj
+    mei.value = empre[posicao].razao
+    local.value = empre[posicao].cidade
+}
+//preencheDadoss()
 const linkURL = "/editaistopo"
 // "urlS": urls,
 // "dataP": abertura,

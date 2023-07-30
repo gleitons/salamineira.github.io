@@ -256,12 +256,12 @@ button{
 	width: 20px;
 }
 .apareceInfo {
-	animation: anoInfo 200ms linear;
+	animation: anoInfo 100ms  linear;
 }
 @keyframes anoInfo {
 	0% {
 		opacity: 0;
-		margin-top: -10px;
+		
 	}
 }
 #cidadeC  {

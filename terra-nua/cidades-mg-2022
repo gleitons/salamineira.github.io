@@ -1,6 +1,16 @@
 [
   {
     "ano": 2022,
+    "nome": "Lagoa dos Patos",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "2.750,00",
+    "aptdaoRestrita": "1.650,00",
+    "pastagemPlantada": "1.350,00",
+    "pastagemNatural": "650,00",
+    "reserva": "550,00"
+  },
+  {
+    "ano": 2022,
     "nome": "Abadia dos Dourados",
     "aptidaoBoa": "20.800,00",
     "aptdaoRegular": "18.200,00",
@@ -3955,16 +3965,7 @@
     "pastagemNatural": "6.500,00",
     "reserva": "7.500,00"
   },
-  {
-    "ano": 2022,
-    "nome": "Lagoa dos Patos",
-    "aptidaoBoa": "4.500,00",
-    "aptdaoRegular": "2.750,00",
-    "aptdaoRestrita": "1.650,00",
-    "pastagemPlantada": "1.350,00",
-    "pastagemNatural": "650,00",
-    "reserva": "550,00"
-  },
+ 
   {
     "ano": 2022,
     "nome": "Lagoa Dourada",

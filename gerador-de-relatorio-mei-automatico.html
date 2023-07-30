@@ -31,6 +31,8 @@
     <script>  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'UA-133729569-2');</script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.1/jspdf.min.js"></script>
+
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <!-- <script src="/scripts/jquery-3.3.1.min.js"></script>
     <script src="/scripts/jspdf.min.js"></script> -->
     <script src="/scripts/gerador-de-pdf.js"></script>
@@ -106,6 +108,52 @@
                     <div>
                         <h2>Relatório mensal de receita bruta MEI - GRÁTIS</h2>
                         <h3>Insira as informações abaixo:</h3>
+                      
+                        <div class="sCNPJ">
+                            <div>
+                                <span>beta</span> Insira seu CNPJ: <input type="text" name="" id="pesquisaCN"
+                                    placeholder="ex: 26300217000150" value=""><input type="button" onclick="cadastroCNPJB()"
+                                    value="Cadastrar">
+                            </div>
+                        </div>
+                        <style>
+                            .cEmpresa {
+                                width: 70%;
+                                background-color: rgb(181, 218, 248);
+                                padding: 10px;
+                                margin: 10px ;
+                            }
+                            .cEmpresa input {
+                                width: 100%;
+                                padding: 5px;
+                            }
+                            .cEmpresa button {
+                                padding: 10px;
+                                cursor: pointer;
+                                border: black solid 1px;
+                            }
+                            .cEmpresa button:hover {
+                                background-color: rgb(136, 236, 168);
+                                border: black solid 1px;
+                            }
+                            .cEmpresa button:active {
+                                background-color: rgb(0, 107, 34);
+                                border: none;
+                            }
+                            
+                        </style>
+                        
+                       
+                        <div id="vejamosS"> 
+                            
+            
+                        </div>
+                        <div style="margin: 10px auto;">
+                            <p>Selecione a Empresa</p>
+                            <select name="" id="empresasss" onchange="preencheDadoss()">
+                                
+                            </select>
+                        </div>
                         <div class="tabelaRelatorio">
                             <div class="inserirInfo">
                                 <div class="cEsq">
@@ -123,15 +171,15 @@
 
                                 </div>
                                 <div class="cDir">
-                                    <input type="number" name="" min="1" max="14" placeholder="CNPJ - Numeros" onkeypress="if (!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;"   id="cnpj"><br>
+                                    <input type="text" name="" min="1" max="14" placeholder="CNPJ - Numeros" onkeypress="if (!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;"   id="cnpj"><br>
                                     <input type="text" name="" placeholder="Razão" id="mei"><br>
                                     <input type="date" name="" id="dataIni"> à <input type="date" name="" id="dataF"><br>
-                                    <input type="number" name=""  placeholder="Venda sem Nota"id="revendaSemNota"><br>
-                                    <input type="number" placeholder="Venda com nota"name="" id="revendaComNota"><br>
-                                    <input type="number" placeholder="Industria sem nota" name="" id="IndustrialSemNota"><br>
-                                    <input type="number" placeholder="Industria com nota" name="" id="IndustrialComNota"><br>
-                                    <input type="number" placeholder="Serviço sem nota" name="" id="servicoSemNota"><br>
-                                    <input type="number" name="" placeholder="Serviço com nota" id="servicoComNota"><br>
+                                    <input type="number" name=""  placeholder="Venda sem Nota" value="0" id="revendaSemNota"><br>
+                                    <input type="number" placeholder="Venda com nota"name="" value="0" id="revendaComNota"><br>
+                                    <input type="number" placeholder="Industria sem nota" name="" value="0" id="IndustrialSemNota"><br>
+                                    <input type="number" placeholder="Industria com nota" name="" value="0" id="IndustrialComNota"><br>
+                                    <input type="number" placeholder="Serviço sem nota" name="" value="0" id="servicoSemNota"><br>
+                                    <input type="number" name="" placeholder="Serviço com nota" value="0" id="servicoComNota"><br>
                                     <input type="text" name="" placeholder="Local" id="local"><br>
                                     <input type="date" name="" placeholder="Data" id="datadoLocal"> 
                                 </div>    
