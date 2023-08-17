@@ -4417,9 +4417,9 @@
   },
   {
     "id": 0,
-    "nome": "IRMÃ DE TASSIANA BRAGA",
+    "nome": "ANNE FONSECA BRAGA CARVALHO",
     "sexo": "f",
-    "imagem": "",
+    "imagem": "/falecimento/anne-braga.png",
     "nascimento": "",
     "falecimento": "29/03/2022",
     "nota": "",
@@ -4427,9 +4427,9 @@
     "mae": "",
     "natural": "Lagoa dos Patos - MG",
     "estadoFalecimento": "MG",
-    "LocalFalecimento": "Varzea da Palma",
+    "LocalFalecimento": "lagoa dos patos",
     "estado": "MG",
-    "apelido": "Edite e complete os dados"
+    "apelido": "Anne Braga"
   },
   {
     "id": 0,
