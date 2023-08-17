@@ -25,7 +25,7 @@
         .convite {
             max-width: 576px;
             margin: auto;
-            background-image: url('./confirmacao.jpg');
+            background-image: url('./confirmacao-2.png');
             height: 100vh;
             background-size: cover;
             background-position: center;
@@ -48,7 +48,7 @@
         }
 
         .nomeCompleto textarea {
-            margin-top: 7em;
+
             text-align: center;
             width: 100%;
             color: white;
@@ -132,6 +132,8 @@
             text-align: center;
             margin: 20px auto;
             line-height: 3em;
+            max-height: 65vh;
+            overflow: auto;
         }
 
         .listas li {
@@ -162,9 +164,40 @@
         }
 
         .explosao {
-            background-image: url('./convidado.gif');
+            background-image: url('./confirmacao-2.png');
 
 
+        }
+
+        .vcConvidado {
+            background: rgba(60, 60, 60, 0.5);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            text-align: center;
+            margin-top: 20%;
+            color: rgb(238, 191, 62);
+
+        }
+
+        .vcConvidado p {
+            font-size: 2em;
+        }
+
+        .vcConvidado h3 {
+            font-size: 3em;
+        }
+
+        @media (max-width: 547px) {
+            .vcConvidado p {
+                font-size: 1em;
+            }
+
+            .vcConvidado h3 {
+                font-size: 2em;
+            }
         }
     </style>
 </head>
@@ -206,14 +239,17 @@
             method="post">
             <div id="tiraClass" class="convite explosao">
                 <div class="informacao">
-                    <br> <br> <br> <br>
+                    <div class="vcConvidado">
+                        <p>VOCÊ FOI CONVIDADO(A)</p>
+                        <h3>COQUETEL COM EMPRESÁRIOS</h3>
+                    </div>
                     <div class="nomeCompleto">
                         <textarea type="text" name="entry.1402204381" id="nomeConvidado" cols="10" rows="2"></textarea>
 
                     </div>
                     <div class="btnConfirma">
                         <button type="submit">CONFIRMAR</button>
-                        <button >SAIR</button>
+                        <button>SAIR</button>
                         <!-- <button>TALVEZ</button>
                         <button>NÃO VOU</button> -->
                     </div>
@@ -231,25 +267,36 @@
             const response = await fetch('./convidados')
             const data = await response.json()
             nomeLista.innerHTML = `<p>SELECIONE O CONVIDADO</p>`
-            if(nomeI.length != 0) {
-            var achados = []
-            data.map((convidados, index) => {
-               
+            if (nomeI.length != 0) {
+                var achados = []
+                data.map((convidados, index) => {
 
-                if (convidados.nome.includes(nomeI) == true) {
-                    
 
-                    nomeLista.innerHTML += `<li onclick = "mostra(${index})" id="n${index}">${convidados.nome}</li>`
-                    achados.push('1')
+                    if (convidados.nome.includes(nomeI) == true) {
+                       
+
+                        const minhaFrase = convidados.nome.toLowerCase()
+                        const palavras = minhaFrase.split(" ");
+
+                        for (let i = 0; i < palavras.length; i++) {
+                            palavras[i] = palavras[i][0].toUpperCase() + palavras[i].substr(1);
+                        }
+
+                        palavras.join();
+                        nomeC = palavras.toString().replace(/,/g, " ")
+                       
+
+                        nomeLista.innerHTML += `<li onclick = "mostra(${index})" id="n${index}">${nomeC}</li>`
+                        achados.push('1')
+                    }
+
+                })
+                if (achados.length == 0) {
+                    nomeLista.innerHTML = `<p>CONVIDADO NÃO ENCONTRADO</p>`
                 }
-
-            })
-            if(achados.length == 0) {
-                nomeLista.innerHTML = `<p>CONVIDADO NÃO ENCONTRADO</p>`
+            } else {
+                nomeLista.innerHTML = `<p>DIGITE UM NOME</p>`
             }
-        } else {
-            nomeLista.innerHTML = `<p>DIGITE UM NOME</p>`
-        }
 
 
 
@@ -261,7 +308,7 @@
             const mostraConvite = document.querySelector('#mostraConvite')
             esconde.style.display = 'none'
             mostraConvite.style.display = 'block'
-            const dadoN = document.querySelector(`#n${dados}`).textContent.toLowerCase()
+            const dadoN = document.querySelector(`#n${dados}`).textContent
             nomeConvidado.value = dadoN
 
         }
@@ -269,9 +316,10 @@
             const tiraClass = document.querySelector('#tiraClass')
             tiraClass.classList.remove('explosao')
         }
+        //tiraExplosion()
         const reiniciar = document.querySelectorAll('button')[2]
 
-        reiniciar.addEventListener('click', (e)=> {
+        reiniciar.addEventListener('click', (e) => {
             e.preventDefault()
             reset()
         })

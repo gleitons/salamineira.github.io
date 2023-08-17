@@ -48,7 +48,7 @@
         "telefone": "0"
     }, {
         "apelido": "GUILA",
-        "nome": "GUILHERME BARBOSA DA SILVA 12604269635",
+        "nome": "GUILHERME BARBOSA DA SILVA",
         "razao": "0",
         "fantasia": "0",
         "telefone": "0"
@@ -216,13 +216,13 @@
         "telefone": "0"
     }, {
         "apelido": "DAYANE",
-        "nome": "DAYANE DE JESUS SOARES SOUZA 09107124686",
+        "nome": "DAYANE DE JESUS SOARES SOUZA",
         "razao": "  DJ COMERCIAL   ",
         "fantasia": "0",
         "telefone": "0"
     }, {
         "apelido": "VIVIANE",
-        "nome": "VIVIANE NERES DA SILVA - ME",
+        "nome": "VIVIANE NERES DA SILVA",
         "razao": "CENTRAL COPIAS",
         "fantasia": "0",
         "telefone": "0"
@@ -240,14 +240,14 @@
         "telefone": "0"
     }, {
         "apelido": "SOFIA DE TIDE",
-        "nome": "SOFIA DAS GRACAS MENDES LEITE",
+        "nome": "SOFIA DAS GRAÇAS MENDES LEITE",
         "razao": "TIDE BAR",
         "fantasia": "0",
         "telefone": "0"
     }, {
         "apelido": "DUCHA",
         "nome": "ROBERTO ALVES DA FONSECA",
-        "razao": "R A FDISTRIBUIDORA DE BEBIDAS",
+        "razao": "R A F DISTRIBUIDORA DE BEBIDAS",
         "fantasia": "0",
         "telefone": "0"
     }, {
@@ -384,6 +384,13 @@
         "razao": "SEMENTES AGROFORTE LTDA - ARMAZEN AGROFORTE",
         "fantasia": "0",
         "telefone": "38 9830-4344"
+    }
+    , {
+        "apelido": "VANDIM",
+        "nome": "HERCULES VANDY DURÃES DA FONSECA",
+        "razao": "0",
+        "fantasia": "0",
+        "telefone": "0"
     }, {
         "apelido": "JOSE VICENTE",
         "nome": "JOSE VICENTE ALVES DE OLIVEIRA",
@@ -457,12 +464,6 @@
         "fantasia": "0",
         "telefone": "0"
     }, {
-        "apelido": "NILCE",
-        "nome": "MARIA NILCE SOARES RAMOS",
-        "razao": "0",
-        "fantasia": "0",
-        "telefone": "0"
-    }, {
         "apelido": "ROMARIO",
         "nome": "CARLOS ROMARIO GONÇALVES QUEIROZ",
         "razao": "BARBEARIA CR CORTE",
@@ -473,6 +474,12 @@
         "nome": "LUCAS FELIX MENDES",
         "razao": "0",
         "fantasia": "0",
+        "telefone": "0"
+    }, {
+        "apelido": "JHESSIK",
+        "nome": "JHESSYK DAIENY REIS BRITO",
+        "razao": "0",
+        "fantasia": "SONHOS MODA INFANTOJUVENIL",
         "telefone": "0"
     }, {
         "apelido": "LUCIANA",
