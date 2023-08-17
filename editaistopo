@@ -1,5 +1,25 @@
 [
   {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4005/",
+    "dataP": "03/08/2023",
+    "processo": "PROC. 047/2023",
+    "publicado": "",
+    "abertura": "03/08/2023",
+    "modalidade": "DispensaTERMO DE COOPERAÇÃO",
+    "situacao": "Em andamento",
+    "infolicita": "CELEBRAÇÃO DE TERMO DE COOPERAÇÃO PARA O FORNECIMENTO DE LICENÇA DE USO DO SISTEMA ELETRÔNICO PARA A REALIZAÇÃO DAS LICITAÇÕES NA FORMA ELETRÔNICA NO MUNICIPIO DE LAGOA DOS PATOS/MG."
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4004/",
+    "dataP": "",
+    "processo": "PROC. 046/2023 DISPENSA 005/2023",
+    "publicado": "",
+    "abertura": "",
+    "modalidade": "Dispensa",
+    "situacao": "Em andamento",
+    "infolicita": "AQUISIÇÃO DE COLORÍMETRO DIGITAL PARA REALIZAÇÃO DE MONITORAMENTO, MEDIÇÃO E CONTROLE DE QUALIDADE DA ÁGUA EM ATENDIMENTO AS DEMANDAS DA SECRETARIA DE SAÚDE DENTRO DA VIGILÂNCIA AMBIENTAL DO MUNICÍPIO DE LAGOA DOS PATOS/MG\n"
+  },
+  {
     "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3973/",
     "dataP": "",
     "processo": "PROC. 045/2023 INEX. 12/2023",
@@ -78,25 +98,5 @@
     "modalidade": "PREGÃO PRESENCIAL",
     "situacao": "Aberta",
     "infolicita": "REGISTRO DE PREÇO PARA AQUISIÇÃO DE MATERIAIS ESPORTIVOS PARA MANUTENÇÃO DAS ATIVIDADES DA SECRETARIA MUNICIPAL DE ESPORTE DE LAGOA DOS PATOS/MG"
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3940/",
-    "dataP": "01/08/2023",
-    "processo": "PROC. 037/2023 PP SRP 015/2023",
-    "publicado": "13/07/2023",
-    "abertura": "01/08/2023",
-    "modalidade": "PREGÃO PRESENCIAL",
-    "situacao": "AbertaEm andamento",
-    "infolicita": "REGISTRO DE PREÇOS PARA AQUISIÇÃO DE ELETROELETRÔNICOS, EQUIPAMENTOS E MATERIAIS DE INFORMÁTICA DESTINADOS A ATENDER DIVERSAS SECRETARIAS MUNICIPAIS DE LAGOA DOS PATOS/MG"
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3939/",
-    "dataP": "27/07/2023",
-    "processo": "PROC. 036/2023 PP SRP 014/2023",
-    "publicado": "13/07/2023",
-    "abertura": "27/07/2023",
-    "modalidade": "PREGÃO PRESENCIAL",
-    "situacao": "Em andamento",
-    "infolicita": "REGISTRO DE PREÇOS PARA AQUISIÇÃO DE MOBILIÁRIO EM GERAL, ELETRODOMÉSTICOS E OUTROS PARA ATENDER AS DIVERSAS SECRETARIAS MUNICIPAIS DE LAGOA DOS PATOS/MG"
   }
 ]
