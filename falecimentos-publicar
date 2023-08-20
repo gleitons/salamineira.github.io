@@ -1120,11 +1120,11 @@
     "apelido": "Dona Angelina"
   },
   {
-    "id": 9,
+    "id": "",
     "nome": "PAULO FERNANDES",
     "sexo": "m",
-    "imagem": "",
-    "nascimento": "",
+    "imagem": "/falecimento/paulo-catirino.png",
+    "nascimento": "20/06/1944",
     "falecimento": "19/11/2022",
     "nota": "",
     "obito": "Não identificado",
@@ -1217,14 +1217,14 @@
   },
   {
     "id": 8,
-    "nome": "BRUNO PISCA",
+    "nome": "BRUNO PEREIRA ALVES",
     "sexo": "m",
-    "imagem": "",
-    "nascimento": "",
+    "imagem": "/falecimento/bruno-pisca.png",
+    "nascimento": "24/07/1999",
     "falecimento": "03/12/2022",
     "nota": "Não fiquem admirados com isso pois vem a hora em que todos os que estão nos túmulos memoriais ouviram a voz deli e sairão . joão 5:28",
     "obito": "Não identificado",
-    "mae": "",
+    "mae": "ROSIMAR PEREIRA DOS SANTOS",
     "natural": "Lagoa dos Patos - MG",
     "estadoFalecimento": "Minas Gerais",
     "LocalFalecimento": "Lagoa dos Patos",
@@ -4417,9 +4417,9 @@
   },
   {
     "id": 0,
-    "nome": "IRMÃ DE TASSIANA BRAGA",
+    "nome": "ANNE FONSECA BRAGA CARVALHO",
     "sexo": "f",
-    "imagem": "",
+    "imagem": "/falecimento/anne-braga.png",
     "nascimento": "",
     "falecimento": "29/03/2022",
     "nota": "",
@@ -4427,9 +4427,9 @@
     "mae": "",
     "natural": "Lagoa dos Patos - MG",
     "estadoFalecimento": "MG",
-    "LocalFalecimento": "Varzea da Palma",
+    "LocalFalecimento": "lagoa dos patos",
     "estado": "MG",
-    "apelido": "Edite e complete os dados"
+    "apelido": "Anne Braga"
   },
   {
     "id": 0,
