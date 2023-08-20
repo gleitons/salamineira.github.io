@@ -729,23 +729,64 @@ function localizacaoEmpresas() {
             nomeChave.push(empresaL.id[i])
         }
 
-        infoVisivel.innerHTML += `
-        <div class="btnEmpresa" >                   
-                <div class="empresasSituado" id="id_0" >
-                    <div  class="dadosEmp">
-                        <img class="imgSetor" src="./imgguia/geral-gps.png" alt="">
-                        <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
+
+
+        const btnEmpresa = document.createElement('div')
+        btnEmpresa.classList = 'btnEmpresa'
+        const empresasSituado = document.createElement('div')
+        empresasSituado.classList = 'empresasSituado'
+        empresasSituado.setAttribute('onclick', `id_${index}`)
+
+        const dadosEmp = document.createElement('div')
+        dadosEmp.classList = 'dadosEmp'
+        dadosEmp.setAttribute('onclick', `favoritarEmpresa(${index})`)
+
+        const imgSetor = document.createElement('img')
+        imgSetor.classList = 'imgSetor'
+        imgSetor.src = './imgguia/geral-gps.png'
+        imgSetor.alt = 'Empresas Locais Lagoa dos Patos MG'
+
+        const favoritar = document.createElement('img')
+        favoritar.classList = 'favoritar'
+        favoritar.src = './imgguia/add-favorito.png'
+        favoritar.alt = 'Favoritos Locais Lagoa dos Patos MG'
+        favoritar.setAttribute('id', `iconFavo${index}`)
+
+
+        const infoDaEmpresa = document.createElement('div')
+        infoDaEmpresa.classList = 'infoDaEmpresa'
+        infoDaEmpresa.setAttribute('onclick', `verEmpresaShow(${index})`)
+
+        const liInfo = document.createElement('li')
+        liInfo.innerHTML = `<span>${data[index].nomeFantasia}</span> <br> ${data[index].razaoSocial} <br> ${data[index].cnpjN} <p>Ver</p>`
+        infoDaEmpresa.appendChild(liInfo)
+
+        dadosEmp.appendChild(imgSetor)
+        //dadosEmp.appendChild(favoritar)
+       
+        empresasSituado.appendChild(dadosEmp)
+        empresasSituado.appendChild(infoDaEmpresa)
+
+        btnEmpresa.appendChild(empresasSituado)
+
+        infoVisivel.appendChild(btnEmpresa)
+    //     infoVisivel.innerHTML += `
+    //     <div class="btnEmpresa" >                   
+    //             <div class="empresasSituado" id="id_0" >
+    //                 <div  class="dadosEmp">
+    //                     <img class="imgSetor" src="./imgguia/geral-gps.png" alt="">
+    //                     <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
                         
-                    </div>
-                    <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
-                    <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${nomeChave} </li>
-                        <p>Ver</p>
-                    </div>
+    //                 </div>
+    //                 <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
+    //                 <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${nomeChave} </li>
+    //                     <p>Ver</p>
+    //                 </div>
                    
-                </div>
+    //             </div>
            
-        </div>
-      `
+    //     </div>
+    //   `
 
 
     })
