@@ -13,7 +13,12 @@
 </head>
 
 <body onclick="contadorFavorite()">
+    
     <header>
+        <div class="loadFull" id="loadFull" style="display: none;">
+            <h2>CARREGANDO...</h2>
+            <h3>AGUARDE</h3>
+        </div>
         <div>
             <!-- <p>FUTURO CONSULTORIA</p> -->
             <div class="SearchB">
@@ -23,7 +28,7 @@
                 <a href="/app"><img src="./imgguia/brasao-lagoa.jpg" alt=""></a>
                 <input type="text" id="searchbar" onkeyup="buscaEmpresa()" onclick="localizaEmpresas()" name="search"
                     placeholder="Busca">
-                <a><img src="./imgguia/buscar-guia.png" alt=""></a>
+                <a onclick="localizaEmpresas()"><img src="./imgguia/buscar-guia.png" alt=""></a>
 
             </div>
             <div class="menuTop">
@@ -78,6 +83,7 @@
                 <li><img src="./imgguia/dinner-table.png" alt=""> <br>
                     Almoço</li>
             </a>
+          
             <a onclick="mercado()">
                 <li><img src="./imgguia/carrinho-de-compras.png" alt=""> <br>
                     Mercado</li>
@@ -127,6 +133,10 @@
             <a onclick="empresaPublicas()">
                 <li><img src="./imgguia/governo.png" alt=""> <br>
                     Públicos</li>
+            </a>
+            <a onclick="hotel()">
+                <li><img src="./imgguia/hotel.png" alt=""> <br>
+                    Hotel</li>
             </a>
 
             <a onclick="maisEmpresas()">

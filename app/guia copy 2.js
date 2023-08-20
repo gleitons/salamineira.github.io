@@ -3,90 +3,12 @@ var iconesNav = document.getElementsByClassName('iconesNav')[0]
 var linkSelect = iconesNav.getElementsByTagName('a')
 
 var urlEmpresas = '/empresas'
-const pegaEmpresa = async () => {
-    const response = await fetch(urlEmpresas);
-    const data = await response.json();
-    localStorage.setItem('empresasLocais', JSON.stringify(data))
-}
-const aumenta = 1
-pegaEmpresa();
 
-function restaurante() {
-    fechaEmpresaL()
-    infoId.innerHTML = 'Carregando..'
-    apagaSeleciona()
-    linkSelect[0].classList.add('addSeleciona')
-    infoVisivel.innerHTML = ''
-    const inicio = document.querySelector('#inicio')   
-   
-    const data = JSON.parse(localStorage.getItem('empresasLocais'))
 
-    data.map((empresaL, index) => {
-        const restaurante = "restaurante-gps.png"
-        const mercado = "mercado-gps.png"
-        const padaria = "padaria-gps.png"
-        for (let i = 0; i < empresaL.id.length; i++) {
-            if (empresaL.id[i] == "restaurante") {
-                infoVisivel.innerHTML += ` 
-                <div class="btnEmpresa" >                   
-                <div class="empresasSituado" id="id_${index}" >
-                    <div  class="dadosEmp" onclick="favoritarEmpresa(${index})">
-                        <img class="imgSetor" src="./imgguia/restaurante-gps.png" alt="">
-                        <img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt="">
-                        
-                    </div>
-                    <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
-                        <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
-                        <p>Ver</p>
-                    </div>                           
-                </div>                   
-        </div>`
-            }
-        }
-    })
-    infoId.innerHTML = 'Restaurantes';
-    favoritosMarcados()
-}
-function hotel() {
-    fechaEmpresaL()
-    infoId.innerHTML = 'Carregando..'
-    apagaSeleciona()
-    linkSelect[13].classList.add('addSeleciona')
-    infoVisivel.innerHTML = ''
-    const inicio = document.querySelector('#inicio')   
-   
-    const data = JSON.parse(localStorage.getItem('empresasLocais'))
-
-    data.map((empresaL, index) => {
-        const restaurante = "restaurante-gps.png"
-        const mercado = "mercado-gps.png"
-        const padaria = "padaria-gps.png"
-        for (let i = 0; i < empresaL.id.length; i++) {
-            if (empresaL.id[i] == "hotel") {
-                infoVisivel.innerHTML += ` 
-                <div class="btnEmpresa" >                   
-                <div class="empresasSituado" id="id_${index}" >
-                    <div  class="dadosEmp" onclick="favoritarEmpresa(${index})">
-                        <img class="imgSetor" src="./imgguia/restaurante-gps.png" alt="">
-                        <img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt="">
-                        
-                    </div>
-                    <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
-                        <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
-                        <p>Ver</p>
-                    </div>                           
-                </div>                   
-        </div>`
-            }
-        }
-    })
-    infoId.innerHTML = 'Restaurantes';
-    favoritosMarcados()
-}
 async function padariaEmpresas() {
     infoId.innerHTML = 'Carregando...'
     apagaSeleciona()
-    linkSelect[12].classList.add('addSeleciona')
+    linkSelect[2].classList.add('addSeleciona')
     fechaEmpresaL()
     infoVisivel.innerHTML = ''
     const inicio = document.querySelector('#inicio')
@@ -501,7 +423,43 @@ async function animalEmpresas() {
     infoId.innerHTML = 'Ração e Beleza Animal';
     favoritosMarcados()
 }
+async function restaurante() {
+    fechaEmpresaL()
+    infoId.innerHTML = 'Carregando..'
+    apagaSeleciona()
+    linkSelect[0].classList.add('addSeleciona')
+    infoVisivel.innerHTML = ''
+    const inicio = document.querySelector('#inicio')
+    //inicio.remove()
+    const response = await fetch(urlEmpresas);
+    const data = await response.json();
 
+    data.map((empresaL, index) => {
+        const restaurante = "restaurante-gps.png"
+        const mercado = "mercado-gps.png"
+        const padaria = "padaria-gps.png"
+        for (let i = 0; i < empresaL.id.length; i++) {
+            if (empresaL.id[i] == "restaurante") {
+                infoVisivel.innerHTML += ` 
+                <div class="btnEmpresa" >                   
+                <div class="empresasSituado" id="id_${index}" >
+                    <div  class="dadosEmp" onclick="favoritarEmpresa(${index})">
+                        <img class="imgSetor" src="./imgguia/restaurante-gps.png" alt="">
+                        <img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt="">
+                        
+                    </div>
+                    <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
+                        <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
+                        <p>Ver</p>
+                    </div>                           
+                </div>                   
+        </div>`
+            }
+        }
+    })
+    infoId.innerHTML = 'Restaurantes';
+    favoritosMarcados()
+}
 function marcaTop(numero) {
     const marcador = document.querySelectorAll('.menuTop nav a')
     marcador[numero].classList.add('marcado')
@@ -621,7 +579,7 @@ async function favoritosEmpresasOn() {
 }
 
 
- function empresas() {
+async function empresas() {
     desmarcaTop()
     marcaTop(1)
     infoId.innerHTML = 'Carregando...'
@@ -629,65 +587,21 @@ async function favoritosEmpresasOn() {
     infoVisivel.innerHTML = ''
     const inicio = document.querySelector('#inicio')
     //inicio.remove()
-   // const response = await fetch(urlEmpresas);
-    const data =  JSON.parse(localStorage.getItem('empresasLocais'))
+    const response = await fetch(urlEmpresas);
+    const data = await response.json();
     data.map((empresaL, index) => {
-        //<div class="btnEmpresa" > 
-        //<div class="empresasSituado" id="id_${index}" > 
-                //<div  class="dadosEmp" onclick="favoritarEmpresa(${index})"> 
-                    //<img class="imgSetor" src="./imgguia/favorito-gps.png" alt=""> 
-                    //<img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt=""> 
-                //</div> 
-                //<div class="infoDaEmpresa" onclick="verEmpresaShow(${index})"> 
-                        //  <li><span>${data[index].nomeFantasia}</span> <br> ${data[index].razaoSocial} <br> ${data[index].cnpjN}</li> 
-                        //<p>Ver</p> 
-                //</div> 
-            //</div> 
-        //</div>
-        const btnEmpresa = document.createElement('div')
-        btnEmpresa.classList = 'btnEmpresa'
-        const empresasSituado = document.createElement('div')
-        empresasSituado.classList = 'empresasSituado'
-        empresasSituado.setAttribute('onclick', `id_${index}`)
-
-        const dadosEmp = document.createElement('div')
-        dadosEmp.classList = 'dadosEmp'
-        dadosEmp.setAttribute('onclick', `favoritarEmpresa(${index})`)
-
-        const imgSetor = document.createElement('img')
-        imgSetor.classList = 'imgSetor'
-        imgSetor.src = './imgguia/favorito-gps.png'
-        imgSetor.alt = 'Empresas Locais Lagoa dos Patos MG'
-
-        const favoritar = document.createElement('img')
-        favoritar.classList = 'favoritar'
-        favoritar.src = './imgguia/add-favorito.png'
-        favoritar.alt = 'Favoritos Locais Lagoa dos Patos MG'
-        favoritar.setAttribute('id', `iconFavo${index}`)
-
-
-        const infoDaEmpresa = document.createElement('div')
-        infoDaEmpresa.classList = 'infoDaEmpresa'
-        infoDaEmpresa.setAttribute('onclick', `verEmpresaShow(${index})`)
-
-        const liInfo = document.createElement('li')
-        liInfo.innerHTML = `<span>${data[index].nomeFantasia}</span> <br> ${data[index].razaoSocial} <br> ${data[index].cnpjN} <p>Ver</p>`
-        infoDaEmpresa.appendChild(liInfo)
-
-        dadosEmp.appendChild(imgSetor)
-        dadosEmp.appendChild(favoritar)
-       
-        empresasSituado.appendChild(dadosEmp)
-        empresasSituado.appendChild(infoDaEmpresa)
-
-        btnEmpresa.appendChild(empresasSituado)
-        
-
-        
-
-
-
-        infoVisivel.appendChild(btnEmpresa)
+        infoVisivel.innerHTML += ` <div class="btnEmpresa" >                   
+        <div class="empresasSituado" id="id_${index}" >
+            <div  class="dadosEmp" onclick="favoritarEmpresa(${index})">
+                <img class="imgSetor" src="./imgguia/favorito-gps.png" alt="">
+                <img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt="">
+            </div>
+            <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
+                <li><span>${data[index].nomeFantasia}</span> <br> ${data[index].razaoSocial} <br> ${data[index].cnpjN} </li>
+                <p>Ver</p>
+            </div>
+        </div>
+</div>`
         // console.log(empresaL.id.length)
         // for(let i = 0; i < empresaL.id.length; i++ ) {
         //  
@@ -701,17 +615,7 @@ async function favoritosEmpresasOn() {
     infoId.innerHTML = 'Empresas'
 
 }
-function localizaEmpresas() {
-    const loadF = document.querySelector('#loadFull')
-    loadF.style.display = 'block'
-    setTimeout('localizacaoEmpresas()', 1000)
-
-    
-    
-}
-function localizacaoEmpresas() {
-    const loadF = document.querySelector('#loadFull')
-    loadF.style.display = 'block'
+async function localizaEmpresas() {
     infoId.innerHTML = 'Buscando...'
     apagaSeleciona();
     fechaEmpresaL();
@@ -719,8 +623,8 @@ function localizacaoEmpresas() {
 
     const inicio = document.querySelector('#inicio')
     //inicio.remove()
-    //const response = await fetch(urlEmpresas);
-    const data = JSON.parse(localStorage.getItem('empresasLocais'))
+    const response = await fetch(urlEmpresas);
+    const data = await response.json();
     data.map((empresaL, index) => {
         var nomeChave = []
 
@@ -749,14 +653,13 @@ function localizacaoEmpresas() {
 
 
     })
-    loadF.style.display = 'none'
     infoId.innerHTML = ''
 
 }
 
 async function maisEmpresas() {
     apagaSeleciona()
-    linkSelect[14].classList.add('addSeleciona')
+    linkSelect[13].classList.add('addSeleciona')
     infoId.innerHTML = 'Carregando...'
     fechaEmpresaL()
     infoVisivel.innerHTML = ''
