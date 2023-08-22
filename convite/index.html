@@ -52,6 +52,12 @@
             margin: auto;
         }
 
+        .nomeCompleto {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 8px;
+        }
+
         .nomeCompleto textarea {
 
             text-align: center;
@@ -59,7 +65,7 @@
             color: white;
             font-family: cursive;
             font-size: 1.8em;
-            background: rgba(240, 135, 0, 0.5);
+            background: rgb(218, 156, 75);
             box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
             backdrop-filter: blur(4px);
             -webkit-backdrop-filter: blur(4px);
@@ -166,6 +172,7 @@
         .nomeCompletoF button {
             padding: 5px;
             margin: 10px auto;
+
         }
 
         .explosao {
@@ -182,7 +189,7 @@
             border-radius: 10px;
             border: 1px solid rgba(255, 255, 255, 0.18);
             text-align: center;
-            margin-top: 20%;
+            /* margin-top: 20%; */
             color: rgb(238, 191, 62);
 
         }
@@ -193,6 +200,17 @@
 
         .vcConvidado h3 {
             font-size: 3em;
+        }
+
+        .btnpe {
+            position: fixed;
+            bottom: -5px;
+            width: 100%;
+
+        }
+
+        .btnpe img {
+            max-width: 575px;
         }
 
         @media (max-width: 547px) {
@@ -214,12 +232,16 @@
             <button type="submit">Enviar</button>
         </form>
     </div> -->
-    <div id="esconde">
+    <div id="esconde" style="display: block;">
         <div class="conviteFundo">
             <div class="informacao">
-                <br> <br> <br> <br>
+
+                <div class="vcConvidado">
+                    <p>CONFIRME SUA PARTICIPAÇÃO</p>
+                    <h3>INSIRA SEU NOME</h3>
+                </div>
                 <div class="nomeCompletoF">
-                    <p>INSIRA SEU NOME INICIAL</p>
+                    <p>Pesquise agora mesmo</p>
                     <input type="text" id="nome" autocomplete="off">
                     <button onclick="confirma()">Pesquisar</button>
 
@@ -230,12 +252,20 @@
 
                     </ul>
                 </div>
+
                 <!-- <div class="btnConfirma">
                     <button type="submit" >CONFIRMAR</button>
                    
                 </div> -->
+
             </div>
+            <div class="btnpe">
+                <img src="./bottom-pe.png" alt="">
+            </div>
+
         </div>
+
+
     </div>
 
     <div id="mostraConvite" style="display: none;">
@@ -249,7 +279,14 @@
                         <h3>COQUETEL COM EMPRESÁRIOS</h3>
                     </div>
                     <div class="nomeCompleto">
-                        <textarea type="text" name="entry.1402204381" id="nomeConvidado" cols="10" rows="2"></textarea>
+                        Nome:<textarea type="text" name="entry.1100968284" id="nomeConvidado" cols="8"
+                            rows="2"></textarea>
+                        CPF:<textarea type="text" name="entry.445871543" id="cpfConvidado" cols="8" rows="1"
+                            placeholder="Insira seu CPF"></textarea>
+                        Telefone:<textarea type="text" name="entry.170339446" id="numeroConvidado" cols="2" rows="1"
+                            placeholder="Ex: 38 99916-7781"></textarea>
+                        CNPJ:<textarea type="text" name="entry.602949084" id="numeroConvidado" cols="2" rows="1"
+                            placeholder="Ex: 26.300.217/0001-12"></textarea>
 
                     </div>
                     <div class="btnConfirma">
@@ -260,6 +297,7 @@
                     </div>
                 </div>
             </div>
+
 
 
         </form>
@@ -278,7 +316,7 @@
 
 
                     if (convidados.nome.includes(nomeI) == true) {
-                       
+
 
                         const minhaFrase = convidados.nome.toLowerCase()
                         const palavras = minhaFrase.split(" ");
@@ -289,9 +327,14 @@
 
                         palavras.join();
                         nomeC = palavras.toString().replace(/,/g, " ")
-                       
 
-                        nomeLista.innerHTML += `<li onclick = "mostra(${index})" id="n${index}">${nomeC}</li>`
+
+                        nomeLista.innerHTML +=
+                            `<li onclick = "mostra(${index})" id="n${index}">${nomeC}</li>
+                            <div style="display: none;">
+                            <span id="cpfP${index}">${convidados.cpf}</span>
+                            <span id="telefoneP${index}">${convidados.telefone}</span>
+                            </div>`
                         achados.push('1')
                     }
 
@@ -304,8 +347,10 @@
             }
 
 
-
         }
+
+
+
         function mostra(dados) {
             setTimeout(' tiraExplosion()', 1000)
             const esconde = document.querySelector('#esconde')
@@ -314,9 +359,14 @@
             esconde.style.display = 'none'
             mostraConvite.style.display = 'block'
             const dadoN = document.querySelector(`#n${dados}`).textContent
+            const cpfC = document.querySelector(`#cpfP${dados}`).textContent
+            const numeroC = document.querySelector(`#telefoneP${dados}`).textContent
             nomeConvidado.value = dadoN
+            cpfConvidado.value = cpfC
+            numeroConvidado.value = numeroC
 
         }
+
         function tiraExplosion() {
             const tiraClass = document.querySelector('#tiraClass')
             tiraClass.classList.remove('explosao')
@@ -328,10 +378,12 @@
             e.preventDefault()
             reset()
         })
+
         function reset() {
 
             location.reload()
         }
+        nome.value = location.hash.replace('#', '').replace(/-/g, ' ')
 
         //setInterval('confirma()', 2000)
     </script>
