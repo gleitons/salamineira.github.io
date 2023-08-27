@@ -39,6 +39,32 @@ document.querySelectorAll('.ccc div')[0].addEventListener('click', () => {
 
 })
 
+document.querySelectorAll('.ccc div')[2].addEventListener('click', () => {
+    const numerosUR = `${numeroUrna[0].innerHTML}${numeroUrna[1].innerHTML}${numeroUrna[2].innerHTML}`
+    const nomeUrnaVerifica = document.querySelector('.nomeC').textContent
+    const oNomeNaUrna = document.querySelector('#nomeU').textContent
+
+
+    if (numerosUR.toString().length >= 3 && nomeUrnaVerifica != 'APERTE CORRIGE PARA INSERIR NOVAMENTE' && nomeUrnaVerifica != 'NOME')  {
+
+        new Audio('./tictic.wav').play()
+        document.querySelector('.ofim').style.display = 'block'
+        document.querySelector('.numeroP').style.display = 'none'
+        nomeCompletoC.value = nomeUrnaVerifica;
+        numeroUrC.value = numerosUR
+        nomeurnaC.value = oNomeNaUrna
+        setTimeout('enviarResutVotacao()', 2000)
+       
+
+    }
+
+})
+
+function enviarResutVotacao() {
+    const formulario = document.querySelector('#enviarResultado')
+    formulario.submit();
+}
+
 document.addEventListener('click', () => {
     const numeroInseridoNaUrna = `${numeroUrna[0].innerHTML}${numeroUrna[1].innerHTML}${numeroUrna[2].innerHTML}`
     insereCandidato(numeroInseridoNaUrna)
@@ -53,6 +79,7 @@ async function insereCandidato(numero) {
         data.map((candidato) => {
 
             if (numero == candidato.numero) {
+                new Audio('./achou.wav').play()
 
                 imgUrna.src = `./${numero}.png`
 
@@ -89,8 +116,10 @@ document.querySelectorAll('.candidatos div')[0].addEventListener('click', () => 
 function clickCandidato() {
     const canditadosVisto = document.querySelectorAll('.faceCandidato')
 
+
     for (let i = 0; i < canditadosVisto.length; i++) {
         canditadosVisto[i].addEventListener('click', () => {
+            new Audio('./tictictic.wav').play()
             const insereNumeroUrna = canditadosVisto[i].querySelector('.numeroUrnaH2').innerHTML
             const numeraisU = insereNumeroUrna.split('')
             numeroUrna[0].textContent = numeraisU[0]

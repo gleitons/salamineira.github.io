@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eleições Conselho Tutelar 2023</title>
+    <meta name="description" content="Votação Online das eleiçoes do conselho tutela de Lagoa dos Patos MG, veja os resultados">
+  <meta name="keywords" content="Conselho tutelar, lagoa dos Patos MG, eleiçoes 2023">
+  <meta name="author" content="Sala Mineira">
+
+  <meta property="og:title" content="Eleições Conselho Tutelar 2023" />
+   
+    <meta property="og:url" content="https://salamineira.com/conselho-2023/" />
+    <meta property="og:image" content="./conselho.jpg" />
+    <meta property="og:type" content="website" />
     <link rel="stylesheet" href="./style.css">
     
 </head>
@@ -14,7 +23,11 @@
                 <p>CONSELHO TUTELAR 2023</p>
                 <p>LAGOA DOS PATOS - MG</p>
             </div>
-            <div class="numeroP">
+            <div class="ofim" style="display: none;">
+                <span >FIM</span>
+            </div>
+
+            <div class="numeroP " >
                 <div class="numeroUrna">
                     <div></div>
                     <div></div>
@@ -62,7 +75,7 @@
             </div>
             <!-- <img src="./tela-urna.png" alt=""> -->
         </div>
-        <div class="listaS " id="listaCC">
+        <div class="listaS dnone" id="listaCC">
             <div class="topoCandidatos">
                 <h2>LISTA DE CANDIDATOS</h2>
                 <h1>&#215;</h1>
@@ -73,6 +86,14 @@
 
             </div>
         </div>
+    </div>
+    <a href="https://bit.ly/crie-sua-urna-eletronica" target="_blank"><button>Contrate sua urna também, tenha os relatórios em suas mãos <br>CLIQUE AQUI</button></a>
+    <div style="visibility: hidden;">
+        <form  action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf56zQ2m3A-XO4rQboEdBQzLgXLKGzpuUatQXV_-NarbgMd-Q/formResponse" method="post" id="enviarResultado">
+            <input type="text" name="entry.536812027" id="nomeCompletoC"  >
+            <input type="text" name="entry.244538969" id="nomeurnaC">
+            <input type="text" name="entry.1427943653" id="numeroUrC">
+        </form>
     </div>
     
     <script src="./js.js"></script>

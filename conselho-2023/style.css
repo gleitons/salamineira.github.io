@@ -6,7 +6,7 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .dnone {
-    display: none;
+  display: none;
 }
 .urna {
   position: relative;
@@ -15,7 +15,7 @@
   border: black solid 1px;
 }
 .tela {
-  height: 45vh;
+  height: 38vh;
   background-image: linear-gradient(
     to left,
     rgb(77%, 77%, 77%),
@@ -27,7 +27,7 @@
 }
 .teclado {
   background-color: #5a5a5a;
-  height: 50vh;
+  height: 55vh;
 }
 .teclado img {
   width: 100%;
@@ -163,44 +163,56 @@
   /* border-radius: 10px; */
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+.candidatos div {
+  background-color: orangered;
+  padding: 1em;
+  border: black solid 1px;
+  box-shadow: black 0px 3px 2px 2px;
+  border: black solid 1px;
+}
 .topoCandidatos {
-    padding: 1em;
-    text-align: center;
-    box-shadow: black 0px 2px 5px 0px;
-    z-index: 999;
+  padding: 1em;
+  text-align: center;
+  box-shadow: black 0px 2px 5px 0px;
+  z-index: 999;
 }
 .topoCandidatos h1 {
-    background-color: red;
-    width: fit-content;
-    margin: auto;
-    border-radius: 8px;
-    color: white;
+  background-color: red;
+  width: fit-content;
+  margin: auto;
+  border-radius: 8px;
+  color: white;
 }
 .mostraC {
-    height: 80vh;
-    overflow: auto;
+  height: 80vh;
+  overflow: auto;
 }
 .faceCandidato {
-    display: flex;
-    align-items: center;
-    padding: 1em;
-    margin: 10px auto;
-    width: 100%;
-    justify-content: space-between;
-    background-color: #312c2f;
-
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  margin: 10px auto;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #312c2f;
 }
 
 .faceCandidato:active {
-    background-color: #151515;
-    transform: scale(.98);
+  background-color: #151515;
+  transform: scale(0.98);
 }
 .faceCandidato div {
-    text-align: center;
-    font-size: 2em;
-    color: white;
+  text-align: center;
+  font-size: 2em;
+  color: white;
 }
 .faceCandidato img {
-    width: 30%;
-    border-radius: 8px;
+  width: 30%;
+  border-radius: 8px;
+}
+.ofim {
+    font-size: 6em;
+    text-align: center;
+    width: 100%;    
+   padding-top: .6em;
 }
