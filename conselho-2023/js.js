@@ -23,6 +23,7 @@ document.querySelectorAll('.ccc div')[1].addEventListener('click', () => {
     nomeU.textContent = ""
     for (let index = 0; index < numeroUrna.length; index++) {
         numeroUrna[index].innerHTML = ''
+        document.querySelector('#nomeU').innerHTML = 'CANDIDATO'
 
 
     }
