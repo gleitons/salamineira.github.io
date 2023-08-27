@@ -1,62 +1,71 @@
 [
-    {
-        "nome":"MARÍLIA",
-        "nomecompleto": "Marília Gonçalves Santos",
-        "numero": 111,
-        "imagem": "./111.png"
-    },
-    {
-        "nome":"SIMONE",
-        "nomecompleto": "Simone Aparecida Ramos de Souza",
-        "numero": 115,
-        "imagem": "./115.png"
-    },
-    {
-        "nome":"MANU PERES",
-        "nomecompleto": "Manoelina Peres Alves",
-        "numero": 116,
-        "imagem": "./116.png"
-    },
-    {
-        "nome":"ANDRÉIA DO BARRO",
-        "nomecompleto": "Andréia Soares Ramos",
-        "numero": 120,
-        "imagem": "./120.png"
-    },
-    {
-        "nome":"CLÉIA FELIX",
-        "nomecompleto": "Cléia Felix dos Santos",
-        "numero": 123,
-        "imagem": "./120.png"
-    },
-    {
-        "nome":"LEONORA RABELO",
-        "nomecompleto": "Leonora Rabelo da Silva",
-        "numero": 125,
-        "imagem": "./125.png"
-    },
-    {
-        "nome":"NÁGILA REIS",
-        "nomecompleto": "Nágila fernandes Reis",
-        "numero": 222,
-        "imagem": "./222.png"
-    },
-    {
-        "nome":"WALDIER CABRA",
-        "nomecompleto": "Waldier de Souza Silva",
-        "numero": 223,
-        "imagem": "./223.png"
-    },
-    {
-        "nome":"ALDAIR DAIA",
-        "nomecompleto": "Aldair José Silva Nunes",
-        "numero": 234,
-        "imagem": "./234.png"
-    },
-    {
-        "nome":"EUDIRENE DIDI",
-        "nomecompleto": "Eudirene Aparecida Pereira Alves",
-        "numero": 700,
-        "imagem": "./700.png"
-    }
+  {
+    "nome": "MARÍLIA",
+    "nomecompleto": "Marília Gonçalves Santos",
+    "numero": 111,
+    "imagem": "./111.png",
+    "proposta": ""
+  },
+  {
+    "nome": "SIMONE",
+    "nomecompleto": "Simone Aparecida Ramos de Souza",
+    "numero": 115,
+    "imagem": "./115.png",
+    "proposta": ""
+  },
+  {
+    "nome": "MANU PERES",
+    "nomecompleto": "Manoelina Peres Alves",
+    "numero": 116,
+    "imagem": "./116.png",
+    "proposta": ""
+  },
+  {
+    "nome": "ANDRÉIA DO BARRO",
+    "nomecompleto": "Andréia Soares Ramos",
+    "numero": 120,
+    "imagem": "./120.png",
+    "proposta": ""
+  },
+  {
+    "nome": "CLÉIA FELIX",
+    "nomecompleto": "Cléia Felix dos Santos",
+    "numero": 123,
+    "imagem": "./120.png",
+    "proposta": ""
+  },
+  {
+    "nome": "LEONORA RABELO",
+    "nomecompleto": "Leonora Rabelo da Silva",
+    "numero": 125,
+    "imagem": "./125.png",
+    "proposta": ""
+  },
+  {
+    "nome": "NÁGILA REIS",
+    "nomecompleto": "Nágila fernandes Reis",
+    "numero": 222,
+    "imagem": "./222.png",
+    "proposta": ""
+  },
+  {
+    "nome": "WALDIER CABRA",
+    "nomecompleto": "Waldier de Souza Silva",
+    "numero": 223,
+    "imagem": "./223.png",
+    "proposta": ""
+  },
+  {
+    "nome": "ALDAIR DAIA",
+    "nomecompleto": "Aldair José Silva Nunes",
+    "numero": 234,
+    "imagem": "./234.png",
+    "proposta": ""
+  },
+  {
+    "nome": "EUDIRENE DIDI",
+    "nomecompleto": "Eudirene Aparecida Pereira Alves",
+    "numero": 700,
+    "imagem": "./700.png"
+  }
 ]

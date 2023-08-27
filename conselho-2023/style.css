@@ -48,9 +48,22 @@
   /* border: black solid 1px; */
   width: 50%;
 }
-.numeroP img {
+.dePropostas {
+    position: relative;
+}
+.dePropostas img{
   width: 100%;
   padding: 0.7em;
+  position: relative;
+}
+.dePropostas span {
+   
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #acacacaa;
+    font-size: 1em;
+    
 }
 .numeroUrna {
   display: flex;
@@ -210,9 +223,44 @@
   width: 30%;
   border-radius: 8px;
 }
+.imagemVer {
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+    position: relative;
+}
+.imagemVer span {
+    position: absolute;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    top: 0px;
+    left: 0px;
+    font-size: 2em;
+}
+.imagemVer img {
+    width: 100%;
+}
 .ofim {
     font-size: 6em;
     text-align: center;
     width: 100%;    
    padding-top: .6em;
+}
+.propostasC {
+   
+    width: 100%;
+   
+   
+}
+.propostasC div {
+    margin-top: 1em;
+    
+    height: 45vh;
+    margin: 10px;
+    line-height: 1.5em;
+    padding: 1em;
+    overflow: auto;
+    background-color: white;
 }

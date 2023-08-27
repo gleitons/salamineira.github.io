@@ -33,9 +33,10 @@
                     <div></div>
                     <div></div>
                 </div>
-                <div>
-                    <img id="imgUrna" src="./tela.png" alt="">
+                <div class="dePropostas">
+                    <img  id="imgUrna" src="./tela.png" alt="" onclick="abreImgCandidato()">
                     <p id="nomeU">CANDIDATO</p>
+                    <span>Propostas</span>
                 </div>
                
             </div>
@@ -86,6 +87,22 @@
 
             </div>
         </div>
+        <div class="listaS dnone " id="imgDoC">
+            <div class="imagemVer">
+                <img id="imgSub" src="./111.png" alt="">
+                <span onclick="abreImgCandidato()">&#215;</span>
+                <p id="nomeCC"></p>
+            </div>
+            <div class="propostasC">
+                <a href="https://api.whatsapp.com/send?l=pt-BR&phone=553899167841&text=Ol%C3%A1,Gostaria de adicionar minha proposta como candidato(a) do conselho tutelar Municipal" target="_blank"><button>Nos envie sua proposta como conselheiro e vamos adicionar aqui <br>CLIQUE AQUI</button></a>
+                <div id="propostaDoCandidato">                   
+                    <h2>Ainda sem Proposta Anexa</h2>
+                    <h3>Conselho Tutelar</h3>
+                    <p>É um órgão público municipal, que tem sua origem na lei, integrando-se ao conjunto das instituições nacionais e subordinando-se ao ordenamento jurídico brasileiro. Criado por Lei Municipal e efetivamente implantado, passa a integrar de forma definitiva o quadro das instituições municipais. Desenvolve uma ação contínua e ininterrupta. Sua ação não deve sofrer solução de continuidade, sob qualquer pretexto. Uma vez criado e implantado, não desaparece; apenas renovam-se os seus membros.</p>
+                    <p>Não depende de autorização de ninguém - nem do Prefeito, nem do Juiz - para o exercício das atribuições legais que lhe foram conferidas pelo Estatuto da Criança e do Adolescente: artigos 136, 95, 101 (I a VII) e 129 (I a VII). Em matéria técnica de sua competência, delibera e age, aplicando as medidas práticas pertinentes, sem interferência externa. Exerce suas funções com independência, inclusive para denunciar e corrigir distorções existentes na própria administração municipal relativas ao atendimento às crianças e adolescentes. Suas decisões só podem ser revistas pelo Juiz da Infância e da Juventude, a partir de requerimento daquele que se sentir prejudicado.</p>
+                </div>
+            </div>
+        </div>
     </div>
     <a href="https://bit.ly/crie-sua-urna-eletronica" target="_blank"><button>Contrate sua urna também, tenha os relatórios em suas mãos <br>CLIQUE AQUI</button></a>
     <div style="visibility: hidden;">
@@ -95,6 +112,7 @@
             <input type="text" name="entry.1427943653" id="numeroUrC">
         </form>
     </div>
+    
     
     <script src="./js.js"></script>
 </body>

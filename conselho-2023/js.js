@@ -82,13 +82,13 @@ async function insereCandidato(numero) {
             if (numero == candidato.numero) {
                 new Audio('./achou.wav').play()
 
-                imgUrna.src = `./${numero}.png`
+                imgUrna.src = `./${numero}-min.jpg`
 
                 nomeU.textContent = candidato.nome
                 document.querySelector('.nomeC').textContent = candidato.nomecompleto
             }
             if (numero == '000') {
-                imgUrna.src = `./${numero}.png`
+                imgUrna.src = `./${numero}-min.jpg`
 
                 nomeU.textContent = "BRANCO"
                 document.querySelector('.nomeC').textContent = "VOTO EM BRANCO"
@@ -99,7 +99,7 @@ async function insereCandidato(numero) {
 
 
     } else {
-        imgUrna.src = `./tela.png`
+        imgUrna.src = `./tela-min.jpg`
     }
 
 
@@ -152,4 +152,30 @@ async function geradorDecandidatos() {
     </div>`
     })
     clickCandidato()
+}
+
+
+async function abreImgCandidato() {
+    const response = await fetch('./candidatos')
+    const data = await response.json()
+
+        const imagemD = document.querySelector('#imgDoC')
+        const imgTroca = document.querySelector('#imgUrna').src.replace(/-min.jpg/g, '.png')
+        imagemD.classList.toggle('dnone')
+        console.log(imgTroca)
+        document.querySelector('#imgSub').src = imgTroca
+        const nUrna = `${numeroUrna[0].innerHTML}${numeroUrna[1].innerHTML}${numeroUrna[2].innerHTML}`
+
+        data.map((p) => {
+            if(nUrna == p.numero) {
+                nomeCC.textContent = p.nomecompleto.toUpperCase()
+                if(p.proposta.length > 0){
+                    propostaDoCandidato.innerHTML = p.proposta
+                } else {
+                    //propostaDoCandidato.innerHTML = p.proposta
+                }
+                
+            }
+        })
+
 }
