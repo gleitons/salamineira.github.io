@@ -654,7 +654,6 @@ async function editaisEmAb() {
 document.querySelector('#editaisEmAberto') != null ? editaisEmAb() : ''
 
 
-
 async function geraAba(valor) {
     const valorModal = `exampleModal_${valor}`
     console.log(valorModal)

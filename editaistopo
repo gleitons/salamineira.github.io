@@ -1,5 +1,55 @@
 [
   {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4011/",
+    "dataP": "21/08/2023",
+    "processo": "PROC. 052/2023 CRED. 003/2023",
+    "publicado": "10/08/2023",
+    "abertura": "21/08/2023",
+    "modalidade": "Credenciamento por Inexigibilidade",
+    "situacao": "Aberta",
+    "infolicita": "CREDENCIAMENTO PARA CONTRATAÇÃO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS DE FRETES E TRANSPORTES DE ENCOMENDAS ATENDENDO TODA NECESSIDADE ADMINISTRATIVA DO MUNICIPIO DE LAGOA DOS PATOS/MG"
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4010/",
+    "dataP": "24/08/2023",
+    "processo": "PROC. 051/2023 PP SRP 021/2023",
+    "publicado": "10/08/2023",
+    "abertura": "24/08/2023",
+    "modalidade": "PREGÃO PRESENCIAL",
+    "situacao": "Aberta",
+    "infolicita": "REGISTRO DE PREÇO PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE PODA DE ARVORE ATENDENDO AS NECESSIDADES DA SECRETARIA MUNICIPAL DE OBRAS, TRANSPORTES E SERVIÇOS URBANOS DO MUNICIPIO DE LAGOA DOS PATOS. CONFORME AS ESPECIFICAÇÕES CONSTANTES NO TERMO DE REFERÊNCIA – ANEXO I DESTE EDITAL"
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4009/",
+    "dataP": "24/08/2023",
+    "processo": "PROC. 050/2023 PP SRP 020/2023",
+    "publicado": "10/08/2023",
+    "abertura": "24/08/2023",
+    "modalidade": "PREGÃO PRESENCIAL",
+    "situacao": "Aberta",
+    "infolicita": "REGISTRO DE PREÇO PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS COM MAQUINAS E EQUIPAMENTOS, DESTINADOS A ATENDER AS DEMANDAS DE DIVERSAS SECRETARIAS MUNICIPAIS DE LAGOA DOS PATOS/MG "
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4008/",
+    "dataP": "",
+    "processo": "",
+    "publicado": "",
+    "abertura": "",
+    "modalidade": "Inexigibilidade",
+    "situacao": "Aberta",
+    "infolicita": ""
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4007/",
+    "dataP": "",
+    "processo": "",
+    "publicado": "",
+    "abertura": "",
+    "modalidade": "ADESÃO",
+    "situacao": "Aberta",
+    "infolicita": ""
+  },
+  {
     "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4005/",
     "dataP": "03/08/2023",
     "processo": "PROC. 047/2023",
@@ -48,55 +98,5 @@
     "modalidade": "PREGÃO PRESENCIAL",
     "situacao": "Aberta",
     "infolicita": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE CAPINA E ROÇADA MANUAL PARA LIMPEZA DE RUAS, AVENIDAS E ESTRADAS VICINAIS NO MUNICIPIO DE LAGOA DOS PATOS/MG."
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3970/",
-    "dataP": "17/08/2023",
-    "processo": "PROC. 042/2023 PP SRP 017/2023",
-    "publicado": "01/08/2023",
-    "abertura": "17/08/2023",
-    "modalidade": "PREGÃO PRESENCIAL",
-    "situacao": "Cancelada",
-    "infolicita": "REGISTRO DE PREÇO PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE FRETES, ENCOMENDAS ATENDENDO TODA NECESSIDADE ADMINISTRATIVA DO MUNICÍPIO DE LAGOA DOS PATOS/MG."
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3969/",
-    "dataP": "15/08/2023",
-    "processo": "PROC. 041/2023 PE 01/2023",
-    "publicado": "01/08/2023",
-    "abertura": "15/08/2023",
-    "modalidade": "PREGÃO ELETRÔNICO",
-    "situacao": "Aberta",
-    "infolicita": "REGISTRO DE PREÇO PARA AQUISIÇÃO DE AQUISIÇÃO DE GÊNEROS ALIMENTÍCIOS DESTINADOS AS DIVERSAS SECRETARIAS DE DO MUNICIPIO DE LAGOA DOS PATOS/MG."
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3968/",
-    "dataP": "",
-    "processo": "PROC. 040/2023 INEX. 11/2023",
-    "publicado": "",
-    "abertura": "",
-    "modalidade": "Inexigibilidade",
-    "situacao": "FINALIZADA",
-    "infolicita": "CONTRATAÇÃO DA BANDA FORRÓ DA LIGA PARA APRESENTAÇÃO DE SHOW ARTÍSTICO NO DIA 04 DE AGOSTO DE 2023 NA FESTA DO TITULAR BOM JESUS NO MUNICIPIO DE LAGOA DOS PATOS"
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3966/",
-    "dataP": "02/08/2023",
-    "processo": "PROC. 039/2023 INEX 010/2023",
-    "publicado": "21/07/2023",
-    "abertura": "02/08/2023",
-    "modalidade": "Inexigibilidade",
-    "situacao": "FINALIZADA",
-    "infolicita": "CONTRATAÇÃO DO CANTOR TUTU RAMOS PARA APRESENTAÇÃO DE SHOW ARTÍSTICO NO DIA 05 DE AGOSTO DE 2023 NA FESTA DO TITULAR BOM JESUS NO MUNICIPIO DE LAGOA DOS PATOS"
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3941/",
-    "dataP": "03/08/2023",
-    "processo": "PROC. 038/2023 PP SRP 016/2023",
-    "publicado": "13/07/2023",
-    "abertura": "03/08/2023",
-    "modalidade": "PREGÃO PRESENCIAL",
-    "situacao": "Aberta",
-    "infolicita": "REGISTRO DE PREÇO PARA AQUISIÇÃO DE MATERIAIS ESPORTIVOS PARA MANUTENÇÃO DAS ATIVIDADES DA SECRETARIA MUNICIPAL DE ESPORTE DE LAGOA DOS PATOS/MG"
   }
 ]

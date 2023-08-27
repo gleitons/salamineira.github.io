@@ -906,7 +906,7 @@
   },
   {
     "id": [
-      "hotel"
+      "hotel", "pensão"
     ],
     "cnpj": "15036091000192",
     "cnpjN": "15.036.091/0001-92",
@@ -1060,7 +1060,7 @@
     ],
     "cnpj": "64270663000109",
     "cnpjN": "64.270.663/0001-09",
-    "razaoSocial": "AGROPECUARA VALE DO ANGICAL LTDA",
+    "razaoSocial": "AGROPECUARIA VALE DO ANGICAL LTDA",
     "nomeFantasia": "",
     "imagem": "",
     "tipo": "MATRIZ",
@@ -3168,7 +3168,7 @@
   },
   {
     "id": [
-      "hotel"
+      "hotel", "pensão"
     ],
     "cnpj": "41995706000118",
     "cnpjN": "41.995.706/0001-18",
@@ -3183,6 +3183,36 @@
     "empresaMei": "Sim",
     "endereco": "Rua Cosme e Damião",
     "numero": "21",
+    "complemento": "",
+    "cep": "39360-000",
+    "bairro": "CENTRO",
+    "cidade": "LAGOA DOS PATOS ",
+    "estado": "MG ",
+    "telefone": "38 9813-9437",
+    "email": "ediceliosilva300@gmail.com",
+    "socio": "",
+    "atividadePrincipal": "5590699 - Outros alojamentos não especificados anteriormente",
+    "atividadeSecundaria": "4722901 - Comércio varejista de carnes - açougues 4723700 - Comércio varejista de bebidas 4713002 - Lojas de variedades, exceto lojas de departamentos ou magazines 5590603 - Pensões (alojamento) 5611201 - Restaurantes e similares 5611204 - Bares e outros estabelecimentos especializados em servir bebidas, sem entretenimento",
+    "dataConsulta": "23/07/2022",
+    "todosDados": "CNPJ 41.995.706/0001-18 Razão Social EDIERIQUE APARECIDO PEREIRA DA SILVA Tipo MATRIZ Data Abertura 18/05/2021 Situação Cadastral ATIVA Data da Situação Cadastral 18/05/2021 Capital Social R$ 2.000 Natureza Jurídica 2135 - EMPRESARIO (INDIVIDUAL) Empresa MEI Sim Logradouro 10 R COSME E DAMIAO Número S/N Complemento CEP 39360-000 Bairro CENTRO Município LAGOA DOS PATOS  UF MG  Telefone 38 9871-7903 E-MAIL ediceliosilva300@gmail.com Quadro Societário Atividade Principal 5590699 - Outros alojamentos não especificados anteriormente Atividades Secundárias 4722901 - Comércio varejista de carnes - açougues 4723700 - Comércio varejista de bebidas 4713002 - Lojas de variedades, exceto lojas de departamentos ou magazines 5590603 - Pensões (alojamento) 5611201 - Restaurantes e similares 5611204 - Bares e outros estabelecimentos especializados em servir bebidas, sem entretenimento Data da Consulta 23/07/2022"
+  },
+  {
+    "id": [
+      "hotel", "pensão"
+    ],
+    "cnpj": "41995706000118",
+    "cnpjN": "41.995.706/0001-18",
+    "razaoSocial": "EUDÓXIO LAFETÁ",
+    "nomeFantasia": "PENSÃO DA MATRIZ",
+    "imagem": "",
+    "tipo": "MATRIZ",
+    "abertura": "18/05/2021",
+    "situacao": "ATIVA",
+    "capitalSocial": "2.000",
+    "naturezaJuridica": "2135 - EMPRESARIO (INDIVIDUAL)",
+    "empresaMei": "Sim",
+    "endereco": "PRAÇA 31 DE MARÇO",
+    "numero": "",
     "complemento": "",
     "cep": "39360-000",
     "bairro": "CENTRO",
