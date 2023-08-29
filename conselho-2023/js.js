@@ -70,6 +70,7 @@ document.addEventListener('click', () => {
     const numeroInseridoNaUrna = `${numeroUrna[0].innerHTML}${numeroUrna[1].innerHTML}${numeroUrna[2].innerHTML}`
     insereCandidato(numeroInseridoNaUrna)
     fazPiscar()
+    preAbreImgCandidato()
 })
 
 async function insereCandidato(numero) {
@@ -188,6 +189,20 @@ async function abreImgCandidato() {
         
 
 }
+async function preAbreImgCandidato() {
+    const response = await fetch('./candidatos')
+    const data = await response.json()
+
+
+        data.map((p) => {
+            document.querySelector('.preload').innerHTML += `<img src="./img/${p.numero}.png" alt="">`
+        })
+        document.querySelector('.preload').innerHTML  = ''
+        //document.querySelector('.preload').classList.add('dnone')
+        
+        
+
+}
 async function Votados() {
     const response = await fetch('./candidatos')
     const data = await response.json()
@@ -216,7 +231,7 @@ async function Votados() {
         document.querySelector('.votos').innerHTML += `<div class="faceCandidato">
         <img src="./${c.numero}-min.jpg" alt="">
         <div>
-            <div style="width: ${porc * 2}%; height: 20px; background-color: rgb(105, 255, 60); border-radius: 8px;"></div>
+            <div style="width: ${porc * 2}%; height: 20px; background-color: rgb(105, 255, 60); border-radius: 2px;"></div>
             <h3 class="numeroUrnaH2">${c.votos} VOTOS</h3>
             <h6>${c.nome}</h6>
         </div>
