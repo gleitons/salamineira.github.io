@@ -4,68 +4,79 @@
     "nomecompleto": "Marília Gonçalves Santos",
     "numero": 111,
     "imagem": "./111.png",
-    "proposta": ""
+    "proposta": "",
+    "votos": 3
   },
   {
     "nome": "SIMONE",
     "nomecompleto": "Simone Aparecida Ramos de Souza",
     "numero": 115,
     "imagem": "./115.png",
-    "proposta": ""
+    "proposta": "",
+    "votos": 1
   },
   {
     "nome": "MANU PERES",
     "nomecompleto": "Manoelina Peres Alves",
     "numero": 116,
     "imagem": "./116.png",
-    "proposta": ""
+    "proposta": "",
+    "votos": 2
   },
   {
     "nome": "ANDRÉIA DO BARRO",
     "nomecompleto": "Andréia Soares Ramos",
     "numero": 120,
     "imagem": "./120.png",
-    "proposta": ""
+    "proposta": "",
+    "votos": 2
   },
   {
     "nome": "CLÉIA FELIX",
     "nomecompleto": "Cléia Felix dos Santos",
     "numero": 123,
     "imagem": "./120.png",
-    "proposta": ""
+    "proposta": "",
+    "votos": 3
   },
   {
     "nome": "LEONORA RABELO",
     "nomecompleto": "Leonora Rabelo da Silva",
     "numero": 125,
     "imagem": "./125.png",
-    "proposta": ""
+    "proposta": "",
+    "votos": 2
   },
   {
     "nome": "NÁGILA REIS",
     "nomecompleto": "Nágila fernandes Reis",
     "numero": 222,
     "imagem": "./222.png",
-    "proposta": ""
+    "proposta": "",
+    "votos": 7
   },
   {
     "nome": "WALDIER CABRA",
     "nomecompleto": "Waldier de Souza Silva",
     "numero": 223,
     "imagem": "./223.png",
-    "proposta": ""
+    "proposta": "",
+    "votos": 8
   },
   {
     "nome": "ALDAIR DAIA",
     "nomecompleto": "Aldair José Silva Nunes",
     "numero": 234,
     "imagem": "./234.png",
-    "proposta": ""
+    "proposta": "",
+    "votos": 2
   },
   {
     "nome": "EUDIRENE DIDI",
     "nomecompleto": "Eudirene Aparecida Pereira Alves",
     "numero": 700,
-    "imagem": "./700.png"
+    "imagem": "./700.png",
+    "proposta": "",
+    "votos": 2
   }
 ]

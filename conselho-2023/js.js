@@ -179,3 +179,46 @@ async function abreImgCandidato() {
         })
 
 }
+async function Votados() {
+    const response = await fetch('./candidatos')
+    const data = await response.json()
+    var somaVotos = 0
+    for(let i = 0; i < data.length; i++){
+         somaVotos = somaVotos + data[i].votos
+        console.log(data[i].votos)
+       
+    }
+    data.sort(function (a, b) {
+        if (a.votos > b.votos) {
+          return -1;
+        }
+        if (a.votos < b.votos) {
+          return 1;
+        }
+        // a must be equal to b
+        return 0;
+      });
+    data.map((c) => {
+        const porc = Math.floor((c.votos * 100) / somaVotos)
+        if(porc > 10){
+            var calcPorcentagem = 10
+        }
+        console.log(porc)
+        document.querySelector('.votos').innerHTML += `<div class="faceCandidato">
+        <img src="./${c.numero}-min.jpg" alt="">
+        <div>
+            <div style="width: ${porc * 2}%; height: 20px; background-color: rgb(105, 255, 60); border-radius: 8px;"></div>
+            <h3 class="numeroUrnaH2">${c.votos} VOTOS</h3>
+            <h6>${c.nome}</h6>
+        </div>
+    </div>`
+    })
+    document.querySelector('.votos').innerHTML += `<h3 class="numeroUrnaH2">A contagem da votação será adicionada a cada 2 dias ou assim que disponível</h3>`
+}
+
+
+function fechaVotos() {
+    document.querySelector('.votos').innerHTML = ``
+    document.querySelector('#votosOn').classList.toggle('dnone')
+    Votados()
+}
