@@ -69,6 +69,7 @@ function enviarResutVotacao() {
 document.addEventListener('click', () => {
     const numeroInseridoNaUrna = `${numeroUrna[0].innerHTML}${numeroUrna[1].innerHTML}${numeroUrna[2].innerHTML}`
     insereCandidato(numeroInseridoNaUrna)
+    fazPiscar()
 })
 
 async function insereCandidato(numero) {
@@ -154,16 +155,21 @@ async function geradorDecandidatos() {
     clickCandidato()
 }
 
+function fechaCC() {
+    const imagemD = document.querySelector('#imgDoC')
+    imagemD.classList.toggle('dnone')
+}
 
 async function abreImgCandidato() {
     const response = await fetch('./candidatos')
     const data = await response.json()
 
         const imagemD = document.querySelector('#imgDoC')
-        const imgTroca = document.querySelector('#imgUrna').src.replace(/-min.jpg/g, '.png')
+        const imgTroca = document.querySelector('#imgUrna').src.split('/')[4].replace(/-min.jpg/g, '.png')
+        //replace(/-min.jpg/g, '.png')
         imagemD.classList.toggle('dnone')
         console.log(imgTroca)
-        document.querySelector('#imgSub').src = imgTroca
+        document.querySelector('#imgSub').src = `./img/${imgTroca}` 
         const nUrna = `${numeroUrna[0].innerHTML}${numeroUrna[1].innerHTML}${numeroUrna[2].innerHTML}`
 
         data.map((p) => {
@@ -222,3 +228,22 @@ function fechaVotos() {
     document.querySelector('#votosOn').classList.toggle('dnone')
     Votados()
 }
+
+function fazPiscar() {
+    if(numeroUrna[0].innerHTML.toString().length == 0){
+        numeroUrna[0].classList.add('pisca')
+    } else if (numeroUrna[1].innerHTML.toString().length == 0){
+        numeroUrna[0].classList.remove('pisca')
+        numeroUrna[1].classList.add('pisca')
+    } else if (numeroUrna[2].innerHTML.toString().length == 0){
+        numeroUrna[0].classList.remove('pisca')
+        numeroUrna[1].classList.remove('pisca')
+        numeroUrna[2].classList.add('pisca')        
+    } else {
+        numeroUrna[0].classList.remove('pisca')
+        numeroUrna[1].classList.remove('pisca')
+        numeroUrna[2].classList.remove('pisca')      
+    }
+    // numeroUrna[0].classList.add('pisca')
+}
+fazPiscar()
