@@ -243,6 +243,7 @@
   top: 0px;
   left: 0px;
   font-size: 2em;
+  box-shadow: black 0px 2px 5px 0px;
 }
 .imagemVer > img {
   width: 100%;
@@ -257,12 +258,12 @@
   content: "";
   height: 600px;
   width: 600px;
-  background: linear-gradient( rgb(151, 208, 237) 40%, rgb(0, 102, 244) 60%);
+  background: linear-gradient( rgb(151, 208, 237) 40%, rgb(0, 35, 84) 60%);
   box-shadow: blue 2px 2px 10px 02px;
   top:-235px;
   left: -58px;
   position: absolute;
-  animation: rotates infinite 4s linear   ;
+  animation: rotates infinite 8s linear   ;
 }
 @keyframes rotates {
   0% {

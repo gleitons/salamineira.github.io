@@ -167,7 +167,8 @@ async function abreImgCandidato() {
         const imagemD = document.querySelector('#imgDoC')
         const imgTroca = document.querySelector('#imgUrna').src.split('/')[4].replace(/-min.jpg/g, '.png')
         //replace(/-min.jpg/g, '.png')
-        imagemD.classList.toggle('dnone')
+        if(imgTroca != 'tela.png') {
+            imagemD.classList.toggle('dnone')
         console.log(imgTroca)
         document.querySelector('#imgSub').src = `./img/${imgTroca}` 
         const nUrna = `${numeroUrna[0].innerHTML}${numeroUrna[1].innerHTML}${numeroUrna[2].innerHTML}`
@@ -183,6 +184,8 @@ async function abreImgCandidato() {
                 
             }
         })
+        }
+        
 
 }
 async function Votados() {
