@@ -348,6 +348,7 @@
   width: fit-content;
   background-color: #312c2f;
   padding: 10px;
+  margin: auto;
 }
 .tVotacao h2 {
   font-size: 4em;

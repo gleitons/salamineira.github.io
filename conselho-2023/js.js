@@ -294,7 +294,7 @@ function aguardaVotar() {
 
 }
 
-setInterval('aguardaVotar()', 5000)
+setInterval('aguardaVotar()', 3000)
 
 aguardaVotar()
 function salvaHorarioVotado() {
