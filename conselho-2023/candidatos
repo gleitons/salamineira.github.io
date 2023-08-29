@@ -13,7 +13,7 @@
     "numero": 115,
     "imagem": "./115.png",
     "proposta": "",
-    "votos": 2
+    "votos": 4
   },
   {
     "nome": "MANU PERES",
@@ -21,7 +21,7 @@
     "numero": 116,
     "imagem": "./116.png",
     "proposta": "",
-    "votos": 2
+    "votos": 3
   },
   {
     "nome": "ANDRÉIA DO BARRO",
@@ -29,7 +29,7 @@
     "numero": 120,
     "imagem": "./120.png",
     "proposta": "",
-    "votos": 3
+    "votos": 20
   },
   {
     "nome": "CLÉIA FELIX",
@@ -37,7 +37,7 @@
     "numero": 123,
     "imagem": "./120.png",
     "proposta": "",
-    "votos": 3
+    "votos": 11
   },
   {
     "nome": "LEONORA RABELO",
@@ -53,7 +53,7 @@
     "numero": 222,
     "imagem": "./222.png",
     "proposta": "",
-    "votos": 7
+    "votos": 36
   },
   {
     "nome": "WALDIER CABRA",
@@ -69,7 +69,7 @@
     "numero": 234,
     "imagem": "./234.png",
     "proposta": "",
-    "votos": 2
+    "votos": 5
   },
   {
     "nome": "EUDIRENE DIDI",
@@ -77,6 +77,6 @@
     "numero": 700,
     "imagem": "./700.png",
     "proposta": "",
-    "votos": 2
+    "votos": 8
   }
 ]

@@ -46,7 +46,7 @@ document.querySelectorAll('.ccc div')[2].addEventListener('click', () => {
     const oNomeNaUrna = document.querySelector('#nomeU').textContent
 
 
-    if (numerosUR.toString().length >= 3 && nomeUrnaVerifica != 'APERTE CORRIGE PARA INSERIR NOVAMENTE' && nomeUrnaVerifica != 'NOME')  {
+    if (numerosUR.toString().length >= 3 && nomeUrnaVerifica != 'APERTE CORRIGE PARA INSERIR NOVAMENTE' && nomeUrnaVerifica != 'NOME') {
 
         new Audio('./tictic.wav').play()
         document.querySelector('.ofim').style.display = 'block'
@@ -55,7 +55,7 @@ document.querySelectorAll('.ccc div')[2].addEventListener('click', () => {
         numeroUrC.value = numerosUR
         nomeurnaC.value = oNomeNaUrna
         setTimeout('enviarResutVotacao()', 2000)
-       
+
 
     }
 
@@ -63,6 +63,8 @@ document.querySelectorAll('.ccc div')[2].addEventListener('click', () => {
 
 function enviarResutVotacao() {
     const formulario = document.querySelector('#enviarResultado')
+    salvaHorarioVotado()
+    localStorage.setItem('bloquearVotacao', '1')
     formulario.submit();
 }
 
@@ -128,7 +130,7 @@ function clickCandidato() {
             numeroUrna[0].textContent = numeraisU[0]
             numeroUrna[1].textContent = numeraisU[1]
             numeroUrna[2].textContent = numeraisU[2]
-            console.log('numeraisU')
+          
             document.querySelector('.mostraC').innerHTML = ''
             document.querySelector('#listaCC').classList.toggle('dnone')
 
@@ -165,28 +167,30 @@ async function abreImgCandidato() {
     const response = await fetch('./candidatos')
     const data = await response.json()
 
-        const imagemD = document.querySelector('#imgDoC')
-        const imgTroca = document.querySelector('#imgUrna').src.split('/')[4].replace(/-min.jpg/g, '.png')
-        //replace(/-min.jpg/g, '.png')
-        if(imgTroca != 'tela.png') {
-            imagemD.classList.toggle('dnone')
-        console.log(imgTroca)
-        document.querySelector('#imgSub').src = `./img/${imgTroca}` 
+    const imagemD = document.querySelector('#imgDoC')
+    const imgTroca = document.querySelector('#imgUrna').src.split('/')[4].replace(/-min.jpg/g, '.png')
+    const imgT = document.querySelector('#imgUrna').src.split('/')[4]
+    //replace(/-min.jpg/g, '.png')
+   
+    if (imgTroca != 'tela.png') {
+        imagemD.classList.toggle('dnone')
+       
+        document.querySelector('#imgSub').src = `./img/${imgTroca}`
         const nUrna = `${numeroUrna[0].innerHTML}${numeroUrna[1].innerHTML}${numeroUrna[2].innerHTML}`
 
         data.map((p) => {
-            if(nUrna == p.numero) {
+            if (nUrna == p.numero) {
                 nomeCC.textContent = p.nomecompleto.toUpperCase()
-                if(p.proposta.length > 0){
+                if (p.proposta.length > 0) {
                     propostaDoCandidato.innerHTML = p.proposta
                 } else {
                     //propostaDoCandidato.innerHTML = p.proposta
                 }
-                
+
             }
         })
-        }
-        
+    }
+
 
 }
 async function preAbreImgCandidato() {
@@ -194,40 +198,40 @@ async function preAbreImgCandidato() {
     const data = await response.json()
 
 
-        data.map((p) => {
-            document.querySelector('.preload').innerHTML += `<img src="./img/${p.numero}.png" alt="">`
-        })
-        document.querySelector('.preload').innerHTML  = ''
-        //document.querySelector('.preload').classList.add('dnone')
-        
-        
+    data.map((p) => {
+        document.querySelector('.preload').innerHTML += `<img src="./img/${p.numero}.png" alt="">`
+    })
+    document.querySelector('.preload').innerHTML = ''
+    //document.querySelector('.preload').classList.add('dnone')
+
+
 
 }
 async function Votados() {
     const response = await fetch('./candidatos')
     const data = await response.json()
     var somaVotos = 0
-    for(let i = 0; i < data.length; i++){
-         somaVotos = somaVotos + data[i].votos
-        console.log(data[i].votos)
-       
+    for (let i = 0; i < data.length; i++) {
+        somaVotos = somaVotos + data[i].votos
+     
+
     }
     data.sort(function (a, b) {
         if (a.votos > b.votos) {
-          return -1;
+            return -1;
         }
         if (a.votos < b.votos) {
-          return 1;
+            return 1;
         }
         // a must be equal to b
         return 0;
-      });
+    });
     data.map((c) => {
         const porc = Math.floor((c.votos * 100) / somaVotos)
-        if(porc > 10){
+        if (porc > 10) {
             var calcPorcentagem = 10
         }
-        console.log(porc)
+       
         document.querySelector('.votos').innerHTML += `<div class="faceCandidato">
         <img src="./${c.numero}-min.jpg" alt="">
         <div>
@@ -248,20 +252,53 @@ function fechaVotos() {
 }
 
 function fazPiscar() {
-    if(numeroUrna[0].innerHTML.toString().length == 0){
+    if (numeroUrna[0].innerHTML.toString().length == 0) {
         numeroUrna[0].classList.add('pisca')
-    } else if (numeroUrna[1].innerHTML.toString().length == 0){
+    } else if (numeroUrna[1].innerHTML.toString().length == 0) {
         numeroUrna[0].classList.remove('pisca')
         numeroUrna[1].classList.add('pisca')
-    } else if (numeroUrna[2].innerHTML.toString().length == 0){
+    } else if (numeroUrna[2].innerHTML.toString().length == 0) {
         numeroUrna[0].classList.remove('pisca')
         numeroUrna[1].classList.remove('pisca')
-        numeroUrna[2].classList.add('pisca')        
+        numeroUrna[2].classList.add('pisca')
     } else {
         numeroUrna[0].classList.remove('pisca')
         numeroUrna[1].classList.remove('pisca')
-        numeroUrna[2].classList.remove('pisca')      
+        numeroUrna[2].classList.remove('pisca')
     }
     // numeroUrna[0].classList.add('pisca')
 }
 fazPiscar()
+
+function aguardaVotar() {
+    const data = new Date();
+    const tempoPassado =  new Date(data - new Date(localStorage.getItem('horaAtual'))).getMinutes() 
+    const tempoMostrador = 30
+
+    
+    
+    document.querySelector('#horaC').textContent = parseInt(tempoPassado - tempoMostrador) * (-1) + ' Min'
+    const valorSobrando = ((parseInt(tempoMostrador)  - parseInt(tempoPassado)))
+
+    if(localStorage.getItem('bloquearVotacao') == '1'){
+        document.querySelector('#timeVoto').style.display = 'block'
+        if(valorSobrando <= 0) {
+            localStorage.setItem('bloquearVotacao', '0')
+            
+        }
+
+    } else {
+        document.querySelector('#timeVoto').style.display = 'none'
+    }
+    
+
+}
+
+setInterval('aguardaVotar()', 1000)
+
+aguardaVotar()
+function salvaHorarioVotado() {
+    const data = new Date();
+    localStorage.setItem('horaAtual', data)
+}
+//salvaHorarioVotado()

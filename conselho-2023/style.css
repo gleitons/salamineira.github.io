@@ -338,3 +338,40 @@
 .preload img {
   width: 100%;
 }
+.tVotacao {
+  margin: auto;
+  text-align: center;
+}
+.tVotacao h3 {
+  margin-top: 10%;
+  color: white;
+  width: fit-content;
+  background-color: #312c2f;
+  padding: 10px;
+}
+.tVotacao h2 {
+  font-size: 4em;
+  background: linear-gradient(to bottom, rgb(244, 125, 125), red);
+  color: white;
+  margin: 30px auto;
+  box-shadow: rgba(0, 0, 0, 0.641) 0px 5px 10px 0px;
+}
+.imgDaqui {
+  width: 100%;
+}
+.imgDaqui img {
+  width: 100%;
+}
+.bloqueiaTeclado {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  height: 40vh;
+  width: 100%;
+  background: rgba(160, 160, 160, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  /* border-radius: 10px; */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
