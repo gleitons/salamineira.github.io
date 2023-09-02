@@ -215,7 +215,11 @@ async function preAbreImgCandidato() {
 
 
 }
+function loadAtualiza() {
+    window.location.href = 'https://salamineira.com/conselho-2023/#resultadourna'
+}
 async function Votados() {
+   // document.querySelector('.votos').innerHTML = ''
     const response = await fetch('./candidatos')
    // const data = await response.json()
     const datad = await response.json()
@@ -277,7 +281,8 @@ async function Votados() {
 
 
     })
-    document.querySelector('.votos').innerHTML += `<h3 class="numeroUrnaH2">A contagem da votação será adicionada a cada 2 dias ou assim que disponível</h3>`
+    document.querySelector('.votos').innerHTML += `<h3 class="numeroUrnaH2">A contagem da votação é atualizada a cada 30 segundos</h3><button onclick="loadAtualiza()" >Clique aqui para atualizar</button>
+    `
 }
 //Votados()
 
