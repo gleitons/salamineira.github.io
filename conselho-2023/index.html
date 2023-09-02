@@ -34,8 +34,9 @@
                     <div></div>
                 </div>
                 <div class="dePropostas">
-                    <img  id="imgUrna" src="./tela.png" alt="" onclick="abreImgCandidato()">
                     <p id="nomeU">CANDIDATO</p>
+                    <img  id="imgUrna" src="./tela.png" alt="" onclick="abreImgCandidato()">
+                    
                     <span>Propostas</span>
                 </div>
                
@@ -205,7 +206,7 @@
 
                     localStorage.setItem('votos', JSON.stringify(resultadoParcial))
 
-                   // document.querySelector('#ver').style.display = 'none'
+                   document.querySelector('#ver').style.display = 'none'
                     //console.log(resultadoParcial)
 
     

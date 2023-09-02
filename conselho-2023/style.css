@@ -60,7 +60,7 @@
 }
 .dePropostas span {
   position: absolute;
-  /* top: 36px; */
+  top: 36px;
   left: 15px;
   color: #acacacaa;
   font-size: 1em;
