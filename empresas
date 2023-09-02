@@ -906,7 +906,7 @@
   },
   {
     "id": [
-      "hotel", "pensão"
+      "hotel", "pensão", "dormir", "descansar", "pernoite", "otel", "centro"
     ],
     "cnpj": "15036091000192",
     "cnpjN": "15.036.091/0001-92",
@@ -3168,7 +3168,7 @@
   },
   {
     "id": [
-      "hotel", "pensão"
+      "hotel", "pensão", "dormir", "descansar", "pernoite", "otel", "centro"
     ],
     "cnpj": "41995706000118",
     "cnpjN": "41.995.706/0001-18",
@@ -3198,11 +3198,11 @@
   },
   {
     "id": [
-      "hotel", "pensão"
+      "hotel", "pensão", "dormir", "descansar", "pernoite", "otel", "centro"
     ],
-    "cnpj": "41995706000118",
-    "cnpjN": "41.995.706/0001-18",
-    "razaoSocial": "EUDÓXIO LAFETÁ",
+    "cnpj": "",
+    "cnpjN": "",
+    "razaoSocial": "EUDÓXIO LAFETÁ - HOTEL",
     "nomeFantasia": "PENSÃO DA MATRIZ",
     "imagem": "",
     "tipo": "MATRIZ",

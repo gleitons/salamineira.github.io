@@ -11,12 +11,18 @@ body {
   margin: auto;
   background-color: rgb(20, 40, 65);
 }
+.imgGeradasPre img {
+  width: 100px;
+}
 
 header {
   height: 100px;
   max-width: 576px;
   background-color: rgb(66, 113, 175);
   position: relative;
+}
+#searchbar  {
+  color: white;
 }
 .SearchB {
   display: flex;

@@ -86,7 +86,7 @@ function hotel() {
 async function padariaEmpresas() {
     infoId.innerHTML = 'Carregando...'
     apagaSeleciona()
-    linkSelect[12].classList.add('addSeleciona')
+    linkSelect[2].classList.add('addSeleciona')
     fechaEmpresaL()
     infoVisivel.innerHTML = ''
     const inicio = document.querySelector('#inicio')
@@ -661,7 +661,7 @@ async function favoritosEmpresasOn() {
 
         const favoritar = document.createElement('img')
         favoritar.classList = 'favoritar'
-        favoritar.src = './imgguia/add-favorito.png'
+        favoritar.src = './imgguia/brasao-lagoa.jpg'
         favoritar.alt = 'Favoritos Locais Lagoa dos Patos MG'
         favoritar.setAttribute('id', `iconFavo${index}`)
 
