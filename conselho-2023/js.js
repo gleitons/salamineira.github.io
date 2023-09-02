@@ -1,6 +1,7 @@
 const numeroDigitado = document.querySelectorAll('.botoes div')
 const numeroUrna = document.querySelectorAll('.numeroUrna div')
 const tic = new Audio('./tic.wav')
+
 for (let i = 0; i < numeroDigitado.length; i++) {
     numeroDigitado[i].addEventListener('click', () => {
 
@@ -39,6 +40,13 @@ document.querySelectorAll('.ccc div')[0].addEventListener('click', () => {
     tic.play()
 
 })
+const verResultadoVotacao = window.location.hash
+if(verResultadoVotacao == "#resultadourna") {
+    fechaVotos()
+    console.log('gerou')
+}
+
+console.log(verResultadoVotacao)
 
 document.querySelectorAll('.ccc div')[2].addEventListener('click', () => {
     const numerosUR = `${numeroUrna[0].innerHTML}${numeroUrna[1].innerHTML}${numeroUrna[2].innerHTML}`
@@ -227,16 +235,15 @@ async function Votados() {
             "votos":JSON.stringify(votoreal[index]).replace(/[^0-9]/gi, '')
         }
         todosVotos.push(candiD)
-        console.log(todosVotos)
-        console.log(candiD)
+      
         
     }
-    console.log(todosVotos)
+   
 
    
    const data = todosVotos
 
-   console.log(data)
+  
 
     
 
@@ -251,7 +258,7 @@ async function Votados() {
         return 0;
     });
 
-    console.log(data)
+   
 
     data.map((c, index) => {
         const porc = Math.floor((c.votos * 100) / somaVotos)
@@ -272,7 +279,7 @@ async function Votados() {
     })
     document.querySelector('.votos').innerHTML += `<h3 class="numeroUrnaH2">A contagem da votação será adicionada a cada 2 dias ou assim que disponível</h3>`
 }
-Votados()
+//Votados()
 
 function fechaVotos() {
     document.querySelector('.votos').innerHTML = ``
