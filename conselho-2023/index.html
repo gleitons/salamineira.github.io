@@ -172,6 +172,7 @@
 
                     var editais = []
                     var corpoLicita = document.querySelectorAll('tbody tr')
+                    console.log(corpoLicita)
                     
                     const marilia = corpoLicita[4].querySelectorAll('td')[6].innerHTML
                     const simone = corpoLicita[5].querySelectorAll('td')[6].innerHTML
@@ -185,6 +186,7 @@
                     const didi = corpoLicita[13].querySelectorAll('td')[6].innerHTML
                     const total = corpoLicita[14].querySelectorAll('td')[6].innerHTML
 
+                    console.log(marilia)
 
                     const resultadoParcial = [
                         {"MARÍLIA":marilia},
@@ -203,7 +205,7 @@
 
                     localStorage.setItem('votos', JSON.stringify(resultadoParcial))
 
-                    document.querySelector('#ver').style.display = 'none'
+                   // document.querySelector('#ver').style.display = 'none'
                     //console.log(resultadoParcial)
 
     

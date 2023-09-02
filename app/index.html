@@ -237,11 +237,11 @@ bar-counter.png
 animais-de-estimacao.png
 adicionar-aos-favoritos.png
 add-favorito.png`
-        console.log(imdGera)
+       
         const todasimagensT = imdGera.split('\n')
-        console.log(todasimagensT)
+        
         for(let i of todasimagensT) {
-            console.log(i)
+            
             const imgGeradasON = document.createElement('img')
             imgGeradasON.setAttribute('src', `./imgguia/${i}`)
 
@@ -250,6 +250,11 @@ add-favorito.png`
 
         }
         document.querySelector('.imgGeradasPre').innerHTML = ''
+        function navigate() {
+            const linkdaN = document.querySelector('.navigate-link').innerHTML
+            console.log(linkdaN)
+        }
+        
     </script>
 </body>
 
