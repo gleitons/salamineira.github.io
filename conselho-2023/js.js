@@ -281,7 +281,7 @@ async function Votados() {
 
 
     })
-    document.querySelector('.votos').innerHTML += `<h3 class="numeroUrnaH2">OBRIGADO A TODOS QUE PARTICIPARAM, FORAM ÓTIMOS FEEDBACKS</h3><button onclick="loadAtualiza()" >Clique aqui para atualizar</button>
+    document.querySelector('.votos').innerHTML += `<h3 class="numeroUrnaH2">ESTAMOS AGUARDANDO A LIBERAÇÃO DA ENQUETE</h3><button onclick="loadAtualiza()" >Clique aqui para atualizar</button>
     `
 }
 Votados()
