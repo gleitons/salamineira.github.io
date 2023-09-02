@@ -130,7 +130,7 @@ function clickCandidato() {
             numeroUrna[0].textContent = numeraisU[0]
             numeroUrna[1].textContent = numeraisU[1]
             numeroUrna[2].textContent = numeraisU[2]
-          
+
             document.querySelector('.mostraC').innerHTML = ''
             document.querySelector('#listaCC').classList.toggle('dnone')
 
@@ -171,10 +171,10 @@ async function abreImgCandidato() {
     const imgTroca = document.querySelector('#imgUrna').src.split('/')[4].replace(/-min.jpg/g, '.png')
     const imgT = document.querySelector('#imgUrna').src.split('/')[4]
     //replace(/-min.jpg/g, '.png')
-   
+
     if (imgTroca != 'tela.png') {
         imagemD.classList.toggle('dnone')
-       
+
         document.querySelector('#imgSub').src = `./img/${imgTroca}`
         const nUrna = `${numeroUrna[0].innerHTML}${numeroUrna[1].innerHTML}${numeroUrna[2].innerHTML}`
 
@@ -209,15 +209,39 @@ async function preAbreImgCandidato() {
 }
 async function Votados() {
     const response = await fetch('./candidatos')
-    const data = await response.json()
-    var somaVotos = 0
-    for (let i = 0; i < data.length; i++) {
-        somaVotos = somaVotos + data[i].votos
-     
+   // const data = await response.json()
+    const datad = await response.json()
+    const votoreal = await JSON.parse(localStorage.getItem('votos'))
+    
+    var somaVotos =  200
 
+    
+    var todosVotos = []
+    for (let index = 0; index < datad.length; index++) {
+
+        const candiD = {
+            "nome": datad[index].nome,
+            "nomecompleto": datad[index].nomecompleto,
+            "numero": datad[index].numero,
+            "imagem": `./${ datad[index].numero}.png`,
+            "votos":JSON.stringify(votoreal[index]).replace(/[^0-9]/gi, '')
+        }
+        todosVotos.push(candiD)
+        console.log(todosVotos)
+        console.log(candiD)
+        
     }
+    console.log(todosVotos)
+
+   
+   const data = todosVotos
+
+   console.log(data)
+
+    
+
     data.sort(function (a, b) {
-        if (a.votos > b.votos) {
+        if (parseInt(a.votos) > parseInt(b.votos)) {
             return -1;
         }
         if (a.votos < b.votos) {
@@ -226,12 +250,14 @@ async function Votados() {
         // a must be equal to b
         return 0;
     });
-    data.map((c) => {
+
+    console.log(data)
+
+    data.map((c, index) => {
         const porc = Math.floor((c.votos * 100) / somaVotos)
         if (porc > 10) {
             var calcPorcentagem = 10
         }
-       
         document.querySelector('.votos').innerHTML += `<div class="faceCandidato">
         <img src="./${c.numero}-min.jpg" alt="">
         <div>
@@ -240,10 +266,13 @@ async function Votados() {
             <h6>${c.nome}</h6>
         </div>
     </div>`
+    
+
+
     })
     document.querySelector('.votos').innerHTML += `<h3 class="numeroUrnaH2">A contagem da votação será adicionada a cada 2 dias ou assim que disponível</h3>`
 }
-
+Votados()
 
 function fechaVotos() {
     document.querySelector('.votos').innerHTML = ``
@@ -272,25 +301,25 @@ fazPiscar()
 
 function aguardaVotar() {
     const data = new Date();
-    const tempoPassado =  new Date(data - new Date(localStorage.getItem('horaAtual'))).getMinutes() 
+    const tempoPassado = new Date(data - new Date(localStorage.getItem('horaAtual'))).getMinutes()
     const tempoMostrador = 30
 
-    
-    
-    document.querySelector('#horaC').textContent = parseInt(tempoPassado - tempoMostrador) * (-1) + ' Min'
-    const valorSobrando = ((parseInt(tempoMostrador)  - parseInt(tempoPassado)))
 
-    if(localStorage.getItem('bloquearVotacao') == '1'){
+
+    document.querySelector('#horaC').textContent = parseInt(tempoPassado - tempoMostrador) * (-1) + ' Min'
+    const valorSobrando = ((parseInt(tempoMostrador) - parseInt(tempoPassado)))
+
+    if (localStorage.getItem('bloquearVotacao') == '1') {
         document.querySelector('#timeVoto').style.display = 'block'
-        if(valorSobrando <= 0) {
+        if (valorSobrando <= 0) {
             localStorage.setItem('bloquearVotacao', '0')
-            
+
         }
 
     } else {
         document.querySelector('#timeVoto').style.display = 'none'
     }
-    
+
 
 }
 

@@ -1,5 +1,45 @@
 [
   {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4023/",
+    "dataP": "05/09/2023",
+    "processo": "PROC. 056/2023 PP SRP 24/2023",
+    "publicado": "15/08/2023",
+    "abertura": "05/09/2023",
+    "modalidade": "PREGÃO PRESENCIAL",
+    "situacao": "Aberta",
+    "infolicita": "REGISTRO DE PREÇO PARA EVENTUAL CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NO FORNECIMENTO DE FOGOS DE ARTIFÍCIO, PARA ATENDER AS DIVERSAS SECRETARIAS DO MUNICÍPIO, CONFORME AS ESPECIFICAÇÕES CONSTANTES NO TERMO DE REFERÊNCIA – ANEXO I DESTE EDITAL"
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4022/",
+    "dataP": "05/09/2023",
+    "processo": "PROC. 055/2023 PE SRP 002/20223",
+    "publicado": "15/08/2023",
+    "abertura": "05/09/2023",
+    "modalidade": "PREGÃO ELETRÔNICO",
+    "situacao": "Aberta",
+    "infolicita": "REGISTRO DE PREÇO PARA FUTURA E EVENTUAL AQUISIÇÃO DE GÊNEROS ALIMENTÍCIOS (PADARIA E CONFEITARIA) PARA MANUTENÇÃO DAS DIVERSAS SECRETARIAS DO MUNICÍPIO DE LAGOA DOS PATOS/MG."
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4021/",
+    "dataP": "31/08/2023",
+    "processo": "PROC. 054/2023 PP SRP 023/2023",
+    "publicado": "15/08/2023",
+    "abertura": "31/08/2023",
+    "modalidade": "PREGÃO PRESENCIAL",
+    "situacao": "Aberta",
+    "infolicita": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE COLETA, TRANSPORTE, ARMAZENAMENTO, TRATAMENTO E DESTINAÇÃO FINAL DE RESÍDUOS SÓLIDOS GERADOS PELAS UNIDADES DE SAÚDE DO MUNICÍPIO DOS GRUPOS A, B E E DE ACORDO COM A RESOLUÇÃO CONAMA 385/2005 E ANVISA RDC 306"
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4020/",
+    "dataP": "29/08/2023",
+    "processo": "PROC. 053/2023 PP SRP 022/2023",
+    "publicado": "15/08/2023",
+    "abertura": "29/08/2023",
+    "modalidade": "PREGÃO PRESENCIAL",
+    "situacao": "Aberta",
+    "infolicita": "REGISTRO DE PREÇO PARA AQUISIÇÃO DE MATERIAL E EQUIPAMENTOS ODONTOLÓGICOS PARA MANUTENÇÃO DAS ATIVIDADES DA SECRETARIA DE SAÚDE NO MUNICÍPIO DE LAGOA DOS PATOS/MG"
+  },
+  {
     "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4011/",
     "dataP": "21/08/2023",
     "processo": "PROC. 052/2023 CRED. 003/2023",
@@ -32,12 +72,12 @@
   {
     "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4008/",
     "dataP": "",
-    "processo": "",
-    "publicado": "",
+    "processo": "PROC. 049/2023 INEX. 013/2023",
+    "publicado": "04/08/2023",
     "abertura": "",
     "modalidade": "Inexigibilidade",
-    "situacao": "Aberta",
-    "infolicita": ""
+    "situacao": "FINALIZADA",
+    "infolicita": "CONTRATAÇÃO DA BANDA NOVA YORK PARA APRESENTAÇÃO DE SHOW ARTÍSTICO NO DIA 15 DE SETEMBRO DE 2023 NA TRADICIONAL FESTA DO MUNICÍPIO DE LAGOA DOS PATOS DENOMINADA DE AÇÃO\nGLOBAL\n"
   },
   {
     "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4007/",
@@ -58,45 +98,5 @@
     "modalidade": "DispensaTERMO DE COOPERAÇÃO",
     "situacao": "Em andamento",
     "infolicita": "CELEBRAÇÃO DE TERMO DE COOPERAÇÃO PARA O FORNECIMENTO DE LICENÇA DE USO DO SISTEMA ELETRÔNICO PARA A REALIZAÇÃO DAS LICITAÇÕES NA FORMA ELETRÔNICA NO MUNICIPIO DE LAGOA DOS PATOS/MG."
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4004/",
-    "dataP": "",
-    "processo": "PROC. 046/2023 DISPENSA 005/2023",
-    "publicado": "",
-    "abertura": "",
-    "modalidade": "Dispensa",
-    "situacao": "Em andamento",
-    "infolicita": "AQUISIÇÃO DE COLORÍMETRO DIGITAL PARA REALIZAÇÃO DE MONITORAMENTO, MEDIÇÃO E CONTROLE DE QUALIDADE DA ÁGUA EM ATENDIMENTO AS DEMANDAS DA SECRETARIA DE SAÚDE DENTRO DA VIGILÂNCIA AMBIENTAL DO MUNICÍPIO DE LAGOA DOS PATOS/MG\n"
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3973/",
-    "dataP": "",
-    "processo": "PROC. 045/2023 INEX. 12/2023",
-    "publicado": "",
-    "abertura": "",
-    "modalidade": "Inexigibilidade",
-    "situacao": "FINALIZADA",
-    "infolicita": "CONTRATAÇÃO DA BANDA IMPACTO PARA APRESENTAÇÃO DE SHOW ARTÍSTICO NO DIA 05 DE AGOSTO DE 2023 NA FESTA DO TITULAR BOM JESUS NO MUNICIPIO DE LAGOA DOS PATOS."
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3972/",
-    "dataP": "22/08/2023",
-    "processo": "PROC. 044/2023 PP SRP 019/2023",
-    "publicado": "02/08/2023",
-    "abertura": "22/08/2023",
-    "modalidade": "PREGÃO PRESENCIAL",
-    "situacao": "Aberta",
-    "infolicita": "REGISTRO DE PREÇOS PARA AQUISIÇÃO DE MATERIAIS DE CONSTRUÇÃO DESTINADO A ATENDER AS NECESSIDADES DAS DIVERSAS SECRETARIAS DESTE MUNICIPIO. PARA MANUTENÇÃO DOS SERVIÇOS DE OBRAS DO MUNICIPIO, CONFORME AS ESPECIFICAÇÕES CONSTANTES NO TERMO DE REFERÊNCIA – ANEXO I DESTE EDITAL"
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/3971/",
-    "dataP": "17/08/2023",
-    "processo": "PROC. 043/2023 PP SRP 018/2023",
-    "publicado": "01/08/2023",
-    "abertura": "17/08/2023",
-    "modalidade": "PREGÃO PRESENCIAL",
-    "situacao": "Aberta",
-    "infolicita": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE CAPINA E ROÇADA MANUAL PARA LIMPEZA DE RUAS, AVENIDAS E ESTRADAS VICINAIS NO MUNICIPIO DE LAGOA DOS PATOS/MG."
   }
 ]
