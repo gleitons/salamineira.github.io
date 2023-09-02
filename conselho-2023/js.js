@@ -281,16 +281,17 @@ async function Votados() {
 
 
     })
-    document.querySelector('.votos').innerHTML += `<h3 class="numeroUrnaH2">A contagem da votação é atualizada a cada 30 segundos</h3><button onclick="loadAtualiza()" >Clique aqui para atualizar</button>
+    document.querySelector('.votos').innerHTML += `<h3 class="numeroUrnaH2">OBRIGADO A TODOS QUE PARTICIPARAM, FORAM ÓTIMOS FEEDBACKS</h3><button onclick="loadAtualiza()" >Clique aqui para atualizar</button>
     `
 }
-//Votados()
+Votados()
 
 function fechaVotos() {
     document.querySelector('.votos').innerHTML = ``
     document.querySelector('#votosOn').classList.toggle('dnone')
     Votados()
 }
+
 
 function fazPiscar() {
     if (numeroUrna[0].innerHTML.toString().length == 0) {
