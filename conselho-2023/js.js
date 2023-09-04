@@ -326,8 +326,9 @@ function aguardaVotar() {
         document.querySelector('#timeVoto').style.display = 'block'
         if (valorSobrando <= 0) {
             localStorage.setItem('bloquearVotacao', '0')
+            
+            document.querySelectorAll('.ccc div')[2].style.visibility = 'visible'
             location.reload()
-            document.querySelectorAll('.ccc div')[2].style.visibility = 'no-hidden'
             
 
         }
