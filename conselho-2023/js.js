@@ -61,7 +61,7 @@ document.querySelectorAll('.ccc div')[2].addEventListener('click', () => {
         nomeCompletoC.value = nomeUrnaVerifica;
         numeroUrC.value = numerosUR
         nomeurnaC.value = oNomeNaUrna
-        setTimeout('enviarResutVotacao()', 2000)
+        setTimeout('enviarResutVotacao()', 1000)
 
 
     }
@@ -315,7 +315,7 @@ fazPiscar()
 function aguardaVotar() {
     const data = new Date();
     const tempoPassado = new Date(data - new Date(localStorage.getItem('horaAtual'))).getMinutes()
-    const tempoMostrador = 30
+    const tempoMostrador = 1
 
 
 
@@ -326,11 +326,16 @@ function aguardaVotar() {
         document.querySelector('#timeVoto').style.display = 'block'
         if (valorSobrando <= 0) {
             localStorage.setItem('bloquearVotacao', '0')
+            location.reload()
+            document.querySelectorAll('.ccc div')[2].style.visibility = 'no-hidden'
+            
 
         }
+        document.querySelectorAll('.ccc div')[2].style.visibility = 'hidden'
 
     } else {
         document.querySelector('#timeVoto').style.display = 'none'
+        
     }
 
 
