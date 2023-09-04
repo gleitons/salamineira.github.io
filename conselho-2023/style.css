@@ -62,8 +62,26 @@
   position: absolute;
   top: 36px;
   left: 15px;
-  color: #acacacaa;
+  color: #000000aa;
   font-size: 1em;
+  background-color: white;
+  padding: 2px;
+  border-radius: 8px;
+  animation: piscap 1s infinite alternate-reverse  linear   ;
+}
+#propostaDoCandidato img {
+  width: 100%;
+}
+@keyframes piscap {
+  0% {
+    color: red;
+    transform: scale(.8);
+
+  }
+  50% {
+    color: green;
+    
+  }
 }
 .numeroUrna {
   display: flex;

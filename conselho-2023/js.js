@@ -189,10 +189,11 @@ async function abreImgCandidato() {
         data.map((p) => {
             if (nUrna == p.numero) {
                 nomeCC.textContent = p.nomecompleto.toUpperCase()
-                if (p.proposta.length > 0) {
+                const propostaOnline = p.proposta.toString()
+                if (propostaOnline.length > 0) {
                     propostaDoCandidato.innerHTML = p.proposta
                 } else {
-                    //propostaDoCandidato.innerHTML = p.proposta
+                    propostaDoCandidato.innerHTML = `<h2>Ainda sem Proposta Anexa</h2> <h3>Conselho Tutelar</h3> <p>É um órgão público municipal, que tem sua origem na lei, integrando-se ao conjunto das instituições nacionais e subordinando-se ao ordenamento jurídico brasileiro. Criado por Lei Municipal e efetivamente implantado, passa a integrar de forma definitiva o quadro das instituições municipais. Desenvolve uma ação contínua e ininterrupta. Sua ação não deve sofrer solução de continuidade, sob qualquer pretexto. Uma vez criado e implantado, não desaparece; apenas renovam-se os seus membros.</p> <p>Não depende de autorização de ninguém - nem do Prefeito, nem do Juiz - para o exercício das atribuições legais que lhe foram conferidas pelo Estatuto da Criança e do Adolescente: artigos 136, 95, 101 (I a VII) e 129 (I a VII). Em matéria técnica de sua competência, delibera e age, aplicando as medidas práticas pertinentes, sem interferência externa. Exerce suas funções com independência, inclusive para denunciar e corrigir distorções existentes na própria administração municipal relativas ao atendimento às crianças e adolescentes. Suas decisões só podem ser revistas pelo Juiz da Infância e da Juventude, a partir de requerimento daquele que se sentir prejudicado.</p>`
                 }
 
             }

@@ -12,7 +12,7 @@
     "nomecompleto": "Simone Aparecida Ramos de Souza",
     "numero": 115,
     "imagem": "./115.png",
-    "proposta": "",
+    "proposta": "<h3>Propostas</h3> <p>Zelar pelo cumprimento de direitos. Garantir absoluta prioridade na efetivação de direitos. Orientar a construção da política municipal de atendimento.</p><img src='./simone.jpeg' alt=''>",
     "votos": 4
   },
   {
@@ -60,7 +60,7 @@
     "nomecompleto": "Waldier de Souza Silva",
     "numero": 223,
     "imagem": "./223.png",
-    "proposta": "",
+    "proposta": "<h3>Propostas</h3><img src='./dier-banner.jpeg' alt=''>",
     "votos": 8
   },
   {
@@ -76,7 +76,7 @@
     "nomecompleto": "Eudirene Aparecida Pereira Alves",
     "numero": 700,
     "imagem": "./700.png",
-    "proposta": "",
+    "proposta": "<h3>Propostas</h3><img src='./didi-banner.jpeg' alt=''>",
     "votos": 7
   }
 ]
