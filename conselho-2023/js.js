@@ -43,10 +43,9 @@ document.querySelectorAll('.ccc div')[0].addEventListener('click', () => {
 const verResultadoVotacao = window.location.hash
 if(verResultadoVotacao == "#resultadourna") {
     fechaVotos()
-    console.log('gerou')
+   
 }
 
-console.log(verResultadoVotacao)
 
 document.querySelectorAll('.ccc div')[2].addEventListener('click', () => {
     const numerosUR = `${numeroUrna[0].innerHTML}${numeroUrna[1].innerHTML}${numeroUrna[2].innerHTML}`
