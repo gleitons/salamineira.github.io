@@ -225,7 +225,7 @@ async function Votados() {
     const datad = await response.json()
     const votoreal = await JSON.parse(localStorage.getItem('votos'))
     
-    var somaVotos =  200
+    var somaVotos =  1000
 
     
     var todosVotos = []
