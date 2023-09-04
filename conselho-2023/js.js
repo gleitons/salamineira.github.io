@@ -220,7 +220,7 @@ function loadAtualiza() {
     window.location.href = 'https://salamineira.com/conselho-2023/#resultadourna'
 }
 async function Votados() {
-   // document.querySelector('.votos').innerHTML = ''
+    document.querySelector('.votos').innerHTML = ''
     const response = await fetch('./candidatos')
    // const data = await response.json()
     const datad = await response.json()
