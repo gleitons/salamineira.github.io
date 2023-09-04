@@ -315,7 +315,7 @@ fazPiscar()
 function aguardaVotar() {
     const data = new Date();
     const tempoPassado = new Date(data - new Date(localStorage.getItem('horaAtual'))).getMinutes()
-    const tempoMostrador = 1
+    const tempoMostrador = 30
 
 
 
