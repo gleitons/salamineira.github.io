@@ -290,6 +290,7 @@ function fechaVotos() {
     document.querySelector('.votos').innerHTML = ``
     document.querySelector('#votosOn').classList.toggle('dnone')
     Votados()
+    setTimeout('atencao()', 1000)
 }
 
 
@@ -423,3 +424,17 @@ function salvaHorarioVotado() {
       } 
       noback.init();
   }(window)); 
+
+  function atencao() {
+    const faceCandMostra = document.querySelectorAll('.faceCandidato')
+    console.log(faceCandMostra.length)
+    for(let i = 0; i < faceCandMostra.length; i++){
+      faceCandMostra[i].addEventListener('click', () => {
+          console.log('ver')
+          document.querySelector('#fechavv').classList.add('avisaS')
+          document.querySelector('#fechavv').style.backgroundColor = 'red'
+      })
+    }
+
+  }
+

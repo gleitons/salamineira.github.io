@@ -424,6 +424,11 @@
   /* border-radius: 10px; */
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+.avisaS {
+  transform: scale(1.05 );
+  background-color: green;
+  animation: piscap 3s infinite;
+}
 
 @media (max-height: 560px) {
   .tela {
