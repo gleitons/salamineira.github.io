@@ -62,6 +62,7 @@ document.querySelectorAll('.ccc div')[2].addEventListener('click', () => {
         numeroUrC.value = numerosUR
         nomeurnaC.value = oNomeNaUrna
         setTimeout('enviarResutVotacao()', 1000)
+       
 
 
     }
@@ -73,6 +74,9 @@ function enviarResutVotacao() {
     salvaHorarioVotado()
     localStorage.setItem('bloquearVotacao', '1')
     formulario.submit();
+    //setTimeout(window.location.href = './', 3000)
+    
+   
 }
 
 document.addEventListener('click', () => {
@@ -225,7 +229,7 @@ async function Votados() {
     const datad = await response.json()
     const votoreal = await JSON.parse(localStorage.getItem('votos'))
     
-    var somaVotos =  1000
+    var somaVotos =  1500
 
     
     var todosVotos = []
@@ -291,6 +295,7 @@ function fechaVotos() {
     document.querySelector('#votosOn').classList.toggle('dnone')
     Votados()
     setTimeout('atencao()', 1000)
+    
 }
 
 

@@ -18,7 +18,13 @@
 .esquerdoArtigo h4 {
   margin: 10px 0px;
 }
-
+.videoShow {
+  width: 100%;
+  height: 600px;
+}
+.videoShow video {
+  width: 100%;
+}
 .musica {
   font-style: arial;
   line-height: 30px;
@@ -400,6 +406,34 @@ figcaption {
   box-shadow: rgba(0, 0, 0, 0.452) 0px 0px 10px 0px;
   width: 1200px;
 }
+.showAcao {
+  display: block;
+  /* float: left; */
+  background-image: url("/acao-global-lagoa-dos-patos-mg/acao-global-2023-lagoa-dos-patos-mg.jpeg");
+  width: 360px;
+  
+  /* Tamanho das partes 200x200 */
+  height: 460px;
+  border: 1px solid #ccc;
+}
+.dia15 {
+  background-position: -14px -502px;
+  zoom: 1.1;
+}
+.dia16 {
+  background-position: -352px -398px;
+}
+.dia17 {
+  background-position: -700px -485px;
+}
+.motocross {
+  background-position: -358px -772px;
+}
+
+
+
+
+
 @media (max-width: 768px) {
   .fixaPropaganda {
     background-color: white;
