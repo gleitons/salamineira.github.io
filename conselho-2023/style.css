@@ -10,7 +10,7 @@
 }
 .urna {
   position: relative;
-  max-width: 460px;
+  max-width: 450px;
 
   margin: auto;
   border: black solid 1px;
@@ -239,6 +239,7 @@
   width: 100%;
   justify-content: space-between;
   background-color: #312c2f;
+  position: relative;
 }
 
 .faceCandidato:active {
@@ -256,6 +257,28 @@
   width: 30%;
   border-radius: 8px;
 }
+.colocacao {
+  position: absolute;
+  background-color: rgb(39, 0, 210);
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  align-items: center;
+  top: 18px;
+  left: 18px;
+}
+.vencedor {
+  width: 10px;
+  position: absolute;
+  top: -6px;
+  right: 156px;
+}
+.vencedor img {
+  width: 100%;
+}
+
 .imagemVer {
   width: 70%;
   margin: auto;
@@ -425,7 +448,7 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .avisaS {
-  transform: scale(1.05 );
+  transform: scale(1.05);
   background-color: green;
   animation: piscap 3s infinite;
 }
@@ -445,7 +468,7 @@
   .numeroP {
     margin: 2px;
     align-items: center;
-   
+
     height: 100px;
     margin-top: 10px;
     padding-top: 0px;
@@ -502,10 +525,10 @@
   }
   .dePropostas img {
     width: 110px;
-    
+
     position: relative;
   }
-  #nomeU{
+  #nomeU {
     position: absolute;
     top: 17px;
     left: 100px;
@@ -513,7 +536,7 @@
   .dePropostas span {
     position: absolute;
     top: 72px;
-    content: 'ddccc';
+    content: "ddccc";
     left: 94px;
     color: #000000aa;
     font-size: 1em;

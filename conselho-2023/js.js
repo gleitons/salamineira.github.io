@@ -273,13 +273,17 @@ async function Votados() {
         if (porc > 10) {
             var calcPorcentagem = 10
         }
-        document.querySelector('.votos').innerHTML += `<div class="faceCandidato">
+        const posit = index + 1
+        const resultadoPost = posit <= 5 ? 'block':'none';
+        document.querySelector('.votos').innerHTML += `<div class="faceCandidato " >
         <img src="./${c.numero}-min.jpg" alt="">
         <div>
             <div style="width: ${porc * 2}%; height: 20px; background-color: rgb(105, 255, 60); border-radius: 2px;"></div>
             <h3 class="numeroUrnaH2">${c.votos} VOTOS</h3>
             <h6>${c.nome}</h6>
         </div>
+        <p class="colocacao">${posit}</p>
+        <img class="vencedor" style="display:${resultadoPost};" src="./vencedor-min.png" alt="vencedor">
     </div>`
     
 
