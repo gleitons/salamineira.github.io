@@ -259,21 +259,46 @@
 }
 .colocacao {
   position: absolute;
-  background-color: rgb(39, 0, 210);
-  height: 20px;
-  width: 20px;
+  background-color: rgb(247, 236, 39);
+  height: 30px;
+  width: 30px;
   text-align: center;
   border-radius: 50%;
-  color: white;
+  font-weight: 700;
+  color: rgb(36, 0, 215);
   align-items: center;
-  top: 18px;
-  left: 18px;
+  top: 11px;
+  left: 111px;
+  z-index: 9;
+  padding: 5px;
+}
+@media (width: 360px) {
+  .colocacao {
+    top: 9px;
+    left: 98px;
+  }
+}
+@media (width: 390px) {
+  .colocacao {
+    top: 12px;
+    left: 122px;
+  }
 }
 .vencedor {
   width: 10px;
   position: absolute;
   top: -6px;
-  right: 156px;
+  right: 189px;
+  -webkit-filter: drop-shadow(2px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+@keyframes acolor {
+  from {
+    background-color: rgb(238, 187, 187);
+  }
+  50% {
+    background-color: rgb(242, 171, 232);
+  }
 }
 .vencedor img {
   width: 100%;
