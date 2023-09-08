@@ -272,6 +272,18 @@
   z-index: 9;
   padding: 5px;
 }
+.termosdeuso {
+  line-height: 1.5em;
+  background-color: white;
+  padding: 5px;
+  
+}
+.termosdeuso ul {
+  list-style: none;
+}
+.termosdeuso ul li {
+  border-bottom: #222 solid 1px;
+}
 @media (width: 360px) {
   .colocacao {
     top: 9px;

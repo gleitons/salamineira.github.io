@@ -41,9 +41,9 @@ document.querySelectorAll('.ccc div')[0].addEventListener('click', () => {
 
 })
 const verResultadoVotacao = window.location.hash
-if(verResultadoVotacao == "#resultadourna") {
+if (verResultadoVotacao == "#resultadourna") {
     fechaVotos()
-   
+
 }
 
 
@@ -62,7 +62,7 @@ document.querySelectorAll('.ccc div')[2].addEventListener('click', () => {
         numeroUrC.value = numerosUR
         nomeurnaC.value = oNomeNaUrna
         setTimeout('enviarResutVotacao()', 1000)
-       
+
 
 
     }
@@ -75,8 +75,8 @@ function enviarResutVotacao() {
     localStorage.setItem('bloquearVotacao', '1')
     formulario.submit();
     //setTimeout(window.location.href = './', 3000)
-    
-   
+
+
 }
 
 document.addEventListener('click', () => {
@@ -225,13 +225,13 @@ function loadAtualiza() {
 async function Votados() {
     document.querySelector('.votos').innerHTML = ''
     const response = await fetch('./candidatos')
-   // const data = await response.json()
+    // const data = await response.json()
     const datad = await response.json()
     const votoreal = await JSON.parse(localStorage.getItem('votos'))
-    
-    var somaVotos =  1500
 
-    
+    var somaVotos = 1500
+
+
     var todosVotos = []
     for (let index = 0; index < datad.length; index++) {
 
@@ -239,21 +239,21 @@ async function Votados() {
             "nome": datad[index].nome,
             "nomecompleto": datad[index].nomecompleto,
             "numero": datad[index].numero,
-            "imagem": `./${ datad[index].numero}.png`,
-            "votos":JSON.stringify(votoreal[index]).replace(/[^0-9]/gi, '')
+            "imagem": `./${datad[index].numero}.png`,
+            "votos": JSON.stringify(votoreal[index]).replace(/[^0-9]/gi, '')
         }
         todosVotos.push(candiD)
-      
-        
+
+
     }
-   
 
-   
-   const data = todosVotos
 
-  
 
-    
+    const data = todosVotos
+
+
+
+
 
     data.sort(function (a, b) {
         if (parseInt(a.votos) > parseInt(b.votos)) {
@@ -266,7 +266,7 @@ async function Votados() {
         return 0;
     });
 
-   
+
 
     data.map((c, index) => {
         const porc = Math.floor((c.votos * 100) / somaVotos)
@@ -274,7 +274,7 @@ async function Votados() {
             var calcPorcentagem = 10
         }
         const posit = index + 1
-        const resultadoPost = posit <= 5 ? 'block':'none';
+        const resultadoPost = posit <= 5 ? 'block' : 'none';
         document.querySelector('.votos').innerHTML += `<div class="faceCandidato " >
         <img src="./${c.numero}-min.jpg" alt="">
         <div>
@@ -285,7 +285,7 @@ async function Votados() {
         <p class="colocacao">${posit}</p>
         <img class="vencedor" style="display:${resultadoPost};" src="./vencedor-min.png" alt="vencedor">
     </div>`
-    
+
 
 
     })
@@ -299,7 +299,26 @@ function fechaVotos() {
     document.querySelector('#votosOn').classList.toggle('dnone')
     Votados()
     setTimeout('atencao()', 1000)
-    
+
+}
+console.log(localStorage.getItem('aceitatermos'))
+if (localStorage.getItem('aceitatermos') == 'sim') {
+    document.querySelector('#termos').classList.add('dnone')
+}
+
+function aceitatermos() {
+    //document.querySelector('.votos').innerHTML = ``
+    localStorage.setItem('aceitatermos', 'sim')
+    document.querySelector('#termos').classList.toggle('dnone')
+    // if(localStorage.getItem('aceitatermos') == null) {
+
+    // }
+    //location.reload()
+
+
+    // Votados()
+    // setTimeout('atencao()', 1000)
+
 }
 
 
@@ -336,17 +355,17 @@ function aguardaVotar() {
         document.querySelector('#timeVoto').style.display = 'block'
         if (valorSobrando <= 0) {
             localStorage.setItem('bloquearVotacao', '0')
-            
+
             document.querySelectorAll('.ccc div')[2].style.visibility = 'visible'
             location.reload()
-            
+
 
         }
         document.querySelectorAll('.ccc div')[2].style.visibility = 'hidden'
 
     } else {
         document.querySelector('#timeVoto').style.display = 'none'
-        
+
     }
 
 
@@ -366,84 +385,93 @@ function salvaHorarioVotado() {
  Author: Kiko Mesquita: http://twitter.com/kikomesquita 
  Based on stackoverflow 
  * Copyright (c) 2015 @ kikomesquita 
-*/ 
+*/
 
-(function(window) { 
-    'use strict'; 
-   
-  var noback = { 
-       
-      //globals 
-      version: '0.0.1', 
-      history_api : typeof history.pushState !== 'undefined', 
-       
-      init:function(){ 
-          window.location.hash = '#no-back'; 
-          noback.configure(); 
-      }, 
-       
-      hasChanged:function(){ 
-          if (window.location.hash == '#no-back' ){ 
-              window.location.hash = '#BLOQUEIO';
-              //mostra mensagem que não pode usar o btn volta do browser
-              if($( "#msgAviso" ).css('display') =='none'){
-                  $( "#msgAviso" ).slideToggle("slow");
-              }
-          } 
-      }, 
-       
-      checkCompat: function(){ 
-          if(window.addEventListener) { 
-              window.addEventListener("hashchange", noback.hasChanged, false); 
-          }else if (window.attachEvent) { 
-              window.attachEvent("onhashchange", noback.hasChanged); 
-          }else{ 
-              window.onhashchange = noback.hasChanged; 
-          } 
-      }, 
-       
-      configure: function(){ 
-          if ( window.location.hash == '#no-back' ) { 
-              if ( this.history_api ){ 
-                  history.pushState(null, '', '#BLOQUEIO'); 
-              }else{  
-                  window.location.hash = '#BLOQUEIO';
-                  //mostra mensagem que não pode usar o btn volta do browser
-                  if($( "#msgAviso" ).css('display') =='none'){
-                      $( "#msgAviso" ).slideToggle("slow");
-                  }
-              } 
-          } 
-          noback.checkCompat(); 
-          noback.hasChanged(); 
-      } 
-       
-      }; 
-       
-      // AMD support 
-      if (typeof define === 'function' && define.amd) { 
-          define( function() { return noback; } ); 
-      }  
-      // For CommonJS and CommonJS-like 
-      else if (typeof module === 'object' && module.exports) { 
-          module.exports = noback; 
-      }  
-      else { 
-          window.noback = noback; 
-      } 
-      noback.init();
-  }(window)); 
+(function (window) {
+    'use strict';
 
-  function atencao() {
+    var noback = {
+
+        //globals 
+        version: '0.0.1',
+        history_api: typeof history.pushState !== 'undefined',
+
+        init: function () {
+            window.location.hash = '#no-back';
+            noback.configure();
+        },
+
+        hasChanged: function () {
+            if (window.location.hash == '#no-back') {
+                window.location.hash = '#BLOQUEIO';
+                //mostra mensagem que não pode usar o btn volta do browser
+                if ($("#msgAviso").css('display') == 'none') {
+                    $("#msgAviso").slideToggle("slow");
+                }
+            }
+        },
+
+        checkCompat: function () {
+            if (window.addEventListener) {
+                window.addEventListener("hashchange", noback.hasChanged, false);
+            } else if (window.attachEvent) {
+                window.attachEvent("onhashchange", noback.hasChanged);
+            } else {
+                window.onhashchange = noback.hasChanged;
+            }
+        },
+
+        configure: function () {
+            if (window.location.hash == '#no-back') {
+                if (this.history_api) {
+                    history.pushState(null, '', '#BLOQUEIO');
+                } else {
+                    window.location.hash = '#BLOQUEIO';
+                    //mostra mensagem que não pode usar o btn volta do browser
+                    if ($("#msgAviso").css('display') == 'none') {
+                        $("#msgAviso").slideToggle("slow");
+                    }
+                }
+            }
+            noback.checkCompat();
+            noback.hasChanged();
+        }
+
+    };
+
+    // AMD support 
+    if (typeof define === 'function' && define.amd) {
+        define(function () { return noback; });
+    }
+    // For CommonJS and CommonJS-like 
+    else if (typeof module === 'object' && module.exports) {
+        module.exports = noback;
+    }
+    else {
+        window.noback = noback;
+    }
+    noback.init();
+}(window));
+
+function atencao() {
     const faceCandMostra = document.querySelectorAll('.faceCandidato')
     console.log(faceCandMostra.length)
-    for(let i = 0; i < faceCandMostra.length; i++){
-      faceCandMostra[i].addEventListener('click', () => {
-          console.log('ver')
-          document.querySelector('#fechavv').classList.add('avisaS')
-          document.querySelector('#fechavv').style.backgroundColor = 'red'
-      })
+    for (let i = 0; i < faceCandMostra.length; i++) {
+        faceCandMostra[i].addEventListener('click', () => {
+            console.log('ver')
+            document.querySelector('#fechavv').classList.add('avisaS')
+            document.querySelector('#fechavv').style.backgroundColor = 'red'
+        })
     }
 
-  }
+}
 
+
+// var fs = window.RequestFileSystem || window.webkitRequestFileSystem;
+// fs(window.TEMPORARY, 10, function () {
+//     document.querySelector('#anonimo').classList.add('dnone')
+//     console.log("Aba normal");
+// }, function (error) {
+//     document.querySelector('#anonimo').classList.remove('dnone')
+//     console.log("Aba anônima");
+// });
