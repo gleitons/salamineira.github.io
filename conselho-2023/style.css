@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+   
 }
 .dnone {
   display: none;
@@ -259,7 +260,7 @@
 }
 .colocacao {
   position: absolute;
-  background-color: rgb(247, 236, 39);
+  background-color: #ebaf17;
   height: 30px;
   width: 30px;
   text-align: center;
@@ -359,6 +360,7 @@
   left: 91px;
   position: absolute;
   animation: rotates infinite 8s linear;
+  transition: all 1s;
 }
 
 @keyframes rotates {
