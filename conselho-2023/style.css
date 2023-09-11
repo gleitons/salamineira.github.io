@@ -258,6 +258,36 @@
   width: 30%;
   border-radius: 8px;
 }
+.avisoencerrado {
+  padding: 10px;
+  text-align: center;
+  height: 80vh;
+  overflow: auto;
+
+}
+.avisoencerrado p {
+  background-color: red;
+  color: white;
+  font-weight: 800;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px auto;
+  
+}
+.appencerrado {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100%;
+  background: rgba(160, 160, 160, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  /* border-radius: 10px; */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  animation: pulo 350ms normal linear;
+}
 .colocacao {
   position: absolute;
   background-color: #ebaf17;
