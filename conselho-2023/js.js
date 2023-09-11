@@ -289,13 +289,14 @@ function fechaVotos() {
 }
 if (localStorage.getItem('aceitatermos') == 'sim') {
     document.querySelector('#termos').classList.add('dnone')
-} else {
-    document.querySelector('#termos').classList.remove('dnone')
-}
+} 
+// else {
+//     document.querySelector('#termos').classList.remove('dnone')
+// }
 
 function aceitatermos() {
     //document.querySelector('.votos').innerHTML = ``
-    localStorage.setItem('aceitatermos', 'nao')
+    localStorage.setItem('aceitatermos', 'sim')
     document.querySelector('#termos').classList.toggle('dnone')
     // if(localStorage.getItem('aceitatermos') == null) {
 
@@ -672,4 +673,4 @@ function createFirework(x, y) {
 function encerrado() {
     document.querySelector('.avisoencerrado').innerHTML += `<p>APP ENCERRADO COM SUCESSO!</p>`
 }
-setInterval('encerrado()', 1000)
+//setInterval('encerrado()', 1000)
