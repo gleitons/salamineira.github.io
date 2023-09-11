@@ -274,6 +274,10 @@
   margin: 10px auto;
   
 }
+.appencerrado img {
+  width: 100%;
+  padding: 10px;
+}
 .appencerrado {
   position: absolute;
   top: 0px;
