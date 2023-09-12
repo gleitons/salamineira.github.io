@@ -563,8 +563,13 @@ figcaption {
 }
 
 /* Hotel */
+.dnone {
+  display: none;
+}
 .hoteisLa {
   padding: 20px;
+  background-image: url('https://img.freepik.com/fotos-gratis/fundo-colorido-desfocado-vivido_58702-2655.jpg');
+  background-size: cover;
 }
 .cardHotel {
   display: flex;
@@ -583,11 +588,26 @@ figcaption {
   border: 1px solid rgba(255, 255, 255, 0.18);
   margin: 30px auto;
 }
+.cardHotel button {
+  padding: 5px;
+  cursor: pointer;
+}
 .cardHotel .imageHotel {
   width: 30%;
+  overflow: hidden;
+  
+  
 }
 .cardHotel .imageHotel img {
   border-radius: 8px;
+  transition: 300ms;
+  transform: scale(0.9);
+}
+.cardHotel .imageHotel img:hover {
+  
+  cursor: pointer;
+  transform: scale(1.0);
+  filter: brightness(1.4);
 }
 
 .maisInfoCard {
@@ -603,28 +623,44 @@ figcaption {
 .beneficiosHotel i {
   color: gray;
 }
-.mapasEWhats {
-  width: 80%;
+.infoCardHotel .mapasEWhats {
+  width: 100%;
   display: flex;
   margin: 5px auto;
   text-align: center;
 }
+.imagemSho {
+  width: 30%;
+  margin: 10px;
+}
 .mapasEWhats > div {
-  width: 48%;
+  width: 30%;
+  margin: 10px auto;
+  transition: 1s;
+ 
 }
 @media (max-width: 576px) {
   .cardHotel {
     display: block;
     text-align: center;
-    margin: auto;
+    margin: 15px auto;
   }  
   .imageHotel {
     width: 100%;
+   
   }
   .cardHotel .imageHotel  {
     width: 100%;
+    margin: 10px auto;
+  }
+  .beneficiosHotel {
+    display: block;
   }
   .maisInfoCard {
     display: block;
+  }
+  .imagemSho {
+    width: 95%;
+    margin: 10px auto;
   }
 }

@@ -100,62 +100,18 @@
 
 
 
-                <!-- <div class="hoteisLa">
-                    <div class="cardHotel">
-                        <div class="imageHotel">
-                            <img src="/img/hotel-estrela-lagoa-dos-patos-mg.png" alt="">
-                        </div>
-                        <div class="infoCardHotel">
-                            <div class="maisInfoCard">
-                                <div>
-                                    <h3>HOTEL ESTRELA</h3>
-                                    <p>4,3</p>
-                                    <div>
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                    </div>
-                                    <div class="beneficiosHotel">
-                                        <i class="bi bi-p-square-fill"></i>
-                                        <p>Estacionamento</p>
-                                        <i class="bi bi-wifi"></i>
-                                        <p>Wi-Fi Gratuito</p>
-                                    </div>
-                                </div>
-                                <div>
-                                   
-                                        <p><strong>R$ 49,00</strong></p>
-                                   
-                                </div>
-                            </div>
-                            <div>
-                                <p>(38) 99999-4862</p>
-                            </div>
-                            <div>
-                                <button>Entrar Em Contato</button>
-                                <div class="mapasEWhats">
-                                    <div>
-                                        <button>Mapa</button>
-                                    </div>
-                                    <div>
-                                        <button>Fotos</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <img src="/img/152-pacote-de-obras-lagoa-dos-patos-mg-gil-junior-vandinho-ze-silva.jpg" alt="">
-                        </div>
-                    </div>
-                </div> -->
+                <div class="hoteisLa">
+
+
+                </div>
+
+
                 <div>
                     <h2>HOTEL ESTRELA LAGOA DOS PATOS MG</h2>
                     <p><strong>Endereço:</strong> R. Miguel Braga, 08, Lagoa dos Patos - MG, 39360-000, Brasil</p>
                     <p><strong>Localização:</strong> <a href="https://www.google.com/maps/place/-16.9824168,-44.5801264"
                             target="_blank">Veja no mapa</a></p>
-                    <img src="/img/hotel-estrela-lagoa-dos-patos-mg.png" alt="Hotel estrela frente">
+                    <img src="/imagens-sala/2022/03/hotel-estrela-lagoa-dos-patos-mg.jpeg" alt="Hotel estrela frente">
                     <p>QUARTOS CONFORTÁVEIS COM FRIGOBAR, VENTILADOR DE TETO, TV, INTERNET, GARAGEM E UM DELICIOSO CAFÉ
                         DA MANHÃ!</p>
                     <p></p>
@@ -265,6 +221,90 @@
         </div>
     </footer>
 
+    <script>
+
+        async function geraHotel() {
+            const response = await fetch('/hotel-em-lagoa')
+            const data = await response.json()
+
+            data.map((e) => {
+                const telefoneFone = e.telefone.split(' ')
+                const numeroCompletoadd = 9 + telefoneFone[1].replace(/-/g, '')
+                const numeroCompletoWhats = telefoneFone[1].replace(/-/g, '')
+                
+                document.querySelector('.hoteisLa').innerHTML += `<div class="cardHotel">
+                        <div class="imageHotel">
+                            <img src="${e.logo}" alt="">
+                        </div>
+                        <div class="infoCardHotel">
+                            <div class="maisInfoCard">
+                                <div>
+                                    <h3>${e.nome.toUpperCase()}</h3>
+                                    <p>4,3</p>
+                                    <div>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </div>
+                                    <div class="beneficiosHotel">
+                                        <i class="bi bi-car-front"></i>
+                                        <p>Estacionamento</p>                                        
+                                        <i class="bi bi-wifi"></i>
+                                        <p>Wi-Fi Gratuito</p>
+                                    </div>
+                                </div>
+                                <div>                                   
+                                        <p><strong>${e.opcao}</strong></p>                                   
+                                </div>
+                            </div>
+                            <div>
+                                <p>Endereço: ${e.tipo} ${e.endereco}, ${e.numero}, ${e.bairro}</p>
+                            </div>
+                            <div>
+                                <button>Entrar Em Contato</button>
+                                <div class="mapasEWhats" style="display: none;">
+                                    <div>
+                                        <a href="tel:38${numeroCompletoadd}"><button>Ligar</button></a>
+                                    </div>
+                                    <div>
+                                        <a href="https://api.whatsapp.com/send?l=pt-BR&phone=5538${numeroCompletoWhats}&text=Ol%C3%A1%20hotel ${e.nome.toUpperCase()},%20gostaria%20de%20informa%C3%A7%C3%B5es,%20vagas,%20locais%20etc.%20Poderia%20me%20ajudar?" target="_blank"><button>WhatsApp</button></a>
+                                    </div>
+                                    <div>
+                                        <a href="${e.mapa}" target="_blank"><button>Rotas</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="imagemSho">
+                            <img src="${e.imagens[0]}" alt="">
+                        </div>
+                    </div>`
+            })
+            const maisInfoCard = document.querySelectorAll('.infoCardHotel')
+            for (let i = 0; i < maisInfoCard.length; i++) {
+                maisInfoCard[i].querySelectorAll('button')[0].addEventListener('click', () => {
+                    const btnClick = [i]
+
+                    const verContato = document.querySelectorAll('.mapasEWhats')[i]
+                    verContato.style.display = 'flex'
+                })
+
+            }
+        }
+        geraHotel()
+
+
+        // setTimeout('geraHotel()', 2000)
+        // var splide = new Splide('.splide', {
+        //     type: 'loop',
+        //     perPage: 3,
+        //     focus: 'center',
+        // });
+
+        // splide.mount();
+    </script>
 
     <div class="dnone" id="fb-root"></div>
     <script class="dnone" async defer crossorigin="anonymous"
@@ -273,17 +313,9 @@
     <script src="/scripts/index.js"></script>
     <script src="/scripts/imagens-artigo.js"></script>
     <script src="/scripts/propaganda.js"></script>
-    <script src="/scripts/slides.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
-    <script>
-        var splide = new Splide('.splide', {
-            type: 'loop',
-            perPage: 3,
-            focus: 'center',
-        });
+    <!-- <script src="/scripts/slides.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script> -->
 
-        splide.mount();
-    </script>
 
 
 </body>
