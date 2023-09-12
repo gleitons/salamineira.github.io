@@ -223,7 +223,7 @@ function adsNoArtigo() {
         ${artigosSalaMineira()}`
     }
 
-    adsArtigo.innerHTML = `${adsScreen}`
+     adsArtigo.innerHTML = `${adsScreen}`
     propArtifo.innerHTML = `${adsGoogle}`
 
     footerM.innerHTML = footerMenu();

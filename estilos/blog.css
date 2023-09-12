@@ -189,17 +189,16 @@
   }
   50% {
     box-shadow: rgb(248, 227, 37) 0px 0px 20px 5px, inset black 0px 2px 0px 0px;
-   
   }
 }
 .imgVai {
-    animation: setandoK 1s infinite;
+  animation: setandoK 1s infinite;
 }
 @keyframes setandoK {
-    0% {
-        opacity: 0;
-        right: -50px;
-    }
+  0% {
+    opacity: 0;
+    right: -50px;
+  }
 }
 .cnPJ {
   display: none;
@@ -411,7 +410,7 @@ figcaption {
   /* float: left; */
   background-image: url("/acao-global-lagoa-dos-patos-mg/acao-global-2023-lagoa-dos-patos-mg.jpeg");
   width: 360px;
-  
+
   /* Tamanho das partes 200x200 */
   height: 460px;
   border: 1px solid #ccc;
@@ -429,10 +428,6 @@ figcaption {
 .motocross {
   background-position: -358px -772px;
 }
-
-
-
-
 
 @media (max-width: 768px) {
   .fixaPropaganda {
@@ -469,6 +464,9 @@ figcaption {
 }
 
 @media (max-width: 576px) {
+  .cardHotel {
+    display: block;
+  }
   main {
     width: 100%;
   }
@@ -561,5 +559,72 @@ figcaption {
     padding: 15px;
     margin: 10px;
     margin-left: -2px;
+  }
+}
+
+/* Hotel */
+.hoteisLa {
+  padding: 20px;
+}
+.cardHotel {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border: black solid 1px;
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: 30px auto;
+}
+.cardHotel .imageHotel {
+  width: 30%;
+}
+.cardHotel .imageHotel img {
+  border-radius: 8px;
+}
+
+.maisInfoCard {
+  display: flex;
+}
+.infoCardHotel button {
+  width: 100%;
+}
+.beneficiosHotel {
+  display: flex;
+  width: 100%;
+}
+.beneficiosHotel i {
+  color: gray;
+}
+.mapasEWhats {
+  width: 80%;
+  display: flex;
+  margin: 5px auto;
+  text-align: center;
+}
+.mapasEWhats > div {
+  width: 48%;
+}
+@media (max-width: 576px) {
+  .cardHotel {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }  
+  .imageHotel {
+    width: 100%;
+  }
+  .cardHotel .imageHotel  {
+    width: 100%;
+  }
+  .maisInfoCard {
+    display: block;
   }
 }
