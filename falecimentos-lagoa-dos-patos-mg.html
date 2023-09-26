@@ -119,9 +119,11 @@ Patos-MG</span></h2>
 <button style="background-color:green;color:white;margin:1em 0" type=button class="btn btn-danger" id=btnTabela onclick=contadorObitos()>Veja as
 Estatísticas</button>
 </div>
-<div id="infoDados">
-<button   class="btn-primary btn" id=btnTabela onclick="falecidos()" >Clique aqui e Veja as Homenagens aos nossos conterrâneos</button>
+<!-- <button   class="btn-primary btn" id=btnTabela onclick="falecidos()" >Clique aqui e Veja as Homenagens aos nossos conterrâneos</button> -->
 <p>Utilizamos servidores de processamento, o que gera custos, devido a isso, para gerar todos os dados, <strong>clique no botão acima</strong>, deste modo, a página carrega mais rapidamente dando mais conforto para visualização</p>
+<div id="infoDados">
+<!-- <button   class="btn-primary btn" id=btnTabela onclick="falecidos()" >Clique aqui e Veja as Homenagens aos nossos conterrâneos</button>
+<p>Utilizamos servidores de processamento, o que gera custos, devido a isso, para gerar todos os dados, <strong>clique no botão acima</strong>, deste modo, a página carrega mais rapidamente dando mais conforto para visualização</p> -->
 </div>
 <div class=tabFalecimentos id=tabFalec style=display:none>
 <table>
@@ -148,10 +150,29 @@ Estatísticas</button>
 <div id=enviarDados></div>
 </div>
 </div>
-<div class=falecidoRecente id=homenagemFalecido>
+
+<div class="fechalo" style="text-align: center;">
+    <img style="width: 30%;" src="/falecimento/loa.svg" alt="">
 </div>
-<div id=falec2022></div>
-<div value=semInfo1 class=lutos id=lutoTitle></div>
+<div class="idOcu" style="visibility: hidden;">
+    <div class=falecidoRecente id=homenagemFalecido>
+    </div>
+    <div id=falec2022></div>
+    <div value=semInfo1 class=lutos id=lutoTitle></div>
+</div>
+<script>
+    function lo() {
+        const oLoad = document.querySelector('.fechalo')
+        const oOcu = document.querySelector('.idOcu')
+
+        oLoad.style.display = 'none'
+        oOcu.style.visibility = 'visible'
+
+
+    }
+    setTimeout('lo()', 4000)
+</script>
+
 <input id=Informa hidden type=number value=1>
 <div class=propagandaArtigo id=propArtifo></div>
 <div class=comentarios id=obrigadoPeloEnvio2>
