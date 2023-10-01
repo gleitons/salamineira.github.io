@@ -1093,9 +1093,20 @@ function favoritoPessoaJuridica() {
     botaos[3].disabled = true
     botaos[3].style.backgroundColor = 'gray'
     console.log(botaos)
-
-    
 }
+console.log(document.querySelector('.onclickFora'))
+if(document.querySelector('.onclickFora') != null){
+    colocaTarget()
+    console.log('ioj')
+}
+function colocaTarget() {
+    const todosLinks = document.querySelectorAll('.onclickFora a')
+    todosLinks.forEach((e) => {
+        e.setAttribute('target', '_blank')
+    })
+    console.log(todosLinks)
+}
+
 function linkOn(link) {
     window.open(link, '_blank');
 
