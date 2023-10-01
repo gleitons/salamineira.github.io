@@ -1,0 +1,69 @@
+[
+    {
+        "id":0,
+        "imagem": "./src/img/icons/comprador.png",
+        "texto": "Adicionar Comprador",
+        "link": "https://google.com"
+    },
+    {
+        "id":1,
+        "imagem": "./src/img/icons/editar-endereco.png",
+        "texto": "Editar Endereço",
+        "link": "https://google.com"
+    },
+    {
+        "id":2,
+        "imagem": "./src/img/icons/editar-contrato.png",
+        "texto": "Editar Contrato",
+        "link": "https://google.com"
+    },
+    {
+        "id":3,
+        "imagem": "./src/img/icons/editar-imovel.png",
+        "texto": "Editar Imóvel",
+        "link": "https://google.com"
+    },
+    {
+        "id":4,
+        "imagem": "./src/img/icons/adicionar-imovel.png",
+        "texto": "Adicionar Imóvel",
+        "link": "https://google.com"
+    },
+    {
+        "id":5,
+        "imagem": "./src/img/icons/editar-endereco.png",
+        "texto": "Editar Endereço",
+        "link": "https://google.com"
+    },
+    {
+        "id":6,
+        "imagem": "./src/img/icons/vendedor.png",
+        "texto": "Adicionar Vendedor",
+        "link": "https://google.com"
+    },
+    {
+        "id":7,
+        "imagem": "./src/img/icons/cadastrar-empresa.png",
+        "texto": "Cadastrar Empresa",
+        "link": "https://google.com"
+    },
+    {
+        "id":8,
+        "imagem": "./src/img/icons/editar-empresa.png",
+        "texto": "Editar Empresa",
+        "link": "https://google.com"
+    },
+    {
+        "id":9,
+        "imagem": "./src/img/icons/itbi-rural.png",
+        "texto": "ITBI Rural",
+        "link": "https://google.com"
+    },
+    {
+        "id":10,
+        "imagem": "https://ialkyrog.sirv.com/sala/icones/alvara.png",
+        "texto": "ITBI Urbano",
+        "link": "itbi-urbano"
+    }
+    
+]

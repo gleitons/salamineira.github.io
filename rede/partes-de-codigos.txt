@@ -1,0 +1,35 @@
+ <div>
+                                    <p>Selecione Tipo de Lote:</p>
+                                    <select name="" id="enderecosCadastrados" onchange="preencheCadastroEndereco()" >
+                                        <option>Lados iguais</option>
+                                        <option>Lados Diferentes</option>
+                                    </select>           
+                                </div>
+                                <div class="imagemMedidas">
+                                    <img src="./src/img/Lote Lados Iguais.svg" alt="">
+                                    <div class="medidasImovel">
+                                        <p>Frente</p>
+                                        <p>Fundo</p>
+                                        <p>Esquerdo</p>
+                                        <p>Direito</p>
+                                    </div>
+                                </div>
+
+
+                                ${people[data[index].vendedores[0].p1].nome} <strong>PARA</strong> ${people[data[index].compradores[0].c1].nome}
+
+                                 objetoParaEditar.id =  todosCadastros.length + 1,
+        objetoParaEditar.tipo =  fisica,
+        objetoParaEditar.cpf =  cpfGerado.value,
+        objetoParaEditar.nome =  cpfNome.value,
+        objetoParaEditar.profissao =  profissaoGerado.value,
+        objetoParaEditar.nacionalidade =  nacionalidadeGerado.value,
+        objetoParaEditar.genero =  cpfGenero,
+        objetoParaEditar.estadoCivil =  estadoCivilP,
+        objetoParaEditar.identidade =  cpfIdentidade.value,
+        objetoParaEditar.endereco =  enderecoImovel.value,
+        objetoParaEditar.bairro =  bairroImovel.value,
+        objetoParaEditar.numero =  numeroImovel.value,
+        objetoParaEditar.cep =  cepImovel.value,
+        objetoParaEditar.cidade =  cidadeImovel.value,
+        objetoParaEditar.estado =  estadoImovel.value

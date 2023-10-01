@@ -1,0 +1,613 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+:root {
+  --fundoCinza: var(--fundoBranco);
+  --fundoEscuro: rgb(51, 51, 51);
+}
+body {
+  min-width: 1200px;
+  background-color: var(--fundoBranco);
+}
+.fieldCadastroImóvel .iconsSeleciona {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 200px;
+  overflow: auto;
+  /* border: #13181e solid 1px; */
+  padding: 10px;
+  background-color: #7e7e7e8f;
+  box-shadow: inset rgba(0, 0, 0, 0.303) 1px 2px 5px 1px;
+}
+.iconsSeleciona img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  filter: brightness(0.8);
+  
+}
+.iconsSeleciona img:hover {
+  filter: brightness(1.2);
+  -o-box-shadow: 12px 12px 29px #787878;
+  
+  -khtml-box-shadow: 12px 12px 29px #787878;
+  -moz-box-shadow: 12px 12px 29px #787878;
+  -webkit-box-shadow: 12px 12px 29px #787878;
+  box-shadow: 12px 12px 29px #787878;
+}
+.ixiBum div::before {
+  background-color: rgb(0, 255, 38);
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  top: 0px;
+  left: 0px;
+  animation: onclica 400ms linear normal;
+}
+@keyframes onclica {
+  0% {
+    transform: scale(0.6);
+    opacity: 1;
+  }
+  60% {
+    transform: scale(1.3);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+header {
+  height: 80px;
+  background: rgba(222, 222, 222, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+header > div {
+  display: flex;
+  width: 60%;
+  margin: 2px auto;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+footer p {
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  color: blue;
+}
+header a {
+  width: 60px;
+  height: 60px;
+  top: 0px;
+  left: 0px;
+  background-image: url("./src/img/futuro-consultoria-horizonte.svg");
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+header > div a::after {
+  content: "";
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0.349),
+    rgba(255, 255, 255, 0.44),
+    rgba(218, 218, 218, 0.264)
+  );
+  position: absolute;
+  width: 50px;
+  height: 150px;
+  transform: rotate(-45deg);
+  top: -131px;
+  left: 23px;
+  filter: saturate(2);
+  border: 50%;
+  animation: reflex 20s infinite linear;
+}
+@keyframes reflex {
+  from {
+    top: -11px;
+    left: -27px;
+  }
+  30% {
+    top: -131px;
+    left: 23px;
+  }
+}
+.logoCima {
+  overflow: hidden;
+  background-image: url("./src/img/futuro-consultoria-horizonte.svg");
+}
+main {
+  display: flex;
+}
+.atalhosTela {
+  padding: 20px;
+  min-height: 200px;
+}
+.atalhosTela > div {
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+  backdrop-filter: blur(5px);
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 35px 35px 68px 0px rgba(161, 161, 161, 0.5),
+    inset -8px -8px 16px 0px rgba(161, 161, 161, 0.6),
+    inset 0px 11px 28px 0px rgb(255, 255, 255);
+  filter: brightness(0.9);
+  text-align: center;
+  /* -webkit-border-radius: 50px; */
+  /* border-radius: 50px; */
+  background: #d1d8ec85;
+  -webkit-box-shadow: 3px 3px 6px #b2b8c9, -3px -3px 6px #f0f8ff;
+  box-shadow: 3px 3px 6px #b2b8c9, -3px -3px 6px #f0f8ff;
+  transition: 200ms;
+}
+.atalhosTela {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.atalhosTela a {
+  text-decoration: none;
+  color: #13181e;
+}
+
+.avisoOff .editarAtalhos {
+  background-color: white;
+  width: 100%;
+  margin: auto;
+}
+
+.avisoOff .selecIconAdd {
+  margin: 20px auto;
+  background-color: rgb(206, 206, 206);
+}
+.avisoOff .mostraAtalhosClose {
+  margin-top: 10px;
+  background-color: rgb(173, 173, 173);
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.avisoOff .mostraAtalhosClose img {
+  width: 8%;
+}
+.avisoOff .mostraAtalhosClose i {
+  font-size: 1.6em;
+  cursor: pointer;
+  color: rgb(128, 0, 0);
+}
+.avisoOff .mostraAtalhosClose i:hover {
+  color: rgb(235, 19, 19);
+}
+.atalhosTela div img {
+  width: 72px;
+  margin: auto;
+  text-align: center;
+  filter: brightness(0.9);
+  transition: 200ms;
+}
+.atalhosTela div p {
+  font-size: 0.6em;
+  width: 100%;
+  height: 35px;
+  overflow: hidden;
+}
+.atalhosTela > div:hover {
+  filter: brightness(1);
+  filter: saturate(1.2);
+}
+.atalhosTela > div:hover img {
+  filter: brightness(1);
+  filter: saturate(1.2);
+}
+.menusApresentação {
+  width: 20%;
+  min-height: 92vh;
+  padding-bottom: 5%;
+  background-color: var(--fundoEscuro);
+  overflow: unset;
+  z-index: 2;
+}
+.menuLateral {
+  position: fixed;
+  position: relative;
+  left: 0px;
+  width: 100%;
+  z-index: 9999;
+  /* background-color: red; */
+  padding: 10px;
+}
+
+.btnSubb {
+  cursor: pointer;
+  background-color: rgb(24, 112, 0);
+  font-size: 1.3em;
+  color: white;
+  border-radius: 8px;
+}
+.avisoOff {
+  position: absolute;
+  z-index: 999999;
+  background: rgba(9, 8, 15, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(8, 9, 35, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  animation: surgir 150ms normal;
+}
+
+@keyframes surgir {
+  from {
+    opacity: 0;
+  }
+}
+
+.avisoOff div {
+  background-color: #252d36;
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 300ms;
+  animation: animaCimaBaixo 200ms normal linear;
+}
+@keyframes animaCimaBaixo {
+  from {
+    transform: scale(0.8);
+  }
+}
+
+.avisoOff button {
+  padding: 10px;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+}
+.icoCompraEVenda {
+  text-align: center;
+  margin: auto;
+}
+.menuLateral i {
+  font-size: 1.3em;
+}
+.menuLateral > div {
+  background-color: #13181e;
+  box-shadow: inset black 0px 2px 5px 0px;
+  padding: 10px;
+  color: rgb(158, 158, 158);
+  font-size: 0.8em;
+}
+
+nav > li {
+  width: 100%;
+  /* background-color: red; */
+  color: white;
+  cursor: pointer;
+  line-height: 4em;
+}
+.menuLateral li {
+  list-style: none;
+  text-align: inherit;
+  transition: 200ms;
+}
+
+.menuLateral a {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+
+  cursor: pointer;
+  line-height: 3em;
+}
+nav > li::after {
+  content: ">";
+  position: absolute;
+  right: 10px;
+}
+.atencao {
+  padding: 10px;
+  background-color: rgb(169, 169, 124);
+  border: yellow solid 3px;
+}
+
+.menuLateral li:hover {
+  background-color: rgb(104, 124, 211);
+}
+.avisoOff .desejaExcluir {
+  background-color: #fff;
+}
+
+.menuDrop {
+  position: relative;
+}
+
+.subMenu {
+  position: absolute;
+  left: 100%;
+  top: 0px;
+  background-color: #252d36;
+  align-items: center;
+  display: none;
+}
+.subMenu li a {
+  padding: 0px 8px;
+}
+.menuDrop .subMenu {
+  width: 200px;
+}
+.fieldCadastroImóvel .bi {
+  font-size: 30px;
+}
+.subMenu a li {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  padding: 0px 10px;
+}
+
+nav .menuDrop:hover .subMenu {
+  display: block;
+}
+.treeMenu {
+  position: absolute;
+  left: 100%;
+  top: 0px;
+  background-color: #252d36;
+  align-items: center;
+  display: none;
+}
+.avisoDiv {
+  color: white;
+  font-style: italic;
+  text-transform: capitalize;
+  font-size: 0.6em;
+  border-top: white solid 1px;
+  padding-top: 1em;
+}
+
+.menuDrop .treeMenu {
+  width: 200px;
+}
+.treeMenu a li {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  padding: 0px 10px;
+}
+nav .subMenu:hover .treeMenu {
+  display: block;
+}
+.atention {
+  border: red 5px solid;
+  animation: pisca 1s infinite linear;
+}
+@keyframes pisca {
+  from {
+    border: rgb(255, 170, 0) 5px solid;
+  }
+}
+.telaApresentacao {
+  background-image: url("src/img/futuro-consultoria.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: auto;
+  width: 80%;
+  height: 90vh;
+  background-color: var(--fundoBranco);
+  padding: 10px;
+}
+footer {
+  padding: 10px;
+  background-color: green;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  height: 5vh;
+  z-index: 99;
+}
+.fieldCadastroImóvel {
+  min-height: 350px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.fieldCadastroImóvel iframe {
+  width: 100%;
+  height: 80vh;
+}
+.fieldCadastroImóvel button {
+  padding: 10px;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+}
+.fieldCadastroImóvel button:hover {
+  filter: brightness(1.2);
+}
+.fieldCadastroImóvel legend {
+  background-color: #d6d6d6;
+  padding: 5px;
+  border-radius: 8px 8px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0.459) 0px -2px 5px 0px;
+}
+.buscarEmpresa {
+  background-color: red;
+}
+.efetuadoSucesso {
+  width: 40%;
+  background-color: rgb(182, 246, 201);
+  padding: 10px;
+  border: green solid 2px;
+  border-radius: 8px;
+}
+.efetuadoSucesso p {
+  margin: auto;
+}
+.imagemMedidas {
+  position: relative;
+}
+.imagemMedidas img {
+  width: 100%;
+}
+.medidasImovel {
+  position: absolute;
+}
+.medidasImovel p:nth-child(1) {
+  position: absolute;
+  top: 26px;
+  left: 201px;
+}
+.medidasImovel p:nth-child(2) {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.medidasImovel p:nth-child(3) {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.medidasImovel p:nth-child(4) {
+  position: absolute;
+  top: 189px;
+  right: -184px;
+}
+.fieldCadastroImóvel div {
+  /* background-color: #bdbdbd62; */
+  box-shadow: rgba(55, 55, 55, 0.293) 0px 1px 1px 0px;
+  padding: 5px;
+  border-radius: 8px;
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  line-height: 2em;
+  margin: 10px 0px;
+}
+.fieldCadastroImóvel div p {
+  font-weight: 6 00;
+}
+.fieldCadastroImóvel div h4 {
+  background-color: white;
+  padding: 5px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: .9em;
+  cursor: pointer;
+  box-shadow: inset rgba(0, 0, 0, 0.398) 0px 2px 5px 0px;
+}
+.fieldCadastroImóvel div abbr {
+  
+  text-decoration: none;
+}
+.fieldCadastroImóvel div input {
+  padding: 0px 5px;
+  width: 60%;
+}
+.geradorImove div {
+  width: 80%;
+}
+.geradorImove div i {
+  cursor: pointer;
+}
+.geradorImove div i:hover {
+  color: rgb(34, 34, 34);
+}
+.proprietarios > div {
+  background-color: rgba(109, 109, 245, 0.579);
+  border: rgb(72, 72, 72) solid 1px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.printProprietarios > div {
+  background-color: rgba(152, 178, 251, 0.452);
+  border: rgb(72, 72, 72) solid 1px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  align-items: center;
+}
+.outrasAtividades  abbr{
+ margin-bottom: 5px;
+}
+.compradores > div {
+  background-color: rgba(109, 245, 123, 0.526);
+  border: rgba(0, 0, 0, 0.423) solid 1px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.informacaoAovivo {
+  background-color: rgba(0, 234, 255, 0.263);
+  padding: 10px;
+  border: rgba(0, 0, 0, 0.483) solid 2px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.geradorImove textarea {
+  width: 100%;
+  padding: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.confiTela {
+  position: absolute;
+  bottom: 37px;
+  left: 20%;
+}
+.desejaExcluir button {
+  background-color: red;
+}
+/* .verMaisInfoCNPJ {
+ 
+  
+} */
+.dnone {
+  display: none;
+}
