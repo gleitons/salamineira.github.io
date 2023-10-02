@@ -209,6 +209,7 @@ main {
 }
 .atalhosTela div img {
   width: 72px;
+  height: 72px;
   margin: auto;
   text-align: center;
   filter: brightness(0.9);
@@ -536,7 +537,7 @@ footer {
   padding: 5px;
   border-radius: 8px;
   display: flex;
-  width: 60%;
+  width: 90%;
   justify-content: space-between;
   line-height: 2em;
   margin: 10px 0px;

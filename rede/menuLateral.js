@@ -12,11 +12,11 @@ const MenuLateral = () => {
     </a>
     <p class="avisoDiv">Buscador S</p>
     <a href="./buscar-cnpj.html">
-    <li><i class="bi bi-house-fill"></i> Buscador Completo</li>
+    <li><i class="bi bi-search"></i> Buscador Completo</li>
     </a>
     <p class="avisoDiv">Adicionar Atalho</p>
 
-    <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Atalho
+    <li class="menuDrop"><i class="bi bi-folder-symlink-fill"></i> Atalho
      <ul class="subMenu">
         <a href="./criar-atalho.html">
         <li><i class="bi bi-house-up-fill"></i>Novo</li>
