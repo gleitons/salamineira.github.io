@@ -94,14 +94,17 @@ footer a {
   color: blue;
 }
 header a {
-  width: 60px;
+  width: 100px;
   height: 60px;
   top: 0px;
   left: 0px;
   background-image: url("./src/img/futuro-consultoria-horizonte.svg");
   position: relative;
   overflow: hidden;
-  border-radius: 50%;
+  /* border-radius: 50%; */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 header > div a::after {
   content: "";
@@ -163,7 +166,8 @@ main {
   transition: 200ms;
 }
 .atalhosTela {
-  width: 60%;
+  position: relative;
+  /* width: 100%; */
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -425,15 +429,21 @@ nav .subMenu:hover .treeMenu {
   }
 }
 .telaApresentacao {
-  background-image: url("src/img/futuro-consultoria.svg");
+  /* background-image: url("src/img/futuro-consultoria.svg"); */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   overflow: auto;
-  width: 80%;
+  width: 100%;
   height: 90vh;
   background-color: var(--fundoBranco);
   padding: 10px;
+}
+.telaApresentacao .cadastroDeImovel {
+  width: 70%;
+}
+.telaAvisos {
+  display: flex;
 }
 footer {
   padding: 10px;
@@ -600,6 +610,7 @@ footer {
   position: absolute;
   bottom: 37px;
   left: 20%;
+  
 }
 .desejaExcluir button {
   background-color: red;

@@ -34,7 +34,7 @@ const MenuLateral = () => {
     <p class="avisoDiv">Consulta CNPJ</p>
     <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Consulta CNPJ
     <ul class="subMenu">
-    <a href="./buscar-cnpj.html.html">
+    <a href="./buscar-cnpj.html">
     <li><i class="bi bi-house-up-fill"></i>Rápida</li>
     </a>   
     <a href="https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp" target="_blank">
@@ -69,7 +69,10 @@ const MenuLateral = () => {
     <p class="avisoDiv">MEI (Microempreendedor Individual)</p>
     <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Especial MEI
     <ul class="subMenu">
-    <a href="./itbi-urbano.html">
+    <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/emissao-de-comprovante-ccmei" target="_blank">
+    <li><i class="bi bi-house-up-fill"></i>CCMEI</li>
+    </a>  
+    <a href="./itbi-urbano.html" target="_blank">
     <li><i class="bi bi-house-up-fill"></i>CND Federal</li>
     </a>  
     <a href="./itbi-urbano.html">
@@ -89,7 +92,7 @@ const MenuLateral = () => {
 
     <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Atendimentos
      <ul class="subMenu">
-        <a href="./cadastro-pessoal.html">
+        <a href="./atendimento-sas-modelos.html">
         <li><i class="bi bi-house-up-fill"></i>Modelos</li>
         </a>   
         <a href="./cadastro-empresa.html">
@@ -109,6 +112,9 @@ const MenuLateral = () => {
     <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Favoritos
      <ul class="subMenu">
         <a href="./cadastro-pessoal.html">
+        <li><i class="bi bi-house-up-fill"></i>Favoritos</li>
+        </a>   
+        <a href="./cadastro-pessoal.html">
         <li><i class="bi bi-house-up-fill"></i>Novo</li>
         </a>   
         <a href="./cadastro-empresa.html">
@@ -120,22 +126,10 @@ const MenuLateral = () => {
      </ul>
     </li>  
 
-    <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Editar
-    <ul class="subMenu">
-    <a href="./editar-pessoal.html">
-    <li><i class="bi bi-house-down-fill"></i>Pessoal</li>
-    </a>    
-    <a href="./editar-empresa.html">
-    <li><i class="bi bi-house-down-fill"></i>Empresa</li>
+    <a href="./perfil.html">
+    <li><i class="bi bi-layer-backward"></i> Editar Perfil</li>
     </a> 
-    <a href="./editar-imovel.html">
-    <li><i class="bi bi-house-down-fill"></i>Imóvel</li>
-    </a> 
-    <a href="">
-        <li><i class="bi bi-signpost-fill"></i> Endereço</li>
-    </a>
-    </ul>
-   </li> 
+   
 
    
     
@@ -154,19 +148,58 @@ const MenuLateral = () => {
 }
 MenuLateral()
 
+if (localStorage.getItem('perfilRede') == null) {
+    loadDadosPrincipais()
+}
+function loadDadosPrincipais() {
+    const dados = {
+        "imagemFundo": "./src/img/futuro-consultoria.svg",
+        "imagem": "./src/img/futuro-consultoria-horizonte.svg",
+        "titlo": "FUTURO CONSULTORIA",
+        "subTitle": "26.300.217/0001-00"
+    }
+    localStorage.setItem('perfilRede', JSON.stringify([dados]))
+    console.log([dados])
+}
+function resetaMenuEFundo() {
+    loadDadosPrincipais()
+    location.reload()
+}
+
 const menuTop = () => {
+    const data = JSON.parse(localStorage.getItem('perfilRede'))
+    const imagemFundo = data[0].imagemFundo
+    const imagem = data[0].imagem
+    const titlo = data[0].titlo
+    const subTitle = data[0].subTitle
+    const fundoAP = document.querySelector('.telaApresentacao')
+    fundoAP.setAttribute('style', `background-image: url('${data[0].imagemFundo}');`)
+
     document.querySelector('header').innerHTML = ` 
     <div>
-    <a href="./">
-    <div class="logoCima">        
+    <a href="./" style="background-image: url('${imagem}')">
+    <div class="logoCima" ">        
     </div>
     </a>
-    <div>
-        <h2>FUTURO CONSULTORIA</h2>
-        <h3>26.300.217/0001-00</h3>
+    <div class="letrasLogo">
+        <h2>${titlo.toUpperCase()}</h2>
+        <h3>${subTitle}</h3>
     </div>
    </div>`
+
 }
 menuTop()
+
+function atualizarPerfilClique() {
+    const data = JSON.parse(localStorage.getItem('perfilRede'))
+    const perfil = {
+        "imagemFundo": linkImagfundo.value,
+        "imagem": linkImag.value,
+        "titlo": tituloLocal.value,
+        "subTitle": SubTituloLocal.value
+    }
+    localStorage.setItem('perfilRede', JSON.stringify([perfil]))
+    location.reload()
+}
 
 document.querySelector('head').innerHTML += `<link rel="shortcut icon" href="./src/img/futuro-consultoria-horizonte.svg" type="image/x-icon">`
