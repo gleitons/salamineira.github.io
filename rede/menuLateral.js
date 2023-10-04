@@ -24,6 +24,9 @@ const MenuLateral = () => {
         <a href="./editar-atalho.html">
         <li><i class="bi bi-house-up-fill"></i>Editar</li>
         </a>   
+        <a href="./excluir-atalho.html">
+        <li><i class="bi bi-house-up-fill"></i>Excluir</li>
+        </a>   
         <a href="#" onclick="addAtalhos()">
         <li><i class="bi bi-house-up-fill"></i>Adicionar na Tela</li>
         </a>   
@@ -190,6 +193,19 @@ const menuTop = () => {
 }
 menuTop()
 
+
+function atualizarPerfilDigito() {
+    const data = JSON.parse(localStorage.getItem('perfilRede'))
+    const perfil = {
+        "imagemFundo": linkImagfundo.value,
+        "imagem": linkImag.value,
+        "titlo": tituloLocal.value,
+        "subTitle": SubTituloLocal.value
+    }
+    localStorage.setItem('perfilRede', JSON.stringify([perfil]))
+    
+}
+
 function atualizarPerfilClique() {
     const data = JSON.parse(localStorage.getItem('perfilRede'))
     const perfil = {
@@ -200,6 +216,15 @@ function atualizarPerfilClique() {
     }
     localStorage.setItem('perfilRede', JSON.stringify([perfil]))
     location.reload()
+}
+
+if(document.querySelector('.classT') != null){
+    window.onstorage = function (e) {
+
+        atualizarPerfilDigito()
+        // if(document.querySelector('#AtalhosAdicionandoIcons' != null)) adicionaNoDesktop()
+    
+    }
 }
 
 document.querySelector('head').innerHTML += `<link rel="shortcut icon" href="./src/img/futuro-consultoria-horizonte.svg" type="image/x-icon">`

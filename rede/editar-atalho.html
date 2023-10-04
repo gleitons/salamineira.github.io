@@ -25,17 +25,15 @@
 
 
             <div class="cadastroDeImovel">
-                <h2>Emissão de ITBI</h2>
+                <h2>Alterar Icone</h2>
                 <div>
-                    <div>
+                    <div style="margin-bottom: -50px;">
                         <div class="atalhosTela ">
                             <div onclick="linkOn('cadastro-pessoal')">
                                 <img src="./src/img/icons/vendedor.png" alt="Adicionar Vendedor">
                                 <p>Adicionar Nome</p>
                             </div>
-
                         </div>
-
                     </div>
                     <fieldset class="fieldCadastroImóvel">
                         <div>
@@ -48,12 +46,9 @@
 
                         <div>
                             <p>Insira o Nome: </p>
-                            <input type="text" id="nomeIcones" onkeyup="nomeIcone()" placeholder="Nome do icone" minlength="5" >
+                            <input type="text" id="nomeIcones" onkeyup="nomeIconeEdita()" placeholder="Nome do icone" minlength="5" >
                         </div>
-                        <div>
-                            <p>Icone Número: </p>
-                            <input type="text" id="numberIcon" onkeyup="nomeIcone()" placeholder="Nome do icone" minlength="5" value="5" disabled >
-                        </div>
+                       
                         <div>
                             <p>Insira a imagem: </p>
                             <div class="iconsSeleciona">
@@ -61,9 +56,13 @@
                         </div>
                         <div>
                             <p>Insira o Link: </p>
-                            <input type="text" id="linkDoAtalho" placeholder="ex: https://google.com" minlength="5" >
+                            <input type="text" id="linkDoAtalho" placeholder="ex: https://google.com" minlength="5" onkeyup="executaixiBum()" >
                         </div>
                         <button onclick="atualizadorDeIcone()">Atualizar Icone</button>
+                        <div>
+                            <p>Icone Número: </p>
+                            <input type="text" id="numberIcon"  minlength="5" value="" disabled >
+                        </div>
                         </span>
                     </fieldset>
                 </div>

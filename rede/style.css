@@ -196,6 +196,9 @@ main {
   justify-content: space-between;
   padding: 10px;
 }
+.avisoOff .mostraAtalhosClose  p{
+  width: 40%;
+}
 .avisoOff .mostraAtalhosClose img {
   width: 8%;
 }
@@ -289,7 +292,8 @@ main {
 }
 @keyframes animaCimaBaixo {
   from {
-    transform: scale(0.8);
+    transform: scale(0.99);
+    filter: brightness(.7);
   }
 }
 

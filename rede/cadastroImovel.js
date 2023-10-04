@@ -825,8 +825,6 @@ function dMode() {
 }
 function dModec() {
     const comoDEsta = localStorage.getItem('dMod')
-
-
     //const comoDEsta = 0
 
     if (comoDEsta == 1) {
