@@ -774,6 +774,7 @@ function geradorContrato() {
 window.onstorage = function (e) {
 
     enderecoCadastrado()
+   
     // if(document.querySelector('#AtalhosAdicionandoIcons' != null)) adicionaNoDesktop()
 
 }
@@ -1107,27 +1108,101 @@ function colocaTarget() {
 function linkOn(link) {
     window.open(link, '_blank');
 }
-if (document.querySelector('.agendaLateral') != null) {
-    
+
+
+if(localStorage.getItem('postIt') == null){
+    geraLembretes()
+}
+if (document.querySelector('.agendaLateral') != null) {   
     carregaPostIt()
 }
+
 function carregaPostIt() {
-    //const data = JSON.parse(localStorage.getItem('postIt'))
+    const data = JSON.parse(localStorage.getItem('postIt'))
     const agendaLateral = document.querySelector('.agendaLateral')
-    for(let i = 0; i < 24; i++){
-        agendaLateral.innerHTML += `<div onclick="openLembrete()">
-        <h2>COMPRA HORTIFRUTI COMBATE</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendis odit?</p>
+    agendaLateral.innerHTML = ``
+//     agendaLateral.innerHTML = `<div class="divControleLembrete">
+//     <h4>LEMBRETES</h4>
+//     <button onclick="carregaPostIt()">NOVO</button>
+// </div>`
+    data.map((e, index) => {
+        agendaLateral.innerHTML += `<div onclick="openLembrete(${index})">
+        <h6>${e.data}</h6>
+        <h2>${e.titulo}</h2>
+        <p>${e.textoL}</p>
     </div>`
-    }
-   
-}
-function openLembrete() {
-    avisoS(`<div class="lembreteAberto">
-    <h2>COMPRA HORTIFRUTI COMBATE</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendis odit?
-    </p>
-    <button>FINALIZAR</button>
-</div>`)
+    })
 }
 
+async function geraLembretes() {
+    const response = await fetch('./lembretes')
+    const data = await response.json()
+    console.log(data)
+    localStorage.setItem('postIt', JSON.stringify(data))
+    
+}
+
+function openLembrete(l) {
+    const data = JSON.parse(localStorage.getItem('postIt'))
+    const agendaLateral = document.querySelector('.agendaLateral')
+    avisoS(`<div class="lembreteAberto">
+    <input class="dnone" type="text" id="titleLembre" value="${data[l].titulo}">
+    <input class="dnone" type="date"  id="dataLembre" value="${data[l].data}">
+    
+    <h2 class="">${data[l].titulo}</h2>
+    <h4 class="">${data[l].data}</h4>
+    <p class="">${data[l].textoL}</p>
+    <textarea id="areaLembre" class="dnone" name=""  cols="35" rows="10">${data[l].textoL}</textarea>  
+    
+    <button onclick="editarLembrete(${l})">EDITAR</button> <button style="background-color: red;">EXCLUIR</button>
+</div>`)
+
+}
+function editarLembrete(l) {
+    const lembreteAberto = document.querySelector('.lembreteAberto')
+    const lembreteAbertoInput = document.querySelectorAll('.lembreteAberto input')[0]
+    lembreteAbertoInput.classList.toggle('dnone')
+
+    const lembreteAbertoInput2 = document.querySelectorAll('.lembreteAberto input')[1]
+    lembreteAbertoInput2.classList.toggle('dnone')
+
+    const lembreteAbertoTextArea = document.querySelector('.lembreteAberto textarea')
+    lembreteAbertoTextArea.classList.toggle('dnone')
+    const lembreteAbertoH2 = document.querySelector('.lembreteAberto h2')
+    lembreteAbertoH2.classList.toggle('dnone')
+
+    const lembreteAbertoP = document.querySelectorAll('.lembreteAberto p')[0]
+    lembreteAbertoP.classList.toggle('dnone')
+
+    const lembreteAbertoPTwo = document.querySelectorAll('.lembreteAberto h4')[0]
+    lembreteAbertoPTwo.classList.toggle('dnone')
+
+    const btnlembreteAberto = document.querySelectorAll('.lembreteAberto button')[1]
+    btnlembreteAberto.classList.toggle('dnone')
+    const btnlembreteAbertoOne = document.querySelectorAll('.lembreteAberto button')[0]
+    btnlembreteAbertoOne.textContent = 'Atualizar'
+    btnlembreteAbertoOne.setAttribute('onclick', `editarLembreteShow(${l})`) 
+}
+function editarLembreteShow(l) {
+    const data = JSON.parse(localStorage.getItem('postIt'))
+    const titulo = document.querySelector('#titleLembre').value
+    const dataLembre = document.querySelector('#dataLembre').value
+    const textoLembre = document.querySelector('#areaLembre').value
+    const editarLembrete = data.find(obj => obj.id == l)
+    console.log(editarLembrete)
+    if(editarLembrete){
+        editarLembrete.id = l
+        editarLembrete.titulo = titulo
+        editarLembrete.data = dataLembre
+        editarLembrete.textoL = textoLembre
+
+        localStorage.setItem('postIt', JSON.stringify(data))
+
+    } else {
+        alert('Objeto não encontrado')
+    }
+    
+    openLembrete(l)
+    fechaAviso()
+    carregaPostIt()
+}
