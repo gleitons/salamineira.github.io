@@ -985,9 +985,9 @@ function geradorDeCopiarInfoEmpresa() {
     const todasDivCopiar = document.querySelectorAll('.fieldCadastroImóvel .copiarDados h4')
     todasDivCopiar.forEach((e) => {
         e.addEventListener('click', () => {
-                let text = e.textContent;
-                console.log(text)
-                navigator.clipboard.writeText(text);
+            let text = e.textContent;
+            console.log(text)
+            navigator.clipboard.writeText(text);
         })
     })
 }
@@ -1007,7 +1007,7 @@ async function buscaCNPJB(pesquisaCN) {
         var uatualiza = `${reve[0]}/${reve[1]}/${reve[2]}`
 
         const outrasAtividades = document.querySelector('.outrasAtividades')
-        
+
         const divInserindoDados = document.querySelectorAll('.fieldCadastroImóvel div h4')
 
         const LinkInserindoDados = document.querySelectorAll('.fieldCadastroImóvel div a')
@@ -1015,7 +1015,7 @@ async function buscaCNPJB(pesquisaCN) {
         divInserindoDados[0].textContent = data.cnpj
         divInserindoDados[1].textContent = data.razao_social
         divInserindoDados[2].textContent = data.nome_fantasia
-        divInserindoDados[3].textContent = data.opcao_pelo_mei == true ? 'Sim' : 'Não' 
+        divInserindoDados[3].textContent = data.opcao_pelo_mei == true ? 'Sim' : 'Não'
         divInserindoDados[4].textContent = data.cnae_fiscal_descricao
         divInserindoDados[5].textContent = data.natureza_juridica
         divInserindoDados[6].textContent = data.logradouro
@@ -1024,8 +1024,8 @@ async function buscaCNPJB(pesquisaCN) {
         divInserindoDados[9].textContent = data.cep
         divInserindoDados[10].textContent = data.bairro
         divInserindoDados[11].textContent = data.municipio
-        divInserindoDados[12].textContent = data.uf  
-        divInserindoDados[13].textContent = data.email != null? data.email : 'Não Disponível'
+        divInserindoDados[12].textContent = data.uf
+        divInserindoDados[13].textContent = data.email != null ? data.email : 'Não Disponível'
         divInserindoDados[14].textContent = data.ddd_telefone_1
         divInserindoDados[15].textContent = data.ddd_telefone_2
         divInserindoDados[16].textContent = data.descricao_situacao_cadastral
@@ -1034,9 +1034,9 @@ async function buscaCNPJB(pesquisaCN) {
         console.log(atividadesSecond)
 
         atividadesSecond.forEach((e) => {
-            outrasAtividades.innerHTML +=`<abbr title="Copiar">
+            outrasAtividades.innerHTML += `<abbr title="Copiar">
             <h4>${e.descricao}</h4>
-        </abbr>` 
+        </abbr>`
         })
         outrasAtividades.innerHTML += 'Atividades secundárias não podem ser copiadas com um clique, selecione e clique em copiar.'
 
@@ -1055,8 +1055,8 @@ async function buscaCNPJB(pesquisaCN) {
 }
 function pesquisaCNPJ() {
     const cnpj = document.querySelector('#cnpjGerado').value
-    console.log(cnpj.replace(/[^0-9]/g,''))
-    buscaCNPJB(cnpj.replace(/[^0-9]/g,''))
+    console.log(cnpj.replace(/[^0-9]/g, ''))
+    buscaCNPJB(cnpj.replace(/[^0-9]/g, ''))
     const botaos = document.querySelectorAll('button')
     botaos[3].disabled = false
     botaos[3].style.backgroundColor = '#405cf5'
@@ -1069,15 +1069,15 @@ function abriMInfoCNPJ() {
     const verMaisInfoCNPJ = document.querySelector('.verMaisInfoCNPJ')
     const botaos = document.querySelectorAll('button')
     console.log(botaos)
-    if(botaos[1].textContent != 'Fechar') {
+    if (botaos[1].textContent != 'Fechar') {
         botaos[1].textContent = 'Fechar'
     } else {
         botaos[1].textContent = 'Abrir Mais Informações do CNPJ'
     }
     verMaisInfoCNPJ.classList.toggle('dnone')
-   
+
 }
-if(localStorage.getItem('favoritosCNPJ') == null){
+if (localStorage.getItem('favoritosCNPJ') == null) {
     localStorage.setItem('favoritosCNPJ', '[]')
 }
 function favoritoPessoaJuridica() {
@@ -1093,7 +1093,7 @@ function favoritoPessoaJuridica() {
     console.log(botaos)
 }
 console.log(document.querySelector('.onclickFora'))
-if(document.querySelector('.onclickFora') != null){
+if (document.querySelector('.onclickFora') != null) {
     colocaTarget()
     console.log('ioj')
 }
@@ -1104,9 +1104,30 @@ function colocaTarget() {
     })
     console.log(todosLinks)
 }
-
 function linkOn(link) {
     window.open(link, '_blank');
-
+}
+if (document.querySelector('.agendaLateral') != null) {
+    
+    carregaPostIt()
+}
+function carregaPostIt() {
+    //const data = JSON.parse(localStorage.getItem('postIt'))
+    const agendaLateral = document.querySelector('.agendaLateral')
+    for(let i = 0; i < 24; i++){
+        agendaLateral.innerHTML += `<div onclick="openLembrete()">
+        <h2>COMPRA HORTIFRUTI COMBATE</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendis odit?</p>
+    </div>`
+    }
+   
+}
+function openLembrete() {
+    avisoS(`<div class="lembreteAberto">
+    <h2>COMPRA HORTIFRUTI COMBATE</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendis odit?
+    </p>
+    <button>FINALIZAR</button>
+</div>`)
 }
 

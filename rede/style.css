@@ -30,12 +30,11 @@ body {
   height: 50px;
   cursor: pointer;
   filter: brightness(0.8);
-  
 }
 .iconsSeleciona img:hover {
   filter: brightness(1.2);
   -o-box-shadow: 12px 12px 29px #787878;
-  
+
   -khtml-box-shadow: 12px 12px 29px #787878;
   -moz-box-shadow: 12px 12px 29px #787878;
   -webkit-box-shadow: 12px 12px 29px #787878;
@@ -196,7 +195,7 @@ main {
   justify-content: space-between;
   padding: 10px;
 }
-.avisoOff .mostraAtalhosClose  p{
+.avisoOff .mostraAtalhosClose p {
   width: 40%;
 }
 .avisoOff .mostraAtalhosClose img {
@@ -239,6 +238,67 @@ main {
   background-color: var(--fundoEscuro);
   overflow: unset;
   z-index: 2;
+}
+.agendaLateral {
+  height: 92vh;
+  overflow: auto;
+  width: 60%;
+  
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.agendaLateral div {
+  width: 130px;
+  height: 150px;
+  margin: 2px;
+  border-radius: 8px;
+  /* border: #13181e solid 1px; */
+  padding: 10px;
+  cursor: pointer;
+  backdrop-filter: blur(5px); background-color: rgba(255, 255, 255, 1); border-radius: 20px; box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);  
+  overflow: hidden;
+}
+.agendaLateral .divControleLembrete {
+  cursor:auto
+}
+.agendaLateral .divControleLembrete button {
+  padding: 10px;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+}
+.agendaLateral div h2 {
+  font-size: 10px;
+  text-align: center;
+}
+.agendaLateral div p {
+  font-size: 8px;
+  text-align: justify;
+}
+.avisoOff .lembreteAberto {
+  width: 300px;
+  min-height: 300px;
+  border-radius: 8px;
+  /* border: #13181e solid 1px; */
+  padding: 10px;
+  
+  backdrop-filter: blur(5px); background-color: rgba(255, 255, 255, 1); border-radius: 20px; box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);  
+  overflow: hidden;
+}
+.lembreteAberto button {
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  
 }
 .menuLateral {
   position: fixed;
@@ -293,7 +353,7 @@ main {
 @keyframes animaCimaBaixo {
   from {
     transform: scale(0.99);
-    filter: brightness(.7);
+    filter: brightness(0.7);
   }
 }
 
@@ -554,12 +614,11 @@ footer {
   padding: 5px;
   border-radius: 8px;
   text-decoration: none;
-  font-size: .9em;
+  font-size: 0.9em;
   cursor: pointer;
   box-shadow: inset rgba(0, 0, 0, 0.398) 0px 2px 5px 0px;
 }
 .fieldCadastroImóvel div abbr {
-  
   text-decoration: none;
 }
 .fieldCadastroImóvel div input {
@@ -589,8 +648,8 @@ footer {
   border-radius: 8px;
   align-items: center;
 }
-.outrasAtividades  abbr{
- margin-bottom: 5px;
+.outrasAtividades abbr {
+  margin-bottom: 5px;
 }
 .compradores > div {
   background-color: rgba(109, 245, 123, 0.526);
@@ -615,7 +674,6 @@ footer {
   position: absolute;
   bottom: 37px;
   left: 20%;
-  
 }
 .desejaExcluir button {
   background-color: red;
