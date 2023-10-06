@@ -1161,7 +1161,7 @@ function openLembrete(l) {
     <p class="">${data[l].textoL}</p>
     <textarea id="areaLembre" class="dnone" name=""  cols="35" rows="10">${data[l].textoL}</textarea>  
     
-    <button onclick="editarLembrete(${l})">EDITAR</button> <button style="background-color: red;">EXCLUIR</button>
+    <button onclick="editarLembrete(${l})">EDITAR</button> <button style="background-color: red;" onclick="delLembrete(${l})">EXCLUIR</button>
 </div>`)
 
 }
@@ -1195,6 +1195,8 @@ function editarLembreteShow(l) {
     const titulo = document.querySelector('#titleLembre').value
     const dataLembre = document.querySelector('#dataLembre').value
     const textoLembre = document.querySelector('#areaLembre').value
+    const posicaoObjeto = data[l].selectedIndex
+    console.log(posicaoObjeto)
     const editarLembrete = data.find(obj => obj.id == l)
     console.log(editarLembrete)
     if(editarLembrete){
@@ -1213,6 +1215,62 @@ function editarLembreteShow(l) {
     fechaAviso()
     carregaPostIt()
 }
+function organizaLembretes() {
+    const data = JSON.parse(localStorage.getItem('postIt'))
+    var copia = []
+    console.log(data[0].titulo)
+    for(let i = 0; i <= data.length; i++){
+        const titulo =  data[i].titulo
+        const lembrete = {
+            "id": i,
+            "titulo": `${titulo}`,
+            "textoL": data.textoL,
+            "data": data.data
+        }
+        copia.push(lembrete)
+    }
+    console.log(copia)
+}
+organizaLembretes()
+function delLembrete(l) {
+    const data = JSON.parse(localStorage.getItem('postIt'))
+    console.log(data)
+    data.splice(l, 1)
+    localStorage.setItem('postIt', JSON.stringify(data))
+    console.log(data)
+    location.reload()
+}
+function addLembrete() {
+    const data = JSON.parse(localStorage.getItem('postIt'))
+    const l = data.length
+    avisoS(`<div class="lembreteAberto">
+    <input  type="text" id="titleLembre" value="" placeholder="Insira o Titulo e data abaixo">
+    <input  type="date"  id="dataLembre" value="">
+   
+    <textarea id="areaLembre"  name=""  cols="35" rows="10" placeholder="Insira a descrição do Lembrete"></textarea>  
+    
+    <button onclick="criarLembrete()">CRIAR LEMBRETE</button> 
+</div>`)
+}
+function criarLembrete() {
+    const data = JSON.parse(localStorage.getItem('postIt'))
+    const l = data.length
+    const titulo = document.querySelector('#titleLembre').value
+    const dataLembrete = document.querySelector('#dataLembre').value
+    const textoLembrete = document.querySelector('#areaLembre').value
+
+    const lembrete = {
+        "id": l + 1,
+        "titulo": titulo,
+        "textoL": textoLembrete,
+        "data": dataLembrete
+    }
+    data.push(lembrete)
+
+    localStorage.setItem('postIt', JSON.stringify(data))
+    location.reload()
+    
+}
 document.addEventListener('click', () => {
     if(document.querySelector('.avisoOff') != null) {
         document.onkeydown = function(e) {
@@ -1223,9 +1281,7 @@ document.addEventListener('click', () => {
     }
 })
 
-function addLembrete() {
 
-}
 
 // document.addEventListener('keypress', function(event) {
 //     console.log(event.key)
