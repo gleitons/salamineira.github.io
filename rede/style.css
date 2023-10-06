@@ -376,12 +376,12 @@ main {
 .avisoOff {
   position: absolute;
   z-index: 999999;
-  background: rgba(9, 8, 15, 0.55);
-  box-shadow: 0 8px 32px 0 rgba(8, 9, 35, 0.37);
+  background: rgba(9, 8, 15, 0.827);
+  /* box-shadow: 0 8px 32px 0 rgba(8, 9, 35, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.18); */
   padding: 20px;
   width: 100%;
   margin: auto;
@@ -408,11 +408,14 @@ main {
 }
 @keyframes animaCimaBaixo {
   from {
-    transform: scale(0.99);
+    filter:brightness(0.7)
     
   }
 }
-
+.fieldCadastroImóvel map area {
+  
+  background-color: red;
+}
 .avisoOff button {
   padding: 10px;
   background-color: #405cf5;
@@ -728,8 +731,8 @@ footer {
 }
 .confiTela {
   position: absolute;
-  bottom: 37px;
-  left: 20%;
+  bottom: 20px;
+  right: 60%;
 }
 .desejaExcluir button {
   background-color: red;

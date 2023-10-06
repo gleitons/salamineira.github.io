@@ -10,6 +10,12 @@ if (localStorage.getItem('cadastroImovel') == null) {
 if (localStorage.getItem('contratosETermos') == null) {
     localStorage.setItem('contratosETermos', '[]')
 }
+if(localStorage.getItem('postIt') == null){
+    geraLembretes()
+}
+if (document.querySelector('.agendaLateral') != null) {   
+    carregaPostIt()
+}
 
 function selecionaTipoImovel() {
     const imSel = document.querySelector('#imovelSelect')
@@ -813,6 +819,7 @@ function addAtalhos() {
         <select name="" id="todosAtalhos" onchange="adicionaOAtalhonoApp()">
             <option>Selecionar</option>
         </select>
+        <a href="./criar-atalho.html"><button>Criar Atalho</button></a>
     </div>
     <span id="AtalhosAdicionandoIcons">
     </span>
@@ -822,7 +829,16 @@ function addAtalhos() {
     atualizaAtalhosDesktop()
 }
 function dMode() {
+    //dModeT()
     avisoS('Opção em construção - Em breve Novidades')
+}
+function dModeT() {
+    const menuAtual = document.querySelector('.menusApresentação').style.backgroundColor
+    const fundoAtual = document.querySelector('.telaApresentacao').style.backgroundColor
+    alert(menuAtual)
+    document.querySelector('.menusApresentação').style.backgroundColor = '#0e0e0e'
+    document.querySelector('.telaApresentacao').style.backgroundColor = '#0e0e0e'
+    
 }
 function dModec() {
     const comoDEsta = localStorage.getItem('dMod')
@@ -1110,21 +1126,12 @@ function linkOn(link) {
 }
 
 
-if(localStorage.getItem('postIt') == null){
-    geraLembretes()
-}
-if (document.querySelector('.agendaLateral') != null) {   
-    carregaPostIt()
-}
+
 
 function carregaPostIt() {
     const data = JSON.parse(localStorage.getItem('postIt'))
     const agendaLateral = document.querySelector('.agendaLateral')
     agendaLateral.innerHTML = ``
-//     agendaLateral.innerHTML = `<div class="divControleLembrete">
-//     <h4>LEMBRETES</h4>
-//     <button onclick="carregaPostIt()">NOVO</button>
-// </div>`
     data.map((e, index) => {
         agendaLateral.innerHTML += `<div onclick="openLembrete(${index})">
         <h6>${e.data}</h6>
@@ -1206,3 +1213,23 @@ function editarLembreteShow(l) {
     fechaAviso()
     carregaPostIt()
 }
+document.addEventListener('click', () => {
+    if(document.querySelector('.avisoOff') != null) {
+        document.onkeydown = function(e) {
+            if(e.key === 'Escape') {
+                fechaAviso()
+            }
+          }
+    }
+})
+
+function addLembrete() {
+
+}
+
+// document.addEventListener('keypress', function(event) {
+//     console.log(event.key)
+//     if (event.key === '') {
+//         console.log('fechou')
+//     }
+//   });
