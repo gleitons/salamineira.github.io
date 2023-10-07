@@ -10,14 +10,40 @@ if (localStorage.getItem('cadastroImovel') == null) {
 if (localStorage.getItem('contratosETermos') == null) {
     localStorage.setItem('contratosETermos', '[]')
 }
-if(localStorage.getItem('postIt') == null){    
+if (localStorage.getItem('postIt') == null) {
     geraLembretes()
 }
-if (document.querySelector('.agendaLateral') != null) {   
+if (document.querySelector('.agendaLateral') != null) {
     carregaPostIt()
 }
-if(localStorage.getItem('dmodeRede') == null){
-    localStorage.setItem('dmodeRede', 0) 
+if (localStorage.getItem('dmodeRede') == null) {
+    localStorage.setItem('dmodeRede', 0)
+}
+
+if (localStorage.getItem('menuLembrete') == null) {
+    //localStorage.setItem('menuLembrete', 1)
+    fechaMenuLembre()
+}
+if (localStorage.getItem('menuLembrete') == '0') {
+    
+    const agendaLateralIcone = document.querySelector('.agendaLateral > i')
+    
+    agendaLateralIcone.setAttribute('class', 'bi bi-arrow-left-square-fill btnOcultarLembrete')
+   
+}
+if (localStorage.getItem('menuLembrete') == '1') {
+    const abre = () => {
+        const agendaLateral = document.querySelector('.agendaLateral')
+        const agendaLateralIcone = document.querySelector('.agendaLateral > i')
+        agendaLateral.classList.remove('ocultaAgenda')
+        agendaLateralIcone.setAttribute('class', 'bi bi-arrow-right-square-fill btnOcultarLembrete')
+        fechaMenuLembre()
+
+
+        console.log('fecha')
+    }
+    abre()
+
 }
 
 
@@ -785,7 +811,7 @@ function geradorContrato() {
 window.onstorage = function (e) {
 
     enderecoCadastrado()
-   
+
     // if(document.querySelector('#AtalhosAdicionandoIcons' != null)) adicionaNoDesktop()
 
 }
@@ -1137,26 +1163,31 @@ function carregaPostIt() {
     agendaLateral.innerHTML += `<i class="bi bi-arrow-right-square-fill btnOcultarLembrete"></i>`
     fechaMenuLembre()
 }
+
+
 function fechaMenuLembre() {
     const btnOcultaLembre = document.querySelector('.btnOcultarLembrete')
-btnOcultaLembre.addEventListener('click', () => {
-    const agendaLateral = document.querySelector('.agendaLateral')
-    const agendaLateralIcone = document.querySelector('.agendaLateral > i')
-    agendaLateral.classList.add('ocultaAgenda')
-    agendaLateralIcone.setAttribute('class','bi bi-arrow-left-square-fill abrelembrete') 
-    abreMenuLembrete()
-})
+    btnOcultaLembre.addEventListener('click', () => {
+        const agendaLateral = document.querySelector('.agendaLateral')
+        const agendaLateralIcone = document.querySelector('.agendaLateral > i')
+        agendaLateral.classList.add('ocultaAgenda')
+        agendaLateralIcone.setAttribute('class', 'bi bi-arrow-left-square-fill abrelembrete')
+
+        abreMenuLembrete()
+        localStorage.setItem('menuLembrete', 0)
+    })
 }
 
 function abreMenuLembrete() {
     const btnMostraLembre = document.querySelector('.abrelembrete')
-btnMostraLembre.addEventListener('click', () => {
-    const agendaLateral = document.querySelector('.agendaLateral')
-    const agendaLateralIcone = document.querySelector('.agendaLateral > i')
-    agendaLateral.classList.remove('ocultaAgenda')
-    agendaLateralIcone.setAttribute('class','bi bi-arrow-right-square-fill btnOcultarLembrete') 
-    fechaMenuLembre()
-})
+    btnMostraLembre.addEventListener('click', () => {
+        const agendaLateral = document.querySelector('.agendaLateral')
+        const agendaLateralIcone = document.querySelector('.agendaLateral > i')
+        agendaLateral.classList.remove('ocultaAgenda')
+        agendaLateralIcone.setAttribute('class', 'bi bi-arrow-right-square-fill btnOcultarLembrete')
+        fechaMenuLembre()
+        localStorage.setItem('menuLembrete', 1)
+    })
 }
 
 async function geraLembretes() {
@@ -1164,7 +1195,7 @@ async function geraLembretes() {
     const data = await response.json()
     console.log(data)
     localStorage.setItem('postIt', JSON.stringify(data))
-    
+
 }
 
 function openLembrete(l) {
@@ -1177,7 +1208,7 @@ function openLembrete(l) {
     <h2 class="">${data[l].titulo}</h2>
     <h4 class="">${data[l].data}</h4>
     <p class="">${data[l].textoL}</p>
-    <textarea id="areaLembre" class="dnone" name=""  cols="35" rows="10">${data[l].textoL}</textarea>  
+    <textarea id="areaLembre" class="dnone" name=""  cols="34" rows="10">${data[l].textoL}</textarea>  
     
     <button onclick="editarLembrete(${l})">EDITAR</button> <button style="background-color: red;" onclick="delLembrete(${l})">EXCLUIR</button>
 </div>`)
@@ -1206,9 +1237,10 @@ function editarLembrete(l) {
     btnlembreteAberto.classList.toggle('dnone')
     const btnlembreteAbertoOne = document.querySelectorAll('.lembreteAberto button')[0]
     btnlembreteAbertoOne.textContent = 'Atualizar'
-    btnlembreteAbertoOne.setAttribute('onclick', `editarLembreteShow(${l})`) 
+    btnlembreteAbertoOne.setAttribute('onclick', `editarLembreteShow(${l})`)
 }
 function editarLembreteShow(l) {
+    organizaLembretes()
     const data = JSON.parse(localStorage.getItem('postIt'))
     const titulo = document.querySelector('#titleLembre').value
     const dataLembre = document.querySelector('#dataLembre').value
@@ -1217,7 +1249,7 @@ function editarLembreteShow(l) {
     console.log(posicaoObjeto)
     const editarLembrete = data.find(obj => obj.id == l)
     console.log(editarLembrete)
-    if(editarLembrete){
+    if (editarLembrete) {
         editarLembrete.id = l
         editarLembrete.titulo = titulo
         editarLembrete.data = dataLembre
@@ -1228,7 +1260,7 @@ function editarLembreteShow(l) {
     } else {
         alert('Objeto não encontrado')
     }
-    
+
     openLembrete(l)
     fechaAviso()
     carregaPostIt()
@@ -1237,8 +1269,8 @@ function organizaLembretes() {
     const data = JSON.parse(localStorage.getItem('postIt'))
     var copia = []
     console.log(data.length)
-    for(let i = 0; i < data.length; i++){
-        const titulo =  data[i].titulo
+    for (let i = 0; i < data.length; i++) {
+        const titulo = data[i].titulo
         const lembrete = {
             "id": i,
             "titulo": `${titulo}`,
@@ -1266,7 +1298,7 @@ function addLembrete() {
     <input  type="text" id="titleLembre" value="" placeholder="Insira o Titulo e data abaixo">
     <input  type="date"  id="dataLembre" value="">
    
-    <textarea id="areaLembre"  name=""  cols="35" rows="10" placeholder="Insira a descrição do Lembrete"></textarea>  
+    <textarea id="areaLembre"  name=""  cols="34" rows="10" placeholder="Insira a descrição do Lembrete"></textarea>  
     
     <button onclick="criarLembrete()">CRIAR LEMBRETE</button> 
 </div>`)
@@ -1288,17 +1320,18 @@ function criarLembrete() {
 
     localStorage.setItem('postIt', JSON.stringify(data))
     location.reload()
-    
+
 }
 document.addEventListener('click', () => {
-    if(document.querySelector('.avisoOff') != null) {
-        document.onkeydown = function(e) {
-            if(e.key === 'Escape') {
+    if (document.querySelector('.avisoOff') != null) {
+        document.onkeydown = function (e) {
+            if (e.key === 'Escape') {
                 fechaAviso()
             }
-          }
+        }
     }
 })
+
 
 
 

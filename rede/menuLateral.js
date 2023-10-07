@@ -2,17 +2,17 @@ function dMode() {
     dModeT()
     //avisoS('Opção em construção - Em breve Novidades')
 }
-if(localStorage.getItem('dmodeRede') == null){
-    localStorage.setItem('dmodeRede', 0) 
+if (localStorage.getItem('dmodeRede') == null) {
+    localStorage.setItem('dmodeRede', 0)
 }
 const modeAtual = localStorage.getItem('dmodeRede')
 
-if(modeAtual == 1 ){
+if (modeAtual == 1) {
     const moded = document.querySelector('.telaApresentacao').style.backgroundColor = '#555555'
-    
+
 } else {
     document.querySelector('.telaApresentacao').style.backgroundColor = 'white'
-    
+
 }
 
 
@@ -21,18 +21,18 @@ function dModeT() {
     const fundoAtual = document.querySelector('.telaApresentacao').style.backgroundColor
     const modeAtual = localStorage.getItem('dmodeRede')
 
-    if(modeAtual == 0 ){
+    if (modeAtual == 0) {
         document.querySelector('.telaApresentacao').style.backgroundColor = '#555555'
-        localStorage.setItem('dmodeRede', 1) 
+        localStorage.setItem('dmodeRede', 1)
     } else {
         document.querySelector('.telaApresentacao').style.backgroundColor = 'white'
         localStorage.setItem('dmodeRede', 0)
     }
     // alert(menuAtual)
     // document.querySelector('.menusApresentação').style.backgroundColor = '#0e0e0e'
-    
+
     //#555555
-    
+
 }
 const MenuLateral = () => {
     document.querySelector('.menusApresentação').innerHTML = ` 
@@ -193,7 +193,8 @@ function loadDadosPrincipais() {
         "imagemFundo": "./src/img/futuro-consultoria.svg",
         "imagem": "./src/img/futuro-consultoria-horizonte.svg",
         "titlo": "FUTURO CONSULTORIA",
-        "subTitle": "26.300.217/0001-00"
+        "subTitle": "26.300.217/0001-00",
+        "color": "#ffffff"
     }
     localStorage.setItem('perfilRede', JSON.stringify([dados]))
     console.log([dados])
@@ -202,15 +203,27 @@ function resetaMenuEFundo() {
     loadDadosPrincipais()
     location.reload()
 }
-
+const loadItensDoPerfil = () => {
+    const data = JSON.parse(localStorage.getItem('perfilRede'))
+    linkImagfundo.value = data[0].imagemFundo
+    linkImag.value = data[0].imagem
+    tituloLocal.value = data[0].titlo
+    SubTituloLocal.value = data[0].subTitle
+    fundoColor.value = data[0].color
+}
+const linkImag = document.querySelector('#linkImag')
+if (linkImag != null) {
+    loadItensDoPerfil()
+}
 const menuTop = () => {
     const data = JSON.parse(localStorage.getItem('perfilRede'))
     const imagemFundo = data[0].imagemFundo
     const imagem = data[0].imagem
     const titlo = data[0].titlo
     const subTitle = data[0].subTitle
+    const color = data[0].color
     const fundoAP = document.querySelector('.telaApresentacao')
-    fundoAP.setAttribute('style', `background-image: url('${data[0].imagemFundo}');`)
+    fundoAP.setAttribute('style', `background-image: url('${data[0].imagemFundo}'); background-color: ${color};`)
 
     document.querySelector('header').innerHTML = ` 
     <div>
@@ -234,33 +247,65 @@ function atualizarPerfilDigito() {
         "imagemFundo": linkImagfundo.value,
         "imagem": linkImag.value,
         "titlo": tituloLocal.value,
-        "subTitle": SubTituloLocal.value
+        "subTitle": SubTituloLocal.value,
+        "color": fundoColor.value
     }
     localStorage.setItem('perfilRede', JSON.stringify([perfil]))
-    
+
 }
 
 function atualizarPerfilClique() {
+    
     const data = JSON.parse(localStorage.getItem('perfilRede'))
     const perfil = {
         "imagemFundo": linkImagfundo.value,
         "imagem": linkImag.value,
         "titlo": tituloLocal.value,
-        "subTitle": SubTituloLocal.value
+        "subTitle": SubTituloLocal.value,
+        "color": fundoColor.value
     }
     localStorage.setItem('perfilRede', JSON.stringify([perfil]))
     location.reload()
 }
 
-if(document.querySelector('.classT') != null){
+if (document.querySelector('.classT') != null) {
     window.onstorage = function (e) {
 
         atualizarPerfilDigito()
         // if(document.querySelector('#AtalhosAdicionandoIcons' != null)) adicionaNoDesktop()
-    
+
     }
 }
 
 document.querySelector('head').innerHTML += `<link rel="shortcut icon" href="./src/img/futuro-consultoria-horizonte.svg" type="image/x-icon">`
 
+document.querySelector('footer').innerHTML += `  <div class="atalhosTela confiTela">                    
+<div onclick="addAtalhos()">
+    <img src="./src/img/icons/novo-atalho.png" alt="Novo Lembrete">
+    <p>Novo Atalho</p>
+</div>
+<div onclick="addLembrete()">
+    <img src="./src/img/icons/novo-lembrete.png" alt="Novo Atalho">
+    <p>Novo Lembrete</p>
+</div>
+<div >
+    <a href="./favoritos.html">
+        <img src="./src/img/icons/favoritos-empresas.png" alt="Novo Atalho">
+        <p>Favoritos</p>
+    </a>
+</div>
+ <div>
+    <a href="./buscar-cnpj.html">
+        <img src="./src/img/icons/pesquisa-empresas.png" alt="Novo Atalho">
+        <p>Pesquisar Empresa</p>
+    </a>
+</div>
+<div>
+    <a href="./perfil.html">
+        <img src="./src/img/icons/editar-perfil.png" alt="Novo Atalho">
+        <p>Editar Perfil</p>
+    </a>
+</div>
+
+</div>`
 
