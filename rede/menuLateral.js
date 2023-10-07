@@ -279,7 +279,14 @@ if (document.querySelector('.classT') != null) {
 
 document.querySelector('head').innerHTML += `<link rel="shortcut icon" href="./src/img/futuro-consultoria-horizonte.svg" type="image/x-icon">`
 
-document.querySelector('footer').innerHTML += `  <div class="atalhosTela confiTela">                    
+document.querySelector('footer').innerHTML += `  <div class="atalhosTela confiTela">         
+
+<div >
+    <a href="./">
+        <img src="./src/img/icons/inicio-casa.png" alt="Novo Lembrete">
+        <p>Novo Atalho</p>
+    </a>
+</div>           
 <div onclick="addAtalhos()">
     <img src="./src/img/icons/novo-atalho.png" alt="Novo Lembrete">
     <p>Novo Atalho</p>
