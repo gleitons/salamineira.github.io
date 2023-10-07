@@ -10,12 +10,17 @@ if (localStorage.getItem('cadastroImovel') == null) {
 if (localStorage.getItem('contratosETermos') == null) {
     localStorage.setItem('contratosETermos', '[]')
 }
-if(localStorage.getItem('postIt') == null){
+if(localStorage.getItem('postIt') == null){    
     geraLembretes()
 }
 if (document.querySelector('.agendaLateral') != null) {   
     carregaPostIt()
 }
+if(localStorage.getItem('dmodeRede') == null){
+    localStorage.setItem('dmodeRede', 0) 
+}
+
+
 
 function selecionaTipoImovel() {
     const imSel = document.querySelector('#imovelSelect')
@@ -828,18 +833,8 @@ function addAtalhos() {
     carregaAtalhos()
     atualizaAtalhosDesktop()
 }
-function dMode() {
-    //dModeT()
-    avisoS('Opção em construção - Em breve Novidades')
-}
-function dModeT() {
-    const menuAtual = document.querySelector('.menusApresentação').style.backgroundColor
-    const fundoAtual = document.querySelector('.telaApresentacao').style.backgroundColor
-    alert(menuAtual)
-    document.querySelector('.menusApresentação').style.backgroundColor = '#0e0e0e'
-    document.querySelector('.telaApresentacao').style.backgroundColor = '#0e0e0e'
-    
-}
+
+
 function dModec() {
     const comoDEsta = localStorage.getItem('dMod')
     //const comoDEsta = 0
@@ -1139,6 +1134,29 @@ function carregaPostIt() {
         <p>${e.textoL}</p>
     </div>`
     })
+    agendaLateral.innerHTML += `<i class="bi bi-arrow-right-square-fill btnOcultarLembrete"></i>`
+    fechaMenuLembre()
+}
+function fechaMenuLembre() {
+    const btnOcultaLembre = document.querySelector('.btnOcultarLembrete')
+btnOcultaLembre.addEventListener('click', () => {
+    const agendaLateral = document.querySelector('.agendaLateral')
+    const agendaLateralIcone = document.querySelector('.agendaLateral > i')
+    agendaLateral.classList.add('ocultaAgenda')
+    agendaLateralIcone.setAttribute('class','bi bi-arrow-left-square-fill abrelembrete') 
+    abreMenuLembrete()
+})
+}
+
+function abreMenuLembrete() {
+    const btnMostraLembre = document.querySelector('.abrelembrete')
+btnMostraLembre.addEventListener('click', () => {
+    const agendaLateral = document.querySelector('.agendaLateral')
+    const agendaLateralIcone = document.querySelector('.agendaLateral > i')
+    agendaLateral.classList.remove('ocultaAgenda')
+    agendaLateralIcone.setAttribute('class','bi bi-arrow-right-square-fill btnOcultarLembrete') 
+    fechaMenuLembre()
+})
 }
 
 async function geraLembretes() {
@@ -1218,20 +1236,21 @@ function editarLembreteShow(l) {
 function organizaLembretes() {
     const data = JSON.parse(localStorage.getItem('postIt'))
     var copia = []
-    console.log(data[0].titulo)
-    for(let i = 0; i <= data.length; i++){
+    console.log(data.length)
+    for(let i = 0; i < data.length; i++){
         const titulo =  data[i].titulo
         const lembrete = {
             "id": i,
             "titulo": `${titulo}`,
-            "textoL": data.textoL,
-            "data": data.data
+            "textoL": data[i].textoL,
+            "data": data[i].data
         }
         copia.push(lembrete)
     }
+    localStorage.setItem('postIt', JSON.stringify(copia))
     console.log(copia)
 }
-organizaLembretes()
+
 function delLembrete(l) {
     const data = JSON.parse(localStorage.getItem('postIt'))
     console.log(data)

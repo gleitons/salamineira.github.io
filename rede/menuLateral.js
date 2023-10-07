@@ -1,12 +1,46 @@
+function dMode() {
+    dModeT()
+    //avisoS('Opção em construção - Em breve Novidades')
+}
+if(localStorage.getItem('dmodeRede') == null){
+    localStorage.setItem('dmodeRede', 0) 
+}
+const modeAtual = localStorage.getItem('dmodeRede')
+
+if(modeAtual == 1 ){
+    const moded = document.querySelector('.telaApresentacao').style.backgroundColor = '#555555'
+    
+} else {
+    document.querySelector('.telaApresentacao').style.backgroundColor = 'white'
+    
+}
+
+
+function dModeT() {
+    const menuAtual = document.querySelector('.menusApresentação').style.backgroundColor
+    const fundoAtual = document.querySelector('.telaApresentacao').style.backgroundColor
+    const modeAtual = localStorage.getItem('dmodeRede')
+
+    if(modeAtual == 0 ){
+        document.querySelector('.telaApresentacao').style.backgroundColor = '#555555'
+        localStorage.setItem('dmodeRede', 1) 
+    } else {
+        document.querySelector('.telaApresentacao').style.backgroundColor = 'white'
+        localStorage.setItem('dmodeRede', 0)
+    }
+    // alert(menuAtual)
+    // document.querySelector('.menusApresentação').style.backgroundColor = '#0e0e0e'
+    
+    //#555555
+    
+}
 const MenuLateral = () => {
     document.querySelector('.menusApresentação').innerHTML = ` 
     <nav class="menuLateral">
     <div>
     <p>MENU - FUTURO CONSULTORIA</p>
     </div>
-    <a href="#" onclick="dMode()">
-    <li><i class="bi bi-brightness-high-fill"></i> <i class="bi bi-moon-fill"></i></li>
-    </a> 
+    
     <a href="./">
         <li><i class="bi bi-house-fill"></i> Inicio</li>
     </a>
@@ -228,3 +262,5 @@ if(document.querySelector('.classT') != null){
 }
 
 document.querySelector('head').innerHTML += `<link rel="shortcut icon" href="./src/img/futuro-consultoria-horizonte.svg" type="image/x-icon">`
+
+
