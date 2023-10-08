@@ -148,7 +148,7 @@ const MenuLateral = () => {
 
     <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Favoritos
      <ul class="subMenu">
-        <a href="./cadastro-pessoal.html">
+        <a href="./favoritos.html">
         <li><i class="bi bi-house-up-fill"></i>Favoritos</li>
         </a>   
         <a href="./cadastro-pessoal.html">
@@ -279,7 +279,7 @@ if (document.querySelector('.classT') != null) {
 
 document.querySelector('head').innerHTML += `<link rel="shortcut icon" href="./src/img/futuro-consultoria-horizonte.svg" type="image/x-icon">`
 
-document.querySelector('footer').innerHTML += `  <div class="atalhosTela confiTela">         
+document.querySelector('footer').innerHTML += `  <div class="atalhosTelaDesktop confiTela">         
 
 <div >
     <a href="./">

@@ -13,6 +13,50 @@ body {
   min-width: 1200px;
   background-color: var(--fundoBranco);
 }
+.copiadoComSucesso {
+  width: 100%;
+  position: absolute;
+  margin: auto;
+}
+.copiadoComSucesso p {
+  width: 100%;
+  background: rgba(18, 213, 0, 0.769);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+  position: fixed;  
+  font-weight: 700;
+  left: 0px;
+  text-align: center;
+  padding: 5px;
+  margin: auto;
+  top: 0px;
+  opacity: 0;
+  border-radius: 0px 0px 8px 8px;
+  z-index: 99;
+  animation: desceCopy 1s normal;
+}
+@keyframes desceCopy {
+  from {
+    top: 0px;
+    opacity: 0;
+  }
+  30% {
+    top: 51px;
+    opacity: 1;
+  }
+  90% {
+    top: 51px;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    opacity: 0;
+  }
+}
 .fieldCadastroImóvel .iconsSeleciona {
   width: 60%;
   display: flex;
@@ -24,6 +68,13 @@ body {
   padding: 10px;
   background-color: #7e7e7e8f;
   box-shadow: inset rgba(0, 0, 0, 0.303) 1px 2px 5px 1px;
+}
+.fieldCadastroImóvel abbr img {
+  cursor: pointer;
+  width: 40px;
+}
+.fieldCadastroImóvel abbr img:hover {
+  filter: brightness(1.1);
 }
 .iconsSeleciona img {
   width: 50px;
@@ -66,7 +117,7 @@ body {
   }
 }
 header {
-  height: 80px;
+  height: 50px;
   background: rgba(222, 222, 222, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
@@ -82,6 +133,13 @@ header > div {
   text-align: center;
   align-items: center;
 }
+header h2 {
+  font-size: 1em;
+}
+header h3 {
+  font-size: 0.8em;
+  color: #252d36;
+}
 footer p {
   color: white;
   font-weight: 600;
@@ -94,7 +152,7 @@ footer a {
 }
 header a {
   width: 100px;
-  height: 60px;
+  height: 35px;
   top: 0px;
   left: 0px;
   background-image: url("./src/img/futuro-consultoria-horizonte.svg");
@@ -140,41 +198,6 @@ header > div a::after {
 main {
   display: flex;
 }
-.atalhosTela {
-  padding: 20px;
-  min-height: 200px;
-}
-.atalhosTela > div {
-  cursor: pointer;
-  height: 100px;
-  width: 100px;
-  padding: 5px;
-  backdrop-filter: blur(5px);
-  background-color: rgb(255, 255, 255);
-  border-radius: 20px;
-  box-shadow: 35px 35px 68px 0px rgba(161, 161, 161, 0.5),
-    inset -8px -8px 16px 0px rgba(161, 161, 161, 0.6),
-    inset 0px 11px 28px 0px rgb(255, 255, 255);
-  filter: brightness(0.9);
-  text-align: center;
-  /* -webkit-border-radius: 50px; */
-  /* border-radius: 50px; */
-  background: #d1d8ec85;
-  -webkit-box-shadow: 3px 3px 6px #b2b8c9, -3px -3px 6px #f0f8ff;
-  box-shadow: 3px 3px 6px #b2b8c9, -3px -3px 6px #f0f8ff;
-  transition: 200ms;
-}
-.atalhosTela {
-  position: relative;
-  /* width: 100%; */
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.atalhosTela a {
-  text-decoration: none;
-  color: #13181e;
-}
 
 .avisoOff .editarAtalhos {
   background-color: white;
@@ -209,6 +232,51 @@ main {
 }
 .avisoOff .mostraAtalhosClose i:hover {
   color: rgb(235, 19, 19);
+}
+.atalhosTela {
+  padding: 20px;
+  min-height: 200px;
+  position: relative;
+  /* width: 100%; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.atalhosTela > div {
+  cursor: pointer;
+  height: 100px;
+  width: 80px;
+  padding: 5px;
+  backdrop-filter: blur(5px);
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 35px 35px 68px 0px rgba(161, 161, 161, 0.5),
+    inset -8px -8px 16px 0px rgba(161, 161, 161, 0.6),
+    inset 0px 11px 28px 0px rgb(255, 255, 255);
+  filter: brightness(0.9);
+  text-align: center;
+  /* -webkit-border-radius: 50px; */
+  /* border-radius: 50px; */
+  background: #d1d8ec85;
+  -webkit-box-shadow: 3px 3px 6px #b2b8c9, -3px -3px 6px #f0f8ff;
+  box-shadow: 3px 3px 6px #b2b8c9, -3px -3px 6px #f0f8ff;
+  transition: 200ms;
+}
+.cnpjEstaCadastrado {
+  background-color: red;
+  color: white;
+}
+.animaIO {
+}
+.infoCNPJPesquisa p {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.atalhosTela a {
+  text-decoration: none;
+  color: #13181e;
 }
 .atalhosTela div img {
   width: 72px;
@@ -262,7 +330,7 @@ main {
   height: 150px;
   margin: 2px;
   border-radius: 8px;
-  background-image: url('./src/img/lembrete-notificacao.png');
+  background-image: url("./src/img/lembrete-notificacao.png");
   background-size: 200% 220%;
 
   background-position: center;
@@ -338,7 +406,6 @@ main {
   font-size: 30px;
   color: #405cf5;
   cursor: pointer;
-  
 }
 
 .btnOcultarLembrete:hover {
@@ -375,7 +442,7 @@ main {
   width: 300px;
   min-height: 80px;
   border-radius: 8px;
-  
+
   /* border: #13181e solid 1px; */
   padding: 10px;
   line-height: 1.8em;
@@ -618,6 +685,7 @@ nav .subMenu:hover .treeMenu {
 }
 .telaApresentacao .cadastroDeImovel {
   width: 70%;
+  padding-bottom: 13vh;
 }
 .telaAvisos {
   display: flex;
@@ -782,9 +850,66 @@ footer {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+.atalhosTelaDesktop {
+  padding: 20px;
+  min-height: 200px;
+  position: relative;
+  /* width: 100%; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: #252d36;
+}
+.atalhosTelaDesktop > div {
+  cursor: pointer;
+  height: 70px;
+  width: 50px;
+  padding: 2px;
+  backdrop-filter: blur(5px);
+  background-color: rgb(191, 191, 191);
+  border-radius: 8px;
+  box-shadow: 35px 35px 68px 0px rgba(161, 161, 161, 0.5),
+    inset -8px -8px 16px 0px rgba(161, 161, 161, 0.6),
+    inset 0px 11px 28px 0px rgb(255, 255, 255);
+  filter: brightness(0.9);
+  text-align: center;
+  /* -webkit-border-radius: 50px; */
+  /* border-radius: 50px; */
+  background: #d1d8ec85;
+  -webkit-box-shadow: 3px 3px 6px #b2b8c9, -3px -3px 6px #f0f8ff;
+  box-shadow: 3px 3px 6px #b2b8c9, -3px -3px 6px #f0f8ff;
+  transition: 200ms;
+}
+
+.atalhosTelaDesktop a {
+  text-decoration: none;
+}
+.atalhosTelaDesktop div img {
+  width: 36px;
+  height: 36px;
+  margin: auto;
+  text-align: center;
+  filter: brightness(0.9);
+  transition: 200ms;
+}
+.atalhosTelaDesktop div p {
+  font-size: 0.6em;
+  width: 100%;
+  height: 35px;
+  color: #252d36;
+  overflow: hidden;
+}
+.atalhosTelaDesktop > div:hover {
+  filter: brightness(1);
+  filter: saturate(1.2);
+}
+.atalhosTelaDesktop > div:hover img {
+  filter: brightness(1);
+  filter: saturate(1.2);
+}
 .confiTela {
   position: fixed;
-  bottom: -45px;
+  bottom: -75px;
   right: 20%;
 }
 .desejaExcluir button {
