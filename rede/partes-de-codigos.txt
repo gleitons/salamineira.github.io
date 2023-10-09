@@ -78,3 +78,57 @@ function dModeT() {
 <a href="#" onclick="dMode()">
     <li><i class="bi bi-brightness-high-fill"></i> <i class="bi bi-moon-fill"></i></li>
     </a> 
+
+
+    <!-- <div class="buscaEmpresa">
+                                <span class="infodoFavorito">
+                                    <p><strong>GLEITON APARECIDO SOARES DE SOUZA</strong> - 26300217000100</p>
+                                    <button onclick="editaInfoEmpresaFavorito()">Mais Informações</button>
+                                    <button onclick="excluirInfoEmpresaFavorito()">Remover</button>
+                                </span>
+                                
+    
+                                <div>
+                                    <a href="https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp?cnpj="
+                                        target="_blank">
+                                        <abbr title="Consulta CNPJ - Comprovante de Situação Cadastral no CNPJ">
+                                            <p><img src="./src/img/icons/consulta-cnpj.png" alt=""></p>
+                                        </abbr>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <abbr title="Inscrição Estadual">
+                                            <p><img src="./src/img/icons/inscricao-estadual.png" alt=""></p>
+                                        </abbr>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <abbr title="Nota Fiscal de Produtos">
+                                            <p><img src="./src/img/icons/nota-fiscal-de-produtos.png" alt=""></p>
+                                        </abbr>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <abbr title="Nota Fiscal de Serviços">
+                                            <p><img src="./src/img/icons/nota-fiscal-de-servico.png" alt=""></p>
+                                        </abbr>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <abbr title="Certidão FGTS">
+                                            <p><img src="./src/img/icons/debitos-trabalhistas.png" alt=""></p>
+                                        </abbr>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <abbr title="Certidão Negativa Receita Federal">
+                                            <p><img src="./src/img/icons/edificio-do-governo.png" alt=""></p>
+                                        </abbr>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <abbr title="Certidão do INSS - Previdência Social">
+                                            <p><img src="./src/img/icons/inss-coffee.png" alt=""></p>
+                                        </abbr>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <abbr title="Certidão Negativa de Débitos Trabalhistas">
+                                            <p><img src="./src/img/icons/certidao-debitos-trabalhistas.png" alt=""></p>
+                                        </abbr>
+                                    </a>
+                                </div>
+                            </div> -->

@@ -1410,26 +1410,41 @@ document.addEventListener('click', () => {
         }
     }
 })
-function excluirInfoEmpresaFavorito() {
+function excluirInfoEmpresaFavorito(num) {
+    const numero = num.split('-')[0]
+    const razao = num.split('-')[1]
+    const cnpj = num.split('-')[2]
     avisoS(`<fieldset class="fieldCadastroImóvel fundoHorseWhite">
     <div style="display: block; ">
-    <h3>Empresa Favorita</h3>
+    <h3>EXCLUIR ${razao} - ${cnpj}</h3>
     <p>Obs: As informações aqui, não influenciam na pesquisa rápida de CNPJ</p>
     <div class="copiarDados">
         <p>Nome Empresarial:</p>
         <abbr title="Copiar">
-            <h4>Nome Empresa</h4>
+            <h4>${razao}</h4>
         </abbr>
     </div>    
     <div class="copiarDados">
     <p>Confirme a Exclusão:</p>
-    <button onclick="removeFavoritaEmpresa()">Remover dos Favoritos</button>
+    <button onclick="removeFavoritaEmpresa('${numero}-${razao}')">Remover dos Favoritos</button>
     </div>
     <span class="addMaisFavorita">
     </span>
     </div>
     
     </fieldset>`)
+}
+function removeFavoritaEmpresa(del){
+    const deletar = del.split('-')[0]
+    const nomeDel = del.split('-')[1]
+    const data = JSON.parse(localStorage.getItem('favoritosCNPJ'))
+
+    
+    data.splice(deletar, 1)
+    localStorage.setItem('favoritosCNPJ', JSON.stringify(data))
+    
+    alert(`${nomeDel} deletada com sucesso!!`)
+    location.reload()
 }
 async function editaInfoEmpresaFavorito(e) {
     const urlC = `https://minhareceita.org/${e}`
@@ -1493,9 +1508,6 @@ function gravaFavoritoMaisInfo() {
         const titulo = addMaisFavorita[i].querySelectorAll('input')[0].value
         const subTitulo = addMaisFavorita[i].querySelectorAll('input')[1].value
         const completo = `${titulo} || ${subTitulo}`
-        //const completo = `"info${i}": ["${titulo}", "${subTitulo}]"`
-        //const completoJson = JSON.parse(completo)
-
         maisDadosTitleSub.push([completo])
     }
     const empF = {
@@ -1518,18 +1530,15 @@ function adicionaOutrasInfoNoCNPJ(e) {
     dataEmp.map((cn) => {
         const addMaisFavorita = document.querySelector('.addMaisFavorita')
         addMaisFavorita.innerHTML = ''
-        if(e == cn.cnpj){
-            
-            for(let i = 0; i < cn.maisDadosTitleSub.length; i++){
-                
+        if(e == cn.cnpj){            
+            for(let i = 0; i < cn.maisDadosTitleSub.length; i++){                
                 const titulo = cn.maisDadosTitleSub[i].toString().split(' || ')[0]
                 const subTitulo = cn.maisDadosTitleSub[i].toString().split('|| ')[1]
                 addMaisFavorita.innerHTML += `<div class="copiarDados">
                 <input type="text" placeholder="insira Titulo" value="${titulo}">
                 <input type="text" placeholder="insira a Informação" value="${subTitulo}">
                 <i class="bi bi-x-square-fill"></i>
-                </div>`
-                
+                </div>`                
             }
             
         }
@@ -1566,7 +1575,7 @@ const carregaEmpresasFavoritasLoad = async () => {
     const data = JSON.parse(localStorage.getItem('favoritosCNPJ'))
     const empresasFavoritasCarregadas = document.querySelector('#empresasFavoritasCarregadas')
 
-    async function geraEmpresaL(e) {
+    async function geraEmpresaL(e, index) {
         console.log(e)
         const urlC = `https://minhareceita.org/${e}`
 
@@ -1575,7 +1584,12 @@ const carregaEmpresasFavoritasLoad = async () => {
 
         const response = await fetch(urlC);
         const dataEmpresa = await response.json();
-
+        
+        const mei = dataEmpresa.opcao_pelo_mei == true ? `<a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/emissao-de-comprovante-ccmei" target="_blank">
+        <abbr title="CCMEI - ${dataEmpresa.razao_social} ${dataEmpresa.cnpj}">
+            <p><img src="./src/img/icons/mei-grupo.png" alt=""></p>
+        </abbr>
+    </a>`: ''
         if (dataEmpresa.uf == estados[0]) {
             var linkEstadual = `http://sefaznet.ac.gov.br/sefazonline/servlet/hpfsincon`
         } else if (dataEmpresa.uf == estados[1]) {
@@ -1637,10 +1651,11 @@ const carregaEmpresasFavoritasLoad = async () => {
         <span class="infodoFavorito">
             <p><strong>${dataEmpresa.razao_social}</strong> - ${dataEmpresa.cnpj}</p>
             <button onclick="editaInfoEmpresaFavorito('${dataEmpresa.cnpj}')">Mais Informações</button>
-            <button onclick="excluirInfoEmpresaFavorito()">Remover</button>
+            <button onclick="excluirInfoEmpresaFavorito('${index}-${dataEmpresa.razao_social}-${dataEmpresa.cnpj}')">Remover</button>
         </span>
-
+       
         <div>
+            ${mei}        
             <a href="https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp?cnpj=${dataEmpresa.cnpj}"
                 target="_blank">
                 <abbr title="Consulta CNPJ - ${dataEmpresa.razao_social}">
@@ -1652,32 +1667,32 @@ const carregaEmpresasFavoritasLoad = async () => {
                     <p><img src="./src/img/icons/inscricao-estadual.png" alt=""></p>
                 </abbr>
             </a>
-            <a href="#" target="_blank">
+            <a href="https://emissornfe.sebrae.com.br/?utm_source=portal_sebrae&utm_medium=meio_pagina&utm_campaign=campanha1" target="_blank">
                 <abbr title="Nota Fiscal de Produtos - ${dataEmpresa.razao_social}">
                     <p><img src="./src/img/icons/nota-fiscal-de-produtos.png" alt=""></p>
                 </abbr>
             </a>
-            <a href="#" target="_blank">
+            <a href="https://www.nfse.gov.br/EmissorNacional/Login?ReturnUrl=%2fEmissorNacional" target="_blank">
                 <abbr title="Nota Fiscal de Serviços">
                     <p><img src="./src/img/icons/nota-fiscal-de-servico.png" alt="${dataEmpresa.razao_social}"></p>
                 </abbr>
             </a>
-            <a href="#" target="_blank">
+            <a href="https://www.fgts.gov.br/Pages/sou-empregador/certificado-de-regularidade-do-fgts-crf.aspx" target="_blank">
                 <abbr title="Certidão FGTS">
                     <p><img src="./src/img/icons/debitos-trabalhistas.png" alt=""></p>
                 </abbr>
             </a>
-            <a href="#" target="_blank">
+            <a href="https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir?NI=${dataEmpresa.cnpj}" target="_blank">
                 <abbr title="Certidão Negativa Receita Federal ${dataEmpresa.razao_social}">
                     <p><img src="./src/img/icons/edificio-do-governo.png" alt=""></p>
                 </abbr>
             </a>
-            <a href="#" target="_blank">
+            <a href="http://cnd.dataprev.gov.br/cws/contexto/cnd/cnd.html" target="_blank">
                 <abbr title="Certidão do INSS - Previdência Social">
                     <p><img src="./src/img/icons/inss-coffee.png" alt=""></p>
                 </abbr>
             </a>
-            <a href="#" target="_blank">
+            <a href="https://cndt-certidao.tst.jus.br/inicio.faces?gerarCertidaoForm:cpfCnpj=${dataEmpresa.cnpj}" target="_blank">
                 <abbr title="Certidão Negativa de Débitos Trabalhistas">
                     <p><img src="./src/img/icons/certidao-debitos-trabalhistas.png" alt=""></p>
                 </abbr>
@@ -1685,10 +1700,12 @@ const carregaEmpresasFavoritasLoad = async () => {
         </div>
     </div>`
     }
-    await data.map((e) => {
-        const empresasL = geraEmpresaL(e)
+    empFav.textContent = data.length
+    await data.map((e, index) => {
+        const empresasL = geraEmpresaL(e, index)
 
     })
+    setTimeout('imadeload.remove()', 1000)
 }
 
 if (document.querySelector('#empresasFavoritasCarregadas') != null) {
