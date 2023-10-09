@@ -14,7 +14,11 @@
                                         <p>Direito</p>
                                     </div>
                                 </div>
-
+     <div class="copiarDados">
+        <input type="text" id="titulo2" placeholder="insira Titulo">
+        <input type="text" id="subtitulo2" placeholder="insira a Informação">
+        <i class="bi bi-x-square-fill"></i>
+        </div>
 
                                 ${people[data[index].vendedores[0].p1].nome} <strong>PARA</strong> ${people[data[index].compradores[0].c1].nome}
 

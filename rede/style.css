@@ -36,9 +36,10 @@ body {
   top: 0px;
   opacity: 0;
   border-radius: 0px 0px 8px 8px;
-  z-index: 99;
+  z-index: 9999999999999;
   animation: desceCopy 1s normal;
 }
+
 @keyframes desceCopy {
   from {
     top: 0px;
@@ -75,6 +76,16 @@ body {
 }
 .fieldCadastroImóvel abbr img:hover {
   filter: brightness(1.1);
+}
+.fieldCadastroImóvel .infodoFavorito {
+  display: block;
+  width: 60%;
+  text-align: center;
+  border-right: #252d3666 solid 1px;
+  margin-right: 5px;
+}
+.fieldCadastroImóvel .infodoFavorito button:nth-child(3) {
+  background-color: red;
 }
 .iconsSeleciona img {
   width: 50px;
@@ -936,6 +947,26 @@ footer {
  
   
 } */
+.fundoHorseWhite {
+  background-color: rgb(12, 12, 12);
+  color: white;
+}
+.fundoHorseWhite .copiarDados {
+  background-color: white;
+  color: black;
+}
+.fundoHorseWhite .copiarDados i{
+  
+  color: rgb(217, 0, 0);
+}
+.fundoHorseWhite .copiarDados i:hover{
+  cursor: pointer;
+  color: rgb(245, 100, 100);
+}
+.fundoHorseWhite .copiarDados input {
+  width: 40%;
+  padding: 5px;
+}
 .dnone {
   display: none;
 }
