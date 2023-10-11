@@ -132,3 +132,35 @@ function dModeT() {
                                     </a>
                                 </div>
                             </div> -->
+   data.sort(function(a,b) {
+        console.log(a.data)
+        return a.data > b.data ? -1 : a.data < b.data ? 1 : 0;
+    });
+   data.sort(function(a,b) {
+        console.log(a.data)
+        return a.data > b.data ? -1 : a.data < b.data ? 1 : 0;
+    });
+   data.sort(function(a,b) {
+        console.log(a.data)
+        return a.data > b.data ? -1 : a.data < b.data ? 1 : 0;
+    });
+   data.sort(function(a,b) {
+        console.log(a.data)
+        return a.data > b.data ? -1 : a.data < b.data ? 1 : 0;
+    });
+   data.sort(function(a,b) {
+        console.log(a.data)
+        return a.data > b.data ? -1 : a.data < b.data ? 1 : 0;
+    });
+   data.sort(function(a,b) {
+        console.log(a.data)
+        return a.data > b.data ? -1 : a.data < b.data ? 1 : 0;
+    });
+   data.sort(function(a,b) {
+        console.log(a.data)
+        return a.data > b.data ? -1 : a.data < b.data ? 1 : 0;
+    });
+   data.sort(function(a,b) {
+        console.log(a.data)
+        return a.data > b.data ? -1 : a.data < b.data ? 1 : 0;
+    });

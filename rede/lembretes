@@ -1,128 +1,26 @@
 [
   {
     "id": 0,
-    "titulo": "AGENDA ONLINE",
-    "textoL": "Agendamento Onlein  - curso de filosofia",
-    "data": "2023-10-05"
+    "titulo": "Planeje seus compromissos antecedência",
+    "textoL": "Quanto mais tempo uma pessoa tem, mais condições de se planejar ela possui. Desta forma, sempre que possível, utilize o tempo ao seu favor. No dia anterior, coloque as tarefas que já tem conhecimento na sua agenda e verifique outros compromissos anotados. Isso facilitará muito a sua rotina.",
+    "data": "2023-11-01"
   },
   {
     "id": 1,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
+    "titulo": "Repasse seus compromissos três vezes ao dia",
+    "textoL": "É indicado que você repasse seus compromissos no início do expediente de trabalho ou no início do seu dia e confira novamente ao longo do dia para melhorar sua rotina – muitas pessoas preferem verificar após o almoço ou no meio do expediente. Ao final do dia, verifique novamente para não deixar nenhuma tarefa para trás.",
     "data": "2023-10-05"
   },
   {
     "id": 2,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
-    "data": "2023-10-05"
+    "titulo": "Utilize cores diferentes",
+    "textoL": "Uma dica é utilizar diferentes cores para tipos diferentes de tarefas – por exemplo, azul para as tarefas pessoais, verde para as profissionais, roxo para os compromissos fixos, etc. Isso ajuda a memorizar e a ter perspectiva de prioridades. Você pode usar cores ainda para tarefas concluídas, a delegar e a priorizar, por exemplo.",
+    "data": "2023-10-15"
   },
   {
     "id": 3,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
-    "data": "2023-10-05"
-  },
-  {
-    "id": 4,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
-    "data": "2023-10-05"
-  },
-  {
-    "id": 5,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
-    "data": "2023-10-05"
-  },
-  {
-    "id": 6,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
-    "data": "2023-10-05"
-  },
-  {
-    "id": 7,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
-    "data": "2023-10-05"
-  },
-  {
-    "id": 8,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
-    "data": "2023-10-05"
-  },
-  {
-    "id": 9,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
-    "data": "2023-10-05"
-  },
-  {
-    "id": 10,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
-    "data": "2023-10-05"
-  },
-  {
-    "id": 11,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
-    "data": "2023-10-05"
-  },
-  {
-    "id": 12,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
-    "data": "2023-10-05"
-  },
-  {
-    "id": 13,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
-    "data": "2023-10-05"
-  },
-  {
-    "id": 0,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
-    "data": "2023-10-05"
-  },
-  {
-    "id": 14,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
-    "data": "2023-10-05"
-  },
-  {
-    "id": 15,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
-    "data": "2023-10-05"
-  },
-  {
-    "id": 16,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
-    "data": "2023-10-05"
-  },
-  {
-    "id": 17,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
-    "data": "2023-10-05"
-  },
-  {
-    "id": 18,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
-    "data": "2023-10-05"
-  },
-  {
-    "id": 19,
-    "titulo": "LEMBRETE ONLINE",
-    "textoL": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam aliquam quas repellendus dicta eos saepe fuga qui nisi enim, doloremque aspernatur provident laboriosam fugiat eius laudantium accusantium reiciendi",
-    "data": "2023-10-05"
+    "titulo": "Não deixe para amanhã o que pode fazer hoje",
+    "textoL": "Crie o hábito de não deixar para o dia seguinte o que você pode realizar ainda hoje. Amanhã você terá outras tarefas e poderá ficar sobrecarregado. Apenas postergue tarefas se necessário. Evite procrastinar!",
+    "data": "2023-10-14"
   }
 ]

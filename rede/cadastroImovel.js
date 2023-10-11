@@ -1,3 +1,6 @@
+if (localStorage.getItem('postIt') == null) {
+    geraLembretes()
+}
 if (localStorage.getItem('enderecos') == null) {
     localStorage.setItem('enderecos', '[]')
 }
@@ -10,12 +13,12 @@ if (localStorage.getItem('cadastroImovel') == null) {
 if (localStorage.getItem('contratosETermos') == null) {
     localStorage.setItem('contratosETermos', '[]')
 }
-if (localStorage.getItem('postIt') == null) {
-    geraLembretes()
-}
 if (document.querySelector('.agendaLateral') != null) {
     carregaPostIt()
 }
+
+
+
 if (localStorage.getItem('dmodeRede') == null) {
     localStorage.setItem('dmodeRede', 0)
 }
@@ -31,7 +34,7 @@ if (localStorage.getItem('menuLembrete') == '0') {
     }
 }
 if (localStorage.getItem('menuLembrete') == '1') {
-    console.log('aberto')
+
     const abre = () => {
         const agendaLateral = document.querySelector('.agendaLateral')
         const agendaLateralIcone = document.querySelector('.agendaLateral > i')
@@ -1033,7 +1036,7 @@ function geradorDeCopiarInfoEmpresa() {
     todasDivCopiar.forEach((e) => {
         e.addEventListener('click', () => {
             let text = e.textContent;
-            console.log(text)
+
             navigator.clipboard.writeText(text);
             mostraInfoCopy(e.textContent)
         })
@@ -1100,7 +1103,7 @@ async function buscaCNPJB(pesquisaCN) {
             divInserindoDados[16].textContent = data.descricao_situacao_cadastral
 
             const atividadesSecond = data.cnaes_secundarios
-            console.log(atividadesSecond)
+
 
             atividadesSecond.forEach((e) => {
                 outrasAtividades.innerHTML += `<abbr title="Copiar">
@@ -1139,7 +1142,7 @@ function pesquisaCNPJ() {
         botaos[0].innerHTML = 'Bus..<img class="animaIO" src="./src/img/load.gif" alt="">'
         botaos[3].disabled = false
         botaos[3].style.backgroundColor = '#405cf5'
-        console.log(botaos)
+
         document.querySelector('.cnpjEstaCadastrado').textContent = ''
     } else {
         document.querySelector('#cnpjGerado').style.border = 'red solid 2px'
@@ -1161,7 +1164,7 @@ function tirBorder() {
 function abriMInfoCNPJ() {
     const verMaisInfoCNPJ = document.querySelector('.verMaisInfoCNPJ')
     const botaos = document.querySelectorAll('button')
-    console.log(botaos)
+
     if (botaos[1].textContent != 'Fechar') {
         botaos[1].textContent = 'Fechar'
     } else {
@@ -1201,8 +1204,7 @@ function favoritoPessoaJuridica(entrada) {
     } else {
         document.querySelector('.cnpjEstaCadastrado').textContent = 'CNPJ JÁ SALVO NO SISTEMA!'
     }
-    console.log(temCN)
-    console.log(nTemCN)
+
 
 
 
@@ -1218,7 +1220,7 @@ function colocaTarget() {
     todosLinks.forEach((e) => {
         e.setAttribute('target', '_blank')
     })
-    console.log(todosLinks)
+
 }
 
 function linkOn(link) {
@@ -1230,11 +1232,23 @@ function linkOn(link) {
 
 function carregaPostIt() {
     const data = JSON.parse(localStorage.getItem('postIt'))
+
     const agendaLateral = document.querySelector('.agendaLateral')
     agendaLateral.innerHTML = ``
+    const dataH = new Date()
+
+    const dia = dataH.getDate().toString().length == 1 ? `0${dataH.getDate()}` : dataH.getDate()
+    const somaMes = dataH.getMonth() + 1
+    const mes = somaMes.toString().length == 1 ? `0${somaMes}` : somaMes
+    const diahoje = `${dataH.getFullYear()}-${mes}-${dia}`
+
+
+    //const dataHoje = 
     data.map((e, index) => {
-        agendaLateral.innerHTML += `<div onclick="openLembrete(${index})">
-        <h6>${e.data}</h6>
+
+        const addClasse = diahoje == e.data ? 'piscandoHoje' : ''
+        agendaLateral.innerHTML += `<div class="${addClasse}" onclick="openLembrete(${index})">
+        <h6>${e.data.split('-').reverse().join('-')}</h6>
         <h2>${e.titulo}</h2>
         <p>${e.textoL}</p>
     </div>`
@@ -1243,6 +1257,37 @@ function carregaPostIt() {
     fechaMenuLembre()
 }
 
+function deletaEmpresasFavoritasAMais(e) {
+    const data = JSON.parse(localStorage.getItem('empresasFavoritasPage'))
+    const oCNPJ = e
+
+    var quantidade = []
+    data.map((e) => {
+        if (e.cnpj.toString() == oCNPJ.toString()) {
+            var qt = 1
+            quantidade.push(qt)
+        }
+    })
+    console.log(quantidade)
+    if (quantidade.length > 1) {
+        for (let i = 0; i < quantidade.length - 1; i++) {
+            let ind = data.findIndex(i => i.cnpj === oCNPJ.toString())
+            console.log(data)
+            data.splice(ind, 1)
+            console.log(data)
+            localStorage.setItem('empresasFavoritasPage', JSON.stringify(data))
+        }
+
+    }
+    //const oCNPJ = '26300217000100'
+    // if (e.cnpj.toString() == oCNPJ.toString()) {        
+    //     let ind = data.findIndex(i => i.cnpj === oCNPJ.toString())
+    //     console.log(data)
+    //     data.splice(ind, 1)
+    //     console.log(data)
+    //     localStorage.setItem('empresasFavoritasPage', JSON.stringify(data))
+    // }
+}
 
 function fechaMenuLembre() {
     const btnOcultaLembre = document.querySelector('.btnOcultarLembrete')
@@ -1272,20 +1317,22 @@ function abreMenuLembrete() {
 async function geraLembretes() {
     const response = await fetch('./lembretes')
     const data = await response.json()
-    console.log(data)
+
     localStorage.setItem('postIt', JSON.stringify(data))
 
 }
+geraLembretes()
 
 function openLembrete(l) {
     const data = JSON.parse(localStorage.getItem('postIt'))
+
     const agendaLateral = document.querySelector('.agendaLateral')
-    avisoS(`<div class="lembreteAberto">
+    avisoS(`<div class="lembreteAberto ">
     <input class="dnone" type="text" id="titleLembre" value="${data[l].titulo}">
     <input class="dnone" type="date"  id="dataLembre" value="${data[l].data}">
     
     <h2 class="">${data[l].titulo}</h2>
-    <h4 class="">${data[l].data}</h4>
+    <h4 class="">${data[l].data.split('-').reverse().join('-')}</h4>
     <p class="">${data[l].textoL}</p>
     <textarea id="areaLembre" class="dnone" name=""  cols="34" rows="10">${data[l].textoL}</textarea>  
     
@@ -1321,13 +1368,14 @@ function editarLembrete(l) {
 function editarLembreteShow(l) {
     organizaLembretes()
     const data = JSON.parse(localStorage.getItem('postIt'))
+
     const titulo = document.querySelector('#titleLembre').value
     const dataLembre = document.querySelector('#dataLembre').value
     const textoLembre = document.querySelector('#areaLembre').value
     const posicaoObjeto = data[l].selectedIndex
-    console.log(posicaoObjeto)
+
     const editarLembrete = data.find(obj => obj.id == l)
-    console.log(editarLembrete)
+
     if (editarLembrete) {
         editarLembrete.id = l
         editarLembrete.titulo = titulo
@@ -1346,8 +1394,9 @@ function editarLembreteShow(l) {
 }
 function organizaLembretes() {
     const data = JSON.parse(localStorage.getItem('postIt'))
+
     var copia = []
-    console.log(data.length)
+
     for (let i = 0; i < data.length; i++) {
         const titulo = data[i].titulo
         const lembrete = {
@@ -1359,19 +1408,21 @@ function organizaLembretes() {
         copia.push(lembrete)
     }
     localStorage.setItem('postIt', JSON.stringify(copia))
-    console.log(copia)
+
 }
 
 function delLembrete(l) {
     const data = JSON.parse(localStorage.getItem('postIt'))
-    console.log(data)
+
+
     data.splice(l, 1)
     localStorage.setItem('postIt', JSON.stringify(data))
-    console.log(data)
+
     location.reload()
 }
 function addLembrete() {
     const data = JSON.parse(localStorage.getItem('postIt'))
+
     const l = data.length
     avisoS(`<div class="lembreteAberto">
     <input  type="text" id="titleLembre" value="" placeholder="Insira o Titulo e data abaixo">
@@ -1384,6 +1435,7 @@ function addLembrete() {
 }
 function criarLembrete() {
     const data = JSON.parse(localStorage.getItem('postIt'))
+
     const l = data.length
     const titulo = document.querySelector('#titleLembre').value
     const dataLembrete = document.querySelector('#dataLembre').value
@@ -1434,15 +1486,14 @@ function excluirInfoEmpresaFavorito(num) {
     
     </fieldset>`)
 }
-function removeFavoritaEmpresa(del){
+function removeFavoritaEmpresa(del) {
     const deletar = del.split('-')[0]
     const nomeDel = del.split('-')[1]
     const data = JSON.parse(localStorage.getItem('favoritosCNPJ'))
 
-    
     data.splice(deletar, 1)
     localStorage.setItem('favoritosCNPJ', JSON.stringify(data))
-    
+
     alert(`${nomeDel} deletada com sucesso!!`)
     location.reload()
 }
@@ -1480,76 +1531,85 @@ async function editaInfoEmpresaFavorito(e) {
     <p>Adicione:</p>
     <button onclick="addInfoFavoritaEmpresa()">Adicionar Informações</button>
     </div>
-    <span class="addMaisFavorita">
-
-       
+    <span class="addMaisFavorita">      
 
     </span>
-
     </div>
     <button onclick="gravaFavoritoMaisInfo()">Gravar Informações</button>
     </fieldset>`)
     geradorDeCopiarInfoEmpresa()
     fechaEmpresaFavoritaDados()
     adicionaOutrasInfoNoCNPJ(e)
+
 }
 //editaInfoEmpresaFavorito()
 function gravaFavoritoMaisInfo() {
     const addMaisFavorita = document.querySelectorAll('.addMaisFavorita .copiarDados')
     const dataEmp = JSON.parse(localStorage.getItem('empresasFavoritasPage'))
-
-    
     const oRazao = document.querySelectorAll('.fundoHorseWhite h4')[0].textContent
     const oCNPJ = document.querySelectorAll('.fundoHorseWhite h4')[1].textContent
-    console.log(oCNPJ)
-
     var maisDadosTitleSub = []
     for (let i = 0; i < addMaisFavorita.length; i++) {
         const titulo = addMaisFavorita[i].querySelectorAll('input')[0].value
         const subTitulo = addMaisFavorita[i].querySelectorAll('input')[1].value
         const completo = `${titulo} || ${subTitulo}`
+
         maisDadosTitleSub.push([completo])
     }
     const empF = {
         "nomeEmpresa": oRazao,
         "cnpj": oCNPJ,
         maisDadosTitleSub
-
     }
     dataEmp.push(empF)
     localStorage.setItem('empresasFavoritasPage', JSON.stringify(dataEmp))
-    console.log(empF.maisDadosTitleSub.length)
-    // "info0": ["telefone", "38 999167841"]
+
+
+
     fechaAviso()
+
     editaInfoEmpresaFavorito(oCNPJ)
-    
+    reloadApagaEmpresaAMais(oCNPJ)
+
+}
+function reloadApagaEmpresaAMais(e) {
+    deletaEmpresasFavoritasAMais(e)
 }
 function adicionaOutrasInfoNoCNPJ(e) {
     const dataEmp = JSON.parse(localStorage.getItem('empresasFavoritasPage'))
+    const addMaisFavorita = document.querySelector('.addMaisFavorita')
 
+    addMaisFavorita.innerHTML = ''
     dataEmp.map((cn) => {
-        const addMaisFavorita = document.querySelector('.addMaisFavorita')
-        addMaisFavorita.innerHTML = ''
-        if(e == cn.cnpj){            
-            for(let i = 0; i < cn.maisDadosTitleSub.length; i++){                
+        //console.log(addMaisFavorita)
+        //console.log(e.toString() == cn.cnpj.toString())
+        //console.log(cn.cnpj)
+
+        if (e.toString() == cn.cnpj.toString()) {
+            for (let i = 0; i < cn.maisDadosTitleSub.length; i++) {
                 const titulo = cn.maisDadosTitleSub[i].toString().split(' || ')[0]
                 const subTitulo = cn.maisDadosTitleSub[i].toString().split('|| ')[1]
-                addMaisFavorita.innerHTML += `<div class="copiarDados">
+                //console.log(titulo)
+                //console.log(subTitulo)
+                const dados = `<div class="copiarDados">
                 <input type="text" placeholder="insira Titulo" value="${titulo}">
                 <input type="text" placeholder="insira a Informação" value="${subTitulo}">
                 <i class="bi bi-x-square-fill"></i>
-                </div>`                
+                </div>`
+
+                addMaisFavorita.innerHTML += dados
+                //console.log(i)
             }
-            
+            return
         }
     })
     fechaEmpresaFavoritaDados()
 }
 function addInfoFavoritaEmpresa() {
-   
+
     const fundoHorseWhite = document.querySelector('.addMaisFavorita')
     const divDados = document.querySelectorAll('.copiarDados button')[0]
-    console.log(divDados)
+
     fundoHorseWhite.innerHTML += `<div class="copiarDados">
     <input type="text"  placeholder="insira Titulo">
     <input type="text"  placeholder="insira a Informação">
@@ -1559,8 +1619,8 @@ function addInfoFavoritaEmpresa() {
     divDados.disabled = true
     divDados.textContent = 'Clique em "Gravar Informações"'
     divDados.style.backgroundColor = 'gray'
-    
-    
+
+
 }
 function fechaEmpresaFavoritaDados() {
     const divDados = document.querySelectorAll('.copiarDados i')
@@ -1574,9 +1634,13 @@ function fechaEmpresaFavoritaDados() {
 const carregaEmpresasFavoritasLoad = async () => {
     const data = JSON.parse(localStorage.getItem('favoritosCNPJ'))
     const empresasFavoritasCarregadas = document.querySelector('#empresasFavoritasCarregadas')
+    if(localStorage.getItem('loadFastFavoritos') != null){
+        empresasFavoritasCarregadas.innerHTML = localStorage.getItem('loadFastFavoritos')
+    }
+    empresasFavoritasCarregadas.innerHTML = ``
 
     async function geraEmpresaL(e, index) {
-        console.log(e)
+
         const urlC = `https://minhareceita.org/${e}`
 
         const estados = ["AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MS", "MT", "MG", "PA", "PB", "PR", "PE", "PI", "RJ", "RN", "RS", "RO", "RR", "SC", "SP", "SE", "TO"]
@@ -1584,7 +1648,7 @@ const carregaEmpresasFavoritasLoad = async () => {
 
         const response = await fetch(urlC);
         const dataEmpresa = await response.json();
-        
+
         const mei = dataEmpresa.opcao_pelo_mei == true ? `<a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/emissao-de-comprovante-ccmei" target="_blank">
         <abbr title="CCMEI - ${dataEmpresa.razao_social} ${dataEmpresa.cnpj}">
             <p><img src="./src/img/icons/mei-grupo.png" alt=""></p>
@@ -1645,7 +1709,7 @@ const carregaEmpresasFavoritasLoad = async () => {
         } else {
             var linkEstadual = `http://sintegra.sefaz.to.gov.br/`
         }
-
+        
         const estadoEmpresa = dataEmpresa.cnpj
         empresasFavoritasCarregadas.innerHTML += `  <div class="buscaEmpresa">
         <span class="infodoFavorito">
@@ -1705,7 +1769,17 @@ const carregaEmpresasFavoritasLoad = async () => {
         const empresasL = geraEmpresaL(e, index)
 
     })
-    setTimeout('imadeload.remove()', 1000)
+    
+    //imadeload.remove()
+    //setTimeout('imadeload.remove()', 1000)
+    setTimeout('pegaHTMLFavoritos()', 1000)
+    
+}
+function pegaHTMLFavoritos() {
+    const imageLoadsntes = `<img id="imadeload" src="./src/img/load.gif" alt="">`
+    const empresasFavoritasCarregadas = document.querySelector('#empresasFavoritasCarregadas').innerHTML
+    localStorage.setItem('loadFastFavoritos', imageLoadsntes + empresasFavoritasCarregadas)
+    
 }
 
 if (document.querySelector('#empresasFavoritasCarregadas') != null) {
@@ -1735,9 +1809,3 @@ function search_animal() {
         }
     }
 }
-// document.addEventListener('keypress', function(event) {
-//     console.log(event.key)
-//     if (event.key === '') {
-//         console.log('fechou')
-//     }
-//   });

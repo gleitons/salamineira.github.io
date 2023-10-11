@@ -2,14 +2,14 @@
     {
         "id":0,
         "imagem": "./src/img/icons/comprador.png",
-        "texto": "Adicionar Comprador",
-        "link": "https://google.com"
+        "texto": "CND FEDERAL",
+        "link": "https://solucoes.receita.fazenda.gov.br/servicos/certidaointernet/pj/emitir"
     },
     {
         "id":1,
         "imagem": "./src/img/icons/editar-endereco.png",
-        "texto": "Editar Endereço",
-        "link": "https://google.com"
+        "texto": "CCMEI",
+        "link": "https://www.gov.br/pt-br/servicos/emitir-o-certificado-de-condicao-de-microempreendedor-individual"
     },
     {
         "id":2,
