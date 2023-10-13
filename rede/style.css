@@ -27,7 +27,7 @@ body {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   color: white;
-  position: fixed;  
+  position: fixed;
   font-weight: 700;
   left: 0px;
   text-align: center;
@@ -543,11 +543,12 @@ main {
   padding: 10px;
   border-radius: 8px;
   transition: 300ms;
-  animation: animaCimaBaixo 200ms normal linear;
+  animation: animaCimaBaixo 50ms normal linear;
 }
 @keyframes animaCimaBaixo {
   from {
-    filter: brightness(0.7);
+    /* margin-top: -20px; */
+    filter: brightness(0.9);
   }
 }
 .fieldCadastroImóvel map area {
@@ -872,23 +873,21 @@ footer {
   min-height: 200px;
   position: relative;
   /* width: 100%; */
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   gap: 20px;
   color: #252d36;
 }
-.atalhosTelaDesktop > div {
+.atalhosTelaDesktop > abbr div {
   cursor: pointer;
-  height: 70px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
+  margin: 5px auto;
   padding: 2px;
-  backdrop-filter: blur(5px);
-  background-color: rgb(191, 191, 191);
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 1);
   border-radius: 8px;
-  box-shadow: 35px 35px 68px 0px rgba(161, 161, 161, 0.5),
-    inset -8px -8px 16px 0px rgba(161, 161, 161, 0.6),
-    inset 0px 11px 28px 0px rgb(255, 255, 255);
-  filter: brightness(0.9);
+  display: flex;
   text-align: center;
   /* -webkit-border-radius: 50px; */
   /* border-radius: 50px; */
@@ -902,8 +901,8 @@ footer {
   text-decoration: none;
 }
 .atalhosTelaDesktop div img {
-  width: 36px;
-  height: 36px;
+  width: 26px;
+  height: 26px;
   margin: auto;
   text-align: center;
   filter: brightness(0.9);
@@ -926,8 +925,9 @@ footer {
 }
 .confiTela {
   position: fixed;
-  bottom: -75px;
-  right: 20%;
+  bottom: 17px;
+  right: 0px;
+
 }
 .desejaExcluir button {
   background-color: red;
@@ -961,18 +961,27 @@ footer {
   background-color: white;
   color: black;
 }
-.fundoHorseWhite .copiarDados i{
-  
+.fundoHorseWhite .copiarDados i {
   color: rgb(217, 0, 0);
 }
-.fundoHorseWhite .copiarDados i:hover{
+.fundoHorseWhite .copiarDados i:hover {
   cursor: pointer;
   color: rgb(245, 100, 100);
 }
 .fundoHorseWhite .copiarDados input {
   width: 40%;
   padding: 5px;
+  cursor:cell;
+  border: none;
+  border-radius: 8px;
+  box-shadow: inset rgba(0, 0, 0, 0.404) 0px 2px 5px 0px;
 }
+.fundoHorseWhite .copiarDados input:not(:placeholder-shown) {
+ background-color: rgb(255, 255, 255);
+ box-shadow:  rgba(0, 0, 0, 0.404) 0px 2px 5px 0px;
+ font-weight: 700;
+ text-transform: uppercase;
+} 
 .dnone {
   display: none;
 }

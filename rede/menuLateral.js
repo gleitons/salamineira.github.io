@@ -46,9 +46,56 @@ const MenuLateral = () => {
     </a>
     <p class="avisoDiv">Buscador S</p>
     <a href="./buscar-cnpj.html">
-    <li><i class="bi bi-search"></i> Buscador Completo</li>
+    <li><i class="bi bi-search"></i> Pesquisa Rápida</li>
     </a>
-    <p class="avisoDiv">Adicionar Atalho</p>
+    
+
+    <p class="avisoDiv">MEI, ME, SA</p>
+    <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Universo CNPJ
+    <ul class="subMenu">
+    <a href="./favoritos.html">
+    <li><i class="bi bi-house-up-fill"></i>Favoritos</li>
+    </a>   
+    <a href="./links-interessantes.html">
+    <li><i class="bi bi-house-up-fill"></i>Links Interessantes</li>
+    </a>  
+    <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/emissao-de-comprovante-ccmei" target="_blank">
+    <li><i class="bi bi-house-up-fill"></i>CCMEI</li>
+    </a>  
+    <a href="./itbi-urbano.html" target="_blank">
+    <li><i class="bi bi-house-up-fill"></i>CND Federal</li>
+    </a>  
+    <a href="./itbi-urbano.html">
+    <li><i class="bi bi-house-up-fill"></i>CND Estadual</li>
+    </a>  
+    <a href="./itbi-urbano.html">
+    <li><i class="bi bi-house-up-fill"></i>CND FGTS</li>
+    </a>  
+    <a href="./itbi-rural.html">
+    <li><i class="bi bi-house-up-fill"></i>Informações RFB</li>
+    </a>      
+    </ul>
+    </li>  
+
+    <p class="avisoDiv">Atendimento SAS SEBRAE</p>
+
+    <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Atendimento SAS
+     <ul class="subMenu">
+        <a href="./atendimento-sas-modelos.html">
+        <li><i class="bi bi-house-up-fill"></i>Modelos</li>
+        </a>   
+        <a href="./cadastro-empresa.html">
+        <li><i class="bi bi-house-up-fill"></i>Cadastrar</li>
+        </a>   
+         <a href="./cadastro-imovel.html">
+             <li><i class="bi bi-house-add-fill"></i>Editar</li>
+         </a>
+        
+         <a href="./cadastro-endereco.html">
+             <li><i class="bi bi-signpost-fill"></i> Excluir</li>
+         </a>
+     </ul>
+    </li>  
 
     <li class="menuDrop"><i class="bi bi-folder-symlink-fill"></i> Atalho
      <ul class="subMenu">
@@ -68,114 +115,38 @@ const MenuLateral = () => {
      </ul>
     </li>  
 
-    <p class="avisoDiv">Consulta CNPJ</p>
-    <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Consulta CNPJ
-    <ul class="subMenu">
-    <a href="./buscar-cnpj.html">
-    <li><i class="bi bi-house-up-fill"></i>Rápida</li>
-    </a>   
-    <a href="https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp" target="_blank">
-    <li><i class="bi bi-house-up-fill"></i>Receita Federal</li>
-    </a>    
-    <a href="https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp" target="_blank">
-    <li><i class="bi bi-house-up-fill"></i>E-CAC</li>
-    </a>   
-    <a href="./inscricao-estadual.html" >
-    <li><i class="bi bi-house-up-fill"></i>Estadual</li>
-    </a>     
-    </ul>
-    </li>  
-    <p class="avisoDiv">Certidões</p>
-    <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Certidão CNPJ
-    <ul class="subMenu">
-    <a href="./itbi-urbano.html">
-    <li><i class="bi bi-house-up-fill"></i>CND Federal</li>
-    </a>  
-    <a href="./itbi-urbano.html">
-    <li><i class="bi bi-house-up-fill"></i>CND Estadual</li>
-    </a>  
-    <a href="./itbi-urbano.html">
-    <li><i class="bi bi-house-up-fill"></i>CND FGTS</li>
-    </a>  
-    <a href="./itbi-rural.html">
-    <li><i class="bi bi-house-up-fill"></i>Informações RFB</li>
-    </a>      
-    </ul>
-    </li>  
-
-    <p class="avisoDiv">MEI (Microempreendedor Individual)</p>
-    <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Especial MEI
-    <ul class="subMenu">
-    <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/emissao-de-comprovante-ccmei" target="_blank">
-    <li><i class="bi bi-house-up-fill"></i>CCMEI</li>
-    </a>  
-    <a href="./itbi-urbano.html" target="_blank">
-    <li><i class="bi bi-house-up-fill"></i>CND Federal</li>
-    </a>  
-    <a href="./itbi-urbano.html">
-    <li><i class="bi bi-house-up-fill"></i>CND Estadual</li>
-    </a>  
-    <a href="./itbi-urbano.html">
-    <li><i class="bi bi-house-up-fill"></i>CND FGTS</li>
-    </a>  
-    <a href="./itbi-rural.html">
-    <li><i class="bi bi-house-up-fill"></i>Informações RFB</li>
-    </a>      
-    </ul>
-    </li>  
 
 
-    <p class="avisoDiv">Atendimento SAS SEBRAE</p>
+    
+    <p class="avisoDiv">+ Opções</p>
 
-    <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Atendimentos
+    <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Opções
      <ul class="subMenu">
-        <a href="./atendimento-sas-modelos.html">
-        <li><i class="bi bi-house-up-fill"></i>Modelos</li>
-        </a>   
-        <a href="./cadastro-empresa.html">
-        <li><i class="bi bi-house-up-fill"></i>Cadastrar</li>
-        </a>   
-         <a href="./cadastro-imovel.html">
-             <li><i class="bi bi-house-add-fill"></i>Editar</li>
-         </a>
-        
-         <a href="./cadastro-endereco.html">
-             <li><i class="bi bi-signpost-fill"></i> Excluir</li>
-         </a>
-     </ul>
-    </li>  
-    <p class="avisoDiv">Favoritos</p>
+     <a href="./perfil.html">
+     <li><i class="bi bi-layer-backward"></i> Editar Perfil</li>
+     </a> 
 
-    <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Favoritos
-     <ul class="subMenu">
-        <a href="./favoritos.html">
-        <li><i class="bi bi-house-up-fill"></i>Favoritos</li>
-        </a>   
-        <a href="./cadastro-pessoal.html">
-        <li><i class="bi bi-house-up-fill"></i>Novo</li>
-        </a>   
-        <a href="./cadastro-empresa.html">
-        <li><i class="bi bi-house-up-fill"></i>Editar</li>
-        </a>   
-         <a href="./cadastro-imovel.html">
-             <li><i class="bi bi-house-add-fill"></i>Excluir</li>
-         </a>
-     </ul>
-    </li>  
-
-    <a href="./perfil.html">
-    <li><i class="bi bi-layer-backward"></i> Editar Perfil</li>
+     <a href="./backup.html">
+    <li><i class="bi bi-layer-backward"></i> Backup</li>
     </a> 
+    <a href="./resetar.html">
+    <li><i class="bi bi-trash3-fill"></i> Resetar</li>
+    </a> 
+    <a href="./sobre.html">
+    <li><i class="bi bi-trash3-fill"></i> Sobre</li>
+    </a> 
+    <a href="./ajuda.html">
+    <li><i class="bi bi-trash3-fill"></i> Ajuda</li>
+    </a> 
+       
+    </li>  
+
+   
    
 
    
     
-<a href="./backup.html">
-<li><i class="bi bi-layer-backward"></i> Backup</li>
-</a> 
-<a href="./resetar.html">
-<li><i class="bi bi-trash3-fill"></i> Resetar</li>
-</a> 
+
 
 
 
@@ -282,37 +253,49 @@ document.querySelector('head').innerHTML += `<link rel="shortcut icon" href="./s
 document.querySelector('footer').innerHTML += `  <div class="atalhosTelaDesktop confiTela">         
 
 <div >
+<abbr title="Home">
     <a href="./">
         <img src="./src/img/icons/inicio-casa.png" alt="Novo Lembrete">
-        <p>Novo Atalho</p>
+       
     </a>
-</div>           
-<div onclick="addAtalhos()">
-    <img src="./src/img/icons/novo-atalho.png" alt="Novo Lembrete">
-    <p>Novo Atalho</p>
-</div>
-<div onclick="addLembrete()">
-    <img src="./src/img/icons/novo-lembrete.png" alt="Novo Atalho">
-    <p>Novo Lembrete</p>
-</div>
-<div >
-    <a href="./favoritos.html">
-        <img src="./src/img/icons/favoritos-empresas.png" alt="Novo Atalho">
-        <p>Favoritos</p>
-    </a>
-</div>
- <div>
-    <a href="./buscar-cnpj.html">
-        <img src="./src/img/icons/pesquisa-empresas.png" alt="Novo Atalho">
-        <p>Pesquisar Empresa</p>
-    </a>
-</div>
-<div>
-    <a href="./perfil.html">
-        <img src="./src/img/icons/editar-perfil.png" alt="Novo Atalho">
-        <p>Editar Perfil</p>
-    </a>
-</div>
+</div>   
+</abbr>        
+<abbr title="Novo Atalho">
+    <div onclick="addAtalhos()">
+        <img src="./src/img/icons/novo-atalho.png" alt="Novo Lembrete">
+    
+    </div>
+</abbr>
+<abbr title="Novo Lembrete">
+    <div onclick="addLembrete()">
+        <img src="./src/img/icons/novo-lembrete.png" alt="Novo Atalho">
+    
+    </div>
+</abbr>
+<abbr title="Favoritos">
+    <div >
+        <a href="./favoritos.html">
+            <img src="./src/img/icons/favoritos-empresas.png" alt="Novo Atalho">
+    
+        </a>
+    </div>
+</abbr>
+ <abbr title="Pesquisar Empresa">
+     <div>
+        <a href="./buscar-cnpj.html">
+            <img src="./src/img/icons/pesquisa-empresas.png" alt="Novo Atalho">
+     
+        </a>
+     </div>
+ </abbr>
+<abbr title="Editar Perfil">
+    <div>
+        <a href="./perfil.html">
+            <img src="./src/img/icons/editar-perfil.png" alt="Novo Atalho">
+    
+        </a>
+    </div>
+</abbr>
 
 </div>`
 

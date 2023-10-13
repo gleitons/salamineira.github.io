@@ -1,5 +1,65 @@
 [
   {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4126/",
+    "dataP": "",
+    "processo": "PROC. 071/2023 DISPENSA 006/2023",
+    "publicado": "02/10/2023",
+    "abertura": "",
+    "modalidade": "Dispensa",
+    "situacao": "Em andamento",
+    "infolicita": "CONTRATAÇÃO DE EMPRESA PRESTADORA DE SERVIÇOS ESPECIALIZADA EM TECNOLOGIA PARA ATENDER AS NECESSIDADES DA SECRETARIA DE SAÚDE DE LAGOA DOS PATOS/MG."
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4123/",
+    "dataP": "03/10/2023",
+    "processo": "PROC. 070/2023 CONTRATO 020/2023",
+    "publicado": "26/09/2023",
+    "abertura": "03/10/2023",
+    "modalidade": "CONTRATO",
+    "situacao": "FINALIZADA",
+    "infolicita": "AQUISIÇÃO DE VEÍCULO TIPO VAN 15 LUGARES ADAPTADA PARA ESCOLAR PARA ATENDER A DEMANDA DO MUNICÍPIO DE LAGOA DOS PATOS/MG CONFORME O CONVENIO 126100465/2023/SEE- ATA SRP 033/2023 - PROC. Nº 037/2023 -PE SRP Nº 012/2023 - CIMAMS   "
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4121/",
+    "dataP": "",
+    "processo": "PROC. 069/2023 ",
+    "publicado": "26/09/2023",
+    "abertura": "",
+    "modalidade": "CONTRATO",
+    "situacao": "FINALIZADA",
+    "infolicita": "ADESÃO A REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM SUPORTE, OPERAÇÃO ASSISTIDA, MANUTENÇÃO CORRETIVA E EVOLUTIVA EM SOFTWARE DE GESTÃO PÚBLICO (SOB LICENÇA GENERAL PUBLICLICENSE – GPL), DISPONÍVEL NO PORTAL DO SOFTWARE PÚBLICO BRASILEIRO–SPB (WWW.SOFTWARE PUBLICO.GOV.BR), ÁREA DE EDUCAÇÃO, PARA UTILIZAÇÃO PELOS MUNICÍPIOS CONSORCIADOS AO CODANORTE E AO PRÓPRIO CODANORTE"
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4120/",
+    "dataP": "04/10/2023",
+    "processo": "PROC. 068/2023 INEX. 022/2023",
+    "publicado": "14/09/2023",
+    "abertura": "04/10/2023",
+    "modalidade": "Inexigibilidade",
+    "situacao": "Em andamento",
+    "infolicita": "CONTRATAÇÃO DO CANTOR NEGÃO CHANDON PARA APRESENTAÇÃO DE SHOW ARTÍSTICO NO DIA 11 DE MAIO DE 2024 NA FESTA DE VAQUEJADA NO MUNICÍPIO DE LAGOA DOS PATOS/MG"
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4119/",
+    "dataP": "29/09/2023",
+    "processo": "PROC. 067/2023 INEX 021/2023",
+    "publicado": "14/09/2023",
+    "abertura": "29/09/2023",
+    "modalidade": "Inexigibilidade",
+    "situacao": "Em andamento",
+    "infolicita": "CONTRATAÇÃO DO CANTOR GUILHERME SILVA PARA APRESENTAÇÃO DE SHOW ARTÍSTICO NO DIA 11 DE MAIO DE 2024 NA FESTA DE VAQUEJADA NO MUNICÍPIO DE LAGOA DOS PATOS/MG"
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4115/",
+    "dataP": "05/09/2023",
+    "processo": "PROC. 064/2023 INEX 020/2023",
+    "publicado": "30/08/2023",
+    "abertura": "05/09/2023",
+    "modalidade": "Inexigibilidade",
+    "situacao": "FINALIZADA",
+    "infolicita": "CONTRATAÇÃO DA DUPLA JOÃO VITOR E BRENO PARA APRESENTAÇÃO DE SHOW ARTÍSTICO NO DIA 15 DE SETEMBRO DE 2023 NA TRADICIONAL FESTA DO MUNICÍPIO DE LAGOA DOS PATOS DENOMINADA DE AÇÃO GLOBAL"
+  },
+  {
     "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4078/",
     "dataP": "03/10/2023",
     "processo": "PROC. 066/2023 PP SRP 027/2023",
@@ -16,7 +76,7 @@
     "publicado": "05/09/2023",
     "abertura": "21/09/2023",
     "modalidade": "PREGÃO ELETRÔNICO",
-    "situacao": "Aberta",
+    "situacao": "FINALIZADA",
     "infolicita": "REGISTRO DE PREÇO PARA FUTURA E EVENTUAL AQUISIÇÃO DE CARNES EMBUTIDOS E FRIOS PARA MANUTENÇÃO DAS DIVERSAS SECRETARIAS DO MUNICÍPIO DE LAGOA DOS PATOS/MG"
   },
   {
@@ -38,65 +98,5 @@
     "modalidade": "PREGÃO PRESENCIAL",
     "situacao": "Aberta",
     "infolicita": "REGISTRO DE PREÇO PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM ORGANIZAÇÃO, ORNAMENTAÇÃO, BUFFET E DECORAÇÃO DE EVENTOS COM FORNECIMENTO DOS MATERIAIS PARA REALIZAÇÃO DOS EVENTOS DAS DIVERSAS SECRETARIAS MUNICIPAIS DE LAGOA DOS PATOS/MG.\n\n"
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4056/",
-    "dataP": "22/08/2023",
-    "processo": "PROC. 061/2023 INEX. 019/2023",
-    "publicado": "21/08/2023",
-    "abertura": "22/08/2023",
-    "modalidade": "Inexigibilidade",
-    "situacao": "FINALIZADA",
-    "infolicita": "CONTRATAÇÃO DE MEPRESA ESPECIALIZADA EM REALIZAÇÃO DE PROVAS DE MOTOCROSS PARA REALIZAR A ETAPA DO CAMPEONATO NORTE MINEIRO DE MOTOCROS NO MUNICIPIO DE LAGOA DOS PATOS/MG NO DIA 16 DE SETEMBRO DE 2023"
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4055/",
-    "dataP": "",
-    "processo": "",
-    "publicado": "",
-    "abertura": "",
-    "modalidade": "Inexigibilidade",
-    "situacao": "Em andamento",
-    "infolicita": ""
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4054/",
-    "dataP": "",
-    "processo": "",
-    "publicado": "",
-    "abertura": "",
-    "modalidade": "Inexigibilidade",
-    "situacao": "Em andamento",
-    "infolicita": ""
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4053/",
-    "dataP": "",
-    "processo": "",
-    "publicado": "",
-    "abertura": "",
-    "modalidade": "Inexigibilidade",
-    "situacao": "Em andamento",
-    "infolicita": ""
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4052/",
-    "dataP": "",
-    "processo": "",
-    "publicado": "",
-    "abertura": "",
-    "modalidade": "Inexigibilidade",
-    "situacao": "Em andamento",
-    "infolicita": ""
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4023/",
-    "dataP": "05/09/2023",
-    "processo": "PROC. 056/2023 PP SRP 24/2023",
-    "publicado": "15/08/2023",
-    "abertura": "05/09/2023",
-    "modalidade": "PREGÃO PRESENCIAL",
-    "situacao": "Aberta",
-    "infolicita": "REGISTRO DE PREÇO PARA EVENTUAL CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NO FORNECIMENTO DE FOGOS DE ARTIFÍCIO, PARA ATENDER AS DIVERSAS SECRETARIAS DO MUNICÍPIO, CONFORME AS ESPECIFICAÇÕES CONSTANTES NO TERMO DE REFERÊNCIA – ANEXO I DESTE EDITAL"
   }
 ]

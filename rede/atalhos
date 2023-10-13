@@ -1,13 +1,13 @@
 [
     {
         "id":0,
-        "imagem": "./src/img/icons/comprador.png",
+        "imagem": "https://ialkyrog.sirv.com/sala/icones/edificio-do-governo.png",
         "texto": "CND FEDERAL",
         "link": "https://solucoes.receita.fazenda.gov.br/servicos/certidaointernet/pj/emitir"
     },
     {
         "id":1,
-        "imagem": "./src/img/icons/editar-endereco.png",
+        "imagem": "https://ialkyrog.sirv.com/sala/icones/licenciamento%20(1).png",
         "texto": "CCMEI",
         "link": "https://www.gov.br/pt-br/servicos/emitir-o-certificado-de-condicao-de-microempreendedor-individual"
     },

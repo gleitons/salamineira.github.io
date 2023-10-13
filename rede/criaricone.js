@@ -2,14 +2,39 @@ async function geraIcones() {
     const response = await fetch('./icons')
     const data = await response.json()
     const atalhosTela = document.querySelector('.iconsSeleciona')
+    var fast = []
     data.map((e) => {
+        const imgLoad = `<img src="https://ialkyrog.sirv.com/sala/icones/${e}" alt="">`
         atalhosTela.innerHTML += `<img src="https://ialkyrog.sirv.com/sala/icones/${e}" alt="">`
 
+        fast.push(imgLoad)
+
+    })
+
+    SelectIcon()
+    localStorage.setItem('imgPreLoad', JSON.stringify(fast))
+}
+function fastIconeLoad() {
+    if(localStorage.getItem('imgPreLoad') != null) {
+        carregaRapido()
+    } else {
+        geraIcones()
+    }
+ 
+}
+function carregaRapido() {
+    const data = JSON.parse(localStorage.getItem('imgPreLoad'))
+    const atalhosTela = document.querySelector('.iconsSeleciona')
+    var fast = []
+    data.map((e) => {
+        atalhosTela.innerHTML += e
     })
     SelectIcon()
-}
-if (document.querySelector('.iconsSeleciona') != undefined) {
     geraIcones()
+}
+
+if (document.querySelector('.iconsSeleciona') != undefined) {
+    fastIconeLoad()
 }
 
 

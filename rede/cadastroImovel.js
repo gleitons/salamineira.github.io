@@ -1321,7 +1321,7 @@ async function geraLembretes() {
     localStorage.setItem('postIt', JSON.stringify(data))
 
 }
-geraLembretes()
+//geraLembretes()
 
 function openLembrete(l) {
     const data = JSON.parse(localStorage.getItem('postIt'))
@@ -1637,7 +1637,7 @@ const carregaEmpresasFavoritasLoad = async () => {
     if(localStorage.getItem('loadFastFavoritos') != null){
         empresasFavoritasCarregadas.innerHTML = localStorage.getItem('loadFastFavoritos')
     }
-    empresasFavoritasCarregadas.innerHTML = ``
+     empresasFavoritasCarregadas.innerHTML = ``
 
     async function geraEmpresaL(e, index) {
 
