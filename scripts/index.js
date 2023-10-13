@@ -7,7 +7,19 @@ function bannerPrincipal() {
 
     
 }
+if(document.querySelector('#Patrocinadores') != null){
+    const carregaApoiadores = async () => {
+        const response = await fetch('/campeonato-de-futebol-pirapora')
+        const data = await response.json()
+        const mTela = document.querySelector('#Patrocinadores')
 
+        data.map((e) => {
+            mTela.innerHTML += `<img src="https://ialkyrog.sirv.com/sala/patrocinadores/${e}" alt="">`
+        })
+
+    }
+    carregaApoiadores()
+}
 function toggleMenu() {
     const nav = document.getElementById('naveMenu');
     nav.classList.toggle('active');
