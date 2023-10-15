@@ -364,7 +364,7 @@ function dataHoje() {
     var dia = data.getDate()
     var mes = data.getMonth() + 1;
     var ano = data.getFullYear()
-    console.log(mes)
+    
 
     if (dia.toString().length == 1) {
         var diaaDia = '0' + dia
