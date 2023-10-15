@@ -32,13 +32,27 @@ body {
   object-fit: cover;
   border: solid 5px rgba(44, 107, 202, 0.676);
   margin: auto;
-  animation: aparecerImagem 1s normal;
+  position: relative;
+  animation: aparecerImagem 200ms normal;
+  
+}
+.fotoVereador::before {
+  background-image: url('./img/explosao.png');
+  background-position: center;
+  position: absolute;
+  
+  height: 200px;
+  width: 200px;
+  top: 0px;
+  left: 0px;  
+  z-index: 99999;
 }
 
 @keyframes aparecerImagem {
   0% {
-    filter: blur(70px);
-    transform: scale(.8);
+    
+    filter: blur(20px);
+   
   }
 }
 .esquerdoLateral {

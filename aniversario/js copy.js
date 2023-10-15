@@ -1,11 +1,3 @@
-async function geraLocalStorage() {
-    const response = await fetch('./aniversariantes')
-    const data = await response.json()
-
-    localStorage.setItem('nivers', JSON.stringify(data))
-}
-geraLocalStorage()
-
 function calcularIdade(aniversario) {
     var nascimento = aniversario.split("/");
     var dataNascimento = new Date(parseInt(nascimento[2], 10),
@@ -19,10 +11,9 @@ function calcularIdade(aniversario) {
 
 
 
-const todosVereadoresOn =  () => {
-    
-    
-    const data = JSON.parse(localStorage.getItem('nivers')) 
+const todosVereadoresOn = async () => {
+    const response = await fetch('./aniversariantes');
+    const data = await response.json();
 
     const todosVereadoresOn = document.querySelector('#todosVereadoresOn')
 
@@ -62,8 +53,9 @@ var ate80anosArray = []
 var servidorVelho = []
 var servidorNovo = []
 
-function carregaAntes() {
-    const data = JSON.parse(localStorage.getItem('nivers')) 
+async function carregaAntes() {
+    const response = await fetch('./aniversariantes');
+    const data = await response.json();
 
     const aniversarioHoje = document.querySelector('#aniversarioHoje')
     const classificacaoParlamentares = document.querySelector('#classificacaoParlamentares')
@@ -113,8 +105,9 @@ function carregaAntes() {
 }
 //carregaAntes();
 
-const todosParlamentaresOn =  () => {
-    const data = JSON.parse(localStorage.getItem('nivers')) 
+const todosParlamentaresOn = async () => {
+    const response = await fetch('./aniversariantes');
+    const data = await response.json();
 
     const aniversarioHoje = document.querySelector('#aniversarioHoje')
     const classificacaoParlamentares = document.querySelector('#classificacaoParlamentares')
@@ -146,6 +139,7 @@ const todosParlamentaresOn =  () => {
 
 
         if (dataMEs == dataHoje()[4]) {
+
             aniversarioHoje.innerHTML += `
              <div class="imgFundoLagoa">
                                 <div class="fotoVereador">
@@ -347,10 +341,9 @@ const todosParlamentaresOn =  () => {
 
     })
 
-    setTimeout('removeLoad()', 100)
+    setTimeout('removeLoad()', 5000)
 
 }
-todosParlamentaresOn();
 
 function removeLoad() {
     carregandoL.remove();
@@ -378,9 +371,9 @@ function dataHoje() {
         var mesames = mes
     }
     if (mes.toString().length == 1) {
-        var mesAd = '0' + parseInt(mes);
+        var mesAd = '0' + parseInt(mes + 1);
     } else {
-        var mesAd = parseInt(mes);
+        var mesAd = parseInt(mes + 1);
     }
     const anoNormal = `${diaaDia}/${mesames}/${ano}`
     const anoS = `${dia}/${mes}/${ano}`
@@ -422,4 +415,4 @@ function verServidores(numb) {
     }
 
 }
-
+todosParlamentaresOn();

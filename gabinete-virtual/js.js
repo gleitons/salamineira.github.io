@@ -5,6 +5,8 @@ console.log(window.location.pathname)
 
 
 async function carregaParlamentar(numb) {
+    const ftvere = document.querySelector('#ftvere')
+    ftvere.classList.remove('fotoVereador')
     const response = await fetch('./parlamentares')
     const data = await response.json()
     const nomeVeradorCima = document.querySelector('.esquerdoLateral div p')
@@ -15,15 +17,18 @@ async function carregaParlamentar(numb) {
 
     const cargo = document.querySelector('.imgFundoLagoa h3')
     cargo.innerHTML = data[numb].posicao.toUpperCase()
+
+    fotoVereador.src = data[numb].foto  
     
-    fotoVereador.src = data[numb].foto
+    ftvere.classList.add('fotoVereador')
+    
 
     const infoNoLegislativo = document.querySelector('#infoNoLegislativo')
     const projetosPoliticos = document.querySelector('#projetosPoliticos')
     infoNoLegislativo.innerHTML = ''
     projetosPoliticos.innerHTML = ''
     historiaRepresentante.textContent = `HISTÓRIA DE ${data[numb].nome.toUpperCase()} `
-
+    
     
 
     for(let i=0; i < data[numb].legislativo.length; i++){
