@@ -422,4 +422,4 @@ function verServidores(numb) {
     }
 
 }
-
+mostraImagemGrande()

@@ -3,6 +3,22 @@ console.log(window.location.pathname)
 
 //const fotoVereador = document.querySelector('#fotoVereador')
 
+function mostraImagemGrande() {
+    const fotoVereador = document.querySelector('.fotoVereador img').src
+    const bod = document.querySelector('.hereV')
+    const divImg = document.createElement('div')
+    divImg.classList.add('mostraFotosVere')
+    divImg.innerHTML = `<img src="${fotoVereador}" alt="">`
+    bod.appendChild(divImg)
+    
+
+    bod.addEventListener('click', () => {
+        divImg.remove()
+    })
+}
+
+
+
 
 async function carregaParlamentar(numb) {
     const ftvere = document.querySelector('#ftvere')
