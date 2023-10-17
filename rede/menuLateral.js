@@ -34,11 +34,33 @@ function dModeT() {
     //#555555
 
 }
+function horario() {
+    const h = new Date()
+    const hora = h.getHours().toString().length == 1 ? '0' + h.getHours() : h.getHours()
+    const minutos = h.getMinutes().toString().length == 1 ? '0' + h.getMinutes() : h.getMinutes()
+    const segundos = h.getSeconds().toString().length == 1 ? '0' + h.getSeconds() : h.getSeconds()
+    const horarios =  `${hora}:${minutos}:${segundos}`
+    horarioPad.textContent = horarios
+    localStorage.setItem('horarioA', JSON.stringify(horarios))
+    
+    
+    //return horario
+}
 const MenuLateral = () => {
+    const dataT = JSON.parse(localStorage.getItem('perfilRede'))
+    const horaAt = JSON.parse(localStorage.getItem('horarioA'))
+    const h = new Date()
+    const mes = h.getMonth() + 1
+    const mesAtual = mes.toString().length == 1 ? '0' + mes : mes
+    const dataDia = `${h.getDate()}/${mesAtual}/${h.getFullYear()}`
+    const horariod =  `${h.getHours()}:${h.getMinutes()}:${h.getSeconds()}`
     document.querySelector('.menusApresentação').innerHTML = ` 
     <nav class="menuLateral">
     <div>
-    <p>MENU - FUTURO CONSULTORIA</p>
+    <p>FUTURO CONSULTORIA</p>
+    <p>Bem-vindo</p>
+    <p>${dataT[0].nome}</p>
+    <p>${dataDia} - <span id="horarioPad">${horaAt}</span></p>
     </div>
     
     <a href="./">
@@ -138,20 +160,9 @@ const MenuLateral = () => {
     <a href="./ajuda.html">
     <li><i class="bi bi-trash3-fill"></i> Ajuda</li>
     </a> 
-       
     </li>  
-
-   
-   
-
-   
-    
-
-
-
-
-    
  </nav>`
+ setInterval('horario()', 1000)
 
 }
 MenuLateral()
@@ -168,7 +179,7 @@ function loadDadosPrincipais() {
         "color": "#ffffff"
     }
     localStorage.setItem('perfilRede', JSON.stringify([dados]))
-    console.log([dados])
+    
 }
 function resetaMenuEFundo() {
     loadDadosPrincipais()
@@ -181,6 +192,7 @@ const loadItensDoPerfil = () => {
     tituloLocal.value = data[0].titlo
     SubTituloLocal.value = data[0].subTitle
     fundoColor.value = data[0].color
+    nomeIdComplete.value = data[0].nome
 }
 const linkImag = document.querySelector('#linkImag')
 if (linkImag != null) {
@@ -189,6 +201,7 @@ if (linkImag != null) {
 const menuTop = () => {
     const data = JSON.parse(localStorage.getItem('perfilRede'))
     const imagemFundo = data[0].imagemFundo
+    const nomes = data[0].nome
     const imagem = data[0].imagem
     const titlo = data[0].titlo
     const subTitle = data[0].subTitle
@@ -233,7 +246,8 @@ function atualizarPerfilClique() {
         "imagem": linkImag.value,
         "titlo": tituloLocal.value,
         "subTitle": SubTituloLocal.value,
-        "color": fundoColor.value
+        "color": fundoColor.value,
+        "nome": nomeIdComplete.value
     }
     localStorage.setItem('perfilRede', JSON.stringify([perfil]))
     location.reload()
