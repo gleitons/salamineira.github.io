@@ -913,7 +913,14 @@ if (document.querySelector('select#todosAtalhos') != null) {
     carregaAtalhos()
 }
 if (localStorage.getItem('atalhosContratos') == null) {
-    localStorage.setItem('atalhosContratos', '[{"id":0,"imagem":"./src/img/icons/itbi-urbano.png","texto":"ITBI Urbano","link":"itbi-urbano"},{"id":1,"imagem":"./src/img/icons/itbi-rural.png","texto":"ITBI Rural","link":"itbi-rural"}]')
+    geraAtalhosIniciais()
+    // localStorage.setItem('atalhosContratos', '[{"id":0,"imagem":"./src/img/icons/itbi-urbano.png","texto":"ITBI Urbano","link":"itbi-urbano"},{"id":1,"imagem":"./src/img/icons/itbi-rural.png","texto":"ITBI Rural","link":"itbi-rural"}]')
+}
+async function geraAtalhosIniciais() {
+    const response = await fetch('./atalhos')
+    const data = await response.json()
+    console.log(data)
+    localStorage.setItem('atalhosContratos', JSON.stringify(data))
 }
 
 if (localStorage.getItem('todosAtalhos') == null) {
@@ -1009,13 +1016,13 @@ function adicionaNoDesktop() {
 if (document.querySelector('#iconsAtalhos') != null) {
     carregaAtalhosDoLocalStorage()
 }
-function carregaAtalhosDoLocalStorage() {
+async function carregaAtalhosDoLocalStorage() {
     const data = JSON.parse(localStorage.getItem('atalhosContratos'))
     const mostraA = document.querySelector('#iconsAtalhos')
 
     if (mostraA != undefined) {
         mostraA.innerHTML = ''
-        data.map((e) => {
+        await data.map((e) => {
             mostraA.innerHTML += `<div onclick="linkOn('${e.link}')">
             <img src="${e.imagem}" alt="${e.texto}">
             <p>${e.texto}</p>
@@ -1230,7 +1237,7 @@ function linkOn(link) {
 
 
 
-function carregaPostIt() {
+async function carregaPostIt() {
     const data = JSON.parse(localStorage.getItem('postIt'))
 
     const agendaLateral = document.querySelector('.agendaLateral')
@@ -1244,7 +1251,7 @@ function carregaPostIt() {
 
 
     //const dataHoje = 
-    data.map((e, index) => {
+    await data.map((e, index) => {
 
         const addClasse = diahoje == e.data ? 'piscandoHoje' : ''
         agendaLateral.innerHTML += `<div class="${addClasse}" onclick="openLembrete(${index})">
@@ -1291,7 +1298,7 @@ function deletaEmpresasFavoritasAMais(e) {
 
 function fechaMenuLembre() {
     const btnOcultaLembre = document.querySelector('.btnOcultarLembrete')
-    btnOcultaLembre.addEventListener('click', () => {
+     btnOcultaLembre.addEventListener('click', () => {
         const agendaLateral = document.querySelector('.agendaLateral')
         const agendaLateralIcone = document.querySelector('.agendaLateral > i')
         agendaLateral.classList.add('ocultaAgenda')
@@ -1336,7 +1343,7 @@ function openLembrete(l) {
     <p class="">${data[l].textoL}</p>
     <textarea id="areaLembre" class="dnone" name=""  cols="34" rows="10">${data[l].textoL}</textarea>  
     
-    <button onclick="editarLembrete(${l})">EDITAR</button> <button style="background-color: red;" onclick="delLembrete(${l})">EXCLUIR</button>
+    <button onclick="editarLembrete(${l})">EDITAR</button> <button style="background-color: green;" onclick="delLembrete(${l})">CONCLUIDA</button> <button style="background-color: red;" onclick="delLembrete(${l})">EXCLUIR</button>
 </div>`)
 
 }

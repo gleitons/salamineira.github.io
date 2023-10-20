@@ -55,14 +55,14 @@
     },
     {
         "id":9,
-        "imagem": "./src/img/icons/itbi-rural.png",
-        "texto": "ITBI Rural",
+        "imagem": "https://ialkyrog.sirv.com/sala/icones/documentos.png",
+        "texto": "SAS SEBRAE",
         "link": "https://google.com"
     },
     {
         "id":10,
-        "imagem": "https://ialkyrog.sirv.com/sala/icones/alvara.png",
-        "texto": "ITBI Urbano",
+        "imagem": "https://ialkyrog.sirv.com/sala/icones/certidao-debitos-trabalhistas.png",
+        "texto": "DAS MEI",
         "link": "itbi-urbano"
     }
     

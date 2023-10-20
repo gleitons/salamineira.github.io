@@ -46,10 +46,14 @@ function horario() {
     
     //return horario
 }
+if (localStorage.getItem('perfilRede') == null) {
+    loadDadosPrincipais()
+}
 const MenuLateral = () => {
     const dataT = JSON.parse(localStorage.getItem('perfilRede'))
     const horaAt = JSON.parse(localStorage.getItem('horarioA'))
     const h = new Date()
+    const nomeMostra = dataT[0].nome != null ? dataT[0].nome : ''
     const mes = h.getMonth() + 1
     const mesAtual = mes.toString().length == 1 ? '0' + mes : mes
     const dataDia = `${h.getDate()}/${mesAtual}/${h.getFullYear()}`
@@ -59,7 +63,7 @@ const MenuLateral = () => {
     <div>
     <p>FUTURO CONSULTORIA</p>
     <p>Bem-vindo</p>
-    <p>${dataT[0].nome}</p>
+    <p>${nomeMostra}</p>
     <p>${dataDia} - <span id="horarioPad">${horaAt}</span></p>
     </div>
     
@@ -167,16 +171,15 @@ const MenuLateral = () => {
 }
 MenuLateral()
 
-if (localStorage.getItem('perfilRede') == null) {
-    loadDadosPrincipais()
-}
+
 function loadDadosPrincipais() {
     const dados = {
         "imagemFundo": "./src/img/futuro-consultoria.svg",
         "imagem": "./src/img/futuro-consultoria-horizonte.svg",
         "titlo": "FUTURO CONSULTORIA",
         "subTitle": "26.300.217/0001-00",
-        "color": "#ffffff"
+        "color": "#ffffff",
+        "nome": "Atualize Perfil"
     }
     localStorage.setItem('perfilRede', JSON.stringify([dados]))
     
@@ -232,7 +235,8 @@ function atualizarPerfilDigito() {
         "imagem": linkImag.value,
         "titlo": tituloLocal.value,
         "subTitle": SubTituloLocal.value,
-        "color": fundoColor.value
+        "color": fundoColor.value,
+        "nome": nomeIdComplete.value
     }
     localStorage.setItem('perfilRede', JSON.stringify([perfil]))
 
