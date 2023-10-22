@@ -1296,18 +1296,7 @@ function deletaEmpresasFavoritasAMais(e) {
     // }
 }
 
-function fechaMenuLembre() {
-    const btnOcultaLembre = document.querySelector('.btnOcultarLembrete')
-     btnOcultaLembre.addEventListener('click', () => {
-        const agendaLateral = document.querySelector('.agendaLateral')
-        const agendaLateralIcone = document.querySelector('.agendaLateral > i')
-        agendaLateral.classList.add('ocultaAgenda')
-        agendaLateralIcone.setAttribute('class', 'bi bi-arrow-left-square-fill abrelembrete')
 
-        abreMenuLembrete()
-        localStorage.setItem('menuLembrete', 0)
-    })
-}
 
 function abreMenuLembrete() {
     const btnMostraLembre = document.querySelector('.abrelembrete')
@@ -1318,6 +1307,18 @@ function abreMenuLembrete() {
         agendaLateralIcone.setAttribute('class', 'bi bi-arrow-right-square-fill btnOcultarLembrete')
         fechaMenuLembre()
         localStorage.setItem('menuLembrete', 1)
+    })
+}
+async function fechaMenuLembre() {
+    const btnOcultaLembre = document.querySelector('.btnOcultarLembrete')
+     btnOcultaLembre.addEventListener('click', () => {
+        const agendaLateral = document.querySelector('.agendaLateral')
+        const agendaLateralIcone = document.querySelector('.agendaLateral > i')
+        agendaLateral.classList.add('ocultaAgenda')
+        agendaLateralIcone.setAttribute('class', 'bi bi-arrow-left-square-fill abrelembrete')
+
+        abreMenuLembrete()
+        localStorage.setItem('menuLembrete', 0)
     })
 }
 

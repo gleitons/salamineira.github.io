@@ -1,14 +1,29 @@
 const url = '/falecimentos-publicar';
 localStorage.setItem('imgHomem', '/coroa-homem-mulher-online.jpg')
 const imgH = localStorage.getItem('imgHomem');
+async function geraF() {
+    const response = await fetch(url);
+    const data = await response.json();
+    localStorage.setItem('falecidos', JSON.stringify(data))
+    falecidos()
+    insereImage()
+}
 
-async function falecidos() {
+function insereImage() {
+    const itensHtml = document.querySelectorAll('.itensHtml')
+    for(let i = 0; i < itensHtml.length; i ++){
+        itensHtml[i].innerHTML = `<img src="https://static.wixstatic.com/media/154c4e_0f89712cd4e24c029520bff3c871e76d~mv2.png/v1/fill/w_640,h_258,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/154c4e_0f89712cd4e24c029520bff3c871e76d~mv2.png" alt="Falecimentos obitos mortes em lagoa dos patos mg">`
+    }
+   
+}
 
+geraF()
+function falecidos() {
     const infoD = document.querySelector('#infoDados')
     infoD.style.display = 'none'
     var tabelaM = 1;
-    const response = await fetch(url);
-    const data = await response.json();
+    //const response = await fetch(url);
+    const data = JSON.parse(localStorage.getItem('falecidos'))
     const imgM = '/falecimento/desconhecido-mulher.png'
     const vidroR = document.querySelector('.vidroF');
     const tagApelido = document.getElementById('apelidoT');
@@ -27,15 +42,11 @@ async function falecidos() {
     data.sort(toDate)
     data.sort(ordemCrescente);
 
-
     var con = 0;
 
 
     data.map((falec) => {
-
         const falecID = falec.falecimento;
-
-
         const falecimento = falec.falecimento;
         if (falec.imagem == '') falec.imagem = imgH;
         if (falec.nascimento == "") {
@@ -55,12 +66,8 @@ async function falecidos() {
         if (falec.mae.length > 1) {
             var mamae = `${filho} de ${falec.mae}`;
         }
-
-
-
         con = con + 1;
         const nomeID = falec.nome.replace(/ /g, '');
-
 
         const anoF = falec.falecimento.split('/');
         const anoN = falec.nascimento.split('/');
@@ -70,14 +77,9 @@ async function falecidos() {
         } else {
             const anoFalecimento = (`${anoF[2]}-${anoF[1]}-${anoF[0]}`)
             const anoNascimento = (`${anoN[2]}-${anoN[1]}-${anoN[0]}`)
-
             const idadeFOne = getAge(`${anoNascimento}`, `${anoFalecimento}`);
             var idadeF = parseInt(idadeFOne) + " anos";
-
         }
-
-
-
         const exibirBtn = btnFalecido(falec, con, idadeF, mamae)
         lutoTitle.appendChild(exibirBtn);
         if (4 >= con) {
@@ -92,7 +94,7 @@ async function falecidos() {
             divGera.setAttribute('class', 'infoLutos');
             const divBottom = document.createElement('div')
             divBottom.innerHTML = `<div class="notaw"><p>${mensagens()[apresenta].mensagem}</p></div>`;
-            
+
             const exibir = montarTeste(falec, apel, con, idadeF, mamae, falec.id);
             divGera.appendChild(exibir)
             homenagemFalecido.appendChild(divBottom)
@@ -101,13 +103,14 @@ async function falecidos() {
     });
 }
 
-setTimeout('falecidos()', 1000)
+
+//setTimeout('falecidos()', 10)
 
 
-async function tabelaEs(anoC) {
-    const url = '/falecimentos-publicar'
-    const resposta = await fetch(url);
-    const data = await resposta.json();
+function tabelaEs(anoC) {
+    //const url = '/falecimentos-publicar'
+    //const resposta = await fetch(url);
+    const data = JSON.parse(localStorage.getItem('falecidos'))
     var cont = 0;
     var masc = 0;
     var femi = 0;
@@ -127,7 +130,7 @@ async function tabelaEs(anoC) {
 }
 
 
-async function contadorObitos() {
+function contadorObitos() {
     const tabBelaBtn = document.querySelector('#btnTabela');
     const tabelaT = document.getElementById('tabEstatistica')
     const carregaPorcent = document.getElementById('carregaPorcent')
@@ -140,18 +143,11 @@ async function contadorObitos() {
     var inici = 1982
     const oneP = fimI - inici
     const fimP = oneP / 100;
-
     var totalQtd = []
     for (let index = fimI; index >= inici; index--) {
-
-
         carregaPorcent.innerHTML = `${index}`
-
-
-
-
-        if (await tabelaEs(index) != '0,0,0') {
-            var falecimentoAno = await tabelaEs(index);
+        if (tabelaEs(index) != '0,0,0') {
+            var falecimentoAno = tabelaEs(index);
             const linhaTab = document.createElement('tr');
             const colunaTabIndex = document.createElement('td');
             colunaTabIndex.textContent = `${index}`
@@ -166,17 +162,11 @@ async function contadorObitos() {
             linhaTab.appendChild(colunaTabFalecTwo);
             linhaTab.appendChild(colunaTabFalecTree);
             tabelaT.appendChild(linhaTab)
-            
-
             var totHomens = totHomens + falecimentoAno[1];
             var totMulheres = totMulheres + falecimentoAno[2];
             var total = total + falecimentoAno[0];
             totalQtd.push(index)
-
         }
-
-
-
     }
     document.querySelector('#totalCont').innerHTML += `
             <tr>
@@ -187,28 +177,21 @@ async function contadorObitos() {
           </tr>`
     document.querySelector('#calculando').innerHTML = `<p>Média de : <strong>${Math.floor((total / totalQtd.length))}</strong> mortes por ano</p>`
 }
-
-
-
 function abrirTabela() {
     const telaTab = document.querySelector('#tabFalec');
     const bttab = document.querySelector('#btnTabela')
     telaTab.style.display = 'block'
     bttab.style.display = 'none'
 }
-
 function fecharTabela() {
 }
-
-async function montarOculto(numero) {
-    const resp = await fetch(url);
-    const myOb = await resp.json();
+function montarOculto(numero) {
+    //const resp = await fetch(url);
+    const myOb = JSON.parse(localStorage.getItem('falecidos'))
     myOb.sort(toDate);
-
     function ordemCrescente(a, b) {
         return toDate(b) - toDate(a);
     }
-
     function toDate(fal) {
         const parts = fal.falecimento.split("/");
         const dataFor = new Date(parts[2], parts[1] - 1, parts[0]);
@@ -216,40 +199,27 @@ async function montarOculto(numero) {
     }
     myOb.sort(toDate)
     myOb.sort(ordemCrescente);
-
     const anoF = myOb[numero - 1].falecimento.split('/');
     const anoN = myOb[numero - 1].nascimento.split('/');
     const timeElapsed = Date.now();
     const today = new Date(timeElapsed);
     const hoje = today.toLocaleDateString().split('/');
-
     if (myOb[numero - 1].nascimento == '') {
         var idadeF = '';
         var tempoFalecido = '';
-
     } else {
-
         const diaAtual = (`${hoje[2]}-${hoje[1]}-${hoje[0]}`)
         const anoFalecimento = (`${anoF[2]}-${anoF[1]}-${anoF[0]}`)
         const anoNascimento = (`${anoN[2]}-${anoN[1]}-${anoN[0]}`)
-
         const idadeFOne = getAge(anoNascimento, anoFalecimento);
         var idadeF = parseInt(idadeFOne) + " anos";
         var tempoFalec = diaFalecidos(anoFalecimento)
     }
-
-
-
-
     const imprimiu = document.getElementById(`cliqueOculto${numero}`).value;
     const divdoBtn = document.createElement('div')
     const printDiv = document.querySelector(`#impri${numero}`);
-
-
-
     if (imprimiu.length == 0) {
         const mostra = document.getElementById(`cliqueOculto${numero}`);
-
         mostra.setAttribute('value', 'mostrou');
         mostra.setAttribute('onclick', `desmontar(${numero})`);
         printDiv.classList.toggle('class', 'dnone')
@@ -261,24 +231,18 @@ async function montarOculto(numero) {
     const exibir = montarCard(falec, apel, con, idadeF, myOb.mae, tempoFalec)
     divdoBtn.appendChild(exibir)
     printDiv.appendChild(divdoBtn)
+    insereImage()
 }
-
-
-
 
 function montarCard(falec, apel, con, idadeF, mamae, tempoFalec, falecCodigo) {
     if (apel == undefined) apel = ""
     if (mamae == undefined) mamae = ""
     if (falec.nascimento == '') falec.nascimento = ' Desconhecido'
     if (falec.imagem == '') falec.imagem = '/coroa-homem-mulher-online.jpg';
-
-
     console.log(falecCodigo)
     const divCodigo = document.createElement('div')
     divCodigo.innerHTML = ``
-
     const iconeE = document.getElementById(`abrirEditar${con}`)
-
     const divLuto = document.createElement('div');
     divLuto.classList.add('lutosC');
     const imgFita = document.createElement('img');
@@ -326,7 +290,6 @@ function montarCard(falec, apel, con, idadeF, mamae, tempoFalec, falecCodigo) {
     conteudoHTML.innerHTML = falec.id
     NotaFalecimento.textContent = `${falec.nota}`;
     divNotaFalecimento.appendChild(NotaFalecimento);
-
     pStrong.appendChild(idadefal);
     divNascFale.appendChild(iconeNacimento)
     divNascFale.appendChild(iconeFalecimento);
@@ -348,27 +311,16 @@ function montarCard(falec, apel, con, idadeF, mamae, tempoFalec, falecCodigo) {
     iconeEditar.setAttribute('onclick', `abrirEnviar(${con})`)
     iconeE.style.display = "none"
     divLuto.appendChild(divBtnEditar);
-
     return divLuto;
 }
 
 function montarTeste(falec, apel, con, idadeF, mamae, falecCod) {
-
-
     if (apel == undefined) apel = ""
     if (mamae == undefined) mamae = ""
     var mostCID = ''
-
     falecCod != 0 ? mostCID = falecCod : '';
     const divCodigo = document.createElement('div')
-    
     divCodigo.innerHTML = mostCID
-
-    
-
-
-
-
     const divLuto = document.createElement('div');
     divLuto.classList.add('lutosC');
     const imgFita = document.createElement('img');
@@ -429,21 +381,16 @@ function montarTeste(falec, apel, con, idadeF, mamae, falecCod) {
     iconeEditar.textContent = "Editar";
     iconeEditar.setAttribute('id', `abrirEditar${con}`)
     iconeEditar.setAttribute('onclick', `abrirEnviar(${con})`)
-    //divGeral.appendChild(divLuto)
-
-    //divBtnEditar.appendChild(iconeEditar);
     divLuto.appendChild(divBtnEditar);
-
     return divLuto;
 }
 
 
 
-async function abrirEnviar(numero) {
-    const resp = await fetch(url);
-    const myOb = await resp.json();
+function abrirEnviar(numero) {
+    //const resp = await fetch(url);
+    const myOb = JSON.parse(localStorage.getItem('falecidos'))
     myOb.sort(toDate);
-
     function ordemCrescente(a, b) {
         return toDate(b) - toDate(a);
     }
@@ -487,22 +434,21 @@ async function abrirEnviar(numero) {
     printDiv.appendChild(exibir)
 }
 
-async function montarEnvio(falec, apel, con, idadeF) {
+function montarEnvio(falec, apel, con, idadeF) {
     const nomeID = falec.nome
     const div = document.querySelector(`#enviarInformacao${con}`)
-    const dados = ` <div class="modal" id="exampleModal${con}" style="display: block;">
+    const dadosDt = `<div class="modal" id="exampleModal${con}" style="display: block;">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header dflex">
                 <h5 class="modal-title" id="exampleModalLabel${con}"> <i class="bi bi-heart-fill"> Ajude a
                         editar o cadastro de ${nomeID} - ${con}</i></h5>
-                <button type="button" class="btn-close btnfechaModal${con}" data-bs-dismiss="modal" aria-label="Close"   onclick="fecharAbrirEnviar(${con})"><i
-                        class="bi bi-x-lg"></i></button>
+                <button type="button" class="btn-close btnfechaModal${con}" data-bs-dismiss="modal" aria-label="Close"   onclick="fecharAbrirEnviar(${con})">
+                <i class="bi bi-x-lg"></i></button>
             </div>
             <div class="modal-body">
                 <form action="https://formsquash.io/f/GQziZ1MKm2rgVMzRsaOZ" method="post">
                     <div class="mb-3">
-
                     <label for="cars">Selecione:</label>
                     <select class="col-form-label" name="cadastro" id="cadastro${con}">
                     <option value="editar">Editar Cadastro</option>
@@ -510,21 +456,14 @@ async function montarEnvio(falec, apel, con, idadeF) {
                     <option value="excluir">Excluir Cadastro</option>
                     </select>
                     <br>
-
-
                         <label for="recipient-name" class="col-form-label">Clique em cima do dado e
                             edite:</label> <br>
-
-
                         <label class="col-form-label">Nome:</label>
                         <input type="text" class="form-control" id="1_nome_${nomeID}${con}"
                             name="1_nome_${nomeID}${con}"
                             placeholder="${falec.nome} - ${con}">
-
                         <label class="col-form-label">Apelido:</label>
-                        <input type="text" class="form-control"
-                            id="2_apelido_${nomeID}${con}"
-                            name="2_apelido_${nomeID}${con}" placeholder=" ${falec.apelido}">
+                        <input type="text" class="form-control" id="2_apelido_${nomeID}${con}" name="2_apelido_${nomeID}${con}" placeholder=" ${falec.apelido}">
 
                         <label class="col-form-label">Data Nascimento:</label>
                         <input type="date" class="form-control"
@@ -551,31 +490,16 @@ async function montarEnvio(falec, apel, con, idadeF) {
                         <input class="form-control" name="99_imagemLogo" id="valueImg${con}" onchange="previewFile(${con})" accept="image/*" type="hidden" readonly="">
 
                         <input  type="hidden" name="99_logoImagem64" id="logoEmpresa${con}">
-
-
                         <div class="fotoHomenagem">
-
                             <img src="" alt="" id="previewfoto${con}">
-
                         </div>
-                        
-
                         <br><label class="col-form-label">Adicione uma Mensagem:</label> <br>
                         <textarea class="form-control" name="9_mensagem-${nomeID}${con}"
                             id="9_mensagem-${nomeID}_${con}" cols="30" rows="5"
                             placeholder="Adicione uma mensagem para ${falec.nome}"></textarea>
-
-
-
-
-
-
                         <input type="hidden" class="form-control" id="hide-${nomeID}"
                             name="hide-${nomeID}${con}"
                             placeholder="${falec.none}">
-
-
-
                         <input type="hidden" class="form-control" id="recipient-name${con}" readonly="">
                         <input type="hidden" id="idFalecimento${nomeID}${con}" value="22">
                     </div>
@@ -599,8 +523,8 @@ async function montarEnvio(falec, apel, con, idadeF) {
         </div>
     </div>
 </div>`
-    div.innerHTML = dados
-    return div
+   div.innerHTML = dadosDt
+    //return div
 }
 
 function cardVisto(numero) {
@@ -966,12 +890,12 @@ function mensagens(numero) {
 function montraInfoImportante() {
     const aDiv = document.querySelector('.infoIm')
     const maisInfo = document.querySelector('.maisInfo')
-    if(maisInfo.textContent == '+ Informações importantes') {
+    if (maisInfo.textContent == '+ Informações importantes') {
         maisInfo.textContent = '^ Fechar'
     } else {
         maisInfo.textContent = '+ Informações importantes'
     }
-    
+
 
     aDiv.classList.toggle('dnone')
 }
