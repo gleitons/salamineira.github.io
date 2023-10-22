@@ -4,6 +4,7 @@ async function empresas() {
     const response = await fetch(url);
     const data = await response.json();
     const empresaO = document.querySelector('#empresasL')
+    empresaO.innerHTML = ''
 
 
     data.sort((a, b) => {
