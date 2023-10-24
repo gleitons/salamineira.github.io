@@ -258,20 +258,20 @@ main {
   cursor: pointer;
   height: 100px;
   width: 80px;
-  padding: 5px;
+  padding: 2px;
   backdrop-filter: blur(5px);
   background-color: rgb(255, 255, 255);
   border-radius: 8px;
-  box-shadow: 35px 35px 68px 0px rgba(161, 161, 161, 0.5),
+  /* box-shadow: 35px 35px 68px 0px rgba(161, 161, 161, 0.5),
     inset -8px -8px 16px 0px rgba(161, 161, 161, 0.6),
-    inset 0px 11px 28px 0px rgb(255, 255, 255);
-  filter: brightness(0.9);
+    inset 0px 11px 28px 0px rgb(255, 255, 255); */
+  /* filter: brightness(0.9); */
   text-align: center;
   /* -webkit-border-radius: 50px; */
   /* border-radius: 50px; */
-  background: #d1d8ec85;
-  -webkit-box-shadow: 3px 3px 6px #b2b8c9, -3px -3px 6px #f0f8ff;
-  box-shadow: 3px 3px 6px #b2b8c9, -3px -3px 6px #f0f8ff;
+  background: #d1d8ecd7;
+  -webkit-box-shadow: 1.5px 1.5px 3px #636363, -1.5px -1.5px 3px #f0f8ff;
+  /* box-shadow: 3px 3px 6px #b2b8c9, -3px -3px 6px #f0f8ff; */
   transition: 200ms;
 }
 .cnpjEstaCadastrado {
@@ -307,6 +307,12 @@ main {
 .atalhosTela > div:hover {
   filter: brightness(1);
   filter: saturate(1.2);
+  transform: scale(1.07);
+}
+.cp:hover {
+  cursor: pointer;
+  filter: brightness(1.1);
+  color: red;
 }
 .atalhosTela > div:hover img {
   filter: brightness(1);
