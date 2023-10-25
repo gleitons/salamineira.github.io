@@ -347,12 +347,27 @@ main {
   width: 165px;
   height: 150px;
   margin: 2px;
+  --s: 82px; /* control the size */
+  --c1: #b2b2b2;
+  --c2: #ffffff;
+  --c3: #d9d9d9;
+  
+  --_g: var(--c3) 0 120deg,#0000 0;
+  background:
+    conic-gradient(from -60deg at 50% calc(100%/3),var(--_g)),
+    conic-gradient(from 120deg at 50% calc(200%/3),var(--_g)),
+    conic-gradient(from  60deg at calc(200%/3),var(--c3) 60deg,var(--c2) 0 120deg,#0000 0),
+    conic-gradient(from 180deg at calc(100%/3),var(--c1) 60deg,var(--_g)),
+    linear-gradient(90deg,var(--c1)   calc(100%/6),var(--c2) 0 50%,
+                          var(--c1) 0 calc(500%/6),var(--c2) 0);
+  background-size: calc(1.732*var(--s)) var(--s);
+
   border-radius: 8px;
-  background-image: url("./src/img/lembrete-notificacao.png");
+  /* background-image: url("./src/img/lembrete-notificacao.png");
   background-size: 200% 220%;
 
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   cursor: pointer;
   position: relative;
   /* padding: 5px; */
@@ -402,10 +417,18 @@ main {
   top: 60px;
   left: 41px;
   width: 60%;
-  height: 22px;
+  height: 25px;
   margin: auto;
   overflow: hidden;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 1px;
 }
+
 .agendaLateral div p {
   font-size: 8px;
   width: 70%;
@@ -1060,5 +1083,14 @@ footer {
   100% {
     filter: brightness(1);
     border: green solid 1px;
+  }
+}
+.cadastroDeImovel .fieldCadastroImóvel .tarefaConcl:nth-child(2) {
+  animation: surgeM 1s infinite;
+  background-color: red;
+}
+@keyframes surgeM {
+  from {
+    margin-top: -50px;
   }
 }

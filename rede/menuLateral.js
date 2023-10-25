@@ -109,6 +109,9 @@ const MenuLateral = () => {
      <ul class="subMenu">
         <a href="./atendimento-sas-modelos.html">
         <li><i class="bi bi-house-up-fill"></i>Modelos</li>
+        </a> 
+        <a href="./atividades-concluidas.html">
+        <li><i class="bi bi-house-up-fill"></i>Concluidos</li>
         </a>   
         <a href="./cadastro-empresa.html">
         <li><i class="bi bi-house-up-fill"></i>Cadastrar</li>

@@ -1158,9 +1158,9 @@ function pesquisaCNPJ() {
 
 
 }
-if(localStorage.getItem('atalhosContratos') == null) {
+if (localStorage.getItem('atalhosContratos') == null) {
     location.reload()
-} 
+}
 function tirBorder() {
     document.querySelector('#cnpjGerado').style.border = 'green solid 1px'
     document.querySelector('.infoCNPJPesquisa').innerHTML = ''
@@ -1211,9 +1211,9 @@ function favoritoPessoaJuridica(entrada) {
         localStorage.setItem('favoritosCNPJ', JSON.stringify(favoritos))
         botaos[3].disabled = true
         botaos[3].style.backgroundColor = 'gray'
-        document.querySelector('.cnpjEstaCadastrado').textContent = 'FAVORITADO COM SUCESSO!'
+        document.querySelector('.cnpjEstaCadastrado').innerHTML = `FAVORITADO COM SUCESSO! <a href="./favoritos.html"><button style="background-color: green;" >FAVORITOS</button></a>`
     } else {
-        document.querySelector('.cnpjEstaCadastrado').textContent = 'CNPJ JÁ SALVO NO SISTEMA!'
+        document.querySelector('.cnpjEstaCadastrado').innerHTML = `CNPJ JÁ SALVO NO SISTEMA! <a href="./favoritos.html"><button style="background-color: green;" >FAVORITOS</button></a>`
     }
 
 
@@ -1242,12 +1242,12 @@ function linkOn(link) {
 
 
 async function carregaPostIt() {
-    if(localStorage.getItem('postIt') != null) {
+    if (localStorage.getItem('postIt') != null) {
         var data = JSON.parse(localStorage.getItem('postIt'))
     } else {
         location.reload()
     }
-    
+
 
     const agendaLateral = document.querySelector('.agendaLateral')
     agendaLateral.innerHTML = ``
@@ -1319,7 +1319,7 @@ function abreMenuLembrete() {
 }
 async function fechaMenuLembre() {
     const btnOcultaLembre = document.querySelector('.btnOcultarLembrete')
-     btnOcultaLembre.addEventListener('click', () => {
+    btnOcultaLembre.addEventListener('click', () => {
         const agendaLateral = document.querySelector('.agendaLateral')
         const agendaLateralIcone = document.querySelector('.agendaLateral > i')
         agendaLateral.classList.add('ocultaAgenda')
@@ -1352,8 +1352,31 @@ function openLembrete(l) {
     <p class="">${data[l].textoL}</p>
     <textarea id="areaLembre" class="dnone" name=""  cols="34" rows="10">${data[l].textoL}</textarea>  
     
-    <button onclick="editarLembrete(${l})">EDITAR</button> <button style="background-color: green;" onclick="delLembrete(${l})">CONCLUIDA</button> <button style="background-color: red;" onclick="delLembrete(${l})">EXCLUIR</button>
+    <button onclick="editarLembrete(${l})">EDITAR</button> <button style="background-color: green;" onclick="salvaAtendimento(${l})">CONCLUÍDA</button> <button style="background-color: red;" onclick="delLembrete(${l})">EXCLUIR</button>
 </div>`)
+
+}
+if(localStorage.getItem('tarefasConcluidas') == null){
+    localStorage.setItem('tarefasConcluidas','[]')
+}
+function salvaAtendimento(num){
+    const data = JSON.parse(localStorage.getItem('tarefasConcluidas'))
+    const lembreteAberto = document.querySelectorAll('.lembreteAberto')[0]
+    const titulo = lembreteAberto.querySelector('h2').textContent
+    const dataLembrete = lembreteAberto.querySelector('h4').textContent
+    const mensagem = lembreteAberto.querySelector('p').textContent
+    const dataConcluida = new Date()
+
+    const lembreteS = {
+        "titulo": titulo,
+        "dataL": dataLembrete,
+        "mensagem": mensagem,
+        "dataconcluida": dataConcluida
+    }
+    data.unshift(lembreteS)
+    localStorage.setItem('tarefasConcluidas', JSON.stringify(data))
+    delLembrete(num)
+    console.log(lembreteS)
 
 }
 function editarLembrete(l) {
@@ -1650,10 +1673,10 @@ function fechaEmpresaFavoritaDados() {
 const carregaEmpresasFavoritasLoad = async () => {
     const data = JSON.parse(localStorage.getItem('favoritosCNPJ'))
     const empresasFavoritasCarregadas = document.querySelector('#empresasFavoritasCarregadas')
-    if(localStorage.getItem('loadFastFavoritos') != null){
+    if (localStorage.getItem('loadFastFavoritos') != null) {
         empresasFavoritasCarregadas.innerHTML = localStorage.getItem('loadFastFavoritos')
     }
-     empresasFavoritasCarregadas.innerHTML = ``
+    empresasFavoritasCarregadas.innerHTML = ``
 
     async function geraEmpresaL(e, index) {
 
@@ -1725,7 +1748,7 @@ const carregaEmpresasFavoritasLoad = async () => {
         } else {
             var linkEstadual = `http://sintegra.sefaz.to.gov.br/`
         }
-        
+
         const estadoEmpresa = dataEmpresa.cnpj
         empresasFavoritasCarregadas.innerHTML += `  <div class="buscaEmpresa">
         <span class="infodoFavorito">
@@ -1785,17 +1808,17 @@ const carregaEmpresasFavoritasLoad = async () => {
         const empresasL = geraEmpresaL(e, index)
 
     })
-    
+
     //imadeload.remove()
     //setTimeout('imadeload.remove()', 1000)
     setTimeout('pegaHTMLFavoritos()', 1000)
-    
+
 }
 function pegaHTMLFavoritos() {
     const imageLoadsntes = `<img id="imadeload" src="./src/img/load.gif" alt="">`
     const empresasFavoritasCarregadas = document.querySelector('#empresasFavoritasCarregadas').innerHTML
     localStorage.setItem('loadFastFavoritos', imageLoadsntes + empresasFavoritasCarregadas)
-    
+
 }
 
 if (document.querySelector('#empresasFavoritasCarregadas') != null) {
@@ -1830,29 +1853,29 @@ async function linkSLoadInte() {
     const response = await fetch('./links-interessantes')
     const data = await response.json()
     localStorage.setItem('linkInteress', JSON.stringify(data))
-   
-}
-if(localStorage.getItem('linkInteress') == null){
-    linkSLoadInte()
-    location.reload()
-} 
 
-function linkSInte() {    
+}
+if (localStorage.getItem('linkInteress') == null) {
+    linkSLoadInte()
+    //location.reload()
+}
+
+function linkSInte() {
     const data = JSON.parse(localStorage.getItem('linkInteress'))
     const linksInteressantes = document.querySelector('#linksInteressantes')
     data.map((e) => {
         linksInteressantes.innerHTML += `<div style="background-color: rgb(176, 243, 202); align-items: center;">
-        <p>${e.nome}:</p>
+        <p>${e.nome.toUpperCase()}:</p>
         <span>
             <i class="bi bi-link"></i>
-            <a href="${e.link}" target="_blank">${e.nome}</a>
+            <a href="${e.link}" target="_blank">Link de ${e.nome}</a>
         </span>
     </div> `
-    }) 
+    })
 
 
 }
-if(document.querySelector('#linksInteressantes') != null){    
+if (document.querySelector('#linksInteressantes') != null) {
     linkSInte()
 }
 
@@ -1868,10 +1891,10 @@ function editarLinksInteressantes() {
         <p>Edit:</p>
         <input type="text" value="${e.nome}">
         <input type="text" value="${e.link}">
-        <button>OK</button>
+        
     </div>   `
     })
-    editaveisEEclusoes.innerHTML += `<button onclick="cadastroPessoal()">Atualizar</button>`
+    editaveisEEclusoes.innerHTML += `<button onclick="atualizaLinkInte()">Atualizar</button>`
 }
 
 function adiconarLinksInteressantes() {
@@ -1881,22 +1904,32 @@ function adiconarLinksInteressantes() {
 
     limpaTela.innerHTML = ''
     editaveisEEclusoes.innerHTML = ''
-    data.map((e) => {
-        editaveisEEclusoes.innerHTML = `<div class="adicionarLinkOk">
+    editaveisEEclusoes.innerHTML = `<div class="adicionarLinkOk">
         <p>Add:</p>
         <input type="text" placeholder="Ex: CND Municipal">
         <input type="text" placeholder="Ex: https://google.com">
         <button onclick="adicionaMaisLink()">OK</button>`
-    })
+    // data.map((e) => {
+    //     editaveisEEclusoes.innerHTML = `<div class="adicionarLinkOk">
+    //     <p>Add:</p>
+    //     <input type="text" placeholder="Ex: CND Municipal">
+    //     <input type="text" placeholder="Ex: https://google.com">
+    //     <button onclick="adicionaMaisLink()">OK</button>`
+    // })
     editaveisEEclusoes.innerHTML += `<button onclick="location.reload()">Voltar</button>`
 }
 function adicionaMaisLink() {
     const data = JSON.parse(localStorage.getItem('linkInteress'))
     const nome = document.querySelectorAll('.adicionarLinkOk input')
-    const link = document.querySelectorAll('.adicionarLinkOk input')
+    const link = document.querySelectorAll('.adicionarLinkOk input')[1].value
+    if(link.toString().includes('http')) {
+        var linkCorreto = link
+    } else {
+        var linkCorreto =`http://${link}`
+    }
     const maisUm = {
         "nome": nome[0].value,
-        "link": nome[1].value
+        "link": linkCorreto
     }
     data.unshift(maisUm)
     localStorage.setItem('linkInteress', JSON.stringify(data))
@@ -1910,7 +1943,7 @@ function excluirLinksInteressantes() {
     limpaTela.innerHTML = ''
     editaveisEEclusoes.innerHTML = ''
     data.map((e) => {
-        editaveisEEclusoes.innerHTML += `<div style="background-color: rgb(243, 176, 176);">
+        editaveisEEclusoes.innerHTML += `<div style="background-color: rgb(243, 176, 176); cursor: pointer;" class="excluirLinkF">
         <p>${e.nome}:</p>
         <span >
             <a href="${e.link}" target="_blank">${e.nome}</a>
@@ -1918,15 +1951,116 @@ function excluirLinksInteressantes() {
         </span>
     </div> `
     })
+    editaveisEEclusoes.innerHTML += `<button onclick="location.reload()">Voltar</button>`
+    excluirFLinksFront()
+
+}
+function excluirFLinksFront() {
+    const data = JSON.parse(localStorage.getItem('linkInteress'))
+    const excluirLinkF = document.querySelectorAll('.excluirLinkF')
+    for (let index = 0; index < excluirLinkF.length; index++) {
+        excluirLinkF[index].addEventListener('click', () => {
+            console.log(index)
+            
+            data.splice(index, 1)
+            localStorage.setItem('linkInteress', JSON.stringify(data))
+
+            console.log(data)
+
+
+            excluirLinksInteressantes()
+
+        })        
+    }
+    
+    
+}
+function atualizaLinkInte() {
+    //const data = JSON.parse(localStorage.getItem('linkInteress'))
+    var data = []
+    const editaveisEEclusoes = document.querySelector('#editaveisEEclusoes')
+    const divInfo = document.querySelectorAll('.editarLinkOk')
+
+    for (let i = 0; i < divInfo.length; i++) {
+        const nome = divInfo[i].querySelectorAll('input')[0].value
+        const link = divInfo[i].querySelectorAll('input')[1].value
+        if(link.toString().includes('http')) {
+            var linkCorreto = link
+        } else {
+            var linkCorreto =`http://${link}`
+        }
+        const FavLink = {
+            "nome": nome,
+            "link": linkCorreto
+        }
+        data.push(FavLink)
+        
+    }
+    localStorage.setItem('linkInteress', JSON.stringify(data))
+    location.reload()
+
 }
 const ondeEditar = document.querySelectorAll('.ondeEditar button')
-ondeEditar[0].addEventListener('click', () => {
-    editarLinksInteressantes()
-})
-ondeEditar[1].addEventListener('click', () => {
-    excluirLinksInteressantes()
-})
-ondeEditar[2].addEventListener('click', () => {
-    adiconarLinksInteressantes()
-})
 
+if(ondeEditar.length > 1){
+    ondeEditar[0].addEventListener('click', () => {
+        editarLinksInteressantes()
+    })
+    ondeEditar[1].addEventListener('click', () => {
+        excluirLinksInteressantes()
+    })
+    ondeEditar[2].addEventListener('click', () => {
+        adiconarLinksInteressantes()
+    })
+    
+    
+}
+if(document.querySelector('.todasTarefasConcluidas') != null){
+    carregatarefasC()
+}
+function carregatarefasC() {
+    const data = JSON.parse(localStorage.getItem('tarefasConcluidas'))
+    const todasTarefasConcluidas = document.querySelector('.todasTarefasConcluidas')
+
+    data.map((e) => {
+        const dat = e.dataconcluida.toString().split('T')[0].split('-').reverse().join('-')
+        const hor = e.dataconcluida.toString().split('T')[1].split('.').reverse().join('-')
+        console.log(dat)
+        todasTarefasConcluidas.innerHTML += `<span class="tarefaConcl">
+        <div style="background-color: rgb(176, 243, 202); cursor: pointer; align-items: center;"> 
+            <p>Titulo:</p>
+            <h5>${e.titulo}</h5>
+            <h5>${dat} / ${e.dataL}</h5>
+        </div>
+        <div class="copiarDados" style="display: none;">
+            <abbr title="Copiar">
+                <p>Finalizada: ${dat} às ${hor.split('-')[1]}</p>
+                <h4>${e.mensagem}</h4>
+            </abbr>
+        </div>
+    </span>`
+    })
+    geradorDeCopiarInfoEmpresa()
+}
+const tarefaConcl = document.querySelectorAll('.tarefaConcl')
+console.log(tarefaConcl)
+for (let index = 0; index < tarefaConcl.length; index++) {
+    const doClick = tarefaConcl[index].querySelector('div')
+    
+    doClick.addEventListener('click', () => {
+        const janelaInfo = tarefaConcl[index].querySelectorAll('div')[1]
+        const janelaInf = tarefaConcl[index].querySelectorAll('div')[1].style.display
+        if(janelaInf == 'none') {
+            doClick.style.backgroundColor = 'gray'
+            doClick.style.color = 'white'
+            janelaInfo.style.display = 'block'
+        } else {
+            doClick.style.backgroundColor = 'rgb(176, 243, 202)'
+            doClick.style.color = 'black'
+            janelaInfo.style.display = 'none'
+        }
+        
+        
+    })
+    
+}
