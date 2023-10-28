@@ -43,6 +43,8 @@ function falecidos() {
     data.sort(ordemCrescente);
 
     var con = 0;
+    document.querySelector('#homenagemFalecido').innerHTML = ''
+    document.querySelector('#lutoTitle').innerHTML = ''
 
 
     data.map((falec) => {
@@ -90,6 +92,7 @@ function falecidos() {
             const mensa = [numeroM1, numeroM2, numeroM3, numeroM4]
             const apresenta = mensa[Math.floor(Math.random() * (4 - 1) + 1)]
             const homenagemFalecido = document.querySelector('#homenagemFalecido')
+            
             var divGera = document.createElement('div')
             divGera.setAttribute('class', 'infoLutos');
             const divBottom = document.createElement('div')
