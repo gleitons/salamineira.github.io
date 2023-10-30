@@ -1050,6 +1050,7 @@ function geradorDeCopiarInfoEmpresa() {
         })
     })
 }
+
 function mostraInfoCopy(e) {
     const divDaCopy = document.createElement('div')
     divDaCopy.innerHTML = `<div class="copiadoComSucesso">
@@ -1110,6 +1111,10 @@ async function buscaCNPJB(pesquisaCN) {
             divInserindoDados[15].textContent = data.ddd_telefone_2
             divInserindoDados[16].textContent = data.descricao_situacao_cadastral
 
+            divInserindoDados[17].textContent = data.data_situacao_cadastral.split('-').reverse().join('-')
+
+            
+
             const atividadesSecond = data.cnaes_secundarios
 
 
@@ -1118,7 +1123,7 @@ async function buscaCNPJB(pesquisaCN) {
             <h4>${e.descricao}</h4>
         </abbr>`
             })
-            outrasAtividades.innerHTML += 'Atividades secundárias não podem ser copiadas com um clique, selecione e clique em copiar.'
+            //outrasAtividades.innerHTML += 'Atividades secundárias não podem ser copiadas com um clique, selecione e clique em copiar.'
 
             LinkInserindoDados[0].textContent = `CCMEI de ${data.cnpj}`
 
@@ -1139,6 +1144,7 @@ async function buscaCNPJB(pesquisaCN) {
         const botaos = document.querySelectorAll('button')
         botaos[0].innerHTML = 'Buscar'
     }
+    geradorDeCopiarInfoEmpresa()
 
 
 }

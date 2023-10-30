@@ -484,3 +484,28 @@ document.querySelector('footer').innerHTML += `  <div class="atalhosTelaDesktop 
 
 
 localStorage.setItem('atalhosContratos', '[{"id":0,"imagem":"./src/img/icons/itbi-urbano.png","texto":"ITBI Urbano","link":"itbi-urbano"},{"id":1,"imagem":"./src/img/icons/itbi-rural.png","texto":"ITBI Rural","link":"itbi-rural"}]')
+
+
+<a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/emissao-de-comprovante-ccmei" target="_blank">
+    <li><i class="bi bi-house-up-fill"></i>CCMEI</li>
+    </a>  
+    <a href="./itbi-urbano.html" target="_blank">
+    <li><i class="bi bi-house-up-fill"></i>CND Federal</li>
+    </a>  
+    <a href="./itbi-urbano.html">
+    <li><i class="bi bi-house-up-fill"></i>CND Estadual</li>
+    </a>  
+    <a href="./itbi-urbano.html">
+    <li><i class="bi bi-house-up-fill"></i>CND FGTS</li>
+    </a>  
+    <a href="./itbi-rural.html">
+    <li><i class="bi bi-house-up-fill"></i>Informações RFB</li>
+    </a>      
+
+    <a href="./resetar.html">
+    <li><i class="bi bi-trash3-fill"></i> Resetar</li>
+    </a> 
+
+    <a href="./ajuda.html">
+    <li><i class="bi bi-trash3-fill"></i> Ajuda</li>
+    </a> 

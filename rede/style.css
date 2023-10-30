@@ -734,6 +734,15 @@ nav > li::after {
 
 nav .menuDrop:hover .subMenu {
   display: block;
+  animation: menuaparece 230ms  linear;
+}
+@keyframes menuaparece {
+  from {
+   
+    margin-left: -40px;
+    overflow: hidden;
+    
+  }
 }
 .treeMenu {
   position: absolute;

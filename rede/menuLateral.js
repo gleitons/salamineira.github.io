@@ -80,48 +80,35 @@ const MenuLateral = () => {
     <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Universo CNPJ
     <ul class="subMenu">
     <a href="./favoritos.html">
-    <li><i class="bi bi-house-up-fill"></i>Favoritos</li>
+    <li><i class="bi bi-star-fill"></i></i>Favoritos</li>
     </a>   
     <a href="./links-interessantes.html">
-    <li><i class="bi bi-house-up-fill"></i>Links Interessantes</li>
+    <li><i class="bi bi-globe2"></i> Links Interessantes</li>
     </a>  
-    <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/emissao-de-comprovante-ccmei" target="_blank">
-    <li><i class="bi bi-house-up-fill"></i>CCMEI</li>
-    </a>  
-    <a href="./itbi-urbano.html" target="_blank">
-    <li><i class="bi bi-house-up-fill"></i>CND Federal</li>
-    </a>  
-    <a href="./itbi-urbano.html">
-    <li><i class="bi bi-house-up-fill"></i>CND Estadual</li>
-    </a>  
-    <a href="./itbi-urbano.html">
-    <li><i class="bi bi-house-up-fill"></i>CND FGTS</li>
-    </a>  
-    <a href="./itbi-rural.html">
-    <li><i class="bi bi-house-up-fill"></i>Informações RFB</li>
-    </a>      
+    
     </ul>
     </li>  
 
     <p class="avisoDiv">Atendimento SAS SEBRAE</p>
 
-    <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Atendimento SAS
+    <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Atendimentos
      <ul class="subMenu">
-        <a href="./atendimento-sas-modelos.html">
-        <li><i class="bi bi-house-up-fill"></i>Modelos</li>
-        </a> 
         <a href="./atividades-concluidas.html">
-        <li><i class="bi bi-house-up-fill"></i>Concluidos</li>
-        </a>   
+        <li><i class="bi bi-check-circle-fill"></i> Concluidos</li>
+        </a>  
+        <a href="./atendimento-sas-modelos.html">
+        <li><i class="bi bi-archive-fill"></i> Modelos</li>
+        </a> 
+        
         <a href="./cadastro-empresa.html">
-        <li><i class="bi bi-house-up-fill"></i>Cadastrar</li>
+        <li><i class="bi bi-arrow-right-square-fill"></i> Cadastrar</li>
         </a>   
          <a href="./cadastro-imovel.html">
-             <li><i class="bi bi-house-add-fill"></i>Editar</li>
+             <li><i class="bi bi-pencil-fill"></i> Editar</li>
          </a>
         
          <a href="./cadastro-endereco.html">
-             <li><i class="bi bi-signpost-fill"></i> Excluir</li>
+             <li><i class="bi bi-x-circle"></i> Excluir</li>
          </a>
      </ul>
     </li>  
@@ -129,13 +116,13 @@ const MenuLateral = () => {
     <li class="menuDrop"><i class="bi bi-folder-symlink-fill"></i> Atalho
      <ul class="subMenu">
         <a href="./criar-atalho.html">
-        <li><i class="bi bi-house-up-fill"></i>Novo</li>
+        <li><i class="bi bi-file-plus-fill"></i></i>Novo</li>
         </a>   
         <a href="./editar-atalho.html">
-        <li><i class="bi bi-house-up-fill"></i>Editar</li>
+        <li><i class="bi bi-pencil-fill"></i></i>Editar</li>
         </a>   
         <a href="./excluir-atalho.html">
-        <li><i class="bi bi-house-up-fill"></i>Excluir</li>
+        <li><i class="bi bi-x-square-fill"></i></i>Excluir</li>
         </a>   
         <a href="#" onclick="addAtalhos()">
         <li><i class="bi bi-house-up-fill"></i>Adicionar na Tela</li>
@@ -152,21 +139,16 @@ const MenuLateral = () => {
     <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Opções
      <ul class="subMenu">
      <a href="./perfil.html">
-     <li><i class="bi bi-layer-backward"></i> Editar Perfil</li>
+     <li><i class="bi bi-pencil-square"></i> Editar Perfil</li>
      </a> 
 
      <a href="./backup.html">
     <li><i class="bi bi-layer-backward"></i> Backup</li>
+    </a>     
+    <a href="./documentacao.html">
+    <li><i class="bi bi-file-earmark-arrow-down-fill"></i> Documentação</li>
     </a> 
-    <a href="./resetar.html">
-    <li><i class="bi bi-trash3-fill"></i> Resetar</li>
-    </a> 
-    <a href="./sobre.html">
-    <li><i class="bi bi-trash3-fill"></i> Sobre</li>
-    </a> 
-    <a href="./ajuda.html">
-    <li><i class="bi bi-trash3-fill"></i> Ajuda</li>
-    </a> 
+    
     </li>  
  </nav>`
  setInterval('horario()', 1000)
