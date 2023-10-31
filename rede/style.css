@@ -74,8 +74,13 @@ body {
   cursor: pointer;
   width: 40px;
 }
+/*  */
 .fieldCadastroImóvel abbr img:hover {
   filter: brightness(1.1);
+  transform: translate(0px, -10%);
+  -webkit-filter: drop-shadow(15px 10px 1px #22222264);
+  filter: drop-shadow(1px 6px 2px #15151574);
+  /* box-shadow:rgba(0, 0, 0, 0.481) 0px 15px 10px 1px; */
 }
 .fieldCadastroImóvel .infodoFavorito {
   display: block;
@@ -84,8 +89,6 @@ body {
   border-right: #252d3666 solid 1px;
   margin-right: 5px;
 }
-
-
 .fieldCadastroImóvel .infodoFavorito  button:nth-child(2) {
   background-color: rgb(0, 85, 255);
   padding: 2px;
