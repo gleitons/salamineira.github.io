@@ -77,7 +77,7 @@ const MenuLateral = () => {
     
 
     <p class="avisoDiv">MEI, ME, SA</p>
-    <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Universo CNPJ
+    <li class="menuDrop"><i class="bi bi-universal-access-circle"></i> Universo CNPJ
     <ul class="subMenu">
     <a href="./favoritos.html">
     <li><i class="bi bi-star-fill"></i></i>Favoritos</li>
@@ -91,22 +91,20 @@ const MenuLateral = () => {
 
     <p class="avisoDiv">Atendimento SAS SEBRAE</p>
 
-    <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Atendimentos
+    <li class="menuDrop"><i class="bi bi-receipt"></i> Atendimentos
      <ul class="subMenu">
         <a href="./atividades-concluidas.html">
         <li><i class="bi bi-check-circle-fill"></i> Concluidos</li>
         </a>  
         <a href="./atendimento-sas-modelos.html">
         <li><i class="bi bi-archive-fill"></i> Modelos</li>
-        </a> 
-        
+        </a>         
         <a href="./cadastro-empresa.html">
         <li><i class="bi bi-arrow-right-square-fill"></i> Cadastrar</li>
         </a>   
          <a href="./cadastro-imovel.html">
              <li><i class="bi bi-pencil-fill"></i> Editar</li>
-         </a>
-        
+         </a>       
          <a href="./cadastro-endereco.html">
              <li><i class="bi bi-x-circle"></i> Excluir</li>
          </a>
@@ -136,7 +134,7 @@ const MenuLateral = () => {
     
     <p class="avisoDiv">+ Opções</p>
 
-    <li class="menuDrop"><i class="bi bi-arrow-right-square-fill"></i> Opções
+    <li class="menuDrop"><i class="bi bi-gear-fill"></i> Opções
      <ul class="subMenu">
      <a href="./perfil.html">
      <li><i class="bi bi-pencil-square"></i> Editar Perfil</li>
@@ -199,7 +197,7 @@ const menuTop = () => {
 
     document.querySelector('header').innerHTML = ` 
     <div>
-    <a href="./" style="background-image: url('${imagem}')">
+    <a href="./" style="background-image: url('${imagem}');">
     <div class="logoCima" ">        
     </div>
     </a>

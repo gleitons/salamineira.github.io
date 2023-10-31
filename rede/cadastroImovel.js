@@ -28,13 +28,14 @@ if (localStorage.getItem('menuLembrete') == null) {
     fechaMenuLembre()
 }
 if (localStorage.getItem('menuLembrete') == '0') {
-    const agendaLateralIcone = document.querySelector('.agendaLateral > i')
+    const agendaLateralIcone = document.querySelector('.agendaLateral  i')
+    const agendaLateral = document.querySelector('.agendaLateral') != null ? document.querySelector('.agendaLateral').classList.add('ocultaAgenda') : ''
+    //agendaLateral.classList.add('ocultaAgenda')
     if (agendaLateralIcone != null) {
         agendaLateralIcone.setAttribute('class', 'bi bi-arrow-left-square-fill btnOcultarLembrete')
     }
 }
 if (localStorage.getItem('menuLembrete') == '1') {
-
     const abre = () => {
         const agendaLateral = document.querySelector('.agendaLateral')
         const agendaLateralIcone = document.querySelector('.agendaLateral > i')
@@ -1113,7 +1114,7 @@ async function buscaCNPJB(pesquisaCN) {
 
             divInserindoDados[17].textContent = data.data_situacao_cadastral.split('-').reverse().join('-')
 
-            
+
 
             const atividadesSecond = data.cnaes_secundarios
 
@@ -1362,10 +1363,10 @@ function openLembrete(l) {
 </div>`)
 
 }
-if(localStorage.getItem('tarefasConcluidas') == null){
-    localStorage.setItem('tarefasConcluidas','[]')
+if (localStorage.getItem('tarefasConcluidas') == null) {
+    localStorage.setItem('tarefasConcluidas', '[]')
 }
-function salvaAtendimento(num){
+function salvaAtendimento(num) {
     const data = JSON.parse(localStorage.getItem('tarefasConcluidas'))
     const lembreteAberto = document.querySelectorAll('.lembreteAberto')[0]
     const titulo = lembreteAberto.querySelector('h2').textContent
@@ -1497,6 +1498,13 @@ function criarLembrete() {
     localStorage.setItem('postIt', JSON.stringify(data))
     location.reload()
 
+}
+if (document.querySelector('#bcnpj') != null) {
+    document.onkeydown = function (e) {
+        if (e.key === 'Enter') {
+            document.querySelector('#bcnpj').click()
+        }
+    }
 }
 document.addEventListener('click', () => {
     if (document.querySelector('.avisoOff') != null) {
@@ -1759,8 +1767,8 @@ const carregaEmpresasFavoritasLoad = async () => {
         empresasFavoritasCarregadas.innerHTML += `  <div class="buscaEmpresa">
         <span class="infodoFavorito">
             <p><strong>${dataEmpresa.razao_social}</strong> - ${dataEmpresa.cnpj}</p>
-            <button onclick="editaInfoEmpresaFavorito('${dataEmpresa.cnpj}')">Mais Informações</button>
-            <button onclick="excluirInfoEmpresaFavorito('${index}-${dataEmpresa.razao_social}-${dataEmpresa.cnpj}')">Remover</button>
+            <button onclick="editaInfoEmpresaFavorito('${dataEmpresa.cnpj}')"><abbr title="MAIS INFORMAÇÕES"><i class="bi bi-info-square-fill"></i></abbr></button>
+            <button onclick="excluirInfoEmpresaFavorito('${index}-${dataEmpresa.razao_social}-${dataEmpresa.cnpj}')"><abbr title="EXCLUIR FAVORITO"><i class="bi bi-trash2-fill"></i></abbr></button>
         </span>
        
         <div>
@@ -1835,7 +1843,12 @@ if (document.querySelector('#empresasFavoritasCarregadas') != null) {
 function search_animal() {
     const mostraSer = document.querySelector('#empresasFavoritasCarregadas');
 
-    let input = document.getElementById('cnpjGerado').value
+    var input1 = document.getElementById('cnpjGerado').value
+    console.log(input1.toString().length)
+    if(input1.toString().length == 0){
+        document.getElementById('cnpjGerado').value = ' '
+    }
+    var input = document.getElementById('cnpjGerado').value
     input = input.toLowerCase();
     let x = document.getElementsByClassName('buscaEmpresa');
 
@@ -1928,10 +1941,10 @@ function adicionaMaisLink() {
     const data = JSON.parse(localStorage.getItem('linkInteress'))
     const nome = document.querySelectorAll('.adicionarLinkOk input')
     const link = document.querySelectorAll('.adicionarLinkOk input')[1].value
-    if(link.toString().includes('http')) {
+    if (link.toString().includes('http')) {
         var linkCorreto = link
     } else {
-        var linkCorreto =`http://${link}`
+        var linkCorreto = `http://${link}`
     }
     const maisUm = {
         "nome": nome[0].value,
@@ -1967,7 +1980,7 @@ function excluirFLinksFront() {
     for (let index = 0; index < excluirLinkF.length; index++) {
         excluirLinkF[index].addEventListener('click', () => {
             console.log(index)
-            
+
             data.splice(index, 1)
             localStorage.setItem('linkInteress', JSON.stringify(data))
 
@@ -1976,10 +1989,10 @@ function excluirFLinksFront() {
 
             excluirLinksInteressantes()
 
-        })        
+        })
     }
-    
-    
+
+
 }
 function atualizaLinkInte() {
     //const data = JSON.parse(localStorage.getItem('linkInteress'))
@@ -1990,17 +2003,17 @@ function atualizaLinkInte() {
     for (let i = 0; i < divInfo.length; i++) {
         const nome = divInfo[i].querySelectorAll('input')[0].value
         const link = divInfo[i].querySelectorAll('input')[1].value
-        if(link.toString().includes('http')) {
+        if (link.toString().includes('http')) {
             var linkCorreto = link
         } else {
-            var linkCorreto =`http://${link}`
+            var linkCorreto = `http://${link}`
         }
         const FavLink = {
             "nome": nome,
             "link": linkCorreto
         }
         data.push(FavLink)
-        
+
     }
     localStorage.setItem('linkInteress', JSON.stringify(data))
     location.reload()
@@ -2008,7 +2021,7 @@ function atualizaLinkInte() {
 }
 const ondeEditar = document.querySelectorAll('.ondeEditar button')
 
-if(ondeEditar.length > 1){
+if (ondeEditar.length > 1) {
     ondeEditar[0].addEventListener('click', () => {
         editarLinksInteressantes()
     })
@@ -2018,10 +2031,10 @@ if(ondeEditar.length > 1){
     ondeEditar[2].addEventListener('click', () => {
         adiconarLinksInteressantes()
     })
-    
-    
+
+
 }
-if(document.querySelector('.todasTarefasConcluidas') != null){
+if (document.querySelector('.todasTarefasConcluidas') != null) {
     carregatarefasC()
 }
 function carregatarefasC() {
@@ -2052,11 +2065,11 @@ const tarefaConcl = document.querySelectorAll('.tarefaConcl')
 console.log(tarefaConcl)
 for (let index = 0; index < tarefaConcl.length; index++) {
     const doClick = tarefaConcl[index].querySelector('div')
-    
+
     doClick.addEventListener('click', () => {
         const janelaInfo = tarefaConcl[index].querySelectorAll('div')[1]
         const janelaInf = tarefaConcl[index].querySelectorAll('div')[1].style.display
-        if(janelaInf == 'none') {
+        if (janelaInf == 'none') {
             doClick.style.backgroundColor = 'gray'
             doClick.style.color = 'white'
             janelaInfo.style.display = 'block'
@@ -2065,8 +2078,8 @@ for (let index = 0; index < tarefaConcl.length; index++) {
             doClick.style.color = 'black'
             janelaInfo.style.display = 'none'
         }
-        
-        
+
+
     })
-    
+
 }

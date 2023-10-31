@@ -25,6 +25,7 @@ function fastIconeLoad() {
 function carregaRapido() {
     const data = JSON.parse(localStorage.getItem('imgPreLoad'))
     const atalhosTela = document.querySelector('.iconsSeleciona')
+    atalhosTela.innerHTML  = ''
     var fast = []
     data.map((e) => {
         atalhosTela.innerHTML += e
