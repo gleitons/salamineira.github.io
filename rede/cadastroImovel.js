@@ -1192,7 +1192,7 @@ function abriMInfoCNPJ() {
 
 }
 if (localStorage.getItem('favoritosCNPJ') == null) {
-    localStorage.setItem('favoritosCNPJ', '[]')
+    localStorage.setItem('favoritosCNPJ', '["26300217000100"]')
 }
 function favoritoPessoaJuridica(entrada) {
     const favoritos = JSON.parse(localStorage.getItem('favoritosCNPJ'))
@@ -1463,8 +1463,10 @@ function delLembrete(l) {
 
     data.splice(l, 1)
     localStorage.setItem('postIt', JSON.stringify(data))
-
+    carregaPostIt()
     location.reload()
+    //aqui
+    element.dispatchEvent(new KeyboardEvent('keydown', { 'key': 'Escape' }));
 }
 function addLembrete() {
     const data = JSON.parse(localStorage.getItem('postIt'))
@@ -2066,15 +2068,17 @@ function loadTarefasC() {
     const indC = document.querySelector('select#selecionaDataAtividade').selectedIndex
     const vOne = document.querySelector('select#selecionaDataAtividade')
     const vTwo = vOne.options[vOne.selectedIndex].textContent
-   
-    console.log(vTwo)
-    todasTarefasConcluidas.innerHTML = ''
+
+
+
+
 
     if (indC == 0) {
-       
+
         carregatarefasC()
     } else {
         datamos.textContent = vTwo
+        todasTarefasConcluidas.innerHTML = ''
         data.map((e) => {
             vOne.innerHTML = ``
             vOne.innerHTML = `<option>Selecione</option>`
@@ -2087,6 +2091,7 @@ function loadTarefasC() {
                 <p>Titulo:</p>
                 <h5>${e.titulo}</h5>
                 <h5>${dat} / ${e.dataL}</h5>
+                <abbr title="DELETE"><i class="bi bi-x-circle-fill deletarTConcl" style="z-index: 999; color: rgb(119, 0, 0);"></i></abbr>
             </div>
             <div class="copiarDados" style="display: none;">
                 <abbr title="Copiar">
@@ -2095,13 +2100,16 @@ function loadTarefasC() {
                 </abbr>
             </div>
             </span>`
+
             }
+
 
         })
     }
     //carregatarefasC()
     geraDatasIniciais()
     geradorDeCopiarInfoEmpresa()
+    geraCliqueConcluidos()
 }
 function carregatarefasC() {
     const data = JSON.parse(localStorage.getItem('tarefasConcluidas'))
@@ -2118,6 +2126,7 @@ function carregatarefasC() {
             <p>Titulo:</p>
             <h5>${e.titulo}</h5>
             <h5>${dat} / ${e.dataL}</h5>
+            <abbr title="DELETE"><i class="bi bi-x-circle-fill deletarTConcl" style="z-index: 999; color: rgb(119, 0, 0);"></i></abbr>
         </div>
         <div class="copiarDados" style="display: none;">
             <abbr title="Copiar">
@@ -2128,26 +2137,55 @@ function carregatarefasC() {
     </span>`
     })
     geradorDeCopiarInfoEmpresa()
+    geraCliqueConcluidos()
 }
-const tarefaConcl = document.querySelectorAll('.tarefaConcl')
 
-for (let index = 0; index < tarefaConcl.length; index++) {
-    const doClick = tarefaConcl[index].querySelector('div')
-
-    doClick.addEventListener('click', () => {
-        const janelaInfo = tarefaConcl[index].querySelectorAll('div')[1]
-        const janelaInf = tarefaConcl[index].querySelectorAll('div')[1].style.display
-        if (janelaInf == 'none') {
-            doClick.style.backgroundColor = 'gray'
-            doClick.style.color = 'white'
-            janelaInfo.style.display = 'block'
-        } else {
-            doClick.style.backgroundColor = 'rgb(176, 243, 202)'
-            doClick.style.color = 'black'
-            janelaInfo.style.display = 'none'
-        }
+function geraCliqueConcluidos() {
+    const tarefaConcl = document.querySelectorAll('.tarefaConcl')
+    const data = JSON.parse(localStorage.getItem('tarefasConcluidas'))
 
 
-    })
+    for (let index = 0; index < tarefaConcl.length; index++) {
+        const doClick = tarefaConcl[index].querySelector('div')
 
+
+
+        doClick.addEventListener('click', () => {
+
+            const janelaInfo = tarefaConcl[index].querySelectorAll('div')[1]
+            const janelaInf = tarefaConcl[index].querySelectorAll('div')[1].style.display
+            if (janelaInf == 'none') {
+                doClick.style.backgroundColor = 'gray'
+                doClick.style.color = 'white'
+                janelaInfo.style.display = 'block'
+            } else {
+                doClick.style.backgroundColor = 'rgb(176, 243, 202)'
+                doClick.style.color = 'black'
+                janelaInfo.style.display = 'none'
+            }
+
+        })
+
+    }
+    console.log(data)
+    const deletarTConcl = document.querySelectorAll('.deletarTConcl')
+    console.log(deletarTConcl)
+    for (let i = 0; i < deletarTConcl.length; i++) {
+        //console.log(deletarTConcl[i])
+        //deletarTConcl[i].childNodes.remove()     
+        deletarTConcl[i].addEventListener('click', () => {
+            const vOne = document.querySelector('select#selecionaDataAtividade')
+            vOne.innerHTML = ``
+            vOne.innerHTML = `<option>Selecione</option>`
+
+            data.splice(i, 1)
+            console.log([i])
+            tarefaConcl[i].remove()
+
+
+            localStorage.setItem('tarefasConcluidas', JSON.stringify(data))
+            carregatarefasC()
+            loadTarefasC()
+        })
+    }
 }
