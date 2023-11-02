@@ -1130,6 +1130,9 @@ footer {
   animation: surgeM 1s infinite;
   background-color: red;
 }
+.tarefaConcl {
+  background-color: red;
+}
 @keyframes surgeM {
   from {
     margin-top: -50px;

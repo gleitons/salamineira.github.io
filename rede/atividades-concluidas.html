@@ -28,7 +28,6 @@
     </header>
     <main>
         <div class="menusApresentação">
-
         </div>
         <div class="telaApresentacao">
 
@@ -38,16 +37,13 @@
                 <div>
                     <fieldset class="fieldCadastroImóvel">
                         <legend>Tarefas Concluidas</legend>
-                        <a href="https://sas.sebrae.com.br/" target="_blank"><button>SAS Sebrae</button></a>
+                        <a href="https://sas.sebrae.com.br/" target="_blank"></a>
+                        <button onclick="location.reload()">Recarregar</button>
                         <div>
-                            <p>Data:</p>
-                            <select name="" id="tipoDePessoa" onchange="seFisicaOuJuridica()">
+                            <p style="background-color: green; color: white; padding: 5px;">Data: <span id="datamos">...</span></p>
+                            <select name="" id="selecionaDataAtividade" onchange="loadTarefasC()">
                                 <option>Selecione</option>
-                                <option>MEI</option>
-                                <option>Juridica</option>
-                                <option>Física</option>
-                                <option>Produtor Rural</option>
-                                <option>S.A</option>
+                                
                             </select>
                         </div>
                         <span class="todasTarefasConcluidas">

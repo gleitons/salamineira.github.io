@@ -1642,8 +1642,7 @@ function adicionaOutrasInfoNoCNPJ(e) {
             for (let i = 0; i < cn.maisDadosTitleSub.length; i++) {
                 const titulo = cn.maisDadosTitleSub[i].toString().split(' || ')[0]
                 const subTitulo = cn.maisDadosTitleSub[i].toString().split('|| ')[1]
-                //console.log(titulo)
-                //console.log(subTitulo)
+
                 const dados = `<div class="copiarDados">
                 <input type="text" placeholder="insira Titulo" value="${titulo}">
                 <input type="text" placeholder="insira a Informação" value="${subTitulo}">
@@ -1844,8 +1843,8 @@ function search_animal() {
     const mostraSer = document.querySelector('#empresasFavoritasCarregadas');
 
     var input1 = document.getElementById('cnpjGerado').value
-    console.log(input1.toString().length)
-    if(input1.toString().length == 0){
+
+    if (input1.toString().length == 0) {
         document.getElementById('cnpjGerado').value = ' '
     }
     var input = document.getElementById('cnpjGerado').value
@@ -1979,12 +1978,12 @@ function excluirFLinksFront() {
     const excluirLinkF = document.querySelectorAll('.excluirLinkF')
     for (let index = 0; index < excluirLinkF.length; index++) {
         excluirLinkF[index].addEventListener('click', () => {
-            console.log(index)
+
 
             data.splice(index, 1)
             localStorage.setItem('linkInteress', JSON.stringify(data))
 
-            console.log(data)
+
 
 
             excluirLinksInteressantes()
@@ -2037,14 +2036,83 @@ if (ondeEditar.length > 1) {
 if (document.querySelector('.todasTarefasConcluidas') != null) {
     carregatarefasC()
 }
+function geraDatasIniciais() {
+    const data = JSON.parse(localStorage.getItem('tarefasConcluidas'))
+    const todasTarefasConcluidas = document.querySelector('#selecionaDataAtividade')
+    var dataC = []
+    var dataEmpre = data.filter(function (este, i) {
+        const dat = data[i].dataconcluida.toString().split('T')[0].split('-').reverse().join('-')
+
+        dataC.push(dat)
+        return data[i].dataconcluida.indexOf(este) === dat;
+    });
+
+
+    var novaArr = dataC.filter(function (este, i) {
+        return dataC.indexOf(este) === i;
+    });
+
+    function ordemCrescente(a, b) {
+        return new Date('10-06-2018') - new Date('10-05-2018');
+    }
+
+    novaArr.map((e) => {
+        todasTarefasConcluidas.innerHTML += `<option>${e}</option>`
+    })
+}
+function loadTarefasC() {
+    const data = JSON.parse(localStorage.getItem('tarefasConcluidas'))
+    const todasTarefasConcluidas = document.querySelector('.todasTarefasConcluidas')
+    const indC = document.querySelector('select#selecionaDataAtividade').selectedIndex
+    const vOne = document.querySelector('select#selecionaDataAtividade')
+    const vTwo = vOne.options[vOne.selectedIndex].textContent
+   
+    console.log(vTwo)
+    todasTarefasConcluidas.innerHTML = ''
+
+    if (indC == 0) {
+       
+        carregatarefasC()
+    } else {
+        datamos.textContent = vTwo
+        data.map((e) => {
+            vOne.innerHTML = ``
+            vOne.innerHTML = `<option>Selecione</option>`
+            const dat = e.dataconcluida.toString().split('T')[0].split('-').reverse().join('-')
+            const hor = e.dataconcluida.toString().split('T')[1].split('.').reverse().join('-')
+            console.log(vTwo == dat)
+            if (vTwo == dat) {
+                todasTarefasConcluidas.innerHTML += `<span class="tarefaConcl">
+            <div style="background-color: rgb(176, 243, 202); cursor: pointer; align-items: center;"> 
+                <p>Titulo:</p>
+                <h5>${e.titulo}</h5>
+                <h5>${dat} / ${e.dataL}</h5>
+            </div>
+            <div class="copiarDados" style="display: none;">
+                <abbr title="Copiar">
+                    <h4>${dat} / ${e.dataL} <br> ${e.titulo} <br>${e.mensagem}</h4>
+                    <p>Finalizada: ${dat} às ${hor.split('-')[1]}</p>
+                </abbr>
+            </div>
+            </span>`
+            }
+
+        })
+    }
+    //carregatarefasC()
+    geraDatasIniciais()
+    geradorDeCopiarInfoEmpresa()
+}
 function carregatarefasC() {
     const data = JSON.parse(localStorage.getItem('tarefasConcluidas'))
     const todasTarefasConcluidas = document.querySelector('.todasTarefasConcluidas')
 
+    geraDatasIniciais()
+    todasTarefasConcluidas.innerHTML = ''
     data.map((e) => {
         const dat = e.dataconcluida.toString().split('T')[0].split('-').reverse().join('-')
         const hor = e.dataconcluida.toString().split('T')[1].split('.').reverse().join('-')
-        console.log(dat)
+
         todasTarefasConcluidas.innerHTML += `<span class="tarefaConcl">
         <div style="background-color: rgb(176, 243, 202); cursor: pointer; align-items: center;"> 
             <p>Titulo:</p>
@@ -2053,8 +2121,8 @@ function carregatarefasC() {
         </div>
         <div class="copiarDados" style="display: none;">
             <abbr title="Copiar">
+                <h4>${dat} / ${e.dataL} <br> ${e.titulo} <br>${e.mensagem}</h4>
                 <p>Finalizada: ${dat} às ${hor.split('-')[1]}</p>
-                <h4>${e.mensagem}</h4>
             </abbr>
         </div>
     </span>`
@@ -2062,7 +2130,7 @@ function carregatarefasC() {
     geradorDeCopiarInfoEmpresa()
 }
 const tarefaConcl = document.querySelectorAll('.tarefaConcl')
-console.log(tarefaConcl)
+
 for (let index = 0; index < tarefaConcl.length; index++) {
     const doClick = tarefaConcl[index].querySelector('div')
 
