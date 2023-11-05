@@ -832,12 +832,14 @@ window.onstorage = function (e) {
 function avisoS(aviso) {
     const divP = document.createElement('div')
     divP.classList.add('avisoOff')
+    //document.querySelector('main').style.display = 'none'
     divP.innerHTML = ` <div >
     <button onclick="fechaAviso()">Fechar</button>
     <p>${aviso}</p>
     <button onclick="fechaAviso()">Fechar</button>
     </div>`
-    document.querySelector('main').appendChild(divP)
+    document.querySelector('body').appendChild(divP)
+   
 }
 function paraApagar(props) {
     const msn = `<div class="desejaExcluir">
