@@ -192,8 +192,16 @@ const menuTop = () => {
     const titlo = data[0].titlo
     const subTitle = data[0].subTitle
     const color = data[0].color
+    if(data[0].comoFicaImg == 0){
+        var comoFImage = `background-size: contain;`
+    } else if (data[0].comoFicaImg == 1) {
+        var comoFImage = `background-size: cover;`
+    } else {
+        var comoFImage = `background-size: auto;`
+    }
     const fundoAP = document.querySelector('.telaApresentacao')
-    fundoAP.setAttribute('style', `background-image: url('${data[0].imagemFundo}'); background-color: ${color};`)
+    fundoAP.setAttribute('style', `background-image: url('${data[0].imagemFundo}'); background-color: ${color}; ${comoFImage}
+    background-position: center;`)
 
     document.querySelector('header').innerHTML = ` 
     <div>
@@ -228,13 +236,16 @@ function atualizarPerfilDigito() {
 function atualizarPerfilClique() {
     
     const data = JSON.parse(localStorage.getItem('perfilRede'))
+    const pImageFundo = document.querySelector('#pImageFundo').selectedIndex
+    console.log(pImageFundo)
     const perfil = {
         "imagemFundo": linkImagfundo.value,
         "imagem": linkImag.value,
         "titlo": tituloLocal.value,
         "subTitle": SubTituloLocal.value,
         "color": fundoColor.value,
-        "nome": nomeIdComplete.value
+        "nome": nomeIdComplete.value,
+        "comoFicaImg": pImageFundo
     }
     localStorage.setItem('perfilRede', JSON.stringify([perfil]))
     location.reload()

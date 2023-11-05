@@ -365,7 +365,7 @@ main {
   width: 165px;
   height: 150px;
   margin: 2px;
-  --s: 82px; /* control the size */
+  /* --s: 82px;
   --c1: #b2b2b2;
   --c2: #ffffff;
   --c3: #d9d9d9;
@@ -378,20 +378,20 @@ main {
     conic-gradient(from 180deg at calc(100%/3),var(--c1) 60deg,var(--_g)),
     linear-gradient(90deg,var(--c1)   calc(100%/6),var(--c2) 0 50%,
                           var(--c1) 0 calc(500%/6),var(--c2) 0);
-  background-size: calc(1.732*var(--s)) var(--s);
+  background-size: calc(1.732*var(--s)) var(--s); */
 
   border-radius: 8px;
-  /* background-image: url("./src/img/lembrete-notificacao.png");
-  background-size: 200% 220%;
+  background-image: url("./src/img/lembrete.webp");
+  background-size: 110% 100%;
 
   background-position: center;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   cursor: pointer;
   position: relative;
   /* padding: 5px; */
-  -webkit-box-shadow: 3px 4px 17px -1px rgba(163, 163, 163, 1);
+  /* -webkit-box-shadow: 3px 4px 17px -1px rgba(163, 163, 163, 1);
   -moz-box-shadow: 3px 4px 17px -1px rgba(163, 163, 163, 1);
-  box-shadow: 3px 4px 17px -1px rgba(163, 163, 163, 1);
+  box-shadow: 3px 4px 17px -1px rgba(163, 163, 163, 1); */
 }
 .agendaLateral div:hover {
   filter: brightness(1.1);
@@ -610,6 +610,17 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   color: white;
   border-radius: 8px;
 }
+.carregoLo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  margin: auto;
+  z-index: +99999;
+  text-align: center;
+}
 .avisoOff {
   height: 95vh;
   overflow: auto;
@@ -617,12 +628,12 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .avisoOff {
   position: absolute;
   z-index: 999999;
-  background: rgba(9, 8, 15, 0.827);
-  /* box-shadow: 0 8px 32px 0 rgba(8, 9, 35, 0.37);
+  background: rgba(9, 8, 15, 0);
+  box-shadow: 0 8px 32px 0 rgba(8, 9, 35, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18); */
+  border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 20px;
   width: 100%;
   margin: auto;
@@ -650,7 +661,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 @keyframes animaCimaBaixo {
   from {
     /* margin-top: -20px; */
-    filter: brightness(0.9);
+    /* transform: scale(.5);
+    filter: brightness(0.9); */
   }
 }
 .fieldCadastroImóvel map area {
@@ -815,6 +827,9 @@ nav .subMenu:hover .treeMenu {
 .telaApresentacao .cadastroDeImovel {
   width: 70%;
   padding-bottom: 13vh;
+}
+.telaApresentacao .cadastroDeImovel h2 {
+  color: #636363;
 }
 .telaAvisos {
   display: flex;

@@ -833,6 +833,7 @@ function avisoS(aviso) {
     const divP = document.createElement('div')
     divP.classList.add('avisoOff')
     divP.innerHTML = ` <div >
+    <button onclick="fechaAviso()">Fechar</button>
     <p>${aviso}</p>
     <button onclick="fechaAviso()">Fechar</button>
     </div>`
@@ -1165,8 +1166,16 @@ function pesquisaCNPJ() {
 
 
 }
+
+
 if (localStorage.getItem('atalhosContratos') == null) {
-    location.reload()
+   
+    const divCc = document.createElement('div')
+    divCc.classList.add('carregoLo')
+    divCc.innerHTML = `<img src="./src/imagens/loInicial.svg" alt="">
+    <p>CARREGAMENTO INICIAL. AGUARDE ...</p>`
+    document.body.appendChild(divCc)
+   location.reload()
 }
 function tirBorder() {
     document.querySelector('#cnpjGerado').style.border = 'green solid 1px'
@@ -1495,7 +1504,7 @@ function criarLembrete() {
         "textoL": textoLembrete,
         "data": dataLembrete
     }
-    data.push(lembrete)
+    data.unshift(lembrete)
 
     localStorage.setItem('postIt', JSON.stringify(data))
     location.reload()

@@ -1,5 +1,58 @@
 
 
+// async function carregaTodasCidades() {
+//     var todosDados = []
+//     for(let i = 10; i <= 23; i ++){
+       
+//        const response = await fetch(`./cidades-mg-20${i}`)
+//        var data = await response.json()
+
+//        const datad = data++
+
+//        console.log(todosDados.concat(`${datad}`))    
+      
+      
+//     }
+//     console.log(data) 
+    
+    
+ 
+//     // const response2010 = await fetch(url)
+//     // const response2011 = await fetch(url)
+//     // const response2012 = await fetch(url)
+//     // const response2013 = await fetch(url)
+//     // const response2014 = await fetch(url)
+//     // const response2015 = await fetch(url)
+//     // const response2016 = await fetch(url)
+//     // const response2017 = await fetch(url)
+//     // const response2018 = await fetch(url)
+//     // const response2019 = await fetch(url)
+//     // const response2020 = await fetch(url)
+//     // const response2021 = await fetch(url)
+//     // const response2022 = await fetch(url)
+//     // const response2023 = await fetch(url)
+//     // var data2010 = await response.json()
+//     // var data2011 = await response.json()
+//     // var data2012 = await response.json()
+//     // var data2013 = await response.json()
+//     // var data2014 = await response.json()
+//     // var data2015 = await response.json()
+//     // var data2016 = await response.json()
+//     // var data2017 = await response.json()
+//     // var data2018 = await response.json()
+//     // var data2019 = await response.json()
+//     // var data2020 = await response.json()
+//     // var data2021 = await response.json()
+//     // var data2022 = await response.json()
+//     // var data2023 = await response.json()
+
+//     //localStorage.setItem('cidadesterranua', JSON.stringify(data))
+
+// }
+
+// if(localStorage.getItem('cidadesterranua') == null){
+//     carregaTodasCidades()
+// }
 function gerarNomes(anoS) {
    // const url2016 = `./cidades-mg-${anoS}`
     const cidadeC = document.querySelector('#cidadeC')
@@ -11,16 +64,13 @@ function gerarNomes(anoS) {
         seletorCidade.setAttribute('value', nomeCity.nome);
         seletorCidade.textContent = nomeCity.nome;
         cidadeC.appendChild(seletorCidade)
-
-
-
     })
     
 }
 
 async function avaliacoes(anoS) {
     const url = `./cidades-mg-${anoS}`
-    console.log(url)
+    
     const cidadeCC = document.querySelector('#cidadeC')
     var cidadeC = cidadeCC.options[cidadeCC.selectedIndex].value
 
