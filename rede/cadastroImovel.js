@@ -1195,7 +1195,7 @@ function abriMInfoCNPJ() {
     const botaos = document.querySelectorAll('button')
 
     if (botaos[1].textContent != 'Fechar') {
-        botaos[1].textContent = 'Fechar'
+        botaos[1].innerHTML = `Fechar<i style="font-size: 1em;" class="bi bi-chevron-up"></i>`
     } else {
         botaos[1].textContent = 'Abrir Mais Informações do CNPJ'
     }
@@ -1229,9 +1229,17 @@ function favoritoPessoaJuridica(entrada) {
         localStorage.setItem('favoritosCNPJ', JSON.stringify(favoritos))
         botaos[3].disabled = true
         botaos[3].style.backgroundColor = 'gray'
-        document.querySelector('.cnpjEstaCadastrado').innerHTML = `FAVORITADO COM SUCESSO! <a href="./favoritos.html"><button style="background-color: green;" >FAVORITOS</button></a>`
+        const mostrInfoCNP = document.querySelectorAll('.cnpjEstaCadastrado')
+        for(let i = 0; i < mostrInfoCNP.length; i++){
+            mostrInfoCNP[i].innerHTML = `FAVORITADO COM SUCESSO! <a href="./favoritos.html"><button style="background-color: green;" >FAVORITOS</button></a>`
+        }
+        
     } else {
-        document.querySelector('.cnpjEstaCadastrado').innerHTML = `CNPJ JÁ SALVO NO SISTEMA! <a href="./favoritos.html"><button style="background-color: green;" >FAVORITOS</button></a>`
+        const mostrInfoCNPj = document.querySelectorAll('.cnpjEstaCadastrado')
+        for(let i = 0; i < mostrInfoCNPj.length; i++){
+            mostrInfoCNPj[i].innerHTML = `CNPJ JÁ SALVO NO SISTEMA! <a href="./favoritos.html"><button style="background-color: green;" >FAVORITOS</button></a>`
+        }
+        
     }
 
 

@@ -63,7 +63,7 @@ const MenuLateral = () => {
     <div>
     <p>FUTURO CONSULTORIA</p>
     <p>Bem-vindo</p>
-    <p>${nomeMostra}</p>
+    <a href="./perfil.html"><p>${nomeMostra}</p></a>
     <p>${dataDia} - <span id="horarioPad">${horaAt}</span></p>
     </div>
     

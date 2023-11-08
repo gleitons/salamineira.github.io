@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso</title>
+</head>
+<body>
+    <div id="ver">
+    </div>
+    <script>
+        var editais = []
+
+        function pegandoEditais() {
+            for (let i = 0; i < 1; i++) {
+                const url =
+
+                    pegarDados(`https://pt.wikipedia.org/wiki/Lagoa_dos_Patos_(Minas_Gerais)`)
+
+            }
+        }
+        pegandoEditais()
+
+
+        function pegarDados(endereco) {
+
+            fetch(endereco)
+                .then((resp) => resp.text())
+                .then(function (data) {
+                    ver.innerHTML = data
+
+                    var editais = []
+                 
+
+                })
+
+                .catch(function (error) {
+                    console.log(error)
+                });
+
+
+        }
+        </script>
+
+
+    
+</body>
+</html>
