@@ -4200,6 +4200,22 @@
   },
   {
     "id": "<span class='itensHtml'></span>",
+    "nome": "FELICIANO PEREIRA MOTA",
+    "sexo": "m",
+    "imagem": "",
+    "nascimento": "",
+    "falecimento": "26/10/2019",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "MINERVINA PEREIRA AMORIN",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Pirapora",
+    "estado": "MG",
+    "apelido": "Sr Feliciano"
+  },
+  {
+    "id": "<span class='itensHtml'></span>",
     "nome": "GERALDA CAETANO DOS SANTOS",
     "sexo": "f",
     "imagem": "",
