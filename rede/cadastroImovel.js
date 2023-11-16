@@ -1637,18 +1637,17 @@ function gravaFavoritoMaisInfo() {
     }
     dataEmp.push(empF)
     localStorage.setItem('empresasFavoritasPage', JSON.stringify(dataEmp))
-
-
-
     fechaAviso()
-
     editaInfoEmpresaFavorito(oCNPJ)
     reloadApagaEmpresaAMais(oCNPJ)
 
 }
+
 function reloadApagaEmpresaAMais(e) {
     deletaEmpresasFavoritasAMais(e)
 }
+
+
 function adicionaOutrasInfoNoCNPJ(e) {
     const dataEmp = JSON.parse(localStorage.getItem('empresasFavoritasPage'))
     const addMaisFavorita = document.querySelector('.addMaisFavorita')
@@ -1839,6 +1838,7 @@ const carregaEmpresasFavoritasLoad = async () => {
     }
     empFav.textContent = data.length
     await data.map((e, index) => {
+        //alterar quantidade e pesquisa
         const empresasL = geraEmpresaL(e, index)
 
     })
