@@ -8,7 +8,7 @@ async function geraF() {
     falecidos()
     insereImage()
 }
-homenagemDiaFalecidos()
+
 
 function insereImage() {
     const itensHtml = document.querySelectorAll('.itensHtml')
@@ -134,6 +134,7 @@ function tabelaEs(anoC) {
 }
 
 
+
 function contadorObitos() {
     const tabBelaBtn = document.querySelector('#btnTabela');
     const tabelaT = document.getElementById('tabEstatistica')
@@ -181,6 +182,7 @@ function contadorObitos() {
           </tr>`
     document.querySelector('#calculando').innerHTML = `<p>Média de : <strong>${Math.floor((total / totalQtd.length))}</strong> mortes por ano</p>`
 }
+
 function abrirTabela() {
     const telaTab = document.querySelector('#tabFalec');
     const bttab = document.querySelector('#btnTabela')
@@ -237,6 +239,7 @@ function montarOculto(numero) {
     printDiv.appendChild(divdoBtn)
     insereImage()
 }
+setTimeout('homenagemDiaFalecidos()', 2000)
 
 function montarCard(falec, apel, con, idadeF, mamae, tempoFalec, falecCodigo) {
     if (apel == undefined) apel = ""
