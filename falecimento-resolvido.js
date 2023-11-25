@@ -8,13 +8,14 @@ async function geraF() {
     falecidos()
     insereImage()
 }
+homenagemDiaFalecidos()
 
 function insereImage() {
     const itensHtml = document.querySelectorAll('.itensHtml')
-    for(let i = 0; i < itensHtml.length; i ++){
+    for (let i = 0; i < itensHtml.length; i++) {
         itensHtml[i].innerHTML = `<img src="https://static.wixstatic.com/media/154c4e_0f89712cd4e24c029520bff3c871e76d~mv2.png/v1/fill/w_640,h_258,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/154c4e_0f89712cd4e24c029520bff3c871e76d~mv2.png" alt="Falecimentos obitos mortes em lagoa dos patos mg">`
     }
-   
+
 }
 
 geraF()
@@ -92,7 +93,7 @@ function falecidos() {
             const mensa = [numeroM1, numeroM2, numeroM3, numeroM4]
             const apresenta = mensa[Math.floor(Math.random() * (4 - 1) + 1)]
             const homenagemFalecido = document.querySelector('#homenagemFalecido')
-            
+
             var divGera = document.createElement('div')
             divGera.setAttribute('class', 'infoLutos');
             const divBottom = document.createElement('div')
@@ -526,7 +527,7 @@ function montarEnvio(falec, apel, con, idadeF) {
         </div>
     </div>
 </div>`
-   div.innerHTML = dadosDt
+    div.innerHTML = dadosDt
     //return div
 }
 
@@ -710,6 +711,44 @@ function diaFalecidos(falecimento) {
 
 }
 
+function homenagemDiaFalecidos() {
+    const data = JSON.parse(localStorage.getItem('falecidos'))
+    const anexar = document.querySelector('.falecimentoPassado')
+    const dH = new Date()
+    const hoje = `${dH.getDate()}/${dH.getMonth() + 1}/${dH.getFullYear()}`
+    const dataCompara = `${dH.getDate()}/${dH.getMonth() + 1}`
+    const anoCo = dH.getFullYear()
+    data.map((e) => {
+        const diaMes = e.falecimento.split('/')
+        const diaFa = diaMes[0]
+        const mesFa = diaMes[1]
+        const anoFa = diaMes[2]
+        const comF = `${diaFa}/${mesFa}`
+        const anosPassados = anoCo - anoFa
+        if (dataCompara == comF) {
+            console.log(e.imagem)
+            const imgFalecido = e.imagem == '' ? 'https://i.giphy.com/media/11S1Zy5SPIqv84/giphy.webp' : e.imagem
+            const qtdAnos = anosPassados == 1 ? 'ano</strong> se passou' : 'anos</strong> se passaram'
+            console.log(e.falecimento)
+            anexar.innerHTML += `<div class="hojeSePassa">
+                        <div style="background-image: url(${imgFalecido});">                            
+                        </div>
+                        <span>
+                        
+                            <h2>${e.nome}</h2>
+                            <h3>Hoje ${hoje}, <strong>${anosPassados} ${qtdAnos} desde sua partida, sinceros sentimentos aos familiares confortando seus corações e que <strong>${e.nome}</strong> esteja em um bom lugar.</h3>
+                            <i class="bi bi-heartbreak-fill"></i> ${e.falecimento}
+                        </span>
+                        <img src="/falecimento/valas-acesas.gif" alt="">
+                        
+                    </div>`
+        }
+        //setTimeout('document.querySelector('.atendimentoWhats').remove()', 5000)
+        
+
+    })
+
+}
 
 function mensagens(numero) {
     return [{
