@@ -128,6 +128,9 @@ const todosParlamentaresOn =  () => {
     mesDoNiver.innerHTML = ` <h4>${meses[parseInt(dataHoje()[3])]} de ${new Date().getFullYear()} </h4>`
     //aniversarioHoje.innerHTML = ''
 
+    var niveH = 0
+    var niveM = 0
+
     data.map((aniversario, index) => {
         const idade = calcularIdade(aniversario.nascimento)
         const idadeAdmissao = calcularIdade(aniversario.admissao)
@@ -140,10 +143,12 @@ const todosParlamentaresOn =  () => {
 
         if (aniversario.genero != 'm') {
             var sexo = './img/niver-m.png'
+            niveM  = niveM + 1
         } else {
             var sexo = './img/niver-h.jpg'
+            niveH = niveH + 1
         }
-
+        
 
         if (dataMEs == dataHoje()[4]) {
             aniversarioHoje.innerHTML += `
@@ -250,8 +255,8 @@ const todosParlamentaresOn =  () => {
 
 
         infoNoLegislativo.innerHTML = `
-        ${homens}: Servidores </br> 
-        ${mulheres}: Servidoras </br> 
+        <strong>${homens}</strong>: Servidores </br> 
+        <strong>${mulheres}</strong>: Servidoras </br> 
         Total de ${totServidores} Servidores </br> 
         * Em Atualização <br>
         >>Informações Interessantes: <br>
@@ -422,4 +427,4 @@ function verServidores(numb) {
     }
 
 }
-mostraImagemGrande()
+//mostraImagemGrande()

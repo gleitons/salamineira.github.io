@@ -936,6 +936,22 @@
   },
   {
     "id": "<span class='itensHtml'></span>",
+    "nome": "JANUARIA FONSECA LEITE",
+    "sexo": "f",
+    "imagem": "",
+    "nascimento": "",
+    "falecimento": "14/03/2019",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "ODALIA DOS SANTOS",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Lagoa dos Patos",
+    "estado": "MG",
+    "apelido": ""
+  },
+  {
+    "id": "<span class='itensHtml'></span>",
     "nome": "MARIA APARECIDA CAETANO LIMA",
     "sexo": "f",
     "imagem": "/falecimento/cida-de-marcolino-max.png",
@@ -4304,12 +4320,12 @@
     "falecimento": "13/01/2021",
     "nota": "",
     "obito": "Não identificado",
-    "mae": "",
+    "mae": "CALISTA P DA FONSECA",
     "natural": "Lagoa dos Patos - MG",
     "estadoFalecimento": "MG",
-    "LocalFalecimento": "",
+    "LocalFalecimento": "Lagoa dos Patos - MG",
     "estado": "MG",
-    "apelido": "Janu"
+    "apelido": ""
   },
   {
     "id": "<span class='itensHtml'></span>",
