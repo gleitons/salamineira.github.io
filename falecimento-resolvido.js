@@ -715,11 +715,19 @@ function diaFalecidos(falecimento) {
 }
 
 function homenagemDiaFalecidos() {
+    
     const data = JSON.parse(localStorage.getItem('falecidos'))
     const anexar = document.querySelector('.falecimentoPassado')
     const dH = new Date()
-    const hoje = `${dH.getDate()}/${dH.getMonth() + 1}/${dH.getFullYear()}`
-    const dataCompara = `${dH.getDate()}/${dH.getMonth() + 1}`
+    const hoje = `${dH.getDate()}/${dH.getMonth()}/${dH.getFullYear()}`
+    if(dH.getDate().toString().length == 1){
+        var diaAddZero = '0' + dH.getDate()
+    } else {
+        var diaAddZero =  dH.getDate()
+    }
+    const dataCompara = `${diaAddZero}/${dH.getMonth()}`
+
+   
     const anoCo = dH.getFullYear()
     data.map((e) => {
         const diaMes = e.falecimento.split('/')
@@ -727,8 +735,11 @@ function homenagemDiaFalecidos() {
         const mesFa = diaMes[1]
         const anoFa = diaMes[2]
         const comF = `${diaFa}/${mesFa}`
+       
         const anosPassados = anoCo - anoFa
+        console.log(dataCompara )
         if (dataCompara == comF) {
+            console.log(dataCompara == comF)
             console.log(e.imagem)
             const imgFalecido = e.imagem == '' ? 'https://i.giphy.com/media/11S1Zy5SPIqv84/giphy.webp' : e.imagem
             const qtdAnos = anosPassados == 1 ? 'ano</strong> se passou' : 'anos</strong> se passaram'

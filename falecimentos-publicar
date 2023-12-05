@@ -4312,6 +4312,38 @@
     "apelido": "Nina"
   },
   {
+    "id": "<img src='/falecimento/alcio-02.png' alt=''>",
+    "nome": "ALCIO ALESSANDRO SOUZA SILVA",
+    "sexo": "m",
+    "imagem": "/falecimento/alcio.png",
+    "nascimento": "19/09/1986",
+    "falecimento": "05/06/2020",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "ANGELINA DA CONCEICAO SOUZA SILVA",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Luziania",
+    "estado": "GO",
+    "apelido": "Alcio"
+  },
+  {
+    "id": "<span class='itensHtml'></span>",
+    "nome": "ANGELINA DA CONCEICAO SOUZA SILVA",
+    "sexo": "f",
+    "imagem": "",
+    "nascimento": "",
+    "falecimento": "17/05/2006",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "MARIA ANUNCIACAO DA CONCEICAO",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Lagoa dos Patos - MG",
+    "estado": "MG",
+    "apelido": "Dona Angelina"
+  },
+  {
     "id": "<span class='itensHtml'></span>",
     "nome": "JANUARIA FONSECA LEITE",
     "sexo": "f",
