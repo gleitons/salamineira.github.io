@@ -719,20 +719,23 @@ function homenagemDiaFalecidos() {
     const data = JSON.parse(localStorage.getItem('falecidos'))
     const anexar = document.querySelector('.falecimentoPassado')
     const dH = new Date()
-    const hoje = `${dH.getDate()}/${dH.getMonth()}/${dH.getFullYear()}`
+    const hoje = `${dH.getDate()}/${dH.getMonth() + 1}/${dH.getFullYear()}`
+    
     if(dH.getDate().toString().length == 1){
         var diaAddZero = '0' + dH.getDate()
     } else {
         var diaAddZero =  dH.getDate()
     }
-    const dataCompara = `${diaAddZero}/${dH.getMonth()}`
+    const dataCompara = `${diaAddZero}/${dH.getMonth() + 1}`
+
+    
 
    
     const anoCo = dH.getFullYear()
     data.map((e) => {
         const diaMes = e.falecimento.split('/')
         const diaFa = diaMes[0]
-        const mesFa = diaMes[1]
+        const mesFa = diaMes[1] 
         const anoFa = diaMes[2]
         const comF = `${diaFa}/${mesFa}`
        
@@ -750,7 +753,7 @@ function homenagemDiaFalecidos() {
                         <span>
                         
                             <h2>${e.nome}</h2>
-                            <h3>Hoje ${hoje}, <strong>${anosPassados} ${qtdAnos} desde sua partida, sinceros sentimentos aos familiares confortando seus corações e que <strong>${e.nome}</strong> esteja em um bom lugar.</h3>
+                            <h3>Hoje ${dataCompara + '/'+ anoFa}, <strong>${anosPassados} ${qtdAnos} desde sua partida, sinceros sentimentos aos familiares confortando seus corações e que <strong>${e.nome}</strong> esteja em um bom lugar.</h3>
                             <i class="bi bi-heartbreak-fill"></i> ${e.falecimento}
                         </span>
                         <img src="/falecimento/valas-acesas.gif" alt="">
