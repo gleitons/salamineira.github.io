@@ -1063,14 +1063,14 @@
     "apelido": ""
   },
   {
-    "id": "<span class='itensHtml'></span>",
+    "id": "<img src='/falecimento/guiligui.jpg' alt='guiligui'>",
     "nome": "HERCULANO XAVIER FILHO",
     "sexo": "m",
-    "imagem": "",
-    "nascimento": "",
+    "imagem": "/falecimento/guiligue-frente.png",
+    "nascimento": "10/01/1990",
     "falecimento": "10/07/2010",
     "nota": "",
-    "obito": "Não identificado",
+    "obito": "acidente de moto",
     "mae": "MARIA DETICE XAVIER CAETANO",
     "natural": "Lagoa dos Patos - MG",
     "estadoFalecimento": "MG",
@@ -1624,8 +1624,24 @@
   },
   {
     "id": "<span class='itensHtml'></span>",
-    "nome": "ALTINA GONÇALVES",
+    "nome": "HERCULANO XAVIER FILHO",
     "sexo": "m",
+    "imagem": "",
+    "nascimento": "",
+    "falecimento": "16/01/1998",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Lagoa dos Patos",
+    "estado": "MG",
+    "apelido": ""
+  },
+  {
+    "id": "<span class='itensHtml'></span>",
+    "nome": "ALTINA GONÇALVES",
+    "sexo": "f",
     "imagem": "",
     "nascimento": "",
     "falecimento": "16/01/1998",
@@ -1735,11 +1751,11 @@
     "apelido": ""
   },
   {
-    "id": "<span class='itensHtml'></span>",
+    "id": "<img src='/falecimento/miuda.jpg' alt='miuda'>",
     "nome": "GERALDA MARIA LEITE",
     "sexo": "f",
-    "imagem": "",
-    "nascimento": "",
+    "imagem": "/falecimento/miuda-frente.png",
+    "nascimento": "08/10/1953",
     "falecimento": "04/05/2011",
     "nota": "",
     "obito": "Não identificado",
@@ -1748,7 +1764,7 @@
     "estadoFalecimento": "MG",
     "LocalFalecimento": "Lagoa dos Patos",
     "estado": "MG",
-    "apelido": ""
+    "apelido": "Dona Miúda"
   },
   {
     "id": "<span class='itensHtml'></span>",
@@ -1766,22 +1782,7 @@
     "estado": "MG",
     "apelido": ""
   },
-  {
-    "id": "<span class='itensHtml'></span>",
-    "nome": "GERALDA SOARES DA SILVA",
-    "sexo": "f",
-    "imagem": "",
-    "nascimento": "",
-    "falecimento": "14/12/2012",
-    "nota": "",
-    "obito": "Não identificado",
-    "mae": "LUCIA SOARES DOS SANTOS",
-    "natural": "Lagoa dos Patos - MG",
-    "estadoFalecimento": "MG",
-    "LocalFalecimento": "Lagoa dos Patos",
-    "estado": "MG",
-    "apelido": ""
-  },
+  
   {
     "id": "<span class='itensHtml'></span>",
     "nome": "GERALDA CAETANO DOS SANTOS",
@@ -1798,6 +1799,7 @@
     "estado": "MG",
     "apelido": ""
   },
+ 
   {
     "id": "<span class='itensHtml'></span>",
     "nome": "JOANA RAMOS DOS SANTOS",
@@ -2843,16 +2845,16 @@
     "nome": "JOAO ALVES MARTINS",
     "sexo": "m",
     "imagem": "",
-    "nascimento": "",
+    "nascimento": "15/05/1916",
     "falecimento": "26/12/2008",
-    "nota": "",
+    "nota": "FILHO DE LEOPOLDINA DIAS DE CASTRO E ANTÔNIO ALVES MARTINS",
     "obito": "Não identificado",
-    "mae": "LEOPOLDINA DIAS DE CASTRO",
+    "mae": "LEOPOLDINA DIAS DE CASTRO - Antônio Alves Martins",
     "natural": "Lagoa dos Patos - MG",
     "estadoFalecimento": "MG",
     "LocalFalecimento": "Lagoa dos Patos",
     "estado": "MG",
-    "apelido": ""
+    "apelido": "joão martins"
   },
   {
     "id": "<span class='itensHtml'></span>",
@@ -2896,6 +2898,22 @@
     "nota": "",
     "obito": "Não identificado",
     "mae": "FIRMINA ALVES DA SILVA",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Lagoa dos Patos",
+    "estado": "MG",
+    "apelido": ""
+  },
+  {
+    "id": "<img src='/falecimento/guiligui.jpg' alt='guiligui'>",
+    "nome": "ZEFERINO XAVIER CAETANO",
+    "sexo": "m",
+    "imagem": "/falecimento/zeferino-dona-neguinha.png",
+    "nascimento": "06/12/1984",
+    "falecimento": "03/02/1998",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "EULALIA XAVIER DA FONSECA",
     "natural": "Lagoa dos Patos - MG",
     "estadoFalecimento": "MG",
     "LocalFalecimento": "Lagoa dos Patos",
@@ -3111,11 +3129,73 @@
     "apelido": ""
   },
   {
+    "id": "",
+    "nome": "ANTÔNIA DE JESUS DOS REIS",
+    "sexo": "f",
+    "imagem": "",
+    "nascimento": "",
+    "falecimento": "13/12/2023",
+    "nota": "Vai ser difícil de superar, e você jamais esquecerá, mas acredite que, com o tempo, tudo ficará melhor. Pois o tempo trará serenidade e aceitação, e então só restará a saudade, mas, para combatê-la, você terá as lembranças que guardará para sempre.",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Lagoa dos Patos",
+    "estado": "MG",
+    "apelido": "Dona Antônia"
+  },
+  {
+    "id": " <img src='/falecimento/carlos-alberto-c-b.jpg' alt='carlos-alberto-c-b'>",
+    "nome": "CARLOS ALBERTO CARNEIRO BAVOSA",
+    "sexo": "m",
+    "imagem": "/falecimento/hoio.png",
+    "nascimento": "14/08/1933",
+    "falecimento": "21/03/1996",
+    "nota": "PENSE EM MIM Se você me ama, não chore. Se  você conhecesse o  mistério insondável do céu, onde me encontro... Se  você pudesse ver e  sentir o  que eu sinto e ve­jo nesses horizontes sem  fim e  nesta  luz que tudo alcança e penetra, você   jamais choraria  por mim. Estou agora absorvido pelo encanto de Deus, pelas suas expressões de infinita beleza. Em confronto com esta nova vida, as coisas do tempo passado são pequenas e insignificantes. Conservo ainda todo o meu afeto por você, e uma ternura que jamais lhe pude, em verdade revelar. Amamo-nos eternamente em vida, mas tudo era então muito fugaz e limitado. Vivo na serena expectativa de sua chegada, um dia... entre nós. Pense em mim assim: nas suas lutas, pense nesta maravilhosa mora­da, onde não existe a morte e onde, juntos viveremos no  enlevo mais puro e mais in­tenso, junto à fonte inesgotável da alegria e do amor, Se  você, verdadeiramente me ama, não chore mais por mim. Eu estou em paz.",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Lagoa dos Patos",
+    "estado": "MG",
+    "apelido": "hoiô"
+  },
+  {
+    "id": "",
+    "nome": "CARLOS",
+    "sexo": "m",
+    "imagem": "",
+    "nascimento": "",
+    "falecimento": "11/12/2023",
+    "nota": "Saber do falecimento foi sem dúvida uma notícia triste e envio agora meus pêsames, para você e para sua família. Estarei aqui para o que você precisar. Não quero que você desanime, mas sim que tenha forças para continuar.",
+    "obito": "Não identificado",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Buritizeiro",
+    "estado": "MG",
+    "apelido": "Carlos de Mariano"
+  },
+  {
+    "id": "<img src='/falecimento/negao-verdade-img.jpg' alt='guiligui'>",
+    "nome": "JOSE DE JESUS LEITE",
+    "sexo": "m",
+    "imagem": "/falecimento/negao-verdade.png",
+    "nascimento": "17/10/1941",
+    "falecimento": "09/09/1995",
+    "nota": "Você foi... E só nos deixou a dor e a saudade, só com o conforto do amor de Deus, nos será suportável essa separação. Mas temos a grandiosa certeza que um dia nos encontraremos. Você não morreu, estará sempre presente em nossos corações. Saudades de familiares, parentes e amigos.",
+    "obito": "Não identificado",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Lagoa dos Patos",
+    "estado": "MG",
+    "apelido": "Negão Verdade"
+  },
+  {
     "id": "<span class='itensHtml'></span>",
     "nome": "DOMINGOS DE ALMEIDA",
     "sexo": "m",
     "imagem": "",
-    "nascimento": "",
+    "nascimento": "28/10/1929",
     "falecimento": "25/07/2009",
     "nota": "",
     "obito": "Não identificado",
@@ -3124,7 +3204,7 @@
     "estadoFalecimento": "MG",
     "LocalFalecimento": "Lagoa dos Patos",
     "estado": "MG",
-    "apelido": ""
+    "apelido": "Domingo Quininha"
   },
   {
     "id": "<span class='itensHtml'></span>",
@@ -4167,22 +4247,7 @@
     "estado": "MG",
     "apelido": ""
   },
-  {
-    "id": "<span class='itensHtml'></span>",
-    "nome": "GERALDA MARIA LEITE",
-    "sexo": "f",
-    "imagem": "",
-    "nascimento": "",
-    "falecimento": "04/05/2011",
-    "nota": "",
-    "obito": "Não identificado",
-    "mae": "DONINA LEITE DA FONSECA",
-    "natural": "Lagoa dos Patos - MG",
-    "estadoFalecimento": "MG",
-    "LocalFalecimento": "Lagoa dos Patos",
-    "estado": "MG",
-    "apelido": ""
-  },
+ 
   {
     "id": "<span class='itensHtml'></span>",
     "nome": "GERALDA COSTA LIMA",
