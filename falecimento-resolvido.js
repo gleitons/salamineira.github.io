@@ -1,6 +1,7 @@
 const url = '/falecimentos-publicar';
 localStorage.setItem('imgHomem', '/coroa-homem-mulher-online.jpg')
 const imgH = localStorage.getItem('imgHomem');
+
 async function geraF() {
     const response = await fetch(url);
     const data = await response.json();

@@ -833,7 +833,8 @@ fieldset {
   cursor: pointer;
 }
 header {
-  background-color: #7d7f81;
+  /* background-color: #7d7f81; */
+  background-image: url('https://cdn.myanimelist.net/images/event/2016_christmas/bg_menu_anime.gif?v=1634263200');
   width: 100%;
   text-align: center;
   align-items: center;
@@ -1076,7 +1077,8 @@ main {
 .topo-menu {
   padding: 15px;
   min-height: 70px;
-  background-color: #2e2e2e;
+  /* background-color: #2e2e2e; */
+  background-image: url('https://cdn.myanimelist.net/images/event/2016_christmas/bg_menu_anime.gif?v=1634263200');
   width: 100%;
 }
 .dnone {
