@@ -80,7 +80,7 @@ async function carregaFuncionarios() {
         Admissao.innerHTML = `ADMISSÃO: <input type="text" name="" id="" value="${mostraFunc.admissao}">`
 
         const cargo = document.createElement('p')
-        cargo.innerHTML = `CARGO: ${mostraFunc.cargo}`
+        cargo.innerHTML = `CARGO: <input type="text" name="" id="" value="${mostraFunc.cargo}"> `
 
 
         divFunci.appendChild(nomeF);
@@ -120,12 +120,12 @@ async function mostraInfo(idF) {
         
         if(nomeFuncionario == mostraFunc.nome + " " + mostraFunc.cpf ||  porSearch == mostraFunc.nome + " " + mostraFunc.cpf) {
             mostraFuncionario.innerHTML = ` <div class="loadFuncionario">
-                <p id="nommeDoFunc">NOME: ${mostraFunc.nome}</p>
+                <p >NOME: <input type="text" name="" id="nommeDoFunc" value="${mostraFunc.nome}" placeholder="ex: Nome Completo"></p>
                 <p>MATRICULA: <input type="text" name="" id="matriculaDoFunc" value="${mostraFunc.matricula}" placeholder="ex: 1745"></p>
                 <p>CPF: <input type="text" name="" id="cpfDoFunc" value="${mostraFunc.cpf}" placeholder="ex: 083.030.206-92"></p>
                 <p>ADMISSÃO: <input type="text" name="" id="admissaoDoFunc" value="${mostraFunc.admissao}" placeholder="ex: 21/12/21"></p>
-                <p id="cargoDoFunc">CARGO: ${mostraFunc.cargo}</p>
-                <a style="padding:5px; text-decoration:none; cursor:pointer; background-color: green; border:none; border-radius: 8px; color: white;"  onclick="enviarDados()"><button>Gerar Cadastro</button></a>
+                <p >CARGO: <input type="text" name="" id="cargoDoFunc" value="${mostraFunc.cargo}" placeholder="ex: AGENTE DE DESEN..."></p> </p>
+                
             </div>`
             
         }
@@ -133,7 +133,7 @@ async function mostraInfo(idF) {
 }
 
 function enviarDados() {
-    const nommeDoFunc = document.querySelector('#nommeDoFunc').innerHTML
+    const nommeDoFunc = document.querySelector('#nommeDoFunc').value
     const matriculaDoFunc = document.querySelector('#matriculaDoFunc').value
     const cpfDoFunc = document.querySelector('#cpfDoFunc').value
     const admissaoDoFunc = document.querySelector('#admissaoDoFunc').value
@@ -212,7 +212,9 @@ async function imprimLivro() {
     const cabecaTabela = document.querySelector('#cabecatabela');
 
     var ass = ["", "", "", "", "", "SÁBADO", "DOMINGO"];
-    var feriados = ["<p>* FERIADOS EM JANEIRO:</p> <li>20 - Dia de São Sebastião - Feriado Municipal</li>", "<p>* FERIADOS EM FEVEREIRO:</p> <li>20 - Segunda Feira de carnaval</li> <li>21 - Carnaval - Feriado Nacional</li> <li>22 - Quarta feira de cinzas / ponto Facultativo</li>", "<p>* FERIADOS EM MARÇO:</p> <li>01 - Aniversário da cidade de Lagoa dos Patos MG</li>", "<p>* FERIADOS EM ABRIL:</p> <li>07 - Paixão de Cristo - Feriado Nacional</li> <li>21 de Abril - Tiradentes - Feriado Nacional</li>", "<p>* FERIADOS EM MAIO:</p> <li>01 - Dia do Trabalho - Feriado Nacional</li>", "<p>* FERIADOS EM JUNHO:</p> <li>08 - Corpus Christi / Facultativo - Feriado Nacional</li>", "<p>* FERIADOS EM JULHO:</p> <li>NÃO EXISTEM FERIADOS MUNICIPAIS NESTA DATA</li>", "<p>* FERIADOS EM JULHO:</p> <li>NÃO EXISTEM FERIADOS MUNICIPAIS PARA ESTA DATA</li>", "<p>* FERIADOS EM AGOSTO:</p> <li>NÃO EXISTEM FERIADOS MUNICIPAIS PARA ESTA DATA</li>", "<p>* FERIADOS EM SETEMBRO:</p> <li>07 - Independência do Brasil - Feriado Nacional</li>", "<p>* FERIADOS EM OUTUBRO:</p> <li>12 - Dia de Nossa Senhora Aparecida - Feriado Nacional</li>", "<p>* FERIADOS EM NOVEMBRO:</p> <li>02 - Novembro, Finados - Feriado Nacional</li> <li>15 de novembro, Proclamação da República - Feriado Nacional</li>", "<p>* FERIADOS EM DEZEMBRO:</p> <li>25 - Natal - Feriado Nacional</li>"]
+    var feriados2024 = ["<p>* FERIADOS EM JANEIRO:</p> <li>01 - Confraternização Universal</li> <li>20 - Dia de São Sebastião - Feriado Municipal</li>", "<p>* FERIADOS EM FEVEREIRO:</p> <li>12 - Carnaval</li> <li>13 - Carnaval</li> <li>22 - Quarta feira de cinzas / ponto Facultativo</li>", "<p>* FERIADOS EM MARÇO:</p> <li>01 - Aniversário da cidade de Lagoa dos Patos MG</li> <li>29 - Paixão de Cristo</li>", "<p>* FERIADOS EM ABRIL:</p> <li>21 de Abril - Tiradentes - Feriado Nacional</li>", "<p>* FERIADOS EM MAIO:</p> <li>01 - Dia do Trabalho - Feriado Nacional</li> <li>08 - Corpus Christi / Facultativo - Feriado Nacional</li>", "<p>* FERIADOS EM JUNHO:</p> <li>-</li>", "<p>* FERIADOS EM JULHO:</p> <li>NÃO EXISTEM FERIADOS MUNICIPAIS NESTA DATA</li>", "<p>* FERIADOS EM JULHO:</p> <li>NÃO EXISTEM FERIADOS MUNICIPAIS PARA ESTA DATA</li>", "<p>* FERIADOS EM AGOSTO:</p> <li>NÃO EXISTEM FERIADOS MUNICIPAIS PARA ESTA DATA</li>", "<p>* FERIADOS EM SETEMBRO:</p> <li>07 - Independência do Brasil - Feriado Nacional</li>", "<p>* FERIADOS EM OUTUBRO:</p> <li>12 - Dia de Nossa Senhora Aparecida - Feriado Nacional</li>", "<p>* FERIADOS EM NOVEMBRO:</p> <li>02 - Novembro, Finados - Feriado Nacional</li> <li>15 de novembro, Proclamação da República - Feriado Nacional</li> <li>20 de novembro - Dia Nacional de Zumbi e da Consciência Negra</li>", "<p>* FERIADOS EM DEZEMBRO:</p> <li>25 - Natal - Feriado Nacional</li>"]
+
+    var feriados2023 = ["<p>* FERIADOS EM JANEIRO:</p> <li>20 - Dia de São Sebastião - Feriado Municipal</li>", "<p>* FERIADOS EM FEVEREIRO:</p> <li>20 - Segunda Feira de carnaval</li> <li>21 - Carnaval - Feriado Nacional</li> <li>22 - Quarta feira de cinzas / ponto Facultativo</li>", "<p>* FERIADOS EM MARÇO:</p> <li>01 - Aniversário da cidade de Lagoa dos Patos MG</li>", "<p>* FERIADOS EM ABRIL:</p> <li>07 - Paixão de Cristo - Feriado Nacional</li> <li>21 de Abril - Tiradentes - Feriado Nacional</li>", "<p>* FERIADOS EM MAIO:</p> <li>01 - Dia do Trabalho - Feriado Nacional</li>", "<p>* FERIADOS EM JUNHO:</p> <li>08 - Corpus Christi / Facultativo - Feriado Nacional</li>", "<p>* FERIADOS EM JULHO:</p> <li>NÃO EXISTEM FERIADOS MUNICIPAIS NESTA DATA</li>", "<p>* FERIADOS EM JULHO:</p> <li>NÃO EXISTEM FERIADOS MUNICIPAIS PARA ESTA DATA</li>", "<p>* FERIADOS EM AGOSTO:</p> <li>NÃO EXISTEM FERIADOS MUNICIPAIS PARA ESTA DATA</li>", "<p>* FERIADOS EM SETEMBRO:</p> <li>07 - Independência do Brasil - Feriado Nacional</li>", "<p>* FERIADOS EM OUTUBRO:</p> <li>12 - Dia de Nossa Senhora Aparecida - Feriado Nacional</li>", "<p>* FERIADOS EM NOVEMBRO:</p> <li>02 - Novembro, Finados - Feriado Nacional</li> <li>15 de novembro, Proclamação da República - Feriado Nacional</li>", "<p>* FERIADOS EM DEZEMBRO:</p> <li>25 - Natal - Feriado Nacional</li>"]
 
 
     // for (let index = 0; index <= data.length; index++) {        
@@ -305,19 +307,18 @@ async function imprimLivro() {
     // var mesF = document.querySelector('#mesF').value = smesReferencia;
 
     
-    const nommeDoFuncs = document.querySelector('#nommeDoFunc').innerHTML
-    const nommeDoFunc = nommeDoFuncs.replace('NOME: ','')
+    const nommeDoFunc = document.querySelector('#nommeDoFunc').value    
     const matriculaDoFunc = document.querySelector('#matriculaDoFunc').value
     const cpfDoFunc = document.querySelector('#cpfDoFunc').value
     const admissaoDoFunc = document.querySelector('#admissaoDoFunc').value
-    const cargoDoFunc = document.querySelector('#cargoDoFunc').innerHTML;
+    const cargoDoFunc = document.querySelector('#cargoDoFunc').value;
     const enviarFo = document.querySelector('#enviarFo')
+
+    console.log(cargoDoFunc)
 
     
 
-    data.map((func) => {
-        if (func.nome == nommeDoFunc) {
-            var ctabela = `<tr>
+   var ctabela = `<tr>
     <td colspan="3">
         <p>EMPREGADOR: NOME / EMPRESA</p>
         <h5>PREFEITURA MUNICIPAL DE LAGOA DOS PATOS</h5>
@@ -376,7 +377,7 @@ async function imprimLivro() {
     </td>
     <td colspan="0" hidden>
         <p>DATA DE ADMISSÃO</p>
-        <h5>22/09/2023</h5>
+        <h5></h5>
     </td>
     
 </tr>
@@ -395,18 +396,31 @@ async function imprimLivro() {
     </td>
     
 </tr>`
-            cabecaTabela.innerHTML = ctabela;
-        }
-   });
-    if (anoReferencia == '2023') {
+
+cabecaTabela.innerHTML = ctabela;
+
+
+if (anoReferencia == '2023') {
         footTab.innerHTML = `<div>
     <p>* O MÊS DE ${smesReferencia} POSSUI ${temDias} DIAS.</p>
 </div>
-${feriados[feriadoDia]}`
+${feriados2023[feriadoDia]}`
     } else {
         footTab.innerHTML = `<div>
     <p>* O MÊS DE FEVEREIRO POSSUI ${temDias} DIAS.</p>
 </div>` }
+
+if (anoReferencia == '2024') {
+    footTab.innerHTML = `<div>
+<p>* O MÊS DE ${smesReferencia} POSSUI ${temDias} DIAS.</p>
+</div>
+${feriados2024[feriadoDia]}`
+} else {
+    footTab.innerHTML = `<div>
+<p>* O MÊS DE FEVEREIRO POSSUI ${temDias} DIAS.</p>
+</div>` }
+
+
     titleFol.innerHTML = comparaFuncionario + " - " + smesReferencia + "-" + anoReferencia
     window.print()
     geradorL.innerHTML = `<button onclick=" imprimir()"  >IMPRIMIR NOVAMENTE</button>

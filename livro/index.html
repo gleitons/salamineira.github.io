@@ -30,10 +30,10 @@
             <div id="fechT" onclick="fecharIn()">
                 <div id="infoCadastroF">
                     Servidores Cadastrados: ... <br>
-        CPF incluído: ....<br>
-        Sem CPF: ....<br>
-        Com Admissão: ....<br>
-        Sem Admissão: ....<br>
+                    CPF incluído: ....<br>
+                    Sem CPF: ....<br>
+                    Com Admissão: ....<br>
+                    Sem Admissão: ....<br>
                     <!-- <div class="loadingio-spinner-gear-draxp31wok7">
                         <div class="ldio-crrm5s15m4e">
                             <div>
@@ -130,7 +130,7 @@
 
             </div>
             <div class="mNoturno" onclick="modoNoite()">
-                <i class="bi bi-toggles" >Mode</i>
+                <i class="bi bi-toggles">Mode</i>
                 <!-- <i class=" bi bi-moon-stars-fill" >Dark</i> -->
             </div>
 
@@ -142,109 +142,16 @@
                         placeholder="Comece a digitar - Busca Servidor">
                     <button onclick="location.reload()">Limpar</button>
                 </div>
-                <!-- style="display:none;"-->
+            
                 <ol id='listServidor' style="display:none;">
 
-
-                    <!-- <li class="servidorSelecionado">Cat</li>
-                    <li class="servidorSelecionado">Dog</li>
-                    <li class="servidorSelecionado">Elephant</li>
-                    <li class="servidorSelecionado">Fish</li>
-                    <li class="servidorSelecionado">Gorilla</li>
-                    <li class="servidorSelecionado">Monkey</li>
-                    <li class="servidorSelecionado">Turtle</li>
-                    <li class="servidorSelecionado">Whale</li>
-                    <li class="servidorSelecionado">Aligator</li>
-                    <li class="servidorSelecionado">Donkey</li>
-                    <li class="servidorSelecionado">Horse</li> -->
                 </ol>
                 <div id="loadFuncionario">
                     Carregando...
-                    <!-- <div class="loadingio-spinner-magnify-lkk9g5s648o">
-                        <div class="ldio-kvk1dkp76bf">
-                            <div>
-                                <div>
-                                    <div></div>
-                                    <div></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <style type="text/css">
-                        @keyframes ldio-kvk1dkp76bf {
-                            0% {
-                                transform: translate(2px, 2px)
-                            }
-
-                            33.33% {
-                                transform: translate(102px, 2px)
-                            }
-
-                            66.66% {
-                                transform: translate(42px, 102px)
-                            }
-
-                            100% {
-                                transform: translate(2px, 2px)
-                            }
-                        }
-
-
-                        .ldio-kvk1dkp76bf>div {
-                            transform: scale(0.8);
-                            transform-origin: 10px 10px;
-                        }
-
-                        .ldio-kvk1dkp76bf>div>div {
-                            animation: ldio-kvk1dkp76bf 1s linear infinite;
-                            position: absolute
-                        }
-
-                        .ldio-kvk1dkp76bf>div>div div:nth-child(1) {
-                            width: 72px;
-                            height: 72px;
-                            border-radius: 50%;
-                            border: 12px solid #e90c59;
-                            background: #46dff0
-                        }
-
-                        .ldio-kvk1dkp76bf>div>div div:nth-child(2) {
-                            width: 17px;
-                            height: 51px;
-                            transform: rotate(-45deg);
-                            background: #e90c59;
-                            border-radius: 0 0 8px 8px;
-                            position: absolute;
-                            top: 68px;
-                            left: 85px
-                        }
-
-                        .loadingio-spinner-magnify-lkk9g5s648o {
-                            width: 200px;
-                            height: 200px;
-                            display: inline-block;
-                            overflow: hidden;
-                            background: #ffffff;
-                        }
-
-                        .ldio-kvk1dkp76bf {
-                            width: 100%;
-                            height: 100%;
-                            position: relative;
-                            transform: translateZ(0) scale(1);
-                            backface-visibility: hidden;
-                            transform-origin: 0 0;
-                            /* see note above */
-                        }
-
-                        .ldio-kvk1dkp76bf div {
-                            box-sizing: content-box;
-                        }
-
-                        /* generated by https://loading.io/ */
-                    </style>-->
-                </div> 
+              
+                </div>
                 <legend>Funcionário</legend>
+                <h5>Para gerar uma folha com novo funcionário: Pesquise por novo</h5>
                 <select name="" id="nomeFuncionario" onchange="mostraInfo()"
                     style="visibility: hidden; margin-top:-22px;">
                     <option value=" ">EM BRANCO</option>
@@ -300,14 +207,18 @@
                     <option value="">Selecione Acima</option>
                 </select>
 
+                
                 <td>Mês:</td>
                 <input type="text" name="" value="" id="" placeholder="Selecione anteriormente" hidden>
             </fieldset>
             <fieldset>
                 <legend>Ano de referência</legend>
                 <select name="" id="anorefi">
+                    <option value="2027">2027</option>
+                    <option value="2026">2026</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
                     <option value="2023">2023</option>
-
                     <option value="2022">2022</option>
                     <option value="2021">2021</option>
                     <option value="2020">2020</option>
@@ -380,6 +291,9 @@
                 </fieldset>
 
             </fieldset>
+            <!-- <div>
+                <a style="padding:5px; text-decoration:none; cursor:pointer; background-color: green; border:none; border-radius: 8px; color: white;"  onclick="enviarDados()"><button>Gerar Cadastro</button></a>
+            </div> -->
 
             <div id="geradorL">
                 <button onclick="startFolha()">GERAR FOLHA DE PONTO</button>

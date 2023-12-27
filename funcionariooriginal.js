@@ -124,11 +124,11 @@ function cadastrarFuncionario() {
 async function arra(funcionaCadastro) {
     const respo = await fetch(urlL)
     var data = await respo.json();
-     data.sort( function(a,b) {
-        if(a.nome > b.nome) return 1;
-        if(a.nome < b.nome) return -1;
+    data.sort(function (a, b) {
+        if (a.nome > b.nome) return 1;
+        if (a.nome < b.nome) return -1;
         return 0
-    }) ;
+    });
 
     var dadosFuncionario = [funcionaCadastro];
     for (let index = 0; index < dadosFuncionario.length; index++) {
@@ -263,7 +263,9 @@ async function imprimLivro() {
     const cabecaTabela = document.querySelector('#cabecatabela');
 
     var ass = ["", "", "", "", "", "SÁBADO", "DOMINGO"];
-    var feriados = ["<p>* FERIADOS EM JANEIRO:</p> <li>20 - Dia de São Sebastião - Feriado Municipal</li>", "<p>* FERIADOS EM FEVEREIRO:</p> <li>20 - Segunda Feira de carnaval</li> <li>21 - Carnaval - Feriado Nacional</li> <li>22 - Quarta feira de cinzas / ponto Facultativo</li>", "<p>* FERIADOS EM MARÇO:</p> <li>01 - Aniversário da cidade de Lagoa dos Patos MG</li>", "<p>* FERIADOS EM ABRIL:</p> <li>07 - Paixão de Cristo - Feriado Nacional</li> <li>21 de Abril - Tiradentes - Feriado Nacional</li>", "<p>* FERIADOS EM MAIO:</p> <li>01 - Dia do Trabalho - Feriado Nacional</li>", "<p>* FERIADOS EM JUNHO:</p> <li>08 - Corpus Christi / Facultativo - Feriado Nacional</li>", "<p>* FERIADOS EM JULHO:</p> <li>NÃO EXISTEM FERIADOS MUNICIPAIS NESTA DATA</li>", "<p>* FERIADOS EM JULHO:</p> <li>NÃO EXISTEM FERIADOS MUNICIPAIS PARA ESTA DATA</li>", "<p>* FERIADOS EM AGOSTO:</p> <li>NÃO EXISTEM FERIADOS MUNICIPAIS PARA ESTA DATA</li>", "<p>* FERIADOS EM SETEMBRO:</p> <li>07 - Independência do Brasil - Feriado Nacional</li>", "<p>* FERIADOS EM OUTUBRO:</p> <li>12 - Dia de Nossa Senhora Aparecida - Feriado Nacional</li>", "<p>* FERIADOS EM NOVEMBRO:</p> <li>02 - Novembro, Finados - Feriado Nacional</li> <li>15 de novembro, Proclamação da República - Feriado Nacional</li>", "<p>* FERIADOS EM DEZEMBRO:</p> <li>25 - Natal - Feriado Nacional</li>"]
+    var feriados2024 = ["<p>* FERIADOS EM JANEIRO:</p> <li>20 - Dia de São Sebastião - Feriado Municipal</li>", "<p>* FERIADOS EM FEVEREIRO:</p> <li>20 - Segunda Feira de carnaval</li> <li>21 - Carnaval - Feriado Nacional</li> <li>22 - Quarta feira de cinzas / ponto Facultativo</li>", "<p>* FERIADOS EM MARÇO:</p> <li>01 - Aniversário da cidade de Lagoa dos Patos MG</li>", "<p>* FERIADOS EM ABRIL:</p> <li>07 - Paixão de Cristo - Feriado Nacional</li> <li>21 de Abril - Tiradentes - Feriado Nacional</li>", "<p>* FERIADOS EM MAIO:</p> <li>01 - Dia do Trabalho - Feriado Nacional</li>", "<p>* FERIADOS EM JUNHO:</p> <li>08 - Corpus Christi / Facultativo - Feriado Nacional</li>", "<p>* FERIADOS EM JULHO:</p> <li>NÃO EXISTEM FERIADOS MUNICIPAIS NESTA DATA</li>", "<p>* FERIADOS EM JULHO:</p> <li>NÃO EXISTEM FERIADOS MUNICIPAIS PARA ESTA DATA</li>", "<p>* FERIADOS EM AGOSTO:</p> <li>NÃO EXISTEM FERIADOS MUNICIPAIS PARA ESTA DATA</li>", "<p>* FERIADOS EM SETEMBRO:</p> <li>07 - Independência do Brasil - Feriado Nacional</li>", "<p>* FERIADOS EM OUTUBRO:</p> <li>12 - Dia de Nossa Senhora Aparecida - Feriado Nacional</li>", "<p>* FERIADOS EM NOVEMBRO:</p> <li>02 - Novembro, Finados - Feriado Nacional</li> <li>15 de novembro, Proclamação da República - Feriado Nacional</li>", "<p>* FERIADOS EM DEZEMBRO:</p> <li>25 - Natal - Feriado Nacional</li>"]
+
+    var feriados2023 = ["<p>* FERIADOS EM JANEIRO:</p> <li>20 - Dia de São Sebastião - Feriado Municipal</li>", "<p>* FERIADOS EM FEVEREIRO:</p> <li>20 - Segunda Feira de carnaval</li> <li>21 - Carnaval - Feriado Nacional</li> <li>22 - Quarta feira de cinzas / ponto Facultativo</li>", "<p>* FERIADOS EM MARÇO:</p> <li>01 - Aniversário da cidade de Lagoa dos Patos MG</li>", "<p>* FERIADOS EM ABRIL:</p> <li>07 - Paixão de Cristo - Feriado Nacional</li> <li>21 de Abril - Tiradentes - Feriado Nacional</li>", "<p>* FERIADOS EM MAIO:</p> <li>01 - Dia do Trabalho - Feriado Nacional</li>", "<p>* FERIADOS EM JUNHO:</p> <li>08 - Corpus Christi / Facultativo - Feriado Nacional</li>", "<p>* FERIADOS EM JULHO:</p> <li>NÃO EXISTEM FERIADOS MUNICIPAIS NESTA DATA</li>", "<p>* FERIADOS EM JULHO:</p> <li>NÃO EXISTEM FERIADOS MUNICIPAIS PARA ESTA DATA</li>", "<p>* FERIADOS EM AGOSTO:</p> <li>NÃO EXISTEM FERIADOS MUNICIPAIS PARA ESTA DATA</li>", "<p>* FERIADOS EM SETEMBRO:</p> <li>07 - Independência do Brasil - Feriado Nacional</li>", "<p>* FERIADOS EM OUTUBRO:</p> <li>12 - Dia de Nossa Senhora Aparecida - Feriado Nacional</li>", "<p>* FERIADOS EM NOVEMBRO:</p> <li>02 - Novembro, Finados - Feriado Nacional</li> <li>15 de novembro, Proclamação da República - Feriado Nacional</li>", "<p>* FERIADOS EM DEZEMBRO:</p> <li>25 - Natal - Feriado Nacional</li>"]
 
 
     // for (let index = 0; index <= data.length; index++) {        
@@ -438,6 +440,8 @@ async function imprimLivro() {
             cabecaTabela.innerHTML = ctabela;
         }
     });
+
+
     if (anoReferencia == '2023') {
         footTab.innerHTML = `<div>
     <p>* O MÊS DE ${smesReferencia} POSSUI ${temDias} DIAS.</p>
@@ -447,6 +451,8 @@ ${feriados[feriadoDia]}`
         footTab.innerHTML = `<div>
     <p>* O MÊS DE FEVEREIRO POSSUI ${temDias} DIAS.</p>
 </div>` }
+
+
     titleFol.innerHTML = comparaFuncionario + " - " + smesReferencia + "-" + anoReferencia
     window.print()
     geradorL.innerHTML = `<button onclick=" imprimir()"  >IMPRIMIR NOVAMENTE</button>
