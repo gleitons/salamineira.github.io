@@ -1,3 +1,11 @@
+const verificaAs = document.querySelectorAll('a')
+
+for(let i = 0; i < verificaAs.length; i++){
+    console.log(verificaAs[i].href == 'https://asconstrutora.com.br/' )
+    verificaAs[i].href = 'https://asconstrutora.netlify.app/'
+}
+
+
 function bannerPrincipal() {
 
     return `<div class="hero">

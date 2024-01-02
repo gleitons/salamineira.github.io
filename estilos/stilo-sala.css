@@ -833,8 +833,8 @@ fieldset {
   cursor: pointer;
 }
 header {
-  /* background-color: #7d7f81; */
-  background-image: url('https://cdn.myanimelist.net/images/event/2016_christmas/bg_menu_anime.gif?v=1634263200');
+  background-color: #7d7f81;
+  /* background-image: url('https://cdn.myanimelist.net/images/event/2016_christmas/bg_menu_anime.gif?v=1634263200'); */
   width: 100%;
   text-align: center;
   align-items: center;
@@ -1078,8 +1078,9 @@ main {
   padding: 15px;
   min-height: 70px;
   /* background-color: #2e2e2e; */
-  background-image: url('https://cdn.myanimelist.net/images/event/2016_christmas/bg_menu_anime.gif?v=1634263200');
+  background-image: url('https://i.pinimg.com/originals/64/db/fb/64dbfb279110e5730b698a752532605b.gif');
   width: 100%;
+  background-size: cover;
 }
 .dnone {
   display: none;
