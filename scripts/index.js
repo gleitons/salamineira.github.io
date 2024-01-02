@@ -1,13 +1,13 @@
-const verificaAs = document.querySelectorAll('a')
+// const verificaAs = document.querySelectorAll('a')
 
-for(let i = 0; i < verificaAs.length; i++){
-    console.log( )
+// for(let i = 0; i < verificaAs.length; i++){
+//     console.log( )
 
-    if(verificaAs[i].href == 'https://asconstrutora.com.br/') {
-        verificaAs[i].href = 'https://asconstrutora.netlify.app/'
-    }
-    
-}
+//     if(verificaAs[i].href == 'https://asconstrutora.com.br/') {
+//         verificaAs[i].href = 'https://asconstrutora.netlify.app/'
+//     }
+
+// }
 
 
 function bannerPrincipal() {
@@ -15,11 +15,12 @@ function bannerPrincipal() {
     return `<div class="hero">
     <img src="/imagens-sala/lagoa-dos-patos-mg-hero.jpg" />
     <h1 class="btn-saiba-mais"></h1>           
-    </div>`;   
+    </div>`;
 
-    
+
 }
-if(document.querySelector('#Patrocinadores') != null){
+
+if (document.querySelector('#Patrocinadores') != null) {
     const carregaApoiadores = async () => {
         const response = await fetch('/campeonato-de-futebol-pirapora')
         const data = await response.json()
@@ -43,15 +44,15 @@ function menuMob() {
 }
 function promocaoIndex() {
 
-    
+
     decMEI2022()
 
     const menu = MenuPrincipal();
 
-    
+
     //compressThumb();
-    
-    
+
+
     const ads = `<aside>
     <p>
     A Sala Mineira do Empreendedor é o resultado da parceria entre o SEBRAE MINAS e a JUCEMG – Junta Comercial do Estado de Minas Gerais. Ela foi desenvolvida para melhorar e simplificar o ambiente de negócios em todo Estado, atuando lado a lado com as administrações municipais, oferecendo apoio para empreendimentos de todos os portes.
@@ -60,7 +61,7 @@ function promocaoIndex() {
     
     
 </aside>`
-    
+
     covidRecente()
     menuPrincipal.innerHTML = `${MenuPrincipal()}`
     ADSTopo.innerHTML = ``
@@ -68,12 +69,12 @@ function promocaoIndex() {
     promocoesIndex.innerHTML = `${ads}  ${maisArtigos()} `
     footerM.innerHTML = footerMenu();
     //headMenu.innerHTML = `${menuTop()}`    
-    
+
 }
 
 function carregarImage() {
     bannerF.innerHTML = `${bannerPrincipal()}`;
-    
+
 }
 
 
@@ -113,18 +114,18 @@ function fechaProp() {
 
 
 
-function fixaNoTopoM()  {
+function fixaNoTopoM() {
     const navv = document.getElementById('sol');
     const topNavi = navv.offsetTop;
 
-   if (window.pageYOffset >= topNavi) {
+    if (window.pageYOffset >= topNavi) {
         topNavi.classList.add("fixaTop");
     } else {
         topNavi.classList.remove("fixaTop");
     }
-    
+
 }
-function menuTop(){
+function menuTop() {
     return `<div class="topo-sala Quebra">
     <div>
         <a class="logoM" href="/">
@@ -175,7 +176,7 @@ function selecioneTipoForm() {
         paraCPF.classList.add("cnPJ");
         paraCNPJ.classList.remove("cnPJ");
 
-    } else if (selecTipo =="CPF") {
+    } else if (selecTipo == "CPF") {
         avcpfcnpj.setAttribute('style', 'display: none')
         classdoForm.classList.remove('DFlex');
         setaD.setAttribute('style', 'display: none')
@@ -189,24 +190,24 @@ function selecioneTipoForm() {
         avcpfcnpj.setAttribute('style', 'display: block')
     }
 
-    
-        
-     
-    
+
+
+
+
 }
 
 
 function adsNoArtigo() {
-    
-    
 
-    
+
+
+
 
     const menu = MenuPrincipal();
     const adsense = Math.floor(Math.random() * 6) + 1;
-    
 
-    
+
+
     menuPrincipal.innerHTML = menu;
     const adsGoogle = `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8921692840146247"
     crossorigin="anonymous"></script>
@@ -228,31 +229,31 @@ function adsNoArtigo() {
         <p>Visite Nosso Blog</p></br><a href="/blog/"><img class="brilho" src="/imagens-sala/visite-nosso-blog.jpg" /></a></br></br>${artigosLagoadosPatos()}
         
     </aside>`
-    } else if(adsense == 2) {
-        adsScreen = `${maisArtigos()}`   
-    } else if(adsense == 3) {
+    } else if (adsense == 2) {
+        adsScreen = `${maisArtigos()}`
+    } else if (adsense == 3) {
         adsScreen = `<a href="/divulgue-aqui.html"><img class="brilho" src="/imagens-sala/anuncie-gratis-aqui-salamineira.jpg" /></a></br>
-        ${artigosSalaMineira()}`   
+        ${artigosSalaMineira()}`
     }
-    else if(adsense == 4) {
-        adsScreen = `<p>Visite Nosso Blog</p></br><a href="/blog/"><img class="brilho" src="/imagens-sala/visite-nosso-blog.jpg" /></a></br></br>${artigosLagoadosPatos()}`   
+    else if (adsense == 4) {
+        adsScreen = `<p>Visite Nosso Blog</p></br><a href="/blog/"><img class="brilho" src="/imagens-sala/visite-nosso-blog.jpg" /></a></br></br>${artigosLagoadosPatos()}`
     }
-    else if(adsense == 5) {
-        adsScreen = `${artigosSalaMineira()}`   
+    else if (adsense == 5) {
+        adsScreen = `${artigosSalaMineira()}`
     }
-    else if(adsense == 6) {
-        adsScreen = `${artigosLagoadosPatos()}`   
+    else if (adsense == 6) {
+        adsScreen = `${artigosLagoadosPatos()}`
     } else {
         adsScreen = `<p>Visite Nosso Blog</p></br><a href="/blog/"><img class="brilho" src="/imagens-sala/visite-nosso-blog.jpg" /></a></br>
         ${artigosSalaMineira()}`
     }
 
-     adsArtigo.innerHTML = `${adsScreen}`
+    adsArtigo.innerHTML = `${adsScreen}`
     propArtifo.innerHTML = `${adsGoogle}`
 
     footerM.innerHTML = footerMenu();
 
-    
+
 
 }
 
@@ -371,12 +372,12 @@ function footerMenu() {
 </div>`
 }
 
-function fecharBD(){
+function fecharBD() {
     document.getElementById('decMei').style.display = "none"
 }
 function decMEI2022() {
 
-    
+
     const n = rdo();
     const imagen = `https://salamineira.com/declaracao-mei-2022/declaracao-mei-2022-lagoa-dos-patos-mg-${n}.jpeg`
 
@@ -387,8 +388,8 @@ function decMEI2022() {
     <p>Clique na imagem para acessar</p>
 </div>`
 }
-function rdo(){
-    return Math.floor(Math.random() *6);
+function rdo() {
+    return Math.floor(Math.random() * 6);
 }
 // document.getElementById('modalIndex').innerHTML = `<div id="myModal" class="modal">
 //             <!-- Modal content -->
@@ -430,7 +431,7 @@ async function buscaCNPJB() {
         const reve = data.data_situacao_cadastral != null ? data.data_situacao_cadastral.split('-').reverse() : ''
         console.log(reve)
         var uatualiza = `${reve[0]}/${reve[1]}/${reve[2]}`
-      
+
 
         vejamosS.innerHTML = `
         
@@ -472,7 +473,7 @@ async function buscaCNPJB() {
             <i class="bi bi-x-square-fill" onclick="fecharCNP()">FECHAR</i>
         </div>`
 
-        for(let i = 0; i < data.cnaes_secundarios.length; i++){
+        for (let i = 0; i < data.cnaes_secundarios.length; i++) {
             const fSecond = `<br>${data.cnaes_secundarios[i].descricao} <br>`
             atvSec.innerHTML += fSecond
         }
@@ -508,9 +509,9 @@ async function cadastroCNPJB() {
     if (data.cnpj != undefined || pesquisaCN.toString().lenght > 0) {
 
         const reve = data.data_situacao_cadastral != null ? data.data_situacao_cadastral.split('-').reverse() : ''
-      
+
         var uatualiza = `${reve[0]}/${reve[1]}/${reve[2]}`
-        
+
         const cnpjC = `${data.cnpj[0]}${data.cnpj[1]}.${data.cnpj[2]}${data.cnpj[3]}${data.cnpj[4]}.${data.cnpj[5]}${data.cnpj[6]}${data.cnpj[7]}/${data.cnpj[8]}${data.cnpj[9]}${data.cnpj[10]}${data.cnpj[11]}-${data.cnpj[12]}${data.cnpj[13]}`
 
         vejamosS.innerHTML = `
@@ -530,7 +531,7 @@ async function cadastroCNPJB() {
                 </div>
         </span>`
 
-       
+
 
 
     } else if (pesquisaCN.lenght == undefined) {
@@ -551,14 +552,14 @@ function empresaR() {
         "fantasia": nfantaR,
         "cidade": cidadeR
     }]
-    if(localStorage.getItem('empresaR') != null){
+    if (localStorage.getItem('empresaR') != null) {
         const arrEmpresaR = JSON.parse(localStorage.getItem('empresaR'))
         console.log(arrEmpresaR)
         arrEmpresaR.push(maisEmpresa)
 
         console.log(arrEmpresaR)
         localStorage.setItem('empresaR', JSON.stringify(maisEmpresa))
-        
+
         regarregaEmpresass()
 
         cdrasto.innerHTML = ` <div class="cEmpresa">
@@ -567,9 +568,9 @@ function empresaR() {
         <br> <br>
         <a ><button onclick="fechar(), preencheDadoss()" >FECHAR</button></a>
             </div>`
-    } 
+    }
 }
-if(localStorage.getItem('empresaR') == null) {localStorage.setItem('empresaR', '[]')}
+if (localStorage.getItem('empresaR') == null) { localStorage.setItem('empresaR', '[]') }
 
 function fechar() {
     cdrasto.innerHTML = ''
@@ -578,8 +579,8 @@ function regarregaEmpresass() {
     const cdrasto = document.querySelector('#empresasss')
     const empre = JSON.parse(localStorage.getItem('empresaR'))
     console.log(empre[0])
-    for(let i = 0; i < empre.length; i++){
-       
+    for (let i = 0; i < empre.length; i++) {
+
         cdrasto.innerHTML += `<option value="${i}" >${empre[i].razao} - ${empre[i].cnpj}</option>`
     }
 
@@ -616,25 +617,25 @@ async function editaisEmAb() {
     for (let index = 0; index < cardEdita.length; index++) {
         const element = cardEdita[index];
         const modl = modal[index];
-       
+
         element.remove(element)
         element.remove(modl)
-        
+
     }
     data.map((editalt, index) => {
-        
-        if(editalt.processo.toString().replace(/ /g,'').length > 10){
-        if(editalt.situacao == "Situação : Aberta") {
-            var imageSituacao = '/img-editais/edital-aberto.jpg'
-        } else if(editalt.situacao == "Situação : Em andamento")  {
-            var imageSituacao = '/img-editais/edital-em-andamento.jpg'
-        } else if(editalt.situacao == "Situação : Revogada")  {
-            var imageSituacao = '/img-editais/edital-revogado.jpg'
-        } else {
-            var imageSituacao = '/img-editais/edital-finalizado.jpg'
-        }
-        if(index < 5){
-            editaisEmAberto.innerHTML += `    <div class="cardEdita" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal_${index}" >
+
+        if (editalt.processo.toString().replace(/ /g, '').length > 10) {
+            if (editalt.situacao == "Situação : Aberta") {
+                var imageSituacao = '/img-editais/edital-aberto.jpg'
+            } else if (editalt.situacao == "Situação : Em andamento") {
+                var imageSituacao = '/img-editais/edital-em-andamento.jpg'
+            } else if (editalt.situacao == "Situação : Revogada") {
+                var imageSituacao = '/img-editais/edital-revogado.jpg'
+            } else {
+                var imageSituacao = '/img-editais/edital-finalizado.jpg'
+            }
+            if (index < 5) {
+                editaisEmAberto.innerHTML += `    <div class="cardEdita" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal_${index}" >
         <div class="luzRefletor"></div>
         <div class="infoEditalS">
             <p>${editalt.processo.replace(/PREGÃO PRESENCIAL/gi, 'P.P')}</p>
@@ -664,15 +665,15 @@ async function editaisEmAb() {
     </div>
 </div>
     `
-        }
-        
+            }
+
         }
     })
     spinLoad.remove()
     //console.clear()
     console.log('www.gleiton.com.br')
     console.warn('Por: Gleiton Soares')
-    
+
 }
 
 document.querySelector('#editaisEmAberto') != null ? editaisEmAb() : ''
@@ -703,3 +704,8 @@ async function geraAba(valor) {
     </div>
 </div>`
 }
+
+document.querySelectorAll('a[href="https://asconstrutora.com.br"]').forEach(link => {
+    console.log(link)
+    link.href = 'https://asconstrutora.netlify.app/';
+});
