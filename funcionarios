@@ -8,6 +8,28 @@
     "admissao": "",
     "cargo": ""
   },{
+    "nome": "CLAUDIA NUNES DOS REIS",
+    "nomeFolha": "CLAUDIA",
+    "matricula": "2293",
+    "cpf": "845.437.956-87",
+    "admissao": "06/11/2023",
+    "cargo": "ASSISTENTE ADMINISTRATIVO - EFETIVO"
+  },{
+    "nome": "CASSIA EMANUELA LEITE SOARES",
+    "nomeFolha": "cassia",
+    "matricula": "2278",
+    "cpf": "102.563.276-10",
+    "admissao": "10/05/2023",
+    "cargo": "ASSISTENTE ADMINISTRATIVO - EFETIVO"
+  }
+  ,{
+    "nome": "MERCYA EDIOSMANIA PEREIRA LEITE",
+    "nomeFolha": "mercya",
+    "matricula": "2267",
+    "cpf": "112.145.456-96",
+    "admissao": "03/04/2023",
+    "cargo": "CHEFE DE SEÇÃO"
+  },{
     "nome": "DAMARIZE ALMEIDA FONSECA",
     "nomeFolha": "dama",
     "matricula": "1679",
