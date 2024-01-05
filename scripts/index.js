@@ -9,6 +9,12 @@
 
 // }
 
+const favi = document.createElement('link')
+favi.setAttribute('rel', 'shortcut icon' )
+favi.setAttribute('href', '/favicon.ico' )
+favi.setAttribute('type', 'image/x-icon' )
+
+document.querySelector('head').appendChild(favi)
 
 function bannerPrincipal() {
 
