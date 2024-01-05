@@ -165,6 +165,7 @@ function startFolha() {
 
     if (confere.length > 0 && confereFunc.length > 0) {
         imprimLivro();
+        
     } else {
         //alert("Por favor, confira o mês de referencia e funcionário");
         const colorirMes = document.querySelector('#cMes');
@@ -420,8 +421,10 @@ ${feriados2024[feriadoDia]}`
 <p>* O MÊS DE FEVEREIRO POSSUI ${temDias} DIAS.</p>
 </div>` }
 
+    const nof = document.querySelector('#nommeDoFunc').value
 
     titleFol.innerHTML = comparaFuncionario + " - " + smesReferencia + "-" + anoReferencia
+    document.querySelector('title').textContent = `${nof} - ${smesReferencia} de ${anoReferencia}`
     window.print()
     geradorL.innerHTML = `<button onclick=" imprimir()"  >IMPRIMIR NOVAMENTE</button>
     <button onclick="location.reload()">NOVO</button>`
