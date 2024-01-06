@@ -145,7 +145,7 @@ function contadorObitos() {
     var total = 0;
     var totHomens = 0;
     var totMulheres = 0;
-    var fimI = 2023
+    var fimI = 2050
     var inici = 1982
     const oneP = fimI - inici
     const fimP = oneP / 100;
