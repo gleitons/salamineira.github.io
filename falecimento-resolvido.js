@@ -1,5 +1,6 @@
 const url = '/falecimentos-publicar';
-localStorage.setItem('imgHomem', '/coroa-homem-mulher-online.jpg')
+localStorage.setItem('imgHomem', 'https://l3gado.s3.amazonaws.com/l3gado/arquivos/vela_site/gif1.gif')
+///coroa-homem-mulher-online.jpg
 const imgH = localStorage.getItem('imgHomem');
 
 async function geraF() {
@@ -54,7 +55,7 @@ function falecidos() {
         const falecimento = falec.falecimento;
         if (falec.imagem == '') falec.imagem = imgH;
         if (falec.nascimento == "") {
-            falec.nascimento = "Desconhecido"
+            falec.nascimento = " Nascimento"
         };
 
         if (falec.sexo == 'm') {
@@ -75,7 +76,7 @@ function falecidos() {
 
         const anoF = falec.falecimento.split('/');
         const anoN = falec.nascimento.split('/');
-        if (falec.nascimento == 'Desconhecido') {
+        if (falec.nascimento == ' Nascimento') {
             var idadeF = '';
 
         } else {
@@ -245,7 +246,7 @@ setTimeout('homenagemDiaFalecidos()', 2000)
 function montarCard(falec, apel, con, idadeF, mamae, tempoFalec, falecCodigo) {
     if (apel == undefined) apel = ""
     if (mamae == undefined) mamae = ""
-    if (falec.nascimento == '') falec.nascimento = ' Desconhecido'
+    if (falec.nascimento == '') falec.nascimento = ' Nascimento'
     if (falec.imagem == '') falec.imagem = '/coroa-homem-mulher-online.jpg';
     console.log(falecCodigo)
     const divCodigo = document.createElement('div')
