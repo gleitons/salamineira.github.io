@@ -721,14 +721,24 @@ function homenagemDiaFalecidos() {
     const data = JSON.parse(localStorage.getItem('falecidos'))
     const anexar = document.querySelector('.falecimentoPassado')
     const dH = new Date()
-    const hoje = `${dH.getDate()}/${dH.getMonth() + 1}/${dH.getFullYear()}`
+    if(dH.getMonth().toString().length == 1){
+        var mesAddZero = '0' + (dH.getMonth() + 1)
+    } else {
+        var mesAddZero =  (dH.getMonth() + 1)
+    }
+    const hoje = `${dH.getDate()}/${mesAddZero }/${dH.getFullYear()}`
+
+    console.log(hoje)
     
     if(dH.getDate().toString().length == 1){
         var diaAddZero = '0' + dH.getDate()
     } else {
         var diaAddZero =  dH.getDate()
     }
-    const dataCompara = `${diaAddZero}/${dH.getMonth() + 1}`
+    
+    console.log(mesAddZero)
+
+    const dataCompara = `${diaAddZero}/${mesAddZero}`
 
     
 
