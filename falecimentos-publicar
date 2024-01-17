@@ -16,6 +16,38 @@
     "apelido": ""
   },
   {
+    "id": "<span class='itensHtml'></span>",
+    "nome": "PEDRO AUGUSTO DE SOUZA",
+    "sexo": "m",
+    "imagem": "https://reurbldp.sirv.com/Images/sr-pedro.png?w=300&h=300&scale.option=ignore",
+    "nascimento": "",
+    "falecimento": "08/01/2024",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Lagoa dos Patos",
+    "estado": "MG",
+    "apelido": "Sr° Pedro"
+  },
+  {
+    "id": "<span class='itensHtml'></span>",
+    "nome": "JOSE EDMILSON PEREIRA NUNES",
+    "sexo": "m",
+    "imagem": "",
+    "nascimento": "",
+    "falecimento": "21/12/2023",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Lagoa dos Patos",
+    "estado": "MG",
+    "apelido": "Zé de Mariano"
+  },
+  {
     "id": "<div> <h4>Imagens</h4> <img src='/falecimento/diego-da-luz.jpg' alt=''> </div>",
     "nome": "DIEGO DA LUZ",
     "sexo": "m",
