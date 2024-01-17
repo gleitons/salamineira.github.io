@@ -247,7 +247,9 @@ function montarCard(falec, apel, con, idadeF, mamae, tempoFalec, falecCodigo) {
     if (apel == undefined) apel = ""
     if (mamae == undefined) mamae = ""
     if (falec.nascimento == '') falec.nascimento = ' Nascimento'
-    if (falec.imagem == '') falec.imagem = '/coroa-homem-mulher-online.jpg';
+    //https://l3gado.s3.amazonaws.com/l3gado/arquivos/vela_site/gif1.gif
+    ///coroa-homem-mulher-online.jpg
+    if (falec.imagem == '') falec.imagem = 'https://l3gado.s3.amazonaws.com/l3gado/arquivos/vela_site/gif1.gif';
     console.log(falecCodigo)
     const divCodigo = document.createElement('div')
     divCodigo.innerHTML = ``
