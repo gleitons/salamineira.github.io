@@ -1082,6 +1082,16 @@ main {
   width: 100%;
   background-size: cover;
 }
+.funcionamento button  {
+  background-color: rgb(72, 72, 250);
+  color: white;
+  font-weight: 600;
+}
+.funcionamento button a {
+ 
+  color: white;
+  font-weight: 700;
+}
 .dnone {
   display: none;
 }
