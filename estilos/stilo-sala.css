@@ -37,7 +37,18 @@
 .funcionamento p {
   color: white;
 }
-
+.avisoLetrasP {
+  width: 100%;
+  
+  color: white;
+  height: 50px;
+  
+}
+.avisoLetrasP p {
+  color: rgb(255, 236, 32);
+  font-weight: 700;
+  
+}
 .funcionamento div {
   font-size: 25px;
   display: flex;
