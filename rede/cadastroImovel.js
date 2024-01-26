@@ -835,7 +835,7 @@ function avisoS(aviso) {
     //document.querySelector('main').style.display = 'none'
     divP.innerHTML = ` <div >
     <button onclick="fechaAviso()">Fechar</button>
-    <p>${aviso}</p>
+    <span>${aviso}</span>
     <button onclick="fechaAviso()">Fechar</button>
     </div>`
     document.querySelector('body').appendChild(divP)

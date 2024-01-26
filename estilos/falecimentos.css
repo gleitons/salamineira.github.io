@@ -435,7 +435,7 @@ tfoot {
   width: 250px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 751px) {
   .falecidoRecente > div {
     width: 100%;
     margin: 0.2em 0em;

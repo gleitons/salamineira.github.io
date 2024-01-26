@@ -14,6 +14,7 @@
 </head>
 
 <body>
+   
     <header>
 
     </header>
@@ -43,10 +44,12 @@
 
                         </div>
                         <div>
-                            <p>Link IMG Logo:</p>
-                            <input type="text" id="linkImag"
+                           
+                            <p>Logo:</p>
+                            <input type="file" name="" accept="image/png,image/jpeg,image/jpg,image/gif" id="imgLoLogo" onchange="carregaI()">
+                            <input style="display: block;" type="text" id="linkImag"
                                 placeholder="ex: http://lagoadospatos.mg.gov.br/logo-lagoa-patos.png"
-                                value="http://lagoadospatos.mg.gov.br/wp-content/uploads/2021/02/logo-lagoa-patos.png">
+                                value="http://lagoadospatos.mg.gov.br/wp-content/uploads/2021/02/logo-lagoa-patos.png" disabled>
 
                         </div>
                         <div>
@@ -63,14 +66,15 @@
                             <input type="color" id="fundoColor" value="#d6d6d6">
                         </div>
                         <div>
-                            <p>Link da imagem Fundo:</p>
+                            <p>Fundo:</p>
+                            <input type="file" name="" accept="image/png,image/jpeg,image/jpg,image/gif" id="imgFuFundo" onchange="carregaI()">
                             <input type="text" id="linkImagfundo"
                                 value="http://lagoadospatos.mg.gov.br/wp-content/uploads/2021/02/logo-lagoa-patos.png"
-                                onkeyup="atualizarPerfilDigito()">
+                                onkeyup="atualizarPerfilDigito()" disabled>
                         </div>
                         <div>
                             <p>Posição da Imagem:</p>
-                            <select name="" id="pImageFundo">
+                            <select name="" id="pImageFundo" onchange="carregaI()">
                                 <option>Pequena</option>                               
                                 <option>Conteúdo Total</option>
                                 <option>Centralizada</option>   
@@ -86,6 +90,22 @@
                             <button onclick="resetaMenuEFundo()">Resetar Configurações</button>
                         </div>
 
+                        <div>
+                            <p>Predefinidos</p>
+                            <select name="" id="preCityFundo" onchange="carregaPre()">
+                                <option>Futuro Consultoria</option>  
+                                <option>Buritizeiro - MG</option>
+                                <option>Ibiaí - MG</option>    
+                                <option>Jequitaí - MG</option>                         
+                                <option>Lagoa dos Patos - MG</option>
+                                <option>Lassance - MG</option>
+                                <option>Pirapora - MG</option>
+                                <option>Ponto Chique - MG</option>
+                                <option>Várzea da Palma - MG</option>
+                               
+                                
+                            </select>
+                        </div>
 
                         </span>
 
@@ -107,6 +127,7 @@
 
     <script src="menuLateral.js"></script>
     <script src="cadastroImovel.js"></script>
+    <script src="carregaImg.js"></script>
 </body>
 
 <!-- Mirrored from tributos.netlify.app/contrato/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Sep 2023 11:16:27 GMT -->

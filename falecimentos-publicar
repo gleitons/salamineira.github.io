@@ -2292,7 +2292,7 @@
     "mae": "Leonora Maria de Jesus e Jose Alkimin Rabelo",
     "natural": "Lagoa dos Patos - MG",
     "estadoFalecimento": "MG",
-    "LocalFalecimento": "Lagoa dos Patos",
+    "LocalFalecimento": "Coração de Jesus",
     "estado": "MG",
     "apelido": "Dona Euza"
   },
@@ -3016,7 +3016,7 @@
   },
   {
     "id": "<img src='https://www.42frases.com.br/wp-content/uploads/2019/04/conforte-todos-os.jpg' alt='João Doido'>",
-    "nome": "joao alves cardoso",
+    "nome": "JOÃO ALVES CARDOSO",
     "sexo": "m",
     "imagem": "",
     "nascimento": "",
@@ -3028,7 +3028,7 @@
     "estadoFalecimento": "MG",
     "LocalFalecimento": "Montes Claros MG",
     "estado": "MG",
-    "apelido": "joão Doido"
+    "apelido": "João Doido"
   },
   {
     "id": "<span class='itensHtml'></span>",
@@ -5782,22 +5782,7 @@
     "estado": "MG",
     "apelido": ""
   },
-  {
-    "id": "<span class='itensHtml'></span>",
-    "nome": "CARMEINDO NERES DA FONSECA",
-    "sexo": "m",
-    "imagem": "",
-    "nascimento": "",
-    "falecimento": "13/04/2015",
-    "nota": "",
-    "obito": "Não identificado",
-    "mae": "MAXIMA NERES DE ARAUJO",
-    "natural": "Lagoa dos Patos - MG",
-    "estadoFalecimento": "MG",
-    "LocalFalecimento": "Lagoa dos Patos",
-    "estado": "MG",
-    "apelido": ""
-  },
+ 
   {
     "id": "<span class='itensHtml'></span>",
     "nome": "CARLOS DAMIAO FERREIRA DA SILVA",

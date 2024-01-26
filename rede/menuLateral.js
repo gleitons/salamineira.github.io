@@ -70,6 +70,10 @@ const MenuLateral = () => {
     <a href="./">
         <li><i class="bi bi-house-fill"></i> Inicio</li>
     </a>
+    <a href="./perfil.html">
+    <i class="bi bi-layout-text-window-reverse"></i> Perfil</li>
+    </a>
+    
     <p class="avisoDiv">Buscador S</p>
     <a href="./buscar-cnpj.html">
     <li><i class="bi bi-search"></i> Pesquisa Rápida</li>
@@ -88,29 +92,6 @@ const MenuLateral = () => {
     
     </ul>
     </li>  
-
-    <p class="avisoDiv">Atendimento SAS SEBRAE</p>
-
-    <li class="menuDrop"><i class="bi bi-receipt"></i> Atendimentos
-     <ul class="subMenu">
-        <a href="./atividades-concluidas.html">
-        <li><i class="bi bi-check-circle-fill"></i> Concluidos</li>
-        </a>  
-        <a href="./atendimento-sas-modelos.html">
-        <li><i class="bi bi-archive-fill"></i> Modelos</li>
-        </a>         
-        <a href="./cadastro-empresa.html">
-        <li><i class="bi bi-arrow-right-square-fill"></i> Cadastrar</li>
-        </a>   
-         <a href="./cadastro-imovel.html">
-             <li><i class="bi bi-pencil-fill"></i> Editar</li>
-         </a>       
-         <a href="./cadastro-endereco.html">
-             <li><i class="bi bi-x-circle"></i> Excluir</li>
-         </a>
-     </ul>
-    </li>  
-
     <li class="menuDrop"><i class="bi bi-folder-symlink-fill"></i> Atalho
      <ul class="subMenu">
         <a href="./criar-atalho.html">
@@ -129,10 +110,35 @@ const MenuLateral = () => {
      </ul>
     </li>  
 
+    <p class="avisoDiv">Atendimento SAS SEBRAE</p>
+
+    <li class="menuDrop"><i class="bi bi-receipt"></i> Atendimentos
+     <ul class="subMenu">
+        <a href="./atividades-concluidas.html">
+        <li><i class="bi bi-check-circle-fill"></i> Concluidos</li>
+        </a>  
+        <!-- <a href="./atendimento-sas-modelos.html">
+        <li><i class="bi bi-archive-fill"></i> Modelos</li>
+        </a>         
+        <a href="./cadastro-empresa.html">
+        <li><i class="bi bi-arrow-right-square-fill"></i> Cadastrar</li>
+        </a>   
+         <a href="./cadastro-imovel.html">
+             <li><i class="bi bi-pencil-fill"></i> Editar</li>
+         </a>       
+         <a href="./cadastro-endereco.html">
+             <li><i class="bi bi-x-circle"></i> Excluir</li>
+         </a>
+         --!>
+     </ul>
+    </li>  
+
+    
+
 
 
     
-    <p class="avisoDiv">+ Opções</p>
+    <!-- <p class="avisoDiv">+ Opções</p>
 
     <li class="menuDrop"><i class="bi bi-gear-fill"></i> Opções
      <ul class="subMenu">
@@ -147,7 +153,7 @@ const MenuLateral = () => {
     <li><i class="bi bi-file-earmark-arrow-down-fill"></i> Documentação</li>
     </a> 
     
-    </li>  
+    </li>  --!>
  </nav>`
  setInterval('horario()', 1000)
 
@@ -308,6 +314,19 @@ document.querySelector('footer').innerHTML += `  <div class="atalhosTelaDesktop 
         </a>
     </div>
 </abbr>
+<abbr title="REMOVER COR PISCANDO">
+    <div>
+        <a href="./perfil.html">
+            <img src="./src/img/icons/editar-perfil.png" alt="Novo Atalho">
+    
+        </a>
+    </div>
+</abbr>
 
 </div>`
 
+
+document.querySelectorAll('a[href="https://gleiton.com.br"]').forEach(link => {
+    console.log(link)
+    link.href = 'https://gleiton.vercel.app/servicos';
+});

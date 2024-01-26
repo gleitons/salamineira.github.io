@@ -13,57 +13,87 @@
     },
     {
         "id":2,
-        "imagem": "./src/img/icons/editar-contrato.png",
-        "texto": "Editar Contrato",
-        "link": "https://google.com"
+        "imagem": "./src/img/icons/botao-atualizar.png",
+        "texto": "ATUALIZAR MEI",
+        "link": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/atualizacao-cadastral-de-mei"
     },
     {
         "id":3,
-        "imagem": "./src/img/icons/editar-imovel.png",
-        "texto": "Editar Imóvel",
-        "link": "https://google.com"
+        "imagem": "./src/img/icons/conta.png",
+        "texto": "BOLETO DAS",
+        "link": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao"
     },
     {
         "id":4,
-        "imagem": "./src/img/icons/adicionar-imovel.png",
-        "texto": "Adicionar Imóvel",
-        "link": "https://google.com"
+        "imagem": "https://ialkyrog.sirv.com/sala/icones/guia-financeiro.png",
+        "texto": "PARCELAMENTO",
+        "link": "https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=19"
     },
     {
         "id":5,
-        "imagem": "./src/img/icons/editar-endereco.png",
-        "texto": "Editar Endereço",
-        "link": "https://google.com"
+        "imagem": "./src/img/icons/impostos.png",
+        "texto": "DIVIDA ATIVA",
+        "link": "https://www.regularize.pgfn.gov.br/login"
     },
     {
         "id":6,
-        "imagem": "./src/img/icons/vendedor.png",
-        "texto": "Adicionar Vendedor",
-        "link": "https://google.com"
+        "imagem": "https://ialkyrog.sirv.com/sala/icones/cadastrar-empresa.png",
+        "texto": "PERGUNTAS FREQUENTES",
+        "link": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/perguntas-frequentes"
     },
     {
         "id":7,
-        "imagem": "./src/img/icons/cadastrar-empresa.png",
-        "texto": "Cadastrar Empresa",
-        "link": "https://google.com"
+        "imagem": "https://ialkyrog.sirv.com/sala/icones/maos.png",
+        "texto": "DECLARAÇÃO",
+        "link": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/Identificacao"
     },
     {
         "id":8,
         "imagem": "./src/img/icons/editar-empresa.png",
-        "texto": "Editar Empresa",
-        "link": "https://google.com"
+        "texto": "NOTA FISCAL",
+        "link": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/nota-fiscal"
     },
     {
         "id":9,
-        "imagem": "https://ialkyrog.sirv.com/sala/icones/documentos.png",
+        "imagem": "https://ialkyrog.sirv.com/sala/icones/agente-de-atendimento-ao-cliente.png",
         "texto": "SAS SEBRAE",
-        "link": "https://google.com"
+        "link": "https://sas.sebrae.com.br/"
     },
     {
         "id":10,
         "imagem": "https://ialkyrog.sirv.com/sala/icones/certidao-debitos-trabalhistas.png",
         "texto": "DAS MEI",
-        "link": "itbi-urbano"
+        "link": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao"
+    },
+    {
+        "id":11,
+        "imagem": "https://ialkyrog.sirv.com/sala/icones/aumentar.png",
+        "texto": "MEI PARA ME",
+        "link": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/quero-crescer-desenquadramento"
+    },
+    {
+        "id":12,
+        "imagem": "https://ialkyrog.sirv.com/sala/icones/aumentar.png",
+        "texto": "PORTAL EMPREENDEDOR",
+        "link": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor"
+    },
+    {
+        "id":13,
+        "imagem": "https://ialkyrog.sirv.com/sala/icones/painel-de-controle%20(2).png",
+        "texto": "POWERBI",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiOTlhYTY2YTktN2RkMy00ZjIxLTg3NDItMDYwZTU5ZTkyZDdkIiwidCI6Ijk3Mjk4MjcxLTFiZDctNGFjNS05MzViLTg4YWRkZWY2MzZjYyIsImMiOjR9"
+    },
+    {
+        "id":14,
+        "imagem": "https://ialkyrog.sirv.com/sala/icones/relatorio%20(1).png",
+        "texto": "DATA SEBRAE",
+        "link": "https://datasebrae.com.br/explore"
+    },
+    {
+        "id":15,
+        "imagem": "https://ialkyrog.sirv.com/sala/icones/pasta.png",
+        "texto": "MR PIRAPORA",
+        "link": "https://linktr.ee/RedeMRPirapora"
     }
     
 ]
