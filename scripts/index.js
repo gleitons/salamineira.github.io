@@ -558,7 +558,7 @@ function empresaR() {
         "fantasia": nfantaR,
         "cidade": cidadeR
     }]
-    if (localStorage.getItem('empresaR') != null) {
+    
         const arrEmpresaR = JSON.parse(localStorage.getItem('empresaR'))
         console.log(arrEmpresaR)
         arrEmpresaR.push(maisEmpresa)
@@ -574,7 +574,7 @@ function empresaR() {
         <br> <br>
         <a ><button onclick="fechar(), preencheDadoss()" >FECHAR</button></a>
             </div>`
-    }
+    
 }
 if (localStorage.getItem('empresaR') == null) { localStorage.setItem('empresaR', '[]') }
 
@@ -585,6 +585,8 @@ function regarregaEmpresass() {
     const cdrasto = document.querySelector('#empresasss')
     const empre = JSON.parse(localStorage.getItem('empresaR'))
     console.log(empre[0])
+    cdrasto.innerHTML = ``
+    cdrasto.innerHTML = `<option >Selecione</option>`
     for (let i = 0; i < empre.length; i++) {
 
         cdrasto.innerHTML += `<option value="${i}" >${empre[i].razao} - ${empre[i].cnpj}</option>`
@@ -592,9 +594,9 @@ function regarregaEmpresass() {
 
 }
 function preencheDadoss() {
-    const posicao = document.querySelector('#empresasss').selectedIndex
+    const posicao = document.querySelector('#empresasss').selectedIndex - 1
 
-    console.log(posicao)
+    
 
     const empre = JSON.parse(localStorage.getItem('empresaR'))
     cnpj.value = empre[posicao].cnpj

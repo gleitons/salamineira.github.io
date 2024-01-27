@@ -343,9 +343,10 @@ tfoot {
 .falecMae {
   text-transform: capitalize;
 }
+  /* background-image: url(/falecimento/homem-mulher.jpg); */
 .imagemL img {
   box-shadow: rgb(253, 253, 253) 0px 0px 10px 0px;
-  background-image: url(/falecimento/homem-mulher.jpg);
+  background-image: url('/img/loadanima.svg');
   background-size: contain;
   background-color: rgb(195, 68, 68);
   width: 150px;
