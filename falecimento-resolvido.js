@@ -27,7 +27,7 @@ function falecidos() {
     var tabelaM = 1;
     //const response = await fetch(url);
     const data = JSON.parse(localStorage.getItem('falecidos'))
-    const imgM = '/falecimento/desconhecido-mulher.png'
+    const imgM = '/img/loadanima.svg'
     const vidroR = document.querySelector('.vidroF');
     const tagApelido = document.getElementById('apelidoT');
     var falecIDi = document.getElementById('lutoTitle');
@@ -250,7 +250,7 @@ function montarCard(falec, apel, con, idadeF, mamae, tempoFalec, falecCodigo) {
     //https://l3gado.s3.amazonaws.com/l3gado/arquivos/vela_site/gif1.gif
     ///coroa-homem-mulher-online.jpg
     if (falec.imagem == '') falec.imagem = 'https://l3gado.s3.amazonaws.com/l3gado/arquivos/vela_site/gif1.gif';
-    console.log(falecCodigo)
+    
     const divCodigo = document.createElement('div')
     divCodigo.innerHTML = ``
     const iconeE = document.getElementById(`abrirEditar${con}`)
@@ -683,12 +683,9 @@ function diaFalecidos(falecimento) {
     var meses = (mesesDias * 365) / 30;
     var diasDM = meses.toFixed(0, 2)
     var mesesC = meses.toFixed();
-    console.log(diasDM + " primeiro log")
     var dias = ((meses.toFixed(0)) - (meses.toFixed(3)) * 30)
-    console.log(dateAnos)
     if (dateAnos >= 0.70) {
         var an = Math.round(dateAnos.toFixed(2));
-        console.log(an)
         if (an > 1) {
             var anos = `${an} Anos`
         } else {
@@ -730,7 +727,7 @@ function homenagemDiaFalecidos() {
     }
     const hoje = `${dH.getDate()}/${mesAddZero }/${dH.getFullYear()}`
 
-    console.log(hoje)
+  
     
     if(dH.getDate().toString().length == 1){
         var diaAddZero = '0' + dH.getDate()
@@ -738,7 +735,7 @@ function homenagemDiaFalecidos() {
         var diaAddZero =  dH.getDate()
     }
     
-    console.log(mesAddZero)
+ 
 
     const dataCompara = `${diaAddZero}/${mesAddZero}`
 
@@ -754,13 +751,13 @@ function homenagemDiaFalecidos() {
         const comF = `${diaFa}/${mesFa}`
        
         const anosPassados = anoCo - anoFa
-        console.log(dataCompara )
+       
         if (dataCompara == comF) {
-            console.log(dataCompara == comF)
-            console.log(e.imagem)
+         
+           
             const imgFalecido = e.imagem == '' ? 'https://i.giphy.com/media/11S1Zy5SPIqv84/giphy.webp' : e.imagem
             const qtdAnos = anosPassados == 1 ? 'ano</strong> se passou' : 'anos</strong> se passaram'
-            console.log(e.falecimento)
+           
             anexar.innerHTML += `<div class="hojeSePassa">
                         <div style="background-image: url(${imgFalecido});">                            
                         </div>

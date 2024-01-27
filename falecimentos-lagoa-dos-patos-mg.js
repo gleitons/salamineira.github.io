@@ -1,9 +1,3 @@
-
-
-
-
-
-
 function ocultarMostar(numb) {
     const botao = document.querySelector(`#cliqueOculto${numb}`);
     const ocultado = document.querySelector(`#falecOculto${numb}`)
