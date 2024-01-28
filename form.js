@@ -14,6 +14,6 @@ function fecha() {
     window.close()
 }
 
-setTimeout('fecha()', 100)
+setTimeout('fecha()', 1000)
 
 console.log(url)
