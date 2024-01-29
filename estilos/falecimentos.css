@@ -107,6 +107,7 @@
   position: relative;
   padding: 10px;
   background-image: url("/falecimento/anjo.png");
+  /* background-image: url("/falecimento/1.jpeg"); */
   background-size: cover;
   border-radius: 8px;
   box-shadow: inset white 10px 0px 10px 10px,
@@ -597,7 +598,7 @@ label {
     border: black solid 1px;
     position: relative;
     padding: 10px;
-    background-image: url("/falecimento/anjo.jpg");
+    /* background-image: url("/falecimento/anjo.jpg"); */
     background-size: cover;
   }
 }

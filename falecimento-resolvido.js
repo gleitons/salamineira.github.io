@@ -105,6 +105,8 @@ function falecidos() {
             divGera.appendChild(exibir)
             homenagemFalecido.appendChild(divBottom)
             homenagemFalecido.appendChild(divGera)
+
+
         }
     });
 }
@@ -244,18 +246,22 @@ function montarOculto(numero) {
 setTimeout('homenagemDiaFalecidos()', 2000)
 
 function montarCard(falec, apel, con, idadeF, mamae, tempoFalec, falecCodigo) {
+    const imgsF = ["1.jpeg", "6.jpeg", "5.jpeg", "4.png", "3.jpeg", "2.webp", "7.jpeg", "anjo.jpg"]
     if (apel == undefined) apel = ""
     if (mamae == undefined) mamae = ""
     if (falec.nascimento == '') falec.nascimento = ' Nascimento'
     //https://l3gado.s3.amazonaws.com/l3gado/arquivos/vela_site/gif1.gif
     ///coroa-homem-mulher-online.jpg
     if (falec.imagem == '') falec.imagem = 'https://l3gado.s3.amazonaws.com/l3gado/arquivos/vela_site/gif1.gif';
-    
+
     const divCodigo = document.createElement('div')
     divCodigo.innerHTML = ``
     const iconeE = document.getElementById(`abrirEditar${con}`)
     const divLuto = document.createElement('div');
+    // divLuto.setAttribute('style', `background-image: url("/falecimento/1.jpeg");`)   
+
     divLuto.classList.add('lutosC');
+    divLuto.style.backgroundImage = `url('/falecimento/${imgsF[Math.floor(Math.random() * 8)]}')`
     const imgFita = document.createElement('img');
     imgFita.src = ('/imagens/fita-falecimento.png');
     imgFita.classList.add('fita');
@@ -299,7 +305,8 @@ function montarCard(falec, apel, con, idadeF, mamae, tempoFalec, falecCodigo) {
     const NotaFalecimento = document.createElement('p');
     const conteudoHTML = document.createElement('div')
     conteudoHTML.innerHTML = falec.id
-    NotaFalecimento.textContent = `${falec.nota}`;
+    const aNota = falec.nota != '' ? falec.nota : mensagens()[Math.floor(Math.random() * mensagens().length)].mensagem
+    NotaFalecimento.textContent = aNota;
     divNotaFalecimento.appendChild(NotaFalecimento);
     pStrong.appendChild(idadefal);
     divNascFale.appendChild(iconeNacimento)
@@ -716,55 +723,55 @@ function diaFalecidos(falecimento) {
 }
 
 function homenagemDiaFalecidos() {
-    
+
     const data = JSON.parse(localStorage.getItem('falecidos'))
     const anexar = document.querySelector('.falecimentoPassado')
     const dH = new Date()
-    if(dH.getMonth().toString().length == 1){
+    if (dH.getMonth().toString().length == 1) {
         var mesAddZero = '0' + (dH.getMonth() + 1)
     } else {
-        var mesAddZero =  (dH.getMonth() + 1)
+        var mesAddZero = (dH.getMonth() + 1)
     }
-    const hoje = `${dH.getDate()}/${mesAddZero }/${dH.getFullYear()}`
+    const hoje = `${dH.getDate()}/${mesAddZero}/${dH.getFullYear()}`
 
-  
-    
-    if(dH.getDate().toString().length == 1){
+
+
+    if (dH.getDate().toString().length == 1) {
         var diaAddZero = '0' + dH.getDate()
     } else {
-        var diaAddZero =  dH.getDate()
+        var diaAddZero = dH.getDate()
     }
-    
- 
+
+
 
     const dataCompara = `${diaAddZero}/${mesAddZero}`
 
-    
 
-   
+
+
     const anoCo = dH.getFullYear()
     data.map((e) => {
         const diaMes = e.falecimento.split('/')
         const diaFa = diaMes[0]
-        const mesFa = diaMes[1] 
+        const mesFa = diaMes[1]
         const anoFa = diaMes[2]
         const comF = `${diaFa}/${mesFa}`
-       
+
         const anosPassados = anoCo - anoFa
-       
+
         if (dataCompara == comF) {
-         
-           
+
+
             const imgFalecido = e.imagem == '' ? 'https://i.giphy.com/media/11S1Zy5SPIqv84/giphy.webp' : e.imagem
             const qtdAnos = anosPassados == 1 ? 'ano</strong> se passou' : 'anos</strong> se passaram'
-           
+
             anexar.innerHTML += `<div class="hojeSePassa">
                         <div style="background-image: url(${imgFalecido});">                            
                         </div>
                         <span>
                         
                             <h2>${e.nome}</h2>
-                            <h3>Hoje ${dataCompara + '/'+ anoFa}, <strong>${anosPassados} ${qtdAnos} desde sua partida, sinceros sentimentos aos familiares confortando seus corações e que <strong>${e.nome}</strong> esteja em um bom lugar.</h3>
+                            <h3>Hoje ${dataCompara + '/' + anoFa}, <strong>${anosPassados} ${qtdAnos} desde sua partida, sinceros sentimentos aos familiares confortando seus corações e que <strong>${e.nome}</strong> esteja em um bom lugar.</h3>
                             <i class="bi bi-heartbreak-fill"></i> ${e.falecimento}
                         </span>
                         <img src="/falecimento/valas-acesas.gif" alt="">
@@ -772,7 +779,7 @@ function homenagemDiaFalecidos() {
                     </div>`
         }
         //setTimeout('document.querySelector('.atendimentoWhats').remove()', 5000)
-        
+
 
     })
 
