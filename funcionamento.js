@@ -52,7 +52,7 @@ for (let index = 0; index < feriados.length; index++) {
     </div>`
     }
 
-    console.log(hora)
+   
 
    
 
@@ -63,7 +63,7 @@ const diaB = data.getDate() + 1
 
 console.log(mes)
 
-if (mes == 2 && diaB == 29 || diaB == 30 || diaB == 31) {
+if (mes == 2 && diaB == 29 || mes == 2 && diaB == 30 || mes == 2 && diaB == 31) {
     funcionaAmanha.innerHTML = `<div class="funcionamento cvermelho">
         <div >
             <i class="bi bi-emoji-frown-fill"></i>
