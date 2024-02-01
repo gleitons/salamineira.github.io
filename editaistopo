@@ -1,5 +1,45 @@
 [
   {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4462/",
+    "dataP": "29/12/2023",
+    "processo": "PROC.0104/2023",
+    "publicado": "22/12/2023",
+    "abertura": "29/12/2023",
+    "modalidade": "CONTRATO",
+    "situacao": "FINALIZADA",
+    "infolicita": "CONTRATO EXTRAIDO DA ARP 017/2023 - PROCEDIMENTO LICITATÓRIO Nº 017/2023 - PREGÃO ELETRONICO SRP Nº 006/2023-CIMAMS, cujo objeto é o REGISTRO DE PREÇOS PARA EVENTUAL E FUTURA CONTRATAÇÃO DE EMPRESA PARA FORNECIMENTO DE VEÍCULOS ZERO KM TIPO AMBULÂNCIAS VEÍCULO DE TRANSPORTE SANITÁRIO PARA ATENDER AS DEMANDAS/NECESSIDADES DOS MUNICÍPIOS CONSORCIADOS AO CONSÓRCIO INTERMUNICIPAL MULTIFINALITÁRIO DA ÁREA MINEIRA DA SUDENE - CIMAMS"
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4456/",
+    "dataP": "29/12/2023",
+    "processo": "PROC. 103/2023 ",
+    "publicado": "22/12/2023",
+    "abertura": "29/12/2023",
+    "modalidade": "CONTRATO",
+    "situacao": "FINALIZADA",
+    "infolicita": "CONTRATO EXTRAIDO DA ARP 33/2023 - CIMAMS, cujo objeto é o CONTRATAÇÃO DE EMPRESA PARA FORNECIMENTO DE VEÍCULOS DE TRANSPORTE COLETIVO NOVOS (PRIMEIRO EMPLACAMENTO), PARA ATENDER AS NECESSIDADES DOS MUNICÍPIOS INTEGRANTES DO CONSÓRCIO INTERMUNICIPAL MULTIFINALITÁRIO DA ÁREA MINEIRA DA SUDENE – CIMAMS"
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4388/",
+    "dataP": "29/12/2023",
+    "processo": "PROC. 0102/2023 INEX. 25/2023",
+    "publicado": "",
+    "abertura": "29/12/2023",
+    "modalidade": "Inexigibilidade",
+    "situacao": "FINALIZADA",
+    "infolicita": "CONTRATAÇÃO DO CANTOR RONALDINHO- O PAREDÃO DE MINAS PARA APRESENTAÇÃO DE SHOW ARTÍSTICO NO DIA 20 DE JANEIRO DE 2024 NA TRADICIONAL FESTA DE SÃO SEBASTIÃO NA COMUNIDADE DO COCAL MUNICÍPIO DE LAGOA DOS PATOS/MG "
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4386/",
+    "dataP": "09/02/2024",
+    "processo": "PROC. 0101/2023 PP  046/2023",
+    "publicado": "27/12/2023",
+    "abertura": "09/02/2024",
+    "modalidade": "PREGÃO PRESENCIAL",
+    "situacao": "Aberta",
+    "infolicita": "CONTRATAÇÃO DE EMPRESAS PARA PRESTAÇÃO DE SERVIÇOS DE CESSÃO DE EQUIPAMENTO DO TIPO IMPRESSORAS EM REGIME DE COMODATO, INCLUSO INSTALAÇÃO, RECARGAS DE TINTA/ TONERS E MANUTENÇÃO EM ATENDIMENTO AS ATIVIDADES ADMINISTRATIVAS DO MUNICIPIO DE LAGOA DOS PATOS/MG."
+  },
+  {
     "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4374/",
     "dataP": "09/02/2024",
     "processo": "PROC. 0100/2023 PP SRP 045/2023",
@@ -12,7 +52,7 @@
   {
     "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4373/",
     "dataP": "08/02/2024",
-    "processo": "PROC. 099/2023 PP 045/2023",
+    "processo": "PROC. 099/2023 PP 044/2023",
     "publicado": "27/12/2023",
     "abertura": "08/02/2024",
     "modalidade": "PREGÃO PRESENCIAL",
@@ -58,45 +98,5 @@
     "modalidade": "PREGÃO PRESENCIAL",
     "situacao": "Aberta",
     "infolicita": "REGISTRO DE PREÇO PARA AQUISIÇÃO DE GAS OXIGENIO MEDICINAL E CILINDROS EM AÇO PARA ATENDIMENTO A SECRETARIA DE SAUDE DO MUNICIPIO DE LAGOA DOS PATOS/MG"
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4366/",
-    "dataP": "02/02/2024",
-    "processo": "PROC. 094/2023 PP SRP 039/2023",
-    "publicado": "27/12/2023",
-    "abertura": "02/02/2024",
-    "modalidade": "PREGÃO PRESENCIAL",
-    "situacao": "Aberta",
-    "infolicita": "REGISTRO DE PREÇO PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM CONFECÇÃO DE PLACAS PARA MOTO, CAMINHÃO, MICRO-ÔNIBUS, VEÍCULOS DE PASSEIO E UTILITÁRIO PARA ATENDER A DEMANDA DA LEI 874/2021 DO MUNICÍPIO DE LAGOA DOS PATOS/MG."
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4364/",
-    "dataP": "01/02/2024",
-    "processo": "PROC. 093/2023 TP 012/2023",
-    "publicado": "27/12/2023",
-    "abertura": "01/02/2024",
-    "modalidade": "Tomada de Preços",
-    "situacao": "Aberta",
-    "infolicita": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM OBRAS DE ENGENHARIA PARA EXECUÇÃO DE CALÇAMENTO EM BLOCOS INTERTRAVADOS E ARQUIBANCADAS NO PARQUE DE EXPOSIÇÕES NO MUNICÍPIO DE LAGOA DOS PATOS/MG."
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4363/",
-    "dataP": "30/01/2024",
-    "processo": "PROC. 092/2023 TP 011/2023",
-    "publicado": "27/12/2023",
-    "abertura": "30/01/2024",
-    "modalidade": "Tomada de Preços",
-    "situacao": "Aberta",
-    "infolicita": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM OBRAS DE ENGENHARIA PARA CONSTRUÇÃO DE GALPÃO NA COMUNIDADE FUMAÇA NO MUNICÍPIO DE LAGOA DOS PATOS/MG, RECURSOS CONVÊNIO 9383977 - TRANSFERÊNCIA ESPECIAL 2023, INDICAÇÃO 119880 E TRANSFERÊNCIA ESPECIAL 2022 RES. SEGOV/ 21/2022"
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4361/",
-    "dataP": "25/01/2024",
-    "processo": "PROC. 091/2023 PP SRP 038/2023",
-    "publicado": "27/12/2023",
-    "abertura": "25/01/2024",
-    "modalidade": "PREGÃO PRESENCIAL",
-    "situacao": "Aberta",
-    "infolicita": "REGISTRO DE PREÇO PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE INSTALAÇÃO E/OU SUBSTITUIÇÃO DE LUMINÁRIAS CONVENCIONAIS VAPOR DE SÓDIO/MERCÚRIO POR LUMINÁRIAS DE LED NA ÁREA URBANA E RURAL DO MUNICÍPIO DE LAGOA DOS PATOS/MG, INCLUINDO A EXECUÇÃO DOS SERVIÇOS E O FORNECIMENTO DE MATERIAIS NECESSÁRIO"
   }
 ]

@@ -115,6 +115,9 @@ function carregaAntes() {
 
 const todosParlamentaresOn =  () => {
     const data = JSON.parse(localStorage.getItem('nivers')) 
+    // console.log(data)
+    if(data == null) location.reload()
+   
 
     const aniversarioHoje = document.querySelector('#aniversarioHoje')
     const classificacaoParlamentares = document.querySelector('#classificacaoParlamentares')
@@ -198,6 +201,8 @@ const todosParlamentaresOn =  () => {
         </a>`
         }
 
+        setTimeout(removeLoad(), 100)
+
 
         if (mesNiverTrabalho == dataHoje()[4]) {
             aniversarioT.innerHTML += `<div class="imgFundoTrabalho">                           
@@ -209,156 +214,168 @@ const todosParlamentaresOn =  () => {
                             </div>
                         </div>`
         }
-        if (aniversario.genero == 'm') {
-            homens = homens + 1
-        } else {
-            mulheres = mulheres + 1
+        
+        function apresentaNiver() {
+            const infoNoLegislativo = document.querySelector('#infoNoLegislativo')
+            if (aniversario.genero == 'm') {
+                homens = homens + 1
+            } else {
+                mulheres = mulheres + 1
+            }
+    
+            
+    
+            if (idade < 20) {
+                ate20Anos = ate20Anos + 1;
+    
+                const nome20anos = `<p>${aniversario.nome} - ${idade} anos</p>`
+                ate20anosArray.push(nome20anos)
+    
+    
+            } else if (idade > 20 && idade <= 30) {
+                ate30Anos = ate30Anos + 1;
+    
+                const nome30anos = `<p>${aniversario.nome} - ${idade} anos</p>`
+                ate30anosArray.push(nome30anos)
+    
+    
+            } else if (idade > 30 && idade <= 40) {
+                ate40Anos = ate40Anos + 1;
+                const nome40anos = `<p>${aniversario.nome} - ${idade} anos</p>`
+                ate40anosArray.push(nome40anos)
+            } else if (idade > 40 && idade <= 50) {
+                ate50Anos = ate50Anos + 1;
+                const nome50anos = `<p>${aniversario.nome} - ${idade} anos</p>`
+                ate50anosArray.push(nome50anos)
+            } else if (idade > 50 && idade <= 60) {
+                ate60Anos = ate60Anos + 1;
+                const nome60anos = `<p>${aniversario.nome} - ${idade} anos</p>`
+                ate60anosArray.push(nome60anos)
+            } else if (idade > 60 && idade <= 70) {
+                ate70Anos = ate70Anos + 1;
+                const nome70anos = `<p>${aniversario.nome} - ${idade} anos</p>`
+                ate70anosArray.push(nome70anos)
+            } else {
+                ate100Anos = ate100Anos + 1;
+                const nome80anos = `<p>${aniversario.nome} - ${idade} anos</p>`
+                ate80anosArray.push(nome80anos)
+            }
+    
+            const totServidores = parseInt(homens) + parseInt(mulheres)
+    
+    
+            infoNoLegislativo.innerHTML = `
+            <strong>${homens}</strong>: Servidores </br> 
+            <strong>${mulheres}</strong>: Servidoras </br> 
+            Total de ${totServidores} Servidores </br> 
+            * Em Atualização <br>
+            >>Informações Interessantes: <br>
+            <br>
+            <br>
+            ::Até 20 anos: <strong>${ate20Anos}</strong> <button onclick="verServidores(0)" class="btnServidor" >Ver Servidores</button>
+            <div class="idade dnone" id="btn20">
+                <ul id="btnA20">
+                </ul>
+                <button onclick="verServidores(0)">Fechar</button>
+            </div>
+            <br>
+            <br>
+            ::Até de 20 a 30 anos: <strong>${ate30Anos}</strong> 
+            <button onclick="verServidores(1)" class="btnServidor" >Ver Servidores</button>
+            <div class="idade dnone" id="btn30">
+                <ul id="btnA30">
+                </ul>
+                <button onclick="verServidores(1)">Fechar</button>
+            </div>
+            <br>
+            <br>
+            ::Até de 31 a 40 anos: <strong>${ate40Anos}</strong>
+            <button onclick="verServidores(2)" class="btnServidor" >Ver Servidores</button>
+            <div class="idade dnone" id="btn40">
+                <ul id="btnA40">
+                </ul>
+                <button onclick="verServidores(2)">Fechar</button>
+            </div>
+            <br>
+            <br>
+            ::Até de 41 a 50 anos: <strong>${ate50Anos}</strong>
+            <button onclick="verServidores(3)" class="btnServidor" >Ver Servidores</button>
+            <div class="idade dnone" id="btn50">
+                <ul id="btnA50">
+                </ul>
+                <button onclick="verServidores(3)">Fechar</button>
+            </div>
+            <br>
+            <br>
+            ::Até de 51 a 60 anos: <strong>${ate60Anos}</strong>
+            <button onclick="verServidores(4)" class="btnServidor" >Ver Servidores</button>
+            <div class="idade dnone" id="btn60">
+                <ul id="btnA60">
+                </ul>
+                <button onclick="verServidores(4)">Fechar</button>
+            </div>
+            <br>
+            <br>
+            ::Até de 61 a 70 anos: <strong>${ate70Anos}</strong>
+            <button onclick="verServidores(5)" class="btnServidor" >Ver Servidores</button>
+            <div class="idade dnone" id="btn70">
+                <ul id="btnA70">
+                </ul>
+                <button onclick="verServidores(5)">Fechar</button>
+            </div>
+            <br>
+            <br>
+            ::Pessoas com mais de 70 anos: <strong>${ate100Anos}</strong>,
+    
+            <button onclick="verServidores(6)" class="btnServidor" >Ver Servidores</button>
+            <div class="idade dnone" id="btn80">
+                <ul id="btnA80">
+                </ul>
+                <button onclick="verServidores(6)">Fechar</button>
+            </div> <br><br> *Atualizando...<br>
+            <br>`
+    
+    
+            for (let i = 0; i < ate20anosArray.length; i++) {
+                btnA20.innerHTML += ate20anosArray[i]
+            }
+            for (let i = 0; i < ate30anosArray.length; i++) {
+                btnA30.innerHTML += ate30anosArray[i]
+            }
+            for (let i = 0; i < ate40anosArray.length; i++) {
+                btnA40.innerHTML += ate40anosArray[i]
+            }
+            for (let i = 0; i < ate50anosArray.length; i++) {
+                btnA50.innerHTML += ate50anosArray[i]
+            }
+            for (let i = 0; i < ate60anosArray.length; i++) {
+                btnA60.innerHTML += ate60anosArray[i]
+            }
+            for (let i = 0; i < ate70anosArray.length; i++) {
+                btnA70.innerHTML += ate70anosArray[i]
+            }
+            for (let i = 0; i < ate80anosArray.length; i++) {
+                btnA80.innerHTML += ate80anosArray[i]
+            }
+    
         }
-
-        if (idade < 20) {
-            ate20Anos = ate20Anos + 1;
-
-            const nome20anos = `<p>${aniversario.nome} - ${idade} anos</p>`
-            ate20anosArray.push(nome20anos)
-
-
-        } else if (idade > 20 && idade <= 30) {
-            ate30Anos = ate30Anos + 1;
-
-            const nome30anos = `<p>${aniversario.nome} - ${idade} anos</p>`
-            ate30anosArray.push(nome30anos)
-
-
-        } else if (idade > 30 && idade <= 40) {
-            ate40Anos = ate40Anos + 1;
-            const nome40anos = `<p>${aniversario.nome} - ${idade} anos</p>`
-            ate40anosArray.push(nome40anos)
-        } else if (idade > 40 && idade <= 50) {
-            ate50Anos = ate50Anos + 1;
-            const nome50anos = `<p>${aniversario.nome} - ${idade} anos</p>`
-            ate50anosArray.push(nome50anos)
-        } else if (idade > 50 && idade <= 60) {
-            ate60Anos = ate60Anos + 1;
-            const nome60anos = `<p>${aniversario.nome} - ${idade} anos</p>`
-            ate60anosArray.push(nome60anos)
-        } else if (idade > 60 && idade <= 70) {
-            ate70Anos = ate70Anos + 1;
-            const nome70anos = `<p>${aniversario.nome} - ${idade} anos</p>`
-            ate70anosArray.push(nome70anos)
-        } else {
-            ate100Anos = ate100Anos + 1;
-            const nome80anos = `<p>${aniversario.nome} - ${idade} anos</p>`
-            ate80anosArray.push(nome80anos)
-        }
-
-        const totServidores = parseInt(homens) + parseInt(mulheres)
-
-
-        infoNoLegislativo.innerHTML = `
-        <strong>${homens}</strong>: Servidores </br> 
-        <strong>${mulheres}</strong>: Servidoras </br> 
-        Total de ${totServidores} Servidores </br> 
-        * Em Atualização <br>
-        >>Informações Interessantes: <br>
-        <br>
-        <br>
-        ::Até 20 anos: <strong>${ate20Anos}</strong> <button onclick="verServidores(0)" class="btnServidor" >Ver Servidores</button>
-        <div class="idade dnone" id="btn20">
-            <ul id="btnA20">
-            </ul>
-            <button onclick="verServidores(0)">Fechar</button>
-        </div>
-        <br>
-        <br>
-        ::Até de 20 a 30 anos: <strong>${ate30Anos}</strong> 
-        <button onclick="verServidores(1)" class="btnServidor" >Ver Servidores</button>
-        <div class="idade dnone" id="btn30">
-            <ul id="btnA30">
-            </ul>
-            <button onclick="verServidores(1)">Fechar</button>
-        </div>
-        <br>
-        <br>
-        ::Até de 31 a 40 anos: <strong>${ate40Anos}</strong>
-        <button onclick="verServidores(2)" class="btnServidor" >Ver Servidores</button>
-        <div class="idade dnone" id="btn40">
-            <ul id="btnA40">
-            </ul>
-            <button onclick="verServidores(2)">Fechar</button>
-        </div>
-        <br>
-        <br>
-        ::Até de 41 a 50 anos: <strong>${ate50Anos}</strong>
-        <button onclick="verServidores(3)" class="btnServidor" >Ver Servidores</button>
-        <div class="idade dnone" id="btn50">
-            <ul id="btnA50">
-            </ul>
-            <button onclick="verServidores(3)">Fechar</button>
-        </div>
-        <br>
-        <br>
-        ::Até de 51 a 60 anos: <strong>${ate60Anos}</strong>
-        <button onclick="verServidores(4)" class="btnServidor" >Ver Servidores</button>
-        <div class="idade dnone" id="btn60">
-            <ul id="btnA60">
-            </ul>
-            <button onclick="verServidores(4)">Fechar</button>
-        </div>
-        <br>
-        <br>
-        ::Até de 61 a 70 anos: <strong>${ate70Anos}</strong>
-        <button onclick="verServidores(5)" class="btnServidor" >Ver Servidores</button>
-        <div class="idade dnone" id="btn70">
-            <ul id="btnA70">
-            </ul>
-            <button onclick="verServidores(5)">Fechar</button>
-        </div>
-        <br>
-        <br>
-        ::Pessoas com mais de 70 anos: <strong>${ate100Anos}</strong>,
-
-        <button onclick="verServidores(6)" class="btnServidor" >Ver Servidores</button>
-        <div class="idade dnone" id="btn80">
-            <ul id="btnA80">
-            </ul>
-            <button onclick="verServidores(6)">Fechar</button>
-        </div> <br><br> *Atualizando...<br>
-        <br>`
-
-
-        for (let i = 0; i < ate20anosArray.length; i++) {
-            btnA20.innerHTML += ate20anosArray[i]
-        }
-        for (let i = 0; i < ate30anosArray.length; i++) {
-            btnA30.innerHTML += ate30anosArray[i]
-        }
-        for (let i = 0; i < ate40anosArray.length; i++) {
-            btnA40.innerHTML += ate40anosArray[i]
-        }
-        for (let i = 0; i < ate50anosArray.length; i++) {
-            btnA50.innerHTML += ate50anosArray[i]
-        }
-        for (let i = 0; i < ate60anosArray.length; i++) {
-            btnA60.innerHTML += ate60anosArray[i]
-        }
-        for (let i = 0; i < ate70anosArray.length; i++) {
-            btnA70.innerHTML += ate70anosArray[i]
-        }
-        for (let i = 0; i < ate80anosArray.length; i++) {
-            btnA80.innerHTML += ate80anosArray[i]
-        }
-
+        setTimeout(apresentaNiver(), 3000)
+        
 
 
     })
-
-    setTimeout('removeLoad()', 100)
+   
 
 }
 todosParlamentaresOn();
 
+function calculoIdade() {
+
+}
+
 function removeLoad() {
-    carregandoL.remove();
+    const carregandoL = document.querySelector('#carregandoL')
+    carregandoL.style.display = 'none'
    
 
 }

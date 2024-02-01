@@ -5,7 +5,7 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Arial,
     Helvetica, sans-serif;
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 .mostraAInfo {
   max-width: 1200px;
@@ -39,15 +39,13 @@
 }
 .avisoLetrasP {
   width: 100%;
-  
+
   color: white;
   height: 50px;
-  
 }
 .avisoLetrasP p {
   color: rgb(255, 236, 32);
   font-weight: 700;
-  
 }
 .funcionamento div {
   font-size: 25px;
@@ -1087,19 +1085,21 @@ main {
 }
 .topo-menu {
   padding: 15px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
   min-height: 70px;
   /* background-color: #2e2e2e; */
-  background-image: url('https://i.pinimg.com/originals/99/9c/95/999c95488c111f78e8de0298e2510e7f.jpg');
+  background-image: url("https://i.pinimg.com/originals/99/9c/95/999c95488c111f78e8de0298e2510e7f.jpg");
   width: 100%;
   background-size: cover;
 }
-.funcionamento button  {
+.funcionamento button {
   background-color: rgb(72, 72, 250);
   color: white;
   font-weight: 600;
 }
 .funcionamento button a {
- 
   color: white;
   font-weight: 700;
 }
@@ -2058,6 +2058,9 @@ footer {
     height: auto;
     background-color: #2e2e2e;
     width: 100%;
+   
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
     top: 0;
 
     z-index: 999;
