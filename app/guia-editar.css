@@ -139,9 +139,12 @@ main {
 }
 .noticia > div:nth-child(1){
   width: 100%;
-  height: 150px;
+  height: 80px;
   overflow: hidden;
   margin-bottom: 5px;
+}
+.noticia > div:nth-child(1) img {
+  height: 100%;
 }
 .noticia > div:nth-child(2){
   width: 100%;
@@ -161,7 +164,7 @@ main {
   border-radius: 12px;
 }
 .fechaJanel {
-  animation: fechaJanela 600ms normal;
+  animation: fechaJanela 300ms normal;
 }
 @keyframes fechaJanela {
   0% {
@@ -169,17 +172,20 @@ main {
     opacity: 1;
   }
   100% {
-    scale: 0.2;
+    scale: 0.0;
     opacity: 0;
   }
 }
 .abreJanel {
-  animation: abreJanela 600ms normal;
+  animation: abreJanela 300ms normal;
 }
 @keyframes abreJanela {
   0% {
     scale: 0.2;
     opacity: 0;
+    position: absolute;
+    left: 0px;
+    top: 100%;
   }
   100% {
     scale: 1;
@@ -188,9 +194,10 @@ main {
   
 }
 .mostraNoticiaBlog {
-  position: absolute;
+  
   top: 0px;
-  z-index: 999;
+  z-index: 1;
+  position: absolute;
   overflow: auto;
   background: rgba(255, 255, 255, 0.574);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -393,6 +400,7 @@ footer {
   width: 100%;
   background-color: white;
   max-width: 576px;
+  z-index: 999;
 }
 
 footer nav {

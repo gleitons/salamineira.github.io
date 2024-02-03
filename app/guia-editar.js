@@ -579,178 +579,242 @@ async function favoritosEmpresasOn() {
                             </div>
                         </div>
                 </div>`
+            //if(n)
+            // data.map((empresaL, index) => {  
+            //     infoVisivel.innerHTML += `${empresaL[numeroEmpresa]} `
+            // })
 
+
+
+            //console.log(data[i])
         }
 
 
-        infoId.innerHTML = 'Favoritos';
-        favoritosMarcados()
-        contadorFavorite()
+
+        //     for (let i = 0; i < empresaL.id.length; i++) {
+        //         if (empresaL.id[i] == "restaurante") {
+        //             infoVisivel.innerHTML += ` <div class="btnEmpresa" >                   
+        //         <div class="empresasSituado" id="id_0" >
+        //             <div  class="dadosEmp">
+        //                 <img class="imgSetor" src="./imgguia/restaurante-gps.png" alt="">
+        //                 <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
+
+        //             </div>
+        //             <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
+        //                 <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
+        //                 <p>Ver</p>
+        //             </div>
+
+        //         </div>
+
+        // </div>`
+        //         }
+        //     }
 
     }
+
+
+    infoId.innerHTML = 'Favoritos';
+    favoritosMarcados()
+    contadorFavorite()
+
+}
 
 
 function empresas() {
-    console.log('dd')
-        desmarcaTop()
-        marcaTop(1)
-        infoId.innerHTML = 'Carregando...'
-        apagaSeleciona();
-        infoVisivel.innerHTML = ''
-        const inicio = document.querySelector('#inicio')
-        //inicio.remove()
-        // const response = await fetch(urlEmpresas);
-        const data = JSON.parse(localStorage.getItem('empresasLocais'))
-        data.map((empresaL, index) => {
+    desmarcaTop()
+    marcaTop(1)
+    infoId.innerHTML = 'Carregando...'
+    apagaSeleciona();
+    infoVisivel.innerHTML = ''
+    const inicio = document.querySelector('#inicio')
+    //inicio.remove()
+    // const response = await fetch(urlEmpresas);
+    const data = JSON.parse(localStorage.getItem('empresasLocais'))
+    data.map((empresaL, index) => {
+        //<div class="btnEmpresa" > 
+        //<div class="empresasSituado" id="id_${index}" > 
+        //<div  class="dadosEmp" onclick="favoritarEmpresa(${index})"> 
+        //<img class="imgSetor" src="./imgguia/favorito-gps.png" alt=""> 
+        //<img class="favoritar" id="iconFavo${index}"  src="./imgguia/add-favorito.png" alt=""> 
+        //</div> 
+        //<div class="infoDaEmpresa" onclick="verEmpresaShow(${index})"> 
+        //  <li><span>${data[index].nomeFantasia}</span> <br> ${data[index].razaoSocial} <br> ${data[index].cnpjN}</li> 
+        //<p>Ver</p> 
+        //</div> 
+        //</div> 
+        //</div>
+        const btnEmpresa = document.createElement('div')
+        btnEmpresa.classList = 'btnEmpresa'
+        const empresasSituado = document.createElement('div')
+        empresasSituado.classList = 'empresasSituado'
+        empresasSituado.setAttribute('onclick', `id_${index}`)
 
-            const btnEmpresa = document.createElement('div')
-            btnEmpresa.classList = 'btnEmpresa'
-            const empresasSituado = document.createElement('div')
-            empresasSituado.classList = 'empresasSituado'
-            empresasSituado.setAttribute('onclick', `id_${index}`)
+        const dadosEmp = document.createElement('div')
+        dadosEmp.classList = 'dadosEmp'
+        dadosEmp.setAttribute('onclick', `favoritarEmpresa(${index})`)
 
-            const dadosEmp = document.createElement('div')
-            dadosEmp.classList = 'dadosEmp'
-            dadosEmp.setAttribute('onclick', `favoritarEmpresa(${index})`)
+        const imgSetor = document.createElement('img')
+        imgSetor.classList = 'imgSetor'
+        imgSetor.src = './imgguia/favorito-gps.png'
+        imgSetor.alt = 'Empresas Locais Lagoa dos Patos MG'
 
-            const imgSetor = document.createElement('img')
-            imgSetor.classList = 'imgSetor'
-            imgSetor.src = './imgguia/favorito-gps.png'
-            imgSetor.alt = 'Empresas Locais Lagoa dos Patos MG'
-
-            const favoritar = document.createElement('img')
-            favoritar.classList = 'favoritar'
-            favoritar.src = './imgguia/brasao-lagoa.jpg'
-            favoritar.alt = 'Favoritos Locais Lagoa dos Patos MG'
-            favoritar.setAttribute('id', `iconFavo${index}`)
-
-
-            const infoDaEmpresa = document.createElement('div')
-            infoDaEmpresa.classList = 'infoDaEmpresa'
-            infoDaEmpresa.setAttribute('onclick', `verEmpresaShow(${index})`)
-
-            const liInfo = document.createElement('li')
-            liInfo.innerHTML = `<span>${data[index].nomeFantasia}</span> <br> ${data[index].razaoSocial} <br> ${data[index].cnpjN} <p>Ver</p>`
-            infoDaEmpresa.appendChild(liInfo)
-
-            dadosEmp.appendChild(imgSetor)
-            dadosEmp.appendChild(favoritar)
-
-            empresasSituado.appendChild(dadosEmp)
-            empresasSituado.appendChild(infoDaEmpresa)
-
-            btnEmpresa.appendChild(empresasSituado)
+        const favoritar = document.createElement('img')
+        favoritar.classList = 'favoritar'
+        favoritar.src = './imgguia/brasao-lagoa.jpg'
+        favoritar.alt = 'Favoritos Locais Lagoa dos Patos MG'
+        favoritar.setAttribute('id', `iconFavo${index}`)
 
 
+        const infoDaEmpresa = document.createElement('div')
+        infoDaEmpresa.classList = 'infoDaEmpresa'
+        infoDaEmpresa.setAttribute('onclick', `verEmpresaShow(${index})`)
 
+        const liInfo = document.createElement('li')
+        liInfo.innerHTML = `<span>${data[index].nomeFantasia}</span> <br> ${data[index].razaoSocial} <br> ${data[index].cnpjN} <p>Ver</p>`
+        infoDaEmpresa.appendChild(liInfo)
 
+        dadosEmp.appendChild(imgSetor)
+        dadosEmp.appendChild(favoritar)
 
+        empresasSituado.appendChild(dadosEmp)
+        empresasSituado.appendChild(infoDaEmpresa)
 
-            infoVisivel.appendChild(btnEmpresa)
-
-
-        })
-        infoId.innerHTML = 'Empresas'
-
-    }
-    function localizaEmpresas() {
-        const loadF = document.querySelector('#loadFull')
-        loadF.style.display = 'block'
-        setTimeout('localizacaoEmpresas()', 1000)
+        btnEmpresa.appendChild(empresasSituado)
 
 
 
-    }
-    function localizacaoEmpresas() {
-        const loadF = document.querySelector('#loadFull')
-        loadF.style.display = 'block'
-        infoId.innerHTML = 'Buscando...'
-        apagaSeleciona();
-        fechaEmpresaL();
-        infoVisivel.innerHTML = ''
-
-        const inicio = document.querySelector('#inicio')
-        //inicio.remove()
-        //const response = await fetch(urlEmpresas);
-        const data = JSON.parse(localStorage.getItem('empresasLocais'))
-        data.map((empresaL, index) => {
-            var nomeChave = []
-
-            for (let i = 0; i < empresaL.id.length; i++) {
-
-                nomeChave.push(empresaL.id[i])
-            }
 
 
 
-            const btnEmpresa = document.createElement('div')
-            btnEmpresa.classList = 'btnEmpresa'
-            const empresasSituado = document.createElement('div')
-            empresasSituado.classList = 'empresasSituado'
-            empresasSituado.setAttribute('onclick', `id_${index}`)
+        infoVisivel.appendChild(btnEmpresa)
+        // console.log(empresaL.id.length)
+        // for(let i = 0; i < empresaL.id.length; i++ ) {
+        //  
+        //     if(empresaL.id[i] == "farmacia") {
 
-            const dadosEmp = document.createElement('div')
-            dadosEmp.classList = 'dadosEmp'
-            dadosEmp.setAttribute('onclick', `favoritarEmpresa(${index})`)
-
-            const imgSetor = document.createElement('img')
-            imgSetor.classList = 'imgSetor'
-            imgSetor.src = './imgguia/geral-gps.png'
-            imgSetor.alt = 'Empresas Locais Lagoa dos Patos MG'
-
-            const favoritar = document.createElement('img')
-            favoritar.classList = 'favoritar'
-            favoritar.src = './imgguia/add-favorito.png'
-            favoritar.alt = 'Favoritos Locais Lagoa dos Patos MG'
-            favoritar.setAttribute('id', `iconFavo${index}`)
+        //     }
+        // }
 
 
-            const infoDaEmpresa = document.createElement('div')
-            infoDaEmpresa.classList = 'infoDaEmpresa'
-            infoDaEmpresa.setAttribute('onclick', `verEmpresaShow(${index})`)
+    })
+    infoId.innerHTML = 'Empresas'
 
-            const liInfo = document.createElement('li')
-            liInfo.innerHTML = `<span>${data[index].nomeFantasia}</span> <br> ${data[index].razaoSocial} <br> ${data[index].cnpjN} <p>Ver</p>`
-            infoDaEmpresa.appendChild(liInfo)
-
-            dadosEmp.appendChild(imgSetor)
-            //dadosEmp.appendChild(favoritar)
-
-            empresasSituado.appendChild(dadosEmp)
-            empresasSituado.appendChild(infoDaEmpresa)
-
-            btnEmpresa.appendChild(empresasSituado)
-
-            infoVisivel.appendChild(btnEmpresa)
+}
+function localizaEmpresas() {
+    const loadF = document.querySelector('#loadFull')
+    loadF.style.display = 'block'
+    setTimeout('localizacaoEmpresas()', 1000)
 
 
 
-        })
-        loadF.style.display = 'none'
-        infoId.innerHTML = ''
+}
+function localizacaoEmpresas() {
+    const loadF = document.querySelector('#loadFull')
+    loadF.style.display = 'block'
+    infoId.innerHTML = 'Buscando...'
+    apagaSeleciona();
+    fechaEmpresaL();
+    infoVisivel.innerHTML = ''
 
-    }
+    const inicio = document.querySelector('#inicio')
+    //inicio.remove()
+    //const response = await fetch(urlEmpresas);
+    const data = JSON.parse(localStorage.getItem('empresasLocais'))
+    data.map((empresaL, index) => {
+        var nomeChave = []
 
-    async function maisEmpresas() {
-        apagaSeleciona()
-        linkSelect[14].classList.add('addSeleciona')
-        infoId.innerHTML = 'Carregando...'
-        fechaEmpresaL()
-        infoVisivel.innerHTML = ''
-        const inicio = document.querySelector('#inicio')
-        //inicio.remove()
-        const response = await fetch(urlEmpresas);
-        const data = await response.json();
-        data.map((empresaL, index) => {
-            var nomeChave = []
+        for (let i = 0; i < empresaL.id.length; i++) {
 
-            for (let i = 0; i < empresaL.id.length; i++) {
+            nomeChave.push(empresaL.id[i])
+        }
 
-                nomeChave.push(empresaL.id[i] + " ")
-            }
 
-            if (empresaL.atividadePrincipal != "empresaL.atividadePrincipal") {
-                infoVisivel.innerHTML += `
+
+        const btnEmpresa = document.createElement('div')
+        btnEmpresa.classList = 'btnEmpresa'
+        const empresasSituado = document.createElement('div')
+        empresasSituado.classList = 'empresasSituado'
+        empresasSituado.setAttribute('onclick', `id_${index}`)
+
+        const dadosEmp = document.createElement('div')
+        dadosEmp.classList = 'dadosEmp'
+        dadosEmp.setAttribute('onclick', `favoritarEmpresa(${index})`)
+
+        const imgSetor = document.createElement('img')
+        imgSetor.classList = 'imgSetor'
+        imgSetor.src = './imgguia/geral-gps.png'
+        imgSetor.alt = 'Empresas Locais Lagoa dos Patos MG'
+
+        const favoritar = document.createElement('img')
+        favoritar.classList = 'favoritar'
+        favoritar.src = './imgguia/add-favorito.png'
+        favoritar.alt = 'Favoritos Locais Lagoa dos Patos MG'
+        favoritar.setAttribute('id', `iconFavo${index}`)
+
+
+        const infoDaEmpresa = document.createElement('div')
+        infoDaEmpresa.classList = 'infoDaEmpresa'
+        infoDaEmpresa.setAttribute('onclick', `verEmpresaShow(${index})`)
+
+        const liInfo = document.createElement('li')
+        liInfo.innerHTML = `<span>${data[index].nomeFantasia}</span> <br> ${data[index].razaoSocial} <br> ${data[index].cnpjN} <p>Ver</p>`
+        infoDaEmpresa.appendChild(liInfo)
+
+        dadosEmp.appendChild(imgSetor)
+        //dadosEmp.appendChild(favoritar)
+
+        empresasSituado.appendChild(dadosEmp)
+        empresasSituado.appendChild(infoDaEmpresa)
+
+        btnEmpresa.appendChild(empresasSituado)
+
+        infoVisivel.appendChild(btnEmpresa)
+        //     infoVisivel.innerHTML += `
+        //     <div class="btnEmpresa" >                   
+        //             <div class="empresasSituado" id="id_0" >
+        //                 <div  class="dadosEmp">
+        //                     <img class="imgSetor" src="./imgguia/geral-gps.png" alt="">
+        //                     <!-- <img class="favoritar" id="iconFavo0" onclick="favoritarEmpresa(0)" src="./imgguia/add-favorito.png" alt=""> -->
+
+        //                 </div>
+        //                 <div class="infoDaEmpresa" onclick="verEmpresaShow(${index})">
+        //                 <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${nomeChave} </li>
+        //                     <p>Ver</p>
+        //                 </div>
+
+        //             </div>
+
+        //     </div>
+        //   `
+
+
+    })
+    loadF.style.display = 'none'
+    infoId.innerHTML = ''
+
+}
+
+async function maisEmpresas() {
+    apagaSeleciona()
+    linkSelect[14].classList.add('addSeleciona')
+    infoId.innerHTML = 'Carregando...'
+    fechaEmpresaL()
+    infoVisivel.innerHTML = ''
+    const inicio = document.querySelector('#inicio')
+    //inicio.remove()
+    const response = await fetch(urlEmpresas);
+    const data = await response.json();
+    data.map((empresaL, index) => {
+        var nomeChave = []
+
+        for (let i = 0; i < empresaL.id.length; i++) {
+
+            nomeChave.push(empresaL.id[i] + " ")
+        }
+
+        if (empresaL.atividadePrincipal != "empresaL.atividadePrincipal") {
+            infoVisivel.innerHTML += `
 
         <div class="btnEmpresa" >                   
         <div class="empresasSituado" id="id_0" >
@@ -768,88 +832,101 @@ function empresas() {
    
 </div>
        `
-            }
-
-
-        })
-        infoId.innerHTML = 'Todas atividades'
-
-    }
-
-
-
-
-    function inicioApp() {
-        contadorFavorite()
-        desmarcaTop()
-        marcaTop(0)
-        apagaSeleciona()
-        infoId.innerHTML = 'Home'
-        infoVisivel.innerHTML = `<!--<a class="logoM" href="/app"> <div class="logocaracter">
-    <h1><span class="colorwhite">SALA</span> <span class="colorOr">MINEIRA</span></h1> <h2><span class="colorwhite">do Empreendedor de</span> <span class="colorOr">Lagoa dos Patos-MG</span></h2> </div> </a> -->`
-        contadorFavorite()
-    }
-    function apagaSeleciona() {
-        for (let i = 0; i < linkSelect.length; i++) {
-            linkSelect[i].classList.remove('addSeleciona')
         }
 
-        //infoId.innerHTML = 'Mercados'
+
+    })
+    infoId.innerHTML = 'Todas atividades'
+
+}
+
+
+
+async function artigosNot() {
+    const resp = await fetch('./noticias')
+    const data = await resp.json()
+
+    console.log(data)
+
+    localStorage.setItem('noticiasBlog', JSON.stringify(data))
+}
+function inicioApp() {
+    artigosNot()
+    contadorFavorite()
+    desmarcaTop()
+    marcaTop(0)
+    apagaSeleciona()
+    infoId.innerHTML = 'Home'
+    artigosNoticias()
+    // <a class="logoM" href="/app"> <div class="logocaracter">
+    // <h1><span class="colorwhite">SALA</span> <span class="colorOr">MINEIRA</span></h1> <h2><span class="colorwhite">do Empreendedor de</span> <span class="colorOr">Lagoa dos Patos-MG</span></h2> </div> </a>
+    contadorFavorite()
+    window.history.pushState(null, null, window.location.href);
+    window.onpopstate = function () {
+        window.history.pushState(null, null, window.location.href);
+    };
+}
+function apagaSeleciona() {
+    for (let i = 0; i < linkSelect.length; i++) {
+        linkSelect[i].classList.remove('addSeleciona')
     }
 
-    function fechaEmpresaL() {
-        const mostraEmpresa = document.querySelector('#mostraEmpresa');
-        // apagaSeleciona()
-        mostraEmpresa.innerHTML = ''
+    //infoId.innerHTML = 'Mercados'
+}
+
+function fechaEmpresaL() {
+    const mostraEmpresa = document.querySelector('#mostraEmpresa');
+    // apagaSeleciona()
+    mostraEmpresa.innerHTML = ''
+}
+inicioApp()
+
+
+
+async function verEmpresaShow(numero) {
+
+    const response = await fetch(urlEmpresas);
+    const data = await response.json();
+
+
+    const ligarCelular = "+55" + data[numero].telefone.replace(' ', '9').replace('-', '')
+    const mostraCelular = data[numero].telefone.replace(' ', ' 9')
+    var whatsAppTel = "55" + data[numero].telefone.replace(' ', '').replace('-', '')
+
+
+    //const linkTemp = `https://www.google.com/maps/place/R.+Sete+de+Setembro,+32,+Lagoa+dos+Patos+-+MG,+39360-000`
+    // if(data[numero].mapa != undefined){
+
+    // } else {
+
+    // }
+
+    if (data[numero].mapa != undefined) {
+        var mapaS = data[numero].mapa.split('|')[0]
+        var linkOpe = data[numero].mapa.split('|')[1]
+    } else {
+        var mapaS = `<iframe src='https://www.google.com/maps/embed?pb=Rua sete de setembro 185 39360-000!5e0!3m2!1spt-BR!2sbr!4v1680905641529!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>`
+        var linkOpe = `https://www.google.com/maps/place/${data[numero].endereco.replace(/ /g, '+').toLowerCase()},${data[numero].numero.replace(/ /g, '+')},+Lagoa+dos+Patos+-+MG,+39360-000`
     }
-    inicioApp()
 
+    if (data[numero].imagensEmpresa != undefined) {
+        var imagensEmpresa = data[numero].imagensEmpresa
 
+        var fotosEmpresaG = [];
 
-    async function verEmpresaShow(numero) {
+        for (let i = 0; i < imagensEmpresa.length; i++) {
+            const imageE = `<img src="${imagensEmpresa[i]}" alt="">`
+            fotosEmpresaG.push(imageE)
 
-        const response = await fetch(urlEmpresas);
-        const data = await response.json();
-
-
-        const ligarCelular = "+55" + data[numero].telefone.replace(' ', '9').replace('-', '')
-        const mostraCelular = data[numero].telefone.replace(' ', ' 9')
-        var whatsAppTel = "55" + data[numero].telefone.replace(' ', '').replace('-', '')
-
-
-        //const linkTemp = `https://www.google.com/maps/place/R.+Sete+de+Setembro,+32,+Lagoa+dos+Patos+-+MG,+39360-000`
-        // if(data[numero].mapa != undefined){
-
-        // } else {
-
-        // }
-
-        if (data[numero].mapa != undefined) {
-            var mapaS = data[numero].mapa.split('|')[0]
-            var linkOpe = data[numero].mapa.split('|')[1]
-        } else {
-            var mapaS = `<iframe src='https://www.google.com/maps/embed?pb=Rua sete de setembro 185 39360-000!5e0!3m2!1spt-BR!2sbr!4v1680905641529!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>`
-            var linkOpe = `https://www.google.com/maps/place/${data[numero].endereco.replace(/ /g, '+').toLowerCase()},${data[numero].numero.replace(/ /g, '+')},+Lagoa+dos+Patos+-+MG,+39360-000`
         }
-
-        if (data[numero].imagensEmpresa != undefined) {
-            var imagensEmpresa = data[numero].imagensEmpresa
-
-            var fotosEmpresaG = [];
-
-            for (let i = 0; i < imagensEmpresa.length; i++) {
-                const imageE = `<img src="${imagensEmpresa[i]}" alt="">`
-                fotosEmpresaG.push(imageE)
-
-            }
-            var imagensdaEmp = JSON.stringify(fotosEmpresaG).replace(/\["/g, '').replace(/\\"/g, '\"').replace(/\",\"/g, ' ').replace(/\"\]/g, "Futuro Consultoria")
-            //const imagensdaEmp = ``
-        } else {
-            var imagensdaEmp = `Sem Fotos no momento`
-        }
-        const enderecoRua = data[numero].endereco.replace(/R /gi, 'RUA ').replace(/[0-9]/gi, '')
-        const mostraEmpresa = document.querySelector('#mostraEmpresa');
-        mostraEmpresa.innerHTML = ` <div class="fundoEmpresaLocal" >
+        var imagensdaEmp = JSON.stringify(fotosEmpresaG).replace(/\["/g, '').replace(/\\"/g, '\"').replace(/\",\"/g, ' ').replace(/\"\]/g, "Futuro Consultoria")
+        //const imagensdaEmp = ``
+    } else {
+        var imagensdaEmp = `Sem Fotos no momento`
+    }
+    const enderecoRua = data[numero].endereco.replace(/R /gi, 'RUA ').replace(/[0-9]/gi, '')
+    const mostraEmpresa = document.querySelector('#mostraEmpresa');
+    mostraEmpresa.innerHTML = ` <div class="fundoEmpresaLocal" >
     <div class="empresaLocal">
         <div class="apresentaEndereco">
         <h2>${data[numero].razaoSocial}</h2>
@@ -903,192 +980,239 @@ function empresas() {
 </div>`
 
 
-    }
-    //verEmpresaShow(0)
-    function buscaEmpresa() {
-        const mostraSer = document.querySelector('#infoVisivel');
+}
+//verEmpresaShow(0)
+function buscaEmpresa() {
+    const mostraSer = document.querySelector('#infoVisivel');
 
-        let input = document.getElementById('searchbar').value
-        input = input.toLowerCase();
-        let x = document.getElementsByClassName('btnEmpresa');
+    let input = document.getElementById('searchbar').value
+    input = input.toLowerCase();
+    let x = document.getElementsByClassName('btnEmpresa');
 
 
 
-        for (i = 0; i < x.length; i++) {
-            if (!x[i].innerHTML.toLowerCase().includes(input) || input.length <= 0) {
-                x[i].style.display = "none";
-                //mostraSer.style.display = "none"
+    for (i = 0; i < x.length; i++) {
+        if (!x[i].innerHTML.toLowerCase().includes(input) || input.length <= 0) {
+            x[i].style.display = "none";
+            //mostraSer.style.display = "none"
 
-            }
-            else {
-                x[i].style.display = "list-item";
-                mostraSer.style.display = "block"
-            }
+        }
+        else {
+            x[i].style.display = "list-item";
+            mostraSer.style.display = "block"
         }
     }
+}
 
-    function fotosLagoa() {
-        desmarcaTop()
-        marcaTop(3)
-        infoVisivel.innerHTML = ''
-        const mostraI = document.querySelector('#infoVisivel')
+function fotosLagoa() {
+    desmarcaTop()
+    marcaTop(3)
+    infoVisivel.innerHTML = ''
+    const mostraI = document.querySelector('#infoVisivel')
 
 
 
-        const imagensOne = ['Barragem cheia Lagoa dos Patos - MG. -27_03_2012_120.jpg', 'Barragem cheia Lagoa dos Patos - MG. -27032012.jpg', 'Barragem-lagoa-dos-patos-mg-27032012121.jpg', 'coletanea-FOTOS-de-lagoa-dos-patos-MG-Sala-mineira.jpg', 'HDR-Lagoa-dos-patos-mg-barragem.png', 'Lagoa-dos-patos-mg-barragem-cheia-27_03_2012122.jpg', 'Tim, Rodrigo, Edson, Cassio, Valdo - mortal Kombat(9).jpg']
+    const imagensOne = ['Barragem cheia Lagoa dos Patos - MG. -27_03_2012_120.jpg', 'Barragem cheia Lagoa dos Patos - MG. -27032012.jpg', 'Barragem-lagoa-dos-patos-mg-27032012121.jpg', 'coletanea-FOTOS-de-lagoa-dos-patos-MG-Sala-mineira.jpg', 'HDR-Lagoa-dos-patos-mg-barragem.png', 'Lagoa-dos-patos-mg-barragem-cheia-27_03_2012122.jpg', 'Tim, Rodrigo, Edson, Cassio, Valdo - mortal Kombat(9).jpg']
 
-        for (let i = 0; i < imagensOne.length; i++) {
-            mostraI.innerHTML += `<div class="tamanhosImg">
+    for (let i = 0; i < imagensOne.length; i++) {
+        mostraI.innerHTML += `<div class="tamanhosImg">
         <div class="Sirv" data-effect="zoom">
             <img data-src="https://rogresph.sirv.com/sala-mineira/fotos/${imagensOne[i]}">
         </div>
     </div>`
-        }
-        infoId.innerHTML = 'Fotos'
     }
-    function apagaSeta() {
+    infoId.innerHTML = 'Fotos'
+}
+function apagaSeta() {
 
-        document.querySelector('#rightT').classList.add('dnone')
+    document.querySelector('#rightT').classList.add('dnone')
 
+}
+
+function fechaGif() {
+    const verSlide = document.querySelector('#verSlide')
+    verSlide.classList.add('dnone')
+}
+
+
+function favoritarEmpresa(numero) {
+    contadorFavorite()
+
+    var iconFavo = document.querySelector(`#iconFavo${numero}`).src
+    const iconF = document.querySelector(`#iconFavo${numero}`)
+    const valorId = document.querySelector(`#id_${numero}`).id.replace(/id_/g, '')
+
+    if (localStorage.getItem("favoritosEmpresas") === null) {
+        var empresasFavoritas = []
+        //console.log(cheio.length)
+    } else {
+        const cheio = localStorage.getItem('favoritosEmpresas')
+        const favorite = JSON.parse(cheio);
+        var empresasFavoritas = favorite
     }
 
-    function fechaGif() {
-        const verSlide = document.querySelector('#verSlide')
-        verSlide.classList.add('dnone')
+
+    var favoriteSalvo = valorId
+
+
+
+    const index = empresasFavoritas.indexOf(favoriteSalvo);
+    const seFavoExiste = index != -1;
+    if (seFavoExiste) {
+        empresasFavoritas.splice(index, 1);
+        iconF.src = './imgguia/add-favorito.png'
+
+    } else {
+        empresasFavoritas.push(favoriteSalvo)
+        iconF.src = './imgguia/favorito-adicionado.png'
     }
+    localStorage.setItem('favoritosEmpresas', JSON.stringify(empresasFavoritas))
 
 
-    function favoritarEmpresa(numero) {
-        contadorFavorite()
 
-        var iconFavo = document.querySelector(`#iconFavo${numero}`).src
-        const iconF = document.querySelector(`#iconFavo${numero}`)
-        const valorId = document.querySelector(`#id_${numero}`).id.replace(/id_/g, '')
+    //console.log(empresasFavoritas)
 
-        if (localStorage.getItem("favoritosEmpresas") === null) {
-            var empresasFavoritas = []
-            //console.log(cheio.length)
-        } else {
-            const cheio = localStorage.getItem('favoritosEmpresas')
-            const favorite = JSON.parse(cheio);
-            var empresasFavoritas = favorite
+
+
+
+
+    // console.log(iconFavo)
+    // if(localStorage.getItem('favoritosEmpresas') != null){
+    //     console.log('empresas adicionadas')
+    // }
+    // if(ind)
+
+    // if(iconFavo != null) {
+    //     console.log("Favoritado")
+    //     //iconF.style.backgroundColor = "red";
+    //     iconF.src = './imgguia/favorito-adicionado.png'
+    //     iconFavo = null
+    //     favoritos.push(valorId)
+    //     localStorage.setItem('favoritosEmpresas', JSON.stringify(favoritos))
+    // } else {
+    //     console.log("Desfavoritado")
+    //     //iconF.style.backgroundColor = "gree"
+    //     iconF.style.backgroundColor = "gray";
+    //     iconF.src = './imgguia/add-favorito.png'
+    // }
+
+
+}
+async function favoritosMarcados() {
+
+    const response = await fetch(urlEmpresas);
+    const data = await response.json();
+
+    // var iconFavoT = document.querySelector(`#iconFavo${numero}`).src
+    // const iconF = document.querySelector(`#iconFavo${numero}`)
+    // const valorId = document.querySelector(`#id_${numero}`).id.replace(/id_/g, '')
+
+
+    //console.log(favor.length)
+    var favor = JSON.parse(localStorage.getItem('favoritosEmpresas'))
+
+    for (let i = 0; i < favor.length; i++) {
+        const numerFav = favor[i]
+        const verImagem = document.querySelector(`#iconFavo${numerFav}`)
+
+
+        if (verImagem != null) {
+            document.querySelector(`#iconFavo${numerFav}`).src = './imgguia/favorito-adicionado.png'
         }
 
-
-        var favoriteSalvo = valorId
-
-
-
-        const index = empresasFavoritas.indexOf(favoriteSalvo);
-        const seFavoExiste = index != -1;
-        if (seFavoExiste) {
-            empresasFavoritas.splice(index, 1);
-            iconF.src = './imgguia/add-favorito.png'
-
-        } else {
-            empresasFavoritas.push(favoriteSalvo)
-            iconF.src = './imgguia/favorito-adicionado.png'
-        }
-        localStorage.setItem('favoritosEmpresas', JSON.stringify(empresasFavoritas))
-
-
-
-        //console.log(empresasFavoritas)
-
-
-
-
-
-        // console.log(iconFavo)
-        // if(localStorage.getItem('favoritosEmpresas') != null){
-        //     console.log('empresas adicionadas')
+        // if(document.querySelector(`#iconFavo${numerFav}`).src != null){
+        //     document.querySelector(`#iconFavo${numerFav}`).src = './imgguia/favorito-adicionado.png'
         // }
-        // if(ind)
 
-        // if(iconFavo != null) {
-        //     console.log("Favoritado")
-        //     //iconF.style.backgroundColor = "red";
-        //     iconF.src = './imgguia/favorito-adicionado.png'
-        //     iconFavo = null
-        //     favoritos.push(valorId)
-        //     localStorage.setItem('favoritosEmpresas', JSON.stringify(favoritos))
-        // } else {
-        //     console.log("Desfavoritado")
-        //     //iconF.style.backgroundColor = "gree"
-        //     iconF.style.backgroundColor = "gray";
-        //     iconF.src = './imgguia/add-favorito.png'
-        // }
 
+        // console.log()
+        // data.map((favEmp) => {
+
+
+
+        // })
+        // var imgtroca = JSON.parse(localStorage.getItem('favoritosEmpresas'))
+        //document.querySelector(`#iconFavo${data.indexOf(i)}`).src = './imgguia/favorito-adicionado.png'
+        //console.log(data.indexOf(i))
 
     }
-    async function favoritosMarcados() {
 
-        const response = await fetch(urlEmpresas);
-        const data = await response.json();
+}
+//favoritosMarcados()
+//setInterval('favoritosMarcados()', 1000)
 
-        // var iconFavoT = document.querySelector(`#iconFavo${numero}`).src
-        // const iconF = document.querySelector(`#iconFavo${numero}`)
-        // const valorId = document.querySelector(`#id_${numero}`).id.replace(/id_/g, '')
+function paraFecharAbrir() {
+    const todasMaterias = document.querySelectorAll('.noticia')
 
+    for (let i = 0; i < todasMaterias.length; i++) {
 
-        //console.log(favor.length)
-        var favor = JSON.parse(localStorage.getItem('favoritosEmpresas'))
+        if (todasMaterias[0] != null) {
+            todasMaterias[i].addEventListener('click', () => {
 
-        for (let i = 0; i < favor.length; i++) {
-            const numerFav = favor[i]
-            const verImagem = document.querySelector(`#iconFavo${numerFav}`)
-
-
-            if (verImagem != null) {
-                document.querySelector(`#iconFavo${numerFav}`).src = './imgguia/favorito-adicionado.png'
-            }
-
-            // if(document.querySelector(`#iconFavo${numerFav}`).src != null){
-            //     document.querySelector(`#iconFavo${numerFav}`).src = './imgguia/favorito-adicionado.png'
-            // }
-
-
-            // console.log()
-            // data.map((favEmp) => {
-
-
-
-            // })
-            // var imgtroca = JSON.parse(localStorage.getItem('favoritosEmpresas'))
-            //document.querySelector(`#iconFavo${data.indexOf(i)}`).src = './imgguia/favorito-adicionado.png'
-            //console.log(data.indexOf(i))
-
+                const oDoc = document.querySelector('.mostraNoticiaBlog')
+                oDoc.classList.remove('fechaJanel')
+                abreNoti(i)
+                oDoc.style.display = 'block'
+                oDoc.classList.add('abreJanel')
+            })
         }
-
     }
-}
 
-const todasMaterias = document.querySelectorAll('.noticia')
 
-for (let i = 0; i < todasMaterias.length; i++) {
-
-    if (todasMaterias[0] != null) {
-        todasMaterias[i].addEventListener('click', () => {
-
-            const oDoc = document.querySelector('.mostraNoticiaBlog')
-            oDoc.classList.remove('fechaJanel')
-            oDoc.style.display = 'block'
-            oDoc.classList.add('abreJanel')
-        })
+    function fechaJanelas() {
+        const oDoc = document.querySelector('.mostraNoticiaBlog');
+        oDoc.style.display = 'none';
     }
+
+    const btnFecha = document.querySelector('.mostraNoticiaBlog button');
+    btnFecha.addEventListener('click', () => {
+        const oDoc = document.querySelector('.mostraNoticiaBlog');
+        setTimeout(fechaJanelas, 200);
+        oDoc.classList.add('fechaJanel');
+        oDoc.classList.remove('abreJanel');
+        
+    });
 }
 
+function artigosNoticias() {
+    const data = JSON.parse(localStorage.getItem('noticiasBlog'))
+    const infoVisivel = document.querySelector('#infoVisivel')
+    infoVisivel.innerHTML = `<div class="infoNoticias"></div>`
+    const infoNoticias = document.querySelector('.infoNoticias')
+    infoNoticias.innerHTML = `<span class="mostraNoticiaBlog" style="display: none;">
+    <button>FECHAR</button>
 
-function fechaJanelas() {
-    const oDoc = document.querySelector('.mostraNoticiaBlog');
-    oDoc.style.display = 'none';
+    <div>
+        <img  src=""
+            alt="">
+        <h2>RESTAURANTE NOBRE ABERTO</h2>
+        <texto></texto>
+        
+        
+    </div>
+
+</span>`
+    data.map((e, index) => {
+        infoNoticias.innerHTML += ` <div class="noticia" >
+        <div>
+            <img src="${e.capa}" alt="Nome Noticia">
+        </div>
+        <div>
+            <h2>${e.titulo}</h2>
+        </div>
+        <div>
+            ${e.texto}
+        </div>
+    </div>`
+    })
+    setTimeout(paraFecharAbrir, 1000)
 }
 
-const btnFecha = document.querySelector('.mostraNoticiaBlog button');
-btnFecha.addEventListener('click', () => {
-    const oDoc = document.querySelector('.mostraNoticiaBlog');
-    oDoc.classList.add('fechaJanel');
-    oDoc.classList.remove('abreJanel');
-    setTimeout(fechaJanelas, 600);
-});
+function abreNoti(not) {
+    const data = JSON.parse(localStorage.getItem('noticiasBlog'))
+    const infoNoticias = document.querySelector('.infoNoticias')
+    infoNoticias.querySelector('img').src = data[not].capa
+    infoNoticias.querySelector('h2').textContent = data[not].titulo
+    infoNoticias.querySelector('texto').innerHTML = data[not].texto
+}
 
