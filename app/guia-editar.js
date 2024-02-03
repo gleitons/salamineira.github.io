@@ -851,7 +851,9 @@ async function artigosNot() {
     localStorage.setItem('noticiasBlog', JSON.stringify(data))
 }
 function inicioApp() {
+   
     artigosNot()
+    if(localStorage.getItem('noticiasBlog') == null) location.reload()
     contadorFavorite()
     desmarcaTop()
     marcaTop(0)
