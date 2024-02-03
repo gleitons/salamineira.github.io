@@ -717,3 +717,4 @@ document.querySelectorAll('a[href="https://asconstrutora.com.br"]').forEach(link
     console.log(link)
     link.href = 'https://asconstrutora.netlify.app/';
 });
+
