@@ -24,7 +24,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <link rel="stylesheet" href="./guia.css">
+    <link rel="stylesheet" href="./guia-editar.css">
 </head>
 
 <body onclick="contadorFavorite()">
@@ -38,16 +38,11 @@
             </div>
         </div>
         <div>
-            <!-- <p>FUTURO CONSULTORIA</p> -->
             <div class="SearchB">
-                <!-- <div class="item" onclick="this.classList.add('animar')">Clique aqui</div> -->
-
-
                 <a href="/app"><img src="./imgguia/brasao-lagoa.jpg" alt=""></a>
                 <input type="text" id="searchbar" onkeyup="buscaEmpresa()" onclick="localizaEmpresas()" name="search"
                     placeholder="Busca">
                 <a onclick="localizaEmpresas()"><img src="./imgguia/buscar-guia.png" alt=""></a>
-
             </div>
             <div class="menuTop">
                 <nav>
@@ -74,30 +69,11 @@
         <div>
             <h3 id="infoId">Home</h3>
             <div id="infoVisivel">
-                <!-- <div class="btnEmpresa" >                   
-                        <div class="empresasSituado" id="id_0" >
-                            <div  class="dadosEmp" onclick="favoritarEmpresa(0)">
-                                <img class="imgSetor" src="./imgguia/animais-de-estimacao.png" alt="">
-                                <img class="favoritar" id="iconFavo0"  src="./imgguia/add-favorito.png" alt="">
-                                
-                            </div>
-                            <div class="infoDaEmpresa" onclick="verEmpresaShow(0)">
-                                <li><span>${empresaL.nomeFantasia}</span> <br> ${empresaL.razaoSocial} <br> ${empresaL.cnpjN} </li>
-                                <p>Ver</p>
-                            </div>                           
-                        </div>                   
-                </div> -->
 
-                <a class="logoM" href="/app">
-                    <div class="logocaracter">
-                        <h1><span class="colorwhite">SALA</span> <span class="colorOr">MINEIRA</span></h1>
-                        <h2><span class="colorwhite">do Empreendedor de</span> <span class="colorOr">Lagoa dos
-                                Patos-MG</span></h2>
-                    </div>
-                </a>
-                <!-- <span class="colorwhite">Em breve mais informações nesta página</span> -->
             </div>
-            <span class="colorwhite">Em breve mais informações nesta página</span>
+          
+
+
         </div>
     </main>
     <footer onscroll="apagaSeta(), fechaGif()">
@@ -186,7 +162,7 @@
         <img src="./imgguia/add-favorito.png" alt="">
     </div>
 
-    <script src="./guia.js"></script>
+    <script src="./guia-editar.js"></script>
     <script src="https://scripts.sirv.com/sirv.js"></script>
     <script>
         const imdGera = `internet-gps.png
@@ -237,11 +213,11 @@ bar-counter.png
 animais-de-estimacao.png
 adicionar-aos-favoritos.png
 add-favorito.png`
-       
+
         const todasimagensT = imdGera.split('\n')
-        
-        for(let i of todasimagensT) {
-            
+
+        for (let i of todasimagensT) {
+
             const imgGeradasON = document.createElement('img')
             imgGeradasON.setAttribute('src', `./imgguia/${i}`)
 
@@ -254,7 +230,7 @@ add-favorito.png`
             const linkdaN = document.querySelector('.navigate-link').innerHTML
             console.log(linkdaN)
         }
-        
+
     </script>
 </body>
 
