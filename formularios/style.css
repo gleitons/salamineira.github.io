@@ -82,4 +82,12 @@ footer {
     .secPasta select {
         width: 300px;
     }
+    form > div {
+        display: block;
+        padding: 10px 0;
+        align-items: center;
+    }
+    form textarea {
+        width: 100%;
+    }
 }
