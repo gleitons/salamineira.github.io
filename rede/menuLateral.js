@@ -71,7 +71,7 @@ const MenuLateral = () => {
         <li><i class="bi bi-house-fill"></i> Inicio</li>
     </a>
     <a href="./perfil.html">
-    <i class="bi bi-layout-text-window-reverse"></i> Perfil</li>
+    <li><i class="bi bi-layout-text-window-reverse"></i> Perfil</li>
     </a>
     
     <p class="avisoDiv">Buscador S</p>

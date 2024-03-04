@@ -78,11 +78,23 @@
         "link": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor"
     },
     {
+        "id":13,
+        "imagem": "https://ialkyrog.sirv.com/sala/icones/painel-de-controle%20(2).png",
+        "texto": "POWERBI",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiOTlhYTY2YTktN2RkMy00ZjIxLTg3NDItMDYwZTU5ZTkyZDdkIiwidCI6Ijk3Mjk4MjcxLTFiZDctNGFjNS05MzViLTg4YWRkZWY2MzZjYyIsImMiOjR9"
+    },
+    {
         "id":14,
         "imagem": "https://ialkyrog.sirv.com/sala/icones/relatorio%20(1).png",
         "texto": "DATA SEBRAE",
         "link": "https://datasebrae.com.br/explore"
     }
-  
+    ,
+    {
+        "id":15,
+        "imagem": "https://ialkyrog.sirv.com/sala/icones/pasta.png",
+        "texto": "MR PIRAPORA",
+        "link": "https://linktr.ee/RedeMRPirapora"
+    }
     
 ]
