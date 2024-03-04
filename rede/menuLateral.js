@@ -15,6 +15,9 @@ if (modeAtual == 1) {
 
 }
 
+document.querySelector('head').innerHTML += `<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133729569-2"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments) } gtag("js", new Date()); gtag("config", "UA-133729569-2");</script>`
+
 
 function dModeT() {
     const menuAtual = document.querySelector('.menusApresentação').style.backgroundColor
@@ -253,6 +256,7 @@ function atualizarPerfilClique() {
         "nome": nomeIdComplete.value,
         "comoFicaImg": pImageFundo
     }
+    
     localStorage.setItem('perfilRede', JSON.stringify([perfil]))
     location.reload()
 }
