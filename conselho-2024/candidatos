@@ -1,0 +1,82 @@
+[
+  {
+    "nome": "SONJA",
+    "nomecompleto": "Sonja Caramelo",
+    "numero": 111,
+    "imagem": "./111.png",
+    "proposta": "",
+    "votos": 5
+  },
+  {
+    "nome": "VICTORIA",
+    "nomecompleto": "Victoria Sondage",
+    "numero": 115,
+    "imagem": "./115.png",
+    "proposta": "",
+    "votos": 4
+  },
+  {
+    "nome": "BEATRICE",
+    "nomecompleto": "Andreas Beatrice",
+    "numero": 116,
+    "imagem": "./116.png",
+    "proposta": "",
+    "votos": 3
+  },
+  {
+    "nome": "CARMELITA",
+    "nomecompleto": "Carmelita Souza",
+    "numero": 120,
+    "imagem": "./120.png",
+    "proposta": "",
+    "votos": 9
+  },
+  {
+    "nome": "DULCINEIA",
+    "nomecompleto": "Dulcineira",
+    "numero": 123,
+    "imagem": "./120.png",
+    "proposta": "",
+    "votos": 8
+  },
+  {
+    "nome": "AMARLIANE",
+    "nomecompleto": "Amarliane Social",
+    "numero": 125,
+    "imagem": "./125.png",
+    "proposta": "",
+    "votos": 2
+  },
+  {
+    "nome": "SANDRIANE",
+    "nomecompleto": "Ruste Sandriane",
+    "numero": 222,
+    "imagem": "./222.png",
+    "proposta": "",
+    "votos": 18
+  },
+  {
+    "nome": "HELTON",
+    "nomecompleto": "Helton Carlos",
+    "numero": 223,
+    "imagem": "./223.png",
+    "proposta": "",
+    "votos": 8
+  },
+  {
+    "nome": "BORIS",
+    "nomecompleto": "Boris Antony",
+    "numero": 234,
+    "imagem": "./234.png",
+    "proposta": "",
+    "votos": 5
+  },
+  {
+    "nome": "CARMEN",
+    "nomecompleto": "Carmen Sandiego",
+    "numero": 700,
+    "imagem": "./700.png",
+    "proposta": "",
+    "votos": 7
+  }
+]
