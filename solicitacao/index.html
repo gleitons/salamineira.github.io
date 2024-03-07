@@ -31,8 +31,9 @@
     .folha {
         /* background-color: #ccc; */
         padding: 0.5em;
-        border: black solid 1px;
-    }
+        /* border: black solid 1px;//??
+        */
+    } 
 
     .a4_vertical {
         width: 793px;
@@ -71,6 +72,9 @@
         padding-top: 150px;
 
     }
+    .lig {
+       visibility: hidden;
+    }
 
     @media print {
         header {
@@ -82,23 +86,25 @@
 <body>
     <header>
         INSIRA AS INFORMAÇÕES: <br>
-        <div>SOLICITANTE: <input type="text" name="" id="" value="Solicitante"></div>
-        <div>CPF/CNPJ: <input type="text" name="" id=""> </div>
-        <div>RG: <input type="text" name="" id=""> </div>
-        <div>ENDEREÇO DO EVENTO: <input type="text" name="" id=""> </div>
-        <div>BAIRRO: <input type="text" name="" id=""> </div>
-        <div>CEP: <input type="text" name="" id=""> </div>
-        <div>CIDADE: <input type="text" name="" id=""> </div>
-        <div>TEL. DO SOLICITANTE: <input type="text" name="" id=""> </div>
+        <div>SOLICITANTE: <input type="text" name="" id="" value=" DANIEL ALVES DA SILVA"></div>
+        <div>CPF/CNPJ: <input type="text" name="" id="" value="098.225.336-24"> </div>
+        <div>RG: <input type="text" name="" id="" value="MG-16.439.088"> </div>
+        <div>ENDEREÇO DO SOLICITANTE: <input type="text" name="" id="" value="AVENDIA PRESIDENTE MEDICI, 100, CENTRO"> </div>
+        <div>BAIRRO: <input type="text" name="" id="" value="CENTRO"> </div>
+        <div>CEP: <input type="text" name="" id="" value="39.360-000"> </div>
+        <div>CIDADE: <input type="text" name="" id="" value="LAGOA DOS PATOS MG" > </div>
+        <div>TEL. DO SOLICITANTE: <input type="text" name="" id="" value="(38) 997354404" > </div>
 
         DADOS DO EVENTO
 
-        <div>NOME DO EVENTO: <input type="text" name="" id=""> </div>
+        <div>NOME DO EVENTO: <input type="text" name="" id="" value="Realização de Festividade “SHOW´S AO VIVO”"> </div>
         <div>CRONOGRAMA: <input type="text" name="" id=""> </div>
-        <div>NÚMERO DE PARTICIPANTES: <input type="text" name="" id=""> </div>
-        <div>DATA: <input type="text" name="" id=""> </div>
-        <div>HORÁRIO DE INÍCIO: <input type="text" name="" id=""> </div>
-        <div>HORARIO DE FINALIZAÇÃO: <input type="text" name="" id=""> </div>
+        <div>ENDEREÇO DO EVENTO: <input type="text" name="" id="" value="PRAÇA DE EVENTOS - RUA DONA DUCHA, ESQUINA COM FAUSTINO MAIA"> </div>
+        <div>NÚMERO DE PARTICIPANTES: <input type="text" name="" id="" value="INDETERMINADO"> </div>
+        <div>DATA INICIO: <input type="text" name="" id="" value="30/03/2024"> </div>
+        <div>DATA FIM: <input type="text" name="" id="" value="30/03/2024"> </div>
+        <div>HORÁRIO DE INÍCIO: <input type="text" name="" id="" value="20:00"> </div>
+        <div>HORARIO DE FINALIZAÇÃO: <input type="text" name="" id="" value="00:00"> </div>
 
         <div>
             <button>GERAR</button> <button onclick="print()">IMPRIMIR</button>
@@ -130,7 +136,7 @@
 
     <main>
         <div class="folha a4_vertical">
-            <div class="topo">
+            <div class="topo lig">
                 <img src="./topo.png" alt="">
             </div>
             <span id="solicitacao">
@@ -139,7 +145,7 @@
 
         </div>
         <div class="folha a4_vertical">
-            <div class="topo">
+            <div class="topo lig">
                 <img src="./topo.png" alt="">
             </div>
             <span id="oficio">
