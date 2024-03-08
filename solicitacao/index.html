@@ -18,14 +18,17 @@
         width: 60%;
         display: flex;
         justify-content: space-between;
-        border: black solid 1px;
+        /* border: black solid 1px; */
         margin: 10px auto;
         align-items: center;
     }
 
     div input {
         width: 50%;
-        padding: 3px;
+        padding: 5px;
+        background-color: rgb(236, 236, 236);
+        border: none;
+        border-bottom: black solid 1px;
     }
 
     .folha {
@@ -75,9 +78,47 @@
     .lig {
        visibility: hidden;
     }
+    button {
+        padding: 10px;
+        background-color: rgb(11, 101, 136);
+        border-radius: 8px;  
+        color: white;      
+        font-weight: 700;
+        border: none;
+    }
+    button:hover {
+        background-color: rgb(176, 233, 255);
+        cursor: pointer;
+        color: black;
+    }
+    button:active {
+        background-color: rgb(176, 233, 255);
+        cursor: pointer;
+        color: black;
+        box-shadow: inset black 0px 2px 2px 0px;
+        transform: scale(.9);
+    }
+    .tit {
+        background-color: rgb(231, 252, 255);
+        padding: 5px;
+    }
+    .topFix {
+        /* position: fixed; */
+        /* position: sticky; */
+        position:sticky;
+        z-index: 99999;
+        top: 10px;
+        text-align: center;
+    }
+    .abaixo {
+       
+    }
 
     @media print {
         header {
+            display: none;
+        }
+        .topFix {
             display: none;
         }
     }
@@ -85,56 +126,42 @@
 
 <body>
     <header>
-        INSIRA AS INFORMAÇÕES: <br>
-        <div>SOLICITANTE: <input type="text" name="" id="" value=" DANIEL ALVES DA SILVA"></div>
-        <div>CPF/CNPJ: <input type="text" name="" id="" value="098.225.336-24"> </div>
-        <div>RG: <input type="text" name="" id="" value="MG-16.439.088"> </div>
-        <div>ENDEREÇO DO SOLICITANTE: <input type="text" name="" id="" value="AVENDIA PRESIDENTE MEDICI, 100, CENTRO"> </div>
-        <div>BAIRRO: <input type="text" name="" id="" value="CENTRO"> </div>
-        <div>CEP: <input type="text" name="" id="" value="39.360-000"> </div>
-        <div>CIDADE: <input type="text" name="" id="" value="LAGOA DOS PATOS MG" > </div>
-        <div>TEL. DO SOLICITANTE: <input type="text" name="" id="" value="(38) 997354404" > </div>
+        
+        <div class="tit"><strong>INSIRA AS INFORMAÇÕES:</strong></div> <br>
+        <div>SOLICITANTE: <input type="text" name="" id="" placeholder=" BONANDAS SOARES SOUZA"></div>
+        <div>CPF/CNPJ: <input type="text" name="" id="" placeholder="014.555.255-24"> </div>
+        <div>RG: <input type="text" name="" id="" placeholder="MG-18.488.055"> </div>
+        <div>ENDEREÇO DO SOLICITANTE: <input type="text" name="" id="" placeholder="AVENDIA PRESIDENTE MEDICI, 222, CENTRO"> </div>
+        <div>BAIRRO: <input type="text" name="" id="" placeholder="CENTRO"> </div>
+        <div>CEP: <input type="text" name="" id="" placeholder="39.360-000"> </div>
+        <div>CIDADE: <input type="text" name="" id="" placeholder="LAGOA DOS PATOS MG" > </div>
+        <div>TEL. DO SOLICITANTE: <input type="text" name="" id="" placeholder="(38) 998754411" > </div>
 
-        DADOS DO EVENTO
+        <div class="tit"><strong>DADOS DO EVENTO</strong></div>
 
-        <div>NOME DO EVENTO: <input type="text" name="" id="" value="Realização de Festividade “SHOW´S AO VIVO”"> </div>
+        <div >NOME DO EVENTO: <input type="text" name="" id="" placeholder="Realização de Festividade “SHOW´S AO VIVO”"> </div>
         <div>CRONOGRAMA: <input type="text" name="" id=""> </div>
-        <div>ENDEREÇO DO EVENTO: <input type="text" name="" id="" value="PRAÇA DE EVENTOS - RUA DONA DUCHA, ESQUINA COM FAUSTINO MAIA"> </div>
-        <div>NÚMERO DE PARTICIPANTES: <input type="text" name="" id="" value="INDETERMINADO"> </div>
-        <div>DATA INICIO: <input type="text" name="" id="" value="30/03/2024"> </div>
-        <div>DATA FIM: <input type="text" name="" id="" value="30/03/2024"> </div>
-        <div>HORÁRIO DE INÍCIO: <input type="text" name="" id="" value="20:00"> </div>
-        <div>HORARIO DE FINALIZAÇÃO: <input type="text" name="" id="" value="00:00"> </div>
+        <div>ENDEREÇO DO EVENTO: <input type="text" name="" id="" placeholder="RUA ETC - RUA TAL, ESQUINA COM TAL"> </div>
+        <div>NÚMERO DE PARTICIPANTES: <input type="text" name="" id="" placeholder="INDETERMINADO"> </div>
+        <div>DATA INICIO: <input type="text" name="" id="" placeholder="30/03/2024"> </div>
+        <div>DATA FIM: <input type="text" name="" id="" placeholder="30/03/2024"> </div>
+        <div>HORÁRIO DE INÍCIO: <input type="text" name="" id="" placeholder="20:00"> </div>
+        <div>HORARIO DE FINALIZAÇÃO: <input type="text" name="" id="" placeholder="00:00"> </div>
 
-        <div>
-            <button>GERAR</button> <button onclick="print()">IMPRIMIR</button>
-        </div>
-
-
-        DANIEL ALVES DA SILVA
-        CPF/CNPJ: 098.225.336-24
-        Endereço: PRAÇA DE EVENTOS
-        Bairro: CENTRO
-        CEP: 39.360-000
-        Cidade: Lagoa dos Patos – MG
-        Telefone: (38) 997354404
-
-
-
-        DADOS DO EVENTO:
-
-        Motivo: Realização de Festividade “SHOW´S AO VIVO”.
-        Local da Interdição:
-        Bairro:
-        Cronograma:
-        Número de participantes: Indeterminado.
-
-        Data: 30/03/2024; Horário do início: 20:00; Término: 02:00
+        <!-- <div class="topFix">
+            <div    ><button  onclick="geraArquivos()">GERAR</button> <button onclick="print()">IMPRIMIR</button></div>
+        </div>     -->
 
 
     </header>
 
     <main>
+       
+            <div class="topFix">
+                <div    ><button  onclick="geraArquivos()">GERAR</button> <button onclick="print()">IMPRIMIR</button></div>
+            </div>
+          
+
         <div class="folha a4_vertical">
             <div class="topo lig">
                 <img src="./topo.png" alt="">
