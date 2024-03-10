@@ -272,6 +272,22 @@ a .tituloCu {
   padding: 5px;
   color: white;
 }
+#pVenda {
+  animation: name 1s infinite linear   ;
+}
+@keyframes name {
+  from {
+    background-color: rgb(11, 186, 31);
+    
+    color: white;
+    transform: scale(1);
+  }
+  to {
+    background-color: rgb(100, 153, 51);
+    transform: scale(2);
+    color: rgb(255, 255, 255);
+  }
+}
 .sCNPJ div {
   margin: 20px 0;
   background-color: white;
@@ -2058,7 +2074,7 @@ footer {
     height: auto;
     background-color: #2e2e2e;
     width: 100%;
-   
+
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -2299,13 +2315,18 @@ footer {
     display: block;
   }
   .calculadoraMark {
-    width: 350px;
+    width: 100%;
     margin-left: -10px;
     border-radius: 12px;
     padding: 2px;
     box-shadow: rgba(0, 0, 0, 0.276) 0px 0px 10px 0px;
     margin-bottom: 50px;
   }
+  .calculadoraMark tr {
+    display: block;
+
+  }
+ 
   .anucies {
     width: 100%;
     margin: auto;
