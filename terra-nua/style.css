@@ -452,7 +452,24 @@ a[data-lightbox]:hover img{
 .lightbox-close-svg{
 	pointer-events:none;
 }
-
+.cidadesPesq {
+	width: 50%;
+	margin: auto;
+	background-color: #ffffff;
+	text-align: center;
+}
+.cidadesPesq li {
+	background-color: rgb(47, 178, 190);
+	margin: 5px auto;
+	list-style: none;
+}
+.inpPesquisa {
+	width: 100%;
+}
+.inpPesquisa input {
+	width: 100%;
+	padding: 10px;
+}
 /* Full Screen */
 .fullscreen-lb{
 	background:#000;
@@ -622,13 +639,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* = Bloc Padding Multi Breakpoint
 -------------------------------------------------------------- */
-
+@media (min-width: 280px) {
+	.cidadesPesq{width: 100%;}
+}
 @media (min-width: 576px) {
     .bloc-xxl-sm{padding:200px 20px;}
     .bloc-xl-sm{padding:150px 20px;}
     .bloc-lg-sm{padding:100px 20px;}
     .bloc-md-sm{padding:50px 20px;}
     .bloc-sm-sm{padding:20px;}
+	.cidadesPesq{width: 100%;}
     .bloc-no-padding-sm{padding:0 20px;}
 }
 @media (min-width: 768px) {

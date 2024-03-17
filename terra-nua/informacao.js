@@ -1,63 +1,13 @@
 
 
-// async function carregaTodasCidades() {
-//     var todosDados = []
-//     for(let i = 10; i <= 23; i ++){
-       
-//        const response = await fetch(`./cidades-mg-20${i}`)
-//        var data = await response.json()
 
-//        const datad = data++
 
-//        console.log(todosDados.concat(`${datad}`))    
-      
-      
-//     }
-//     console.log(data) 
-    
-    
- 
-//     // const response2010 = await fetch(url)
-//     // const response2011 = await fetch(url)
-//     // const response2012 = await fetch(url)
-//     // const response2013 = await fetch(url)
-//     // const response2014 = await fetch(url)
-//     // const response2015 = await fetch(url)
-//     // const response2016 = await fetch(url)
-//     // const response2017 = await fetch(url)
-//     // const response2018 = await fetch(url)
-//     // const response2019 = await fetch(url)
-//     // const response2020 = await fetch(url)
-//     // const response2021 = await fetch(url)
-//     // const response2022 = await fetch(url)
-//     // const response2023 = await fetch(url)
-//     // var data2010 = await response.json()
-//     // var data2011 = await response.json()
-//     // var data2012 = await response.json()
-//     // var data2013 = await response.json()
-//     // var data2014 = await response.json()
-//     // var data2015 = await response.json()
-//     // var data2016 = await response.json()
-//     // var data2017 = await response.json()
-//     // var data2018 = await response.json()
-//     // var data2019 = await response.json()
-//     // var data2020 = await response.json()
-//     // var data2021 = await response.json()
-//     // var data2022 = await response.json()
-//     // var data2023 = await response.json()
-
-//     //localStorage.setItem('cidadesterranua', JSON.stringify(data))
-
-// }
-
-// if(localStorage.getItem('cidadesterranua') == null){
-//     carregaTodasCidades()
-// }
 function gerarNomes(anoS) {
    // const url2016 = `./cidades-mg-${anoS}`
     const cidadeC = document.querySelector('#cidadeC')
     const response = localStorage.getItem(`city${anoS}`);
     const data = JSON.parse(response)
+    console.log(data)
 
     data.map((nomeCity) => {
         const seletorCidade = document.createElement('option');
@@ -211,3 +161,26 @@ function gerarMenu() {
 
 }
 gerarMenu()
+
+function filtrarItens() {
+    // Obtém o valor do campo de entrada de pesquisa
+    var termo = document.getElementById("searchInput").value.toLowerCase();
+    // Obtém todos os itens da lista
+    var itens = document.getElementById("listaItens").getElementsByTagName("li");
+    // Loop através de todos os itens da lista
+    for (var i = 0; i < itens.length; i++) {
+        var item = itens[i];
+        var textoItem = item.textContent.toLowerCase();
+        // Verifica se o texto do item contém o termo de pesquisa
+        if (textoItem.indexOf(termo) > -1) {
+            // Se o termo de pesquisa for encontrado no texto do item, mostra o item
+            item.style.display = "";
+        } else {
+            // Caso contrário, esconde o item
+            item.style.display = "none";
+        }
+    }
+}
+
+// Adiciona um evento de input ao campo de pesquisa para chamar a função de filtragem
+document.getElementById("searchInput").addEventListener("input", filtrarItens);
