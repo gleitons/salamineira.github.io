@@ -621,16 +621,6 @@
   },
   {
     "ano": 2016,
-    "nome": "Belo Horizonte",
-    "aptidaoBoa": "0,00",
-    "aptdaoRegular": "0,00",
-    "aptdaoRestrita": "0,00",
-    "pastagemPlantada": "0,00",
-    "pastagemNatural": "0,00",
-    "reserva": "0,00"
-  },
-  {
-    "ano": 2016,
     "nome": "Belo Oriente",
     "aptidaoBoa": "15.000,00",
     "aptdaoRegular": "12.000,00",
@@ -1611,16 +1601,6 @@
   },
   {
     "ano": 2016,
-    "nome": "Caxambu",
-    "aptidaoBoa": "0,00",
-    "aptdaoRegular": "0,00",
-    "aptdaoRestrita": "0,00",
-    "pastagemPlantada": "0,00",
-    "pastagemNatural": "0,00",
-    "reserva": "0,00"
-  },
-  {
-    "ano": 2016,
     "nome": "Central de Minas",
     "aptidaoBoa": "10.330,00",
     "aptdaoRegular": "8.260,00",
@@ -1918,16 +1898,6 @@
     "pastagemPlantada": "12.000,00",
     "pastagemNatural": "10.000,00",
     "reserva": "8.000,00"
-  },
-  {
-    "ano": 2016,
-    "nome": "Contagem",
-    "aptidaoBoa": "0,00",
-    "aptdaoRegular": "0,00",
-    "aptdaoRestrita": "0,00",
-    "pastagemPlantada": "0,00",
-    "pastagemNatural": "0,00",
-    "reserva": "0,00"
   },
   {
     "ano": 2016,
@@ -5819,7 +5789,7 @@
   {
     "ano": 2016,
     "nome": "Reduto",
-    "aptidaoBoa": "0,00",
+    "aptidaoBoa": "20.000,00",
     "aptdaoRegular": "20.000,00",
     "aptdaoRestrita": "0,00",
     "pastagemPlantada": "0,00",
@@ -6185,16 +6155,6 @@
     "pastagemPlantada": "5.000,00",
     "pastagemNatural": "4.000,00",
     "reserva": "3.000,00"
-  },
-  {
-    "ano": 2016,
-    "nome": "Santa Cruz de Minas",
-    "aptidaoBoa": "0,00",
-    "aptdaoRegular": "0,00",
-    "aptdaoRestrita": "0,00",
-    "pastagemPlantada": "0,00",
-    "pastagemNatural": "0,00",
-    "reserva": "8.000,00"
   },
   {
     "ano": 2016,
@@ -6905,16 +6865,6 @@
     "pastagemPlantada": "11.360,00",
     "pastagemNatural": "8.260,00",
     "reserva": "6.250,00"
-  },
-  {
-    "ano": 2016,
-    "nome": "São Lourenço",
-    "aptidaoBoa": "0,00",
-    "aptdaoRegular": "0,00",
-    "aptdaoRestrita": "0,00",
-    "pastagemPlantada": "0,00",
-    "pastagemNatural": "0,00",
-    "reserva": "0,00"
   },
   {
     "ano": 2016,

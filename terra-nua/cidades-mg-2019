@@ -581,16 +581,6 @@
   },
   {
     "ano": 2019,
-    "nome": "Belo Horizonte",
-    "aptidaoBoa": "0,00",
-    "aptdaoRegular": "0,00",
-    "aptdaoRestrita": "0,00",
-    "pastagemPlantada": "0,00",
-    "pastagemNatural": "0,00",
-    "reserva": "0,00"
-  },
-  {
-    "ano": 2019,
     "nome": "Belo Oriente",
     "aptidaoBoa": "21.000,00",
     "aptdaoRegular": "17.000,00",

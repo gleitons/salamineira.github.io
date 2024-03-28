@@ -161,16 +161,6 @@
   },
   {
     "ano": 2010,
-    "nome": "Alpercata",
-    "aptidaoBoa": "0,00",
-    "aptdaoRegular": "0,00",
-    "aptdaoRestrita": "0,00",
-    "pastagemPlantada": "0,00",
-    "pastagemNatural": "0,00",
-    "reserva": "0,00"
-  },
-  {
-    "ano": 2010,
     "nome": "Alpinópolis",
     "aptidaoBoa": "11.555,00",
     "aptdaoRegular": "8.777,00",
@@ -462,7 +452,7 @@
   {
     "ano": 2010,
     "nome": "Ataléia",
-    "aptidaoBoa": "0,00",
+    "aptidaoBoa": "3.000,00",
     "aptdaoRegular": "2.500,00",
     "aptdaoRestrita": "0,00",
     "pastagemPlantada": "0,00",
@@ -1232,7 +1222,7 @@
   {
     "ano": 2010,
     "nome": "Carmo da Mata",
-    "aptidaoBoa": "0,00",
+    "aptidaoBoa": "8.500,00",
     "aptdaoRegular": "8.000,00",
     "aptdaoRestrita": "0,00",
     "pastagemPlantada": "0,00",
@@ -1958,16 +1948,6 @@
     "pastagemPlantada": "1.000,00",
     "pastagemNatural": "300,00",
     "reserva": "1.000,00"
-  },
-  {
-    "ano": 2010,
-    "nome": "Dionísio",
-    "aptidaoBoa": "0,00",
-    "aptdaoRegular": "0,00",
-    "aptdaoRestrita": "0,00",
-    "pastagemPlantada": "0,00",
-    "pastagemNatural": "0,00",
-    "reserva": "0,00"
   },
   {
     "ano": 2010,
@@ -3621,16 +3601,6 @@
   },
   {
     "ano": 2010,
-    "nome": "Machacalis",
-    "aptidaoBoa": "0,00",
-    "aptdaoRegular": "0,00",
-    "aptdaoRestrita": "0,00",
-    "pastagemPlantada": "0,00",
-    "pastagemNatural": "0,00",
-    "reserva": "0,00"
-  },
-  {
-    "ano": 2010,
     "nome": "Machado",
     "aptidaoBoa": "12.000,00",
     "aptdaoRegular": "6.000,00",
@@ -3888,16 +3858,6 @@
     "pastagemPlantada": "1.000,00",
     "pastagemNatural": "2.000,00",
     "reserva": "1.000,00"
-  },
-  {
-    "ano": 2010,
-    "nome": "Medeiros",
-    "aptidaoBoa": "0,00",
-    "aptdaoRegular": "0,00",
-    "aptdaoRestrita": "0,00",
-    "pastagemPlantada": "0,00",
-    "pastagemNatural": "0,00",
-    "reserva": "0,00"
   },
   {
     "ano": 2010,
@@ -5461,16 +5421,6 @@
   },
   {
     "ano": 2010,
-    "nome": "Santa Cruz de Minas",
-    "aptidaoBoa": "0,00",
-    "aptdaoRegular": "0,00",
-    "aptdaoRestrita": "0,00",
-    "pastagemPlantada": "0,00",
-    "pastagemNatural": "0,00",
-    "reserva": "0,00"
-  },
-  {
-    "ano": 2010,
     "nome": "Santa Cruz de Salinas",
     "aptidaoBoa": "1.300,00",
     "aptdaoRegular": "1.100,00",
@@ -5991,16 +5941,6 @@
   },
   {
     "ano": 2010,
-    "nome": "São João Del Rei",
-    "aptidaoBoa": "0,00",
-    "aptdaoRegular": "0,00",
-    "aptdaoRestrita": "0,00",
-    "pastagemPlantada": "0,00",
-    "pastagemNatural": "0,00",
-    "reserva": "0,00"
-  },
-  {
-    "ano": 2010,
     "nome": "São João do Manhuaçu",
     "aptidaoBoa": "2.400,00",
     "aptdaoRegular": "2.100,00",
@@ -6442,7 +6382,7 @@
   {
     "ano": 2010,
     "nome": "Serra dos Aimorés",
-    "aptidaoBoa": "0,00",
+    "aptidaoBoa": "6.200,00",
     "aptdaoRegular": "5.000,00",
     "aptdaoRestrita": "0,00",
     "pastagemPlantada": "0,00",
@@ -6572,7 +6512,7 @@
   {
     "ano": 2010,
     "nome": "Tapira",
-    "aptidaoBoa": "0,00",
+    "aptidaoBoa": "3.500,00",
     "aptdaoRegular": "2.800,00",
     "aptdaoRestrita": "1.900,00",
     "pastagemPlantada": "0,00",
@@ -6628,16 +6568,6 @@
     "pastagemPlantada": "2.000,00",
     "pastagemNatural": "0,00",
     "reserva": "2.000,00"
-  },
-  {
-    "ano": 2010,
-    "nome": "Tiradentes",
-    "aptidaoBoa": "0,00",
-    "aptdaoRegular": "0,00",
-    "aptdaoRestrita": "0,00",
-    "pastagemPlantada": "0,00",
-    "pastagemNatural": "0,00",
-    "reserva": "0,00"
   },
   {
     "ano": 2010,

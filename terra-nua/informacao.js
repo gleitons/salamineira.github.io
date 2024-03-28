@@ -29,6 +29,8 @@ async function avaliacoes(anoS) {
 
     gerarNomes(anoS)
 
+   
+
     
 
     const cidadeMaior = await data.sort(function (a, b) {
@@ -116,7 +118,8 @@ async function avaliacoes(anoS) {
         <p class="cidadeDown" onclick="esconde()" >CLIQUE AQUI - Veja a Assinatura da Reunião em ${city.ano} em Lagoa dos Patos - MG</p>
         
         <p >Baixe a planilha completa - <a href="./arquivos/valor-terra-nua-${anoS}.pdf#">Clique Aqui</a></p>
-        <p class="curiosidadeS" ><strong>*CURIOSIDADE:</strong> Você sabia que a cidade com maior Valor da terra nua em Minas Gerais das cidades cadastradas acima: Em <strong>${city.ano} foi ${cidadeMaior[0].nome}</strong>, com valor venal de aptidão Boa no valor de  <strong class=""vtnMaior>R$ ${cidadeMaior[0].aptidaoBoa}</strong> mil reais por Hectare. A menor aptidão Boa foi a cidade de <strong>${cidadeMaior[data.length - 1].nome}</strong> com valor de terra nua, aptidão boa avaliado em <strong>R$ ${cidadeMaior[data.length - 1].aptidaoBoa}</strong> Reais</p>
+        <p class="curiosidadeS" ><strong>*CURIOSIDADE:</strong> Você sabia que a cidade com maior Valor da terra nua em Minas Gerais das cidades cadastradas acima: Em <strong>${city.ano} foi ${cidadeMaior[0].nome}</strong>, com valor venal de aptidão Boa no valor de  <strong class=""vtnMaior>R$ ${cidadeMaior[0].aptidaoBoa}</strong> mil reais por Hectare. A menor aptidão Boa foi a cidade de <strong>${cidadeMaior[data.length - 1].nome}</strong> com valor de terra nua, aptidão boa avaliado em <strong>R$ ${cidadeMaior[data.length - 1].aptidaoBoa}</strong> Reais. <br>
+        O valor 0,00 indica 0,00 reais ou que o município não preencheu as informações de VTN.</p>
         <div class="assinaturaTermo ocultaEsome" id="imgOclude">
         <img src="./img/terra-nua-${anoS}.jpg" onclick="esconde()" style="cursor:pointer;" alt="Valor de terra nua do município de ${city.nome} no ano de ${city.ano}">
         </div>
@@ -124,6 +127,9 @@ async function avaliacoes(anoS) {
         }
 
     })
+    if(data.length < 2) {
+        document.querySelector('.curiosidadeS').style.display = 'none'
+    }
     
 
 }
@@ -136,7 +142,7 @@ function esconde() {
 function gerarMenu() {
     var menuTopInfo = document.querySelector('#menuTopInfo')
 
-    for (let i = 2010; i <= 2023; i++) {
+    for (let i = 2010; i <= 2024; i++) {
         menuTopInfo.innerHTML += `<a href="./venal-${i}.html">
         <li>${i}</li>
         </a>`

@@ -56,7 +56,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding:20px;
 }
 .curiosidadeS {
-	background-color: rgb(228, 17, 17);
+	background-color: rgb(2, 85, 201);
 	color: white;
 	padding: 10px;
 	border-radius: 8px;
@@ -168,6 +168,7 @@ button{
 
 .tabelaShow {
 	min-height: 630px;
+	max-width: 800px;
 	border: rgb(255, 255, 255) solid 1px;
 	box-shadow: rgba(0, 0, 0, 0.345) 0px 10px 5px 0px;
 	width: 80%;

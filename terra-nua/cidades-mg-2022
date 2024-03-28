@@ -601,16 +601,6 @@
   },
   {
     "ano": 2022,
-    "nome": "Belo Horizonte",
-    "aptidaoBoa": "0,00",
-    "aptdaoRegular": "0,00",
-    "aptdaoRestrita": "0,00",
-    "pastagemPlantada": "0,00",
-    "pastagemNatural": "0,00",
-    "reserva": "0,00"
-  },
-  {
-    "ano": 2022,
     "nome": "Belo Oriente",
     "aptidaoBoa": "33.565,00",
     "aptdaoRegular": "26.852,00",
@@ -1911,16 +1901,6 @@
     "pastagemPlantada": "9.680,00",
     "pastagemNatural": "7.830,00",
     "reserva": "6.260,00"
-  },
-  {
-    "ano": 2022,
-    "nome": "Contagem",
-    "aptidaoBoa": "0,00",
-    "aptdaoRegular": "0,00",
-    "aptdaoRestrita": "0,00",
-    "pastagemPlantada": "0,00",
-    "pastagemNatural": "0,00",
-    "reserva": "0,00"
   },
   {
     "ano": 2022,

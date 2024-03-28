@@ -581,16 +581,6 @@
   },
   {
     "ano": 2017,
-    "nome": "Belo Horizonte",
-    "aptidaoBoa": "0,00",
-    "aptdaoRegular": "0,00",
-    "aptdaoRestrita": "0,00",
-    "pastagemPlantada": "0,00",
-    "pastagemNatural": "0,00",
-    "reserva": "0,00"
-  },
-  {
-    "ano": 2017,
     "nome": "Belo Oriente",
     "aptidaoBoa": "15.000,00",
     "aptdaoRegular": "12.000,00",
@@ -6168,16 +6158,6 @@
     "pastagemPlantada": "5.000,00",
     "pastagemNatural": "4.000,00",
     "reserva": "3.000,00"
-  },
-  {
-    "ano": 2017,
-    "nome": "Santa Cruz de Minas",
-    "aptidaoBoa": "0,00",
-    "aptdaoRegular": "0,00",
-    "aptdaoRestrita": "0,00",
-    "pastagemPlantada": "0,00",
-    "pastagemNatural": "0,00",
-    "reserva": "8.000,00"
   },
   {
     "ano": 2017,
