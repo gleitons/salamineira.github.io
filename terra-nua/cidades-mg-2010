@@ -51,7 +51,7 @@
   },
   {
     "ano": 2010,
-    "nome": "\"Água Boa\"",
+    "nome": "Água Boa",
     "aptidaoBoa": "510,00",
     "aptdaoRegular": "2.000,00",
     "aptdaoRestrita": "25,00",
@@ -61,7 +61,7 @@
   },
   {
     "ano": 2010,
-    "nome": "\"Água Comprida\"",
+    "nome": "Água Comprida",
     "aptidaoBoa": "650,00",
     "aptdaoRegular": "13.000,00",
     "aptdaoRestrita": "40,00",
@@ -81,7 +81,7 @@
   },
   {
     "ano": 2010,
-    "nome": "\"Águas Formosas\"",
+    "nome": "Águas Formosas",
     "aptidaoBoa": "512,00",
     "aptdaoRegular": "3.500,00",
     "aptdaoRestrita": "25,00",
@@ -91,7 +91,7 @@
   },
   {
     "ano": 2010,
-    "nome": "\"Águas Vermelhas\"",
+    "nome": "Águas Vermelhas",
     "aptidaoBoa": "480,00",
     "aptdaoRegular": "600,00",
     "aptdaoRestrita": "20,00",

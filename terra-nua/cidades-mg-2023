@@ -1,4 +1,14 @@
 [
+        {
+        "ano": 2023,
+        "nome": "Lagoa dos Patos",
+        "aptidaoBoa": "6.000,00",
+        "aptdaoRegular": "3.500,00",
+        "aptdaoRestrita": "2.300,00",
+        "pastagemPlantada": "2.000,00",
+        "pastagemNatural": "1.000,00",
+        "reserva": "550,00"
+    },
     {
         "ano": 2023,
         "nome": "ABADIA DOS DOURADOS",
@@ -208,14 +218,6 @@
         "pastagemPlantada": "12.000,00",
         "pastagemNatural": "6.500,00",
         "reserva": "5.000,00"
-    },
-    {
-        "ano": 2023,
-        "nome": "MARANHÃO - MA"
-    },
-    {
-        "ano": 2023,
-        "nome": "MINAS GERAIS - MG"
     },
     {
         "ano": 2023,
@@ -3856,16 +3858,7 @@
         "pastagemNatural": "6.038,21",
         "reserva": "3.178,01"
     },
-    {
-        "ano": 2023,
-        "nome": "LAGOA DOS PATOS",
-        "aptidaoBoa": "6.000,00",
-        "aptdaoRegular": "3.500,00",
-        "aptdaoRestrita": "2.300,00",
-        "pastagemPlantada": "2.000,00",
-        "pastagemNatural": "1.000,00",
-        "reserva": "550,00"
-    },
+   
     {
         "ano": 2023,
         "nome": "LAGOA DOURADA",
