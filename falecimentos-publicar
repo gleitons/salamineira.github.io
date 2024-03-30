@@ -4520,6 +4520,22 @@
   },
   {
     "id": "<span class='itensHtml'></span>",
+    "nome": "JULIANA",
+    "sexo": "f",
+    "imagem": "/falecimento/juliana-maura.png",
+    "nascimento": "",
+    "falecimento": "16/03/2024",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Pirapora",
+    "estado": "MG",
+    "apelido": ""
+  },
+  {
+    "id": "<span class='itensHtml'></span>",
     "nome": "FELICIANO PEREIRA MOTA",
     "sexo": "m",
     "imagem": "",
