@@ -1,5 +1,45 @@
 [
   {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4469/",
+    "dataP": "25/01/2024",
+    "processo": "PROC. 0108/2023 DISPENSA 013/2023",
+    "publicado": "",
+    "abertura": "25/01/2024",
+    "modalidade": "Dispensa",
+    "situacao": "FINALIZADA",
+    "infolicita": "CONTRATAÇÃO DE EMPRESA PARA CONFECÇÃO E INSTALAÇÃO DE GUARDA CORPO NO CAMPO DE FUTEBOL NA SEDE DO MUNICÍPIO DE LAGOA DOS PATOS COM SERVIÇOS E MATERIAL NECESSÁRIO"
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4468/",
+    "dataP": "16/01/2024",
+    "processo": "PROC. 0107/2023 DISPENSA 012/2023",
+    "publicado": "28/12/2023",
+    "abertura": "16/01/2024",
+    "modalidade": "Dispensa",
+    "situacao": "FINALIZADA",
+    "infolicita": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE CONTROLE DE PRAGAS URBANAS, HIGIENIZAÇÃO DE CAIXAS D’ÁGUA, SANITIZAÇÃO E DESINFECÇÃO DE AMBIENTES E PRÉDIOS PÚBLICOS MUNICIPAIS DO MUNICÍPIO LAGOA DOS PATOS/MG."
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4466/",
+    "dataP": "03/01/2024",
+    "processo": "PROC. 0106/2023 INEX. 026/2023",
+    "publicado": "29/12/2023",
+    "abertura": "03/01/2024",
+    "modalidade": "Inexigibilidade",
+    "situacao": "FINALIZADA",
+    "infolicita": "CONTRATAÇÃO DA DUPLA KAIO MARQUES E NATALY PARA REALIZAÇÃO DE SHOW ARTISTICO NA VAQUEJADA NO DIA 10 DE MAIO DE 2024 NO MUNICIPIO DE LAGOA DOS PATOS/MG."
+  },
+  {
+    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4464/",
+    "dataP": "29/12/2023",
+    "processo": "PROC. 0105/2023 DISPENSA 011/2023",
+    "publicado": "29/12/2023",
+    "abertura": "29/12/2023",
+    "modalidade": "Contratações DiretasDispensa",
+    "situacao": "FINALIZADA",
+    "infolicita": "Contratação de empresa especializada para prestar serviços de publicação/alojamento e manutenção de web site do Município de Lagoa dos Patos/MG."
+  },
+  {
     "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4462/",
     "dataP": "29/12/2023",
     "processo": "PROC.0104/2023",
@@ -36,7 +76,7 @@
     "publicado": "27/12/2023",
     "abertura": "09/02/2024",
     "modalidade": "PREGÃO PRESENCIAL",
-    "situacao": "Aberta",
+    "situacao": "FINALIZADA",
     "infolicita": "CONTRATAÇÃO DE EMPRESAS PARA PRESTAÇÃO DE SERVIÇOS DE CESSÃO DE EQUIPAMENTO DO TIPO IMPRESSORAS EM REGIME DE COMODATO, INCLUSO INSTALAÇÃO, RECARGAS DE TINTA/ TONERS E MANUTENÇÃO EM ATENDIMENTO AS ATIVIDADES ADMINISTRATIVAS DO MUNICIPIO DE LAGOA DOS PATOS/MG."
   },
   {
@@ -46,7 +86,7 @@
     "publicado": "27/12/2023",
     "abertura": "09/02/2024",
     "modalidade": "PREGÃO PRESENCIAL",
-    "situacao": "Aberta",
+    "situacao": "FINALIZADA",
     "infolicita": "REGISTRO DE PREÇO PARA AQUISIÇÃO DE MOTOBOMBAS, TUBOS, CONEXÕES E AFINS EM ATENDIMENTO AS DIVERSAS SECRETARIAS DO MUNICÍPIO DE LAGOA DOS PATOS/MG."
   },
   {
@@ -56,47 +96,7 @@
     "publicado": "27/12/2023",
     "abertura": "08/02/2024",
     "modalidade": "PREGÃO PRESENCIAL",
-    "situacao": "Aberta",
+    "situacao": "FINALIZADA",
     "infolicita": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS EM DIGITALIZAÇÃO DE COPIAS E GERENCIAMENTO ELETRÔNICO DE DOCUMENTOS COM FORNECIMENTO DE SISTEMA INFORMATIZADO NO MUNICÍPIO DE LAGOA DOS PATOS/MG"
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4371/",
-    "dataP": "08/02/2024",
-    "processo": "PROC. 098/2023 PP 043/2023",
-    "publicado": "27/12/2023",
-    "abertura": "08/02/2024",
-    "modalidade": "PREGÃO PRESENCIAL",
-    "situacao": "Aberta",
-    "infolicita": "CONTRATAÇÃO DE EMPRESA PARA REALIZAÇÃO E ORGANIZAÇÃO DE COMPETIÇÃO EQUESTRE PREDOMINANTE NA REGIÃO A SER REALIZADO NOS DIAS 09, 10, 11 E 12 DE MAIO DE 2024 NO MUNICÍPIO DE LAGOA DOS PATOS/MG."
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4370/",
-    "dataP": "07/02/2024",
-    "processo": "PROC. 097/2023 PP SRP 042/2023",
-    "publicado": "27/12/2023",
-    "abertura": "07/02/2024",
-    "modalidade": "PREGÃO PRESENCIAL",
-    "situacao": "Aberta",
-    "infolicita": "REGISTRO DE PREÇO PARA FUTURA E EVENTUAL CONTRATAÇÃO DE MICROEMPRESAS, EMPRESAS DE PEQUENO PORTE OU EQUIPARADAS PARA AQUISIÇÃO DE MATERIAL DE EXPEDIENTE, DIDATICO E EDUCATIVO DESTINADOS AS ATIVIDADES DAS SECRETARIAS MUNICIPAIS DE LAGOA DOS PATOS/MG"
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4369/",
-    "dataP": "06/02/2024",
-    "processo": "PROC. 096/2023 PP SRP 041/2023",
-    "publicado": "27/12/2023",
-    "abertura": "06/02/2024",
-    "modalidade": "PREGÃO PRESENCIAL",
-    "situacao": "Aberta",
-    "infolicita": "REGISTRO DE PREÇO PARA CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS EM CONFECÇÃO DE PLACAS INAUGURAL PARA ATENDER O MUNICÍPIO DE LAGOA DOS PATOS/MG"
-  },
-  {
-    "urlS": "https://lagoadospatos.mg.gov.br/licitacao/4367/",
-    "dataP": "06/02/2024",
-    "processo": "PROC. 095/2023 PP SRP 040/2023",
-    "publicado": "27/12/2023",
-    "abertura": "06/02/2024",
-    "modalidade": "PREGÃO PRESENCIAL",
-    "situacao": "Aberta",
-    "infolicita": "REGISTRO DE PREÇO PARA AQUISIÇÃO DE GAS OXIGENIO MEDICINAL E CILINDROS EM AÇO PARA ATENDIMENTO A SECRETARIA DE SAUDE DO MUNICIPIO DE LAGOA DOS PATOS/MG"
   }
 ]
