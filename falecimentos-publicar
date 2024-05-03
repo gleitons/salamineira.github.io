@@ -4520,6 +4520,22 @@
   },
   {
     "id": "<span class='itensHtml'></span>",
+    "nome": "EDMILSON JUNIOR NEVES SANTOS",
+    "sexo": "f",
+    "imagem": "/falecimento/juninho-ed.png",
+    "nascimento": "",
+    "falecimento": "19/04/2024",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Montes Claros MG",
+    "estado": "MG",
+    "apelido": "Juninho"
+  },
+  {
+    "id": "<span class='itensHtml'></span>",
     "nome": "JULIANA",
     "sexo": "f",
     "imagem": "/falecimento/juliana-maura.png",
