@@ -760,7 +760,7 @@ fieldset {
   z-index: 1;
 }
 .atendimentoWhats div img {
-  width: 360px;
+  width: 260px;
   transition: 300ms;
   filter: brightness(90%);
 }

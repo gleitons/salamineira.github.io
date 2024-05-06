@@ -8,7 +8,12 @@
 //     }
 
 // }
-
+const dtHoje = document.querySelector('#dtHoje')
+if(dtHoje != null) {
+    const d  = new Date()
+    const mes = d.getMonth() + 1
+    dtHoje.textContent = `${d.getDate().lenght != 1 ? "0"+d.getDate(): d.getDate()}/${mes.lenght != 1 ? "0"+mes: mes}/${d.getFullYear()}`
+}
 const favi = document.createElement('link')
 favi.setAttribute('rel', 'shortcut icon' )
 favi.setAttribute('href', '/favicon.ico' )
