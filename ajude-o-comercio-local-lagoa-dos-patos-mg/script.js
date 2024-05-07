@@ -16,13 +16,13 @@ btnBuscar.addEventListener('click', async () => {
     
     const rep = await fetch(`https://minhareceita.org/${cnpj}`)
     const data = await rep.json()
-  
+    
     if(rep.status != 200 ) {
         alert('CONTAMOS COM SUA ASSINATURA - TENTE O CNPJ NOVAMENTE')
     } 
     const tds = document.querySelectorAll('table tr td')
     const pp = document.querySelectorAll('p')
-    console.log(pp)
+    console.log(data)
     
     const inputs = document.querySelectorAll('input')
     const c = data.cnpj.split('')
