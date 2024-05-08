@@ -196,6 +196,10 @@
   padding: 5px;
   border-radius: 12px;
 }
+.divMostra:hover {
+  filter: brightness(1.1);
+  transition: 500ms;
+}
 .divMostra .lutosC {
   width: 100%;
   animation: apareceF 0.3s normal;

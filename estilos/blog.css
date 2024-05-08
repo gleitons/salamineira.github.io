@@ -12,6 +12,9 @@
 .esquerdoArtigo p {
   line-height: 1.8em;
 }
+.itensHtml img {
+  border-radius: 8px;
+}
 .esquerdoArtigo h3 {
   margin: 10px 0px;
 }
