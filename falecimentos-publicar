@@ -4519,6 +4519,22 @@
     "apelido": ""
   },
   {
+    "id": "<img src='/falecimento/1.png' alt='JOSE PEREIRA DE QUEIROZ'>",
+    "nome": "JOSE PEREIRA DE QUEIROZ",
+    "sexo": "m",
+    "imagem": "/falecimento/ze-goiano.png",
+    "nascimento": "",
+    "falecimento": "06/05/2024",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Coração de Jesus MG",
+    "estado": "MG",
+    "apelido": "José Goiano"
+  },
+  {
     "id": "<img src='/falecimento/joao-macaco-2.png' alt='João Macaco'>",
     "nome": "JOÃO AFONSO DA SILVA",
     "sexo": "m",
