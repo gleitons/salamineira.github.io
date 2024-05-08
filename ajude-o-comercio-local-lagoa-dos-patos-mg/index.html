@@ -25,111 +25,9 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Apoio Radio Lagoa dos Patos MG</title>
-    <style>
-        /* body {
-            background: #eee;
-        } */
-
-        #canvas {
-            background: #fff;
-        }
-
-        .form-group img {
-            width: 150px;
-            height: 150px;
-            margin-top: 20px;
-            margin: auto;
-            text-align: center;
-        }
-
-        .imgRadio {
-            position: relative;
-        }
-
-        .imgRadio img {
-            width: 400px;
-            margin: auto;
-        }
-
-        .imgRadio p {
-            width: 350px;
-            position: absolute;
-            background-color: white;
-            line-height: 1em;
-            bottom: 3px;
-            left: 30px;
-            text-align: center;
-        }
-
-        .formulario {
-            width: 297mm;
-            height: 210mm;
-            /* position: relative; */
-            margin: auto;
-            /* border: rgb(166, 166, 166) solid 1px; */
-            padding: 10px;
-        }
-
-        table {
-            width: 100%;
-        }
-
-        thead {
-            text-align: center;
-            background-color: rgb(174, 174, 174);
-        }
-
-        tbody tr td {
-            padding: 10px;
-        }
-
-        p,
-        li {
-            font-size: 25px;
-        }
-
-        table tr td {
-            font-size: 19px;
-        }
-
-        h4 {
-            text-align: center;
-            margin: 20px auto;
-        }
-
-        .alinhaCentro {
-            margin: 30px auto;
-            text-align: justify;
-        }
-
-        .assinaturas {
-
-            padding-top: 100px;
-            text-align: center;
-        }
-
-        .atencao {
-            display: none;
-            position: absolute;
-            bottom: 0px;
-            left: 0px;
-        }
-
-        @media print {
-            main {
-                display: none;
-            }
-
-            header {
-                display: none;
-            }
-
-            .atencao {
-                display: block;
-            }
-        }
-    </style>
+        <link rel="stylesheet" href="./css.css">
+    <title id="title">Apoio Radio Lagoa dos Patos MG</title>
+    
 </head>
 
 <body>
@@ -147,10 +45,12 @@
                     54.738.535/0001-93</h3>
                 <h4>Qualificação da Entidade Apoiadora</h4>
             </div>
-            <span type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            <span type="button" class="btn btn-primary" data-toggle="modal" data-target="#manifesto">
                 Mais informações
+            </span> <span type="button" class="btn btn-primary" data-toggle="modal" onclick="location.reload()">
+               Limpar
             </span> <br>
-            Insira seu CNPJ - *Somente Números <br><input type="number"  name="" id=""> <button
+            Insira seu CNPJ - *Somente Números <br><input type="number" name="" value="26300217000100" id=""> <button
                 class="btn btn-primary">Buscar</button>
             <form style="display: none;"
                 action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScuFRLSHWVWhbdlTBvw-2_KmuJBa2PaNied4YfT1XU1E2mRog/formResponse"
@@ -189,6 +89,78 @@
                         placeholder="Digite o Nome do Representante Legal">
                 </div>
                 <span class="btn btn-primary" onclick="print()">Imprimir</span>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cadastroMensagem">
+                    Imagem
+                </button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#EnviarMensagem">
+                    Enviar Mensagem
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="cadastroMensagem" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Cadastro de Mensagem</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                               <img src="./fundo-print.png" alt="">
+                               <p> <strong><span id="doFulano">Fulano</span></strong>, essa mensagem é especial pra você.<br>Com o seu CNPJ <span id="doCNPJ">2654</span>, você pode assinar nossa manifestação e a rádio comunitária ser aprovada. <br>Ah, como sentimos falta da nossa rádio de Lagoa, onde as músicas eram trilhas sonoras de momentos inesquecíveis e as vozes eram como velhos amigos. A nostalgia me faz reviver essas lembranças com tanto carinho! <br>
+                            <strong>ASSINE E NOS AJUDE!!</strong></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                <button type="button" class="btn btn-primary">Salvar Mesagem</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="EnviarMensagem" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Enviar Mensagem</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <input type="number" name="" value="3899999" id="numeroCliente">
+                                <textarea name="" id="mensagemC" cols="52" rows="20">
+‍💼 trocaNome do céu, olha, eu acho que isso vai te interessar, A mensagem é um pouco grande, mas por favor, leia. Nós da Sala Mineira do empreendedor de Lagoa dos Patos, tenho uma novidade pra você💰📈 
+ℹ️ Acreditamos que a criação de uma rádio comunitária é fundamental para promover a divulgação das atividades comerciais e culturais de nossa região, bem como para incentivar a participação ativa de todos os microempreendedores individuais em nossa comunidade.
+ 🌟 Estamos diante de uma oportunidade única para fortalecermos nossa comunidade e dar voz aos nossos negócios locais. Como membros ativos e comprometidos com o desenvolvimento de nossa cidade, convidamos vocês a assinarem este manifesto em apoio à abertura da Rádio Municipal.  
+ 📢 Manifesto em Apoio de Pessoa Jurídica: Abertura da Rádio Municipal 📻
+ ✍️ Assine este manifesto e faça parte deste movimento que visa ampliar as oportunidades de crescimento de nossos negócios e fortalecer os laços entre os empreendedores locais.
+ 
+ 🌱 Para assinar, solicitamos apenas os seguintes dados da sua empresa:
+ Pode deixar que vou enviar tudo preenchido pra você viu.
+ Nome da Empresa:
+ CNPJ:
+ Nome do Representante Legal:
+ Documento de Identificação (Identidade ou CNH):
+ 
+ 🤝 Seja parte desta iniciativa que busca promover o crescimento e a prosperidade de nossa comunidade. Juntos, somos mais fortes!
+ 
+ Atenciosamente,
+ 
+ ASSOCIAÇÃO AMIGOS VOLUNTÁRIOS DE LAGOA DOS PATOS MG
+ CNPJ: 54.738.535/0001-93</textarea>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                <a id="linkEnviar" href="#"><button type="button" class="btn btn-primary">Enviar Mensagem</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!-- <input type="file" id="inputImg">
 
                 <div class="form-group">
@@ -212,7 +184,7 @@
                 <button type="submit" class="btn btn-primary">Enviar</button> <br><br> -->
             </form>
         </div>
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        <div class="modal fade" id="manifesto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -279,7 +251,7 @@
 
         </div> -->
     </main>
-   
+
     <footer>
         <div class="formulario">
 
