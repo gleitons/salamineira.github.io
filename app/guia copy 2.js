@@ -730,6 +730,9 @@ function fechaEmpresaL() {
 }
 inicioApp()
 
+function geradorFundoEmpresaLocal(data) {
+    console.log(data)
+}
 
 
 async function verEmpresaShow(numero) {
@@ -775,7 +778,8 @@ async function verEmpresaShow(numero) {
     }
     const enderecoRua = data[numero].endereco.replace(/R /gi, 'RUA ').replace(/[0-9]/gi, '')
     const mostraEmpresa = document.querySelector('#mostraEmpresa');
-    mostraEmpresa.innerHTML = ` <div class="fundoEmpresaLocal" >
+   
+    mostraEmpresa.innerHTML =  geradorFundoEmpresaLocal(data) ` <div class="fundoEmpresaLocal" >
     <div class="empresaLocal">
         <div class="apresentaEndereco">
         <h2>${data[numero].razaoSocial}</h2>

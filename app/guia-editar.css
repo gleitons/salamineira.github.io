@@ -469,7 +469,7 @@ footer nav a li img {
   position: absolute;
   width: 100%;
   max-width: 576px;
-  height: 78vh;
+  height: 90vh;
   margin: auto;
   background-color: #0093e9;
   background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
@@ -596,7 +596,7 @@ footer nav a li img {
 }
 .fecharDivEndereco img {
   position: absolute;
-  top: 200px;
+  top: 290px;
   width: 50px;
   right: 5px;
   z-index: 999999;
