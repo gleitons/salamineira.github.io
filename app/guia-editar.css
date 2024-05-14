@@ -177,18 +177,18 @@ main {
   }
 }
 .abreJanel {
-  animation: abreJanela 300ms normal;
+  animation: abreJanela 200ms normal;
 }
 @keyframes abreJanela {
   0% {
-    scale: 0.2;
+    /* scale: 0.2; */
     opacity: 0;
     position: absolute;
     left: 0px;
     top: 100%;
   }
   100% {
-    scale: 1;
+    /* scale: 1; */
     opacity: 1;
   }
   
