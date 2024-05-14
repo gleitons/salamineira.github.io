@@ -592,6 +592,15 @@ footer nav a li img {
   width: 50px;
   right: 5px;
   z-index: 999999;
+  animation: pulsas 200ms infinite;
+}
+@keyframes pulsas {
+  from {
+    filter: brightness(0);
+  }
+  to {
+    filter: brightness(2);
+  }
 }
 .fotosEmpresas {
   display: flex;
