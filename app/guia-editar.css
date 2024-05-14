@@ -195,7 +195,7 @@ main {
 }
 .mostraNoticiaBlog {
   
-  top: 0px;
+  top: -35px;
   z-index: 1;
   position: absolute;
   overflow: auto;
@@ -460,7 +460,7 @@ footer nav a li img {
 .fundoEmpresaLocal {
   background-color: rgba(0, 0, 0, 0.855);
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   position: absolute;
   top: 0;
 }
@@ -478,10 +478,10 @@ footer nav a li img {
   border-radius: 10% 10% 0% 0%;
   padding: 10px;
   border: #0093e9 solid 10px;
-  animation: empresaShow 1s normal;
+  animation: empresaShow 500ms normal;
 }
 .animar {
-  animation: minha-animacao 500ms ease-in-out;
+  animation: minha-animacao 500ms ease-in;
 }
 
 .animar {
@@ -508,10 +508,10 @@ footer nav a li img {
     opacity: 0;
     bottom: -100%;
   }
-  50% {
+  /* 50% {
     opacity: 1;
     bottom: -50%;
-  }
+  } */
   100% {
     bottom: 0;
   }
@@ -596,7 +596,7 @@ footer nav a li img {
 }
 .fecharDivEndereco img {
   position: absolute;
-  bottom: 16px;
+  top: 200px;
   width: 50px;
   right: 5px;
   z-index: 999999;

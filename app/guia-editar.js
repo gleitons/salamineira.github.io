@@ -366,6 +366,7 @@ async function mercado() {
     infoId.innerHTML = 'Carregando...'
     apagaSeleciona()
     fechaEmpresaL()
+    desmarcaTop()
     linkSelect[1].classList.add('addSeleciona')
 
     infoVisivel.innerHTML = ''
@@ -871,7 +872,9 @@ function inicioApp() {
 function apagaSeleciona() {
     for (let i = 0; i < linkSelect.length; i++) {
         linkSelect[i].classList.remove('addSeleciona')
+        
     }
+   
 
     //infoId.innerHTML = 'Mercados'
 }
