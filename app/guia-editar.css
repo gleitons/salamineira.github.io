@@ -194,7 +194,7 @@ main {
   
 }
 .mostraNoticiaBlog {
-  
+  width: 100%;
   top: -35px;
   z-index: 1;
   position: absolute;
