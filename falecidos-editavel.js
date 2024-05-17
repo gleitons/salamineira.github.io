@@ -323,12 +323,12 @@ function montarCard(falec, apel, con, idadeF, mamae, tempoFalec, falecCodigo) {
     divLuto.appendChild(divCodigo)
     const divBtnEditar = document.createElement('div');
     divBtnEditar.classList.add('bntEditar');
-    // const iconeEditar = document.createElement('i');
-    // iconeEditar.classList.add('bi', "bi-pencil-fill");
-    // iconeEditar.textContent = "Editar";
-    // iconeEditar.setAttribute('id', `abrirEditar${con}`)
-    // iconeEditar.setAttribute('onclick', `abrirEnviar(${con})`)
-    // iconeE.style.display = "none"
+    const iconeEditar = document.createElement('i');
+    iconeEditar.classList.add('bi', "bi-pencil-fill");
+    iconeEditar.textContent = "Editar";
+    iconeEditar.setAttribute('id', `abrirEditar${con}`)
+    iconeEditar.setAttribute('onclick', `abrirEnviar(${con})`)
+    iconeE.style.display = "none"
     divLuto.appendChild(divBtnEditar);
     return divLuto;
 }
@@ -395,11 +395,11 @@ function montarTeste(falec, apel, con, idadeF, mamae, falecCod) {
     divLuto.appendChild(divCodigo)
     const divBtnEditar = document.createElement('div');
     divBtnEditar.classList.add('bntEditar');
-    // const iconeEditar = document.createElement('i');
-    // iconeEditar.classList.add('bi', "bi-pencil-fill");
-    // iconeEditar.textContent = "Editar";
-    // iconeEditar.setAttribute('id', `abrirEditar${con}`)
-    // iconeEditar.setAttribute('onclick', `abrirEnviar(${con})`)
+    const iconeEditar = document.createElement('i');
+    iconeEditar.classList.add('bi', "bi-pencil-fill");
+    iconeEditar.textContent = "Editar";
+    iconeEditar.setAttribute('id', `abrirEditar${con}`)
+    iconeEditar.setAttribute('onclick', `abrirEnviar(${con})`)
     divLuto.appendChild(divBtnEditar);
     return divLuto;
 }
@@ -456,7 +456,7 @@ function abrirEnviar(numero) {
 function montarEnvio(falec, apel, con, idadeF) {
     const nomeID = falec.nome
     const div = document.querySelector(`#enviarInformacao${con}`)
-    const dadosDt = `<div class="modal topod" id="exampleModal${con}" style="display: block;">
+    const dadosDt = `<div class="modal" id="exampleModal${con}" style="display: block;">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header dflex">
@@ -583,15 +583,15 @@ function btnFalecido(falec, con, idadeF, mamae) {
 
     const divLutosc = document.createElement('div');
     divLutosc.setAttribute('class', 'btnEditarV')
-    // const iconeEditar = document.createElement('i');
-    // iconeEditar.classList.add('bi', "bi-pencil-fill", "btnEd");
-    // iconeEditar.textContent = "Editar";
-    // iconeEditar.setAttribute('id', `abrirEditar${con}`)
-    // iconeEditar.setAttribute('onclick', `abrirEnviar(${con})`)
+    const iconeEditar = document.createElement('i');
+    iconeEditar.classList.add('bi', "bi-pencil-fill", "btnEd");
+    iconeEditar.textContent = "Editar";
+    iconeEditar.setAttribute('id', `abrirEditar${con}`)
+    iconeEditar.setAttribute('onclick', `abrirEnviar(${con})`)
     const divEnviarInfo = document.createElement('div');
     divEnviarInfo.setAttribute('id', `enviarInformacao${con}`)
 
-    // divLutosc.appendChild(iconeEditar)
+    divLutosc.appendChild(iconeEditar)
     divBtn.appendChild(divLutosc)
     btnF.appendChild(icone);
     btnF.appendChild(divMostraF)
@@ -644,6 +644,7 @@ function previewFile(num) {
 }
 
 function fecharAbrirEnviar(nume) {
+
     const bClose = document.getElementById(`bBaixo${nume}`);
     const botaoFecha = document.querySelector(`.btnfechaModal${nume}`);
     const ocultado = document.querySelector(`#exampleModal${nume}`)

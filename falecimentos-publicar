@@ -5845,24 +5845,7 @@
     "LocalFalecimento": "Lagoa dos Patos",
     "estado": "MG",
     "apelido": ""
-  },
-  {
-    "id": "<span class='itensHtml'></span>",
-    "nome": "ANGELINA DA CONCEICAO SOUZA SILVA",
-    "sexo": "f",
-    "imagem": "",
-    "nascimento": "",
-    "falecimento": "17/05/2006",
-    "nota": "",
-    "obito": "Não identificado",
-    "mae": "MARIA ANUNCIACAO DA CONCEICAO",
-    "natural": "Lagoa dos Patos - MG",
-    "estadoFalecimento": "MG",
-    "LocalFalecimento": "Lagoa dos Patos",
-    "estado": "MG",
-    "apelido": ""
-  },
- 
+  }, 
   {
     "id": "<span class='itensHtml'></span>",
     "nome": "CARLOS DAMIAO FERREIRA DA SILVA",
