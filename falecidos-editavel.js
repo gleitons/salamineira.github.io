@@ -6,16 +6,21 @@ function montaTRTD(data) {
     <div>
             <div class="fotoNome">
                 <img src="${imagem}" alt="">
-                <p>${data.nome}</p>
+                <strong>
+                    <p>${data.nome}</p>
+                </strong>
             </div>
             <div>
                 <p>${data.falecimento}</p>
             </div>
             <div>
-                <p>${data.apelido}</p>
+                <i>
+                    <p>${data.apelido}</p>
+                </i>
             </div>
-            <button class="ver">Ver</button>
+            <button class="ver">Ver</button> 
     </div>
+    <br>
 </div>`
 }
 const falecidos = async () => {
