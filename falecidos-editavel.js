@@ -1,6 +1,6 @@
 function montaTRTD(data) {
     const imagem = data.imagem != '' ? data.imagem : 'https://l3gado.s3.amazonaws.com/l3gado/arquivos/vela_site/gif1.gif'
-    console.log(data.nascimento)
+    // console.log(data.nascimento)
     //https://l3gado.s3.amazonaws.com/l3gado/arquivos/vela_site/gif1.gif
     return `  <div class="cardfalec">
     <div>
@@ -54,7 +54,7 @@ const falecidos = async () => {
             cardfalec[i].addEventListener('click', () => {
                 const imagem = data[i].imagem != '' ? data[i].imagem : 'https://l3gado.s3.amazonaws.com/l3gado/arquivos/vela_site/gif1.gif'
                 const nascFalecido = data[i].nascimento != '' ? `<i class="bi bi-star-fill">${data[i].nascimento}</i>`  : ``
-                console.log(nascFalecido)
+                // console.log(nascFalecido)
                 const icfechar = document.querySelector('.cardPorCima')
                 const insereInfo = document.querySelector('.insereInfo')
                 insereInfo.innerHTML = `   <div class="lutosC" style="background-image: url(/falecimento/4.png);">
