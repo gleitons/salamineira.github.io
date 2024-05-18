@@ -51,7 +51,7 @@ function falecidos() {
     document.querySelector('#lutoTitle').innerHTML = ''
 
 
-    data.map((falec) => {
+    data.forEach((falec) => {
         const falecID = falec.falecimento;
         const falecimento = falec.falecimento;
         if (falec.imagem == '') falec.imagem = imgH;
@@ -123,7 +123,7 @@ function tabelaEs(anoC) {
     var cont = 0;
     var masc = 0;
     var femi = 0;
-    data.map((obi) => {
+    data.forEach((obi) => {
         const datas = obi.falecimento.split("/");
         const ano = datas[2];
         if (ano == anoC) {
@@ -750,7 +750,7 @@ function homenagemDiaFalecidos() {
 
 
     const anoCo = dH.getFullYear()
-    data.map((e) => {
+    data.forEach((e) => {
         const diaMes = e.falecimento.split('/')
         const diaFa = diaMes[0]
         const mesFa = diaMes[1]

@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Falecimentos em Laga dos Patos MG</title>
+    <link rel="stylesheet" href="/falecidos-editavel.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+
 <body>
-    <table border="1">
-        <thead>
-            <tr>
-                <td></td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="cardPorCima" style="display: none;">
+        <div onclick="fechaFalecido()" class="icfechar">Fechar <i class="bi bi-x-square-fill"></i></div>
+        <div class="insereInfo">
+         
+        </div>
+    </div>
+    <header>
+        <h2>Falecimentos em Lagoa dos Patos MG</h2>
+        <h3>Palavras chaves: óbitos em Lagoa, quem morreu em Lagoa, quem morreu hoje em Lagoa dos Patos, Lagoa dos Patos
+            hoje, lagoa dos patos quem morreu</h3>
+    </header>
+    <main>
+
+        <h5>Pesquisar</h5>
+        <input type="text" placeholder="Nome, Apelido, ano falecimento"><button>Buscar</button>
+        <div id="todosFalecidos">
+          
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="/falecidos-editavel.js"></script>
 </body>
+
 </html>
