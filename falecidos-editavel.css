@@ -140,9 +140,9 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
     .lutosC {
-        width: 80%;
+        width: 95%;
     }
     .cardfalec > div {
         display: block;
