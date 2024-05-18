@@ -37,7 +37,7 @@ const falecidos = async () => {
 
         const corpo = document.querySelector('#todosFalecidos');
         const fragment = document.createDocumentFragment();
-
+        corpo.innerHTML = ''
         data.forEach((e) => {
             const trElement = document.createElement('div');
             trElement.classList.add('inClick')

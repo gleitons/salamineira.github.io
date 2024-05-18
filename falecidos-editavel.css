@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .cardfalec {
-    background-color: rgb(238, 213, 213);
+    background-color: rgb(238, 224, 122);
     margin: 10px auto;
     user-select: none;
    
@@ -134,9 +134,6 @@
     padding: 2px 20px;
     cursor: pointer;
 }
-
-
-
 
 
 
