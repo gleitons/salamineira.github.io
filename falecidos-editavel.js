@@ -4,8 +4,9 @@ function montaTRTD(data) {
     //https://l3gado.s3.amazonaws.com/l3gado/arquivos/vela_site/gif1.gif
     return `  <div class="cardfalec">
     <div>
+    
             <div class="fotoNome">
-                <img src="${imagem}" alt="">
+                <img  src="${imagem}" alt="">
                 <strong>
                     <p>${data.nome}</p>
                 </strong>
@@ -18,20 +19,68 @@ function montaTRTD(data) {
                     <p>${data.apelido}</p>
                 </i>
             </div>
+            <li class="itemCompletos">${data.nome.toLowerCase()} ${data.falecimento} ${data.apelido} </li>
             <button class="ver">Ver</button> 
+           
     </div>
     <br>
 </div>`
+}
+//${data.falecimento} ${data.apelido}
+const pesquisa = async () => {
+
+    const searchInput = document.getElementById('searchInput');
+    const items = document.querySelectorAll('.itemCompletos');
+    const cardfalec = document.querySelectorAll('.cardfalec')
+    var cont = 0
+    for(let i = 0; i < cardfalec.length; i++){
+        const computedStyle = window.getComputedStyle(cardfalec[i]);
+        if (computedStyle.display === 'block') {
+            // console.log(cardfalec[i]);
+            cont = cont + 1            
+        } 
+        // else {
+            // console.log(cardfalec[i]);
+        // } 
+    }
+    if(cont == 1){
+        itensEncontrados.innerHTML = `${cont} Resultado encontrado`
+    } else if(cont == 0){
+        itensEncontrados.innerHTML = `${cont} Nenhum resultado encontrado`
+    } else {
+        itensEncontrados.innerHTML = `${cont} resultados parecidos encontrados`
+    }
+    
+
+    searchInput.addEventListener('keyup', function () {
+        const query = searchInput.value.toLowerCase();
+        items.forEach(function (item, index) {
+            cardfalec[index].classList.add('dblock');
+            const text = item.textContent.toLowerCase();
+           
+            if (text.includes(query)) {
+                cardfalec[index].style.display = 'block';
+                
+               
+            } else {
+                cardfalec[index].style.display = 'none';
+            }
+        });
+
+
+    });
+    
+
 }
 const falecidos = async () => {
     try {
         const resp = await fetch('/falecimentos-publicar');
         const data = await resp.json();
-        
+
         function ordemCrescente(a, b) {
             return toDate(b) - toDate(a);
         }
-    
+
         function toDate(fal) {
             const parts = fal.falecimento.split("/");
             const dataFor = new Date(parts[2], parts[1] - 1, parts[0]);
@@ -53,14 +102,18 @@ const falecidos = async () => {
 
 
         const cardfalec = document.querySelectorAll('.inClick');
-        
+        // const fotoNome = 
+
         for (let i = 0; i < cardfalec.length; i++) {
-            
+
             cardfalec[i].addEventListener('click', () => {
+                var fotoNome = cardfalec[i].querySelector('div .fotoNome img')
+                fotoNome.classList.add('zoom')
                 const imagem = data[i].imagem != '' ? data[i].imagem : 'https://l3gado.s3.amazonaws.com/l3gado/arquivos/vela_site/gif1.gif'
-                const nascFalecido = data[i].nascimento != '' ? `<i class="bi bi-star-fill">${data[i].nascimento}</i>`  : ``
+                const nascFalecido = data[i].nascimento != '' ? `<i class="bi bi-star-fill">${data[i].nascimento}</i>` : ``
                 // console.log(nascFalecido)
-                const icfechar = document.querySelector('.cardPorCima')
+                var icfechar = document.querySelector('.cardPorCima')
+                icfechar.classList.add('abre')
                 const insereInfo = document.querySelector('.insereInfo')
                 insereInfo.innerHTML = `   <div class="lutosC" style="background-image: url(/falecimento/4.png);">
                 <img src="/imagens/fita-falecimento.png" class="fita">
@@ -94,8 +147,16 @@ const falecidos = async () => {
                 <div class="bntEditar"></div>
             </div>`
                 icfechar.style.display = 'block'
+                const fec = () => {
+                    fotoNome.classList.remove('zoom')
+                icfechar.classList.remove('abre')
+                }
+                setTimeout(fec, 1000)
+                
             })
         }
+
+
 
 
     } catch (error) {
@@ -108,4 +169,7 @@ function fechaFalecido() {
     icfechar.style.display = 'none'
 }
 
+function limp() {
+    location.reload()
+}
 

@@ -10,16 +10,60 @@
     user-select: none;
    
 }
+.nomeF {
+    font-weight: 800;
+}
 .cardfalec:hover {
     filter: brightness(1.05);
+}
+.abre {
+    animation: abred 350ms normal linear;
+}
+.zoom {
+    animation: zoom 300ms normal linear;
+}
+@keyframes abred {
+    from {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes zoom {
+    from  {
+
+    }
+    to {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        margin-top: 10%;
+        z-index: 9;
+        text-align: center;
+        margin-left: 10%;
+    }
+}
+.dnone {
+    display: none;
+}
+.dblock {
+    display: block;
 }
 .cardfalec > div {
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     margin: auto;
+}
+.itemCompletos {
+    font-size: 3px;
+    visibility: hidden;
 }
 .fotoNome {
     display: flex;
@@ -74,6 +118,9 @@
     height: 300px;
     border-radius: 50%;
 }
+header {
+    padding: 10px;
+}
 .vidroF {
     background: rgba(255, 255, 255, 0.55);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -82,7 +129,7 @@
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     padding: 0.8em;
-    line-height: 2em;
+    line-height: 1em;
 }
 .lutosC {
     width: 45%;
