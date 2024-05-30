@@ -887,6 +887,38 @@
     "apelido": ""
   },
   {
+    "id": "<img src='/falecimento/bertinho-2.png' alt='guiligui'>",
+    "nome": "JOSE GILBERTO ALVES",
+    "sexo": "m",
+    "imagem": "/falecimento/bertinho-cocal.png",
+    "nascimento": "",
+    "falecimento": "28/05/2024",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Lagoa dos Patos",
+    "estado": "MG",
+    "apelido": "Bertin"
+  },
+  {
+    "id": "<img src='/falecimento/nelson-2.png' alt='guiligui'>",
+    "nome": "NELSON RIBEIRO DOS SANTOS",
+    "sexo": "m",
+    "imagem": "/falecimento/nelson-veloso.png",
+    "nascimento": "",
+    "falecimento": "26/05/2024",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "MARIA DAS DORES RIBEIRO e JOÃO RIBEIRO DOS SANTOS",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Lagoa dos Patos",
+    "estado": "MG",
+    "apelido": "Nelson Veloso"
+  },
+  {
     "id": "<span class='itensHtml'></span>",
     "nome": "MARIA SOLENE DE JESUS",
     "sexo": "f",
