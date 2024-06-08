@@ -17,6 +17,22 @@
   },
   {
     "id": "<span class='itensHtml'></span>",
+    "nome": "ROMULO DE JESUS LAFETA",
+    "sexo": "m",
+    "imagem": "/falecimento/zu-lafeta.png",
+    "nascimento": "01/11/1957",
+    "falecimento": "06/06/2024",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Lagoa dos Patos",
+    "estado": "MG",
+    "apelido": "Zu Lafetá"
+  },
+  {
+    "id": "<span class='itensHtml'></span>",
     "nome": "PEDRO AUGUSTO DE SOUZA",
     "sexo": "m",
     "imagem": "https://reurbldp.sirv.com/Images/sr-pedro.png?w=300&h=300&scale.option=ignore",
