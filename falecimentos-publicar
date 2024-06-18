@@ -17,6 +17,22 @@
   },
   {
     "id": "<span class='itensHtml'></span>",
+    "nome": "MARIA MEDEIROS RAMOS",
+    "sexo": "f",
+    "imagem": "/falecimento/maria-medeiros.png",
+    "nascimento": "20/07/1949",
+    "falecimento": "23/01/2016",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "MARIA DOS SANTOS CABRAL",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Montes Claros MG",
+    "estado": "MG",
+    "apelido": "Dona Maria"
+  },
+  {
+    "id": "<span class='itensHtml'></span>",
     "nome": "ROMULO DE JESUS LAFETA",
     "sexo": "m",
     "imagem": "/falecimento/zu-lafeta.png",
