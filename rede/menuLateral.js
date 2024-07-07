@@ -135,6 +135,9 @@ const MenuLateral = () => {
          --!>
      </ul>
     </li>  
+     <a href="./acessar-system.html">
+        <li><i class="bi bi-arrow-clockwise"></i> New System </li>
+    </a>
 
     
 
@@ -143,7 +146,8 @@ const MenuLateral = () => {
     
     <!-- <p class="avisoDiv">+ Opções</p>
 
-    <li class="menuDrop"><i class="bi bi-gear-fill"></i> Opções
+    <li class="menuDrop">
+    <i class="bi bi-gear-fill"></i> Opções
      <ul class="subMenu">
      <a href="./perfil.html">
      <li><i class="bi bi-pencil-square"></i> Editar Perfil</li>
