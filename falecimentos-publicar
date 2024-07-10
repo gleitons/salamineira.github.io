@@ -14,6 +14,21 @@
     "LocalFalecimento": "Lagoa dos Patos",
     "estado": "MG",
     "apelido": ""
+  },{
+    "id": "<span class='itensHtml'></span>",
+    "nome": "FAUSTINO CAETANO DOS SANTOS",
+    "sexo": "m",
+    "imagem": "/falecimento/faustino-caetano.png",
+    "nascimento": "",
+    "falecimento": "09/07/2024",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Montes Claros MG",
+    "estado": "MG",
+    "apelido": "Faustino Caetano"
   },
   {
     "id": "<span class='itensHtml'></span>",
