@@ -14,7 +14,8 @@
     "LocalFalecimento": "Lagoa dos Patos",
     "estado": "MG",
     "apelido": ""
-  },{
+  },
+  {
     "id": "<div> <h4>Imagens</h4> <img src='/falecimento/faustino-caetano.jpeg' alt=''> </div>",
     "nome": "FAUSTINO CAETANO DOS SANTOS",
     "sexo": "m",
@@ -109,7 +110,8 @@
     "LocalFalecimento": "Lagoa dos Patos",
     "estado": "MG",
     "apelido": "Dieguim"
-  },{
+  },
+  {
     "id": "<span class='itensHtml'></span>",
     "nome": "MESSIAS DE COTA",
     "sexo": "m",
@@ -124,7 +126,8 @@
     "LocalFalecimento": "Lagoa dos Patos",
     "estado": "MG",
     "apelido": ""
-  },{
+  },
+  {
     "id": "<span class='itensHtml'></span>",
     "nome": "ZÉ DE OURO",
     "sexo": "m",
@@ -139,7 +142,8 @@
     "LocalFalecimento": "Lagoa dos Patos",
     "estado": "MG",
     "apelido": ""
-  },{
+  },
+  {
     "id": "<span class='itensHtml'></span>",
     "nome": "ZÉ IVO",
     "sexo": "m",
@@ -154,7 +158,8 @@
     "LocalFalecimento": "Lagoa dos Patos",
     "estado": "MG",
     "apelido": ""
-  },{
+  },
+  {
     "id": "<span class='itensHtml'></span>",
     "nome": "MAZIN CEGO",
     "sexo": "m",
@@ -169,7 +174,8 @@
     "LocalFalecimento": "Lagoa dos Patos",
     "estado": "MG",
     "apelido": ""
-  },{
+  },
+  {
     "id": "<span class='itensHtml'></span>",
     "nome": "TIO GENTIL",
     "sexo": "m",
@@ -184,7 +190,8 @@
     "LocalFalecimento": "Lagoa dos Patos",
     "estado": "MG",
     "apelido": ""
-  },{
+  },
+  {
     "id": "<span class='itensHtml'></span>",
     "nome": "ADÃO PEREIRA DE SOUZA",
     "sexo": "m",
@@ -199,7 +206,8 @@
     "LocalFalecimento": "Lagoa dos Patos",
     "estado": "MG",
     "apelido": "Adão irmão de Onofe Caju"
-  },{
+  },
+  {
     "id": "<span class='itensHtml'></span>",
     "nome": "LUZIA CARDOSO DE SA",
     "sexo": "f",
@@ -214,7 +222,8 @@
     "LocalFalecimento": "Pirapora",
     "estado": "MG",
     "apelido": "Luzia Cardoso"
-  },{
+  },
+  {
     "id": "<span class='itensHtml'></span>",
     "nome": "MARIANA CARDOSO DE SA",
     "sexo": "f",
@@ -229,7 +238,8 @@
     "LocalFalecimento": "Rio de Janeiro",
     "estado": "RJ",
     "apelido": "Mariana Cardoso"
-  },{
+  },
+  {
     "id": "<span class='itensHtml'></span>",
     "nome": "GERALDA LEILA BARBOSA DE JESUS",
     "sexo": "f",
@@ -1925,7 +1935,6 @@
     "estado": "MG",
     "apelido": ""
   },
-  
   {
     "id": "<span class='itensHtml'></span>",
     "nome": "GERALDA CAETANO DOS SANTOS",
@@ -1942,7 +1951,6 @@
     "estado": "MG",
     "apelido": ""
   },
- 
   {
     "id": "<span class='itensHtml'></span>",
     "nome": "JOANA RAMOS DOS SANTOS",
@@ -3730,8 +3738,7 @@
     "LocalFalecimento": "Lagoa dos Patos",
     "estado": "MG",
     "apelido": ""
-  }
-  ,
+  },
   {
     "id": "<span class='itensHtml'></span>",
     "nome": "ELTON DE JESUS DURAES DA FONSECA",
@@ -4500,7 +4507,6 @@
     "estado": "MG",
     "apelido": ""
   },
- 
   {
     "id": "<span class='itensHtml'></span>",
     "nome": "GERALDA COSTA LIMA",
@@ -5908,7 +5914,7 @@
     "LocalFalecimento": "Lagoa dos Patos",
     "estado": "MG",
     "apelido": ""
-  }, 
+  },
   {
     "id": "<span class='itensHtml'></span>",
     "nome": "CARLOS DAMIAO FERREIRA DA SILVA",
@@ -5972,5 +5978,37 @@
     "LocalFalecimento": "Lagoa dos Patos MG",
     "estado": "MG",
     "apelido": ""
+  },
+  {
+    "id": "<span class='itensHtml'></span>",
+    "nome": "MARIA LIRA MARTINS DE SOUZA",
+    "sexo": "f",
+    "imagem": "/falecimento/maria-lira.png",
+    "nascimento": "",
+    "falecimento": "16/07/2024",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "Minas Gerais",
+    "LocalFalecimento": "Lagoa dos Patos MG",
+    "estado": "MG",
+    "apelido": "Maria Lira"
+  },
+  {
+    "id": "<span class='itensHtml'></span>",
+    "nome": "GELSON GONÇALVES PEREIRA",
+    "sexo": "m",
+    "imagem": "/falecimento/gelson.png",
+    "nascimento": "23/12/1987",
+    "falecimento": "13/07/2024",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "Minas Gerais",
+    "LocalFalecimento": "Lagoa dos Patos MG",
+    "estado": "MG",
+    "apelido": "Chell"
   }
 ]
