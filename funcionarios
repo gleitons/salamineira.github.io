@@ -8,6 +8,27 @@
     "admissao": "",
     "cargo": ""
   },{
+    "nome": "EUGENIA POLIANA ALVES",
+    "nomeFolha": "EUGENIA POLIANA ALVES",
+    "matricula": "2305",
+    "cpf": "162.496.806-67",
+    "admissao": "11/03/2024",
+    "cargo": "VISITADOR SOCIAL"
+  },{
+    "nome": "THAIS REIS DA FONSECA",
+    "nomeFolha": "THAIS REIS DA FONSECA",
+    "matricula": "2284",
+    "cpf": "134.915.186-60",
+    "admissao": "22/06/2023",
+    "cargo": "VISITADOR SOCIAL"
+  },{
+    "nome": "TAMIRES PEREIRA DOS SANTOS",
+    "nomeFolha": "TAMIRES PEREIRA DOS SANTOS",
+    "matricula": "2285",
+    "cpf": "142.153.076-78",
+    "admissao": "28/06/2023",
+    "cargo": "VISITADOR SOCIAL"
+  },{
     "nome": "CLAUDIA NUNES DOS REIS",
     "nomeFolha": "CLAUDIA",
     "matricula": "2293",
