@@ -209,6 +209,22 @@
                 <div class="fechalo" style="text-align: center;">
                     <img style="width: 30%;" src="/falecimento/loa.svg" alt="">
                 </div>
+                <div class="carregaImgAnjosInterno">
+                    
+                </div>
+                <script>
+                     const carregaImgAnjosInterno = document.querySelector('.carregaImgAnjosInterno')
+                     
+                    for(let i = 1; i <= 5 ;i++){
+                        console.log("chegou aqui")
+                        const imgd = document.createElement('img')
+                        imgd.src = `/falecimento/${i}.jpeg`
+                        imgd.setAttribute('alt',`Imagem fundo falecimento${i}` )
+                        carregaImgAnjosInterno.appendChild(imgd)
+                        // carregaImgAnjosInterno.innerHTML += `<img src="/falecimento/${i}.jpeg" alt="Imagem fundo falecimento ${i}">`
+                    }
+                    carregaImgAnjosInterno.textContent = ''
+                </script>
                 <div class="idOcu" style="visibility: visible;">
                     <div class="falecidoRecente" id="homenagemFalecido">
                         <div>
@@ -3402,7 +3418,11 @@
                         </div>
                     </div>
                 </div>
+                
                 <script>
+                    
+                   
+
                     function lo() {
                         const oLoad = document.querySelector('.fechalo')
                         const oOcu = document.querySelector('.idOcu')
