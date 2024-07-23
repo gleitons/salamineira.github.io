@@ -854,7 +854,7 @@ async function artigosNot() {
 function inicioApp() {
    
     artigosNot()
-    if(localStorage.getItem('noticiasBlog') == null) location.reload()
+    if(localStorage.getItem('noticiasBlog') == null) artigosNot()
     contadorFavorite()
     desmarcaTop()
     marcaTop(0)
