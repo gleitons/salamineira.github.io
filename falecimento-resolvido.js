@@ -66,7 +66,8 @@ function falecidos() {
         }
 
         if (falec.apelido.length > 0) {
-            var apel = `Conhecido como ${falec.apelido}`
+            const doApel = falec.sexo == 'f' ? `Conhecida` : `Conhecido`
+            var apel = `${doApel} como ${falec.apelido}`
         }
 
         if (falec.mae.length > 1) {

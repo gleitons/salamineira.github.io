@@ -6026,5 +6026,21 @@
     "LocalFalecimento": "Lagoa dos Patos MG",
     "estado": "MG",
     "apelido": "Dona Matilde"
+  },
+  {
+    "id": "<div> <h4>Imagens</h4> <img src='/falecimento/layla.png' alt=''> </div>",
+    "nome": "LAYLA DE SOUSA RABELO",
+    "sexo": "f",
+    "imagem": "/falecimento/layla-2-min.png",
+    "nascimento": "",
+    "falecimento": "25/07/2024",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "Minas Gerais",
+    "LocalFalecimento": "Lagoa dos Patos MG",
+    "estado": "MG",
+    "apelido": "Layla"
   }
 ]
