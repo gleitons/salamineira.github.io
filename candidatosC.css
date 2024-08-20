@@ -1,0 +1,10 @@
+.candidatosC {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.candidatosC > div {
+    width: 100px;
+    height: 100px;
+}
