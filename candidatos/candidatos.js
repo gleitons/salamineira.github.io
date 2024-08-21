@@ -7,8 +7,8 @@ const geraCandidatos = async () => {
     localStorage.setItem('candidatos', JSON.stringify(data))
     candidatosC.innerHTML = ``
     data.forEach(element => {
-        candidatosC.innerHTML += `<div onclick="selecionaCandidato(${element.numero})>
-                            <abbr title="${element.urna}"><a href="#showCandidato"><img onclick="selecionaCandidato(${element.numero})"  src="/candidatos/${element.numero}-min.png" alt="${element.numero}"></a></abbr>
+        candidatosC.innerHTML += `<div >
+                            <abbr title="${element.urna}"><a href="#showCandidato"><img onmouseenter="selecionaCandidato(${element.numero})"  src="/candidatos/${element.numero}-min.png" alt="${element.numero}"></a></abbr>
                         </div>`
     });
 }
