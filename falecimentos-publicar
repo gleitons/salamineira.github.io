@@ -6042,5 +6042,37 @@
     "LocalFalecimento": "Lagoa dos Patos MG",
     "estado": "MG",
     "apelido": "Layla"
+  },
+  {
+    "id": "<div> <h4>Imagens</h4> <img src='/falecimento/tio-dica.png' alt=''> </div>",
+    "nome": "LINO PEREIRA DE SOUZA",
+    "sexo": "m",
+    "imagem": "/falecimento/lino.png",
+    "nascimento": "",
+    "falecimento": "16/08/2024",
+    "nota": "7 - Combati o bom combate, terminei a corrida, guardei a fé. 8 - Agora me está reservada a coroa da justiça, que o Senhor, justo Juiz, me dará naquele dia; e não somente a mim, mas também a todos os que amam a sua vinda.",
+   
+    "obito": "Não identificado",
+    "mae": "",
+    "natural": "Pirapora - MG",
+    "estadoFalecimento": "Minas Gerais",
+    "LocalFalecimento": "Pirapora MG",
+    "estado": "MG",
+    "apelido": "Irmão Dica"
+  },
+  {
+    "id": "<div> <h4>Imagens</h4> <img src='/falecimento/sr-nego-c.png' alt=''> </div>",
+    "nome": "ANTERO DE MARTINS CAETANO",
+    "sexo": "m",
+    "imagem": "/falecimento/sr-nego.png",
+    "nascimento": "",
+    "falecimento": "22/08/2024",
+    "nota": "",
+    "mae": "",
+    "natural": "Pirapora - MG",
+    "estadoFalecimento": "Minas Gerais",
+    "LocalFalecimento": "Lagoa dos Patos MG",
+    "estado": "MG",
+    "apelido": "Sr Nego do Cocal"
   }
 ]
