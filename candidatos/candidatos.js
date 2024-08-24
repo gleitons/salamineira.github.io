@@ -1,17 +1,31 @@
-const candidatosC = document.querySelector('.candidatosC')
 
-const geraCandidatos = async () => {
+
+const geC = async () => {
     const url = '/candidatos/eleicao'
     const resp = await fetch(url)
     const data = await resp.json()
     localStorage.setItem('candidatos', JSON.stringify(data))
+    
+}
+geC()
+const candidatosC = document.querySelector('.candidatosC')
+
+const geraCandidatos = async () => {
+    await geC()
+  
+    const dosItens = localStorage.getItem('candidatos')     
+    
+    const data =  JSON.parse(dosItens)
     candidatosC.innerHTML = ``
     data.forEach(element => {
-        candidatosC.innerHTML += `<div >
-                            <abbr title="${element.urna} - ${element.numero}"><a href="#showCandidato"><img onmouseenter="selecionaCandidato(${element.numero})"  src="/candidatos/${element.numero}-min.png" alt="${element.numero}"></a></abbr>
-                        </div>`
+        const divC = document.createElement('div')
+        divC.innerHTML = `<abbr title="${element.urna} - ${element.numero}"><a href="#showCandidato"><img onmouseenter="selecionaCandidato(${element.numero})"  src="/candidatos/${element.numero}-min.png" alt="${element.numero}"></a></abbr>`
+
+        candidatosC.appendChild(divC)
     });
 }
+
+geraCandidatos()
 function checkImageExists(url, callback) {
     const img = new Image();
     img.onload = function () {
@@ -31,7 +45,7 @@ function selecionaCandidato(numb) {
             showCand.innerHTML = ''
             for (let index = 0; index < 4; index++) {
                 const valor = index == 0 ? '' : '-' + index;
-                checkImageExists(`/candidatos/${e.numero}${valor}.png`, function(exists) {
+                checkImageExists(`/candidatos/${e.numero}${valor}.png`, function (exists) {
                     if (exists) {
                         const imgCC = document.createElement('img')
                         imgCC.src = `/candidatos/${e.numero}${valor}.png`
@@ -41,11 +55,11 @@ function selecionaCandidato(numb) {
                         console.log('A imagem não existe!');
                     }
                 });
-                
+
             }
-            
-            const img1 = 
-            console.log(img1.status())
+
+            const img1 =
+                console.log(img1.status())
             showCandidato.alt = `${e.numero} - ${e.urna}`
 
             showCandidato2.src = `/candidatos/${e.numero}-2.png`
@@ -58,4 +72,6 @@ function selecionaCandidato(numb) {
     })
 
 }
+
 geraCandidatos()
+

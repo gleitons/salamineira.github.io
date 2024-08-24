@@ -1888,22 +1888,6 @@
     "apelido": ""
   },
   {
-    "id": "<span class='itensHtml'></span>",
-    "nome": "GERALDA PEREIRA MAIA",
-    "sexo": "f",
-    "imagem": "",
-    "nascimento": "",
-    "falecimento": "31/12/2001",
-    "nota": "",
-    "obito": "Não identificado",
-    "mae": "",
-    "natural": "Lagoa dos Patos - MG",
-    "estadoFalecimento": "MG",
-    "LocalFalecimento": "Lagoa dos Patos",
-    "estado": "MG",
-    "apelido": ""
-  },
-  {
     "id": "<img src='/falecimento/miuda.jpg' alt='miuda'>",
     "nome": "GERALDA MARIA LEITE",
     "sexo": "f",
@@ -6074,5 +6058,20 @@
     "LocalFalecimento": "Lagoa dos Patos MG",
     "estado": "MG",
     "apelido": "Sr Nego do Cocal"
+  },
+  {
+    "id": "",
+    "nome": " JOSE CALIXTO PEREIRA DA CONCEICAO",
+    "sexo": "m",
+    "imagem": "",
+    "nascimento": "",
+    "falecimento": "17/05/2010",
+    "nota": "",
+    "mae": "JUVENITA MARIA DA CONCEICAO",
+    "natural": "Pirapora - MG",
+    "estadoFalecimento": "Minas Gerais",
+    "LocalFalecimento": "Lagoa dos Patos MG",
+    "estado": "MG",
+    "apelido": "Sr Zé Calixto Sabiá"
   }
 ]
