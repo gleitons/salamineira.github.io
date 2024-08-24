@@ -11,6 +11,7 @@
 }
 .esquerdoArtigo p {
   line-height: 1.8em;
+  text-align: justify;
 }
 .itensHtml img {
   border-radius: 8px;
