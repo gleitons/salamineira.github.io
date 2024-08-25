@@ -1968,6 +1968,22 @@
     "apelido": ""
   },
   {
+    "id": "<img src='/falecimento/tatiane.png' alt='Tatiane de Onofre'>",
+    "nome": "TATIANA PEREIRA DE OLIVEIRA",
+    "sexo": "f",
+    "imagem": "/falecimento/tati.png",
+    "nascimento": "",
+    "falecimento": "23/08/2024",
+    "nota": "",
+    "obito": "Não identificado",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Lagoa dos Patos",
+    "estado": "MG",
+    "apelido": ""
+  },
+  {
     "id": "<span class='itensHtml'></span>",
     "nome": "CLARINDA PEREIRA DAS NEVES",
     "sexo": "f",
