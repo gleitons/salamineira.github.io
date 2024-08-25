@@ -19,7 +19,7 @@ const geraCandidatos = async () => {
     candidatosC.innerHTML = ``
     data.forEach(element => {
         const divC = document.createElement('div')
-        divC.innerHTML = `<abbr title="${element.urna} - ${element.numero}"><a href="#showCandidato"><img onmouseenter="selecionaCandidato(${element.numero})"  src="/candidatos/${element.numero}-min.png" alt="${element.numero}"></a></abbr>`
+        divC.innerHTML = `<abbr title="${element.urna} - ${element.numero}"><a href="#showCandidato"><img onmouseenter="selecionaCandidato(${element.numero})"  src="/candidatos/${element.numero}-min-min.png" alt="${element.numero}"></a></abbr>`
 
         candidatosC.appendChild(divC)
     });
