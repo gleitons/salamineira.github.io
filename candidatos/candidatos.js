@@ -12,14 +12,14 @@ const candidatosC = document.querySelector('.candidatosC')
 
 const geraCandidatos = async () => {
     await geC()
-  
+  ///candidatos/${element.numero}-min-min.png
     const dosItens = localStorage.getItem('candidatos')     
     
     const data =  JSON.parse(dosItens)
     candidatosC.innerHTML = ``
     data.forEach(element => {
         const divC = document.createElement('div')
-        divC.innerHTML = `<abbr title="${element.urna} - ${element.numero}"><a href="#showCandidato"><img onmouseenter="selecionaCandidato(${element.numero})"  src="/candidatos/${element.numero}-min-min.png" alt="${element.numero}"></a></abbr>`
+        divC.innerHTML = `<abbr title="${element.urna} - ${element.numero}"><a href="#showCandidato"><img onmouseenter="selecionaCandidato(${element.numero})"  src="/candidatos/${element.numero}.jpg" alt="${element.numero}"></a></abbr>`
 
         candidatosC.appendChild(divC)
     });

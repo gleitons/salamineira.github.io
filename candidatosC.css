@@ -17,7 +17,7 @@
 }
 .candidatosC img:hover {
     filter: brightness(1.2);
-    transform: scale(1.6);
+    transform: scale(1.4, 1.8);
     transition: 200ms ease-in-out ;
     z-index: 999;
     border-radius: 8px;
