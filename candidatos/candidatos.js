@@ -43,7 +43,7 @@ function selecionaCandidato(numb) {
         if (e.numero == numb) {
             const showCand = document.querySelector(`.showCand`)
             showCand.innerHTML = ''
-            for (let index = 0; index < 4; index++) {
+            for (let index = 0; index < 10; index++) {
                 const valor = index == 0 ? '' : '-' + index;
                 checkImageExists(`/candidatos/${e.numero}${valor}.png`, function (exists) {
                     if (exists) {
@@ -51,9 +51,10 @@ function selecionaCandidato(numb) {
                         imgCC.src = `/candidatos/${e.numero}${valor}.png`
                         imgCC.alt = `${e.numero} - ${e.nome}`
                         showCand.appendChild(imgCC)
-                    } else {
-                        console.log('A imagem não existe!');
                     }
+                    // } else {
+                    //     // console.log('A imagem não existe!');
+                    // }
                 });
 
             }

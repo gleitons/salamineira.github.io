@@ -12,6 +12,17 @@
         "cargo": "Prefeito"
     },
     {
+        "nome": "JAIRE RAMOS DE OLIVEIRA JUNIOR",
+        "numero": 20.1,
+        "urna": "JAIRE JUNIOR",
+        "proposta": "",
+        "cnpj": "56.402.009/0001-83",
+        "partido": "PODE",
+        "situacao": "Concorrendo",
+        "frase": "",
+        "cargo": "vice-Prefeito"
+    },
+    {
         "nome": "SARGENTO JUNIOR",
         "numero": 15,
         "urna": "SARGENTO JUNIOR",
@@ -23,6 +34,17 @@
         "cargo": "Prefeito"
     },
     {
+        "nome": "OSCAR VIEIRA LAFETÁ NETO",
+        "numero": 15.1,
+        "urna": "OSCAR DE EDÃO",
+        "proposta": "",
+        "cnpj": "",
+        "partido": "MDB",
+        "situacao": "Concorrendo",
+        "frase": "",
+        "cargo": "Vice-Prefeito"
+    },
+    {
         "nome": "VANDINHO",
         "numero": 77,
         "urna": "VANDINHO",
@@ -32,6 +54,17 @@
         "situacao": "Concorrendo",
         "frase": "",
         "cargo": "Prefeito"
+    },
+    {
+        "nome": "JOÃO PEDRO ELEUTERIO DO COUTO JUNIOR",
+        "numero": 77.1,
+        "urna": "JUNIOR DA FÁRMACIA",
+        "proposta": "",
+        "cnpj": "",
+        "partido": "SOLIDARIEDADE",
+        "situacao": "Concorrendo",
+        "frase": "",
+        "cargo": "Vice-Prefeito"
     },
     {
         "nome": "AGUINALDO CABRA",
