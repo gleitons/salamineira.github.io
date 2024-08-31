@@ -5,21 +5,21 @@ const geC = async () => {
     const resp = await fetch(url)
     const data = await resp.json()
     localStorage.setItem('candidatos', JSON.stringify(data))
-    
+
 }
 geC()
 const candidatosC = document.querySelector('.candidatosC')
 
 const geraCandidatos = async () => {
     await geC()
-  ///candidatos/${element.numero}-min-min.png
-    const dosItens = localStorage.getItem('candidatos')     
-    
-    const data =  JSON.parse(dosItens)
+    ///candidatos/${element.numero}-min-min.png
+    const dosItens = localStorage.getItem('candidatos')
+
+    const data = JSON.parse(dosItens)
     candidatosC.innerHTML = ``
     data.forEach(element => {
         const divC = document.createElement('div')
-        divC.innerHTML = `<abbr title="${element.urna} - ${element.numero}"><a href="#showCandidato"><img onmouseenter="selecionaCandidato(${element.numero})"  src="/candidatos/${element.numero}.jpg" alt="${element.numero}"></a></abbr>`
+        divC.innerHTML = `<abbr title="${element.urna} - ${element.numero}"><a href="#showCandidato"><img onclick="selecionaCandidato(${element.numero})"  src="/candidatos/${element.numero}.jpg" alt="${element.numero}"></a></abbr>`
 
         candidatosC.appendChild(divC)
     });
@@ -36,7 +36,9 @@ function checkImageExists(url, callback) {
     };
     img.src = url;
 }
+const carreg = document.querySelector('.carreg')
 function selecionaCandidato(numb) {
+    carreg.style.display = "block"
     const data = JSON.parse(localStorage.getItem('candidatos'))
 
     data.forEach((e) => {
@@ -56,21 +58,14 @@ function selecionaCandidato(numb) {
                     //     // console.log('A imagem não existe!');
                     // }
                 });
+                
 
             }
 
-            const img1 =
-                console.log(img1.status())
-            showCandidato.alt = `${e.numero} - ${e.urna}`
-
-            showCandidato2.src = `/candidatos/${e.numero}-2.png`
-            showCandidato2.alt = `${e.numero} - ${e.urna} `
-            showCandidato3.src = `/candidatos/${e.numero}-3.png`
-            showCandidato3.alt = `${e.numero} - ${e.urna}`
-            showCandidato4.src = `/candidatos/${e.numero}-3.png`
-            showCandidato4.alt = `${e.numero} - ${e.urna}`
+        
         }
     })
+    carreg.style.display = "none";
 
 }
 
