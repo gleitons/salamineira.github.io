@@ -19,7 +19,7 @@ const geraCandidatos = async () => {
     candidatosC.innerHTML = ``
     data.forEach(element => {
         const divC = document.createElement('div')
-        divC.innerHTML = `<abbr title="${element.urna} - ${element.numero}"><a href="#showCandidato"><img onclick="selecionaCandidato(${element.numero})"  src="/candidatos/${element.numero}.jpg" alt="${element.numero}"></a></abbr>`
+        divC.innerHTML = `<abbr class="oabbr "   title="${element.urna} - ${element.numero}"><a href="#showCandidato"><img onclick="selecionaCandidato(${element.numero})" id=${element.numero} src="/candidatos/${element.numero}.jpg" alt="${element.numero}"><p class="onumb">${element.numero.toString().split('.')[0]}</p></a></abbr>`
 
         candidatosC.appendChild(divC)
     });
@@ -36,13 +36,33 @@ function checkImageExists(url, callback) {
     };
     img.src = url;
 }
+function retiraPisca() {
+    const imgs = document.querySelectorAll('.oabbr a img')
+    
+    for (let index = 0; index < imgs.length; index++) {
+        const element = imgs[index];
+        if(element.className == 'piscas') {
+            console.log(element.className)
+            element.classList.remove('piscas')
+
+        }
+    }
+}
 const carreg = document.querySelector('.carreg')
+function piscaCan(numero) {
+    const docNumero = document.getElementById(numero)
+    console.log(docNumero)
+    docNumero.classList.add('piscas')
+}
 function selecionaCandidato(numb) {
+    retiraPisca()
     carreg.style.display = "block"
     const data = JSON.parse(localStorage.getItem('candidatos'))
-
+    const doIdBtn = document.querySelector("#doIdBtn")
     data.forEach((e) => {
         if (e.numero == numb) {
+            doIdBtn.setAttribute('href', `#${e.numero}`)
+            piscaCan(e.numero)
             const showCand = document.querySelector(`.showCand`)
             showCand.innerHTML = ''
             for (let index = 0; index < 10; index++) {
@@ -58,11 +78,11 @@ function selecionaCandidato(numb) {
                     //     // console.log('A imagem não existe!');
                     // }
                 });
-                
+
 
             }
 
-        
+
         }
     })
     carreg.style.display = "none";
