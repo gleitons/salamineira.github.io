@@ -742,16 +742,16 @@
 
                     <div class="candidatosC" id="cnab">
                        
-                        <picture>
+                        <picture class="imgns">
                             <!-- Para telas grandes -->
-                            <source media="(min-width: 1200px)" srcset="/candidatos/1200.png">
+                            <source class="doimgns" media="(min-width: 1200px)" srcset="/candidatos/1200.png">
                           
                             <!-- Para telas médias -->
-                            <source media="(min-width: 768px)" srcset="/candidatos/1024.png">
+                            <source class="doimgns" media="(min-width: 768px)" srcset="/candidatos/1024.png">
                           
                             <!-- Para telas pequenas -->
-                            <source media="(min-width: 767px)" srcset="/candidatos/480.png">
-                            <source media="(max-width: 360px)" srcset="/candidatos/360.png">
+                            <source class="doimgns" media="(min-width: 767px)" srcset="/candidatos/480.png">
+                            <source class="doimgns" media="(max-width: 360px)" srcset="/candidatos/360.png">
                           
                             <!-- Imagem padrão (fallback) -->
                             <img src="/candidatos/1200.png" alt="Img Desktop">
@@ -770,7 +770,7 @@
                             <a id="doIdBtn" href="#cnab"><button class="btnfi" >VER CANDIDATOS</button></a>
                         </div>
                     </div>
-
+                   
                     <!-- <div>
                         https://g1.globo.com/mg/grande-minas/eleicoes/2024/noticia/2024/08/16/eleicoes-2024-em-lagoa-dos-patos-mg-veja-os-candidatos-a-prefeito-e-a-vereador.ghtml
                     </div> -->
@@ -926,7 +926,11 @@
         <script src="/scripts/index.js"></script>
         <script src="/scripts/imagens-artigo.js"></script>
 
+        <div>
+                 <div class="ccarregaImagns">
 
+                 </div>       
+        </div>
 
         <!-- Code injected by live-server -->
 

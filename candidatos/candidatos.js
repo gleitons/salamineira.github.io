@@ -23,6 +23,17 @@ const geraCandidatos = async () => {
 
         candidatosC.appendChild(divC)
     });
+
+    const ccarregaImagns = document.querySelector('.ccarregaImagns')
+    data.forEach(e => {
+        const im = document.createElement('img')
+        im.src = '/candidatos/' + e.numero + '.png';
+        im.alt = e.numero
+        console.log(im)
+        ccarregaImagns.appendChild(im)
+    })
+    ccarregaImagns.style.display = 'none'
+
 }
 
 geraCandidatos()

@@ -71,6 +71,12 @@
     background-color: rgb(19, 192, 19);
   }
 }
+.imgns img {
+  width: 100%;
+}
+.imgns .doimgns {
+  width: 100%;
+}
 .piscas {
     animation: piss 1s infinite;
 }
