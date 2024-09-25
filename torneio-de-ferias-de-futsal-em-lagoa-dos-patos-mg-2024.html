@@ -2,19 +2,20 @@
 <html lang="pt-BR">
 
 <head>
-    <meta name="keywords"
-        content="Torneio de Férias de Futsal em Lagoa dos Patos MG - Sala Mineira Lagoa dos Patos MG">
+    <meta name="keywords" content="Torneio de Férias de Futsal em Lagoa dos Patos MG - Sala Mineira Lagoa dos Patos MG">
     <meta name="description"
         content="Torneio de Férias de Futsal em Lagoa dos Patos MG - Sala Mineira Lagoa dos Patos MG, construtora para toda obra, serviços de pedreiro AS construtora, andeilton soares Construtora">
     <link rel="canonical" href="">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Torneio de Férias de Futsal em Lagoa dos Patos MG - Sala Mineira Lagoa dos Patos MG">
+    <meta name="twitter:title"
+        content="Torneio de Férias de Futsal em Lagoa dos Patos MG - Sala Mineira Lagoa dos Patos MG">
     <meta name="twitter:description"
         content="Torneio de Férias de Futsal em Lagoa dos Patos MG - Sala Mineira Lagoa dos Patos MG, construtora para toda obra, serviços de pedreiro AS construtora, andeilton soares Construtora">
     <meta name="twitter:image" content="/acao-global-lagoa-dos-patos-mg/acao-global-2023-lagoa-dos-patos-mg.jpeg">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Sala Mineira do Empreendedor de Lagoa dos Patos MG">
-    <meta property="og:title" content="Torneio de Férias de Futsal em Lagoa dos Patos MG - Sala Mineira Lagoa dos Patos MG">
+    <meta property="og:title"
+        content="Torneio de Férias de Futsal em Lagoa dos Patos MG - Sala Mineira Lagoa dos Patos MG">
     <meta property="og:description"
         content="Torneio de Férias de Futsal em Lagoa dos Patos MG - Sala Mineira Lagoa dos Patos MG, construtora para toda obra, serviços de pedreiro AS construtora, andeilton soares Construtora">
     <meta property="og:url" content="">
@@ -41,6 +42,7 @@
     <link rel="stylesheet" href="/estilos/stilo-sala.css">
     <link rel="stylesheet" href="/estilos/blog.css">
     <link rel="stylesheet" href="/estilos/gerador-pdf-estilo.css">
+    <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
     <!-- Analytics -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-133729569-2"></script>
@@ -60,6 +62,27 @@
             margin-left: -5px;
 
 
+        }
+        .imagensDoTorneio {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin: auto;
+            text-align: center;
+            
+        }
+        .imagensDoTorneio > div {
+            width: 350px;
+            margin: 4px;
+            /* height: 200px; */
+           
+        }
+        .imagensDoTorneio > div img {
+          margin: auto;
+          text-align: center;
+            /* height: 200px; */
+           
         }
     </style>
 
@@ -113,9 +136,29 @@
                 <div class="titleArtigo">
                     <h1>Torneio de Férias 2024 em Lagoa dos Patos - MG - Futsal</h1>
 
-                    <h2>Em construção - Volte em breve</h2>
-                    <h3>**/**/****</h3>
+                    <h2>Veja as fotos da final do Torneio de Futsal de Lagoa dos Patos - MG nas férias em 2024</h2>
+                    <h3>29/07/2024</h3>
                 </div>
+                <div style="font-size: 15px; background-color: red; color: rgb(254, 254, 254); padding: 3px;">
+                    *Algumas imagens podem estar repetidas
+                </div>
+                <div class="imagensDoTorneio">
+                    <div class="Sirv" data-type="zoom"
+                        data-src="https://arquivoslagoa.sirv.com/Images/torneio-futsal-lagoa-dos-patos-mg-2024-%20(2).jpeg">
+                    </div>
+                    
+                </div>
+                <script>
+                    const imagensDoTorneio = document.querySelector('.imagensDoTorneio')
+                    for(let i = 1; i <= 85; i++){
+                        const umaDiv = document.createElement('div')
+                        umaDiv.setAttribute('class', 'Sirv');
+                        umaDiv.setAttribute('data-type', 'zoom')
+                        umaDiv.setAttribute('data-src', `https://arquivoslagoa.sirv.com/Images/torneio-futsal-lagoa-dos-patos-mg-2024-%20(${i}).jpeg`)
+                        
+                        imagensDoTorneio.appendChild(umaDiv)
+                    }
+                </script>
                 <!-- <div>
                     <img src="/img/time-lagoa-dos-patos-mg-campeonato-pirapora-mg.jpg"
                         alt="acao-global-lagoa-dos-patos-mg/acao-global-2023-lagoa-dos-patos-mg">
