@@ -18,10 +18,21 @@ const geraCandidatos = async () => {
     const data = JSON.parse(dosItens)
     candidatosC.innerHTML = ``
     data.forEach(element => {
-        const divC = document.createElement('div')
-        divC.innerHTML = `<abbr class="oabbr "   title="${element.urna} - ${element.numero}"><a href="#showCandidato"><img onclick="selecionaCandidato(${element.numero})" id=${element.numero} src="/candidatos/${element.numero}.jpg" alt="${element.numero}"><p class="onumb">${element.numero.toString().split('.')[0]}</p></a></abbr>`
+        console.log(element.proposta)
+        if(element.proposta == 'e') {            
+            const divC = document.createElement('div')
+            divC.innerHTML = `<abbr class="oabbr"   title="${element.urna} - ${element.numero}"><a href="#showCandidato"><p class="eleito">E <i class="bi bi-check"></i></p>
+            <img onclick="selecionaCandidato(${element.numero})" id=${element.numero} src="/candidatos/${element.numero}.jpg" alt="${element.numero}">
+            <p class="onumb">${element.numero.toString().split('.')[0]}</a></abbr>`
+            candidatosC.appendChild(divC)
+        } else {
+            const divC = document.createElement('div')
+            divC.innerHTML = `<abbr class="oabbr"   title="${element.urna} - ${element.numero}"><a href="#showCandidato">
+            <img onclick="selecionaCandidato(${element.numero})" id=${element.numero} src="/candidatos/${element.numero}.jpg" alt="${element.numero}">
+            <p class="onumb">${element.numero.toString().split('.')[0]}</a></abbr>`
+            candidatosC.appendChild(divC)
+        }
 
-        candidatosC.appendChild(divC)
     });
 
     const ccarregaImagns = document.querySelector('.ccarregaImagns')
@@ -62,7 +73,7 @@ function retiraPisca() {
 const carreg = document.querySelector('.carreg')
 function piscaCan(numero) {
     const docNumero = document.getElementById(numero)
-    console.log(docNumero)
+   
     docNumero.classList.add('piscas')
 }
 function selecionaCandidato(numb) {
