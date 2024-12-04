@@ -1,374 +1,501 @@
 [
-  {    
-      "nome": "nazare",
-      "nomeCompleto": "NAZARÉ DA GLÓRIA MAIA",
-      "sexo": "f",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/nazare-2004-max.png",
-      "profissao": "",
-      "nascimento": "12/02/1961",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "nazare",
-      "candidaturas": [
+  {
+    "nome": "nazare",
+    "nomeCompleto": "NAZARÉ DA GLÓRIA MAIA",
+    "sexo": "f",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/nazare-2004-max.png",
+    "profissao": "",
+    "nascimento": "12/02/1961",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "nazare",
+    "candidaturas": [
       {
-          "ano": "2000",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "2004",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "2008",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "2012",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "2016",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "2020",
-          "eleito": "s",
-          "cargo": "v"
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/nazare-2000.png"},{"imagem":"/pessoas/nazare-2000-max.png"},{"imagem":"/pessoas/nazare-2004.png"},{"imagem":"/pessoas/nazare-2004-max.png"},{"imagem":"/pessoas/nazare-2008.png"},{"imagem":"/pessoas/nazare-2008-max.png"},{"imagem":"/pessoas/nazare-2012.png"},{"imagem":"/pessoas/nazare-2012-max.png"},{"imagem":"/pessoas/nazare-2016.png"},{"imagem":"/pessoas/nazare-2016-max.png"},{"imagem":"/pessoas/nazare-2020.png"},{"imagem":"/pessoas/nazare-2020-max.png"}],
-      "imagem": ""
+        "ano": "2000",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2004",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2008",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2012",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2016",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2020",
+        "eleito": "s",
+        "cargo": "v"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/nazare-2000.png"
+      },
+      {
+        "imagem": "/pessoas/nazare-2000-max.png"
+      },
+      {
+        "imagem": "/pessoas/nazare-2004.png"
+      },
+      {
+        "imagem": "/pessoas/nazare-2004-max.png"
+      },
+      {
+        "imagem": "/pessoas/nazare-2008.png"
+      },
+      {
+        "imagem": "/pessoas/nazare-2008-max.png"
+      },
+      {
+        "imagem": "/pessoas/nazare-2012.png"
+      },
+      {
+        "imagem": "/pessoas/nazare-2012-max.png"
+      },
+      {
+        "imagem": "/pessoas/nazare-2016.png"
+      },
+      {
+        "imagem": "/pessoas/nazare-2016-max.png"
+      },
+      {
+        "imagem": "/pessoas/nazare-2020.png"
+      },
+      {
+        "imagem": "/pessoas/nazare-2020-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "aldo-boca",
-      "nomeCompleto": "ALDO SEBASTIAO ROSA DE FARIA",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/aldo-boca-2012-max.png",
-      "profissao": "",
-      "nascimento": "21/03/1989",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "aldo boca",
-      "candidaturas": [
+  {
+    "nome": "aldo-boca",
+    "nomeCompleto": "ALDO SEBASTIAO ROSA DE FARIA",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/aldo-boca-2012-max.png",
+    "profissao": "",
+    "nascimento": "21/03/1989",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "aldo boca",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2012",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "2016",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "2020",
-          "eleito": "s",
-          "cargo": "v"
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/aldo-boca-2012.png"},{"imagem":"/pessoas/aldo-boca-2012-max.png"},{"imagem":"/pessoas/aldo-boca-2016.png"},{"imagem":"/pessoas/aldo-boca-2016-max.png"},{"imagem":"/pessoas/aldo-boca-2020.png"},{"imagem":"/pessoas/aldo-boca-2020-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2012",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2016",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2020",
+        "eleito": "s",
+        "cargo": "v"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/aldo-boca-2012.png"
+      },
+      {
+        "imagem": "/pessoas/aldo-boca-2012-max.png"
+      },
+      {
+        "imagem": "/pessoas/aldo-boca-2016.png"
+      },
+      {
+        "imagem": "/pessoas/aldo-boca-2016-max.png"
+      },
+      {
+        "imagem": "/pessoas/aldo-boca-2020.png"
+      },
+      {
+        "imagem": "/pessoas/aldo-boca-2020-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "sueli-lopes",
-      "nomeCompleto": "SUELI LOPES ALMEIDA",
-      "sexo": "f",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/sueli-lopes-2012-max.png",
-      "profissao": "",
-      "nascimento": "16/11/1970",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "sueli lopes",
-      "candidaturas": [
+  {
+    "nome": "sueli-lopes",
+    "nomeCompleto": "SUELI LOPES ALMEIDA",
+    "sexo": "f",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/sueli-lopes-2012-max.png",
+    "profissao": "",
+    "nascimento": "16/11/1970",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "sueli lopes",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2012",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/sueli-lopes-2012.png"},{"imagem":"/pessoas/sueli-lopes-2012-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2012",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/sueli-lopes-2012.png"
+      },
+      {
+        "imagem": "/pessoas/sueli-lopes-2012-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "joao-da-copasa",
-      "nomeCompleto": "JOÃO BATISTA SALES",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/joao-da-copasa-2004-max.png",
-      "profissao": "",
-      "nascimento": "08/07/1948",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "joao da copasa",
-      "candidaturas": [
+  {
+    "nome": "joao-da-copasa",
+    "nomeCompleto": "JOÃO BATISTA SALES",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/joao-da-copasa-2004-max.png",
+    "profissao": "",
+    "nascimento": "08/07/1948",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "joao da copasa",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2016",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/joao-da-copasa-2004.png"},{"imagem":"/pessoas/joao-da-copasa-2004-max.png"},{"imagem":"/pessoas/joao-da-copasa-2016.png"},{"imagem":"/pessoas/joao-da-copasa-2016-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2016",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/joao-da-copasa-2004.png"
+      },
+      {
+        "imagem": "/pessoas/joao-da-copasa-2004-max.png"
+      },
+      {
+        "imagem": "/pessoas/joao-da-copasa-2016.png"
+      },
+      {
+        "imagem": "/pessoas/joao-da-copasa-2016-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "ivani-pisca",
-      "nomeCompleto": "MARIA IVANI ALVES SILVA",
-      "sexo": "f",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/ivani-pisca-2004-max.png",
-      "profissao": "",
-      "nascimento": "11/09/1972",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "ivani pisca",
-      "candidaturas": [
+  {
+    "nome": "ivani-pisca",
+    "nomeCompleto": "MARIA IVANI ALVES SILVA",
+    "sexo": "f",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/ivani-pisca-2004-max.png",
+    "profissao": "",
+    "nascimento": "11/09/1972",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "ivani pisca",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/ivani-pisca-2004.png"},{"imagem":"/pessoas/ivani-pisca-2004-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/ivani-pisca-2004.png"
+      },
+      {
+        "imagem": "/pessoas/ivani-pisca-2004-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "jane-braga",
-      "nomeCompleto": "JANICLER FONSECA BRAGA",
-      "sexo": "f",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/jane-braga-2004-max.png",
-      "profissao": "",
-      "nascimento": "09/02/1958",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "jane braga",
-      "candidaturas": [
+  {
+    "nome": "jane-braga",
+    "nomeCompleto": "JANICLER FONSECA BRAGA",
+    "sexo": "f",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/jane-braga-2004-max.png",
+    "profissao": "",
+    "nascimento": "09/02/1958",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "jane braga",
+    "candidaturas": [
       {
-          "ano": "2000",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "2004",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "2008",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "2012",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "2016",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "2020",
-          "eleito": "n",
-          "cargo": "v"
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/jane-braga-2000.png"},{"imagem":"/pessoas/jane-braga-2000-max.png"},{"imagem":"/pessoas/jane-braga-2004.png"},{"imagem":"/pessoas/jane-braga-2004-max.png"},{"imagem":"/pessoas/jane-braga-2008.png"},{"imagem":"/pessoas/jane-braga-2008-max.png"},{"imagem":"/pessoas/jane-braga-2012.png"},{"imagem":"/pessoas/jane-braga-2012-max.png"},{"imagem":"/pessoas/jane-braga-2016.png"},{"imagem":"/pessoas/jane-braga-2016-max.png"},{"imagem":"/pessoas/jane-braga-2020.png"},{"imagem":"/pessoas/jane-braga-2020-max.png"}],
-      "imagem": ""
+        "ano": "2000",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2004",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2008",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2012",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2016",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2020",
+        "eleito": "n",
+        "cargo": "v"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/jane-braga-2000.png"
+      },
+      {
+        "imagem": "/pessoas/jane-braga-2000-max.png"
+      },
+      {
+        "imagem": "/pessoas/jane-braga-2004.png"
+      },
+      {
+        "imagem": "/pessoas/jane-braga-2004-max.png"
+      },
+      {
+        "imagem": "/pessoas/jane-braga-2008.png"
+      },
+      {
+        "imagem": "/pessoas/jane-braga-2008-max.png"
+      },
+      {
+        "imagem": "/pessoas/jane-braga-2012.png"
+      },
+      {
+        "imagem": "/pessoas/jane-braga-2012-max.png"
+      },
+      {
+        "imagem": "/pessoas/jane-braga-2016.png"
+      },
+      {
+        "imagem": "/pessoas/jane-braga-2016-max.png"
+      },
+      {
+        "imagem": "/pessoas/jane-braga-2020.png"
+      },
+      {
+        "imagem": "/pessoas/jane-braga-2020-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "gil",
-      "nomeCompleto": "JOSEFINO ANTONIO MENDES",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/gil-2000-max.png",
-      "profissao": "",
-      "nascimento": "",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "gil",
-      "candidaturas": [
+  {
+    "nome": "gil",
+    "nomeCompleto": "JOSEFINO ANTONIO MENDES",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/gil-2000-max.png",
+    "profissao": "",
+    "nascimento": "",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "gil",
+    "candidaturas": [
       {
-          "ano": "2000",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/gil-2000.png"},{"imagem":"/pessoas/gil-2000-max.png"}],
-      "imagem": ""
+        "ano": "2000",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/gil-2000.png"
+      },
+      {
+        "imagem": "/pessoas/gil-2000-max.png"
+      }
+    ],
+    "imagem": ""
   },
   {
     "nome": "ze-cabelo",
@@ -796,11 +923,6 @@
     "apelido": "vandinho",
     "candidaturas": [
       {
-        "ano": "",
-        "eleito": "",
-        "cargo": ""
-      },
-      {
         "ano": "2004",
         "eleito": "n",
         "cargo": "p"
@@ -822,6 +944,11 @@
       },
       {
         "ano": "2020",
+        "eleito": "s",
+        "cargo": "p"
+      },
+      {
+        "ano": "2024",
         "eleito": "s",
         "cargo": "p"
       }
@@ -855,63 +982,88 @@
         "imagem": "/pessoas/vandinho-capa-colorido.jpg"
       },
       {
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKs7n0RcCtuhu-wL7pksFEf4e9qZ-onmQmow&s"
+      },
+      {
+        "imagem": "https://cisverdegrande.com.br/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-26-at-18.03.46-1.jpeg"
+      },
+      {
         "imagem": "/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg"
       }
     ],
     "imagem": "<div class='imglagoapatenses'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
   },
-  {    
-      "nome": "tom-seco",
-      "nomeCompleto": "ANTONIO DURÃES DE QUEIROZ",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/tom-seco-2004-max.png",
-      "profissao": "",
-      "nascimento": "29/05/1963",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "tom seco",
-      "candidaturas": [
+  {
+    "nome": "tom-seco",
+    "nomeCompleto": "ANTONIO DURÃES DE QUEIROZ",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/tom-seco-2004-max.png",
+    "profissao": "",
+    "nascimento": "29/05/1963",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "tom seco",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2004",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "2008",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "2012",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/tom-seco-2004.png"},{"imagem":"/pessoas/tom-seco-2004-max.png"},{"imagem":"/pessoas/tom-seco-2008.png"},{"imagem":"/pessoas/tom-seco-2008-max.png"},{"imagem":"/pessoas/tom-seco-2012.png"},{"imagem":"/pessoas/tom-seco-2012-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2008",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2012",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/tom-seco-2004.png"
+      },
+      {
+        "imagem": "/pessoas/tom-seco-2004-max.png"
+      },
+      {
+        "imagem": "/pessoas/tom-seco-2008.png"
+      },
+      {
+        "imagem": "/pessoas/tom-seco-2008-max.png"
+      },
+      {
+        "imagem": "/pessoas/tom-seco-2012.png"
+      },
+      {
+        "imagem": "/pessoas/tom-seco-2012-max.png"
+      }
+    ],
+    "imagem": ""
   },
   {
     "nome": "pohebe",
@@ -1095,7 +1247,8 @@
       },
       {
         "imagem": "/pessoas/adair-2018.png"
-      },{
+      },
+      {
         "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/adair-nobre-1.jpg"
       },
       {
@@ -1103,1717 +1256,2111 @@
       },
       {
         "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/adair-nobre-3.jpg"
-      }, {
+      },
+      {
         "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/adair-nobre-56-max.jpeg"
-      },{
+      },
+      {
         "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/IMG-20200311-WA0038.jpg"
-      },{
+      },
+      {
         "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/IMG-20201009-WA0036.jpg"
-      },{
+      },
+      {
         "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/IMG-20201105-WA0066.jpg"
-      },{
+      },
+      {
         "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/IMG-20220710-WA0018.jpg"
-      },{
+      },
+      {
         "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/IMG-20201105-WA0066.jpg"
       }
     ],
     "imagem": "<div class='imglagoapatensess'> <img src='/imagens-sala/ambulancia-lagoa-dos-patos-mg-capa-min.jpg' alt=''> </div>"
   },
-  {    
-      "nome": "maria-meleta",
-      "nomeCompleto": "MARIA JOSÉ ALVES FONSECA",
-      "sexo": "f",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/maria-meleta-2004-max.png",
-      "profissao": "",
-      "nascimento": "20/05/1962",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "maria meleta",
-      "candidaturas": [
+  {
+    "nome": "maria-meleta",
+    "nomeCompleto": "MARIA JOSÉ ALVES FONSECA",
+    "sexo": "f",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/maria-meleta-2004-max.png",
+    "profissao": "",
+    "nascimento": "20/05/1962",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "maria meleta",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/maria-meleta-2004.png"},{"imagem":"/pessoas/maria-meleta-2004-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/maria-meleta-2004.png"
+      },
+      {
+        "imagem": "/pessoas/maria-meleta-2004-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "mario-silva",
-      "nomeCompleto": "MARIO NASCIMENTO SILVA",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/mario-silva-2004-max.png",
-      "profissao": "",
-      "nascimento": "25/12/1955",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "mario silva",
-      "candidaturas": [
+  {
+    "nome": "mario-silva",
+    "nomeCompleto": "MARIO NASCIMENTO SILVA",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/mario-silva-2004-max.png",
+    "profissao": "",
+    "nascimento": "25/12/1955",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "mario silva",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/mario-silva-2004.png"},{"imagem":"/pessoas/mario-silva-2004-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/mario-silva-2004.png"
+      },
+      {
+        "imagem": "/pessoas/mario-silva-2004-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "miraelton",
-      "nomeCompleto": "MIRAELTON PEREIRA MARTINS",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/miraelton-2004-max.png",
-      "profissao": "",
-      "nascimento": "31/03/1976",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "miraelton",
-      "candidaturas": [
+  {
+    "nome": "miraelton",
+    "nomeCompleto": "MIRAELTON PEREIRA MARTINS",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/miraelton-2004-max.png",
+    "profissao": "",
+    "nascimento": "31/03/1976",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "miraelton",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/miraelton-2004.png"},{"imagem":"/pessoas/miraelton-2004-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/miraelton-2004.png"
+      },
+      {
+        "imagem": "/pessoas/miraelton-2004-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "netinho-da-ambulancia",
-      "nomeCompleto": "TORQUATO EURIPEDES JESUS",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/netinho-da-ambulancia-2004-max.png",
-      "profissao": "",
-      "nascimento": "17/07/1976",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "netinho da ambulancia",
-      "candidaturas": [
+  {
+    "nome": "netinho-da-ambulancia",
+    "nomeCompleto": "TORQUATO EURIPEDES JESUS",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/netinho-da-ambulancia-2004-max.png",
+    "profissao": "",
+    "nascimento": "17/07/1976",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "netinho da ambulancia",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/netinho-da-ambulancia-2004.png"},{"imagem":"/pessoas/netinho-da-ambulancia-2004-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/netinho-da-ambulancia-2004.png"
+      },
+      {
+        "imagem": "/pessoas/netinho-da-ambulancia-2004-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "neuzinha",
-      "nomeCompleto": "NEUZA ANTUNES DA FONSECA PARRELA",
-      "sexo": "f",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/neuzinha-2004-max.png",
-      "profissao": "",
-      "nascimento": "02/10/1961",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "neuzinha",
-      "candidaturas": [
+  {
+    "nome": "neuzinha",
+    "nomeCompleto": "NEUZA ANTUNES DA FONSECA PARRELA",
+    "sexo": "f",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/neuzinha-2004-max.png",
+    "profissao": "",
+    "nascimento": "02/10/1961",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "neuzinha",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/neuzinha-2004.png"},{"imagem":"/pessoas/neuzinha-2004-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/neuzinha-2004.png"
+      },
+      {
+        "imagem": "/pessoas/neuzinha-2004-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "osvaldino",
-      "nomeCompleto": "OSVALDINO DURÃES PEREIRA",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/osvaldino-2004-max.png",
-      "profissao": "",
-      "nascimento": "15/10/1968",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "osvaldino",
-      "candidaturas": [
+  {
+    "nome": "osvaldino",
+    "nomeCompleto": "OSVALDINO DURÃES PEREIRA",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/osvaldino-2004-max.png",
+    "profissao": "",
+    "nascimento": "15/10/1968",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "osvaldino",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "2008",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/osvaldino-2004.png"},{"imagem":"/pessoas/osvaldino-2004-max.png"},{"imagem":"/pessoas/osvaldino-2008.png"},{"imagem":"/pessoas/osvaldino-2008-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2008",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/osvaldino-2004.png"
+      },
+      {
+        "imagem": "/pessoas/osvaldino-2004-max.png"
+      },
+      {
+        "imagem": "/pessoas/osvaldino-2008.png"
+      },
+      {
+        "imagem": "/pessoas/osvaldino-2008-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "paulim-de-dineu",
-      "nomeCompleto": "PAULO CESAR CARDOSO SOUZA",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/paulim-de-dineu-2004-max.png",
-      "profissao": "",
-      "nascimento": "11/07/1973",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "paulim de dineu",
-      "candidaturas": [
+  {
+    "nome": "paulim-de-dineu",
+    "nomeCompleto": "PAULO CESAR CARDOSO SOUZA",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/paulim-de-dineu-2004-max.png",
+    "profissao": "",
+    "nascimento": "11/07/1973",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "paulim de dineu",
+    "candidaturas": [
       {
-          "ano": "2000",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/paulim-de-dineu-2000.png"},{"imagem":"/pessoas/paulim-de-dineu-2000-max.png"},{"imagem":"/pessoas/paulim-de-dineu-2004.png"},{"imagem":"/pessoas/paulim-de-dineu-2004-max.png"}],
-      "imagem": ""
+        "ano": "2000",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/paulim-de-dineu-2000.png"
+      },
+      {
+        "imagem": "/pessoas/paulim-de-dineu-2000-max.png"
+      },
+      {
+        "imagem": "/pessoas/paulim-de-dineu-2004.png"
+      },
+      {
+        "imagem": "/pessoas/paulim-de-dineu-2004-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "alan-pancinha",
-      "nomeCompleto": "ALAN ANTUNES ALVES DE CAMPOS",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/alan-pancinha-2020-max.png",
-      "profissao": "",
-      "nascimento": "14/06/1991",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "alan pancinha",
-      "candidaturas": [
+  {
+    "nome": "alan-pancinha",
+    "nomeCompleto": "ALAN ANTUNES ALVES DE CAMPOS",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/alan-pancinha-2020-max.png",
+    "profissao": "",
+    "nascimento": "14/06/1991",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "alan pancinha",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2020",
-          "eleito": "n",
-          "cargo": "v"
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/alan-pancinha-2020.png"},{"imagem":"/pessoas/alan-pancinha-2020-max.png"},{"imagem":"/pessoas/alan-pancinha-2020-c.png"},{"imagem":"/pessoas/alan-pancinha-2020-c-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2020",
+        "eleito": "n",
+        "cargo": "v"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/alan-pancinha-2020.png"
+      },
+      {
+        "imagem": "/pessoas/alan-pancinha-2020-max.png"
+      },
+      {
+        "imagem": "/pessoas/alan-pancinha-2020-c.png"
+      },
+      {
+        "imagem": "/pessoas/alan-pancinha-2020-c-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "guila-barbosa",
-      "nomeCompleto": "GUILHERME BARBOSA DA SILVA",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/guila-barbosa-2020-max.png",
-      "profissao": "",
-      "nascimento": "29/03/1993",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "guila barbosa",
-      "candidaturas": [
+  {
+    "nome": "guila-barbosa",
+    "nomeCompleto": "GUILHERME BARBOSA DA SILVA",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/guila-barbosa-2020-max.png",
+    "profissao": "",
+    "nascimento": "29/03/1993",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "guila barbosa",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2020",
-          "eleito": "s",
-          "cargo": "v"
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/guila-barbosa-2020.png"},{"imagem":"/pessoas/guila-barbosa-2020-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2020",
+        "eleito": "s",
+        "cargo": "v"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/guila-barbosa-2020.png"
+      },
+      {
+        "imagem": "/pessoas/guila-barbosa-2020-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "laudi-do-cocal",
-      "nomeCompleto": "JOSE GERALDO DOS REIS OLIVEIRA",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/laudi-do-cocal-2020-max.png",
-      "profissao": "",
-      "nascimento": "01/12/1982",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "laudi do cocal",
-      "candidaturas": [
+  {
+    "nome": "laudi-do-cocal",
+    "nomeCompleto": "JOSE GERALDO DOS REIS OLIVEIRA",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/laudi-do-cocal-2020-max.png",
+    "profissao": "",
+    "nascimento": "01/12/1982",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "laudi do cocal",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2020",
-          "eleito": "s",
-          "cargo": "v"
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/laudi-do-cocal-2020.png"},{"imagem":"/pessoas/laudi-do-cocal-2020-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2020",
+        "eleito": "s",
+        "cargo": "v"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/laudi-do-cocal-2020.png"
+      },
+      {
+        "imagem": "/pessoas/laudi-do-cocal-2020-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "sargento-junior",
-      "nomeCompleto": "JOSE SOARES DOS SANTOS JÚNIOR",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/sargento-junior-2020-max.png",
-      "profissao": "",
-      "nascimento": "15/01/1970",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "sargento junior",
-      "candidaturas": [
+  {
+    "nome": "sargento-junior",
+    "nomeCompleto": "JOSE SOARES DOS SANTOS JÚNIOR",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/sargento-junior-2020-max.png",
+    "profissao": "",
+    "nascimento": "15/01/1970",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "sargento junior",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2020",
-          "eleito": "s",
-          "cargo": "v"
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/sargento-junior-2020.png"},{"imagem":"/pessoas/sargento-junior-2020-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2020",
+        "eleito": "s",
+        "cargo": "v"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/sargento-junior-2020.png"
+      },
+      {
+        "imagem": "/pessoas/sargento-junior-2020-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "ze-maria-de-birro",
-      "nomeCompleto": "JOSE MARIA NASCIMENTO NETO",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/ze-maria-de-birro-2020-max.png",
-      "profissao": "",
-      "nascimento": "25/12/1983",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "ze maria de birro",
-      "candidaturas": [
+  {
+    "nome": "ze-maria-de-birro",
+    "nomeCompleto": "JOSE MARIA NASCIMENTO NETO",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/ze-maria-de-birro-2020-max.png",
+    "profissao": "",
+    "nascimento": "25/12/1983",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "ze maria de birro",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2020",
-          "eleito": "s",
-          "cargo": "v"
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/ze-maria-de-birro-2020.png"},{"imagem":"/pessoas/ze-maria-de-birro-2020-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2020",
+        "eleito": "s",
+        "cargo": "v"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/ze-maria-de-birro-2020.png"
+      },
+      {
+        "imagem": "/pessoas/ze-maria-de-birro-2020-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "gezin-verdade",
-      "nomeCompleto": "JOSE GERALDO XAVIER LEITE",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/gezin-verdade-2008-max.png",
-      "profissao": "",
-      "nascimento": "11/12/1977",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "gezin verdade",
-      "candidaturas": [
+  {
+    "nome": "gezin-verdade",
+    "nomeCompleto": "JOSE GERALDO XAVIER LEITE",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/gezin-verdade-2008-max.png",
+    "profissao": "",
+    "nascimento": "11/12/1977",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "gezin verdade",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2008",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "2012",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "2016",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "2020",
-          "eleito": "s",
-          "cargo": "v"
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/gezin-verdade-2008.png"},{"imagem":"/pessoas/gezin-verdade-2008-max.png"},{"imagem":"/pessoas/gezin-verdade-2012.png"},{"imagem":"/pessoas/gezin-verdade-2012-max.png"},{"imagem":"/pessoas/gezin-verdade-2016.png"},{"imagem":"/pessoas/gezin-verdade-2016-max.png"},{"imagem":"/pessoas/gezin-verdade-2020.png"},{"imagem":"/pessoas/gezin-verdade-2020-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2008",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2012",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2016",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2020",
+        "eleito": "s",
+        "cargo": "v"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/gezin-verdade-2008.png"
+      },
+      {
+        "imagem": "/pessoas/gezin-verdade-2008-max.png"
+      },
+      {
+        "imagem": "/pessoas/gezin-verdade-2012.png"
+      },
+      {
+        "imagem": "/pessoas/gezin-verdade-2012-max.png"
+      },
+      {
+        "imagem": "/pessoas/gezin-verdade-2016.png"
+      },
+      {
+        "imagem": "/pessoas/gezin-verdade-2016-max.png"
+      },
+      {
+        "imagem": "/pessoas/gezin-verdade-2020.png"
+      },
+      {
+        "imagem": "/pessoas/gezin-verdade-2020-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "junior-da-farmacia",
-      "nomeCompleto": "JOÃO PEDRO ELEUTERIO DO COUTO JUNIOR",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/junior-da-farmacia-2020-max.png",
-      "profissao": "",
-      "nascimento": "30/06/1983",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "junior da farmacia",
-      "candidaturas": [
+  {
+    "nome": "junior-da-farmacia",
+    "nomeCompleto": "JOÃO PEDRO ELEUTERIO DO COUTO JUNIOR",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/junior-da-farmacia-2020-max.png",
+    "profissao": "",
+    "nascimento": "30/06/1983",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "junior da farmacia",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2020",
-          "eleito": "s",
-          "cargo": "vp"
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/junior-da-farmacia-2020.png"},{"imagem":"/pessoas/junior-da-farmacia-2020-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2020",
+        "eleito": "s",
+        "cargo": "vp"
+      },
+      {
+        "ano": "2024",
+        "eleito": "s",
+        "cargo": "vp"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/junior-da-farmacia-2020.png"
+      },
+      {
+        "imagem": "/pessoas/junior-da-farmacia-2020-max.png"
+      },
+      {
+        "imagem": "https://eleicoes2024candidatosapi.otempo.com.br/api/photo/2024/FMG130002098098_div.jpg"
+      },
+      {
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6jqtxc6kLq10OZf4yn6832_yNUYHgOAmjbT3mLgvnGXUxl82Ns4lFCj3_I-tplOpOVr8&usqp=CAU"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "laudir",
-      "nomeCompleto": "LAUDIR LEITE MUNIZ",
-      "sexo": "f",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/laudir-2020-max.png",
-      "profissao": "",
-      "nascimento": "18/03/1989",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "laudir",
-      "candidaturas": [
+  {
+    "nome": "laudir",
+    "nomeCompleto": "LAUDIR LEITE MUNIZ",
+    "sexo": "f",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/laudir-2020-max.png",
+    "profissao": "",
+    "nascimento": "18/03/1989",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "laudir",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2020",
-          "eleito": "n",
-          "cargo": "vp"
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/laudir-2020.png"},{"imagem":"/pessoas/laudir-2020-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2020",
+        "eleito": "n",
+        "cargo": "vp"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/laudir-2020.png"
+      },
+      {
+        "imagem": "/pessoas/laudir-2020-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "marcos-emater",
-      "nomeCompleto": "MARCOS VICENTE RAMOS ROCHA",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "cdj",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/marcos-emater-2020-max.png",
-      "profissao": "",
-      "nascimento": "17/04/1967",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "marcos emater",
-      "candidaturas": [
+  {
+    "nome": "marcos-emater",
+    "nomeCompleto": "MARCOS VICENTE RAMOS ROCHA",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "cdj",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/marcos-emater-2020-max.png",
+    "profissao": "",
+    "nascimento": "17/04/1967",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "marcos emater",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2020",
-          "eleito": "n",
-          "cargo": "vp"
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/marcos-emater-2020.png"},{"imagem":"/pessoas/marcos-emater-2020-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2020",
+        "eleito": "n",
+        "cargo": "vp"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/marcos-emater-2020.png"
+      },
+      {
+        "imagem": "/pessoas/marcos-emater-2020-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "ro-eleuterio",
-      "nomeCompleto": "JOSÉ ROBERTO ELEUTERIO RABELO",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "moc",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/ro-eleuterio-2020-max.png",
-      "profissao": "",
-      "nascimento": "11/04/1960",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "ro eleuterio",
-      "candidaturas": [
+  {
+    "nome": "ro-eleuterio",
+    "nomeCompleto": "JOSÉ ROBERTO ELEUTERIO RABELO",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "moc",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/ro-eleuterio-2020-max.png",
+    "profissao": "",
+    "nascimento": "11/04/1960",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "ro eleuterio",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2020",
-          "eleito": "n",
-          "cargo": "p"
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/ro-eleuterio-2020.png"},{"imagem":"/pessoas/ro-eleuterio-2020-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2020",
+        "eleito": "n",
+        "cargo": "p"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/ro-eleuterio-2020.png"
+      },
+      {
+        "imagem": "/pessoas/ro-eleuterio-2020-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "rafael-muniz",
-      "nomeCompleto": "RAFAEL LEITE MUNIZ",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "brt",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/rafael-muniz-2020-max.png",
-      "profissao": "",
-      "nascimento": "18/08/1991",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "rafael muniz",
-      "candidaturas": [
+  {
+    "nome": "rafael-muniz",
+    "nomeCompleto": "RAFAEL LEITE MUNIZ",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "brt",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/rafael-muniz-2020-max.png",
+    "profissao": "",
+    "nascimento": "18/08/1991",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "rafael muniz",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2020",
-          "eleito": "n",
-          "cargo": "p"
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/rafael-muniz-2020.png"},{"imagem":"/pessoas/rafael-muniz-2020-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2020",
+        "eleito": "n",
+        "cargo": "p"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/rafael-muniz-2020.png"
+      },
+      {
+        "imagem": "/pessoas/rafael-muniz-2020-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "aldair-playboy",
-      "nomeCompleto": "ALDAIR JOSE SILVA NUNES",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/adair-playboy-2020-max.png",
-      "profissao": "",
-      "nascimento": "18/06/1995",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "aldair playboy",
-      "candidaturas": [
+  {
+    "nome": "aldair-playboy",
+    "nomeCompleto": "ALDAIR JOSE SILVA NUNES",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/adair-playboy-2020-max.png",
+    "profissao": "",
+    "nascimento": "18/06/1995",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "aldair playboy",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2020",
-          "eleito": "n",
-          "cargo": "v"
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/adair-playboy-2020.png"},{"imagem":"/pessoas/adair-playboy-2020-max.png"},{"imagem":"/pessoas/adair-playboy-2020-c.png"},{"imagem":"/pessoas/adair-playboy-2020-max-c-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2020",
+        "eleito": "n",
+        "cargo": "v"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/adair-playboy-2020.png"
+      },
+      {
+        "imagem": "/pessoas/adair-playboy-2020-max.png"
+      },
+      {
+        "imagem": "/pessoas/adair-playboy-2020-c.png"
+      },
+      {
+        "imagem": "/pessoas/adair-playboy-2020-max-c-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "raul-reis",
-      "nomeCompleto": "JOSÉ RAUL REIS",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/raul-reis-2004-max.png",
-      "profissao": "",
-      "nascimento": "28/02/1973",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "raul reis",
-      "candidaturas": [
+  {
+    "nome": "raul-reis",
+    "nomeCompleto": "JOSÉ RAUL REIS",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/raul-reis-2004-max.png",
+    "profissao": "",
+    "nascimento": "28/02/1973",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "raul reis",
+    "candidaturas": [
       {
-          "ano": "2000",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "2004",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "2008",
-          "eleito": "n",
-          "cargo": "vp"
-        },
-        {
-          "ano": "2012",
-          "eleito": "s",
-          "cargo": "vp"
-        },
-        {
-          "ano": "2016",
-          "eleito": "s",
-          "cargo": "p"
-        },
-        {
-          "ano": "2020",
-          "eleito": "n",
-          "cargo": "p"
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/raul-reis-2000.png"},{"imagem":"/pessoas/raul-reis-2000-max.png"},{"imagem":"/pessoas/raul-reis-2004.png"},{"imagem":"/pessoas/raul-reis-2004-max.png"},{"imagem":"/pessoas/raul-reis-2008.png"},{"imagem":"/pessoas/raul-reis-2008-max.png"},{"imagem":"/pessoas/raul-reis-2012.png"},{"imagem":"/pessoas/raul-reis-2012-max.png"},{"imagem":"/pessoas/raul-reis-2016.png"},{"imagem":"/pessoas/raul-reis-2016-max.png"},{"imagem":"/pessoas/raul-reis-2020.png"},{"imagem":"/pessoas/raul-reis-2020-max.png"}],
-      "imagem": ""
+        "ano": "2000",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2004",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2008",
+        "eleito": "n",
+        "cargo": "vp"
+      },
+      {
+        "ano": "2012",
+        "eleito": "s",
+        "cargo": "vp"
+      },
+      {
+        "ano": "2016",
+        "eleito": "s",
+        "cargo": "p"
+      },
+      {
+        "ano": "2020",
+        "eleito": "n",
+        "cargo": "p"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/raul-reis-2000.png"
+      },
+      {
+        "imagem": "/pessoas/raul-reis-2000-max.png"
+      },
+      {
+        "imagem": "/pessoas/raul-reis-2004.png"
+      },
+      {
+        "imagem": "/pessoas/raul-reis-2004-max.png"
+      },
+      {
+        "imagem": "/pessoas/raul-reis-2008.png"
+      },
+      {
+        "imagem": "/pessoas/raul-reis-2008-max.png"
+      },
+      {
+        "imagem": "/pessoas/raul-reis-2012.png"
+      },
+      {
+        "imagem": "/pessoas/raul-reis-2012-max.png"
+      },
+      {
+        "imagem": "/pessoas/raul-reis-2016.png"
+      },
+      {
+        "imagem": "/pessoas/raul-reis-2016-max.png"
+      },
+      {
+        "imagem": "/pessoas/raul-reis-2020.png"
+      },
+      {
+        "imagem": "/pessoas/raul-reis-2020-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "pedrim",
-      "nomeCompleto": "PEDRO FERNANDES GONÇALVES",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/pedrim-2004-max.png",
-      "profissao": "",
-      "nascimento": "01/11/1967",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "pedrim",
-      "candidaturas": [
+  {
+    "nome": "pedrim",
+    "nomeCompleto": "PEDRO FERNANDES GONÇALVES",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/pedrim-2004-max.png",
+    "profissao": "",
+    "nascimento": "01/11/1967",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "pedrim",
+    "candidaturas": [
       {
-          "ano": "2000",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/pedrim-2000.png"},{"imagem":"/pessoas/pedrim-2000-max.png"},{"imagem":"/pessoas/pedrim-2004.png"},{"imagem":"/pessoas/pedrim-2004-max.png"}],
-      "imagem": ""
+        "ano": "2000",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/pedrim-2000.png"
+      },
+      {
+        "imagem": "/pessoas/pedrim-2000-max.png"
+      },
+      {
+        "imagem": "/pessoas/pedrim-2004.png"
+      },
+      {
+        "imagem": "/pessoas/pedrim-2004-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "nora",
-      "nomeCompleto": "MARIA NORACI SOARES DE QUEIROZ",
-      "sexo": "f",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/nora-2004-max.png",
-      "profissao": "",
-      "nascimento": "19/08/1958",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "nora",
-      "candidaturas": [
+  {
+    "nome": "nora",
+    "nomeCompleto": "MARIA NORACI SOARES DE QUEIROZ",
+    "sexo": "f",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/nora-2004-max.png",
+    "profissao": "",
+    "nascimento": "19/08/1958",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "nora",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/nora-2004.png"},{"imagem":"/pessoas/nora-2004-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/nora-2004.png"
+      },
+      {
+        "imagem": "/pessoas/nora-2004-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "maria-jose",
-      "nomeCompleto": "MARIA JOSE RODRIGUES MOTA",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Maria%20Jos%C3%A9/maria-jose-2004-max.png",
-      "profissao": "",
-      "nascimento": "09/02/1954",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "maria jose de Lidim",
-      "candidaturas": [
+  {
+    "nome": "maria-jose",
+    "nomeCompleto": "MARIA JOSE RODRIGUES MOTA",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Maria%20Jos%C3%A9/maria-jose-2004-max.png",
+    "profissao": "",
+    "nascimento": "09/02/1954",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "maria jose de Lidim",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/maria-jose-2004.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Maria%20Jos%C3%A9/maria-jose-2004-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/maria-jose-2004.png"
+      },
+      {
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Maria%20Jos%C3%A9/maria-jose-2004-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "joao-helio",
-      "nomeCompleto": "JOÃO HELIO ALVES DE MEDEIROS",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/joao-helio-2004-max.png",
-      "profissao": "",
-      "nascimento": "19/03/1969",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "joao helio",
-      "candidaturas": [
+  {
+    "nome": "joao-helio",
+    "nomeCompleto": "JOÃO HELIO ALVES DE MEDEIROS",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/joao-helio-2004-max.png",
+    "profissao": "",
+    "nascimento": "19/03/1969",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "joao helio",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "2008",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/joao-helio-2004.png"},{"imagem":"/pessoas/joao-helio-2004-max.png"},{"imagem":"/pessoas/joao-helio-2008.png"},{"imagem":"/pessoas/joao-helio-2008-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2008",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/joao-helio-2004.png"
+      },
+      {
+        "imagem": "/pessoas/joao-helio-2004-max.png"
+      },
+      {
+        "imagem": "/pessoas/joao-helio-2008.png"
+      },
+      {
+        "imagem": "/pessoas/joao-helio-2008-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "joaquim-de-toca",
-      "nomeCompleto": "JOAQUIM DE FÁTIMA REIS",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/joaquim-de-toca-2004-max.png",
-      "profissao": "",
-      "nascimento": "04/02/1957",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "joaquim de toca",
-      "candidaturas": [
+  {
+    "nome": "joaquim-de-toca",
+    "nomeCompleto": "JOAQUIM DE FÁTIMA REIS",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/joaquim-de-toca-2004-max.png",
+    "profissao": "",
+    "nascimento": "04/02/1957",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "joaquim de toca",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/joaquim-de-toca-2004.png"},{"imagem":"/pessoas/joaquim-de-toca-2004-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/joaquim-de-toca-2004.png"
+      },
+      {
+        "imagem": "/pessoas/joaquim-de-toca-2004-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "joaquim-temoso",
-      "nomeCompleto": "JOAQUIM HONÓRIO DE JESUS",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/joaquim-temoso-2004-max.png",
-      "profissao": "",
-      "nascimento": "22/10/1956",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "joaquim temoso",
-      "candidaturas": [
+  {
+    "nome": "joaquim-temoso",
+    "nomeCompleto": "JOAQUIM HONÓRIO DE JESUS",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/joaquim-temoso-2004-max.png",
+    "profissao": "",
+    "nascimento": "22/10/1956",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "joaquim temoso",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/joaquim-temoso-2004.png"},{"imagem":"/pessoas/joaquim-temoso-2004-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/joaquim-temoso-2004.png"
+      },
+      {
+        "imagem": "/pessoas/joaquim-temoso-2004-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "jose-do-carmo",
-      "nomeCompleto": "JOSÉ DO CARMO AMARAL",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/jose-do-carmo-2004-max.png",
-      "profissao": "",
-      "nascimento": "20/05/1969",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "jose do carmo",
-      "candidaturas": [
+  {
+    "nome": "jose-do-carmo",
+    "nomeCompleto": "JOSÉ DO CARMO AMARAL",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/jose-do-carmo-2004-max.png",
+    "profissao": "",
+    "nascimento": "20/05/1969",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "jose do carmo",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/jose-do-carmo-2004.png"},{"imagem":"/pessoas/jose-do-carmo-2004-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/jose-do-carmo-2004.png"
+      },
+      {
+        "imagem": "/pessoas/jose-do-carmo-2004-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "juvenal",
-      "nomeCompleto": "JUVENAL JOSÉ CARDOSO",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/juvenal-2004-max.png",
-      "profissao": "",
-      "nascimento": "21/08/1968",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "juvenal",
-      "candidaturas": [
+  {
+    "nome": "juvenal",
+    "nomeCompleto": "JUVENAL JOSÉ CARDOSO",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/juvenal-2004-max.png",
+    "profissao": "",
+    "nascimento": "21/08/1968",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "juvenal",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "2008",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/juvenal-2004.png"},{"imagem":"/pessoas/juvenal-2004-max.png"},{"imagem":"/pessoas/juvenal-2008.png"},{"imagem":"/pessoas/juvenal-2008-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2008",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/juvenal-2004.png"
+      },
+      {
+        "imagem": "/pessoas/juvenal-2004-max.png"
+      },
+      {
+        "imagem": "/pessoas/juvenal-2008.png"
+      },
+      {
+        "imagem": "/pessoas/juvenal-2008-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "liene",
-      "nomeCompleto": "ELIENE ALVES PEREIRA",
-      "sexo": "f",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/liene-2004-max.png",
-      "profissao": "",
-      "nascimento": "11/02/1984",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "liene",
-      "candidaturas": [
+  {
+    "nome": "liene",
+    "nomeCompleto": "ELIENE ALVES PEREIRA",
+    "sexo": "f",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/liene-2004-max.png",
+    "profissao": "",
+    "nascimento": "11/02/1984",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "liene",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/liene-2004.png"},{"imagem":"/pessoas/liene-2004-max.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/liene-2004.png"
+      },
+      {
+        "imagem": "/pessoas/liene-2004-max.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "luiz-carlos",
-      "nomeCompleto": "LUIZ CARLOS DE JESUS",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "/pessoas/luiz-carlos-2004-max.png",
-      "profissao": "",
-      "nascimento": "18/01/1975",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "luiz carlos",
-      "candidaturas": [
+  {
+    "nome": "luiz-carlos",
+    "nomeCompleto": "LUIZ CARLOS DE JESUS",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "/pessoas/luiz-carlos-2004-max.png",
+    "profissao": "",
+    "nascimento": "18/01/1975",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "luiz carlos",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2004",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "2008",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "2012",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "2016",
-          "eleito": "s",
-          "cargo": "v"
-        },
-        {
-          "ano": "2020",
-          "eleito": "s",
-          "cargo": "v"
-        }
-      ],
-      "fotos": [{"imagem":"/pessoas/luiz-carlos-2004.png"},{"imagem":"/pessoas/luiz-carlos-2004-max.png"},{"imagem":"/pessoas/luiz-carlos-2008.png"},{"imagem":"/pessoas/luiz-carlos-2008-max.png"},{"imagem":"/pessoas/luiz-carlos-2012.png"},{"imagem":"/pessoas/luiz-carlos-2012-max.png"},{"imagem":"/pessoas/luiz-carlos-2016.png"},{"imagem":"/pessoas/luiz-carlos-2016-max.png"},{"imagem":"/pessoas/luiz-carlos-2020.png"},{"imagem":"/pessoas/luiz-carlos-2020-max.png"},{"imagem":"/pessoas/luiz-carlos-1.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/luiz-carlos-3-max.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/luiz-carlos-1-max.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/luiz-carlos-3.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/luiz-carlos-2.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/luiz-carlos-10.jpg"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/luiz-carlos-varmi-1.jpg"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2008",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2012",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2016",
+        "eleito": "s",
+        "cargo": "v"
+      },
+      {
+        "ano": "2020",
+        "eleito": "s",
+        "cargo": "v"
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "/pessoas/luiz-carlos-2004.png"
+      },
+      {
+        "imagem": "/pessoas/luiz-carlos-2004-max.png"
+      },
+      {
+        "imagem": "/pessoas/luiz-carlos-2008.png"
+      },
+      {
+        "imagem": "/pessoas/luiz-carlos-2008-max.png"
+      },
+      {
+        "imagem": "/pessoas/luiz-carlos-2012.png"
+      },
+      {
+        "imagem": "/pessoas/luiz-carlos-2012-max.png"
+      },
+      {
+        "imagem": "/pessoas/luiz-carlos-2016.png"
+      },
+      {
+        "imagem": "/pessoas/luiz-carlos-2016-max.png"
+      },
+      {
+        "imagem": "/pessoas/luiz-carlos-2020.png"
+      },
+      {
+        "imagem": "/pessoas/luiz-carlos-2020-max.png"
+      },
+      {
+        "imagem": "/pessoas/luiz-carlos-1.png"
+      },
+      {
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/luiz-carlos-3-max.png"
+      },
+      {
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/luiz-carlos-1-max.png"
+      },
+      {
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/luiz-carlos-3.png"
+      },
+      {
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/luiz-carlos-2.png"
+      },
+      {
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/luiz-carlos-10.jpg"
+      },
+      {
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/luiz-carlos-varmi-1.jpg"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "manel-da-tesoura",
-      "nomeCompleto": "MANOEL DE JESUS SANTOS ALVES",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manel%20da%20Tesoura/manel-da-tesoura-2004-max.png",
-      "profissao": "",
-      "nascimento": "05/08/1953",
-      "falecimento": "26/10/2018",
-      "nomeUrna": "",
-      "apelido": "manel da tesoura",
-      "candidaturas": [
+  {
+    "nome": "manel-da-tesoura",
+    "nomeCompleto": "MANOEL DE JESUS SANTOS ALVES",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manel%20da%20Tesoura/manel-da-tesoura-2004-max.png",
+    "profissao": "",
+    "nascimento": "05/08/1953",
+    "falecimento": "26/10/2018",
+    "nomeUrna": "",
+    "apelido": "manel da tesoura",
+    "candidaturas": [
       {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manel%20da%20Tesoura/manel-da-tesoura-2004-max.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manel%20da%20Tesoura/manel-tesoura.png"}],
-      "imagem": ""
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manel%20da%20Tesoura/manel-da-tesoura-2004-max.png"
+      },
+      {
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manel%20da%20Tesoura/manel-tesoura.png"
+      }
+    ],
+    "imagem": ""
   },
-  {    
-      "nome": "manoel-boca",
-      "nomeCompleto": "MANOEL JOSÉ COELHO",
-      "sexo": "m",
-      "numero": "",
-      "estadoCivil": "",
-      "graduacao": "",
-      "cor": "",
-      "nacionalidade": "b",
-      "cidadeN": "ldp",
-      "estado": "MG",
-      "nota": "",
-      "imagemCapa": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2004-max.png",
-      "profissao": "",
-      "nascimento": "03/06/1974",
-      "falecimento": "",
-      "nomeUrna": "",
-      "apelido": "manoel boca",
-      "candidaturas": [
+  {
+    "nome": "manoel-boca",
+    "nomeCompleto": "MANOEL JOSÉ COELHO",
+    "sexo": "m",
+    "numero": "",
+    "estadoCivil": "",
+    "graduacao": "",
+    "cor": "",
+    "nacionalidade": "b",
+    "cidadeN": "ldp",
+    "estado": "MG",
+    "nota": "",
+    "imagemCapa": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2004-max.png",
+    "profissao": "",
+    "nascimento": "03/06/1974",
+    "falecimento": "",
+    "nomeUrna": "",
+    "apelido": "manoel boca",
+    "candidaturas": [
       {
-          "ano": "2000",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "2004",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "2008",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "2012",
-          "eleito": "n",
-          "cargo": "v"
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        },
-        {
-          "ano": "",
-          "eleito": "",
-          "cargo": ""
-        }
-      ],
-      "fotos": [{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2004.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2004-max.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2008.png  "},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2008-max.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2008.png"},{"imagem":"/pessoas/manoel-boca-2008-max.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2012.png"},{"imagem":"https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2012-max.png"}],
-      "imagem": ""
+        "ano": "2000",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2004",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2008",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "2012",
+        "eleito": "n",
+        "cargo": "v"
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      },
+      {
+        "ano": "",
+        "eleito": "",
+        "cargo": ""
+      }
+    ],
+    "fotos": [
+      {
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2004.png"
+      },
+      {
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2004-max.png"
+      },
+      {
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2008.png  "
+      },
+      {
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2008-max.png"
+      },
+      {
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2008.png"
+      },
+      {
+        "imagem": "/pessoas/manoel-boca-2008-max.png"
+      },
+      {
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2012.png"
+      },
+      {
+        "imagem": "https://rogresph.sirv.com/Sala%20Mineira%20do%20Empreendedor/Manoel%20Boca/manoel-boca-2012-max.png"
+      }
+    ],
+    "imagem": ""
   },
   {
     "nome": "alberto",
