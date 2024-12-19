@@ -15,7 +15,9 @@
     "estado": "MG",
     "apelido": "D. Negrinha"
   },{
-    "id": "<div> <h4>Imagens</h4> <img src='/falecimento/ze-veio.jpeg' alt=''> </div>",
+   
+    "id": "<div> <h4>Imagens</h4> <iframe src='https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F314439428089164%2F&show_text=false&width=267&t=0' width='267' height='476' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowfullscreen='true' allow='autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share' allowFullScreen='true'></iframe> <img src='/falecimento/ze-veio.jpeg' alt=''> </div>",
+    
     "nome": "JOSE DO NASCIMENTO SANTO ALVES",
     "sexo": "m",
     "imagem": "/falecimento/ze-veio.png",
