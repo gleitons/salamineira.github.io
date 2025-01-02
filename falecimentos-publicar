@@ -1,8 +1,23 @@
 [
   {
+    "id": "<div> <h4>Imagens</h4> <img src='/falecimento/dona-na-min.png' alt=''> </div>",
+    "nome": "MARIA DE NATIVIDADE DOS REIS",
+    "sexo": "f",
+    "imagem": "/falecimento/dona-na-1-min.png",
+    "nascimento": "",
+    "falecimento": "01/01/2025",
+    "nota": "",
+    "obito": "infarto",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Lagoa dos Patos",
+    "estado": "MG",
+    "apelido": "Dona Ná"
+  },{
     "id": "<div> <h4>Imagens</h4> <img src='/falecimento/NEGRINHA.jpeg' alt=''> </div>",
     "nome": "DELFINA SOARES DE QUEIROZ",
-    "sexo": "m",
+    "sexo": "f",
     "imagem": "/falecimento/donanegrinha.png",
     "nascimento": "",
     "falecimento": "17/12/2024",

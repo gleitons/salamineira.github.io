@@ -95,7 +95,7 @@ for (let i = 0; i < feriados.length; i++) {
         funcionaAmanha.innerHTML = `<div class="funcionamento cvermelho">
         <div >
             <i class="bi bi-emoji-frown-fill"></i>
-            <p>Amanhã <strong>NÃO</strong> estaremos funcionando - Feriado</p>
+            <p>Amanhã <strong>NÃO</strong> estaremos funcionando - Verifique o horario</p>
         </div>
     </div>`
     }
