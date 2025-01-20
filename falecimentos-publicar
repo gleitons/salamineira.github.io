@@ -1,5 +1,20 @@
 [
   {
+    "id": "<div> <h4>Imagens</h4> <img src='/falecimento/joao-edson-capa.png' alt=''> </div>",
+    "nome": "JOAO EDSON DE OLIVEIRA SANTOS",
+    "sexo": "m",
+    "imagem": "/falecimento/joao-edson.png",
+    "nascimento": "",
+    "falecimento": "13/10/2024",
+    "nota": "",
+    "obito": "infarto",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "Lagoa dos Patos",
+    "estado": "MG",
+    "apelido": "Edson de Alcides"
+  },{
     "id": "<div> <h4>Imagens</h4> <img src='/falecimento/dona-aparecida-araca-capa.png' alt=''> </div>",
     "nome": "Maria Aparecida rosa de Jesus",
     "sexo": "f",
