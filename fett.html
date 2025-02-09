@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        
+    </style>
 </head>
+
 <body>
     <div>
 
@@ -840,17 +845,18 @@ BALUARTE-AGROPECUARIA-LTDA-23535206000200
 COMISSAO-PROVISORIA-MUNICIPAL-DO-PARTIDO-PROGRESSISTA-DE-LAGOA-DOS-PATOS---MG.-24832995000115
 COMISSAO-PROVISORIA-MUNICIPAL-DO-PARTIDO-ECOLOGICO-NACIONAL-DE-LAGOA-DOS-PATOS---MG.-24625866000156
 PARTIDO-TRABALHISTA-NACIONAL-COMISSAO-PROVISORIA-24681440000110`
-const elemento = nome.split('\n')
-var favoLagoa = []
-for(let i = 0; i < elemento.length; i++){
-    const empresa = elemento[i].split(/-/g)
-    const addFav = empresa.at(-1)
-    favoLagoa.push(addFav)
+        const elemento = nome.split('\n')
+        var favoLagoa = []
+        for (let i = 0; i < elemento.length; i++) {
+            const empresa = elemento[i].split(/-/g)
+            const addFav = empresa.at(-1)
+            favoLagoa.push(addFav)
 
-}
-console.log(favoLagoa)
-localStorage.setItem('empf', JSON.stringify(favoLagoa))
+        }
+        console.log(favoLagoa)
+        localStorage.setItem('empf', JSON.stringify(favoLagoa))
 
     </script>
 </body>
+
 </html>
