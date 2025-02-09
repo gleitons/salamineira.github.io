@@ -1,5 +1,12 @@
 [
   {
+    "nome": "JESICA OLIVEIRA PERES",
+    "nomeFolha": "",
+    "matricula": "2306",
+    "cpf": "106.692.616-61",
+    "admissao": "13/01/2025",
+    "cargo": "AUXILIAR DE SERVIÇOS GERAIS"
+  },{
     "nome": "ABRAAO PEREIRA DA SILVA",
     "nomeFolha": "",
     "matricula": "1",
@@ -1171,9 +1178,9 @@
     "nome": "JANAI PEREIRA DE ASSIS",
     "nomeFolha": "",
     "matricula": "313",
-    "cpf": "",
-    "admissao": "",
-    "cargo": "AUXILIAR DE SERVICOS GERAIS - MANUT. ATIV. SEC.MUN.ADMINISTRA«√O (EFETIVOS)"
+    "cpf": "030.365.866-52",
+    "admissao": "01/09/2003",
+    "cargo": "AUXILIAR DE SERVICOS GERAIS"
   },
   {
     "nome": "JANAISA SOARES MUNIZ",
