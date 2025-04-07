@@ -344,7 +344,7 @@ main {
 }
 .agendaLateral {
   position: relative;
-  max-height: 50vh;
+  max-height: 82vh;
   overflow: auto;
   width: 435px;
   border-radius: 10px;
