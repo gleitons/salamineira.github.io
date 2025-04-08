@@ -31,10 +31,7 @@ function dModeT() {
         document.querySelector('.telaApresentacao').style.backgroundColor = 'white'
         localStorage.setItem('dmodeRede', 0)
     }
-    // alert(menuAtual)
-    // document.querySelector('.menusApresentação').style.backgroundColor = '#0e0e0e'
-
-    //#555555
+   
 
 }
 function horario() {
@@ -274,9 +271,10 @@ if (document.querySelector('.classT') != null) {
     }
 }
 
+const tipoBar = localStorage.getItem('pBarT') == 1 ? 'atalhosTelaDesktop' : 'atalhosTelaDesktopHorizonte'
 document.querySelector('head').innerHTML += `<link rel="shortcut icon" href="./src/img/futuro-consultoria-horizonte.svg" type="image/x-icon">`
 
-document.querySelector('footer').innerHTML += `  <div class="atalhosTelaDesktop confiTela">         
+document.querySelector('footer').innerHTML += `  <div id="menuLTop" class="${tipoBar} confiTela">         
 
 <div >
 <abbr title="Home">
@@ -298,6 +296,7 @@ document.querySelector('footer').innerHTML += `  <div class="atalhosTelaDesktop 
     
     </div>
 </abbr>
+
 <abbr title="Favoritos">
     <div >
         <a href="./favoritos.html">
@@ -322,10 +321,10 @@ document.querySelector('footer').innerHTML += `  <div class="atalhosTelaDesktop 
         </a>
     </div>
 </abbr>
-<abbr title="REMOVER COR PISCANDO">
-    <div>
-        <a href="./perfil.html">
-            <img src="./src/img/icons/editar-perfil.png" alt="Novo Atalho">
+<abbr title="Mudar Posição">
+    <div onclick='mudaPosicaoMenu()'>
+        <a href="#">
+            <img src="https://ialkyrog.sirv.com/sala/icones/editar-imovel.png" alt="Novo Atalho">
     
         </a>
     </div>
@@ -333,6 +332,19 @@ document.querySelector('footer').innerHTML += `  <div class="atalhosTelaDesktop 
 
 </div>`
 
+const mudaPosicaoMenu = () => {
+    const menuLTop = document.querySelector('#menuLTop')
+    const ver = menuLTop.classList.contains('atalhosTelaDesktop');
+    if(ver) {
+        menuLTop.classList.add('atalhosTelaDesktopHorizonte')
+        menuLTop.classList.remove('atalhosTelaDesktop')
+        localStorage.setItem('pBarT', 0)
+    } else {
+        menuLTop.classList.remove('atalhosTelaDesktopHorizonte')
+        menuLTop.classList.add('atalhosTelaDesktop')
+        localStorage.setItem('pBarT', 1)
+    }
+}
 
 document.querySelectorAll('a[href="https://gleiton.com.br"]').forEach(link => {
     console.log(link)
