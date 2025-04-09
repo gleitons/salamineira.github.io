@@ -1,0 +1,12 @@
+[
+    {
+        "ano": 2025,
+        "nome": "Lagoa dos Patos",
+        "aptidaoBoa": "7.500,00",
+        "aptdaoRegular": "4.500,00",
+        "aptdaoRestrita": "3.000,00",
+        "pastagemPlantada": "2.500,00",
+        "pastagemNatural": "1.500,00",
+        "reserva": "1.000,00"
+    }
+]

@@ -142,7 +142,7 @@ function esconde() {
 function gerarMenu() {
     var menuTopInfo = document.querySelector('#menuTopInfo')
 
-    for (let i = 2010; i <= 2024; i++) {
+    for (let i = 2010; i <= 2025; i++) {
         menuTopInfo.innerHTML += `<a href="./venal-${i}.html">
         <li>${i}</li>
         </a>`
