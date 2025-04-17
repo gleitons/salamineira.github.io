@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:image" content="/confira-atendimento.png" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <link rel="icon" type="image/png" href="/favicon.ico" />
+    <link rel="preload" as="image" href="/confira-atendimento.png">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcionamento</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #f7f9fc, #e3f2fd);
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        header img {
+            max-width: 300px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .infoAMais {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .funcionamento {
+            padding: 20px;
+            border-radius: 10px;
+            margin: 10px 0;
+            width: 100%;
+            max-width: 600px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .cvermelho {
+            background-color: #ffe5e5;
+            color: #b71c1c;
+        }
+
+        button a {
+            text-decoration: none;
+            color: white;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 15px;
+            border: none;
+            background-color: #d32f2f;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #b71c1c;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            header img {
+                max-width: 100%;
+            }
+        }
+        .botao-sala {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 16px;
+  background-color: #4f46e5;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.botao-sala:hover {
+  background-color: #4338ca;
+}
+.sala-mineira {
+    background: linear-gradient(135deg, #f3f4f6, #e0e7ff);
+    border-radius: 16px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    transition: transform 0.3s ease;
+  }
+
+  .sala-mineira:hover {
+    transform: scale(1.01);
+  }
+
+  .sala-mineira i {
+    font-size: 2.5rem;
+    color: #4f46e5;
+    animation: pulse 2s infinite;
+  }
+
+  .sala-mineira-texto {
+    font-family: 'Segoe UI', sans-serif;
+    color: #1f2937;
+  }
+
+  .sala-mineira-texto h2 {
+    font-size: 1.5rem;
+    margin: 0 0 5px 0;
+  }
+
+  .sala-mineira-texto p {
+    margin: 0;
+    color: #374151;
+    font-size: 1rem;
+  }
+
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .sala-mineira {
+      flex-direction: column;
+      text-align: center;
+    }
+    .sala-mineira i {
+      margin-bottom: 10px;
+    }
+  }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="/logo.png" alt="Imagem de Funcionamento">
+        <h1>Horário de Funcionamento</h1>
+        <div class="infoAMais"></div>
+    </header>
+
+    <div id="funciona"></div>
+    <div id="funcionaAmanha"></div>
+    <div class="sala-mineira">
+        <i class="bi bi-shop-window"></i>
+        <div class="sala-mineira-texto">
+          <h2>Visite a Sala Mineira do Empreendedor</h2>
+          <p>Notícias, novidades, atendimentos, orientações e muito mais para você empreender com sucesso!</p>
+        </div>
+      </div>
+
+    <script>
+        const data = new Date();
+        var diaD = data.getDay();
+        const dia = data.getDate();
+        const mes = data.getMonth() + 1;
+        const ano = data.getFullYear();
+        var hora = data.getHours();
+
+        var feriados = ["20/1/2023", "20/2/2023", "21/2/2023", "22/2/2023", "1/3/2023", "28/3/2024", "29/3/2024", "6/4/2023", "7/4/2023", "21/4/2023", "1/5/2023", "8/6/2023", "9/6/2023", "3/7/2023", "7/9/2023", "8/9/2023", "18/9/2023", "12/10/2023", "13/10/2023", "2/11/2023", "3/11/2023", "15/11/2023", "11/12/2023", "12/12/2023", "13/12/2023", "25/12/2023", "26/12/2023", "27/12/2023", "28/12/2023", "29/12/2023", "30/12/2023", "31/12/2023", "1/1/2024", "12/2/2024", "13/2/2024", "14/2/2024", "10/5/2024", "13/5/2024", "30/5/2024", "31/5/2024", "6/8/2024", "28/10/2024", "29/8/2024", "7/10/2024", "15/11/2024", "20/11/2024", "29/11/2024", "11/12/2024", "20/12/2024", "24/12/2024", "25/12/2024", "26/12/2024", "27/12/2024", "31/12/2024", "1/1/2025", "2/1/2025", "3/1/2025", "20/1/2025", "3/3/2025", "4/3/2025", "5/3/2025", "18/3/2025", "19/3/2025", "20/3/2025", "17/4/2025", "18/4/2025", "21/4/2025"];
+
+        const anoCompara = `${dia}/${mes}/${ano}`;
+
+        const funciona = document.querySelector('#funciona');
+        const infoAMais = document.querySelector('.infoAMais');
+
+        if (hora < 8) {
+            infoAMais.textContent = 'Abrimos a partir das 08:00hs';
+        } else if (hora > 16) {
+            infoAMais.textContent = 'Encerramos às 16:00hs';
+        } else {
+            infoAMais.textContent = 'Estamos em funcionamento';
+        }
+
+        for (let index = 0; index < feriados.length; index++) {
+            if (diaD == 6 || diaD == 0) {
+                funciona.innerHTML = `
+        <div class="funcionamento cvermelho">
+          <i class="bi bi-emoji-frown-fill" style="font-size: 2rem;"></i>
+          <p>Hoje <strong>${anoCompara} NÃO</strong> estamos em funcionamento</p>
+        </div>`;
+            }
+
+            if (anoCompara == feriados[index]) {
+                funciona.innerHTML = `
+        <div class="funcionamento cvermelho">
+          <i class="bi bi-emoji-frown-fill" style="font-size: 2rem;"></i>
+          <p>Hoje <strong>${anoCompara} NÃO</strong> estamos em funcionamento</p>
+          <button><a href="/">Inicio</a></button>
+        </div>`;
+            }
+        }
+
+        const funcionaAmanha = document.querySelector('#funcionaAmanha');
+        const diaA = data.getDay() + 1;
+        const diaB = data.getDate() + 1;
+
+        if (mes == 2 && (diaB == 29 || diaB == 30 || diaB == 31)) {
+            funcionaAmanha.innerHTML = `
+      <div class="funcionamento cvermelho">
+        <i class="bi bi-emoji-frown-fill" style="font-size: 2rem;"></i>
+        <p>Amanhã <strong>NÃO</strong> estaremos funcionando</p>
+      </div>`;
+        }
+
+        const diaSeguinte = `${diaB}/${mes}/${ano}`;
+
+        for (let i = 0; i < feriados.length; i++) {
+            if (diaA == 6 || diaA == 0 || diaA == 7) {
+                funcionaAmanha.innerHTML = `
+        <div class="funcionamento cvermelho">
+          <i class="bi bi-emoji-frown-fill" style="font-size: 2rem;"></i>
+          <p>Amanhã <strong>NÃO</strong> iremos funcionar - Bom descanso</p>
+        </div>`;
+            }
+            if (diaSeguinte == feriados[i]) {
+                funcionaAmanha.innerHTML = `
+        <div class="funcionamento cvermelho">
+          <i class="bi bi-emoji-frown-fill" style="font-size: 2rem;"></i>
+          <p>Amanhã <strong>NÃO</strong> estaremos funcionando - Verifique o horário</p>
+        </div>`;
+            }
+        }
+    </script>
+</body>
+
+</html>
