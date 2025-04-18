@@ -118,8 +118,8 @@
 
   <div id="foto">
     <!-- Exemplo inicial -->
-    <div onclick="abrirModal('https://lh3.googleusercontent.com/pw/AP1GczMu-M6BZyJ5mp8bBGz51wxpnQjUlOom-bwlAPYMuktgUIiyUxD5yvOA9g8KPBn8mojSQmZRMK2hjiCZMoowlfWW6Ujbrnrx6K6Icva5MLWDqnj2WytKsdnEk2rGKRTqWgwStAsz4qXtbmiGlXr-akJ8Lg=w422-h633-s-no-gm')">
-      <img src="https://lh3.googleusercontent.com/pw/AP1GczMu-M6BZyJ5mp8bBGz51wxpnQjUlOom-bwlAPYMuktgUIiyUxD5yvOA9g8KPBn8mojSQmZRMK2hjiCZMoowlfWW6Ujbrnrx6K6Icva5MLWDqnj2WytKsdnEk2rGKRTqWgwStAsz4qXtbmiGlXr-akJ8Lg=w422-h633-s-no-gm"
+    <div onclick="abrirModal('https://iili.io/316ru0N.jpg')">
+      <img src="https://iili.io/316ru0N.jpg"
         alt="Foto da semi-final" />
       <p>Momento de emoção em campo</p>
     </div>
@@ -142,10 +142,10 @@
         data.forEach(foto => {
           const bloco = document.createElement('div');
           bloco.innerHTML = `
-              <img src="${foto.link}" alt="${foto.titulo}" />
-              <p>${foto.titulo}</p>
+              <img src="${foto}" alt="${foto}" />
+              <p>${foto}</p>
           `;
-          bloco.onclick = () => abrirModal(foto.link);
+          bloco.onclick = () => abrirModal(foto);
           idFoto.appendChild(bloco);
         });
       } catch (error) {
