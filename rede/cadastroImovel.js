@@ -1271,6 +1271,7 @@ async function carregaPostIt() {
     if (localStorage.getItem('postIt') != null) {
         var data = JSON.parse(localStorage.getItem('postIt'))
     } else {
+        var data = []
         location.reload()
     }
 
@@ -1285,10 +1286,28 @@ async function carregaPostIt() {
     const diahoje = `${dataH.getFullYear()}-${mes}-${dia}`
 
 
-    //const dataHoje = 
+    const imagensFundoPostIt =  ["./src/img/lembrete.webp","./src/img/lembrete-2.webp","./src/img/lembrete-3.png","./src/img/lembrete-4.png","./src/img/lembrete-5.webp","./src/img/lembrete-6.jpg","./src/img/lembrete-7.webp","./src/img/lembrete-8.png","./src/img/lembrete-9.png"]
+
+    const imgFP = localStorage.getItem('fundoPostItImg') || "./src/img/lembrete.webp"
+    let imgPostI = imgFP
+    const classtipoPostIt = document.querySelectorAll('.tipoPostIt div')
+    if(classtipoPostIt.length > 0) {
+       
+        for(let i = 0; i < classtipoPostIt.length ; i++){
+           
+            classtipoPostIt[i].addEventListener('click', () => {
+                
+                imgPostI = localStorage.setItem('fundoPostItImg',imagensFundoPostIt[i]) 
+                location.reload();
+            })
+
+            
+        }
+    }
+    
     await data.map((e, index) => {
         const addClasse = diahoje == e.data ? 'piscandoHoje' : ''
-        agendaLateral.innerHTML += `<div class="${addClasse}" onclick="openLembrete(${index})">
+        agendaLateral.innerHTML += `<div class="${addClasse}" style="background-image: url(${imgPostI})" onclick="openLembrete(${index})">
         <h6>${e.data.split('-').reverse().join('-')}</h6>
         <h2>${e.titulo}</h2>
         <p>${e.textoL}</p>
@@ -1297,6 +1316,7 @@ async function carregaPostIt() {
     agendaLateral.innerHTML += `<i class="bi bi-arrow-right-square-fill btnOcultarLembrete"></i>`
     fechaMenuLembre()
 }
+
 
 function deletaEmpresasFavoritasAMais(e) {
     const data = JSON.parse(localStorage.getItem('empresasFavoritasPage'))

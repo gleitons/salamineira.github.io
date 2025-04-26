@@ -342,9 +342,26 @@ main {
   overflow: unset;
   z-index: 2;
 }
+.visaolateralright {
+  position: relative;
+  min-height: 82vh;
+  width: 445px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.25);
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 10px;
+  
+}
 .agendaLateral {
   position: relative;
-  max-height: 82vh;
+  min-height: 82vh;
   overflow: auto;
   width: 435px;
   border-radius: 10px;
@@ -364,33 +381,13 @@ main {
   width: 165px;
   height: 150px;
   margin: 2px;
-  /* --s: 82px;
-  --c1: #b2b2b2;
-  --c2: #ffffff;
-  --c3: #d9d9d9;
-  
-  --_g: var(--c3) 0 120deg,#0000 0;
-  background:
-    conic-gradient(from -60deg at 50% calc(100%/3),var(--_g)),
-    conic-gradient(from 120deg at 50% calc(200%/3),var(--_g)),
-    conic-gradient(from  60deg at calc(200%/3),var(--c3) 60deg,var(--c2) 0 120deg,#0000 0),
-    conic-gradient(from 180deg at calc(100%/3),var(--c1) 60deg,var(--_g)),
-    linear-gradient(90deg,var(--c1)   calc(100%/6),var(--c2) 0 50%,
-                          var(--c1) 0 calc(500%/6),var(--c2) 0);
-  background-size: calc(1.732*var(--s)) var(--s); */
-
   border-radius: 8px;
-  background-image: url("./src/img/lembrete.webp");
+  /* background-image: url("./src/img/lembrete-5.webp"); */
   background-size: 110% 100%;
-
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
   position: relative;
-  /* padding: 5px; */
-  /* -webkit-box-shadow: 3px 4px 17px -1px rgba(163, 163, 163, 1);
-  -moz-box-shadow: 3px 4px 17px -1px rgba(163, 163, 163, 1);
-  box-shadow: 3px 4px 17px -1px rgba(163, 163, 163, 1); */
 }
 .agendaLateral div:hover {
   filter: brightness(1.1);
@@ -399,6 +396,34 @@ main {
   cursor: auto;
   background-color: #252d36;
 }
+.tipoPostIt {
+  display: flex;
+  gap: 10px;
+  height: 30px;
+  margin-top: 10px;
+  /* position: relative; */
+  
+}
+.tipoPostIt div {
+  width: 30px;
+  height: 30px;
+  z-index: 999999;
+}
+.tipoPostIt div img {
+  width: 100%;
+  height: 30px;
+  
+}
+.tipoPostIt div img:hover {
+  transform: scale(2.5);
+  z-index: 9999999;
+}
+
+
+
+
+
+
 .agendaLateral .divControleLembrete button {
   padding: 10px;
   background-color: #405cf5;
