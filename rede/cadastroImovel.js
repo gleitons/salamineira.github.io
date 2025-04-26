@@ -925,12 +925,14 @@ async function geraAtalhosIniciais() {
     localStorage.setItem('atalhosContratos', JSON.stringify(data))
 }
 if (localStorage.getItem('atalhosContratos') == '') {
+    localStorage.setItem('atalhosContratos', [])
     geraAtalhosIniciais()
     
-} else {
-    const it = [{'id':0,'imagem':'https://ialkyrog.sirv.com/sala/icones/edificio-do-governo.png','texto':'CND FEDERAL','link':'https://solucoes.receita.fazenda.gov.br/servicos/certidaointernet/pj/emitir'},{'id':1,'imagem':'https://ialkyrog.sirv.com/sala/icones/licenciamento%20(1).png','texto':'CCMEI','link':'https://www.gov.br/pt-br/servicos/emitir-o-certificado-de-condicao-de-microempreendedor-individual'},{'id':2,'imagem':'./src/img/icons/botao-atualizar.png','texto':'ATUALIZAR MEI','link':'https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/atualizacao-cadastral-de-mei'},{'id':3,'imagem':'./src/img/icons/conta.png','texto':'BOLETO DAS','link':'https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao'},{'id':4,'imagem':'https://ialkyrog.sirv.com/sala/icones/guia-financeiro.png','texto':'PARCELAMENTO','link':'https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=19'},{'id':5,'imagem':'./src/img/icons/impostos.png','texto':'DIVIDA ATIVA','link':'https://www.regularize.pgfn.gov.br/login'},{'id':6,'imagem':'https://ialkyrog.sirv.com/sala/icones/cadastrar-empresa.png','texto':'PERGUNTAS FREQUENTES','link':'https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/perguntas-frequentes'},{'id':7,'imagem':'https://ialkyrog.sirv.com/sala/icones/maos.png','texto':'DECLARAÇÃO','link':'https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/Identificacao'},{'id':8,'imagem':'./src/img/icons/editar-empresa.png','texto':'NOTA FISCAL','link':'https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/nota-fiscal'},{'id':9,'imagem':'https://ialkyrog.sirv.com/sala/icones/agente-de-atendimento-ao-cliente.png','texto':'SAS SEBRAE','link':'https://sas.sebrae.com.br/'},{'id':10,'imagem':'https://ialkyrog.sirv.com/sala/icones/certidao-debitos-trabalhistas.png','texto':'DAS MEI','link':'https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao'},{'id':11,'imagem':'https://ialkyrog.sirv.com/sala/icones/aumentar.png','texto':'MEI PARA ME','link':'https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/quero-crescer-desenquadramento'},{'id':12,'imagem':'https://ialkyrog.sirv.com/sala/icones/aumentar.png','texto':'PORTAL EMPREENDEDOR','link':'https://www.gov.br/empresas-e-negocios/pt-br/empreendedor'},{'id':14,'imagem':'https://ialkyrog.sirv.com/sala/icones/relatorio%20(1).png','texto':'DATA SEBRAE','link':'https://datasebrae.com.br/explore'}]
-    localStorage.setItem('atalhosContratos', JSON.stringify(it))
 }
+//  else {
+//     const it = [{'id':0,'imagem':'https://ialkyrog.sirv.com/sala/icones/edificio-do-governo.png','texto':'CND FEDERAL','link':'https://solucoes.receita.fazenda.gov.br/servicos/certidaointernet/pj/emitir'},{'id':1,'imagem':'https://ialkyrog.sirv.com/sala/icones/licenciamento%20(1).png','texto':'CCMEI','link':'https://www.gov.br/pt-br/servicos/emitir-o-certificado-de-condicao-de-microempreendedor-individual'},{'id':2,'imagem':'./src/img/icons/botao-atualizar.png','texto':'ATUALIZAR MEI','link':'https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/atualizacao-cadastral-de-mei'},{'id':3,'imagem':'./src/img/icons/conta.png','texto':'BOLETO DAS','link':'https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao'},{'id':4,'imagem':'https://ialkyrog.sirv.com/sala/icones/guia-financeiro.png','texto':'PARCELAMENTO','link':'https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=19'},{'id':5,'imagem':'./src/img/icons/impostos.png','texto':'DIVIDA ATIVA','link':'https://www.regularize.pgfn.gov.br/login'},{'id':6,'imagem':'https://ialkyrog.sirv.com/sala/icones/cadastrar-empresa.png','texto':'PERGUNTAS FREQUENTES','link':'https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/perguntas-frequentes'},{'id':7,'imagem':'https://ialkyrog.sirv.com/sala/icones/maos.png','texto':'DECLARAÇÃO','link':'https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/Identificacao'},{'id':8,'imagem':'./src/img/icons/editar-empresa.png','texto':'NOTA FISCAL','link':'https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/nota-fiscal'},{'id':9,'imagem':'https://ialkyrog.sirv.com/sala/icones/agente-de-atendimento-ao-cliente.png','texto':'SAS SEBRAE','link':'https://sas.sebrae.com.br/'},{'id':10,'imagem':'https://ialkyrog.sirv.com/sala/icones/certidao-debitos-trabalhistas.png','texto':'DAS MEI','link':'https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao'},{'id':11,'imagem':'https://ialkyrog.sirv.com/sala/icones/aumentar.png','texto':'MEI PARA ME','link':'https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/quero-crescer-desenquadramento'},{'id':12,'imagem':'https://ialkyrog.sirv.com/sala/icones/aumentar.png','texto':'PORTAL EMPREENDEDOR','link':'https://www.gov.br/empresas-e-negocios/pt-br/empreendedor'},{'id':14,'imagem':'https://ialkyrog.sirv.com/sala/icones/relatorio%20(1).png','texto':'DATA SEBRAE','link':'https://datasebrae.com.br/explore'}]
+//     localStorage.setItem('atalhosContratos', JSON.stringify(it))
+// }
 
 if (localStorage.getItem('todosAtalhos') == null) {
     carregaLocalStorageAtalhos()
@@ -990,38 +992,68 @@ function verAtalhosParaFechar() {
         })
     }
 }
-function salvaAtalhosNoDesktop() {
-    var atalhos = []
-    const itensDosAtalhos = document.querySelectorAll('.mostraAtalhosClose i')
-    const itensDAtalho = document.querySelectorAll('.mostraAtalhosClose')
-    //const response = await fetch('./atalhos')
-    const data = JSON.parse(localStorage.getItem('todosAtalhos'))
-
-    for (let i = 0; i < itensDAtalho.length; i++) {
-        const numbItenm = itensDAtalho[i].textContent.replace(/[^0-9]/g, '')
-        const infoAtalho = {
-            "id": i,
-            "imagem": data[numbItenm].imagem,
-            "texto": data[numbItenm].texto,
-            "link": data[numbItenm].link
-        }
-        atalhos.push(infoAtalho)
-    }
-    localStorage.setItem('atalhosContratos', JSON.stringify(atalhos))
-    adicionaNoDesktop()
-}
-function adicionaNoDesktop() {
-    const data = JSON.parse(localStorage.getItem('atalhosContratos'))
+const atualizaInicioHome = async (array) => {
+    
     const mostraA = document.querySelector('#iconsAtalhos')
 
-    mostraA.innerHTML = ''
-    data.map((e) => {
-        mostraA.innerHTML += `<div onclick="linkOn('${e.link}')">
-        <img src="${e.imagem}" alt="${e.texto}">
-        <p>${e.texto}</p>
-    </div>`
-    })
+    if (mostraA != undefined) {
+        mostraA.innerHTML = ''
+        await array.map((e) => {
+            mostraA.innerHTML += `<div onclick="linkOn('${e.link}')">
+            <img src="${e.imagem}" alt="${e.texto}">
+            <p>${e.texto}</p>
+        </div>`
+        })
+    } else {
+        mostraA.innerHTML += `<p >Adicione atalhos no inicio:  Clique em Configurações</p>`
+    }
+
+    
+    console.log(array)
 }
+
+function salvaAtalhosNoDesktop() {
+    const atalhos = [];
+    const itensDAtalho = document.querySelectorAll('.mostraAtalhosClose');
+    const data = JSON.parse(localStorage.getItem('todosAtalhos')) || [];
+
+    if (!Array.isArray(data)) {
+        console.error('O formato de todosAtalhos no localStorage não é um array.');
+        return;
+    }
+
+    itensDAtalho.forEach((item, index) => {
+        const numbItem = item.textContent.replace(/[^0-9]/g, '').trim();
+        
+        if (numbItem === '' || isNaN(numbItem)) {
+            console.warn(`Item ${index} inválido: não encontrou número.`);
+            return; // pula este item
+        }
+
+        const atalhoData = data[numbItem];
+
+        if (!atalhoData) {
+            console.warn(`Não encontrado atalho com índice ${numbItem}`);
+            return; // pula se não encontrar
+        }
+
+        const infoAtalho = {
+            id: index,
+            imagem: atalhoData.imagem ? atalhoData.imagem : "/rede/src/img/futuro-consultoria-horizonte.svg",
+            texto: atalhoData.texto || "Sem texto",
+            link: atalhoData.link || "#"
+        };
+        
+        atalhos.push(infoAtalho);
+    });
+
+   
+
+    localStorage.setItem('atalhosContratos', JSON.stringify(atalhos));
+   
+    atualizaInicioHome(atalhos)
+}
+
 
 async function carregaAtalhosDoLocalStorage() {
     const data = JSON.parse(localStorage.getItem('atalhosContratos'))
