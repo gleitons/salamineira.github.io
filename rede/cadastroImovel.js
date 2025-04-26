@@ -839,7 +839,7 @@ function avisoS(aviso) {
     <button onclick="fechaAviso()">Fechar</button>
     </div>`
     document.querySelector('body').appendChild(divP)
-   
+
 }
 function paraApagar(props) {
     const msn = `<div class="desejaExcluir">
@@ -917,15 +917,19 @@ function dModec() {
 if (document.querySelector('select#todosAtalhos') != null) {
     carregaAtalhos()
 }
-if (localStorage.getItem('atalhosContratos') == null) {
-    geraAtalhosIniciais()
-    // localStorage.setItem('atalhosContratos', '[{"id":0,"imagem":"./src/img/icons/itbi-urbano.png","texto":"ITBI Urbano","link":"itbi-urbano"},{"id":1,"imagem":"./src/img/icons/itbi-rural.png","texto":"ITBI Rural","link":"itbi-rural"}]')
-}
+
 async function geraAtalhosIniciais() {
     const response = await fetch('./atalhos')
     const data = await response.json()
     console.log(data)
     localStorage.setItem('atalhosContratos', JSON.stringify(data))
+}
+if (localStorage.getItem('atalhosContratos') == '') {
+    geraAtalhosIniciais()
+    
+} else {
+    const it = [{'id':0,'imagem':'https://ialkyrog.sirv.com/sala/icones/edificio-do-governo.png','texto':'CND FEDERAL','link':'https://solucoes.receita.fazenda.gov.br/servicos/certidaointernet/pj/emitir'},{'id':1,'imagem':'https://ialkyrog.sirv.com/sala/icones/licenciamento%20(1).png','texto':'CCMEI','link':'https://www.gov.br/pt-br/servicos/emitir-o-certificado-de-condicao-de-microempreendedor-individual'},{'id':2,'imagem':'./src/img/icons/botao-atualizar.png','texto':'ATUALIZAR MEI','link':'https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/atualizacao-cadastral-de-mei'},{'id':3,'imagem':'./src/img/icons/conta.png','texto':'BOLETO DAS','link':'https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao'},{'id':4,'imagem':'https://ialkyrog.sirv.com/sala/icones/guia-financeiro.png','texto':'PARCELAMENTO','link':'https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=19'},{'id':5,'imagem':'./src/img/icons/impostos.png','texto':'DIVIDA ATIVA','link':'https://www.regularize.pgfn.gov.br/login'},{'id':6,'imagem':'https://ialkyrog.sirv.com/sala/icones/cadastrar-empresa.png','texto':'PERGUNTAS FREQUENTES','link':'https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/perguntas-frequentes'},{'id':7,'imagem':'https://ialkyrog.sirv.com/sala/icones/maos.png','texto':'DECLARAÇÃO','link':'https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/Identificacao'},{'id':8,'imagem':'./src/img/icons/editar-empresa.png','texto':'NOTA FISCAL','link':'https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/nota-fiscal'},{'id':9,'imagem':'https://ialkyrog.sirv.com/sala/icones/agente-de-atendimento-ao-cliente.png','texto':'SAS SEBRAE','link':'https://sas.sebrae.com.br/'},{'id':10,'imagem':'https://ialkyrog.sirv.com/sala/icones/certidao-debitos-trabalhistas.png','texto':'DAS MEI','link':'https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao'},{'id':11,'imagem':'https://ialkyrog.sirv.com/sala/icones/aumentar.png','texto':'MEI PARA ME','link':'https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/quero-crescer-desenquadramento'},{'id':12,'imagem':'https://ialkyrog.sirv.com/sala/icones/aumentar.png','texto':'PORTAL EMPREENDEDOR','link':'https://www.gov.br/empresas-e-negocios/pt-br/empreendedor'},{'id':14,'imagem':'https://ialkyrog.sirv.com/sala/icones/relatorio%20(1).png','texto':'DATA SEBRAE','link':'https://datasebrae.com.br/explore'}]
+    localStorage.setItem('atalhosContratos', JSON.stringify(it))
 }
 
 if (localStorage.getItem('todosAtalhos') == null) {
@@ -1018,9 +1022,7 @@ function adicionaNoDesktop() {
     </div>`
     })
 }
-if (document.querySelector('#iconsAtalhos') != null) {
-    carregaAtalhosDoLocalStorage()
-}
+
 async function carregaAtalhosDoLocalStorage() {
     const data = JSON.parse(localStorage.getItem('atalhosContratos'))
     const mostraA = document.querySelector('#iconsAtalhos')
@@ -1037,6 +1039,9 @@ async function carregaAtalhosDoLocalStorage() {
         mostraA.innerHTML += `<p >Adicione atalhos no inicio:  Clique em Configurações</p>`
     }
 
+}
+if (document.querySelector('#iconsAtalhos') != null) {
+    carregaAtalhosDoLocalStorage()
 }
 
 if (document.querySelectorAll('.fieldCadastroImóvel .copiarDados') != null) {
@@ -1171,13 +1176,14 @@ function pesquisaCNPJ() {
 
 
 if (localStorage.getItem('atalhosContratos') == null) {
-   
+
     const divCc = document.createElement('div')
     divCc.classList.add('carregoLo')
     divCc.innerHTML = `<img src="./src/imagens/loInicial.svg" alt="">
     <p>CARREGAMENTO INICIAL. AGUARDE ...</p>`
     document.body.appendChild(divCc)
-   location.reload()
+    localStorage.setItem('atalhosContratos', [])
+    location.reload()
 }
 function tirBorder() {
     document.querySelector('#cnpjGerado').style.border = 'green solid 1px'
@@ -1230,16 +1236,16 @@ function favoritoPessoaJuridica(entrada) {
         botaos[3].disabled = true
         botaos[3].style.backgroundColor = 'gray'
         const mostrInfoCNP = document.querySelectorAll('.cnpjEstaCadastrado')
-        for(let i = 0; i < mostrInfoCNP.length; i++){
+        for (let i = 0; i < mostrInfoCNP.length; i++) {
             mostrInfoCNP[i].innerHTML = `FAVORITADO COM SUCESSO! <a href="./favoritos.html"><button style="background-color: green;" >FAVORITOS</button></a>`
         }
-        
+
     } else {
         const mostrInfoCNPj = document.querySelectorAll('.cnpjEstaCadastrado')
-        for(let i = 0; i < mostrInfoCNPj.length; i++){
+        for (let i = 0; i < mostrInfoCNPj.length; i++) {
             mostrInfoCNPj[i].innerHTML = `CNPJ JÁ SALVO NO SISTEMA! <a href="./favoritos.html"><button style="background-color: green;" >FAVORITOS</button></a>`
         }
-        
+
     }
 
 
@@ -1272,7 +1278,9 @@ async function carregaPostIt() {
         var data = JSON.parse(localStorage.getItem('postIt'))
     } else {
         var data = []
-        location.reload()
+        carregaPostIt()
+        fechaAviso()
+        // location.reload()
     }
 
 
@@ -1286,34 +1294,44 @@ async function carregaPostIt() {
     const diahoje = `${dataH.getFullYear()}-${mes}-${dia}`
 
 
-    const imagensFundoPostIt =  ["./src/img/lembrete.webp","./src/img/lembrete-2.webp","./src/img/lembrete-3.png","./src/img/lembrete-4.png","./src/img/lembrete-5.webp","./src/img/lembrete-6.jpg","./src/img/lembrete-7.webp","./src/img/lembrete-8.png","./src/img/lembrete-9.png"]
+    const imagensFundoPostIt = ["./src/img/lembrete.webp", "./src/img/lembrete-2.webp", "./src/img/lembrete-3.png", "./src/img/lembrete-4.png", "./src/img/lembrete-5.webp", "./src/img/lembrete-6.webp", "./src/img/lembrete-7.webp", "./src/img/lembrete-8.png", "./src/img/lembrete-9.png", "./src/img/lembrete-11.png"]
 
     const imgFP = localStorage.getItem('fundoPostItImg') || "./src/img/lembrete.webp"
     let imgPostI = imgFP
     const classtipoPostIt = document.querySelectorAll('.tipoPostIt div')
-    if(classtipoPostIt.length > 0) {
-       
-        for(let i = 0; i < classtipoPostIt.length ; i++){
-           
+    if (classtipoPostIt.length > 0) {
+        let timeoutMouseOver;
+        for (let i = 0; i < classtipoPostIt.length; i++) {
+
             classtipoPostIt[i].addEventListener('click', () => {
-                
-                imgPostI = localStorage.setItem('fundoPostItImg',imagensFundoPostIt[i]) 
-                location.reload();
+                clearTimeout(timeoutMouseOver);
+                timeoutMouseOver = setTimeout(() => {
+                    imgPostI = localStorage.setItem('fundoPostItImg', imagensFundoPostIt[i])
+                    carregaPostIt()
+                }, 10)
+
             })
 
-            
+
         }
     }
+
+    let html = '';
+
+    data.forEach((e, index) => {
+        const addClasse = diahoje === e.data ? 'piscandoHoje' : '';
+        html += `
+            <div class="${addClasse}" style="background-image: url(${imgPostI})" onclick="openLembrete(${index})">
+                <h6>${e.data.split('-').reverse().join('-')}</h6>
+                <h2>${e.titulo}</h2>
+                <p>${e.textoL}</p>
+            </div>
+        `;
+    });
     
-    await data.map((e, index) => {
-        const addClasse = diahoje == e.data ? 'piscandoHoje' : ''
-        agendaLateral.innerHTML += `<div class="${addClasse}" style="background-image: url(${imgPostI})" onclick="openLembrete(${index})">
-        <h6>${e.data.split('-').reverse().join('-')}</h6>
-        <h2>${e.titulo}</h2>
-        <p>${e.textoL}</p>
-    </div>`
-    })
-    agendaLateral.innerHTML += `<i class="bi bi-arrow-right-square-fill btnOcultarLembrete"></i>`
+    html += `<i class="bi bi-arrow-right-square-fill btnOcultarLembrete"></i>`;
+    agendaLateral.innerHTML = html; // Só injeta UMA VEZ
+    
     fechaMenuLembre()
 }
 
@@ -1502,8 +1520,10 @@ function delLembrete(l) {
 
     data.splice(l, 1)
     localStorage.setItem('postIt', JSON.stringify(data))
+   
     carregaPostIt()
-    location.reload()
+    fechaAviso()
+    // location.reload()
     //aqui
     element.dispatchEvent(new KeyboardEvent('keydown', { 'key': 'Escape' }));
 }
@@ -1537,7 +1557,9 @@ function criarLembrete() {
     data.unshift(lembrete)
 
     localStorage.setItem('postIt', JSON.stringify(data))
-    location.reload()
+    carregaPostIt()
+    fechaAviso()
+    // location.reload() aqui carrega
 
 }
 if (document.querySelector('#bcnpj') != null) {

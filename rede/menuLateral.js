@@ -272,8 +272,32 @@ if (document.querySelector('.classT') != null) {
     }
 }
 
-const postIts = JSON.parse(localStorage.getItem('postIt')) || []; 
-const contpostIt = postIts.length;
+
+
+let contpostIt = 0;
+
+const contadorDePostIt = () => {
+    const postItsAtualizados = JSON.parse(localStorage.getItem('postIt')) || [];
+    contpostIt = postItsAtualizados.length;
+    const contadorElement = document.querySelector('.contadorLemb');
+    if (contadorElement) {
+        contadorElement.textContent = contpostIt;
+
+        // --- animação ---
+        contadorElement.style.transition = 'transform 0.3s ease';
+        contadorElement.style.transform = 'scale(1.3)';
+        setTimeout(() => {
+            contadorElement.style.transform = 'scale(1)';
+        }, 300);
+    }
+};
+
+// Atualiza já ao carregar
+contadorDePostIt();
+
+// Atualiza a cada 3 segundos
+setInterval(contadorDePostIt, 3000);
+
 
 
 
