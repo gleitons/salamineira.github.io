@@ -1376,7 +1376,7 @@ function openLembrete(l) {
     <h2 class="">${data[l].titulo}</h2>
     <h4 class="">${data[l].data.split('-').reverse().join('-')}</h4>
     <p class="">${data[l].textoL}</p>
-    <textarea id="areaLembre" class="dnone" name=""  cols="34" rows="10">${data[l].textoL}</textarea>  
+    <textarea id="areaLembre" class="dnone" name=""  cols="33" rows="10">${data[l].textoL}</textarea>  
     
     <button onclick="editarLembrete(${l})">EDITAR</button> <button style="background-color: green;" onclick="salvaAtendimento(${l})">CONCLUÍDA</button> <button style="background-color: red;" onclick="delLembrete(${l})">EXCLUIR</button>
 </div>`)
@@ -1495,7 +1495,7 @@ function addLembrete() {
     <input  type="text" id="titleLembre" value="" placeholder="Insira o Titulo e data abaixo">
     <input  type="date"  id="dataLembre" value="">
    
-    <textarea id="areaLembre"  name=""  cols="34" rows="10" placeholder="Insira a descrição do Lembrete"></textarea>  
+    <textarea id="areaLembre"  name=""  cols="33" rows="10" placeholder="Insira a descrição do Lembrete"></textarea>  
     
     <button onclick="criarLembrete()">CRIAR LEMBRETE</button> 
 </div>`)

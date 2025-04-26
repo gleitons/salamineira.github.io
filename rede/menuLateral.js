@@ -272,6 +272,11 @@ if (document.querySelector('.classT') != null) {
     }
 }
 
+const postIts = JSON.parse(localStorage.getItem('postIt')) || []; 
+const contpostIt = postIts.length;
+
+
+
 const tipoBar = localStorage.getItem('pBarT') == 1 ? 'atalhosTelaDesktop' : 'atalhosTelaDesktopHorizonte'
 document.querySelector('head').innerHTML += `<link rel="shortcut icon" href="./src/img/futuro-consultoria-horizonte.svg" type="image/x-icon">`
 
@@ -280,28 +285,29 @@ document.querySelector('footer').innerHTML += `  <div id="menuLTop" class="${tip
 <div >
 <abbr title="Home">
     <a href="./">
-        <img src="./src/img/icons/inicio-casa.png" alt="Novo Lembrete">
+        <img src="./src/img/icons/inicio-casa.png" alt="Inicio">
        
     </a>
 </div>   
 </abbr>        
 <abbr title="Novo Atalho">
     <div onclick="addAtalhos()">
-        <img src="./src/img/icons/novo-atalho.png" alt="Novo Lembrete">
-    
+        <img src="./src/img/icons/novo-atalho.png" alt="Novo Atalho">
+       
     </div>
 </abbr>
 <abbr title="Novo Lembrete">
-    <div onclick="addLembrete()">
-        <img src="./src/img/icons/novo-lembrete.png" alt="Novo Atalho">
-    
+    <div onclick="addLembrete()" style="position: relative; display: inline-block;">
+        <img src="./src/img/icons/novo-lembrete.png" alt="Novo Lembrete">
+        <span class="contadorLemb">${contpostIt}</span>
     </div>
 </abbr>
+
 
 <abbr title="Favoritos">
     <div >
         <a href="./favoritos.html">
-            <img src="./src/img/icons/favoritos-empresas.png" alt="Novo Atalho">
+            <img src="./src/img/icons/favoritos-empresas.png" alt="Favorito">
     
         </a>
     </div>
@@ -332,7 +338,7 @@ document.querySelector('footer').innerHTML += `  <div id="menuLTop" class="${tip
 </abbr>
 
 </div>`
-
+document.querySelector('.contadorLemb').textContent = contpostIt;
 const mudaPosicaoMenu = () => {
     const menuLTop = document.querySelector('#menuLTop')
     const ver = menuLTop.classList.contains('atalhosTelaDesktop');
