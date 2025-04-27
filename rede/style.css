@@ -658,7 +658,7 @@ main {
   width: 100%;
   z-index: 9999;
   /* background-color: red; */
-  padding: 2px;
+  padding-left: 10px;
 }
 
 .btnSubb {
@@ -858,7 +858,7 @@ nav > li::after {
 
 nav .menuDrop:hover .subMenu {
   display: block;
-  animation: menuaparece 230ms linear;
+  animation: menuaparece 50ms ease-out;
 }
 @keyframes menuaparece {
   from {
@@ -870,7 +870,7 @@ nav .menuDrop:hover .subMenu {
   position: absolute;
   left: 100%;
   top: 0px;
-  background-color: #252d36;
+  background-color: #32383f;
   align-items: center;
   display: none;
 }
