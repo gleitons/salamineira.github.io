@@ -380,6 +380,11 @@ main {
   padding: 10px;
   animation: aparecerSh 500ms normal;
 }
+.btnfecharAvisoS {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
 .agendaLateral div {
   user-select: none;
   width: 165px;
@@ -739,7 +744,7 @@ main {
 
 .avisoOff div {
   background-color: #252d36;
-  width: 70%;
+  width: 90%;
   margin: auto;
   padding: 10px;
   border-radius: 8px;
@@ -758,7 +763,7 @@ main {
 }
 .avisoOff button {
   padding: 10px;
-  background-color: #405cf5;
+  background-color: #4f84e7;
   border-radius: 6px;
   border-width: 0;
   box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,

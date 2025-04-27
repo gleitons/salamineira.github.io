@@ -834,9 +834,15 @@ function avisoS(aviso) {
     divP.classList.add('avisoOff')
     //document.querySelector('main').style.display = 'none'
     divP.innerHTML = ` <div >
-    <button onclick="fechaAviso()">Fechar</button>
+    <div class="btnfecharAvisoS">
+        <button onclick="fechaAviso()">Fechar</button>
+        <button onclick="fechaAviso()">Fechar</button>
+    </div>
     <span>${aviso}</span>
-    <button onclick="fechaAviso()">Fechar</button>
+   <div class="btnfecharAvisoS">
+        <button onclick="fechaAviso()">Fechar</button>
+        <button onclick="fechaAviso()">Fechar</button>
+    </div>
     </div>`
     document.querySelector('body').appendChild(divP)
 
