@@ -1303,6 +1303,56 @@ function linkOn(link) {
 }
 
 
+function mostrarEspacoRestante() {
+    const LIMITE_MB = 5; // limite de 5MB
+    const LIMITE_BYTES = LIMITE_MB * 1024 * 1024;
+    let totalBytesUsados = 0;
+  
+    for (let chave in localStorage) {
+      if (localStorage.hasOwnProperty(chave)) {
+        totalBytesUsados += (chave.length + localStorage[chave].length) * 2; // cada caractere = 2 bytes
+      }
+    }
+  
+    const bytesRestantes = LIMITE_BYTES - totalBytesUsados;
+    const mbUsados = (totalBytesUsados / (1024 * 1024)).toFixed(2);
+    const mbRestantes = (bytesRestantes / (1024 * 1024)).toFixed(2);
+    const percentualUsado = ((totalBytesUsados / LIMITE_BYTES) * 100).toFixed(2);
+  
+    // Definir a cor do alerta conforme o percentual usado
+    let alertClass = 'success'; // verde
+    if (percentualUsado > 70 && percentualUsado <= 90) {
+      alertClass = 'warning'; // amarelo
+    } else if (percentualUsado > 90) {
+      alertClass = 'danger'; // vermelho
+    }
+  
+    // Conteúdo da mensagem usando template string
+    const conteudo = `
+      <div style="background-color: white">
+          <div style="background-color: white"  class="alert alert-${alertClass} d-flex align-items-center" role="alert">
+            <i class="bi bi-hdd-stack-fill me-2 fs-4"></i>
+            <div style="background-color: white">
+              <strong>LocalStorage:</strong><br>
+              Você já usou <strong>${mbUsados} MB</strong> (${percentualUsado}% do espaço).<br>
+              Espaço restante: <strong>${mbRestantes} MB</strong>.
+            </div>
+          </div>
+      </div>
+    `;
+  
+    // Agora chama sua função avisoS() passando o conteúdo
+    avisoS(conteudo);
+  
+    console.log(`Você já usou ${mbUsados} MB (${percentualUsado}% do espaço).`);
+    console.log(`Espaço restante: ${mbRestantes} MB.`);
+  }
+  
+
+
+
+
+
 
 
 async function carregaPostIt() {
@@ -1326,7 +1376,7 @@ async function carregaPostIt() {
     const diahoje = `${dataH.getFullYear()}-${mes}-${dia}`
 
 
-    const imagensFundoPostIt = ["./src/img/lembrete.webp", "./src/img/lembrete-2.webp", "./src/img/lembrete-3.png", "./src/img/lembrete-4.png", "./src/img/lembrete-5.webp", "./src/img/lembrete-6.webp", "./src/img/lembrete-7.webp", "./src/img/lembrete-8.png", "./src/img/lembrete-9.png", "./src/img/lembrete-11.png"]
+    const imagensFundoPostIt = ["./src/img/lembrete.webp", "./src/img/lembrete-2.webp", "./src/img/lembrete-3.png", "./src/img/lembrete-4.png", "./src/img/lembrete-5.webp", "./src/img/lembrete-6.webp", "./src/img/lembrete-7.webp", "./src/img/lembrete-8.png", "./src/img/lembrete-11.png", "./src/img/lembrete-11.png"]
 
     const imgFP = localStorage.getItem('fundoPostItImg') || "./src/img/lembrete.webp"
     let imgPostI = imgFP
@@ -1565,12 +1615,32 @@ function addLembrete() {
     const l = data.length
     avisoS(`<div class="lembreteAberto">
     <input  type="text" id="titleLembre" value="" placeholder="Insira o Titulo e data abaixo">
-    <input  type="date"  id="dataLembre" value="">
+    <input  type="date"  id="dataLembre" required value="">
    
     <textarea id="areaLembre"  name=""  cols="33" rows="10" placeholder="Insira a descrição do Lembrete"></textarea>  
     
     <button onclick="criarLembrete()">CRIAR LEMBRETE</button> 
 </div>`)
+}
+function organizaDataAntes() {
+    const data = JSON.parse(localStorage.getItem('postIt'))
+    data.sort((a,b) => {
+        return new Date(a.data) - new Date(b.data)
+    })
+
+    localStorage.setItem('postIt', JSON.stringify(data))
+    carregaPostIt()
+    
+}
+function organizaDataDepois() {
+    const data = JSON.parse(localStorage.getItem('postIt'))
+    data.sort((a,b) => {
+        return new Date(b.data) - new Date(a.data)
+    })
+
+    localStorage.setItem('postIt', JSON.stringify(data))
+    carregaPostIt()
+    
 }
 function criarLembrete() {
     const data = JSON.parse(localStorage.getItem('postIt'))
@@ -1579,6 +1649,14 @@ function criarLembrete() {
     const titulo = document.querySelector('#titleLembre').value
     const dataLembrete = document.querySelector('#dataLembre').value
     const textoLembrete = document.querySelector('#areaLembre').value
+    if(titulo == '') {
+        alert('Por favor, insira o titulo')
+        return
+    }
+    if(dataLembrete == '') {
+        alert('Por favor, insira uma data')
+        return
+    }
 
     const lembrete = {
         "id": l + 1,
@@ -1586,7 +1664,11 @@ function criarLembrete() {
         "textoL": textoLembrete,
         "data": dataLembrete
     }
+    
     data.unshift(lembrete)
+    data.sort((a,b) => {
+        return new Date(b.data) - new Date(a.data)
+    })
 
     localStorage.setItem('postIt', JSON.stringify(data))
     carregaPostIt()

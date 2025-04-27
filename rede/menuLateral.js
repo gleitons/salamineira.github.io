@@ -352,6 +352,14 @@ document.querySelector('footer').innerHTML += `  <div id="menuLTop" class="${tip
         </a>
     </div>
 </abbr>
+<abbr title="Editar Perfil">
+    <div>
+        <a href="#">
+            <img onclick="mostrarEspacoRestante()" src="./src/img/icons/big-data.png" alt="Novo Atalho">
+    
+        </a>
+    </div>
+</abbr>
 <abbr title="Mudar Posição">
     <div onclick='mudaPosicaoMenu()'>
         <a href="#">

@@ -106,6 +106,7 @@ function MenuPrincipal() {
                         <a href="/candidatos-eleicoes-2024-em-lagoa-dos-patos-mg.html"> <li>Eleições 2024</li></a>
                         <a href="/gleiton-aparecido-soares-de-souza/"><li>Sobre</li></a>
                         <a href="/contato"><li>Contato</li></a>
+                        <a href="/rede"><li>S. Rede</li></a>
                         <a href="/pesquisar/"><li>Pesquisar</li></a>
                         </ul>
                     </nav>

@@ -145,13 +145,13 @@ body {
   }
 }
 header {
-  height: 50px;
+  /* height: 50px;
   background: rgba(222, 222, 222, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.18); */
 }
 header > div {
   display: flex;
@@ -403,17 +403,20 @@ main {
 }
 .tipoPostIt {
   display: flex;
-  gap: 10px;
+  gap: 5px;
   height: 30px;
   margin-top: 10px;
   /* position: relative; */
+  
   margin-bottom: 2px;
+  
   
 }
 .tipoPostIt div {
   width: 30px;
   height: 30px;
-  z-index: 999999;
+  z-index: 9999;
+  
  
 }
 .tipoPostIt div img {
@@ -424,10 +427,25 @@ main {
 }
 .tipoPostIt div img:hover {
   transform: scale(2.5);
-  z-index: 9999999;
+ 
   cursor: pointer;
 }
 
+.addL {
+  width: 30px;
+  height: 30px;
+  z-index: 999999;
+  margin-left: 10px;
+  
+}
+.addL img {
+  width: 100%;
+  height: 30px;
+  transition: 400ms;
+}
+.addL:hover {
+  cursor: cell;
+}
 
 
 
@@ -641,6 +659,40 @@ main {
   font-size: 1.3em;
   color: white;
   border-radius: 8px;
+}
+.organizaLembrete {
+  position: absolute;
+  right: 0px;
+  top: 15px;
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+  padding: 0px 10px;
+  border-radius: 4px
+}
+.upLembrete {
+  color: #636363;
+  
+}
+.upLembrete:hover {
+  filter: brightness(1.1);
+  text-align: center;
+}
+
+.aoClicar:active {
+  text-align: center;
+  font-size: 18px;
+  user-select: none;
+  
+}
+.DownLembrete {
+  text-align: center;
+  color: #252d36;
+}
+.DownLembrete:hover {
+  filter: brightness(1.1);
+  text-align: center;
+
 }
 .carregoLo {
   position: absolute;
