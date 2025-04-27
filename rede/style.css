@@ -23,6 +23,7 @@ body {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+  will-change: backdrop-filter;
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   color: white;
@@ -145,13 +146,13 @@ body {
   }
 }
 header {
-  /* height: 50px;
-  background: rgba(222, 222, 222, 0.2);
+  /* height: 50px; */
+  /* background: rgba(222, 222, 222, 0.2); */
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18); */
+  /* backdrop-filter: blur(8px); */
+  /* -webkit-backdrop-filter: blur(8px); */
+  /* border-radius: 10px; */
+  border-bottom: 1px solid rgb(182, 182, 182);
 }
 header > div {
   display: flex;
@@ -160,6 +161,7 @@ header > div {
   justify-content: space-between;
   text-align: center;
   align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
 }
 header h2 {
   font-size: 1em;
@@ -286,16 +288,15 @@ main {
   /* -webkit-border-radius: 50px; */
   /* border-radius: 50px; */
   background: #d1d8ecd7;
-  -webkit-box-shadow: 1.5px 1.5px 3px #636363, -1.5px -1.5px 3px #f0f8ff;
+  /* -webkit-box-shadow: 1.5px 1.5px 3px #636363, -1.5px -1.5px 3px #f0f8ff; */
   /* box-shadow: 3px 3px 6px #b2b8c9, -3px -3px 6px #f0f8ff; */
-  transition: 200ms;
+  /* transition: 200ms; */
 }
 .cnpjEstaCadastrado {
   background-color: red;
   color: white;
 }
-.animaIO {
-}
+
 .infoCNPJPesquisa p {
   background-color: red;
   color: white;
@@ -373,6 +374,7 @@ main {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  will-change: backdrop-filter;
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 10px;
@@ -494,6 +496,7 @@ main {
   /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+  will-change: backdrop-filter;
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 1px;
@@ -650,7 +653,7 @@ main {
   width: 100%;
   z-index: 9999;
   /* background-color: red; */
-  padding: 10px;
+  padding: 2px;
 }
 
 .btnSubb {
@@ -716,6 +719,7 @@ main {
   box-shadow: 0 8px 32px 0 rgba(8, 9, 35, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+  will-change: backdrop-filter;
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 20px;
@@ -936,6 +940,7 @@ footer {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(4px);
+  will-change: backdrop-filter;
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
@@ -1279,6 +1284,18 @@ footer {
   top: -5px; /* Ajuste conforme necessário */
   right: -5px; /* Ajuste conforme necessário */
   background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.contadorAta {
+  position: absolute;
+  top: -5px; /* Ajuste conforme necessário */
+  right: -5px; /* Ajuste conforme necessário */
+  background: blue;
   color: white;
   border-radius: 50%;
   padding: 2px 6px;
