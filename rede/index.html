@@ -24,6 +24,87 @@
             color: black;
             width: fit-content;
         }
+
+        .cards-tasks {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .card-task {
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+            padding: 20px;
+            width: 180px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card-task:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .icon-number {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .icon-number i {
+            font-size: 30px;
+            color: #007bff;
+        }
+
+        .icon-number span:nth-child(2) {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333333;
+        }
+
+        .card-task p {
+            margin: 0;
+            font-size: 16px;
+            color: #666666;
+        }
+
+        .search-container {
+            position: relative;
+            width: 300px;
+            margin: 5px auto;
+        }
+
+        .search-container input {
+            width: 100%;
+            padding: 12px 40px 12px 20px;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            background-color: #ffffff;
+            font-size: 16px;
+            outline: none;
+            transition: all 0.3s ease;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        .search-container input:focus {
+            border-color: #007bff;
+            box-shadow: 0px 6px 15px rgba(0, 123, 255, 0.2);
+        }
+
+        .search-container i {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 20px;
+            color: #007bff;
+            pointer-events: none;
+        }
     </style>
 </head>
 
@@ -40,12 +121,49 @@
             <div class="cadastroDeImovel">
                 <h2 class="inicialPage">Página Inicial</h2>
                 <!-- <p>Atalhos</p> -->
-                <div class="atalhosTela" id="iconsAtalhos">
-                    <div onclick="location.reload()">
-                        <img src="./src/img/icons/botao-atualizar.png" alt="ATUALIZAR MEI">
-                        <p>GERAR ATALHOS</p>
+                <div>
+                    <div class="atalhosTela" id="iconsAtalhos">
+                        <div onclick="location.reload()">
+                            <img src="./src/img/icons/botao-atualizar.png" alt="ATUALIZAR MEI">
+                            <p>GERAR ATALHOS</p>
+                        </div>
+                        <!-- <p ><img src="./src/img/loaders/generic.gif" alt=""></p>   -->
                     </div>
-                    <!-- <p ><img src="./src/img/loaders/generic.gif" alt=""></p>   -->
+                    <div style="display: none;">
+                        <!-- <div class="atalhosTela" id="iconsAtalhos">
+                            <div onclick="location.reload()">
+                                <img src="./src/img/icons/botao-atualizar.png" alt="ATUALIZAR MEI">
+                                <p>GERAR ATALHOS</p>
+                            </div>
+                        </div> -->
+
+                        <div class="cards-tasks">
+                            <div class="card-task">
+                                <div class="icon-number">
+                                    <span><i class="bi bi-archive-fill"></i></span>
+                                    <span>79</span>
+                                </div>
+                                <p>Nome Task</p>
+                            </div>
+
+                            <div class="card-task">
+                                <div class="icon-number">
+                                    <span><i class="bi bi-archive-fill"></i></span>
+                                    <span>79</span>
+                                </div>
+                                <p>Nome Task</p>
+                            </div>
+
+                            <div class="card-task">
+                                <div class="icon-number">
+                                    <span><i class="bi bi-archive-fill"></i></span>
+                                    <span>79</span>
+                                </div>
+                                <p>Nome Task</p>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
 
@@ -102,16 +220,20 @@
                     </span>
 
                 </div>
-                <div class="agendaLateral ">
-
-                    <h4>Cadastre um novo lembrete</h4> <br>
-
-                    <div onclick="addLembrete()" style="position: relative; width: 50px;">
-                        <img style="width: 100%;" src="./src/img/icons/novo-lembrete.png" alt="Novo Lembrete">
-
+                <div>
+                    <div class="search-container">
+                        <input type="text" autofocus  id="inputPesquisa" oninput="funcaoPesquisaLembrete()" placeholder="Pesquisar lembrete...">
+                        <i class="bi bi-search"></i>
                     </div>
-
-                    </abbr>
+                    
+                    
+                    <div class="agendaLateral ">
+                        <h4>Cadastre um novo lembrete</h4> <br>
+                        <div onclick="addLembrete()" style="position: relative; width: 50px;">
+                            <img style="width: 100%;" src="./src/img/icons/novo-lembrete.png" alt="Novo Lembrete">
+                        </div>
+                        </abbr>
+                    </div>
                 </div>
             </div>
 

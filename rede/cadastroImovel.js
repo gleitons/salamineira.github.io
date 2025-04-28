@@ -1638,6 +1638,68 @@ function organizaDataAntes() {
     carregaPostIt()
     
 }
+///estou aqui
+async function funcaoPesquisaLembrete() {
+    const input = document.getElementById('inputPesquisa').value.toLowerCase();
+    const data = JSON.parse(localStorage.getItem('postIt')) || [];
+    const agendaLateral = document.querySelector('.agendaLateral');
+    
+    if (input.trim() === '') {
+        carregaPostIt(); // Se campo vazio, carrega todos de novo
+        return;
+    }
+
+    const imagensFundoPostIt = [
+        "./src/img/lembrete.webp",
+        "./src/img/lembrete-2.webp",
+        "./src/img/lembrete-3.png",
+        "./src/img/lembrete-4.png",
+        "./src/img/lembrete-5.webp",
+        "./src/img/lembrete-6.webp",
+        "./src/img/lembrete-7.webp",
+        "./src/img/lembrete-8.png",
+        "./src/img/lembrete-11.png",
+        "./src/img/lembrete-11.png"
+    ];
+
+    const imgFP = localStorage.getItem('fundoPostItImg') || "./src/img/lembrete.webp";
+    const imgPostI = imgFP;
+
+    let html = '';
+
+    const filtrados = data.filter(e => {
+        const titulo = (e.titulo || '').toLowerCase();
+        const texto = (e.textoL || '').toLowerCase();
+        const data = (e.data || '').toLowerCase();
+        return titulo.includes(input) || texto.includes(input) || data.includes(input);
+    });
+
+    if (filtrados.length === 0) {
+        agendaLateral.innerHTML = `<p style="text-align:center; padding:20px;">Nenhum lembrete encontrado.</p>`;
+        return;
+    }
+
+    const dataH = new Date();
+    const dia = dataH.getDate().toString().padStart(2, '0');
+    const mes = (dataH.getMonth() + 1).toString().padStart(2, '0');
+    const diahoje = `${dataH.getFullYear()}-${mes}-${dia}`;
+
+    filtrados.forEach((e, index) => {
+        const addClasse = diahoje === e.data ? 'piscandoHoje' : '';
+        html += `
+            <div class="${addClasse}" style="background-image: url(${imgPostI})" onclick="openLembrete(${index})">
+                <h6>${e.data.split('-').reverse().join('-')}</h6>
+                <h2>${e.titulo}</h2>
+                <p>${e.textoL}</p>
+            </div>
+        `;
+    });
+
+    html += `<i class="bi bi-arrow-right-square-fill btnOcultarLembrete"></i>`;
+    agendaLateral.innerHTML = html;
+}
+
+
 function organizaDataDepois() {
     const data = JSON.parse(localStorage.getItem('postIt'))
     data.sort((a,b) => {

@@ -296,14 +296,15 @@ const contadorDePostIt = () => {
 contadorDePostIt();
 
 // Atualiza a cada 3 segundos
+let contDaT = 0;
 setInterval(contadorDePostIt, 3000);
 
 const contadorDeAtalhos = () => {
     const postItsAtualizados = JSON.parse(localStorage.getItem('atalhosContratos')) || [];
-    contpostIt = postItsAtualizados.length;
+    contDaT = postItsAtualizados.length;
     const contadorElement = document.querySelector('.contadorAta');
     if (contadorElement) {
-        contadorElement.textContent = contpostIt;
+        contadorElement.textContent = contDaT;
 
         // --- animação ---
         contadorElement.style.transition = 'transform 0.3s ease';
@@ -340,7 +341,7 @@ document.querySelector('footer').innerHTML += `  <div id="menuLTop" class="${tip
     
      <div onclick="addAtalhos()" style="position: relative; display: inline-block;">
         <img src="./src/img/icons/novo-atalho.png" alt="Novo Atalho">
-        <span class="contadorAta">${contpostIt}</span>
+        <span class="contadorAta">${contDaT}</span>
     </div>
 </abbr>
 <abbr title="Novo Lembrete">
