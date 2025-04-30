@@ -138,7 +138,7 @@
 
 <body>
   <header>
-    <h1>Confira as Fotos da Semi-final<br>2º Campeonato Regional de Futebol de Campo<br>Lagoa dos Patos - MG • 2025</h1>
+    <h1>Confira as Fotos da grande final do<br>2º Campeonato Regional de Futebol de Campo<br>Lagoa dos Patos - MG • 2025</h1>
   </header>
 
   <div id="foto">
@@ -146,7 +146,7 @@
     <div onclick="abrirModal('https://iili.io/316ru0N.jpg')">
       <img src="https://iili.io/316ru0N.jpg"
         alt="Foto da semi-final" />
-      <p>Momento de emoção em campo</p>
+      <p>Momentos de emoções em campo</p>
     </div>
   </div>
   <!-- Adicione isso logo abaixo do div com id="foto" -->
@@ -203,7 +203,7 @@
     // Busca inicial
     const buscarFotos = async () => {
       try {
-        const resp = await fetch('/futebol-de-campo-2025-lagoa-dos-patos-mg');
+        const resp = await fetch('/final-e-disputa-3-colocado-futebol-de-campo-2025-lagoa-dos-patos-mg');
         fotos = await resp.json();
         mostraImagens();
       } catch (error) {
