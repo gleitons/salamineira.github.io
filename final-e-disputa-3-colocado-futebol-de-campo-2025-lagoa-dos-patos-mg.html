@@ -132,7 +132,12 @@
     padding: 0.8rem 1.5rem;
   }
 }
-
+.imgFundoLoad {
+  background-image: url('https://cdn.pixabay.com/animation/2023/08/11/21/18/21-18-05-265_512.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
   </style>
 </head>
 
@@ -140,11 +145,14 @@
   <header>
     <h1>Confira as Fotos da grande final do<br>2º Campeonato Regional de Futebol de Campo<br>Lagoa dos Patos - MG • 2025</h1>
   </header>
-
+  <!-- <div>
+    <p><input type="checkbox" name="" id="">Confirme que nao é um robô</p>
+    <button>Confirmar</button>
+  </div> -->
   <div id="foto">
     <!-- Exemplo inicial -->
-    <div onclick="abrirModal('https://iili.io/316ru0N.jpg')">
-      <img src="https://iili.io/316ru0N.jpg"
+    <div class="imgFundoLoad" onclick="abrirModal('https://iili.io/316ru0N.jpg')">
+      <img  src="https://iili.io/316ru0N.jpg"
         alt="Foto da semi-final" />
       <p>Momentos de emoções em campo</p>
     </div>
@@ -174,6 +182,7 @@
       const lote = fotos.slice(indexAtual, indexAtual + QUANTIDADE_POR_LOTE);
       lote.forEach(foto => {
         const bloco = document.createElement('div');
+        bloco.classList.add('imgFundoLoad')
         bloco.innerHTML = `
           <img src="${foto}" alt="Foto da semi-final" />
           <p>Momento da partida</p>
@@ -181,6 +190,11 @@
         bloco.onclick = () => abrirModal(foto);
         idFoto.appendChild(bloco);
       });
+      const aic = document.querySelectorAll('.imgFundoLoad')
+      for(let i = 0; i < aic.length; i++){
+        aic[i].classList.remove('imgFundoLoad')
+      }
+      
   
       indexAtual += QUANTIDADE_POR_LOTE;
   
