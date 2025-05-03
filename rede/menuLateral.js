@@ -31,7 +31,7 @@ function dModeT() {
         document.querySelector('.telaApresentacao').style.backgroundColor = 'white'
         localStorage.setItem('dmodeRede', 0)
     }
-   
+
 
 }
 function horario() {
@@ -39,11 +39,11 @@ function horario() {
     const hora = h.getHours().toString().length == 1 ? '0' + h.getHours() : h.getHours()
     const minutos = h.getMinutes().toString().length == 1 ? '0' + h.getMinutes() : h.getMinutes()
     const segundos = h.getSeconds().toString().length == 1 ? '0' + h.getSeconds() : h.getSeconds()
-    const horarios =  `${hora}:${minutos}:${segundos}`
+    const horarios = `${hora}:${minutos}:${segundos}`
     horarioPad.textContent = horarios
     localStorage.setItem('horarioA', JSON.stringify(horarios))
-    
-    
+
+
     //return horario
 }
 if (localStorage.getItem('perfilRede') == null) {
@@ -57,7 +57,7 @@ const MenuLateral = () => {
     const mes = h.getMonth() + 1
     const mesAtual = mes.toString().length == 1 ? '0' + mes : mes
     const dataDia = `${h.getDate()}/${mesAtual}/${h.getFullYear()}`
-    const horariod =  `${h.getHours()}:${h.getMinutes()}:${h.getSeconds()}`
+    const horariod = `${h.getHours()}:${h.getMinutes()}:${h.getSeconds()}`
     document.querySelector('.menusApresentação').innerHTML = ` 
     <nav class="menuLateral">
     <div>
@@ -159,7 +159,7 @@ const MenuLateral = () => {
     
     </li>  --!>
  </nav>`
- setInterval('horario()', 1000)
+    setInterval('horario()', 1000)
 
 }
 MenuLateral()
@@ -175,7 +175,7 @@ function loadDadosPrincipais() {
         "nome": "Atualize Perfil"
     }
     localStorage.setItem('perfilRede', JSON.stringify([dados]))
-    
+
 }
 
 function resetaMenuEFundo() {
@@ -203,9 +203,9 @@ const menuTop = () => {
     const titlo = data[0].titlo
     const subTitle = data[0].subTitle
     const color = data[0].color
-    if(data[0].comoFicaImg == 0){
+    if (data[0].comoFicaImg == 1) {
         var comoFImage = `background-size: contain;`
-    } else if (data[0].comoFicaImg == 1) {
+    } else if (data[0].comoFicaImg == 2) {
         var comoFImage = `background-size: cover;`
     } else {
         var comoFImage = `background-size: auto;`
@@ -245,10 +245,10 @@ function atualizarPerfilDigito() {
 }
 
 function atualizarPerfilClique() {
-    
-    const data = JSON.parse(localStorage.getItem('perfilRede'))
+
+    // const data = JSON.parse(localStorage.getItem('perfilRede'))
     const pImageFundo = document.querySelector('#pImageFundo').selectedIndex
-    console.log(pImageFundo)
+
     const perfil = {
         "imagemFundo": linkImagfundo.value,
         "imagem": linkImag.value,
@@ -258,7 +258,7 @@ function atualizarPerfilClique() {
         "nome": nomeIdComplete.value,
         "comoFicaImg": pImageFundo
     }
-    
+    console.log(perfil)
     localStorage.setItem('perfilRede', JSON.stringify([perfil]))
     location.reload()
 }
@@ -384,21 +384,69 @@ document.querySelector('footer').innerHTML += `  <div id="menuLTop" class="${tip
         </a>
     </div>
 </abbr>
+
+
 <abbr title="Mudar Posição">
     <div onclick='mudaPosicaoMenu()'>
         <a href="#">
-            <img src="https://ialkyrog.sirv.com/sala/icones/editar-imovel.png" alt="Novo Atalho">
+            <img src="https://ialkyrog.sirv.com/sala/icones/editar-imovel.png" alt="Mudar posição">
     
         </a>
     </div>
 </abbr>
 
-</div>`
+
+</div>
+`
+function papelDeParede() {
+{/* <abbr title="Ver Tela de fundo">
+    <div onclick="papelDeParede()">
+        <a href="#">
+            <img src="./src/img/icons/papel-de-parede.png" alt="Ver Tela de fundo">
+    
+        </a>
+    </div>
+</abbr> */}
+}
+function verWall(ativo) {
+    const main = document.querySelector('main');
+    const divsInternas = main.querySelectorAll('div');
+
+    if (ativo) {
+        // Aplica o wallpaper no main
+        main.style.backgroundImage = "url('https://s.glbimg.com/jo/g1/f/original/2011/12/21/barco_a_vapor_benjamin_guimaraes.jpg')";
+        main.style.backgroundSize = "contain";
+        main.style.backgroundRepeat = "no-repeat";
+        main.style.backgroundPosition = "center";
+        main.style.height = "100vh";
+        main.style.width = "100vw"; // Use vw para ocupar toda a largura da tela
+
+        // Oculta todas as divs internas
+        divsInternas.forEach(div => {
+            div.dataset.originalDisplay = div.style.display || ''; // salva o display original
+            div.style.display = 'none';
+        });
+    } else {
+        // Remove o wallpaper
+        main.style.backgroundImage = '';
+        main.style.backgroundSize = '';
+        main.style.height = '';
+        main.style.width = '';
+
+        // Restaura as divs
+        divsInternas.forEach(div => {
+            div.style.display = div.dataset.originalDisplay || '';
+            delete div.dataset.originalDisplay;
+        });
+    }
+}
+
+
 document.querySelector('.contadorLemb').textContent = contpostIt;
 const mudaPosicaoMenu = () => {
     const menuLTop = document.querySelector('#menuLTop')
     const ver = menuLTop.classList.contains('atalhosTelaDesktop');
-    if(ver) {
+    if (ver) {
         menuLTop.classList.add('atalhosTelaDesktopHorizonte')
         menuLTop.classList.remove('atalhosTelaDesktop')
         localStorage.setItem('pBarT', 0)

@@ -18,14 +18,14 @@
     <header>
 
     </header>
-    <main>
-        <div class="menusApresentação">
+    <main >
+        <div class="menusApresentação" >
 
         </div>
-        <div class="telaApresentacao">
+        <div  class="telaApresentacao" >
 
 
-            <div class="cadastroDeImovel">
+            <div class="cadastroDeImovel" >
                 <h2>Perfil</h2>
                 <div>
 
@@ -35,7 +35,7 @@
                                 <p>Este modulo ainda não está concluido</p>
                             </div> -->
                         <div>
-                            <p>Substitue os links e titulos abaixo:</p>
+                            <p>Substitue os links e titulos abaixo: * Atenção, São permitidas imagens de até 2MB - * Dê preferência inserir endereços das imagens para economizar espaço</p>
 
                         </div>
                         <div>
@@ -43,13 +43,13 @@
                             <input type="text" id="nomeIdComplete">
 
                         </div>
-                        <div>
+                        <div style="align-items: center;">
                            
                             <p>Logo:</p>
-                            <input type="file" name="" accept="image/png,image/jpeg,image/jpg,image/gif" id="imgLoLogo" onchange="carregaI()">
+                            <input type="file" name="" accept="image/png,image/jpeg,image/jpg,image/gif" id="imgLoLogo" onchange="carregaI(this)">
                             <input style="display: block;" type="text" id="linkImag"
                                 placeholder="ex: http://lagoadospatos.mg.gov.br/logo-lagoa-patos.png"
-                                value="http://lagoadospatos.mg.gov.br/wp-content/uploads/2021/02/logo-lagoa-patos.png" disabled>
+                                value="" disabled><button onclick="desativaInput('linkImag')">Endereço</button>
 
                         </div>
                         <div>
@@ -65,16 +65,18 @@
                             <p class="classT">Cor de Fundo da tela:</p>
                             <input type="color" id="fundoColor" value="#d6d6d6">
                         </div>
-                        <div>
+                        <div style="align-items: center;">
                             <p>Fundo:</p>
-                            <input type="file" name="" accept="image/png,image/jpeg,image/jpg,image/gif" id="imgFuFundo" onchange="carregaI()">
+                            <input type="file" name="" accept="image/png,image/jpeg,image/jpg,image/gif" id="imgFuFundo" onchange="carregaI(this)">
                             <input type="text" id="linkImagfundo"
-                                value="http://lagoadospatos.mg.gov.br/wp-content/uploads/2021/02/logo-lagoa-patos.png"
-                                onkeyup="atualizarPerfilDigito()" disabled>
+                            placeholder="ex: http://lagoadospatos.mg.gov.br/logo-lagoa-patos.png"
+                                value=""
+                                onkeyup="atualizarPerfilDigito()" disabled> <button onclick="desativaInput('linkImagfundo')">Endereço</button>
                         </div>
                         <div>
                             <p>Posição da Imagem:</p>
-                            <select name="" id="pImageFundo" onchange="carregaI()">
+                            <select name="" id="pImageFundo" onchange="carregaI(this)">
+                                <option >Selecione</option>
                                 <option>Pequena</option>                               
                                 <option>Conteúdo Total</option>
                                 <option>Centralizada</option>   
