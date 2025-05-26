@@ -333,54 +333,79 @@
 
     </footer>
     <script src="/funcionamento.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const menuToggle = document.getElementById("menu-toggle");
-            const menu = document.getElementById("menu");
+    
+   <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.getElementById("menu-toggle");
+        const menu = document.getElementById("menu");
 
-            menuToggle.addEventListener("click", function () {
-                menu.classList.toggle("show");
-            });
+        menuToggle.addEventListener("click", function () {
+            menu.classList.toggle("show");
         });
-        const loadNoticias = async () => {
-            // const rLoad = document.querySelector('#rLoad');
-            const noticiasRecentes = document.querySelector('#noticiasRecentes');
 
-            try {
-                const resp = await fetch('https://cadastros-two.vercel.app/api/noticias');
-                const data = await resp.json();
+        exibirNoticiasDoCache();
+        verificarAtualizacaoNoticias();
+    });
 
-                if (resp.ok && data.noticias) {
-                    data.noticias.slice(0, 9).forEach((e) => {
-                        noticiasRecentes.innerHTML += `
-                            <div class="col-md-3 vendo">
-                                <a href="${e.url}" target="_blank">
-                                <div class="card img-zoom-container">
-                                    <img src="${e.imagem}" class="card-img-top img-fluid lazyloaded" alt="Imagem da notícia">
-                                </div>
-                                <div class="card-body">
-                                    <h6 class="card-subtitle mb-2 text-muted">${e.data}</h6>
-                                    <h5 class="card-title">${e.titulo}</h5>
-                                </div>
-                                </a>
-                            </div>
-                            `;
+    const exibirNoticias = (lista, container) => {
+        container.innerHTML = ''; // limpa antes
+        lista.forEach((e) => {
+            container.innerHTML += `
+                <div class="col-md-3 vendo">
+                    <a href="${e.url}" target="_blank">
+                        <div class="card img-zoom-container">
+                            <img src="${e.imagem}" class="card-img-top img-fluid lazyloaded" alt="Imagem da notícia">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-2 text-muted">${e.data}</h6>
+                            <h5 class="card-title">${e.titulo}</h5>
+                        </div>
+                    </a>
+                </div>
+            `;
+        });
+    };
 
-                    });
-                    
+    const exibirNoticiasDoCache = () => {
+        const noticiasRecentes = document.querySelector('#noticiasRecentes');
+        const noticiasSalvas = JSON.parse(localStorage.getItem('noticiasLagoa'));
 
-                    rLoad.innerHTML = '';
-                } else {
-                  rLoad.innerHTML = 'ERRO AO BUSCAR NOTÍCIAS, EM BREVE SERÁ CORRIGIDO';
-                }
-            } catch (err) {
-                console.error('Erro ao carregar notícias:', err);
-                rLoad.innerHTML = 'FALHA NA REQUISIÇÃO, TENTE MAIS TARDE.';
+        if (noticiasSalvas) {
+            exibirNoticias(noticiasSalvas, noticiasRecentes);
+        }
+    };
+
+    const verificarAtualizacaoNoticias = async () => {
+        const noticiasRecentes = document.querySelector('#noticiasRecentes');
+        const rLoad = document.querySelector('#rLoad');
+
+        try {
+            const resp = await fetch('https://cadastros-two.vercel.app/api/noticias');
+            const data = await resp.json();
+
+            if (!data.noticias || !Array.isArray(data.noticias)) {
+                rLoad.innerHTML = 'Formato de dados inválido';
+                return;
             }
-        };
 
-        loadNoticias()
-    </script>
+            const contadorAtual = data.noticias.length;
+            const contadorLocal = parseInt(localStorage.getItem('contadorNoticias'), 10);
+
+            if (isNaN(contadorLocal) || contadorAtual !== contadorLocal) {
+                const novasNoticias = data.noticias.slice(0, 9);
+                localStorage.setItem('contadorNoticias', contadorAtual);
+                localStorage.setItem('noticiasLagoa', JSON.stringify(novasNoticias));
+                exibirNoticias(novasNoticias, noticiasRecentes); // atualiza visual
+            }
+
+            rLoad.innerHTML = '';
+        } catch (err) {
+            console.error('Erro ao atualizar notícias:', err);
+            rLoad.innerHTML = 'FALHA AO VERIFICAR ATUALIZAÇÃO.';
+        }
+    };
+</script>
+
 
 </body>
 

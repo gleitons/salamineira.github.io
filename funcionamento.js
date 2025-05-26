@@ -9,12 +9,12 @@ var feriados = ["20/1/2023", "20/2/2023", "21/2/2023", "22/2/2023", "1/3/2023", 
 
 const anoCompara = `${dia}/${mes}/${ano}`
 
-console.log(anoCompara)
+
 //
 const funciona = document.querySelector('#funciona');
 const infoAMais = document.querySelector('.infoAMais')
 
-console.log(hora + 'hora')
+
 
 if(hora < 8) {
     infoAMais.textContent = 'A partir das 08:00hs'
@@ -61,7 +61,7 @@ const funcionaAmanha = document.querySelector('#funcionaAmanha');
 const diaA = data.getDay() + 1
 const diaB = data.getDate() + 1
 
-console.log(mes)
+
 
 if (mes == 2 && diaB == 29 || mes == 2 && diaB == 30 || mes == 2 && diaB == 31) {
     funcionaAmanha.innerHTML = `<div class="funcionamento cvermelho">
@@ -75,7 +75,7 @@ if (mes == 2 && diaB == 29 || mes == 2 && diaB == 30 || mes == 2 && diaB == 31) 
 
 
 const diaSeguinte = `${diaB}/${mes}/${ano}`
-console.log(diaB)
+
 
 
 
