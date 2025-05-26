@@ -21,8 +21,6 @@
     <meta property="og:image"
         content="https://www.salamineira.com/img/logo-sala-mineira-do-empreendedor-lagoa-dos-patos-mg.svg">
     <meta charset="UTF-8">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -30,7 +28,7 @@
     <link rel="stylesheet" href="/estilos/stilo-sala.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 
-    <!-- <script src="/scripts/index.js" defer></script> -->
+    <script src="/scripts/index.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
     <link rel="stylesheet" href="./mdb5/css/mdb.rtl.min.css">
@@ -73,7 +71,7 @@
             border-width: 1px 1px 1px 1px;
         }
 
-        .menu li a {
+        .menu li a {            
             text-decoration: none;
             padding: 10px 16px;
             display: block;
@@ -110,47 +108,11 @@
                 display: flex;
             }
         }
-
-        .img-zoom-container {
-            overflow: hidden;
-            border-radius: 8px;
-            transition: transform 0.3s ease-in-out;
-        }
-
-        .img-zoom-container {
-            width: 100%;
-            height: 200px;
-            overflow: hidden;
-            position: relative;
-        }
-
-        .vendo {
-            margin-bottom: 10px;
-            /* border: rgb(194, 194, 194) solid 1px; */
-            box-shadow: #ff7729 0px 3px 3px 1px;
-            border-radius: 12px;
-            margin: 5px;
-            padding: 5px;
-            transition: all;
-        }
-
-        .vendo img:hover {
-            transform: scale(1.1);
-            transition: 200ms ease-out;
-        }
-
-        #noticiasRecentes {
-            display: flex;
-            justify-content: center;
-            /* align-items: center;  // Opcional, se você quiser centralizar verticalmente também */
-            flex-wrap: wrap;
-            /* Garante que os itens quebrem para a próxima linha */
-        }
     </style>
 
 </head>
 
-<body>
+<body onload="promocaoIndex()">
     <!-- <div class="parabensLagoa">
         <i class="bi bi-x-circle-fill fecharAg" id="fechaPropaganda" onclick="fechaProp()"></i>
         <i class="bi bi-x-lg fecharSempre" id="fechaPropagandaSempre" onclick="fecharSempre()">Não quero Mais ver</i>
@@ -218,11 +180,25 @@
             <div class="adsTopo" id="ADSTopo">
             </div>
 
+            <!-- <div class="avsisoLetrasP">
+                <marquee width="100%" behavior="slide" bgcolor="red" hspace="50px" scrolldelay="61">
+                    <marquee>
+                        <p style="color: white;">DECLARAÇÃO ANUAL MEI JÁ ESTÁ DISPONÍVEL - VAMOS TE AJUDAR A REALIZAR!!
+                            <a
+                                href="https://api.whatsapp.com/send?l=pt-BR&phone=553899020384&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20*Sala%20Mineira%20do%20empreendedor*%20em%20Lagoa%20dos%20Patos%20MG">Clique
+                                Aqui</a>
+                        </p>
+                    </marquee>
+                </marquee>
+
+            </div> -->
 
             <div id="vejamosS" class=" sCNPJ2">
 
             </div>
-
+            <div class="infoCentralizada">
+                <h1>Sala Mineira do Empreendedor de Lagoa dos Patos - MG</h1>
+            </div>
             <div class="mostraAInfo">
                 <div id="funciona">
                     <div class="funcionamento cverde">
@@ -231,6 +207,8 @@
                             <div style="display: block;">
                                 <p><strong>FUNCIONAMOS</strong> hoje.</p>
                                 <p class="infoAMais"></p>
+                                <!-- <p>A partir das 08:00hs</p> -->
+                                <!-- <p>Encerramos as 16:00hs</p> -->
                             </div>
                         </div>
                         <div style="display: block;">
@@ -242,29 +220,43 @@
                     </div>
                 </div>
             </div>
+            <div>
+                <!-- Button trigger modal -->
+                <!-- <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+                    Launch demo modal
+                </button> -->
+
+                <!-- Modal -->
+                <div id="abreEditalInfo">
+                </div>
+
+            </div>
 
 
         </div>
 
 
         <div class="noticiasRed">
-            <div class="container my-3">
-                <h1 class="mb-4 text-center">Últimas Notícias em Lagoa dos Patos MG</h1>
-                <div class="row justify-content-center" id="noticiasRecentes">
-                    <span id="rLoad">
-                        <img class="col-md-3 vendo" style="width: 30%;" src="/loadIo.svg" alt="">
-                    </span>
-                </div>
-                <div style="width:100%; text-align: center; margin-top: 1em;">
-                    <a href="https://lagoadospatos.mg.gov.br/category/noticias/"
-                        class="botaoNoticias btn btn-info btn-xs text-uppercase">Leia mais</a>
+            <div class="carrocel">
+                <!-- id="bannerF" onmousemove="carregarImage()" -->
+                <div class="hero">
+                    <a href="/lagoa-dos-patos-mg.html"><img
+                            src="/imagens-sala/2022/01/capa-lagoa-dos-patos-mg.jpg" /></a>
+                    <h1 class="btn-saiba-mais"></h1>
                 </div>
             </div>
+            <h2>ESTAMOS RECONSTRUINDO O SITE PARA MELHOR LHE ATENDER, AGUARDA, TODOS OS NOSSOS SERVIÇOS ESTÃO EM
+                FUNCIONAMENTO NORMALMENTE.</h2>
+            <div>
+                <h3>Notícias em Lagoa dos Patos MG</h3>
+                <div>
+                    <iframe src="https://lagoadospatos.mg.gov.br/noticias-em-lagoa-dos-patos-mg/" width="100%" height="500px" frameborder="0"></iframe>
+                </div>
+            </div>
+            <a href="/index-ultimo.html">Página inicial anterior</a>
+
         </div>
         <div class="colorServicos">
-            <div class="infoCentralizada">
-                <h1> Sala Mineira do Empreendedor de Lagoa dos Patos - MG</h1>
-            </div>
             <div class="servicosAlinhar DFlex">
                 <div class="iconeInfo borderIcon brilho">
                     <i class="bi bi-person-plus-fill"></i>
@@ -342,44 +334,7 @@
                 menu.classList.toggle("show");
             });
         });
-        const loadNoticias = async () => {
-            // const rLoad = document.querySelector('#rLoad');
-            const noticiasRecentes = document.querySelector('#noticiasRecentes');
 
-            try {
-                const resp = await fetch('https://cadastros-two.vercel.app/api/noticias');
-                const data = await resp.json();
-
-                if (resp.ok && data.noticias) {
-                    data.noticias.slice(0, 9).forEach((e) => {
-                        noticiasRecentes.innerHTML += `
-                            <div class="col-md-3 vendo">
-                                <a href="${e.url}" target="_blank">
-                                <div class="card img-zoom-container">
-                                    <img src="${e.imagem}" class="card-img-top img-fluid lazyloaded" alt="Imagem da notícia">
-                                </div>
-                                <div class="card-body">
-                                    <h6 class="card-subtitle mb-2 text-muted">${e.data}</h6>
-                                    <h5 class="card-title">${e.titulo}</h5>
-                                </div>
-                                </a>
-                            </div>
-                            `;
-
-                    });
-                    
-
-                    rLoad.innerHTML = '';
-                } else {
-                  rLoad.innerHTML = 'ERRO AO BUSCAR NOTÍCIAS, EM BREVE SERÁ CORRIGIDO';
-                }
-            } catch (err) {
-                console.error('Erro ao carregar notícias:', err);
-                rLoad.innerHTML = 'FALHA NA REQUISIÇÃO, TENTE MAIS TARDE.';
-            }
-        };
-
-        loadNoticias()
     </script>
 
 </body>
