@@ -1,5 +1,20 @@
 [
   {
+    "id": "<div> <h4>Imagens</h4> <img src='/falecimento/ze-maria-fogo.JPG' alt=''> <img src='/falecimento/ze-maria-cardoso-fogo.jpg' alt=''> </div>",
+    "nome": "JOSE MARIA CARDOSO",
+    "sexo": "m",
+    "imagem": "/falecimento/sr-ze-maria-cardoso-fogo.JPG",
+    "nascimento": "",
+    "falecimento": "03/06/2025",
+    "nota": "Dói muito dizer adeus a alguém como você, que sempre foi um sol nas nossas vidas e iluminou tudo o que estava em volta. A sua simpatia e o seu carinho serão repetidos por nós, todos os dias. Que você tenha o descanso eterno que merece, grande guerreiro.",
+    "obito": "",
+    "mae": "",
+    "natural": "Lagoa dos Patos - MG",
+    "estadoFalecimento": "MG",
+    "LocalFalecimento": "lagoa dos patos",
+    "estado": "MG",
+    "apelido": "Zé Maria Fogo"
+  },{
     "id": "<div> <h4>Imagens</h4> <img src='/falecimento/joaquim-de-manoel.png' alt=''> </div>",
     "nome": "JOAQUIM MESSIAS DA CONCEIÇÃO",
     "sexo": "m",
