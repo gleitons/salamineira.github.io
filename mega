@@ -1,0 +1,40 @@
+
+    {
+  "loteria": "mega-sena",
+  "nome": "Mega-Sena",
+  "concurso": 2431,
+  "data": "24/11/2021",
+  "local": "ESPAÇO LOTERIAS CAIXA em SÃO PAULO, SP",
+  "dezenas": [
+    "08",
+    "11",
+    "22",
+    "25",
+    "26",
+    "36"
+  ],
+  "premiacoes": [
+    {
+      "acertos": "Sena",
+      "vencedores": 0,
+      "premio": "-"
+    },
+    {
+      "acertos": "Quina",
+      "vencedores": 46,
+      "premio": "35.595,61"
+    },
+    {
+      "acertos": "Quadra",
+      "vencedores": 2988,
+      "premio": "782,84"
+    }
+  ],
+  "estadosPremiados": [],
+  "acumulou": true,
+  "acumuladaProxConcurso": "R$ 7 Milhões",
+  "dataProxConcurso": "27/11//2021",
+  "proxConcurso": 2432,
+  "timeCoracao": null,
+  "mesSorte": null
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endereço</title>
+</head>
+
+<body>
+    <div>
+        <input style="width: 40%" type="text" name="" value="" id="cbusca">
+        <input type="radio" name="selecione" id="m" value="m">M
+        <input type="radio" name="selecione" id="f" value="f">F
+       
+
+        <input onclick="mostra()" type="button" value="Vai">
+    </div>
+    <textarea onclick="copiarTexto()" name="" id="result" cols="60" rows="30"></textarea>
+    <div id="copiado"></div>
+
+
+    <script>
+       
+
+        function mostra() {
+            
+            var radios = document.getElementsByName("selecione");
+            for (var i = 0; i < radios.length; i++) {
+                if (radios[i].checked) {
+                    var sex =  radios[i].value;
+                }
+            }
+            const entrada = document.getElementById('cbusca').value;
+            const retiraEndereco = entrada.replace('https://falecidosnobrasil.org.br/buscaavancada3.php?nome=', '')
+            const subigual1 = retiraEndereco.replace(/%20/g, ' ')
+            const subigual2 = subigual1.replace('&mae=', '/')
+            const subigual3 = subigual2.replace('&cidade=', '/')
+            const subigual4 = subigual3.replace('&uf=', '/')
+            const subigual5 = subigual4.replace('&falecimento=', '/')
+
+            const falecido = subigual5.split("/", 1);
+            const maeFalecido = subigual5.split('/', 2)[1];
+            const retiraTraco = retiraEndereco.replace(/-/g, '/')
+            const dataFalec = retiraTraco.split('=', 5)[4];
+            const estadoFa = subigual5.split('/', 5)[3];
+            const cidadeFa = subigual5.split('/', 5)[2];
+
+
+
+            const texto = `
+        {
+            "id": 0,
+            "nome": "${falecido}",
+            "sexo": "${sex}",
+            "imagem": "",
+            "nascimento": "",
+            "falecimento": "${dataFalec}",
+            "nota": "",
+            "obito": "Não identificado",
+            "mae": "${maeFalecido}",
+            "natural": "Lagoa dos Patos - MG",
+            "estadoFalecimento": "${estadoFa}",
+            "LocalFalecimento": "${cidadeFa}",
+            "estado": "MG",
+            "apelido":""
+        },`
+
+
+
+
+            document.getElementById('result').value = texto
+
+
+
+        }
+        function copiarTexto() {
+            let textoCopiado = document.getElementById("result");
+            textoCopiado.select();
+            textoCopiado.setSelectionRange(0, 99999)
+            document.execCommand("copy");
+            document.getElementById('copiado').innerText = 'Copiado'
+        }
+        function colarTexto() {
+            let textoCopiado = document.getElementById("cbusca").value;
+            textoCopiado.select();
+            textoCopiado.setSelectionRange(0, 99999)
+            document.execCommand("paste");
+            document.getElementById('copiado').innerText = 'colado'
+            window.location.reload();
+        }
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

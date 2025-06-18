@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../arquivos/css/main.css">
+    <link rel="stylesheet" href="../arquivos/css/arquivos.css">
+
+    <title id="titleMeta">Peixe pescado na barragem de Lagoa dos Patos MG</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="/arquivos">
+                    <img style="background-color: rgb(48, 48, 48); padding:5px; border-radius:2px;" src="/img/logo-sala-mineira-do-empreendedor-lagoa-dos-patos-mg.svg" width="150%" >
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="/" class="navbar-item">
+                        Inicio
+                    </a>
+
+                    <a href="/arquivos" class="navbar-item">
+                        Arquivos
+                    </a>
+
+                    <!-- <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link">
+                    More
+                  </a>
+          
+                  <div class="navbar-dropdown">
+                    <a class="navbar-item">
+                      About
+                    </a>
+                    <a class="navbar-item">
+                      Jobs
+                    </a>
+                    <a class="navbar-item">
+                      Contact
+                    </a>
+                    <hr class="navbar-divider">
+                    <a class="navbar-item">
+                      Report an issue
+                    </a>
+                  </div>
+                </div> -->
+                </div>
+
+                <!-- <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-primary">
+                                <strong>Sign up</strong>
+                            </a>
+                            <a class="button is-light">
+                                Log in
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+            <ul id="bread">
+
+            </ul>
+        </nav>
+
+
+        <button class="js-modal-trigger button is-primary" data-target="modal-js-example">
+            + Informação
+        </button>
+
+        <div id="modal-js-example" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+                <header class="modal-card-head">
+                    <p class="title modal-card-title">Importante!</p>
+                    <button class="delete" aria-label="close"></button>
+                </header>
+                <section class="modal-card-body">
+                    <p>Os arquivos que se encontra neste local, foram retiradas de fontes externas, internas,
+                        publicações, todo tipo de mídia, trechos e muito mais, qualquer trecho que não tenha sido dado o
+                        devido direito, <a href="/contato">entre em contato</a> conosco para assim pudermos colocar.</p>
+                    <p>Está é referente a acontecimentos em Lagoa dos Patos MG, caso queira contribuir, também <a
+                            href="/contato">entre em contato</a> conosco</p>
+                    <p>Obs: tentaremos identificar as pessoas nas imagens, tentaremos identificar o local, data do
+                        ocorrido,
+                        todas as informações possíveis</p>
+                    <div id="infoModal">
+                        <h2>GLEITON APARECIDO SOARES DE SOUZA</h2>
+                    </div>
+                </section>
+                <footer class="modal-card-foot">
+                    <button class="button is-success">Compreendo</button>
+                    <button class="button">Fechar</button>
+                </footer>
+            </div>
+        </div>
+        <div>
+
+
+            <div class="aviso" id="aviso">
+
+            </div>
+
+        </div>
+        <div>
+
+            <div>
+
+            </div>
+            <div class="descricaoArtigo">
+                <div class="container-blog">
+                    <h1 class="title">Peixe Pescado na Barragem de Lagoa dos Patos MG</h1>
+                    <p>Data: <span>Desconhecida</span></p>
+
+                </div>
+                <div class="imgArtigo">
+                    <img src="./img/peixe-pescado-lagoa-dos-patos-mg-barragem.jpg" alt="">
+                </div>
+                <div class="imgArtigo">
+                    <img src="./img/peixe-pescado-lagoa-dos-patos-mg-barragem-pb.jpg" alt="">
+                </div>
+                <div class="imgArtigo">
+                    <img src="./img/peixe-pescado-lagoa-dos-patos-mg-barragem-ia.jpg" alt="">
+                </div>
+                <div class="imgArtigo">
+                    <img src="./img/peixe-pescado-lagoa-dos-patos-mg-barragem-antiga.jpeg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="peinfo">
+            gleiton aparecido soares de souza
+
+        </div>
+      
+    </footer>
+    <script>
+        const url = location.href.split('/');
+        const descArtigo = url[4].replace('html', '').replace('.', '').replace(/-/g, ' ').replace('materia', 'Matéria').replace('mg', 'MG')
+        document.querySelector('#bread').innerHTML = `
+        <li><a href="/${url[1]}">Home</a></li>
+          <li><a href="/${url[3]}">Arquivos</a></li>
+          <li class="is-active"><a href="/${url[3]}/${url[4]}" aria-current="page" style="text-transform: capitalize;">${descArtigo}</a></li>`;
+        const tituloM = document.querySelector('#tituloA').value.toString();
+        document.getElementById('titleMeta').innerHTML = `${tituloM}`
+    </script>
+
+    <!-- <script src="../arquivos/css/bulma-start-0.0.5/_javascript/main.js"></script> -->
+    <script src="../arquivos/js/js.js"></script>
+
+</body>
+
+</html>

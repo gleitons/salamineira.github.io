@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pegar Cursos</title>
+</head>
+
+<body>
+    <div id="ver">
+
+    </div>
+    <script>
+        var editais = []
+       
+        function pegandoEditais() {
+        //    for (let i = 3585; i <= 3618; i++) {
+        //        const url =
+
+                    //pegarDados(`https://lagoadospatos.mg.gov.br/licitacao/${i}/`)
+
+                    pegarDados('https://www.sebrae.com.br/sites/PortalSebrae/cursosonline/')
+
+          //  }
+        }
+        pegandoEditais()
+        var cursoInfos = []
+
+
+        function pegarDados(endereco) {
+
+            fetch(endereco)
+                .then((resp) => resp.text())
+                .then(function (data) {
+                    ver.innerHTML = data
+                    const corpoLicita = document.querySelector('#ver');
+                    const cursoPrimarios = document.getElementsByClassName('card-curso')
+
+                    //cursoPrimarios.length
+                    for (let i = 0; i < cursoPrimarios.length; i++){
+                        
+                        const categoria = cursoPrimarios[i].getElementsByClassName('sb-components__card__info')[0].getElementsByClassName('sb-components__card__info__tags')[0].innerText.split('/')[1]
+
+                        const imagem = cursoPrimarios[i].getElementsByClassName('sb-components__card__img')[0].getElementsByTagName('picture')[0].getElementsByTagName('data-src')[0].outerHTML.replace('<data-src srcset="', '').replace('" type="image/webp"></data-src>', '') 
+                        
+                        const nomeCurso = cursoPrimarios[i].getElementsByClassName('sb-components__card__info__title')[0].getElementsByTagName('a')[0].innerText;
+                        const linkdoCurso = cursoPrimarios[i].getElementsByClassName('sb-components__card__info__title')[0].getElementsByTagName('a')[0].href.replace(/http:\/\/127.0.0.1:5500/g , 'https://www.sebrae.com.br');
+    
+                        const custo = cursoPrimarios[i].getElementsByClassName('sb-components__card__info__details')[0].getElementsByTagName('span')[0].innerText;
+                        const tipo = cursoPrimarios[i].getElementsByClassName('sb-components__card__info__details')[0].getElementsByTagName('span')[1].innerText;
+                        if(cursoPrimarios[i].getElementsByClassName('sb-components__card__info__details')[0].getElementsByTagName('span')[2] != undefined) {
+                            var duracao = cursoPrimarios[i].getElementsByClassName('sb-components__card__info__details')[0].getElementsByTagName('span')[2].innerText;
+                        } else {
+                            var duracao = "Sem duração"
+                        }
+
+                        
+                        if(cursoPrimarios[i].getElementsByClassName('sb-components__card__info__details')[0].getElementsByTagName('span')[3] != undefined) {
+                            var prazo = cursoPrimarios[i].getElementsByClassName('sb-components__card__info__details')[0].getElementsByTagName('span')[3].innerText;  
+                        } else {
+                            var prazo = "Não definido"
+                        }
+                          
+
+                        console.log(prazo)
+                            const editalInfo = {
+                                
+                                    "categoria":categoria,
+                                    "curso": nomeCurso,
+                                    "valor": custo,
+                                    "tipo": tipo,
+                                    "duracao": duracao,
+                                    "conclusao": prazo,
+                                    "link": linkdoCurso,
+                                    "imagem":imagem
+                                
+                            }
+                            
+
+                            cursoInfos.push(editalInfo)
+                            localStorage.setItem('cursos', JSON.stringify(cursoInfos))
+
+                            console.log(cursoInfos)
+
+
+
+                    }
+                    
+                   
+                        
+
+                    
+                })
+                .catch(function (error) {
+                    console.log(error)
+                });
+
+
+        }
+
+
+
+
+
+
+
+    </script>
+    <script src="./Sebrae/Portal%20Sebrae/resources/js/sb-ead.js"></script>
+</body>
+
+</html>

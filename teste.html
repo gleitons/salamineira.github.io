@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/falecimentos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <title>Testando Array</title>
+    <style>
+        button {
+            background-color: rgba(255, 255, 255, 0);
+            color: black;
+            padding: .3em;
+            border: rgb(154, 154, 154) solid 1px;
+            margin: .5em;
+
+        }
+        .dblock {
+            display: block;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+
+    <main>
+        <!-- <div class="nomeL">
+            <li>MARIA MERCES DOS SANTOS</li>
+            <div>
+                <p>Caminho das Pedras</p>
+            </div>
+        </div> -->
+        <div id="botoesExibir">
+        </div>
+        <div id="estars"></div>
+        <input type="button" value="" >
+
+    </main>
+
+    <script>
+
+        const url = ('/falecimentos-teste')
+        var valor = 1;
+
+        async function btnbb() {
+            const resp = await fetch(url);
+            const myOb = await resp.json();
+            myOb.map((item) => {
+
+                document.getElementById('botoesExibir').innerHTML += `
+                <button id="botaoMostrar${valor}" type="button" onclick="mapArrayFalecido(${valor})">Falecido ${valor}</button>
+                <div id="impri${valor}"></div>
+                `;
+                valor++
+            })
+
+        }
+       // btnbb();
+
+
+        async function mapArrayFalecido(position) {
+            const exibir = document.querySelector(`#impri${position}`).id;
+            const botao = document.querySelector(`#botaoMostrar${position}`);
+            const response = await fetch(url);
+            const myObject = await response.json();
+           
+            console.log(exibir)
+            if (`impri${position}` == exibir) {
+
+                myObject.map(function (falecido,i) {
+
+                 botao.classList.add('dnone')
+                 gerador(position);
+                 
+                                     
+                }              
+
+                )
+              
+                console.log('Comparação correta')
+            } else {
+                console.log('Incorreta')
+            }
+            
+
+            
+
+            function gerador(position) {
+                const nome = "okok"
+                
+                const divLuto = document.createElement('div');
+                divLuto.setAttribute('id',`fechaDiv${position}`)
+                divLuto.classList.add('lutosC');
+                const imgFita = document.createElement('img');
+                imgFita.src = ('/imagens/fita-falecimento.png');
+                imgFita.classList.add('fita');
+                divLuto.appendChild(imgFita);
+                const divImgFalecido = document.createElement('div');
+                divImgFalecido.classList.add('imagemL');
+                divLuto.appendChild(divImgFalecido)
+                const imgFalecido = document.createElement('img');
+                imgFalecido.src = ('/falecimento/desconhecido-homem.png');
+                divImgFalecido.appendChild(imgFalecido)
+                const divVidro = document.createElement('div')
+                divVidro.classList.add('vidroF');
+                const nomeFalecido = document.createElement('p');
+                nomeFalecido.classList.add('nomeF');
+                nomeFalecido.textContent = nome;
+                divVidro.appendChild(nomeFalecido);
+                divLuto.appendChild(divVidro);
+                const divBtnEditar = document.createElement('div');
+                divBtnEditar.classList.add('bntEditar');
+                const iconeEditar = document.createElement('i');
+                iconeEditar.classList.add('bi', "bi-pencil-fill");
+                iconeEditar.textContent = "Fechar";
+                iconeEditar.setAttribute('id',`fecharJanela${position}`)
+                iconeEditar.setAttribute('onclick', `fechaJanela(${position})`)
+                divBtnEditar.appendChild(iconeEditar);
+                divLuto.appendChild(divBtnEditar);
+                position++
+
+               
+                const tudo = `<div class="lutosC">
+                    <img class="fita" src="/imagens/fita-falecimento.png" alt="">
+                    <div class="imagemL">
+                        <img src="/falecimento/desconhecido-homem.png" alt="">
+                    </div>
+                    <div class="vidroF">
+                        <p class="nomeF">Nome</p>
+                        <p class="aplido" id="apelidoT">Apelido</p>
+                       
+                        <div class="nascFalec">
+                            <i class="bi bi-star-fill"> Nascimento</i>
+                            <i class="bi bi-heartbreak-fill"> Falecimento</i>
+                        </div>
+                        <strong>
+                            <p class="aplido " style="margin-bottom:.3em;" ">23 anos</p>
+                        </strong>
+                       
+                        <p class="falecMae">Mãe</p>
+                    </div>
+                    <div class="nota">
+                        <p>Nota</p>
+                    </div>
+                    <div class="bntEditar">
+                                        <i class="bi bi-pencil-fill" id="abrirEditar" onclick="abrirModal()"> Editar</i>
+                                    </div>
+                </div>`
+                //console.log(cont)
+                console.log(valor)
+                const printDiv = document.querySelector(`#impri${valor-1}`)          
+                return printDiv.appendChild(divLuto);
+               
+                
+    
+    
+            }
+            gerador() ;
+
+        }
+        function fechaJanela(id){
+            console.log(id + " id")
+            const botao = document.getElementById(`botaoMostrar${id}`);
+            const divF = document.getElementById(`fechaDiv${id}`);
+            
+            divF.classList.add ('dnone')
+            //botao.classList.add ('dblock')
+            botao.classList.remove('dnone')
+        }
+
+
+
+
+
+
+
+
+        
+
+        function abreFecha() {
+
+        }
+
+        function gerador() {
+            
+            
+            const divLuto = document.createElement('div');
+            divLuto.classList.add('lutosC');
+            const imgFita = document.createElement('img');
+            imgFita.src = ('/imagens/fita-falecimento.png');
+            imgFita.classList.add('fita');
+            divLuto.appendChild(imgFita);
+            const divImgFalecido = document.createElement('div');
+            divImgFalecido.classList.add('imagemL');
+            divLuto.appendChild(divImgFalecido)
+            const imgFalecido = document.createElement('img');
+            imgFalecido.src = ('${falec.imagem}');
+            divImgFalecido.appendChild(imgFalecido)
+            const divVidro = document.createElement('div')
+            divVidro.classList.add('vidroF');
+            const nomeFalecido = document.createElement('p');
+            const apelidoFalecido = document.createElement('p');
+            nomeFalecido.classList.add('nomeF');
+            apelidoFalecido.setAttribute('class','aplido');
+            nomeFalecido.textContent = '${falec.nome}';
+            apelidoFalecido.textContent = '${apel}';
+            apelidoFalecido.setAttribute('id', 'apelidoT${apel}${con}');
+
+            const divNascFale = document.createElement('div');
+            divNascFale.setAttribute('class', 'nascFalec');
+            
+            const iconeFalecimento = document.createElement('i');
+            iconeFalecimento.setAttribute('class','bi bi-heartbreak-fill' );
+            iconeFalecimento.textContent = '${falec.Falecimento}';
+
+            
+
+            const iconeNacimento = document.createElement('i');
+            iconeNacimento.setAttribute('class','bi bi-star-fill' );
+            iconeNacimento.textContent = '${falec.nascimento}';
+
+            const pStrong = document.createElement('strong');
+            const idadefal = document.createElement('p');
+            idadefal.textContent = "${idadeF}";
+            idadefal.setAttribute('class', 'aplido');
+            idadefal.setAttribute('style', 'margin-bottom:.3em;');
+
+            
+
+            const nomeMae = document.createElement('p');
+            nomeMae.setAttribute('class', 'falecMae')
+            nomeMae.textContent = '${mamae}';
+
+            const divNotaFalecimento = document.createElement('div');
+            divNotaFalecimento.setAttribute('class', 'nota')
+            const NotaFalecimento = document.createElement('p');
+            NotaFalecimento.textContent = '${falec.nota}';
+
+            divNotaFalecimento.appendChild(NotaFalecimento);
+
+
+           
+
+            pStrong.appendChild(idadefal);
+            
+
+            divNascFale.appendChild(iconeNacimento)
+            divNascFale.appendChild(iconeFalecimento)
+            
+                      
+            divVidro.appendChild(nomeFalecido);
+            divVidro.appendChild(apelidoFalecido)
+            divVidro.appendChild(divNascFale); 
+            divVidro.appendChild(pStrong)
+            divVidro.appendChild(nomeMae)
+            divLuto.appendChild(divVidro);
+            divLuto.appendChild(divNotaFalecimento)
+            
+            const divBtnEditar = document.createElement('div');
+            divBtnEditar.classList.add('bntEditar');
+            const iconeEditar = document.createElement('i');
+            iconeEditar.classList.add('bi', "bi-pencil-fill");
+            iconeEditar.textContent = "Editar";
+            iconeEditar.setAttribute('id','abrirEditar${con}')
+            iconeEditar.setAttribute('onclick', "abrirModal(${con})")
+            divBtnEditar.appendChild(iconeEditar);
+            divLuto.appendChild(divBtnEditar);
+           
+           
+           
+            console.log(valor)
+            const printDiv = document.querySelector(`#estars`)          
+            return printDiv.appendChild(divLuto);
+           
+            
+
+
+        }
+        gerador() ;
+
+
+
+    </script>
+</body>
+
+</html>

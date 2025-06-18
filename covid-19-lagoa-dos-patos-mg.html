@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/stilo-sala.css">
+    <title>Covid-19 em Lagoa dos Patos MG</title>
+</head>
+
+<body>
+    <div class="infoCovidLagoa">
+        <h2>Boletim Epidemiológico COVID-19 Lagoa dos Patos MG</h2>
+        <p>Nossos dados foram extraidos de publições oficiais</p>
+        <select class="seli" name="" id="selectDia" onchange="covidRecente()">
+            <option value="">Data:</option>
+            <option value="02_03_2022">02/03/2022</option>
+            <option value="23_02_2022">23/02/2022</option>
+            <option value="18_02_2022">18/02/2022</option>
+            <option value="15_02_2022">15/02/2022</option>
+            <option value="08_02_2022">08/02/2022</option>
+            <option value="02_02_2022">02/02/2022</option>
+            <option value="31_01_2022">31/01/2022</option>
+            <option value="28_01_2022">28/01/2022</option>
+            <option value="22_01_2022">22/01/2022</option>
+            <option value="19_01_2022">19/01/2022</option>
+            <option value="18_01_2022">18/01/2022</option>
+            <option value="10_09_2021">10/09/2021</option>
+            <option value="31_08_2021">31/08/2021</option>
+            <option value="27_08_2021">27/08/2021</option>
+            <option value="25_08_2021">25/08/2021</option>
+            <option value="24_08_2021">24/08/2021</option>
+            <option value="16_08_2021">16/08/2021</option>
+            <option value="13_07_2021">13/07/2021</option>
+            <option value="10_07_2021">10/07/2021</option>
+            <option value="01_07_2021">01/07/2021</option>
+            <option value="22_06_2021">22/06/2021</option>
+            <option value="13_05_2021">13/05/2021</option>
+            <option value="16_04_2021">16/04/2021</option>
+            <option value="06_04_2021">06/04/2021</option>
+            <option value="25_03_2021">25/03/2021</option>
+            <option value="03_03_2021">03/03/2021</option>
+            <option value="26_02_2021">26/02/2021</option>
+            <option value="12_02_2021">12/02/2021</option>
+            <option value="14_01_2021">14/01/2021</option>
+            <option value="10_07_2020">10/07/2020</option>
+        </select>
+        <div class="dadosCovid">
+            <div onclick="vejaimgCovid()" id="colInfoCovid" class="colDadosCovid DFlex brilho">
+                <h3>ATIVOS</h3>
+                <h3 class="infoCovid" id="suspeitos"><img
+                        src="/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/loading-casos-de-covid-lagoa-dos-patos-mg.svg"
+                        alt="carregando casos de covid em lagoa dos patos mg"></h3>
+            </div>
+            <div onclick="vejaimgCovid()" style="background-color: rgb(206, 21, 0);"
+                class="colDadosCovid brilho DFlex brilho">
+                <h3>CONFIRMADOS</h3>
+                <h3 class="infoCovid" id="confirmados"><img
+                        src="/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/loading-casos-de-covid-lagoa-dos-patos-mg.svg"
+                        alt="carregando casos de covid em lagoa dos patos mg"></h3>
+            </div>
+            <div onclick="vejaimgCovid()" style="background-color: blueviolet;"
+                class="colDadosCovid brilho DFlex">
+                <h3>INTERNADOS</h3>
+                <h3 class="infoCovid" id="internados"><img
+                        src="/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/loading-casos-de-covid-lagoa-dos-patos-mg.svg"
+                        alt="carregando casos de covid em lagoa dos patos mg"></h3>
+            </div>
+            <div onclick="vejaimgCovid()" style="background-color: rgb(152, 152, 152);"
+                class="colDadosCovid brilho DFlex ">
+                <h3>ISOLAMENTO</h3>
+                <h3 class="infoCovid" id="isolamento"><img
+                        src="/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/loading-casos-de-covid-lagoa-dos-patos-mg.svg"
+                        alt="carregando casos de covid em lagoa dos patos mg"></h3>
+            </div>
+            <div onclick="vejaimgCovid()" style="background-color: rgb(78, 142, 93);"
+                class="colDadosCovid brilho DFlex">
+                <h3>DESCARTADOS</h3>
+                <h3 class="infoCovid" id="descartados"><img
+                        src="/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/loading-casos-de-covid-lagoa-dos-patos-mg.svg"
+                        alt="carregando casos de covid em lagoa dos patos mg"></h3>
+            </div>
+            <div onclick="vejaimgCovid()" style="background-color: rgb(18, 15, 15);"
+                class="colDadosCovid brilho DFlex">
+                <h3>ÓBITOS</h3>
+                <h3 class="infoCovid" id="obitos"><img
+                        src="/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/loading-casos-de-covid-lagoa-dos-patos-mg.svg"
+                        alt="carregando casos de covid em lagoa dos patos mg"></h3>
+            </div>
+            <div onclick="vejaimgCovid()" style="background-color: rgb(74, 137, 171);"
+                class="colDadosCovid brilho DFlex">
+                <h3>CURADOS</h3>
+                <h3 class="infoCovid" id="curados"><img
+                        src="/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/loading-casos-de-covid-lagoa-dos-patos-mg.svg"
+                        alt="carregando casos de covid em lagoa dos patos mg"></h3>
+            </div>
+            <div onclick="vejaimgCovid()" style="background-color: rgb(85, 99, 70);"
+                class="colDadosCovid brilho DFlex">
+                <h3>NOTIFICADOS</h3>
+                <h3 class="infoCovid" id="notificados"><img
+                        src="/imagens-sala/2022/01/covid-19-lagoa-dos-patos-mg/loading-casos-de-covid-lagoa-dos-patos-mg.svg"
+                        alt="carregando casos de covid em lagoa dos patos mg"></h3>
+            </div>
+        </div>
+        <div>
+            <div class="centerImg">
+                <p>Última atualização - <span id="dataC">18/01/2022</span></p>
+                <button class="btnColor" id="verImg" onclick="vejaimgCovid()">Ver Imagem</button>
+                <div class="dnone" id="imgcovid">
+                    <p>Clique na imagem para fechar</p>
+                    <img id="trocaImagemCovid"
+                        src="/imagens-sala/2022/01/boletim-covid-19-lagoa-dos-patos-mg.jpg"
+                        onclick="fechaimgCovid()" alt="covid-19 Lagoa dos Patos MG">
+                </div>
+            </div>
+        </div>
+        <!-- INICIO GRAFICO COVID 19 LAGOA DOS PATOS MG-->
+        <div class="grafiCovid">
+            <!-- <canvas id="myChart"></canvas> -->
+            <img style="width:100%" src="/imagens-sala/grafico-covid-lagoa-dos-patos-mg.png" alt="">
+        </div>
+        <!-- FIM GRAFICO COVID 19 LAGOA DOS PATOS MG-->
+        <div class="municipes">
+            <h4>Conheça nossos munícipes</h4>
+            <div class="munic">
+                <ol id="listaPopulacao">
+                </ol>
+            </div>
+            <a href="/habitantes-de-lagoa-dos-patos-mg.html"><button
+                    class="saibamais btnColor boshadow">VEJA TODOS CLICANDO AQUI</button></a>
+        </div>
+    </div>
+    <div id="container"></div>
+    <script type="module">
+
+        import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+
+        // Declare the chart dimensions and margins.
+        const width = 640;
+        const height = 400;
+        const marginTop = 20;
+        const marginRight = 20;
+        const marginBottom = 30;
+        const marginLeft = 40;
+
+        // Declare the x (horizontal position) scale.
+        const x = d3.scaleUtc()
+            .domain([new Date("2019-01-01"), new Date("2024-01-01")])
+            .range([marginLeft, width - marginRight]);
+
+        // Declare the y (vertical position) scale.
+        const y = d3.scaleLinear()
+            .domain([0, 500])
+            .range([height - marginBottom, marginTop]);
+
+        // Create the SVG container.
+        const svg = d3.create("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        // Add the x-axis.
+        svg.append("g")
+            .attr("transform", `translate(0,${height - marginBottom})`)
+            .call(d3.axisBottom(x));
+
+        // Add the y-axis.
+        svg.append("g")
+            .attr("transform", `translate(${marginLeft},0)`)
+            .call(d3.axisLeft(y));
+      
+
+        // Append the SVG element.
+        container.append(svg.node());
+
+    </script>
+</body>
+
+</html>

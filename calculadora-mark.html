@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULANDO</title>
+</head>
+<body>
+    <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSdNs0AcbhBemBRaGyLc-UCGJA9IHXp8b3ayZRJMKbjS1qZ2Uw/formResponse
+    " method="post">
+        <div class="calculadoraMark">
+            <h2>Calculadora Markup</h2>
+            
+            <table>
+                <tr>
+                    <td><p>Nome Produto:</p> </td>
+                    <td><input type="text" name="entry.1739419814" id="nomeProduto" required></td>
+                </tr>
+                <tr>
+                    <td>Preço de Custo: </td>
+                    <td><input type="text" placeholder="R$ Ex: Digite 150,00" name="entry.1657284054" id="pc" required></td>
+                </tr>
+                <tr>
+                    <td>Despesas fixas: </td>
+                    <td><input type="text" placeholder="em % = Ex: Digite 30" name="entry.1686110102" id="df" required></td>
+                </tr>
+                <tr>
+                    <td>Despesas Variaveis: </td>
+                    <td><input type="text" placeholder="em % = Ex: Digite 30" name="entry.230399988" id="dv" required></td>
+                </tr>
+                <tr>
+                    <td>Margem de Lucro: </td>
+                    <td><input type="text" placeholder="em % = Ex: Digite 30" name="entry.266809331" id="ml" required></td>
+                </tr>
+                <tr>
+                    <td>Clique em calcular</td>
+                    <td><button onclick="calcularMarkup()">Calcular</button></td>
+                </tr>
+                <tr>
+                    <td>Markup </td>
+                    <td><span id="resMarkup" name="entry.1227840659">Resultado</span></td>
+                </tr>
+                <tr>
+                    <td><p>Preço de Venda</p></td>
+                    <td><span id="pVenda" name="entry.2547051">Preço de Venda</span></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+    <script src="./form.js"></script>
+    
+</body>
+</html>

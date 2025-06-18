@@ -1,0 +1,6932 @@
+[
+  {
+    "ano": 2010,
+    "nome": "Abadia dos Dourados",
+    "aptidaoBoa": "5.500,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "850,00",
+    "pastagemPlantada": "5.500,00",
+    "pastagemNatural": "850,00",
+    "reserva": "5.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Abaeté",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "600,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "600,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Abre Campo",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Acaiaca",
+    "aptidaoBoa": "2.400,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Açucena",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Água Boa",
+    "aptidaoBoa": "510,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "25,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "25,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Água Comprida",
+    "aptidaoBoa": "650,00",
+    "aptdaoRegular": "13.000,00",
+    "aptdaoRestrita": "40,00",
+    "pastagemPlantada": "11.000,00",
+    "pastagemNatural": "40,00",
+    "reserva": "11.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Aguanil",
+    "aptidaoBoa": "5.500,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "3.400,00",
+    "pastagemPlantada": "1.900,00",
+    "pastagemNatural": "3.400,00",
+    "reserva": "1.900,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Águas Formosas",
+    "aptidaoBoa": "512,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "25,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "25,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Águas Vermelhas",
+    "aptidaoBoa": "480,00",
+    "aptdaoRegular": "600,00",
+    "aptdaoRestrita": "20,00",
+    "pastagemPlantada": "300,00",
+    "pastagemNatural": "20,00",
+    "reserva": "300,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Aimorés",
+    "aptidaoBoa": "7.100,00",
+    "aptdaoRegular": "6.600,00",
+    "aptdaoRestrita": "5.100,00",
+    "pastagemPlantada": "4.700,00",
+    "pastagemNatural": "5.100,00",
+    "reserva": "4.700,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Aiuruoca",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "2.400,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "2.400,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Alagoa",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Albertina",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Além Paraíba",
+    "aptidaoBoa": "1.750,00",
+    "aptdaoRegular": "1.300,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "750,00",
+    "pastagemNatural": "0,00",
+    "reserva": "750,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Almenara",
+    "aptidaoBoa": "1.800,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Alpinópolis",
+    "aptidaoBoa": "11.555,00",
+    "aptdaoRegular": "8.777,00",
+    "aptdaoRestrita": "7.652,00",
+    "pastagemPlantada": "3.600,00",
+    "pastagemNatural": "7.652,00",
+    "reserva": "3.600,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Alterosa",
+    "aptidaoBoa": "8.264,00",
+    "aptdaoRegular": "7.438,00",
+    "aptdaoRestrita": "7.438,00",
+    "pastagemPlantada": "4.132,00",
+    "pastagemNatural": "7.438,00",
+    "reserva": "4.132,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Alto Caparaó",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Alto Jequitibá",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Alto Rio Doce",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Alvarenga",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Alvinópolis",
+    "aptidaoBoa": "2.800,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.800,00",
+    "pastagemPlantada": "200,00",
+    "pastagemNatural": "1.800,00",
+    "reserva": "200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Alvorada de Minas",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Andradas",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Andrelândia",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Angelândia",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "2.200,00",
+    "pastagemPlantada": "1.800,00",
+    "pastagemNatural": "2.200,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Antônio Carlos",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Antônio Dias",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Antônio Prado de Minas",
+    "aptidaoBoa": "1.500,00",
+    "aptdaoRegular": "1.000,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "600,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "600,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Araçuaí",
+    "aptidaoBoa": "1.250,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "600,00",
+    "pastagemPlantada": "550,00",
+    "pastagemNatural": "600,00",
+    "reserva": "550,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Araguari",
+    "aptidaoBoa": "9.250,00",
+    "aptdaoRegular": "5.650,00",
+    "aptdaoRestrita": "4.850,00",
+    "pastagemPlantada": "4.050,00",
+    "pastagemNatural": "4.850,00",
+    "reserva": "4.050,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Arantina",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Araponga",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Araporã",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Arapuá",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Araújos",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "3.600,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "3.600,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Araxá",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Arceburgo",
+    "aptidaoBoa": "13.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Arcos",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Areado",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "20.000,00",
+    "aptdaoRestrita": "12.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "12.000,00",
+    "reserva": "15.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Argirita",
+    "aptidaoBoa": "1.400,00",
+    "aptdaoRegular": "1.300,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "900,00",
+    "pastagemNatural": "0,00",
+    "reserva": "900,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Aricanduva",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.800,00",
+    "aptdaoRestrita": "850,00",
+    "pastagemPlantada": "850,00",
+    "pastagemNatural": "850,00",
+    "reserva": "850,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Arinos",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "2.200,00",
+    "aptdaoRestrita": "1.100,00",
+    "pastagemPlantada": "1.600,00",
+    "pastagemNatural": "1.100,00",
+    "reserva": "1.600,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Astolfo Dutra",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ataléia",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Augusto de Lima",
+    "aptidaoBoa": "1.500,00",
+    "aptdaoRegular": "1.041,66",
+    "aptdaoRestrita": "520,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "520,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Baependi",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Baldim",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Bambuí",
+    "aptidaoBoa": "7.100,00",
+    "aptdaoRegular": "5.700,00",
+    "aptdaoRestrita": "3.200,00",
+    "pastagemPlantada": "3.700,00",
+    "pastagemNatural": "3.200,00",
+    "reserva": "3.700,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Bandeira",
+    "aptidaoBoa": "3.600,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Barão de Cocais",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Barão de Monte Alto",
+    "aptidaoBoa": "1.700,00",
+    "aptdaoRegular": "1.600,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Barbacena",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Belmiro Braga",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Belo Vale",
+    "aptidaoBoa": "6.500,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Berilo",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.800,00",
+    "aptdaoRestrita": "800,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "800,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Betim",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "5.500,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "5.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Bias Fortes",
+    "aptidaoBoa": "1.800,00",
+    "aptdaoRegular": "1.800,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Bicas",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Biquinhas",
+    "aptidaoBoa": "7.500,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Boa Esperança",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Bocaina de Minas",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Bocaiúva",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "500,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Bom Despacho",
+    "aptidaoBoa": "1.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Bom Jardim de Minas",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Bom Jesus da Penha",
+    "aptidaoBoa": "12.500,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "7.500,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "7.500,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Bom Jesus do Amparo",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Bom Repouso",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Bom Sucesso",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "600,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "600,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Bonfim",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "15.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "15.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Bonfinópolis de Minas",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Bonito de Minas",
+    "aptidaoBoa": "400,00",
+    "aptdaoRegular": "350,00",
+    "aptdaoRestrita": "100,00",
+    "pastagemPlantada": "150,00",
+    "pastagemNatural": "100,00",
+    "reserva": "150,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Borda da Mata",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Brás Pires",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Brasilândia de Minas",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Brasília de Minas",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.700,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Brasópolis",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "4.500,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "4.500,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Bueno Brandão",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "12.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "12.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Buritis",
+    "aptidaoBoa": "5.500,00",
+    "aptdaoRegular": "2.800,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cabeceira Grande",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "1.800,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.800,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cabo Verde",
+    "aptidaoBoa": "19.500,00",
+    "aptdaoRegular": "14.400,00",
+    "aptdaoRestrita": "16.800,00",
+    "pastagemPlantada": "9.600,00",
+    "pastagemNatural": "16.800,00",
+    "reserva": "9.600,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cachoeira da Prata",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cachoeira de Minas",
+    "aptidaoBoa": "8.300,00",
+    "aptdaoRegular": "6.900,00",
+    "aptdaoRestrita": "7.900,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "7.900,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cachoeira de Pajeú",
+    "aptidaoBoa": "1.050,00",
+    "aptdaoRegular": "900,00",
+    "aptdaoRestrita": "700,00",
+    "pastagemPlantada": "950,00",
+    "pastagemNatural": "700,00",
+    "reserva": "950,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cachoeira Dourada",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Caetanópolis",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Caiana",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cajuri",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Caldas",
+    "aptidaoBoa": "8.265,00",
+    "aptdaoRegular": "7.500,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Camacho",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Camanducaia",
+    "aptidaoBoa": "8.500,00",
+    "aptdaoRegular": "6.200,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cambuí",
+    "aptidaoBoa": "25.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "20.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "20.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cambuquira",
+    "aptidaoBoa": "18.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Campanário",
+    "aptidaoBoa": "309.917,00",
+    "aptdaoRegular": "309.917,00",
+    "aptdaoRestrita": "120.000,00",
+    "pastagemPlantada": "309.917,00",
+    "pastagemNatural": "120.000,00",
+    "reserva": "309.917,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Campestre",
+    "aptidaoBoa": "18.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Campina Verde",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Campo Azul",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "500,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Campo Belo",
+    "aptidaoBoa": "5.500,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Campo do Meio",
+    "aptidaoBoa": "12.500,00",
+    "aptdaoRegular": "9.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Campo Florido",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Campos Altos",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.600,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Campos Gerais",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cana Verde",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Canaã",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Canápolis",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Candeias",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Caparaó",
+    "aptidaoBoa": "1.200,00",
+    "aptdaoRegular": "6.600,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Capela Nova",
+    "aptidaoBoa": "1.600,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.800,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Capelinha",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Capetinga",
+    "aptidaoBoa": "13.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "9.000,00",
+    "pastagemPlantada": "6.500,00",
+    "pastagemNatural": "9.000,00",
+    "reserva": "6.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Capim Branco",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Capinópolis",
+    "aptidaoBoa": "9.500,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Capitão Andrade",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "9.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Capitólio",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "1.800,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "1.800,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Caraí",
+    "aptidaoBoa": "1.500,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "600,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "600,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Carandaí",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "7.500,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Carangola",
+    "aptidaoBoa": "2.300,00",
+    "aptdaoRegular": "1.700,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Carbonita",
+    "aptidaoBoa": "1.500,00",
+    "aptdaoRegular": "1.000,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "850,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "850,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Carlos Chagas",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "2.200,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "2.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Carmésia",
+    "aptidaoBoa": "800,00",
+    "aptdaoRegular": "600,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "450,00",
+    "pastagemNatural": "0,00",
+    "reserva": "450,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Carmo da Cachoeira",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Carmo da Mata",
+    "aptidaoBoa": "8.500,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Carmo de Minas",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.800,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Carmo do Paranaíba",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Carmo do Rio Claro",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "8.500,00",
+    "aptdaoRestrita": "8.500,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "8.500,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Carneirinho",
+    "aptidaoBoa": "7.600,00",
+    "aptdaoRegular": "6.400,00",
+    "aptdaoRestrita": "3.790,00",
+    "pastagemPlantada": "3.200,00",
+    "pastagemNatural": "3.790,00",
+    "reserva": "3.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Carrancas",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Carvalhópolis",
+    "aptidaoBoa": "12.396,69",
+    "aptdaoRegular": "8.264,46",
+    "aptdaoRestrita": "8.264,46",
+    "pastagemPlantada": "4.132,24",
+    "pastagemNatural": "8.264,46",
+    "reserva": "4.132,24"
+  },
+  {
+    "ano": 2010,
+    "nome": "Carvalhos",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cássia",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cataguases",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Catas Altas da Noruega",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Catuji",
+    "aptidaoBoa": "1.500,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "700,00",
+    "pastagemPlantada": "700,00",
+    "pastagemNatural": "700,00",
+    "reserva": "700,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Caxambu",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cedro do Abaeté",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.800,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Central de Minas",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Centralina",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Chácara",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "700,00",
+    "pastagemNatural": "0,00",
+    "reserva": "700,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Chalé",
+    "aptidaoBoa": "900,00",
+    "aptdaoRegular": "700,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "400,00",
+    "pastagemNatural": "0,00",
+    "reserva": "400,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Chapada do Norte",
+    "aptidaoBoa": "380,00",
+    "aptdaoRegular": "450,00",
+    "aptdaoRestrita": "180,00",
+    "pastagemPlantada": "150,00",
+    "pastagemNatural": "180,00",
+    "reserva": "150,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Chapada Gaúcha",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.200,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "1.300,00",
+    "pastagemNatural": "500,00",
+    "reserva": "1.300,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Chiador",
+    "aptidaoBoa": "16.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "14.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "14.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Claraval",
+    "aptidaoBoa": "20.600,00",
+    "aptdaoRegular": "14.400,00",
+    "aptdaoRestrita": "17.500,00",
+    "pastagemPlantada": "10.300,00",
+    "pastagemNatural": "17.500,00",
+    "reserva": "10.300,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Claro dos Poções",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "700,00",
+    "aptdaoRestrita": "130,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "130,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cláudio",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Coimbra",
+    "aptidaoBoa": "3.800,00",
+    "aptdaoRegular": "2.600,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Coluna",
+    "aptidaoBoa": "7.500,00",
+    "aptdaoRegular": "3.900,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Comendador Gomes",
+    "aptidaoBoa": "5.500,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Comercinho",
+    "aptidaoBoa": "800,00",
+    "aptdaoRegular": "400,00",
+    "aptdaoRestrita": "560,00",
+    "pastagemPlantada": "250,00",
+    "pastagemNatural": "560,00",
+    "reserva": "250,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Conceição da Aparecida",
+    "aptidaoBoa": "16.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Conceição da Barra de Minas",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Conceição das Alagoas",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "8.500,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Conceição de Ipanema",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "2.400,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Conceição do Mato Dentro",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Conceição do Pará",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Conceição do Rio Verde",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Conceição dos Ouros",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "9.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "9.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cônego Marinho",
+    "aptidaoBoa": "300,00",
+    "aptdaoRegular": "200,00",
+    "aptdaoRestrita": "100,00",
+    "pastagemPlantada": "100,00",
+    "pastagemNatural": "100,00",
+    "reserva": "100,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Confins",
+    "aptidaoBoa": "45.000,00",
+    "aptdaoRegular": "40.000,00",
+    "aptdaoRestrita": "30.000,00",
+    "pastagemPlantada": "25.000,00",
+    "pastagemNatural": "30.000,00",
+    "reserva": "25.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Congonhal",
+    "aptidaoBoa": "9.500,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "6.200,00",
+    "pastagemPlantada": "3.800,00",
+    "pastagemNatural": "6.200,00",
+    "reserva": "3.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Congonhas do Norte",
+    "aptidaoBoa": "1.900,00",
+    "aptdaoRegular": "1.600,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "1.800,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Conquista",
+    "aptidaoBoa": "12.396,00",
+    "aptdaoRegular": "12.396,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "6.198,00",
+    "pastagemNatural": "0,00",
+    "reserva": "6.198,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Conselheiro Lafaiete",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Conselheiro Pena",
+    "aptidaoBoa": "4.250,00",
+    "aptdaoRegular": "4.230,00",
+    "aptdaoRestrita": "3.850,00",
+    "pastagemPlantada": "2.400,00",
+    "pastagemNatural": "3.850,00",
+    "reserva": "2.400,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Consolação",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Contagem",
+    "aptidaoBoa": "30.000,00",
+    "aptdaoRegular": "20.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Coqueiral",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Coração de Jesus",
+    "aptidaoBoa": "650,00",
+    "aptdaoRegular": "550,00",
+    "aptdaoRestrita": "150,00",
+    "pastagemPlantada": "420,00",
+    "pastagemNatural": "150,00",
+    "reserva": "420,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cordislândia",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "9.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Coroaci",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Coromandel",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Coronel Murta",
+    "aptidaoBoa": "170,00",
+    "aptdaoRegular": "1.200,00",
+    "aptdaoRestrita": "460,00",
+    "pastagemPlantada": "870,00",
+    "pastagemNatural": "460,00",
+    "reserva": "870,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Córrego Danta",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Córrego Fundo",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Córrego Novo",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Couto de Magalhães de Minas",
+    "aptidaoBoa": "2.200,00",
+    "aptdaoRegular": "1.700,00",
+    "aptdaoRestrita": "600,00",
+    "pastagemPlantada": "700,00",
+    "pastagemNatural": "600,00",
+    "reserva": "700,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Crisólita",
+    "aptidaoBoa": "1.600,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "3.200,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "3.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cristais",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cristália",
+    "aptidaoBoa": "700,00",
+    "aptdaoRegular": "400,00",
+    "aptdaoRestrita": "180,00",
+    "pastagemPlantada": "150,00",
+    "pastagemNatural": "180,00",
+    "reserva": "150,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cristina",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Crucilândia",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cruzeiro da Fortaleza",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "6.500,00",
+    "aptdaoRestrita": "7.500,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "7.500,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cruzília",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "3.300,00",
+    "pastagemPlantada": "1.100,00",
+    "pastagemNatural": "3.300,00",
+    "reserva": "1.100,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Cuparaque",
+    "aptidaoBoa": "8.750,00",
+    "aptdaoRegular": "8.750,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "1.250,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "1.250,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Curral de Dentro",
+    "aptidaoBoa": "700,00",
+    "aptdaoRegular": "500,00",
+    "aptdaoRestrita": "400,00",
+    "pastagemPlantada": "500,00",
+    "pastagemNatural": "400,00",
+    "reserva": "500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Curvelo",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "300,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Datas",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Delfim Moreira",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Delfinópolis",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Delta",
+    "aptidaoBoa": "5.371,90",
+    "aptdaoRegular": "4.752,07",
+    "aptdaoRestrita": "4.132,23",
+    "pastagemPlantada": "4.028,93",
+    "pastagemNatural": "4.132,23",
+    "reserva": "4.028,93"
+  },
+  {
+    "ano": 2010,
+    "nome": "Descoberto",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Desterro de Entre Rios",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Desterro do Melo",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Diamantina",
+    "aptidaoBoa": "1.500,00",
+    "aptdaoRegular": "1.000,00",
+    "aptdaoRestrita": "300,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "300,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Divinésia",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Divino",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Divino das Laranjeiras",
+    "aptidaoBoa": "4.450,00",
+    "aptdaoRegular": "3.750,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Divinolândia de Minas",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "1.600,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.600,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Divinópolis",
+    "aptidaoBoa": "14.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Divisa Alegre",
+    "aptidaoBoa": "800,00",
+    "aptdaoRegular": "500,00",
+    "aptdaoRestrita": "700,00",
+    "pastagemPlantada": "400,00",
+    "pastagemNatural": "700,00",
+    "reserva": "400,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Divisópolis",
+    "aptidaoBoa": "900,00",
+    "aptdaoRegular": "750,00",
+    "aptdaoRestrita": "250,00",
+    "pastagemPlantada": "400,00",
+    "pastagemNatural": "250,00",
+    "reserva": "400,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Dom Cavati",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Dom Joaquim",
+    "aptidaoBoa": "3.099,00",
+    "aptdaoRegular": "3.099,00",
+    "aptdaoRestrita": "2.479,00",
+    "pastagemPlantada": "1.652,00",
+    "pastagemNatural": "2.479,00",
+    "reserva": "1.652,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Dom Silvério",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Dom Viçoso",
+    "aptidaoBoa": "4.800,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Dona Euzébia",
+    "aptidaoBoa": "1.200,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Dores de Guanhães",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.700,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Dores do Indaiá",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Dores do Turvo",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Doresópolis",
+    "aptidaoBoa": "8.600,00",
+    "aptdaoRegular": "8.200,00",
+    "aptdaoRestrita": "7.400,00",
+    "pastagemPlantada": "8.200,00",
+    "pastagemNatural": "7.400,00",
+    "reserva": "8.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Engenheiro Caldas",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "11.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Engenheiro Navarro",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Entre Rios de Minas",
+    "aptidaoBoa": "6.500,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "4.400,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "4.400,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ervália",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Esmeraldas",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Espera Feliz",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Espírito Santo do Dourado",
+    "aptidaoBoa": "9.298,00",
+    "aptdaoRegular": "6.900,00",
+    "aptdaoRestrita": "6.642,00",
+    "pastagemPlantada": "2.314,00",
+    "pastagemNatural": "6.642,00",
+    "reserva": "2.314,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Estiva",
+    "aptidaoBoa": "12.396,00",
+    "aptdaoRegular": "12.396,00",
+    "aptdaoRestrita": "10.330,57",
+    "pastagemPlantada": "4.200,00",
+    "pastagemNatural": "10.330,57",
+    "reserva": "4.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Estrela do Indaiá",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Eugenópolis",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Fama",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Faria Lemos",
+    "aptidaoBoa": "1.500,00",
+    "aptdaoRegular": "1.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "600,00",
+    "pastagemNatural": "0,00",
+    "reserva": "600,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Felício dos Santos",
+    "aptidaoBoa": "2.730,00",
+    "aptdaoRegular": "1.950,00",
+    "aptdaoRestrita": "950,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "950,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Felisburgo",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Felixlândia",
+    "aptidaoBoa": "6.800,00",
+    "aptdaoRegular": "4.200,00",
+    "aptdaoRestrita": "3.800,00",
+    "pastagemPlantada": "4.200,00",
+    "pastagemNatural": "3.800,00",
+    "reserva": "4.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Fernandes Tourinho",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "11.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Fervedouro",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Florestal",
+    "aptidaoBoa": "8.500,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Formiga",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Fortaleza de Minas",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Fortuna de Minas",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Francisco Badaró",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "800,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "800,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Francisco Dumont",
+    "aptidaoBoa": "1.800,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "500,00",
+    "pastagemNatural": "500,00",
+    "reserva": "500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Francisco Sá",
+    "aptidaoBoa": "1.000,00",
+    "aptdaoRegular": "1.800,00",
+    "aptdaoRestrita": "600,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "600,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Franciscópolis",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "4.100,00",
+    "aptdaoRestrita": "2.800,00",
+    "pastagemPlantada": "2.800,00",
+    "pastagemNatural": "2.800,00",
+    "reserva": "2.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Frei Gaspar",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Frei Inocêncio",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Frei Lagonegro",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "0,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Fronteira",
+    "aptidaoBoa": "9.500,00",
+    "aptdaoRegular": "6.800,00",
+    "aptdaoRestrita": "7.500,00",
+    "pastagemPlantada": "5.500,00",
+    "pastagemNatural": "7.500,00",
+    "reserva": "5.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Fronteira dos Vales",
+    "aptidaoBoa": "1.700,00",
+    "aptdaoRegular": "1.600,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "0,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Fruta de Leite",
+    "aptidaoBoa": "800,00",
+    "aptdaoRegular": "500,00",
+    "aptdaoRestrita": "350,00",
+    "pastagemPlantada": "400,00",
+    "pastagemNatural": "350,00",
+    "reserva": "400,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Frutal",
+    "aptidaoBoa": "8.500,00",
+    "aptdaoRegular": "7.500,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Funilândia",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.700,00",
+    "aptdaoRestrita": "1.400,00",
+    "pastagemPlantada": "1.980,00",
+    "pastagemNatural": "1.400,00",
+    "reserva": "1.980,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Galiléia",
+    "aptidaoBoa": "4.250,00",
+    "aptdaoRegular": "4.230,00",
+    "aptdaoRestrita": "3.800,00",
+    "pastagemPlantada": "2.400,00",
+    "pastagemNatural": "3.800,00",
+    "reserva": "2.400,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Glaucilândia",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.200,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Goiabeira",
+    "aptidaoBoa": "4.200,00",
+    "aptdaoRegular": "4.200,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "3.300,00",
+    "pastagemNatural": "0,00",
+    "reserva": "3.300,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Goianá",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Gonçalves",
+    "aptidaoBoa": "33.000,00",
+    "aptdaoRegular": "25.000,00",
+    "aptdaoRestrita": "20.000,00",
+    "pastagemPlantada": "45.000,00",
+    "pastagemNatural": "20.000,00",
+    "reserva": "45.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Gouveia",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Governador Valadares",
+    "aptidaoBoa": "4.100,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Grão Mogol",
+    "aptidaoBoa": "800,00",
+    "aptdaoRegular": "800,00",
+    "aptdaoRestrita": "120,00",
+    "pastagemPlantada": "300,00",
+    "pastagemNatural": "120,00",
+    "reserva": "300,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Grupiara",
+    "aptidaoBoa": "4.200,00",
+    "aptdaoRegular": "3.800,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Guanhães",
+    "aptidaoBoa": "1.200,00",
+    "aptdaoRegular": "1.200,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "0,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Guapé",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Guaraciaba",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Guaraciama",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Guaranésia",
+    "aptidaoBoa": "8.200,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Guarani",
+    "aptidaoBoa": "5.500,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Guarará",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Guarda-Mor",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Guaxupé",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Guidoval",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Guiricema",
+    "aptidaoBoa": "16.000,00",
+    "aptdaoRegular": "14.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Gurinhatã",
+    "aptidaoBoa": "6.198,00",
+    "aptdaoRegular": "4.752,00",
+    "aptdaoRestrita": "2.685,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "2.685,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Heliodora",
+    "aptidaoBoa": "12.400,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ibiá",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ibiaí",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ibiracatu",
+    "aptidaoBoa": "800,00",
+    "aptdaoRegular": "700,00",
+    "aptdaoRestrita": "300,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "300,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ibiraci",
+    "aptidaoBoa": "12.500,00",
+    "aptdaoRegular": "8.333,00",
+    "aptdaoRestrita": "6.250,00",
+    "pastagemPlantada": "4.166,00",
+    "pastagemNatural": "6.250,00",
+    "reserva": "4.166,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ibitiúra de Minas",
+    "aptidaoBoa": "14.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ibituruna",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Icaraí de Minas",
+    "aptidaoBoa": "2.700,00",
+    "aptdaoRegular": "2.400,00",
+    "aptdaoRestrita": "2.200,00",
+    "pastagemPlantada": "2.400,00",
+    "pastagemNatural": "2.200,00",
+    "reserva": "2.400,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Igarapé",
+    "aptidaoBoa": "30.000,00",
+    "aptdaoRegular": "25.000,00",
+    "aptdaoRestrita": "25.000,00",
+    "pastagemPlantada": "30.000,00",
+    "pastagemNatural": "25.000,00",
+    "reserva": "30.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Igaratinga",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ilicínea",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "9.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "3.700,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "3.700,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Inconfidentes",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.100,00",
+    "pastagemPlantada": "20.000,00",
+    "pastagemNatural": "2.100,00",
+    "reserva": "20.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Indaiabira",
+    "aptidaoBoa": "800,00",
+    "aptdaoRegular": "700,00",
+    "aptdaoRestrita": "600,00",
+    "pastagemPlantada": "650,00",
+    "pastagemNatural": "600,00",
+    "reserva": "650,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Indianópolis",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "5.500,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ingaí",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Inhapim",
+    "aptidaoBoa": "5.371,00",
+    "aptdaoRegular": "3.305,00",
+    "aptdaoRestrita": "1.239,00",
+    "pastagemPlantada": "1.446,00",
+    "pastagemNatural": "1.239,00",
+    "reserva": "1.446,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Inhaúma",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ipanema",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "2.200,00",
+    "pastagemPlantada": "2.800,00",
+    "pastagemNatural": "2.200,00",
+    "reserva": "2.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ipiaçu",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "5.500,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ipuiúna",
+    "aptidaoBoa": "8.500,00",
+    "aptdaoRegular": "8.500,00",
+    "aptdaoRestrita": "8.500,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "8.500,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itabira",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itabirinha",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itabirito",
+    "aptidaoBoa": "4.300,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "2.900,00",
+    "pastagemPlantada": "3.300,00",
+    "pastagemNatural": "2.900,00",
+    "reserva": "3.300,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itacambira",
+    "aptidaoBoa": "600,00",
+    "aptdaoRegular": "400,00",
+    "aptdaoRestrita": "150,00",
+    "pastagemPlantada": "200,00",
+    "pastagemNatural": "150,00",
+    "reserva": "200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itacarambi",
+    "aptidaoBoa": "520,00",
+    "aptdaoRegular": "400,00",
+    "aptdaoRestrita": "520,00",
+    "pastagemPlantada": "400,00",
+    "pastagemNatural": "520,00",
+    "reserva": "400,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itaguara",
+    "aptidaoBoa": "7.500,00",
+    "aptdaoRegular": "7.500,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itaipé",
+    "aptidaoBoa": "1.650,00",
+    "aptdaoRegular": "800,00",
+    "aptdaoRestrita": "720,00",
+    "pastagemPlantada": "1.550,00",
+    "pastagemNatural": "720,00",
+    "reserva": "1.550,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itajubá",
+    "aptidaoBoa": "11.000,00",
+    "aptdaoRegular": "6.500,00",
+    "aptdaoRestrita": "4.500,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "4.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itamarandiba",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itamarati de Minas",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itambacuri",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itambé do Mato Dentro",
+    "aptidaoBoa": "6.300,00",
+    "aptdaoRegular": "6.300,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itamogi",
+    "aptidaoBoa": "16.500,00",
+    "aptdaoRegular": "16.000,00",
+    "aptdaoRestrita": "16.000,00",
+    "pastagemPlantada": "16.000,00",
+    "pastagemNatural": "16.000,00",
+    "reserva": "16.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itamonte",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.500,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itanhandu",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itanhomi",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itaobim",
+    "aptidaoBoa": "750,00",
+    "aptdaoRegular": "650,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "350,00",
+    "pastagemNatural": "0,00",
+    "reserva": "350,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itapagipe",
+    "aptidaoBoa": "9.200,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "7.800,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "7.800,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itapecerica",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itatiaiuçu",
+    "aptidaoBoa": "5.800,00",
+    "aptdaoRegular": "5.850,00",
+    "aptdaoRestrita": "5.450,00",
+    "pastagemPlantada": "5.550,00",
+    "pastagemNatural": "5.450,00",
+    "reserva": "5.550,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itaú de Minas",
+    "aptidaoBoa": "8.720,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itaúna",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itaverava",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "1.800,00",
+    "pastagemPlantada": "3.200,00",
+    "pastagemNatural": "1.800,00",
+    "reserva": "3.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itueta",
+    "aptidaoBoa": "6.400,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "3.800,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "3.800,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ituiutaba",
+    "aptidaoBoa": "7.200,00",
+    "aptdaoRegular": "6.200,00",
+    "aptdaoRestrita": "5.200,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "5.200,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itumirim",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Iturama",
+    "aptidaoBoa": "6.200,00",
+    "aptdaoRegular": "5.500,00",
+    "aptdaoRestrita": "5.500,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "5.500,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Itutinga",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Jaboticatubas",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.500,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "6.500,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "6.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Jacinto",
+    "aptidaoBoa": "1.250,00",
+    "aptdaoRegular": "1.200,00",
+    "aptdaoRestrita": "840,00",
+    "pastagemPlantada": "400,00",
+    "pastagemNatural": "840,00",
+    "reserva": "400,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Jacuí",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Jacutinga",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Jampruca",
+    "aptidaoBoa": "4.132,23",
+    "aptdaoRegular": "3.099,00",
+    "aptdaoRestrita": "3.099,00",
+    "pastagemPlantada": "3.099,00",
+    "pastagemNatural": "3.099,00",
+    "reserva": "3.099,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Januária",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "600,00",
+    "pastagemPlantada": "1.800,00",
+    "pastagemNatural": "600,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Japaraíba",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Japonvar",
+    "aptidaoBoa": "1.700,00",
+    "aptdaoRegular": "1.200,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Jenipapo de Minas",
+    "aptidaoBoa": "800,00",
+    "aptdaoRegular": "600,00",
+    "aptdaoRestrita": "300,00",
+    "pastagemPlantada": "700,00",
+    "pastagemNatural": "300,00",
+    "reserva": "700,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Jequeri",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Jequitaí",
+    "aptidaoBoa": "3.200,00",
+    "aptdaoRegular": "3.200,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Jequitibá",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Jesuânia",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "7.500,00",
+    "aptdaoRestrita": "4.500,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "4.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Joaíma",
+    "aptidaoBoa": "2.800,00",
+    "aptdaoRegular": "2.200,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "João Monlevade",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "João Pinheiro",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.800,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "1.800,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Jordânia",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "José Gonçalves de Minas",
+    "aptidaoBoa": "1.200,00",
+    "aptdaoRegular": "1.200,00",
+    "aptdaoRestrita": "800,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "800,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "José Raydan",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.200,00",
+    "aptdaoRestrita": "1.600,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "1.600,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Josenópolis",
+    "aptidaoBoa": "280,00",
+    "aptdaoRegular": "380,00",
+    "aptdaoRestrita": "180,00",
+    "pastagemPlantada": "160,00",
+    "pastagemNatural": "180,00",
+    "reserva": "160,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Juatuba",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.600,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.600,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Juiz de Fora",
+    "aptidaoBoa": "2.800,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Juramento",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Juruaia",
+    "aptidaoBoa": "14.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Juvenília",
+    "aptidaoBoa": "900,00",
+    "aptdaoRegular": "690,00",
+    "aptdaoRestrita": "400,00",
+    "pastagemPlantada": "400,00",
+    "pastagemNatural": "400,00",
+    "reserva": "400,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ladainha",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Lagoa da Prata",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Lagoa dos Patos",
+    "aptidaoBoa": "1.800,00",
+    "aptdaoRegular": "900,00",
+    "aptdaoRestrita": "600,00",
+    "pastagemPlantada": "1.800,00",
+    "pastagemNatural": "600,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Lagoa Dourada",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.200,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Lagoa Formosa",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "2.320,00",
+    "pastagemPlantada": "2.400,00",
+    "pastagemNatural": "2.320,00",
+    "reserva": "2.400,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Lagoa Grande",
+    "aptidaoBoa": "6.300,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Lagoa Santa",
+    "aptidaoBoa": "50.000,00",
+    "aptdaoRegular": "30.000,00",
+    "aptdaoRestrita": "25.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "25.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Lajinha",
+    "aptidaoBoa": "3.100,00",
+    "aptdaoRegular": "1.800,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "700,00",
+    "pastagemNatural": "0,00",
+    "reserva": "700,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Lamim",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Laranjal",
+    "aptidaoBoa": "5.400,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "5.100,00",
+    "pastagemNatural": "0,00",
+    "reserva": "5.100,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Lavras",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Leandro Ferreira",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Leme do Prado",
+    "aptidaoBoa": "1.000,00",
+    "aptdaoRegular": "800,00",
+    "aptdaoRestrita": "600,00",
+    "pastagemPlantada": "500,00",
+    "pastagemNatural": "600,00",
+    "reserva": "500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Leopoldina",
+    "aptidaoBoa": "6.500,00",
+    "aptdaoRegular": "4.300,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "4.300,00",
+    "pastagemNatural": "0,00",
+    "reserva": "4.300,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Liberdade",
+    "aptidaoBoa": "1.750,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "1.250,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "1.250,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Lima Duarte",
+    "aptidaoBoa": "1.200,00",
+    "aptdaoRegular": "1.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Limeira do Oeste",
+    "aptidaoBoa": "4.864,86",
+    "aptdaoRegular": "4.577,35",
+    "aptdaoRestrita": "4.402,94",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "4.402,94",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Lontra",
+    "aptidaoBoa": "650,00",
+    "aptdaoRegular": "450,00",
+    "aptdaoRestrita": "400,00",
+    "pastagemPlantada": "435,00",
+    "pastagemNatural": "400,00",
+    "reserva": "435,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Luisburgo",
+    "aptidaoBoa": "3.600,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Luislândia",
+    "aptidaoBoa": "1.800,00",
+    "aptdaoRegular": "1.200,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Luminárias",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "4.500,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "4.500,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Luz",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Machado",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Madre de Deus de Minas",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.800,00",
+    "pastagemPlantada": "500,00",
+    "pastagemNatural": "2.800,00",
+    "reserva": "500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Malacacheta",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Manga",
+    "aptidaoBoa": "1.300,00",
+    "aptdaoRegular": "900,00",
+    "aptdaoRestrita": "355,00",
+    "pastagemPlantada": "400,00",
+    "pastagemNatural": "355,00",
+    "reserva": "400,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Manhuaçu",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "0,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Manhumirim",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "1.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Mantena",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Mar de Espanha",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Maravilhas",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Maria da Fé",
+    "aptidaoBoa": "11.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "6.500,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "6.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Mariana",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Marilac",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.200,00",
+    "aptdaoRestrita": "800,00",
+    "pastagemPlantada": "550,00",
+    "pastagemNatural": "800,00",
+    "reserva": "550,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Mário Campos",
+    "aptidaoBoa": "30.000,00",
+    "aptdaoRegular": "20.000,00",
+    "aptdaoRestrita": "20.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "20.000,00",
+    "reserva": "15.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Maripá de Minas",
+    "aptidaoBoa": "2.300,00",
+    "aptdaoRegular": "2.050,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.400,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.400,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Marliéria",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Marmelópolis",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Martinho Campos",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Martins Soares",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "12.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Mata Verde",
+    "aptidaoBoa": "4.166,66",
+    "aptdaoRegular": "3.125,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Materlândia",
+    "aptidaoBoa": "600,00",
+    "aptdaoRegular": "400,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "300,00",
+    "pastagemNatural": "0,00",
+    "reserva": "300,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Mateus Leme",
+    "aptidaoBoa": "13.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Mathias Lobato",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Matias Barbosa",
+    "aptidaoBoa": "1.500,00",
+    "aptdaoRegular": "1.200,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Mato Verde",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.700,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Matozinhos",
+    "aptidaoBoa": "3.750,00",
+    "aptdaoRegular": "2.850,00",
+    "aptdaoRestrita": "1.800,00",
+    "pastagemPlantada": "2.250,00",
+    "pastagemNatural": "1.800,00",
+    "reserva": "2.250,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Matutina",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Medina",
+    "aptidaoBoa": "1.500,00",
+    "aptdaoRegular": "1.300,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Mendes Pimentel",
+    "aptidaoBoa": "4.130,00",
+    "aptdaoRegular": "3.720,00",
+    "aptdaoRestrita": "2.480,00",
+    "pastagemPlantada": "3.100,00",
+    "pastagemNatural": "2.480,00",
+    "reserva": "3.100,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Mercês",
+    "aptidaoBoa": "1.300,00",
+    "aptdaoRegular": "1.300,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Mesquita",
+    "aptidaoBoa": "3.800,00",
+    "aptdaoRegular": "2.300,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.300,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.300,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Minas Novas",
+    "aptidaoBoa": "1.400,00",
+    "aptdaoRegular": "1.200,00",
+    "aptdaoRestrita": "600,00",
+    "pastagemPlantada": "700,00",
+    "pastagemNatural": "600,00",
+    "reserva": "700,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Minduri",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Mirabela",
+    "aptidaoBoa": "1.650,00",
+    "aptdaoRegular": "1.600,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Miradouro",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Miraí",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Miravânia",
+    "aptidaoBoa": "850,00",
+    "aptdaoRegular": "550,00",
+    "aptdaoRestrita": "450,00",
+    "pastagemPlantada": "600,00",
+    "pastagemNatural": "450,00",
+    "reserva": "600,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Moeda",
+    "aptidaoBoa": "5.500,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "4.500,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "4.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Moema",
+    "aptidaoBoa": "1.800,00",
+    "aptdaoRegular": "1.200,00",
+    "aptdaoRestrita": "1.400,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "1.400,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Monjolos",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Monsenhor Paulo",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Montalvânia",
+    "aptidaoBoa": "750,00",
+    "aptdaoRegular": "750,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "600,00",
+    "pastagemNatural": "500,00",
+    "reserva": "600,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Monte Alegre de Minas",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.300,00",
+    "aptdaoRestrita": "3.700,00",
+    "pastagemPlantada": "1.800,00",
+    "pastagemNatural": "3.700,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Monte Azul",
+    "aptidaoBoa": "1.200,00",
+    "aptdaoRegular": "1.000,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "550,00",
+    "pastagemNatural": "500,00",
+    "reserva": "550,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Monte Belo",
+    "aptidaoBoa": "10.300,00",
+    "aptdaoRegular": "8.200,00",
+    "aptdaoRestrita": "7.500,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "7.500,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Monte Carmelo",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "12.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Monte Formoso",
+    "aptidaoBoa": "700,00",
+    "aptdaoRegular": "620,00",
+    "aptdaoRestrita": "260,00",
+    "pastagemPlantada": "210,00",
+    "pastagemNatural": "260,00",
+    "reserva": "210,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Monte Santo de Minas",
+    "aptidaoBoa": "13.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Monte Sião",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Montes Claros",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Morada Nova de Minas",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Morro da Garça",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Morro do Pilar",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "4.500,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "4.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Muriaé",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Muzambinho",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Nacip Raydan",
+    "aptidaoBoa": "1.050,00",
+    "aptdaoRegular": "771,80",
+    "aptdaoRestrita": "387,42",
+    "pastagemPlantada": "258,80",
+    "pastagemNatural": "387,42",
+    "reserva": "258,80"
+  },
+  {
+    "ano": 2010,
+    "nome": "Natércia",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "12.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Nazareno",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Nepomuceno",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "6.500,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ninheira",
+    "aptidaoBoa": "1.000,00",
+    "aptdaoRegular": "800,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "500,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Nova Belém",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Nova Era",
+    "aptidaoBoa": "6.750,00",
+    "aptdaoRegular": "5.750,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "3.050,00",
+    "pastagemNatural": "0,00",
+    "reserva": "3.050,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Nova Módica",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Nova Ponte",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "7.500,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Nova Resende",
+    "aptidaoBoa": "10.500,00",
+    "aptdaoRegular": "8.500,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Nova Serrana",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "15.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Nova União",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Novo Cruzeiro",
+    "aptidaoBoa": "1.800,00",
+    "aptdaoRegular": "1.800,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Novo Oriente de Minas",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Novorizonte",
+    "aptidaoBoa": "380,00",
+    "aptdaoRegular": "200,00",
+    "aptdaoRestrita": "110,00",
+    "pastagemPlantada": "50,00",
+    "pastagemNatural": "110,00",
+    "reserva": "50,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Olaria",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Olhos-D'Água",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Oliveira",
+    "aptidaoBoa": "4.200,00",
+    "aptdaoRegular": "4.200,00",
+    "aptdaoRestrita": "3.200,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "3.200,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Oliveira Fortes",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Onça do Pitangui",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Oratórios",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Orizânia",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.300,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ouro Branco",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ouro Fino",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ouro Preto",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ouro Verde de Minas",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "4.500,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "4.500,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Padre Carvalho",
+    "aptidaoBoa": "800,00",
+    "aptdaoRegular": "500,00",
+    "aptdaoRestrita": "200,00",
+    "pastagemPlantada": "400,00",
+    "pastagemNatural": "200,00",
+    "reserva": "400,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Padre Paraíso",
+    "aptidaoBoa": "950,00",
+    "aptdaoRegular": "800,00",
+    "aptdaoRestrita": "520,00",
+    "pastagemPlantada": "350,00",
+    "pastagemNatural": "520,00",
+    "reserva": "350,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Paineiras",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pains",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "11.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Paiva",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Palma",
+    "aptidaoBoa": "5.500,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pará de Minas",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "5.500,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Paracatu",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "3.200,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "3.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Paraguaçu",
+    "aptidaoBoa": "14.462,00",
+    "aptdaoRegular": "12.396,00",
+    "aptdaoRestrita": "10.300,00",
+    "pastagemPlantada": "10.300,00",
+    "pastagemNatural": "10.300,00",
+    "reserva": "10.300,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Paraopeba",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Passa Quatro",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Passa Vinte",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Passabém",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "4.500,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "4.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Passos",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "5.165,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Patis",
+    "aptidaoBoa": "1.000,00",
+    "aptdaoRegular": "1.000,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "500,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Patos de Minas",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "800,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "800,00",
+    "reserva": "15.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Patrocínio do Muriaé",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Paula Cândido",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Paulistas",
+    "aptidaoBoa": "3.112,00",
+    "aptdaoRegular": "3.630,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.074,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.074,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pavão",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "1.800,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Peçanha",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pedra Azul",
+    "aptidaoBoa": "700,00",
+    "aptdaoRegular": "610,00",
+    "aptdaoRestrita": "240,00",
+    "pastagemPlantada": "320,00",
+    "pastagemNatural": "240,00",
+    "reserva": "320,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pedra do Anta",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pedra do Indaiá",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pedra Dourada",
+    "aptidaoBoa": "2.200,00",
+    "aptdaoRegular": "1.600,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pedralva",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pedras de Maria da Cruz",
+    "aptidaoBoa": "1.300,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "350,00",
+    "pastagemPlantada": "1.800,00",
+    "pastagemNatural": "350,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pedrinópolis",
+    "aptidaoBoa": "11.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pedro Leopoldo",
+    "aptidaoBoa": "40.000,00",
+    "aptdaoRegular": "35.000,00",
+    "aptdaoRestrita": "25.000,00",
+    "pastagemPlantada": "20.000,00",
+    "pastagemNatural": "25.000,00",
+    "reserva": "20.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pedro Teixeira",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pequeri",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "0,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pequi",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Perdigão",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Perdizes",
+    "aptidaoBoa": "18.000,00",
+    "aptdaoRegular": "8.500,00",
+    "aptdaoRestrita": "5.200,00",
+    "pastagemPlantada": "4.200,00",
+    "pastagemNatural": "5.200,00",
+    "reserva": "4.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Perdões",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pescador",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Piau",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "3.700,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "3.200,00",
+    "pastagemNatural": "0,00",
+    "reserva": "3.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Piedade de Ponte Nova",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.800,00",
+    "aptdaoRestrita": "1.800,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.800,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Piedade do Rio Grande",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "3.200,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "1.800,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pimenta",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pingo D'água",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Piracema",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "1.800,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pirajuba",
+    "aptidaoBoa": "11.400,00",
+    "aptdaoRegular": "11.400,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Piranga",
+    "aptidaoBoa": "3.600,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Piranguçu",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Piranguinho",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pirapetinga",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pirapora",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Piraúba",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pitangui",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Piumhi",
+    "aptidaoBoa": "13.650,00",
+    "aptdaoRegular": "11.500,00",
+    "aptdaoRestrita": "10.800,00",
+    "pastagemPlantada": "11.500,00",
+    "pastagemNatural": "10.800,00",
+    "reserva": "11.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Planura",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "9.000,00",
+    "aptdaoRestrita": "9.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "9.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Poços de Caldas",
+    "aptidaoBoa": "12.500,00",
+    "aptdaoRegular": "9.700,00",
+    "aptdaoRestrita": "9.700,00",
+    "pastagemPlantada": "5.800,00",
+    "pastagemNatural": "9.700,00",
+    "reserva": "5.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pompéu",
+    "aptidaoBoa": "6.500,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ponte Nova",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ponto Chique",
+    "aptidaoBoa": "1.200,00",
+    "aptdaoRegular": "950,00",
+    "aptdaoRestrita": "450,00",
+    "pastagemPlantada": "1.100,00",
+    "pastagemNatural": "450,00",
+    "reserva": "1.100,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Porteirinha",
+    "aptidaoBoa": "750,00",
+    "aptdaoRegular": "700,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "600,00",
+    "pastagemNatural": "0,00",
+    "reserva": "600,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Porto Firme",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pouso Alegre",
+    "aptidaoBoa": "8.960,00",
+    "aptdaoRegular": "7.260,00",
+    "aptdaoRestrita": "5.665,00",
+    "pastagemPlantada": "5.830,00",
+    "pastagemNatural": "5.665,00",
+    "reserva": "5.830,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pouso Alto",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "0,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Prata",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "2.800,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "2.800,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pratápolis",
+    "aptidaoBoa": "12.400,00",
+    "aptdaoRegular": "10.300,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "6.100,00",
+    "pastagemNatural": "0,00",
+    "reserva": "6.100,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Pratinha",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "2.800,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "1.800,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Presidente Bernardes",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Presidente Juscelino",
+    "aptidaoBoa": "1.650,00",
+    "aptdaoRegular": "1.200,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "500,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Presidente Kubitschek",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "1.600,00",
+    "aptdaoRestrita": "700,00",
+    "pastagemPlantada": "1.100,00",
+    "pastagemNatural": "700,00",
+    "reserva": "1.100,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Presidente Olegário",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "500,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Prudente de Morais",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Quartel Geral",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Queluzito",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Raul Soares",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Recreio",
+    "aptidaoBoa": "4.166,00",
+    "aptdaoRegular": "4.166,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "0,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Reduto",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Resende Costa",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "500,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Resplendor",
+    "aptidaoBoa": "5.165,00",
+    "aptdaoRegular": "5.165,00",
+    "aptdaoRestrita": "5.165,00",
+    "pastagemPlantada": "2.892,00",
+    "pastagemNatural": "5.165,00",
+    "reserva": "2.892,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ressaquinha",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Riachinho",
+    "aptidaoBoa": "1.800,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Riacho dos Machados",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ribeirão Vermelho",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Rio do Prado",
+    "aptidaoBoa": "430,00",
+    "aptdaoRegular": "320,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "300,00",
+    "pastagemNatural": "0,00",
+    "reserva": "300,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Rio Doce",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.800,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "1.800,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Rio Espera",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Rio Manso",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "15.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "15.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Rio Novo",
+    "aptidaoBoa": "3.800,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.700,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.700,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Rio Pardo de Minas",
+    "aptidaoBoa": "1.500,00",
+    "aptdaoRegular": "800,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "600,00",
+    "pastagemNatural": "500,00",
+    "reserva": "600,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Rio Piracicaba",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "5.500,00",
+    "aptdaoRestrita": "5.800,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "5.800,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Rio Pomba",
+    "aptidaoBoa": "3.950,00",
+    "aptdaoRegular": "3.700,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.200,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Rio Preto",
+    "aptidaoBoa": "2.400,00",
+    "aptdaoRegular": "2.100,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "700,00",
+    "pastagemNatural": "0,00",
+    "reserva": "700,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Rio Vermelho",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ritápolis",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "2.200,00",
+    "pastagemPlantada": "2.400,00",
+    "pastagemNatural": "2.200,00",
+    "reserva": "2.400,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Rodeiro",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Romaria",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Rosário da Limeira",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "0,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Rubelita",
+    "aptidaoBoa": "600,00",
+    "aptdaoRegular": "500,00",
+    "aptdaoRestrita": "400,00",
+    "pastagemPlantada": "550,00",
+    "pastagemNatural": "400,00",
+    "reserva": "550,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Rubim",
+    "aptidaoBoa": "800,00",
+    "aptdaoRegular": "400,00",
+    "aptdaoRestrita": "300,00",
+    "pastagemPlantada": "180,00",
+    "pastagemNatural": "300,00",
+    "reserva": "180,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Sabará",
+    "aptidaoBoa": "3.200,00",
+    "aptdaoRegular": "3.200,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Sabinópolis",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Sacramento",
+    "aptidaoBoa": "8.500,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Salinas",
+    "aptidaoBoa": "1.808,00",
+    "aptdaoRegular": "1.034,00",
+    "aptdaoRestrita": "723,00",
+    "pastagemPlantada": "1.960,00",
+    "pastagemNatural": "723,00",
+    "reserva": "1.960,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Salto da Divisa",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santa Bárbara",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santa Bárbara do Tugúrio",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santa Cruz de Salinas",
+    "aptidaoBoa": "1.300,00",
+    "aptdaoRegular": "1.100,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "900,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "900,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santa Cruz do Escalvado",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santa Efigênia de Minas",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santa Fé de Minas",
+    "aptidaoBoa": "1.000,00",
+    "aptdaoRegular": "750,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "600,00",
+    "pastagemNatural": "500,00",
+    "reserva": "600,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santa Helena de Minas",
+    "aptidaoBoa": "4.132,00",
+    "aptdaoRegular": "4.132,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "770,00",
+    "pastagemNatural": "0,00",
+    "reserva": "770,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santa Luzia",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santa Maria de Itabira",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santa Maria do Salto",
+    "aptidaoBoa": "2.582,64",
+    "aptdaoRegular": "2.066,11",
+    "aptdaoRestrita": "2.066,11",
+    "pastagemPlantada": "1.291,32",
+    "pastagemNatural": "2.066,11",
+    "reserva": "1.291,32"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santa Maria do Suaçuí",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santa Rita de Caldas",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santa Rita de Jacutinga",
+    "aptidaoBoa": "3.100,00",
+    "aptdaoRegular": "3.100,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santa Rita do Itueto",
+    "aptidaoBoa": "5.800,00",
+    "aptdaoRegular": "4.450,00",
+    "aptdaoRestrita": "4.450,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "4.450,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santa Rosa da Serra",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "700,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "700,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santa Vitória",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "5.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santana da Vargem",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "6.198,00",
+    "aptdaoRestrita": "4.132,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "4.132,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santana de Cataguases",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santana de Pirapama",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santana do Deserto",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.350,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.350,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santana do Garambéu",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santana do Jacaré",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "2.700,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "2.700,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santana do Manhuaçu",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santana do Paraíso",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.350,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.350,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santo Antônio do Amparo",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santo Antônio do Aventureiro",
+    "aptidaoBoa": "4.123,00",
+    "aptdaoRegular": "3.711,00",
+    "aptdaoRestrita": "3.398,00",
+    "pastagemPlantada": "1.666,66",
+    "pastagemNatural": "3.398,00",
+    "reserva": "1.666,66"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santo Antônio do Itambé",
+    "aptidaoBoa": "3.100,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "1.800,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "1.800,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santo Antônio do Jacinto",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santo Antônio do Monte",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santo Antônio do Retiro",
+    "aptidaoBoa": "1.000,00",
+    "aptdaoRegular": "500,00",
+    "aptdaoRestrita": "600,00",
+    "pastagemPlantada": "390,00",
+    "pastagemNatural": "600,00",
+    "reserva": "390,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santo Antônio do Rio Abaixo",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santo Hipólito",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "300,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "300,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Santos Dumont",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Bento Abade",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "8.500,00",
+    "aptdaoRestrita": "8.500,00",
+    "pastagemPlantada": "8.500,00",
+    "pastagemNatural": "8.500,00",
+    "reserva": "8.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Brás do Suaçuí",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.200,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "2.200,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Félix de Minas",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Francisco",
+    "aptidaoBoa": "1.250,00",
+    "aptdaoRegular": "700,00",
+    "aptdaoRestrita": "250,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "250,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Francisco de Paula",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.200,00",
+    "aptdaoRestrita": "3.600,00",
+    "pastagemPlantada": "3.600,00",
+    "pastagemNatural": "3.600,00",
+    "reserva": "3.600,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Francisco de Sales",
+    "aptidaoBoa": "7.851,23",
+    "aptdaoRegular": "7.231,40",
+    "aptdaoRestrita": "5.578,51",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "5.578,51",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Francisco do Glória",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Geraldo",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Geraldo da Piedade",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Geraldo do Baixio",
+    "aptidaoBoa": "4.250,00",
+    "aptdaoRegular": "4.230,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "2.400,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "2.400,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Gonçalo do Abaeté",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "700,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "700,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Gonçalo do Pará",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "4.500,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "4.500,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Gonçalo do Rio Abaixo",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Gonçalo do Rio Preto",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "500,00",
+    "pastagemNatural": "500,00",
+    "reserva": "500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Gonçalo do Sapucaí",
+    "aptidaoBoa": "1.200,00",
+    "aptdaoRegular": "1.200,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "900,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "900,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Gotardo",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São João Batista do Glória",
+    "aptidaoBoa": "30.000,00",
+    "aptdaoRegular": "18.000,00",
+    "aptdaoRestrita": "20.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "20.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São João da Lagoa",
+    "aptidaoBoa": "1.350,00",
+    "aptdaoRegular": "980,00",
+    "aptdaoRestrita": "380,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "380,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São João da Mata",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "1.000,00",
+    "aptdaoRestrita": "8.900,00",
+    "pastagemPlantada": "560,00",
+    "pastagemNatural": "8.900,00",
+    "reserva": "560,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São João da Ponte",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "1.800,00",
+    "aptdaoRestrita": "1.400,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "1.400,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São João das Missões",
+    "aptidaoBoa": "1.200,00",
+    "aptdaoRegular": "450,00",
+    "aptdaoRestrita": "270,00",
+    "pastagemPlantada": "300,00",
+    "pastagemNatural": "270,00",
+    "reserva": "300,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São João do Manhuaçu",
+    "aptidaoBoa": "2.400,00",
+    "aptdaoRegular": "2.100,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.800,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São João do Manteninha",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São João do Pacuí",
+    "aptidaoBoa": "2.066,00",
+    "aptdaoRegular": "826,00",
+    "aptdaoRestrita": "1.230,00",
+    "pastagemPlantada": "750,00",
+    "pastagemNatural": "1.230,00",
+    "reserva": "750,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São João do Paraíso",
+    "aptidaoBoa": "1.500,00",
+    "aptdaoRegular": "1.200,00",
+    "aptdaoRestrita": "900,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "900,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São João Evangelista",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São João Nepomuceno",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Joaquim de Bicas",
+    "aptidaoBoa": "13.000,00",
+    "aptdaoRegular": "4.600,00",
+    "aptdaoRestrita": "3.700,00",
+    "pastagemPlantada": "3.600,00",
+    "pastagemNatural": "3.700,00",
+    "reserva": "3.600,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São José da Barra",
+    "aptidaoBoa": "10.330,00",
+    "aptdaoRegular": "8.500,00",
+    "aptdaoRestrita": "8.260,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "8.260,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São José da Lapa",
+    "aptidaoBoa": "45.000,00",
+    "aptdaoRegular": "40.000,00",
+    "aptdaoRestrita": "30.000,00",
+    "pastagemPlantada": "25.000,00",
+    "pastagemNatural": "30.000,00",
+    "reserva": "25.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São José da Safira",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São José da Varginha",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "9.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "9.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São José do Divino",
+    "aptidaoBoa": "1.500,00",
+    "aptdaoRegular": "7.230,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São José do Goiabal",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São José do Jacuri",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São José do Mantimento",
+    "aptidaoBoa": "1.200,00",
+    "aptdaoRegular": "800,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "400,00",
+    "pastagemNatural": "0,00",
+    "reserva": "400,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Lourenço",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Miguel do Anta",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Pedro da União",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Pedro do Suaçuí",
+    "aptidaoBoa": "2.600,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Pedro dos Ferros",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Romão",
+    "aptidaoBoa": "1.250,00",
+    "aptdaoRegular": "800,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "600,00",
+    "pastagemNatural": "500,00",
+    "reserva": "600,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Roque de Minas",
+    "aptidaoBoa": "1.000,00",
+    "aptdaoRegular": "600,00",
+    "aptdaoRestrita": "480,00",
+    "pastagemPlantada": "370,00",
+    "pastagemNatural": "480,00",
+    "reserva": "370,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Sebastião da Bela Vista",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.500,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "5.500,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Sebastião do Maranhão",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.800,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "2.800,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Sebastião do Paraíso",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "12.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "12.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Sebastião do Rio Preto",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Sebastião do Rio Verde",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "0,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Thomé das Letras",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "2.100,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Tiago",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "1.800,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Tomás de Aquino",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "7.500,00",
+    "aptdaoRestrita": "7.500,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "7.500,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "São Vicente de Minas",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Sapucaí-Mirim",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Sarzedo",
+    "aptidaoBoa": "30.000,00",
+    "aptdaoRegular": "20.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "15.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Sem-peixe",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Senador Amaral",
+    "aptidaoBoa": "9.200,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Senador Cortes",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Senador Firmino",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Senador José Bento",
+    "aptidaoBoa": "9.500,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "6.200,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "6.200,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Senador Modestino Gonçalves",
+    "aptidaoBoa": "1.100,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "200,00",
+    "pastagemPlantada": "750,00",
+    "pastagemNatural": "200,00",
+    "reserva": "750,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Senhora de Oliveira",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Sericita",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "0,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Seritinga",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Serra Azul de Minas",
+    "aptidaoBoa": "1.300,00",
+    "aptdaoRegular": "1.300,00",
+    "aptdaoRestrita": "800,00",
+    "pastagemPlantada": "1.300,00",
+    "pastagemNatural": "800,00",
+    "reserva": "1.300,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Serra da Saudade",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Serra dos Aimorés",
+    "aptidaoBoa": "6.200,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Serrania",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Serranos",
+    "aptidaoBoa": "2.250,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "1.050,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.050,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Serro",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "2.800,00",
+    "aptdaoRestrita": "350,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "350,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Sete Lagoas",
+    "aptidaoBoa": "4.132,23",
+    "aptdaoRegular": "4.132,23",
+    "aptdaoRestrita": "1.033,05",
+    "pastagemPlantada": "4.132,23",
+    "pastagemNatural": "1.033,05",
+    "reserva": "4.132,23"
+  },
+  {
+    "ano": 2010,
+    "nome": "Setubinha",
+    "aptidaoBoa": "1.500,00",
+    "aptdaoRegular": "1.200,00",
+    "aptdaoRestrita": "800,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "800,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Silveirânia",
+    "aptidaoBoa": "2.200,00",
+    "aptdaoRegular": "1.800,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Silvianópolis",
+    "aptidaoBoa": "32.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Simão Pereira",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Sobrália",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "11.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Soledade de Minas",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.800,00",
+    "pastagemPlantada": "600,00",
+    "pastagemNatural": "1.800,00",
+    "reserva": "600,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Tabuleiro",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Taiobeiras",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "800,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "800,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Tapira",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "2.800,00",
+    "aptdaoRestrita": "1.900,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "1.900,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Tapiraí",
+    "aptidaoBoa": "4.950,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "2.479,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "2.479,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Tarumirim",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Teixeiras",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Teófilo Otoni",
+    "aptidaoBoa": "3.100,00",
+    "aptdaoRegular": "2.200,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.100,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.100,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Timóteo",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Tiros",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "400,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "400,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Tocantins",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "6.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "0,00",
+    "pastagemNatural": "0,00",
+    "reserva": "0,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Tocos do Moji",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "2.150,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "470,00",
+    "pastagemNatural": "0,00",
+    "reserva": "470,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Tombos",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "1.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "100,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "100,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Três Corações",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "11.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "11.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Três Marias",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Tupaciguara",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "4.100,00",
+    "pastagemPlantada": "4.100,00",
+    "pastagemNatural": "4.100,00",
+    "reserva": "4.100,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Turmalina",
+    "aptidaoBoa": "1.500,00",
+    "aptdaoRegular": "1.000,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "500,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Turvolândia",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ubá",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "0,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Ubaí",
+    "aptidaoBoa": "1.200,00",
+    "aptdaoRegular": "800,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "600,00",
+    "pastagemNatural": "500,00",
+    "reserva": "600,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Uberaba",
+    "aptidaoBoa": "10.095,00",
+    "aptdaoRegular": "8.884,29",
+    "aptdaoRestrita": "8.574,00",
+    "pastagemPlantada": "7.851,00",
+    "pastagemNatural": "8.574,00",
+    "reserva": "7.851,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Uberlândia",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "4.500,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "4.500,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Unaí",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "600,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "600,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "União de Minas",
+    "aptidaoBoa": "5.800,00",
+    "aptdaoRegular": "5.200,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "3.800,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Uruana de Minas",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "900,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "900,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Urucuia",
+    "aptidaoBoa": "1.200,00",
+    "aptdaoRegular": "900,00",
+    "aptdaoRestrita": "600,00",
+    "pastagemPlantada": "900,00",
+    "pastagemNatural": "600,00",
+    "reserva": "900,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Vargem Alegre",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "700,00",
+    "pastagemPlantada": "500,00",
+    "pastagemNatural": "700,00",
+    "reserva": "500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Vargem Bonita",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "7.500,00",
+    "aptdaoRestrita": "1.600,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "1.600,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Vargem Grande do Rio Pardo",
+    "aptidaoBoa": "1.400,00",
+    "aptdaoRegular": "1.000,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "500,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Varjão de Minas",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Várzea da Palma",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "1.800,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Varzelândia",
+    "aptidaoBoa": "1.500,00",
+    "aptdaoRegular": "1.000,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "500,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Vazante",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.800,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Veredinha",
+    "aptidaoBoa": "600,00",
+    "aptdaoRegular": "400,00",
+    "aptdaoRestrita": "250,00",
+    "pastagemPlantada": "350,00",
+    "pastagemNatural": "250,00",
+    "reserva": "350,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Veríssimo",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.500,00",
+    "pastagemPlantada": "5.500,00",
+    "pastagemNatural": "5.500,00",
+    "reserva": "5.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Vermelho Novo",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Vespasiano",
+    "aptidaoBoa": "45.000,00",
+    "aptdaoRegular": "35.000,00",
+    "aptdaoRestrita": "30.000,00",
+    "pastagemPlantada": "25.000,00",
+    "pastagemNatural": "30.000,00",
+    "reserva": "25.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Viçosa",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "0,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Vieiras",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Virgem da Lapa",
+    "aptidaoBoa": "600,00",
+    "aptdaoRegular": "500,00",
+    "aptdaoRestrita": "250,00",
+    "pastagemPlantada": "250,00",
+    "pastagemNatural": "250,00",
+    "reserva": "250,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Virginópolis",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Virgolândia",
+    "aptidaoBoa": "1.050,00",
+    "aptdaoRegular": "771,80",
+    "aptdaoRestrita": "387,42",
+    "pastagemPlantada": "258,80",
+    "pastagemNatural": "387,42",
+    "reserva": "258,80"
+  },
+  {
+    "ano": 2010,
+    "nome": "Visconde do Rio Branco",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "1.800,00",
+    "pastagemNatural": "0,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Volta Grande",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "600,00",
+    "pastagemNatural": "0,00",
+    "reserva": "600,00"
+  },
+  {
+    "ano": 2010,
+    "nome": "Wenceslau Braz",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "5.000,00"
+  }
+]

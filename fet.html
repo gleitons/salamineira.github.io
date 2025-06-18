@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso</title>
+</head>
+<body>
+    <div id="ver">
+    </div>
+    <script>
+        var editais = []
+
+        function pegandoEditais() {
+            for (let i = 0; i < 1; i++) {
+                const url =
+
+                    pegarDados(`http://www.sistema.defesacivil.mg.gov.br/index.php?modulo=compdec&controller=compdec&action=listacompdecativa`)
+
+            }
+        }
+        pegandoEditais()
+
+
+        function pegarDados(endereco) {
+
+            fetch(endereco)
+                .then((resp) => resp.text())
+                .then(function (data) {
+                    ver.innerHTML = data
+
+                    var editais = []
+                    const trs = document.querySelectorAll('table tr')
+                    console.log(trs)
+                    for(let i = 1; i < trs.length; i++ ){
+                        const item = trs[i].querySelectorAll('td')[0].textContent
+                        const cidade = trs[i].querySelectorAll('td')[1].textContent
+                        const email = trs[i].querySelectorAll('td')[2].textContent
+                        const telefone2 = trs[i].querySelectorAll('td')[3].textContent
+                        const telefone3 = trs[i].querySelectorAll('td')[4].textContent
+                        const telefone4 = trs[i].querySelectorAll('td')[5].textContent
+
+                        const linha = {
+                            "item": item,
+                            "cidade": cidade,
+                            "email": email,
+                            "telefone2": telefone2,
+                            "telefone3": telefone3,
+                            "telefone4": telefone4
+                        }
+
+                        editais.push(linha)
+
+                        console.log(linha)
+                    }
+                    localStorage.setItem('defesacivil', JSON.stringify(editais))
+
+                })
+
+                .catch(function (error) {
+                    console.log(error)
+                });
+
+
+        }
+        </script>
+
+
+    
+</body>
+</html>

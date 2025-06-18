@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos Vereadores</title>
+    <style>
+        #fotos {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>2004</h2>
+    <div id="fotos">
+    </div>
+
+    <h2>2008</h2>
+    <div id="fotosSegundo">
+    </div>
+    <h2>2004 moc city</h2>
+    <div id="fotosTerceiro">
+    </div>
+
+    <h2>2020 moc city</h2>
+    <div id="fotosQuarto">
+    </div>
+    <script>
+
+        function em2004E() {
+
+            const divExibir = document.querySelector('#fotos'); 
+            for (let index = 319; index < 379; index++) {
+                const imgG = document.createElement('img');
+                const linkImg =  `https://divulgacandcontas.tse.jus.br/candidaturas/oficial/2004/MG/47457/14431/${index }/foto.png`
+                var imagens = []
+                
+                imgG.setAttribute('src', `${linkImg}`) 
+                divExibir.appendChild(imgG);
+            }
+            em2008E()
+    }
+
+        function em2008E() {
+            const divExibir = document.querySelector('#fotosSegundo');          
+                
+            for (let index = 4565; index < 4800; index++) {
+                const imgG = document.createElement('img');
+                const linkImg =  `https://divulgacandcontas.tse.jus.br/candidaturas/oficial/2008/MG/47457/14422/${index}/foto.png`
+                var imagens = []
+               
+                imgG.setAttribute('src', `${linkImg}`) 
+                divExibir.appendChild(imgG);
+            }
+            em2012E()
+            
+
+        }
+
+        
+
+        function em2012E() {
+
+            const divExibir = document.querySelector('#fotosTerceiro'); 
+            
+            for (let i = 50000; i < 50002; i++){
+
+                const fGet = `https://divulgacandcontas.tse.jus.br/candidaturas/oficial/2012/MG/47457/1699/1300000${i}/foto.png`;
+
+                console.log(fGet)
+
+                //if (get)
+                const imgG = document.createElement('img');
+                const linkImg = `https://divulgacandcontas.tse.jus.br/candidaturas/oficial/2012/MG/47457/1699/1300000${i}/foto.png`
+                var imagens = []
+                console.log(i)
+                imgG.setAttribute('src', `${linkImg}`) 
+                divExibir.appendChild(imgG);
+            }
+
+            for (let i = 50708; i < 50722; i++){
+                const imgG = document.createElement('img');
+                const linkImg =  `https://divulgacandcontas.tse.jus.br/candidaturas/oficial/2012/MG/47457/1699/1300000${i}/foto.png`
+                var imagens = []
+                console.log(i)
+                imgG.setAttribute('src', `${linkImg}`) 
+                divExibir.appendChild(imgG);
+            }
+            console.log(imagens)
+            em2016E()
+        }
+
+
+
+        function em2016E() {
+            const divExibir = document.querySelector('#fotosTerceiro');          
+                
+            for (let index = 4565; index < 4800; index++) {
+                const imgG = document.createElement('img');
+                const linkImg =  `https://divulgacandcontas.tse.jus.br/candidaturas/oficial/2008/MG/47457/14422/${index}/foto.png`
+                var imagens = []
+               
+                imgG.setAttribute('src', `${linkImg}`) 
+                divExibir.appendChild(imgG);
+            }
+            em2020E()
+        }
+
+
+        
+
+        function em2020E() {
+            const divExibir = document.querySelector('#fotosQuarto');          
+                
+            for (let index = 706944; index < 754840; index++) {
+                const imgG = document.createElement('img');
+                const linkImg =  `https://divulgacandcontas.tse.jus.br/candidaturas/oficial/2008/MG/47457/14422/${index}/foto.png`
+                var imagens = []
+                console.log(index)
+                imgG.setAttribute('src', `${linkImg}`) 
+                divExibir.appendChild(imgG);
+            }      }
+        em2004E();
+       
+    </script>
+</body>
+
+</html>

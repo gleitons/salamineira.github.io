@@ -1,0 +1,260 @@
+/*
+Theme Name: PM LAGOA DOS PATOS
+Theme URI: http://lagoadospatos.mg.gov.br/
+Author: Enilson
+Author https://enilson.com.br
+Description: Site instituicional.
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* FONTE WEB */
+@font-face {
+    font-family:'Conduit ITC' ;
+    src: url('fonts/web/Conduit ITC.eot') ;
+    src: url('fonts/web/Conduit ITC.eot?#iefix') format('embedded-opentype'),
+    url('fonts/web/Conduit ITC.woff2') format('woff2') ,
+    url('fonts/web/Conduit ITC.woff') format('woff'),
+    url('fonts/web/Conduit ITC.svg#Conduit ITC') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+000D-02DC;
+}
+
+@font-face {
+  font-family: 'ConduitITC-Light' ;
+  src: url('fonts/web/ConduitITC-Light.eot?#iefix') format('embedded-opentype'),  url('fonts/web/ConduitITC-Light.woff') format('woff'), url('fonts/web/ConduitITC-Light.ttf')  format('truetype'), url('fonts/web/ConduitITC-Light.svg#ConduitITC-Light') format('svg') ;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ConduitITCStd-Black' ;
+  src: url('fonts/web/ConduitITCStd-Black.eot?#iefix') format('embedded-opentype'),  url('fonts/web/ConduitITCStd-Black.otf')  format('opentype'),
+         url('fonts/web/ConduitITCStd-Black.woff') format('woff'), url('fonts/web/ConduitITCStd-Black.ttf')  format('truetype'), url('fonts/web/ConduitITCStd-Black.svg#ConduitITCStd-Black') format('svg') ;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* HEADER */
+header{background: #eee url('http://lagoadospatos.mg.gov.br/wp-content/uploads/2024/10/bg-topo-min.png') no-repeat top center;font-family:'Conduit ITC' ;}
+.header-topo{padding: 16px 0 10px 0;border-top:3px solid #ccc;}
+.header-top-left ul{font-size: 15px;margin:0;}
+.header-top-left ul a{color: #666666;}
+.header-top-left ul a:hover{color: #709742;text-decoration: none;}
+.header-top-left span{background: #ccc;color: #555;padding: 0 4px;display: inline-block;border-radius:2px;}
+.header-top-right ul{font-size: 12px;margin:0;text-align:right;}
+.header-top-right ul a{color: #666666;}
+.header-top-right ul a:hover{color: #709742;text-decoration: none;}
+.phone-mail{font-size: 15px;color: #666666;}
+.phone-mail span{position: relative;top: 2px;}
+.logo{padding:15px 0;}
+.search-header{position:relative;top:40px;}
+.search-header form{}
+.search-header input[type="text"]{padding: 2px;width: 80%;text-transform: uppercase;border:0;background: #fff;position: relative;left: 10px;color: #58904d;border:2px solid #ccc;padding:8px 12px;}
+.search-header input[type="submit"]{background:#1f8052 url('images/icon-search.png') no-repeat center;border:0;width: 20%;padding:10px 12px;}
+.face{padding-top: 50px;}
+.menu{background: #3b648e;border-top: 3px solid #fff;border-bottom: 3px solid #fff;
+}
+.links-menu{padding-top: 15px;}
+
+/* SLIDE */
+.slide{margin-bottom: 10px;}
+.slide img{
+  display: block;
+  max-width: 100%;
+  height: auto;	
+}
+
+/* NOTCIAS */
+.noticias-feat{font-family:'Conduit ITC' ;}
+.noticias-feat h4{font-size: 16px;color: #094385;}
+.noticias-feat .col-md-4 img{border-radius: 6px;}
+
+.bloco-serv-list{margin-bottom: 25px;color:#fff;}
+.bloco-serv-list h3{font-size:15px;margin:0;padding-top:13px;}
+.cor1 div{background:#094385;padding:25px 0;}
+.cor1 div:hover{cursor:pointer;}
+.cor2 div{background:#d1a000;padding:25px 0;}
+.cor2 div:hover{cursor:pointer;}
+.cor3 div{background:#648509;padding:25px 0;}
+.cor3 div:hover{cursor:pointer;}
+.cor4 div{background:#b70138;padding:25px 0;}
+.cor4 div:hover{cursor:pointer;}
+
+/* ABOUT HOME */
+.about-home{background: #069;font-family:'Conduit ITC' ;padding: 35px 0;}
+
+.about-home .col-md-5 img{border:3px solid #fff;border-radius: 8px;}
+.about-home .col-md-3 span{font-size: 18px;color: #fff;}
+.about-home .col-md-3 h3{margin: 0;font-size: 30px;font-family: 'ConduitITCStd-Black';color: #fff;padding: 6px 0;}
+.about-home .col-md-3 p{color: #fff;}
+.about-home .col-md-4 .carousel-inner{border-left: 10px solid #1e4165;border-top-left-radius: 6px;border-bottom-left-radius: 6px;position: absolute;}
+.about-home .col-md-4 img{border-top-right-radius: 6px;border-bottom-right-radius: 6px;border:5px solid #fff;border-left: none;}
+.about-home .col-md-4 h3{position: relative;top: 30px;background: #1e4165;color: #fff;display: inline-block;padding: 6px 20px;margin: 0;border-bottom-right-radius: 6px;border-top-right-radius: 6px;font-size: 18px;}
+
+/* MORE NOTICIAS */
+.bg-notice{background:#eee;padding:40px 0;}
+.more-noticias{font-family:'Conduit ITC' ;margin-top: 10px;}
+.more-noticias img{border-bottom:5px solid #3b648e;}
+.more-noticias span{color: #ff7f24;display: inline-block;padding: 8px 0;}
+.more-noticias h3{font-size: 16px;margin: 0;}
+.more-noticias h3 a{color: #3b648e;}
+.more-noticias h3 a:hover{color: #3e71a6;text-decoration: none;}
+.more-noticias h4{font-size: 25px;color: #333;border-bottom:2px solid #ccc;padding-bottom:15px;margin-bottom:20px;display:inline-block;width:100%;}
+
+.mais-links{background:#007cc0;font-family:'Conduit ITC' ;padding:15px 0;}
+.mais-links h4{font-size:20px;position:relative;top:4px;left:5px;}
+.mais-links .media{background:#61b9e9;padding:18px 22px;color:#fff;}
+.cidade-home{color:#fff;padding:20px 0 10px 0;}
+.cidade-home h3{font-family: 'ConduitITCStd-Black' ;}
+
+/* TRILHA */
+.trilha{background:#eee;padding:8px 0;color:#999;font-family:'Conduit ITC' ;}
+.trilha a{color:#444;}
+.trilha-licitacao{background:#fff;padding:8px 0;color:#999;font-family:'Conduit ITC' ;margin:15px 0;}
+
+/* SINGLE/PAGE */ 
+.content{font-family:'Conduit ITC' ;padding:30px 0;}
+.content p{color:#666;line-height:24px;font-size:16px;text-align: justify;}
+.content b{text-transform:uppercase;color:#777;}
+.content span{display:block;margin-bottom:10px;}
+.content img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom:10px;	
+}
+.content h1{font-family: 'ConduitITCStd-Black' ;color:#57769d;} 
+.content h3{font-family: 'ConduitITC-Light' ;color:#57769d;text-transform:uppercase;} 
+.content strong{color:#587c21;}
+
+/* SINGLE LICITACAO */
+.wrapper-licitacao{background:#eee;padding:0 0 50px 0;}
+.wrapper-licitacao .content{background:#fff;border-radius:6px;padding:50px;
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.29);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.29);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.29);
+}
+.sidebar-arquivos{margin-top:20px;}
+.sidebar-arquivos p{text-align: normal;}
+.sidebar-arquivos a{color:#fff;text-decoration:underline;}
+.btn-back{background:#900;}
+
+/* SIDEBAR */
+.sidebar{padding:60px 0;font-family:'Conduit ITC' ;}
+.sidebar h3{text-transform: uppercase;color: #fff;font-size: 14px;margin: 0;}
+.sidebar span{background: #3d88b2;padding: 10px;display: inline-block;}
+.sidebar li{border-bottom: 1px solid #eee;padding: 10px 4px;font-size: 16px;}
+.sidebar a{color: #5d934c;}
+.title-sidebar{border-top: 3px solid #3d88b2;}
+
+/* PÁGINAS LISTA */
+.lista-paginas{} 
+.lista-paginas ul {padding:0;margin:0;}
+.lista-paginas li {list-style:none;}
+.lista-paginas li a{width:100% ;display:block;padding:10px 0;margin:10px 0;text-transform:uppercase;color:#555;border-bottom:1px solid #eee;}
+.lista-paginas li a:hover{text-decoration:none;color:#00566f}
+
+/* COVID */
+.box-covid{padding:20px 0;}
+.page-id-1341{background:#f7f1e5;}
+.page-covid{
+	font-family:'Conduit ITC' ;
+}
+.page-covid img{margin-top:30px;}
+.page-covid h1{font-family: 'ConduitITCStd-Black' ;color:#f04347;}
+.page-covid h2{font-family: 'ConduitITC-Light' ;color:#60b454;}
+.page-covid h4{font-family: 'ConduitITCStd-Black' ;display:block;padding:15px 0;font-size:25px;}
+.page-covid .glyphicon{margin-right:10px;}
+.page-covid li a{font-size:18px;color:#296a1f;}
+.grafico-covid .col-md-3 h4{display:block;margin:0;border-radius:8px;font-family: 'ConduitITCStd-Black' ;font-size:16px;color:#fff;padding:15px 18px 30px 18px;}
+.grafico-covid .col-md-4 h4{display:block;margin:0;border-radius:8px;font-family: 'ConduitITCStd-Black' ;font-size:16px;color:#fff;padding:15px 18px 30px 18px;}
+.grafico-covid .col-md-3 .color-01{border:5px solid #3366cc;color:#3366cc;}
+.grafico-covid .col-md-3 .color-02{border:5px solid #dc3912;color:#dc3912;}
+.grafico-covid .col-md-3 .color-03{border:5px solid #ff9900;color:#ff9900;}
+.grafico-covid .col-md-3 .color-04{border:5px solid #109618;color:#109618;}
+.grafico-covid .col-md-3 .color-05{border:5px solid #990099;color:#990099;}
+.grafico-covid .col-md-3 .color-06{border:5px solid #222;color:#222;}
+.grafico-covid .col-md-4 .color-07{border:5px solid #222;color:#222;}
+.grafico-covid .col-md-3 span{background:#fff;display:inline-block;padding:4px 30px;border-radius:5px;font-family: 'ConduitITCStd-Black' ;position:relative;left:15px;top:-20px;
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.42);font-size:20px;
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.42);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.42);
+}
+.grafico-covid .col-md-4 span{background:#fff;display:inline-block;padding:4px 30px;border-radius:5px;font-family: 'ConduitITCStd-Black' ;position:relative;left:15px;top:-20px;
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.42);font-size:20px;
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.42);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.42);
+}
+
+/* PORTAL */
+.page-id-63{background: #eee;}
+.wrapper-portal span{background: #fff;border-top:5px solid #f3b602;padding: 0 0 60px 0;box-shadow: 2px 0px 5px 2px #888888;margin-top:40px;display:block;overflow:hidden;font-family:'Conduit ITC';}
+.wrapper-portal div{background: #fff;border-bottom:5px solid #e28d3d;}
+.wrapper-portal h2{font-size: 22px;color: #02903e;}
+.wrapper-portal p{font-size: 17px;color: #777777;}
+.title-portal{padding: 50px 0;}
+.wrapper-portal .col-md-2 div{background: #3b648e;border-radius: 3px;height: 100px;margin-bottom: 25px;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+.wrapper-portal .col-md-2 div:hover{background: #e28d3d;cursor:pointer;}
+.wrapper-portal .col-md-2 img{padding: 16px 0 14px 0;}
+.wrapper-portal .col-md-2 a{color:#fff;}
+.wrapper-portal .col-md-2 a:hover{text-decoration: none;}
+.wrapper-portal h3{font-size: 17px;margin: 0;}
+.line-one{background: #3b648e;border-radius:3px;font-size: 14px;padding: 10px;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+.line-one:hover{background: #e28d3d;cursor:pointer;}
+.line-one a{color:#fff;}
+.line-one a:hover{color:#fff;text-decoration: none;}
+.line-five div{background: #3b648e;overflow: hidden;padding: 10px;font-size: 15px;border-radius: 3px;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+.line-five div:hover{background: #e28d3d;cursor:pointer;}
+.line-five div h3{font-size: 15px;position: relative;top: 8px;}
+.line-five img{float: left;margin-right: 20px;}
+.line-five a{color: #fff;}
+.line-five a:hover{text-decoration: none;color: #fff;cursor:pointer;}
+
+/* FOOTER */
+footer{background: #3b648e;border-top: 3px solid #3b648e;font-family:'Conduit ITC' ;}
+footer span{font-size: 16px;color: #fff;padding-top: 8px;display: inline-block;}
+footer h4{font-size: 16px;color: #fff;}
+footer h5{font-size: 18px;color: #fff;margin: 0;}
+footer img{margin-right: 12px;}
+footer .col-md-5{padding-bottom: 10px;padding-top: 12px;}
+footer .col-md-7{padding-bottom: 10px;padding-top: 10px;}
+footer .col-md-7 a{border:1px solid #fff;padding: 5px 16px;border-radius: 8px;color:#fff;}
+footer .col-md-7 a:hover{border:1px solid #00ccff;text-decoration: none;}
+.copy{background: #214a73;border-top: 3px solid #fff;border-bottom: 3px solid #fff;padding-top: 11px;}
+.copy a{color: #fff;}
+.copy a:hover{color: #00ccff;}
+
+/* MOBILE */
+@media(max-width:767px){
+	.header-top-right ul{text-align:center;}
+	.header-top-left{text-align:center;}
+	.search-header{position:relative;top:0px;padding-bottom:10px;}
+	.links-rodape li{display:inline-block;width:100%;}
+	footer .col-md-7 a{width:100%;display:inline-block;}
+}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}

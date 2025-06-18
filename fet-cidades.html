@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso</title>
+</head>
+
+<body>
+    <div id="ver">
+    </div>
+    <script>
+        var editais = []
+
+        async function pegandoEditais() {
+            const response = await fetch('/dados/cidades-wiki')
+            const data = await response.json()
+            localStorage.setItem('contatosDefesa', JSON.stringify(data))
+            const contatos = JSON.parse(localStorage.getItem('contatosDefesa'))
+            localStorage.setItem('imagensCidades', '[]')
+            //<td>${e.telefone2}</td>
+            contatos.map((e) => {
+                // const adicionaSao = e.cidade.toString().includes('SAO') ? e.cidade.toString().replace(/SAO/gi, 'São') : ''
+                // const adicionaCoracao = e.cidade.toString().includes('CORACAO') ? e.cidade.toString().replace(/CORACAO/gi, 'Coração') : ''
+                // const adicionaAgua = e.cidade.toString().includes('AGUA ') ? e.cidade.toString().replace(/AGUA/gi, 'Água') : ''
+
+                console.log(e.linkWiki)
+                pegarDados(e.linkWiki)
+            })
+            //pegarDados(`https://pt.wikipedia.org/wiki/Abaeté`)
+                // for (let i = 0; i < 1; i++) {
+                //     const url =
+
+                //         pegarDados(`https://pt.wikipedia.org/wiki/Abadia_dos_Dourados`)
+
+                // }
+            }
+        pegandoEditais()
+
+
+        function pegarDados(endereco) {
+
+                    fetch(endereco)
+                        .then((resp) => resp.text())
+                        .then(function (data) {
+                            ver.innerHTML = data
+
+                            var editais = JSON.parse(localStorage.getItem('imagensCidades'))
+                            const title = document.querySelectorAll('h1')[0].textContent.toUpperCase()
+                            const trs = document.querySelectorAll('tbody')[2].querySelectorAll('td')[1].querySelector('img').src
+                            const cidaLogo = {
+                                "title": title,
+                                "brasao": trs
+                            }
+                            editais.push(cidaLogo)
+                            console.log()
+
+
+                            localStorage.setItem('imagensCidades', JSON.stringify(editais))
+
+                        })
+
+                        .catch(function (error) {
+                            console.log(error)
+                        });
+
+
+                }
+    </script>
+
+
+
+</body>
+
+</html>

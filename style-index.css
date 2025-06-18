@@ -1,0 +1,540 @@
+/* Estilos Básicos */
+:root {
+    --primary-color: #007bff; /* Azul Sebrae ou similar */
+    --secondary-color: #28a745; /* Verde para destaque/sucesso */
+    --text-color: #333;
+    --light-bg: #f8f9fa;
+    --dark-bg: #343a40;
+    --border-radius: 8px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background-color: #fff;
+    overflow-x: hidden; /* Evita scroll horizontal indesejado */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Botões */
+.btn-primary, .btn-secondary, .btn-whatsapp {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: var(--border-radius);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: none;
+    font-size: 1.1em;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Tom mais escuro do azul */
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+    margin-top: 20px;
+}
+
+.btn-secondary:hover {
+    background-color: #218838; /* Tom mais escuro do verde */
+}
+
+.btn-whatsapp {
+    background-color: #25d366; /* Verde WhatsApp */
+    color: #fff;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Espaço entre ícone e texto */
+}
+
+.btn-whatsapp:hover {
+    background-color: #1da851;
+}
+
+/* 1. Hero Section */
+.hero {
+    background: url('placeholder-background-hero.jpg') no-repeat center center/cover; /* Imagem de fundo */
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    min-height: 60vh; /* Altura mínima */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Para sobreposição de cor */
+}
+
+.hero::before { /* Camada de sobreposição para melhorar a legibilidade do texto */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Escurece a imagem de fundo */
+    z-index: 1;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 2; /* Garante que o conteúdo fique acima da sobreposição */
+}
+
+.hero h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #fff; /* Título branco no fundo escuro */
+}
+
+.hero .subtitle {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+    color: #eee;
+}
+
+.hero .parceria-info {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #ddd;
+}
+
+/* 2. Seção Sobre */
+.section-sobre {
+    background-color: var(--light-bg);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-sobre .content-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebrar linha em telas pequenas */
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.section-sobre .text-content {
+    flex: 2; /* Ocupa mais espaço */
+    text-align: left;
+}
+
+.section-sobre .image-content {
+    flex: 1; /* Ocupa menos espaço */
+    min-width: 250px; /* Garante tamanho mínimo da imagem */
+}
+
+.section-sobre img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* 3. Seção Serviços */
+.section-servicos {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.servicos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Colunas responsivas */
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.servico-item {
+    background-color: var(--light-bg);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.servico-item:hover {
+    transform: translateY(-5px);
+}
+
+.servico-item i {
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+}
+
+.servico-item h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+/* 4. Seção Depoimentos */
+.section-depoimentos {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-depoimentos h2 {
+    color: #fff;
+}
+
+.depoimentos-slider {
+    /* Em um projeto real, aqui você usaria JS para criar um carrossel */
+    display: flex; /* Para mostrar múltiplos depoimentos lado a lado */
+    flex-wrap: wrap; /* Permite quebrar linha em telas pequenas */
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.depoimento-item {
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+    padding: 30px;
+    border-radius: var(--border-radius);
+    max-width: 450px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.depoimento-foto {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #fff;
+}
+
+.depoimento-item p {
+    font-style: italic;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.depoente-nome {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+/* 5. Seção Vantagens */
+.section-vantagens {
+    padding: 60px 0;
+    background-color: var(--light-bg);
+}
+
+.vantagens-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.vantagens-list li {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    font-size: 1.1em;
+}
+
+.vantagens-list li i {
+    color: var(--secondary-color);
+    font-size: 1.5em;
+    flex-shrink: 0; /* Evita que o ícone encolha */
+    margin-top: 3px;
+}
+
+/* 6. Seção Contato */
+.section-contato {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.address-map {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+}
+
+.address-map p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.address-map a {
+    font-weight: bold;
+}
+
+.map-container {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 350px;
+    border: 0;
+}
+
+/* 7. Seção Agendamento (Formulário) */
+.section-agendamento {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-agendamento h2 {
+    color: #fff;
+}
+
+.section-agendamento p {
+    color: #eee;
+}
+
+.agendamento-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    max-width: 600px;
+    margin: 40px auto 0;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    font-size: 1em;
+    box-sizing: border-box; /* Garante que padding não aumente a largura total */
+}
+
+.form-group textarea {
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+.agendamento-form .btn-primary {
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+/* Rodapé */
+.footer {
+    background-color: var(--dark-bg);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-logos img {
+    max-height: 70px; /* Ajuste conforme o tamanho dos logos */
+    filter: brightness(0) invert(1); /* Deixa os logos brancos para fundo escuro */
+    opacity: 0.8;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: var(--secondary-color);
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    color: var(--secondary-color);
+}
+
+/* Botão Flutuante do WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-float i {
+    margin-top: 4px; /* Ajuste fino do ícone */
+}
+
+.whatsapp-float:hover {
+    background-color: #1da851;
+}
+
+
+/* Responsividade - Media Queries */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero .subtitle {
+        font-size: 1.1em;
+    }
+
+    .section-sobre .content-wrapper {
+        flex-direction: column;
+    }
+
+    .servicos-grid {
+        grid-template-columns: 1fr; /* Uma coluna em telas menores */
+    }
+
+    .depoimentos-slider {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vantagens-list {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-info {
+        flex-direction: column;
+    }
+
+    .address-map {
+        text-align: center;
+    }
+
+    .agendamento-form {
+        padding: 25px;
+    }
+
+    .footer-logos {
+        flex-direction: column;
+    }
+
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.6em;
+    }
+
+    .hero .subtitle {
+        font-size: 1em;
+    }
+
+    .btn-primary, .btn-secondary, .btn-whatsapp {
+        padding: 12px 20px;
+        font-size: 1em;
+    }
+}

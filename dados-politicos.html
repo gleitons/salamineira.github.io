@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados Politicos - Sala Mineira do Empreendedor</title>
+</head>
+
+<body>
+    <style>
+        #modelo div{
+            width: 80%;
+          
+            justify-content: space-between;
+        }
+        #modelo input {
+            width: 40%;
+            margin: 10px 0;
+        }
+
+        #copiado p {
+            position: absolute;
+            background-color: green;
+            color: white;
+            padding: 2px;
+            border-radius: 8px;
+            top: 886px;
+            left: 736px;
+            position: absolute;
+            animation: cc 200ms normal;
+        }
+        textarea {
+            position: relative;
+        }
+
+        @keyframes cc {
+            0% {
+                top: -5px;
+                opacity: 0%;
+            }
+        }
+    </style>
+    <div id="modelo">
+        <div>
+            APELIDO:<input type="text" id="apelido" value=""> <br>
+            NOME COMPLETO:<input type="text" id="nomeC" value=""> <br>
+            DATA NASCIMENTO:<input type="text" id="nascimento" value=""><br>
+            SEXO: 
+            <select name="" id="sexo" >
+                <option value="m">Masculino</option>
+                <option value="f">Feminino</option>
+            </select> <br>
+            
+            
+            <!-- IMAGEM CAPA:<input type="number" id="imgCapa" value=""  ><br> -->
+
+            ELEITO 2000:<input type="number" id="e2000" value="0">
+            CARGO: 
+            <select name="" id="ele2000" >
+                <option value="v">Vereador</option>
+                <option value="p">Prefeito</option>
+                <option value="vp">Vice-Prefeito</option>
+            </select> <br>
+            ELEITO 2004:<input type="number" id="e2004" value="0">
+            CARGO: 
+            <select name="" id="ele2004" >
+                <option value="v">Vereador</option>
+                <option value="p">Prefeito</option>
+                <option value="vp">Vice-Prefeito</option>
+            </select> <br>
+            ELEITO 2008:<input type="number" id="e2008" value="0">
+            CARGO: 
+            <select name="" id="ele2008" >
+                <option value="v">Vereador</option>
+                <option value="p">Prefeito</option>
+                <option value="vp">Vice-Prefeito</option>
+            </select> <br>
+            ELEITO 2012:<input type="number" id="e2012" value="0">
+            CARGO: 
+            <select name="" id="ele2012" >
+                <option value="v">Vereador</option>
+                <option value="p">Prefeito</option>
+                <option value="vp">Vice-Prefeito</option>
+            </select> <br>
+            ELEITO 2016:<input type="number" id="e2016" value="0">
+            CARGO: 
+            <select name="" id="ele2016" >
+                <option value="v">Vereador</option>
+                <option value="p">Prefeito</option>
+                <option value="vp">Vice-Prefeito</option>
+            </select> <br>
+            ELEITO 2020:<input type="number" id="e2020" value="0">
+            CARGO: 
+            <select name="" id="ele2020" >
+                <option value="v">Vereador</option>
+                <option value="p">Prefeito</option>
+                <option value="vp">Vice-Prefeito</option>
+            </select> <br>
+            <p>*0: Não Participou</p>
+            <p>*1: Participou</p>
+            <p>*2: Eleito</p>
+            
+            <!-- OUTRAS IMAGENS:<input type="text" id="img2004" value=""><br>
+            OUTRAS IMAGENS:<input type="text" id="img2008" value=""><br>
+            OUTRAS IMAGENS:<input type="text" id="img2012" value=""><br>
+            OUTRAS IMAGENS:<input type="text" id="img2016" value=""><br>
+            OUTRAS IMAGENS:<input type="text" id="img2020" value=""><br>
+
+
+          
+            COR:<input type="text" id="cor" value=""><br>
+            NACIONALIDADE:<input type="text" id="nacionalidade" value=""><br>
+            GRADUACAO:<input type="text" id="graducao" value=""><br>
+            CIDADE NATAL:<input type="text" id="cidadeNatal" value=""><br>
+            ESTADO:<input type="text" id="estado" value=""><br>
+            PROFISSÃO:<input type="text" id="profissao" value=""><br> -->
+        </div>
+
+
+        <button onclick="magica()">Gerar</button> <br>
+
+        <input type="text" id="diminui" hidden>
+
+        <div>
+            <textarea onclick="copiarTexto()" name="" id="area" cols="100" rows="40"></textarea>
+            <div id="copiado">
+                
+            </div>
+        </div>
+
+
+    </div>
+    <script>
+
+
+
+        function magica() {
+            const apelido = document.querySelector('#apelido').value;
+            const nomeCompleto = document.querySelector('#nomeC').value;
+            const dataNascimento = document.querySelector('#nascimento').value;
+            const e2000 = document.querySelector('#e2000').value;
+            const e2004 = document.querySelector('#e2004').value;
+            const e2008= document.querySelector('#e2008').value;
+            const e2012= document.querySelector('#e2012').value;
+            const e2016= document.querySelector('#e2016').value;
+            const e2020= document.querySelector('#e2020').value;
+
+
+            const sex = document.querySelector('#sexo');
+            const sexo = sex.options[sex.selectedIndex].value;
+
+            const c2000 = document.querySelector('#ele2000');
+            const cargo2000 = c2000.options[c2000.selectedIndex].value;
+
+            const c2004 = document.querySelector('#ele2004');
+            const cargo2004 = c2004.options[c2004.selectedIndex].value;
+
+            const c2008 = document.querySelector('#ele2008');
+            const cargo2008 = c2008.options[c2008.selectedIndex].value;
+
+            const c2012 = document.querySelector('#ele2012');
+            const cargo2012 = c2012.options[c2012.selectedIndex].value;
+
+            const c2016 = document.querySelector('#ele2016');
+            const cargo2016 = c2016.options[c2016.selectedIndex].value;
+
+            const c2020 = document.querySelector('#ele2020');
+            const cargo2020 = c2020.options[c2020.selectedIndex].value;
+
+
+
+
+
+
+            const aLink = apelido.toLowerCase()
+
+            const link = aLink.replace(/ /g, '-');
+
+            var eleicoes2000 = [];
+            var eleicoes2004 = [];
+            var eleicoes2008 = [];
+            var eleicoes2012 = [];
+            var eleicoes2016 = [];
+            var eleicoes2020 = [];
+            var imagemcapa = '';
+            const fotos = []
+
+            console.log(e2004 + "ww")
+
+            if(e2000 == 0) {
+                eleicoes2000 = { "ano": "", "eleito": "", "cargo": ""}               
+            } else if (e2000 == 1) {
+                eleicoes2000 = { "ano": "2000", "eleito": "n", "cargo": cargo2000}
+                imagemcapa = `/pessoas/${link}-2000-max.png`
+                imagemMin = `/pessoas/${link}-2000.png`
+                fotos.push({"imagem":`${imagemMin}`});
+                fotos.push({"imagem":`${imagemcapa}`});
+            } else {
+                eleicoes2000 = { "ano": "2000", "eleito": "s", "cargo": cargo2000}
+                imagemcapa = `/pessoas/${link}-2000-max.png`
+                imagemMin = `/pessoas/${link}-2000.png`
+                fotos.push({"imagem":`${imagemMin}`});
+                 fotos.push({"imagem":`${imagemcapa}`});
+            }
+
+            if(e2004 == 0) {
+                eleicoes2004 = { "ano": "", "eleito": "", "cargo": ""}               
+            } else if (e2004 == 1) {
+                eleicoes2004 = { "ano": "2004", "eleito": "n", "cargo": cargo2004}
+                imagemcapa = `/pessoas/${link}-2004-max.png`
+                imagemMin = `/pessoas/${link}-2004.png`
+                fotos.push({"imagem":`${imagemMin}`});
+                fotos.push({"imagem":`${imagemcapa}`});
+            } else {
+                eleicoes2004 = { "ano": "2004", "eleito": "s", "cargo": cargo2004}
+                imagemcapa = `/pessoas/${link}-2004-max.png`
+                imagemMin = `/pessoas/${link}-2004.png`
+                fotos.push({"imagem":`${imagemMin}`});
+                 fotos.push({"imagem":`${imagemcapa}`});
+            }
+
+            if(e2008 == 0) {
+                eleicoes2008 = { "ano": "", "eleito": "", "cargo": ""}               
+            } else if (e2008 == 1) {
+                eleicoes2008 = { "ano": "2008", "eleito": "n", "cargo": cargo2008}
+                imagemcapa = `/pessoas/${link}-2008-max.png`
+                imagemMin = `/pessoas/${link}-2008.png`
+                fotos.push({"imagem":`${imagemMin}`});
+                 fotos.push({"imagem":`${imagemcapa}`});
+            } else {
+                eleicoes2008 = { "ano": "2008", "eleito": "s", "cargo": cargo2008}
+                imagemcapa = `/pessoas/${link}-2008-max.png`
+                imagemMin = `/pessoas/${link}-2008.png`
+                fotos.push({"imagem":`${imagemMin}`});
+                 fotos.push({"imagem":`${imagemcapa}`});
+            }
+
+            if(e2012 == 0) {
+                eleicoes2012 = { "ano": "", "eleito": "", "cargo": ""}               
+            } else if (e2012 == 1) {
+                eleicoes2012 = { "ano": "2012", "eleito": "n", "cargo": cargo2012}
+                imagemcapa = `/pessoas/${link}-2012-max.png`
+                imagemMin = `/pessoas/${link}-2012.png`
+                fotos.push({"imagem":`${imagemMin}`});
+                 fotos.push({"imagem":`${imagemcapa}`});
+            } else {
+                eleicoes2012 = { "ano": "2012", "eleito": "s", "cargo": cargo2012}
+                imagemcapa = `/pessoas/${link}-2012-max.png`
+                imagemMin = `/pessoas/${link}-2012.png`
+                fotos.push({"imagem":`${imagemMin}`});
+                 fotos.push({"imagem":`${imagemcapa}`});
+            }
+
+            if(e2016 == 0) {
+                eleicoes2016 = { "ano": "", "eleito": "", "cargo": ""}               
+            } else if (e2016 == 1) {
+                eleicoes2016 = { "ano": "2016", "eleito": "n", "cargo": cargo2016}
+                imagemcapa = `/pessoas/${link}-2016-max.png`
+                imagemMin = `/pessoas/${link}-2016.png`
+                fotos.push({"imagem":`${imagemMin}`});
+                 fotos.push({"imagem":`${imagemcapa}`});
+            } else {
+                eleicoes2016 = { "ano": "2016", "eleito": "s", "cargo": cargo2016}
+                imagemcapa = `/pessoas/${link}-2016-max.png`
+                imagemMin = `/pessoas/${link}-2016.png`
+                fotos.push({"imagem":`${imagemMin}`});
+                 fotos.push({"imagem":`${imagemcapa}`});
+            }
+
+
+            if(e2020 == 0) {
+                eleicoes2020 = { "ano": "", "eleito": "", "cargo": ""}               
+            } else if (e2020 == 1) {
+                eleicoes2020 = { "ano": "2020", "eleito": "n", "cargo": cargo2020}
+                imagemcapa = `/pessoas/${link}-2020-max.png`
+                imagemMin = `/pessoas/${link}-2020.png`
+                fotos.push({"imagem":`${imagemMin}`});
+                 fotos.push({"imagem":`${imagemcapa}`});
+            } else {
+                eleicoes2020 = { "ano": "2020", "eleito": "s", "cargo": cargo2020}
+                imagemcapa = `/pessoas/${link}-2020-max.png`
+                imagemMin = `/pessoas/${link}-2020.png`
+                fotos.push({"imagem":`${imagemMin}`});
+                 fotos.push({"imagem":`${imagemcapa}`});
+            }
+
+
+
+            
+            console.log(JSON.stringify(fotos))
+
+
+            console.log(eleicoes2000.ano)
+            console.log(eleicoes2000.eleito)
+            const imgC = JSON.stringify(fotos[1]);
+            
+           
+            const imagCorreto = imgC.replace("{\"imagem\":\"", '').replace(/\"}/g, "")
+           
+
+            const dadoPolitico = `
+            {    
+                "nome": "${link}",
+                "nomeCompleto": "${nomeCompleto}",
+                "sexo": "${sexo}",
+                "numero": "",
+                "estadoCivil": "",
+                "graduacao": "",
+                "cor": "",
+                "nacionalidade": "b",
+                "cidadeN": "ldp",
+                "estado": "MG",
+                "nota": "",
+                "imagemCapa": "${imagCorreto}",
+                "profissao": "",
+                "nascimento": "${dataNascimento}",
+                "falecimento": "",
+                "nomeUrna": "",
+                "apelido": "${apelido.toLowerCase()}",
+                "candidaturas": [
+                {
+                    "ano": "${eleicoes2000.ano}",
+                    "eleito": "${eleicoes2000.eleito}",
+                    "cargo": "${eleicoes2000.cargo}"
+                  },
+                  {
+                    "ano": "${eleicoes2004.ano}",
+                    "eleito": "${eleicoes2004.eleito}",
+                    "cargo": "${eleicoes2004.cargo}"
+                  },
+                  {
+                    "ano": "${eleicoes2008.ano}",
+                    "eleito": "${eleicoes2008.eleito}",
+                    "cargo": "${eleicoes2008.cargo}"
+                  },
+                  {
+                    "ano": "${eleicoes2012.ano}",
+                    "eleito": "${eleicoes2012.eleito}",
+                    "cargo": "${eleicoes2012.cargo}"
+                  },
+                  {
+                    "ano": "${eleicoes2016.ano}",
+                    "eleito": "${eleicoes2016.eleito}",
+                    "cargo": "${eleicoes2016.cargo}"
+                  },
+                  {
+                    "ano": "${eleicoes2020.ano}",
+                    "eleito": "${eleicoes2020.eleito}",
+                    "cargo": "${eleicoes2020.cargo}"
+                  }
+                ],
+                "fotos": ${JSON.stringify(fotos)},
+                "imagem": ""
+            },`
+            area.innerHTML = dadoPolitico
+        }
+        function copiarTexto() {
+            let textoCopiado = document.getElementById("area");
+            textoCopiado.select();
+            textoCopiado.setSelectionRange(0, 99999)
+            document.execCommand("copy");
+            document.getElementById('copiado').innerHTML = ' <p>Copiado</p>'
+            setTimeout('fechaAviso()', 2000)
+        }
+        function fechaAviso() {
+            document.getElementById('copiado').innerHTML = ''
+        }
+        
+
+    </script>
+</body>
+
+</html>

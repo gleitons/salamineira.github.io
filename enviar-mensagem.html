@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar Mensagem</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        @font-face {
+            font-family: fontCerto;
+            src: url('/fonts/monofonto/monofonto\ rg.otf');
+        }
+
+
+        #mostraEmailMEI span {
+            font-family: fontCerto;
+        }
+
+        main {
+            padding-top: 20px;
+            width: 90%;
+            margin: auto;
+        }
+
+        .accEmpresaWhats {
+            display: block;
+        }
+
+        .accMostraMEI {
+            display: block;
+        }
+
+        .accMostraME {
+            display: block;
+        }
+
+        button {
+            width: 360px;
+            text-align: center;
+            padding: 10px;
+            margin: 10px 0;
+            cursor: pointer;
+        }
+
+        .dnone {
+            display: none;
+        }
+
+        span img {
+            width: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        
+        <textarea name="" id="" cols="45" rows="10"></textarea> <br>
+        <!-- <input type="text" value="Testando Mensagem"> -->
+        <button>Go</button>
+        <div>
+            <div id="accWhats">
+                Empresas Com Whats:
+                <span id="empresaW">...</span>
+            </div>
+        </div>
+        <div>
+            <div id="accMEI">
+                Empresas MEI:
+                <span id="empresaM">...</span>
+            </div>
+        </div>
+        <div>
+            Empresas ME, EI, LTDA:
+            <span id="empresaE">...</span>
+        </div>
+        <div>
+            TOTAL:
+            <span id="totalEmpresas"><img src="/img/loading-casos-de-covid-lagoa-dos-patos-mg.svg" alt="" </span>
+        </div>
+        <div>
+            <button onclick="ocultar('acw')">Empresas com WhatsApp</button>
+            <div id="accEmpresaWhats" class="accEmpresaWhats dnone ">
+                <h2>EMPRESAS COM WHATSAPP</h2>
+                <div id="mWhats"></div>
+            </div>
+        </div>
+        <button onclick="ocultar('amm')">Monstrar MEI´S</button> <br>
+        <div id="accMostraMEI" class="accMostraMEI dnone ">
+            <h2>MEI´S</h2>
+            <div id="mostraMEI">
+            </div>
+        </div>
+        <button onclick="ocultar('ame')">Mostrar ME´S</button> <br>
+        <div id="accMostraME" class="accMostraME dnone ">
+            <h2>ME</h2>
+            <div id="mostraME">
+            </div>
+        </div>
+        <button onclick="ocultar('emaE')">E-mail Empresas</button> <br>
+        <div id="" class="accMostraME dnone ">
+            <h2>Email´s Disponiveis ME</h2>
+            <div id="mostraEmailME">
+            </div>
+        </div>
+        <button onclick="ocultar('emaM')">E-mail MEI´S</button> <br>
+        <div id="" class="accMostraME  ">
+            <h2>Email´s Disponiveis MEI</h2>
+            <div id="mostraEmailMEI">
+            </div>
+            <div id="enviarParaTodos"></div>
+        </div>
+        <div id="cardEmpresa">
+            <!-- BEGIN:VCARD <br>
+            VERSION:3.0 <br>
+            FN:ALCIONE BATISTA VIANA 26300217000100 <br>
+            N:;ALCIONE BATISTA VIANA;26300217000100;; <br>
+            item1.EMAIL;TYPE=INTERNET:alcionebatista52661@gmail.com <br>
+            item1.X-ABLabel:MEI <br>
+            TEL;TYPE=CELL:+55 38 9950-2028 <br>
+            item2.ADR:;;RUA DOM PEDRO\, CENTRO\, 72;Lagoa dos Patos;MG;39360000;BR;RUA
+            DOM PEDRO\, CENTRO\, 72\nLagoa dos Patos\nMG\n39360000\nBR <br>
+            item2.X-ABLabel:MEI <br>
+            item3.ORG:ALCIONE BATISTA VIANA;atividade Principal <br>
+            item3.X-ABLabel: <br>
+            BDAY:20210701 <br>
+            URL;TYPE=WORK:https\://salamineira.com/empresas/alcione-batista-viana-26300217000100 <br>
+            NOTE:aqui é as observações\nPERSONALIZADO: Aqui as informaçoes mais completas do MEI <br>
+            CATEGORIES:Importado em 25/02 2,myContacts <br>
+            END:VCARD <br> -->
+        </div>
+    </main>
+
+
+   <script src="/empresalagoa.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+[
+  {
+    "nome": "MARÍLIA",
+    "nomecompleto": "Marília Gonçalves Santos",
+    "numero": 1111,
+    "imagem": "./111.png",
+    "proposta": "",
+    "votos": 5
+  },
+  {
+    "nome": "SIMONE",
+    "nomecompleto": "Simone Aparecida Ramos de Souza",
+    "numero": 1151,
+    "imagem": "./115.png",
+    "proposta": "<h3>Propostas</h3> <p>Zelar pelo cumprimento de direitos. Garantir absoluta prioridade na efetivação de direitos. Orientar a construção da política municipal de atendimento.</p><img src='./simone.jpeg' alt=''>",
+    "votos": 4
+  },
+  {
+    "nome": "MANU PERES",
+    "nomecompleto": "Manoelina Peres Alves",
+    "numero": 116,
+    "imagem": "./116.png",
+    "proposta": "",
+    "votos": 3
+  },
+  {
+    "nome": "ANDRÉIA DO BARRO",
+    "nomecompleto": "Andréia Soares Ramos",
+    "numero": 120,
+    "imagem": "./120.png",
+    "proposta": "",
+    "votos": 9
+  },
+  {
+    "nome": "CLÉIA FELIX",
+    "nomecompleto": "Cléia Felix dos Santos",
+    "numero": 123,
+    "imagem": "./120.png",
+    "proposta": "",
+    "votos": 8
+  },
+  {
+    "nome": "LEONORA RABELO",
+    "nomecompleto": "Leonora Rabelo da Silva",
+    "numero": 125,
+    "imagem": "./125.png",
+    "proposta": "",
+    "votos": 2
+  },
+  {
+    "nome": "NÁGILA REIS",
+    "nomecompleto": "Nágila fernandes Reis",
+    "numero": 222,
+    "imagem": "./222.png",
+    "proposta": "",
+    "votos": 18
+  },
+  {
+    "nome": "WALDIER CABRA",
+    "nomecompleto": "Waldier de Souza Silva",
+    "numero": 223,
+    "imagem": "./223.png",
+    "proposta": "<h3>Propostas</h3><img src='./dier-banner.jpeg' alt=''>",
+    "votos": 8
+  },
+  {
+    "nome": "ALDAIR DAIA",
+    "nomecompleto": "Aldair José Silva Nunes",
+    "numero": 234,
+    "imagem": "./234.png",
+    "proposta": "",
+    "votos": 5
+  },
+  {
+    "nome": "EUDIRENE DIDI",
+    "nomecompleto": "Eudirene Aparecida Pereira Alves",
+    "numero": 700,
+    "imagem": "./700.png",
+    "proposta": "<h3>Propostas</h3><img src='./didi-banner.jpeg' alt=''>",
+    "votos": 7
+  }
+]

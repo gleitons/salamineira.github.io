@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  max-width: 576px;
+  
+  margin: auto;
+  background-color: rgb(20, 40, 65);
+}
+
+header {
+  height: 100px;
+  max-width: 576px;
+  background-color: rgb(66, 113, 175);
+  position: relative;
+}
+.SearchB {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  align-items: center;
+  gap: 10px;
+}
+.SearchB input {
+  width: 100%;
+  font-size: 1.5em;
+  background-color: rgb(66, 113, 175);
+  border: none;
+  border-bottom: white solid 1px;
+  outline: none;
+}
+
+.SearchB input::placeholder {
+  color: rgb(194, 194, 194);
+}
+.SearchB input:focus {
+  color: rgb(194, 194, 194);
+}
+
+.SearchB img {
+  width: 50px;
+  border-radius: 20%;
+}
+main {
+  width: 100%;
+  height: 75vh;
+  overflow: auto;
+  background-image: url(./imgguia/futuro-consultoria.jpg);
+  background-size: cover;
+  background-color: rgb(224, 224, 224);
+  padding: 10px;
+}
+.tamanhosImg {
+  margin: 20px auto;
+  border: #0093e9 solid 10px;
+  border-radius: 12px;
+  
+}
+
+#infoVisivel {
+  margin-bottom: 60px;
+}
+.enderecoEmp {
+  color: white;
+  margin: 10px auto;
+}
+.carregando {
+  width: 100%;
+  text-align: center;
+}
+.carregando img {
+  width: 40px;
+  margin: 10px auto;
+}
+.dnone {
+  display: none;
+}
+main img {
+  width: 100%;
+}
+.btnEmpresa {
+  list-style: none;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 10px;
+  line-height: 1.9em;
+  margin: 20px auto;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  box-shadow: black 0px 2px 5px 0px;
+  text-align: center;
+  animation: apareceTela 400ms normal;
+}
+#infoId {
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+@keyframes apareceTela {
+  0% {
+    opacity: 0;
+  }
+}
+.btnEmpresa span {
+  background-color: rgb(206, 108, 4) ;
+  padding: 0 10px;
+  border-radius: 0px;
+  margin: 10px auto;
+  line-height: 1.8em;
+}
+.menuTop {
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  /* border: black solid 1px; */
+}
+.menuTop nav {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.menuTop nav a {
+  width: 100%;
+  margin: 2px 2px;
+
+  color: rgb(66, 113, 175);
+  align-items: center;
+}
+.menuTop nav li {
+  padding: 5px;
+  list-style: none;
+  background-color: white;
+  border-radius: 8px;
+  font-size: 1.3em;
+}
+footer {
+  
+  position: fixed;
+  overflow-x: auto;
+  bottom: 0px;
+  width: 100%;
+  background-color: white;
+}
+
+footer nav {  
+  
+  display: flex;
+  font-size: 0.7em;
+  padding: 2px;
+  /* justify-content: space-between; */
+ 
+  
+}
+footer nav a {
+  text-decoration: none;
+  text-align: center;
+}
+footer nav a li {
+  display: block;
+  text-align: center;
+  width: 60px;
+  margin: 3px 5px;
+  padding: 5px 10px;
+  
+}
+.slideHande {
+  position: absolute;
+  bottom: -15px;
+  right: 0px;
+  
+}
+.slideHande img {
+  width: 80px;
+  z-index: 999999999;
+  
+}
+.addSeleciona {
+  background-color: rgb(66, 113, 175);  
+  border-radius: 8px;
+  color: white;
+  box-shadow: inset black 0px 2px 5px 0px;
+  font-size: 0.7em;
+  filter: saturate(1);
+
+}
+.addSeleciona img {
+  width: 23px;
+}
+footer nav a li img {
+  width: 24px;
+}
+.contatoEmpresa a {
+  display: flex;
+  margin: 10px auto;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  background-color: white;
+  padding: 2px;
+  border-radius: 8px;
+}
+.contatoEmpresa img {
+  width: 30px;
+}
+.fundoEmpresaLocal {
+  background-color: rgba(0, 0, 0, 0.855);
+  width: 100%;
+  height: 80vh;
+  position: absolute;
+  top: 0;
+}
+
+.empresaLocal {
+  position: absolute;
+  width: 100%;
+  max-width: 576px;
+  height: 78vh;
+  margin: auto;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  overflow: auto;
+  bottom: 0;
+  border-radius: 10% 10% 0% 0%;
+  padding: 10px;
+  border: #0093e9 solid 10px;
+  animation: empresaShow 500ms normal;
+}
+@keyframes empresaShow {
+  0% {
+    bottom: -100%;
+  }
+}
+.mapaLocalizacao iframe {
+  width: 100%;
+  height: 300px;
+  /* overflow: hidden; */
+  border-radius: 10% 10% 0% 0%;
+}
+.apresentaEndereco {
+  text-align: center;
+  color: white;
+}
+.btnAcessar {
+  width: 100%;
+  /* border: black 1px solid; */
+  text-align: center;
+}
+.btnAcessar button {
+  text-align: center;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 8px;
+}
+.fecharDivEndereco img {
+  position: absolute;
+  top: 16%;
+  width: 50px;
+  left: 5px;
+  animation: pulsas 200ms infinite;
+}
+@keyframes pulsas {
+  from {
+    filter: brightness(0);
+  }
+  to {
+    filter: brightness(2);
+  }
+}
+.fotosEmpresas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.fotosEmpresas img {
+  width: 49%;
+  gap: 10px;
+}
+
+@media (max-width: 360px) {
+  .fooNav nav {
+    min-width: 360px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    font-size: 0.8em;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

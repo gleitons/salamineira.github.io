@@ -1,0 +1,52 @@
+[
+  {
+    "matricula": "1751",
+    "nome": "JESSICA GONCALVES DE SOUZA",
+    "genero": "f",
+    "endereco": "AV PRESIDENTE MEDICI ",
+    "numero": "674",
+    "bairro": "CENTRO",
+    "nascimento": "15/10/1997",
+    "admissao": "01/04/2016"
+  },
+  {
+    "matricula": "1718",
+    "nome": "LEANDRO FERNANDES GONCALVES",
+    "genero": "m",
+    "endereco": "FAUSTINO MAIA ",
+    "numero": "139",
+    "bairro": "CENTRO",
+    "nascimento": "28/01/1991",
+    "admissao": "02/03/2016"
+  },
+  {
+    "matricula": "1739",
+    "nome": "MARIA CLEUZA DOS REIS QUEIROZ",
+    "genero": "f",
+    "endereco": "DONA DUXA  CA C",
+    "numero": "20",
+    "bairro": "CENTRO",
+    "nascimento": "10/01/1969",
+    "admissao": "02/03/2016"
+  },
+  {
+    "matricula": "2215",
+    "nome": "SAMIRA DIAS GONCALVES",
+    "genero": "f",
+    "endereco": "PRESIDENTE MEDICI  CASA",
+    "numero": "1043",
+    "bairro": "CENTRO",
+    "nascimento": "04/01/1995",
+    "admissao": "03/05/2021"
+  },
+  {
+    "matricula": "1729",
+    "nome": "VILCIENE APARECIDA SOARES PEREIRA",
+    "genero": "m",
+    "endereco": "PRESIDENTE MEDICI ",
+    "numero": "60",
+    "bairro": "INDEPENDENCIA",
+    "nascimento": "06/01/1977",
+    "admissao": "02/03/2016"
+  }
+]

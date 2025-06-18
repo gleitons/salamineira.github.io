@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitação - Oficio - Autorização</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    header>div {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        /* border: black solid 1px; */
+        margin: 10px auto;
+        align-items: center;
+    }
+
+    div input {
+        width: 50%;
+        padding: 5px;
+        background-color: rgb(236, 236, 236);
+        border: none;
+        border-bottom: black solid 1px;
+    }
+
+    .folha {
+        /* background-color: #ccc; */
+        padding: 0.5em;
+        /* border: black solid 1px;//??
+        */
+    } 
+
+    .a4_vertical {
+        width: 793px;
+        height: 1122px;
+        margin: 20px auto;
+    }
+
+    .a4_horizontal {
+        width: 1122px;
+        height: 780px;
+    }
+
+    .topo img {
+        width: 100%;
+    }
+
+    .interna {
+        line-height: 1.5em;
+        padding: 10px;
+    }
+
+    .interna h2:nth-child(1) {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .interna h3 {
+        margin: 10px 0px;
+    }
+
+    .assinatura {
+        text-align: center;
+    }
+
+    .assinatura p {
+        padding-top: 150px;
+
+    }
+    .lig {
+       visibility: hidden;
+    }
+    button {
+        padding: 10px;
+        background-color: rgb(11, 101, 136);
+        border-radius: 8px;  
+        color: white;      
+        font-weight: 700;
+        border: none;
+    }
+    button:hover {
+        background-color: rgb(176, 233, 255);
+        cursor: pointer;
+        color: black;
+    }
+    button:active {
+        background-color: rgb(176, 233, 255);
+        cursor: pointer;
+        color: black;
+        box-shadow: inset black 0px 2px 2px 0px;
+        transform: scale(.9);
+    }
+    .tit {
+        background-color: rgb(231, 252, 255);
+        padding: 5px;
+    }
+    .topFix {
+        /* position: fixed; */
+        /* position: sticky; */
+        position:sticky;
+        z-index: 99999;
+        top: 10px;
+        text-align: center;
+    }
+    .abaixo {
+       
+    }
+
+    @media print {
+        header {
+            display: none;
+        }
+        .topFix {
+            display: none;
+        }
+    }
+</style>
+
+<body>
+    <header>
+        
+        <div class="tit"><strong>INSIRA AS INFORMAÇÕES:</strong></div> <br>
+        <div>SOLICITANTE: <input type="text" name="" id="" placeholder=" BONANDAS SOARES SOUZA"></div>
+        <div>CPF/CNPJ: <input type="text" name="" id="" placeholder="014.555.255-24"> </div>
+        <div>RG: <input type="text" name="" id="" placeholder="MG-18.488.055"> </div>
+        <div>ENDEREÇO DO SOLICITANTE: <input type="text" name="" id="" placeholder="AVENDIA PRESIDENTE MEDICI, 222, CENTRO"> </div>
+        <div>BAIRRO: <input type="text" name="" id="" placeholder="CENTRO"> </div>
+        <div>CEP: <input type="text" name="" id="" placeholder="39.360-000"> </div>
+        <div>CIDADE: <input type="text" name="" id="" placeholder="LAGOA DOS PATOS MG" > </div>
+        <div>TEL. DO SOLICITANTE: <input type="text" name="" id="" placeholder="(38) 998754411" > </div>
+
+        <div class="tit"><strong>DADOS DO EVENTO</strong></div>
+
+        <div >NOME DO EVENTO: <input type="text" name="" id="" placeholder="Realização de Festividade “SHOW´S AO VIVO”"> </div>
+        <div>CRONOGRAMA: <input type="text" name="" id=""> </div>
+        <div>ENDEREÇO DO EVENTO: <input type="text" name="" id="" placeholder="RUA ETC - RUA TAL, ESQUINA COM TAL"> </div>
+        <div>NÚMERO DE PARTICIPANTES: <input type="text" name="" id="" placeholder="INDETERMINADO"> </div>
+        <div>DATA INICIO: <input type="text" name="" id="" placeholder="30/03/2024"> </div>
+        <div>DATA FIM: <input type="text" name="" id="" placeholder="30/03/2024"> </div>
+        <div>HORÁRIO DE INÍCIO: <input type="text" name="" id="" placeholder="20:00"> </div>
+        <div>HORARIO DE FINALIZAÇÃO: <input type="text" name="" id="" placeholder="00:00"> </div>
+
+        <!-- <div class="topFix">
+            <div    ><button  onclick="geraArquivos()">GERAR</button> <button onclick="print()">IMPRIMIR</button></div>
+        </div>     -->
+
+
+    </header>
+
+    <main>
+       
+            <div class="topFix">
+                <div    ><button  onclick="geraArquivos()">GERAR</button> <button onclick="print()">IMPRIMIR</button></div>
+            </div>
+          
+
+        <div class="folha a4_vertical">
+            <div class="topo lig">
+                <img src="./topo.png" alt="">
+            </div>
+            <span id="solicitacao">
+
+            </span>
+
+        </div>
+        <div class="folha a4_vertical">
+            <div class="topo lig">
+                <img src="./topo.png" alt="">
+            </div>
+            <span id="oficio">
+
+            </span>
+
+        </div>
+
+        <div class="folha a4_vertical">
+            <div class="topo">
+                <img src="./topo.png" alt="">
+            </div>
+            <span id="autorizacao">
+
+            </span>
+
+        </div>
+    </main>
+    <script src="./js.js"></script>
+</body>
+
+</html>

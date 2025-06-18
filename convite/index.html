@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Convite - Coquetel dos Empresários de Lagoa dos Patos MG" />
+    <meta property="og:description" content="Confirme a sua presença no Coquetel dos Empresários de Lagoa dos Patos MG">
+    <meta property="og:url" content="https://salamineira.com/convite" />
+    <meta property="og:image" content="./confirma-presenca-min.jpg" />
+    <meta property="og:type" content="website" />
+    <title>Convite - Coquetel dos Empresários de Lagoa dos Patos MG</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        @font-face {
+            font-family: 'letraNome';
+            src: url('./Pacifico-Regular.ttf');
+        }
+
+        :root {
+            --letra: letraNome;
+        }
+
+        .convite {
+            max-width: 576px;
+            margin: auto;
+            background-image: url('./confirmacao-2.png');
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            border: black solid 2px;
+        }
+
+        .conviteFundo {
+            max-width: 576px;
+            margin: auto;
+            background-image: url('./insere-nome.jpg');
+            height: 100vh;
+            background-size: contain;
+            background-position: center;
+            border: black solid 2px;
+        }
+
+        .informacao {
+            width: 80%;
+            margin: auto;
+        }
+
+        .nomeCompleto {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .nomeCompleto textarea {
+
+            text-align: center;
+            width: 100%;
+            color: white;
+            font-family: cursive;
+            font-size: 1.8em;
+            background: rgb(218, 156, 75);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+
+        }
+
+        .nomeCompletoF {
+            background: rgba(255, 255, 255, 0.25);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(7.5px);
+            -webkit-backdrop-filter: blur(7.5px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            text-align: center;
+            padding: 10px;
+        }
+
+        .nomeCompletoF input {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .btnConfirma {
+            position: absolute;
+            bottom: 2em;
+            width: 260px;
+            margin: auto;
+            margin-top: 9em;
+            text-align: center;
+            background: rgba(240, 135, 0, 0.5);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            padding: 15px;
+            align-items: center;
+        }
+
+        .btnConfirma button {
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+            text-align: center;
+            margin: auto;
+            width: 100%;
+        }
+
+        .btnConfirma button:nth-last-child(2) {
+            background-color: rgb(34, 254, 0);
+            margin: 10px auto;
+            color: rgb(0, 0, 0);
+        }
+
+        /* .btnConfirma button:nth-last-child(2) {
+           background-color: rgb(0, 142, 213);
+        }
+        .btnConfirma button:nth-last-child(1) {
+           background-color: rgb(112, 71, 71);
+           color: rgb(0, 0, 0);
+        } */
+
+        .btnConfirma button:active {
+
+            background-color: rgb(243, 218, 218);
+            box-shadow: inset black 0px 2px 0px 0px;
+            font-size: .7em;
+            transform: scale(.9);
+        }
+
+        .listas {
+            width: 100%;
+            text-align: center;
+            margin: 20px auto;
+            line-height: 3em;
+            max-height: 65vh;
+            overflow: auto;
+        }
+
+        .listas li {
+            background-color: rgb(30, 162, 30);
+            box-shadow: rgb(37, 37, 37) 0px 3px 0px 0px;
+            margin: 5px auto;
+            list-style: none;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .listas p {
+            font-size: 1em;
+            background-color: rgb(0, 221, 255);
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        .listas li:hover {
+            background-color: rgb(2, 216, 2);
+        }
+
+        .nomeCompletoF button {
+            padding: 5px;
+            margin: 10px auto;
+
+        }
+
+        .explosao {
+            background-image: url('./confirmacao-2.png');
+
+
+        }
+
+        .vcConvidado {
+            background: rgba(60, 60, 60, 0.5);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            text-align: center;
+            /* margin-top: 20%; */
+            color: rgb(238, 191, 62);
+
+        }
+
+        .vcConvidado p {
+            font-size: 2em;
+        }
+
+        .vcConvidado h3 {
+            font-size: 3em;
+        }
+
+        .btnpe {
+            position: fixed;
+            bottom: -5px;
+            width: 100%;
+
+        }
+
+        .btnpe img {
+            max-width: 575px;
+        }
+
+        @media (max-width: 547px) {
+            .vcConvidado p {
+                font-size: 1em;
+            }
+
+            .vcConvidado h3 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+
+<body id="confirmad" class="">
+    <!-- <div>
+        <form action="" method="post">
+            <input type="text">
+            <button type="submit">Enviar</button>
+        </form>
+    </div> -->
+    <div id="esconde" style="display: block;">
+        <div class="conviteFundo">
+            <div class="informacao">
+
+                <div class="vcConvidado">
+                    <p>CONFIRME SUA PARTICIPAÇÃO</p>
+                    <h3>INSIRA SEU NOME</h3>
+                </div>
+                <div class="nomeCompletoF">
+                    <p>Pesquise agora mesmo</p>
+                    <input type="text" id="nome" autocomplete="off">
+                    <button onclick="confirma()">Pesquisar</button>
+
+                </div>
+                <div class="listas">
+                    <ul id="nomeLista">
+                        <!-- <li>GLEITON APARECIDO</li> -->
+
+                    </ul>
+                </div>
+
+                <!-- <div class="btnConfirma">
+                    <button type="submit" >CONFIRMAR</button>
+                   
+                </div> -->
+
+            </div>
+            <div class="btnpe">
+                <img src="./bottom-pe.png" alt="">
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div id="mostraConvite" style="display: none;">
+        <form
+            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfkIRLGxgerjq0bWp338zz4p-D3Z1Ds2ezd0bKuz2udfWCvvA/formResponse"
+            method="post">
+            <div id="tiraClass" class="convite explosao">
+                <div class="informacao">
+                    <div class="vcConvidado">
+                        <p>VOCÊ FOI CONVIDADO(A)</p>
+                        <h3>COQUETEL COM EMPRESÁRIOS</h3>
+                    </div>
+                    <div class="nomeCompleto">
+                        Nome:<textarea type="text" name="entry.1100968284" id="nomeConvidado" cols="8"
+                            rows="2"></textarea>
+                        CPF:<textarea type="text" name="entry.445871543" id="cpfConvidado" cols="8" rows="1"
+                            placeholder="Insira seu CPF"></textarea>
+                        Telefone:<textarea type="text" name="entry.170339446" id="numeroConvidado" cols="2" rows="1"
+                            placeholder="Ex: 38 99916-7781"></textarea>
+                        CNPJ:<textarea type="text" name="entry.602949084" id="numeroConvidado" cols="2" rows="1"
+                            placeholder="Ex: 26.300.217/0001-12"></textarea>
+
+                    </div>
+                    <div class="btnConfirma">
+                        <button type="submit">CONFIRMAR</button>
+                        <button>SAIR</button>
+                        <!-- <button>TALVEZ</button>
+                        <button>NÃO VOU</button> -->
+                    </div>
+                </div>
+            </div>
+
+
+
+        </form>
+
+    </div>
+    <script>
+        async function confirma() {
+
+            const nomeI = document.querySelector('#nome').value.toUpperCase()
+            const response = await fetch('./convidados')
+            const data = await response.json()
+            nomeLista.innerHTML = `<p>SELECIONE O CONVIDADO</p>`
+            if (nomeI.length != 0) {
+                var achados = []
+                data.map((convidados, index) => {
+
+
+                    if (convidados.nome.includes(nomeI) == true) {
+
+
+                        const minhaFrase = convidados.nome.toLowerCase()
+                        const palavras = minhaFrase.split(" ");
+
+                        for (let i = 0; i < palavras.length; i++) {
+                            palavras[i] = palavras[i][0].toUpperCase() + palavras[i].substr(1);
+                        }
+
+                        palavras.join();
+                        nomeC = palavras.toString().replace(/,/g, " ")
+
+
+                        nomeLista.innerHTML +=
+                            `<li onclick = "mostra(${index})" id="n${index}">${nomeC}</li>
+                            <div style="display: none;">
+                            <span id="cpfP${index}">${convidados.cpf}</span>
+                            <span id="telefoneP${index}">${convidados.telefone}</span>
+                            </div>`
+                        achados.push('1')
+                    }
+
+                })
+                if (achados.length == 0) {
+                    nomeLista.innerHTML = `<p>CONVIDADO NÃO ENCONTRADO</p>`
+                }
+            } else {
+                nomeLista.innerHTML = `<p>DIGITE UM NOME</p>`
+            }
+
+
+        }
+
+
+
+        function mostra(dados) {
+            setTimeout(' tiraExplosion()', 1000)
+            const esconde = document.querySelector('#esconde')
+
+            const mostraConvite = document.querySelector('#mostraConvite')
+            esconde.style.display = 'none'
+            mostraConvite.style.display = 'block'
+            const dadoN = document.querySelector(`#n${dados}`).textContent
+            const cpfC = document.querySelector(`#cpfP${dados}`).textContent
+            const numeroC = document.querySelector(`#telefoneP${dados}`).textContent
+            nomeConvidado.value = dadoN
+            cpfConvidado.value = cpfC
+            numeroConvidado.value = numeroC
+
+        }
+
+        function tiraExplosion() {
+            const tiraClass = document.querySelector('#tiraClass')
+            tiraClass.classList.remove('explosao')
+        }
+        //tiraExplosion()
+        const reiniciar = document.querySelectorAll('button')[2]
+
+        reiniciar.addEventListener('click', (e) => {
+            e.preventDefault()
+            reset()
+        })
+
+        function reset() {
+
+            location.reload()
+        }
+        nome.value = location.hash.replace('#', '').replace(/-/g, ' ')
+
+        //setInterval('confirma()', 2000)
+    </script>
+</body>
+
+</html>

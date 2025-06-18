@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .miniatura {
+            width: 100px;
+            position: relative;
+        }
+        .todasImg {
+            display: flex;
+            gap: 10px;
+        }
+        .mostraImg {
+            background-color: rgba(23, 23, 23, 0.861);
+            position: fixed;
+            width: 100%;            
+            height: 100%;
+        }
+        .mostraImg div{
+            margin: auto;            
+            padding: 1%;           
+            height: 100%;
+            text-align: center;
+        }
+        .mostraImg div img{
+            height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+    <!-- <div class="todasImg">
+        <div class="miniatura">
+            <img class="Sirv" data-src="https://rogresph.sirv.com/sala-mineira/Teste/acao-global-lagoa-dos-patos-motocross-10.jpeg" alt="">
+        </div>
+        <div class="miniatura">
+            <img class="Sirv" data-src="https://rogresph.sirv.com/sala-mineira/Teste/acao-global-lagoa-dos-patos-motocross-10.jpeg" alt="">
+        </div>
+        <div class="miniatura">
+            <img class="Sirv" data-src="https://rogresph.sirv.com/sala-mineira/Teste/acao-global-lagoa-dos-patos-motocross-10.jpeg" alt="">
+        </div>
+        <div class="miniatura">
+            <div class="Sirv" data-effect="zoom">
+                <img data-src="https://rogresph.sirv.com/sala-mineira/Teste/acao-global-lagoa-dos-patos-motocross-10.jpeg">
+            </div>
+        </div>
+        <div class="miniatura">
+            <img class="Sirv" data-src="https://rogresph.sirv.com/sala-mineira/Teste/acao-global-lagoa-dos-patos-motocross-10.jpeg" alt="">
+        </div>
+        <div class="miniatura">
+            <img class="Sirv" data-src="https://rogresph.sirv.com/sala-mineira/Teste/acao-global-lagoa-dos-patos-motocross-10.jpeg" alt="">
+        </div>
+        <div class="mostraImg">
+            <div>
+                <img class="Sirv" data-src="https://rogresph.sirv.com/sala-mineira/Teste/acao-global-lagoa-dos-patos-motocross-10.jpeg" alt="">
+            </div>
+           </div> 
+    </div>
+    <div>
+        <div class="Sirv" data-effect="zoom">
+            <img data-src="https://rogresph.sirv.com/sala-mineira/Teste/acao-global-lagoa-dos-patos-motocross-10.jpeg">
+        </div>
+    </div>
+     -->
+     <script>
+        const nomes = `conselho-reuniao-terra-nua-rural-lagoa-dos-patos-mg.jpg
+        conselho-reuniao-terra-nua-rural-lagoa-dos-patos-mg-info2-2023.jpg
+        conselho-reuniao-terra-nua-rural-lagoa-dos-patos-mg-info-2023.jpg
+        conselho-reuniao-terra-nua-rural-lagoa-dos-patos-mg-2023.jpg
+        conselho-reuniao-terra-nua-rural-lagoa-dos-patos-mg-online.jpg`
+
+
+
+        const mais = nomes.split('\n        ')
+
+        console.log(mais)
+
+        console.log(mais.replace(/' '/g, '20'))
+
+
+     </script>
+
+    <script src="https://scripts.sirv.com/sirv.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licitações</title>
+</head>
+
+<body>
+    <div id="ver">
+
+    </div>
+    <script>
+        var editais = []
+
+        function pegandoEditais() {
+            for (let i = 0; i < 1; i++) {
+                const url =
+
+                    pegarDados(`https://lagoadospatos.mg.gov.br/licitacoes`)
+
+            }
+        }
+        pegandoEditais()
+
+
+        function pegarDados(endereco) {
+
+            fetch(endereco)
+                .then((resp) => resp.text())
+                .then(function (data) {
+                    ver.innerHTML = data
+
+                    var editais = []
+
+                    for (let i = 1; i <= 10; i++) {
+
+                        const corpoLicita = document.querySelectorAll('#ver tbody tr')
+                        const processos = corpoLicita[i].querySelectorAll('td')[0].textContent
+                        const publicacao = corpoLicita[i].querySelectorAll('td')[2].textContent
+                        const modalidade = corpoLicita[i].querySelectorAll('td')[4].innerText
+                        const abertura = corpoLicita[i].querySelectorAll('td')[3].textContent
+                        const infoLicita = corpoLicita[i].querySelectorAll('td')[1].textContent
+                        const urls = corpoLicita[i].querySelectorAll('td')[6].querySelectorAll('a')[0].href
+                        //const baixarEdital = urls[i].getElementsByTagName('a')[0].innerHTML
+                        const situacao = corpoLicita[i].getElementsByTagName('td')[5].innerText
+
+                        console.log(processos)
+                        console.log(urls)
+                        console.log(situacao)
+                        console.log(publicacao)
+                        console.log(abertura)
+                        console.log(modalidade)
+                        console.log(infoLicita)
+
+                        const editalInfo = {
+                            "urlS": urls,
+                            "dataP": abertura,
+                            "processo": processos,
+                            "publicado": publicacao,
+                            "abertura": abertura,
+                            "modalidade": modalidade,
+                            "situacao": situacao,
+                            "infolicita": infoLicita
+                        }
+
+                        editais.push(editalInfo)
+
+                        localStorage.setItem('editaAtualizacao', JSON.stringify(editais))
+
+                    }
+                    console.log(editais)
+                    // {
+                    //   "processo": "Processo : 04/2019",
+                    // "publicado": "Publicação : 25/02/2019",
+                    // "abertura": "Abertura :  12/03/2019",
+                    //  "modalidade": "Modalidade : \n\t\t\t\t\t\tPregão\t\t\t\t\t\n\t\t\t\t\t",
+                    // "situacao": "Situação : \n\t\t\t\t\t\tFechada\t\n\t\t\t\t\t",
+                    //  "infolicita": "REGISTRO DE PREÇOS PARA CONTRATAÇÃO DE MICROEMPRESAS E EMPRESAS DE PEQUENO PORTE OU EQUIPARADAS PARA FORNECIMENTO DE GÊNEROS ALIMENTÍCIOS DESTINADOS A MERENDA ESCOLAR E SECRETARIAS MUNICIPAIS.",
+                    //  "baixarEdital": "https://lagoadospatos.mg.gov.br/wp-content/uploads/2019/07/EDITAL-PP04-ALIMENTOS-3.pdf"
+                    //},
+
+                    //const linhasa = 
+
+
+
+                })
+                .catch(function (error) {
+                    console.log(error)
+                });
+
+
+        }
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

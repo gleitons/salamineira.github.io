@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licitações</title>
+</head>
+
+<body>
+    <div id="ver">
+    </div>
+    <script>
+        var editais = []
+
+        function pegandoEditais() {
+            for (let i = 0; i < 1; i++) {
+                const url =
+
+                    pegarDados(`https://docs.google.com/spreadsheets/d/1aVl46pWE7jgt4Pywz4URx7DiPFC7yQRujEp4YXgen0w/edit#gid=430563898`)
+
+            }
+        }
+        pegandoEditais()
+
+
+        function pegarDados(endereco) {
+
+            fetch(endereco)
+                .then((resp) => resp.text())
+                .then(function (data) {
+                    ver.innerHTML = data
+
+                    var editais = []
+                    var corpoLicita = document.querySelectorAll('tbody tr')
+                    
+                    const votoManu = corpoLicita[4].querySelectorAll('td')[6].innerHTML
+                    const waldierCabra = corpoLicita[5].querySelectorAll('td')[6].innerHTML
+                    const nagilaReis = corpoLicita[6].querySelectorAll('td')[6].innerHTML
+                    const marilia = corpoLicita[7].querySelectorAll('td')[6].innerHTML
+                    const aldairdaia = corpoLicita[8].querySelectorAll('td')[6].innerHTML
+                    const cleiaFelix = corpoLicita[9].querySelectorAll('td')[6].innerHTML
+                    const eudireneDiDi = corpoLicita[10].querySelectorAll('td')[6].innerHTML
+                    const andreiaDoBarro = corpoLicita[11].querySelectorAll('td')[6].innerHTML
+                    const didi = corpoLicita[12].querySelectorAll('td')[6].innerHTML
+                    const simone = corpoLicita[13].querySelectorAll('td')[6].innerHTML
+
+                    const resultadoParcial = {
+                        "manuperes":votoManu,
+                        "waldierCabra": waldierCabra,
+                        "nagilaReis": nagilaReis,
+                        "marilia": marilia,
+                        "aldairdaia": aldairdaia,
+                        "cleiaFelix": cleiaFelix,
+                        "eudireneDiDi": eudireneDiDi,
+                        "andreiaDoBarro": andreiaDoBarro,
+                        "didi": didi,
+                        "simone": simone
+
+
+
+                    }
+
+                    console.log(resultadoParcial)
+
+                    // for (let i = 0; i < corpoLicita.length; i++) {                        
+
+                      
+                    //         var nome = corpoLicita[i].querySelectorAll('td')[1].innerHTML
+
+                    //         var nomecompleto = corpoLicita[i].querySelectorAll('td')[2].innerHTML
+
+                    //         var numero = corpoLicita[i].querySelectorAll('td')[3].innerHTML
+
+                    //         var votos = corpoLicita[i].querySelectorAll('td')[4].innerHTML
+
+
+                    //         const editalInfo = {
+                    //                 "nome": nome,
+                    //                 "nomecompleto": nomecompleto,
+                    //                 "numero": numero,
+                    //                 "imagem": `./${numero}.png`,
+                    //                 "votos": 1
+
+                    //             }
+                    //             editais.push(editalInfo)
+                    //         if (nome != 'Nome:') {
+                               
+                                
+                    //         }
+                    //         console.log(editais)
+                        
+                    // }
+                })
+
+                .catch(function (error) {
+                    console.log(error)
+                });
+
+
+        }
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

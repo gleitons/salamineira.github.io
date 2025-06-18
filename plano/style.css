@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    margin-left: 50px;
+    width: 800px;
+    padding-bottom: 2px;
+
+}
+
+h3 {
+    font-weight: 200;
+}
+.img {
+    width: 600px;
+}
+.logo {
+    width: 150px;
+}

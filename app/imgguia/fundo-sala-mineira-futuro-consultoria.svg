@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="87.986 0 355.299 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="257.403" y1="43.866" x2="257.403" y2="332.548" id="gradient-0" gradientTransform="matrix(-0.076079, -0.062656, 0.054565, -0.066255, 238.073023, 363.911366)">
+      <stop offset="0" style="stop-color: rgb(229, 156, 64);"/>
+      <stop offset="1" style="stop-color: rgb(113, 211, 203);"/>
+    </linearGradient>
+  </defs>
+  <rect x="87.986" width="355.299" height="500" style="stroke: rgb(0, 0, 0); fill: rgba(42, 42, 42, 0); stroke-opacity: 0;"/>
+  <text style="fill: rgb(233, 112, 0); font-family: Arial, sans-serif; font-size: 17.9px; font-weight: 700; white-space: pre;" transform="matrix(2.626981019973755, 0, 0, 3.3552191257476807, -518.46923828125, -337.6493835449219)" x="285.004" y="177.756">MINEIRA</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 17.9px; font-weight: 700; white-space: pre;" transform="matrix(0.9078500866889954, 0, 0, 0.9793969988822937, 22.67310333251953, 63.8783073425293)"><tspan x="85.271" y="217.461" style="fill: rgb(255, 255, 255);">do Empreendedor de</tspan><tspan> </tspan><tspan style="fill: rgb(233, 112, 0);">Lagoa dos Patos-MG</tspan></text>
+  <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 17.9px; font-weight: 700; white-space: pre;" transform="matrix(2.626981019973755, 0, 0, 3.3552191257476807, -648.6136474609375, -337.6493835449219)" x="285.004" y="177.756">SALA</text>
+  <rect x="211.3" y="318.299" width="107.731" height="30.983" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" rx="9.222" ry="9.222"/>
+  <path d="M 241.917 333.768 C 241.917 334.808 241.805 335.824 241.593 336.8 C 236.23 332.211 226.055 324.777 216.596 324.934 C 219.198 321.663 223.212 319.566 227.716 319.566 C 235.559 319.566 241.917 325.924 241.917 333.768 Z M 227.716 347.969 C 220.488 347.969 214.522 342.57 213.63 335.584 C 219.003 336.683 226.301 339.564 233.377 346.796 C 231.644 347.551 229.729 347.969 227.716 347.969 Z M 214.942 327.554 C 219.473 327.541 230.355 328.758 240.764 339.383 C 239.688 341.879 237.917 344.005 235.695 345.518 C 231.599 341.822 222.634 334.571 213.551 332.748 C 213.682 330.896 214.169 329.142 214.942 327.554 Z" style="stroke: rgb(0, 0, 0); fill: url(#gradient-0); stroke-opacity: 0; paint-order: fill; transform-origin: 227.734px 333.768px;"/>
+  <text style="fill: rgb(23, 49, 58); font-family: Arial, sans-serif; font-size: 14.5px; font-weight: 700; paint-order: fill; white-space: pre;" transform="matrix(1.1484240293502808, 0, 0, 1.3635979890823364, -36.24647521972656, -116.3936767578125)" x="244.21" y="333.16">FUTURO</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 5.3px; paint-order: fill; white-space: pre;" transform="matrix(1.2673790454864502, 0, 0, 1, -68.47099304199219, 0)" x="256.082" y="346.845">CONSULTORIA</text>
+</svg>

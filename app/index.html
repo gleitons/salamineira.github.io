@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta id="keyW" name="keywords" content="Empresas em Lagoa dos Patos MG">
+    <meta id="descSite" name="description" content="Guia empresaria da cidade de Lagoa dos Patos MG">
+    <meta id="contentFace" property="og:title"
+        content="Visite os pontos empresariais de Lagoa dos Patos, restaurantes, bares, farmácias, mercados e muito mais">
+    <meta id="poliFace" property="og:type" content="politician">
+    <meta id="descFace" property="og:description"
+        content="Visite os pontos empresariais de Lagoa dos Patos, restaurantes, bares, farmácias, mercados e muito mais">
+    <meta id="imageFace" property="og:image" content="./imgguia/capa-app-sala-mineira.png">
+    <meta id="urlFace" property="og:url" content="https://salamineira.com/app">
+    <meta id="siteFace" property="og:site_name" content="https://salamineira.com">
+    <meta id="endeFace" property="fb:admins" content="salamineiraoficial">
+    <meta id="contTwiter" name="twitter:description" content="Empresas em Lagoa dos Patos MG">
+    <meta id="contTitle" name="twitter:title" content="Empresas em Lagoa dos Patos MG">
+    <meta id="imgTwit" name="twitter:image" content="./imgguia/capa-app-sala-mineira.png">
+    <title id="titleHeader">Guia Empresarial de Lagoa dos Patos MG - Sala Mineira do empreendedor de Lagoa dos Patos MG
+    </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        navigator.geolocation.getCurrentPosition(function (position) {
+            do_something(position.coords.latitude, position.coords.longitude);
+        });
+    </script>
+
+    <link rel="stylesheet" href="./guia-editar.css">
+</head>
+
+<body onclick="contadorFavorite()">
+
+    <header>
+        <div class="loadFull" id="loadFull" style="display: none;">
+            <h2>CARREGANDO...</h2>
+            <h3>AGUARDE</h3>
+            <div class="carrload">
+
+            </div>
+        </div>
+        <div>
+            <div class="SearchB">
+                <a href="/app"><img src="./imgguia/brasao-lagoa.jpg" alt=""></a>
+                <input type="text" id="searchbar" onkeyup="buscaEmpresa()" onclick="localizaEmpresas()" name="search"
+                    placeholder="Busca">
+                <a onclick="localizaEmpresas()"><img src="./imgguia/buscar-guia.png" alt=""></a>
+            </div>
+            <div class="menuTop">
+                <nav>
+                    <a onclick="inicioApp()">
+                        <li>Início</li>
+                    </a>
+                    <a onclick="empresas()">
+                        <li>Empresas</li>
+                    </a>
+                    <a onclick="favoritosEmpresasOn()" class="nfavorito">
+                        <li>Favorito</li>
+                        <div class="contadorFavorito">
+                            <p id="contadorF">0</p>
+                        </div>
+                    </a>
+                    <a onclick="fotosLagoa()">
+                        <li>Fotos</li>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h3 id="infoId">Home</h3>
+            <div id="infoVisivel">
+
+            </div>
+
+
+
+        </div>
+    </main>
+    <footer onscroll="apagaSeta(), fechaGif()">
+        <nav class="iconesNav">
+            <a onclick="restaurante()">
+                <li><img src="./imgguia/dinner-table.png" alt=""> <br>
+                    Almoço</li>
+            </a>
+
+            <a onclick="mercado()">
+                <li><img src="./imgguia/carrinho-de-compras.png" alt=""> <br>
+                    Mercado</li>
+            </a>
+            <a onclick="padariaEmpresas()">
+                <li><img src="./imgguia/padaria.png" alt=""> <br>
+                    Padaria</li>
+            </a>
+            <a onclick="farmacia()">
+                <li><img src="./imgguia/farmacia.png" alt=""> <br>
+                    Farmácia</li>
+            </a>
+            <a onclick="combustivel()">
+                <li><img src="./imgguia/bomba-de-gasolina.png" alt=""> <br>
+                    Abasteça</li>
+            </a>
+            <a id="rightT" onclick="maisEmpresas()">
+                <li><img src="./imgguia/right.png" alt=""> <br>
+                    Mais</li>
+            </a>
+            </a>
+            <a onclick="barEmpresas()">
+                <li><img src="./imgguia/bar-counter.png" alt=""> <br>
+                    Bares</li>
+            </a>
+            </a>
+            <a onclick="lanchoneteEmpresas()">
+                <li><img src="./imgguia/barraca-de-lanche.png" alt=""> <br>
+                    Lanchonetes</li>
+            </a>
+            <a onclick="empresasTaxi()">
+                <li><img src="./imgguia/taxi.png" alt=""> <br>
+                    Táxi</li>
+            </a>
+            <a onclick="internetEmpresas()">
+                <li><img src="./imgguia/local-na-rede-internet.png" alt=""> <br>
+                    Internet</li>
+            </a>
+            <a onclick="empresaGas()">
+                <li><img src="./imgguia/cilindro-de-gas.png" alt=""> <br>
+                    Gás</li>
+            </a>
+            <a onclick="animalEmpresas()">
+                <li><img src="./imgguia/animais-de-estimacao.png" alt=""> <br>
+                    Animal</li>
+            </a>
+            <a onclick="empresaPublicas()">
+                <li><img src="./imgguia/governo.png" alt=""> <br>
+                    Públicos</li>
+            </a>
+            <a onclick="hotel()">
+                <li><img src="./imgguia/hotel.png" alt=""> <br>
+                    Hotel</li>
+            </a>
+
+            <a onclick="maisEmpresas()">
+                <li><img src="./imgguia/sinal-de-mais.png" alt=""> <br>
+                    Mais</li>
+            </a>
+            <a href="https://api.whatsapp.com/send?l=pt-BR&phone=553899020384&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20*Sala%20Mineira%20do%20empreendedor*%20em%20Lagoa%20dos%20Patos%20MG"
+                target="_blank">
+                <li><img src="./imgguia/contatos.png" alt=""> <br>
+                    Contato</li>
+            </a>
+
+        </nav>
+
+    </footer>
+    <div id="verSlide">
+        <div class="slideHande">
+            <img onclick="fechaGif()" src="./imgguia/gif-slide.gif" alt="">
+        </div>
+    </div>
+    <div id="mostraEmpresa">
+    </div>
+    <div class="imgGeradasPre">
+        <img src="./imgguia/add-favorito.png" alt="">
+    </div>
+
+    <script src="./guia-editar.js"></script>
+    <script src="https://scripts.sirv.com/sirv.js"></script>
+    <script>
+        const imdGera = `internet-gps.png
+hotel.png
+whatsapp.png
+telefone-velho.png
+taxi.png
+taxi-gps.png
+sinal-de-mais.png
+right.png
+restaurante-gps.png
+posto-gps.png
+padaria.png
+padaria-gps.jpg
+mercado-gps.png
+mapa-locais-lagoa.png
+local-na-rede-internet.png
+lanchonete-gps.jpg
+guia-turistico-lagoa.png
+guia-app.jpg
+governo.png
+gif-slide.gif
+geral-gps.png
+futuro-consultoria.png
+futuro-consultoria.jpg
+futuro-consultoria-logo-br.jpg
+favorito.png
+favorito-gps.png
+favorito-adicionado.png
+favoritar.png
+farmacia.png
+farmacia-gps.png
+dinner-table.png
+dinner-table (1).png
+cross.png
+contatos.png
+cilindro-de-gas.png
+casa.png
+casa-nova.png
+carrinho-de-compras.png
+capa-app-sala-mineira.png
+buscar-guia.png
+brasao-lagoa.jpg
+bomba-de-gasolina.png
+barraca-de-lanche.png
+bar-gps.png
+bar-counter.png
+animais-de-estimacao.png
+adicionar-aos-favoritos.png
+add-favorito.png`
+
+        const todasimagensT = imdGera.split('\n')
+
+        for (let i of todasimagensT) {
+
+            const imgGeradasON = document.createElement('img')
+            imgGeradasON.setAttribute('src', `./imgguia/${i}`)
+
+            document.querySelector('.imgGeradasPre').appendChild(imgGeradasON)
+
+
+        }
+        document.querySelector('.imgGeradasPre').innerHTML = ''
+        function navigate() {
+            const linkdaN = document.querySelector('.navigate-link').innerHTML
+            console.log(linkdaN)
+        }
+
+    </script>
+</body>
+
+</html>

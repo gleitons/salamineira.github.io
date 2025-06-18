@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversáriantes</title>
+</head>
+<body>
+    <div id="aniversario">
+
+
+    </div>
+
+    <script>
+        const nomes = `2178,GILSON FERREIRA LEITE,DOUTOR SANTOS 256 SL 604,CENTRO,20/01/1969,04/01/2021
+        2181,ALEX ANDRADE DA SILVA,"BELO HORIZONTE , 95 95",CIDADE NOVA,16/01/1988,04/01/2021
+        2265,HENRIQUE SOUZA MOTA,DONA DUXA 38 CASA,CENTRO,21/01/1992,23/01/2023
+        1665,JULIANA APARECIDA PEREIRA RAMOS,PRESIDENTE MEDICE 137,CENTRO,22/01/1996,02/03/2016
+        2082,AILDE XAVIER DA SILVA,FRANCELINO RIBEIRO 78 B,CIDADE NOVA,30/01/1974,06/09/2019
+        1673,CLAUDIA XAVIER DUARTE,FLORIANO PEIXOTO 0,CENTRO,25/01/1970,02/03/2016
+        1701,EDSON RAMOS DE SOUZA,OSVALDO BRAGA 78,CIDADE NOVA,15/01/1991,02/03/2016
+        1682,EVANDERLIANE SOARES DA COSTA,DONA GUIOMAR 55,INDEPENDENCIA,02/01/1973,02/03/2016
+        242,JOSE EDMILSON DOS SANTOS,R CEL ARISTIDES BATISTA 89,CENTRO,30/01/1963,03/02/2000
+        1785,KARLA PEREIRA DA SILVA,FRANCELINO RIBEIRO 75 CS,CENTRO,11/01/1987,01/08/2016
+        1800,LUCIOLA NUBIA ANTUNES MARTINS RABELO,PRESIDENTE MEDICI 301,NOVO HORIZONTE,16/01/1982,05/10/2016
+        1648,MARILIA APARECIDA PEREIRA RAMOS,FERNAO DIAS 17 CA B,CENTRO,05/01/1990,17/02/2016
+        325,REISMAR MAGALHAES CARDOSO,R MIGUEL BRAGA 216,CENTRO,05/01/1968,09/02/2004
+        563,RENATO DE JESUS NOBRE,RUA MIGUEL BRAGA 64,CENTRO,02/01/1971,01/03/2007
+        2243,EUGENIA MARCIA XAVIER DUARTE,SETE DE SETEMBRO 154,CENTRO,28/01/1992,23/05/2022
+        363,IRANEIDE DA CONCEICAO FERREIRA AGUIAR,RUA E 9,COHAB CIDADE NOVA,29/01/1980,01/04/2001
+        1717,JUNIA MARA OLIVEIRA SILVA,COSTA E SILVA 194,CENTRO,11/01/1991,02/03/2016
+        1703,LUCAS SEBASTIAO PEREIRA DA SILVA,PRESIDENTE MEDICE 508,CENTRO,20/01/1994,02/03/2016
+        1734,DAIANE CRISTINA CARDOSO,SETE DE SETEMBRO 159,CENTRO,22/01/1991,02/03/2016
+        1973,ELIANE APARECIDA DE JESUS ARAGAO,C 20 CS,COHAB CIDADE NOVA,19/01/1986,13/07/2017
+        1787,JOSE APARECIDO PEREIRA DA FONSECA,SANTA EFIGENIA 93,CIDADE NOVA,31/01/1977,08/08/2016
+        1718,LEANDRO FERNANDES GONCALVES,FAUSTINO MAIA 139,CENTRO,28/01/1991,02/03/2016
+        1739,MARIA CLEUZA DOS REIS QUEIROZ,DONA DUXA 20 CA C,CENTRO,10/01/1969,02/03/2016
+        2215,SAMIRA DIAS GONCALVES,PRESIDENTE MEDICI 1043 CASA,CENTRO,04/01/1995,03/05/2021
+        1729,VILCIENE APARECIDA SOARES PEREIRA,PRESIDENTE MEDICI 60,INDEPENDENCIA,06/01/1977,02/03/2016
+        `
+        const array = nomes.split('\n        ')
+        //console.log(nomes.split('\n        '))
+
+        var empregados = []
+
+        for(let i = 0; i < array.length -1; i++){
+
+            
+
+            const serv = array[i].split(',');
+
+            const stringM = serv[1].split(/ /g)[0]
+
+           // console.log(stringM.slice(stringM.length - 1))
+
+
+            if(stringM.slice(stringM.length - 1) != 'A' && stringM.slice(stringM.length - 1) != 'NE') {
+                //console.log(serv[1] + " masculino")
+                var genero = 'm'
+            } else {
+                var genero = 'f'
+            }
+
+
+            const servidor = {
+                "matricula": serv[0],
+                "nome": serv[1],
+                "genero": genero,
+                "endereco": serv[2].replace(/[0-9]/g, ''),                
+                "numero": serv[2].replace(/[^0-9]/g, ''),
+                "bairro": serv[3],
+                "nascimento": serv[4],
+                "admissao": serv[5]
+
+            }
+            empregados.push(servidor)
+            localStorage.setItem('nivers', JSON.stringify(empregados))
+            console.log(empregados)
+
+           
+        }
+        
+
+
+            
+
+
+    </script>
+    
+</body>
+</html>

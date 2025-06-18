@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sala Mineira do Empreendedor - Lagoa dos Patos MG</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #0066cc 0%, #004499 100%);
+            color: white;
+            padding: 1rem 0;
+            box-shadow: 0 4px 20px rgba(0, 102, 204, 0.3);
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .logo {
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+
+        .location {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            backdrop-filter: blur(10px);
+        }
+
+        .partners {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 0.85rem;
+            opacity: 0.95;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #1e88e5 0%, #1565c0 100%);
+            color: white;
+            padding: 6rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><path d="M0,400 Q300,250 600,350 T1200,300 L1200,600 L0,600 Z" fill="rgba(255,255,255,0.1)"/></svg>');
+            background-size: cover;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+        }
+
+        .hero-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 3.2rem;
+            margin-bottom: 1rem;
+            animation: slideDown 1s ease-out;
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .hero-subtitle {
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+            color: #e3f2fd;
+            animation: fadeIn 1s ease-out 0.3s both;
+        }
+
+        .hero-location {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 2rem;
+            background: linear-gradient(45deg, #ffeb3b, #ffc107);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .hero-description {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 3rem;
+            line-height: 1.8;
+            animation: fadeIn 1s ease-out 0.6s both;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: slideUp 1s ease-out 0.9s both;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: linear-gradient(45deg, #ff5722, #f44336);
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 25px rgba(255, 87, 34, 0.4);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(255, 87, 34, 0.5);
+            background: linear-gradient(45deg, #f44336, #ff5722);
+        }
+
+        .cta-secondary {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .cta-secondary:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-3px);
+        }
+
+        /* Location Info */
+        .location-info {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 4rem 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .location-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .location-details {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .location-details::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(45deg, #0066cc, #004499);
+        }
+
+        .section-title {
+            font-size: 2.2rem;
+            color: #2c3e50;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(45deg, #0066cc, #004499);
+            border-radius: 2px;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: #f8f9fa;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .info-item:hover {
+            background: #e3f2fd;
+            transform: translateX(10px);
+        }
+
+        .info-icon {
+            font-size: 1.5rem;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(45deg, #0066cc, #004499);
+            color: white;
+            border-radius: 50%;
+        }
+
+        .info-text {
+            flex: 1;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 0.2rem;
+        }
+
+        .info-value {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        .map-placeholder {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            border-radius: 20px;
+            padding: 3rem;
+            text-align: center;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+
+        .map-icon {
+            font-size: 4rem;
+            color: #0066cc;
+            margin-bottom: 1rem;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 5rem 0;
+            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+        }
+
+        .services-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .services-header h2 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+
+        .services-header p {
+            font-size: 1.1rem;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            border: 1px solid #f0f0f0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 102, 204, 0.1), transparent);
+            transition: left 0.6s ease;
+        }
+
+        .service-card:hover::before {
+            left: 100%;
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+        }
+
+        .service-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            display: inline-block;
+            padding: 1rem;
+            background: linear-gradient(45deg, #e3f2fd, #bbdefb);
+            border-radius: 15px;
+        }
+
+        .service-title {
+            font-size: 1.4rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+
+        .service-description {
+            color: #666;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .service-list {
+            list-style: none;
+        }
+
+        .service-list li {
+            padding: 0.8rem 0;
+            color: #555;
+            position: relative;
+            padding-left: 2rem;
+            border-bottom: 1px solid #f0f0f0;
+            transition: all 0.3s ease;
+        }
+
+        .service-list li:last-child {
+            border-bottom: none;
+        }
+
+        .service-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            top: 0.8rem;
+            color: #4caf50;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .service-list li:hover {
+            color: #2c3e50;
+            padding-left: 2.5rem;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 5rem 0;
+            background: linear-gradient(135deg, #0066cc 0%, #004499 100%);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .contact::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2"/><circle cx="50" cy="50" r="20" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/></svg>');
+            animation: rotate 20s linear infinite;
+        }
+
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .contact-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact-subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 3rem;
+            opacity: 0.9;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .contact-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 2rem;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .contact-card:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-5px);
+        }
+
+        .contact-card-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-card p {
+            opacity: 0.9;
+            font-size: 0.95rem;
+        }
+
+        .main-cta {
+            background: linear-gradient(45deg, #ff5722, #f44336);
+            color: white;
+            padding: 1.2rem 3rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(255, 87, 34, 0.4);
+        }
+
+        .main-cta:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255, 87, 34, 0.5);
+        }
+
+        /* Footer */
+        .footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 3rem 0 1rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+            color: #0066cc;
+        }
+
+        .footer-section p,
+        .footer-section li {
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #333;
+            padding-top: 1rem;
+            text-align: center;
+            color: #999;
+        }
+
+        .partners-footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .partner-logo {
+            font-weight: bold;
+            color: #0066cc;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-location {
+                font-size: 1.4rem;
+            }
+
+            .location-grid,
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo-section">
+                <div class="logo">Sala Mineira do Empreendedor</div>
+                <div class="location">📍 Lagoa dos Patos - MG</div>
+            </div>
+            <div class="partners">
+                <span>Uma parceria:</span>
+                <strong>SEBRAE MINAS</strong>
+                <span>+</span>
+                <strong>JUCEMG</strong>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Transforme sua Ideia em Negócio</h1>
+            <p class="hero-subtitle">Desburocratização e apoio empresarial</p>
+            <div class="hero-location">🏢 Lagoa dos Patos - MG</div>
+            <p class="hero-description">
+                A Sala Mineira do Empreendedor de Lagoa dos Patos é seu ponto de apoio completo para 
+                formalização empresarial, capacitação e orientação. Oferecemos todos os serviços 
+                necessários para fazer seu negócio decolar, desde o MEI até empresas de grande porte.
+                <br><strong>Tudo em um só lugar, de forma simples e rápida!</strong>
+            </p>
+            <div class="cta-buttons">
+                <a href="#servicos" class="cta-button">
+                    🚀 Conhecer Serviços
+                </a>
+                <a href="#contato" class="cta-button cta-secondary">
+                    📞 Falar Conosco
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="location-info">
+        <div class="container">
+            <div class="location-grid">
+                <div class="location-details">
+                    <h2 class="section-title">Nossa Unidade em Lagoa dos Patos</h2>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-text">
+                            <div class="info-label">Endereço</div>
+                            <div class="info-value">Centro de Lagoa dos Patos - MG<br>
+                            <small>*Confirme o endereço exato pelo telefone</small></div>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">🕒</div>
+                        <div class="info-text">
+                            <div class="info-label">Horário de Funcionamento</div>
+                            <div class="info-value">Segunda a Sexta: 8h às 17h<br>
+                            Sábado: 8h às 12h</div>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">👥</div>
+                        <div class="info-text">
+                            <div class="info-label">Atendimento</div>
+                            <div class="info-value">Presencial e agendamento<br>
+                            Equipe especializada SEBRAE + JUCEMG</div>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">🎯</div>
+                        <div class="info-text">
+                            <div class="info-label">Público Atendido</div>
+                            <div class="info-value">MEI, ME, EPP e empresas de todos os portes<br>
+                            Empreendedores de Lagoa dos Patos e região</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map-placeholder">
+                    <div class="map-icon">🗺️</div>
+                    <h3>Localização Estratégica</h3>
+                    <p>Nossa unidade está localizada no centro de Lagoa dos Patos - MG, 
+                    facilitando o acesso para empreendedores de toda a região.</p>
+                    <br>
+                    <strong>Fácil acesso e estacionamento disponível</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="servicos">
+        <div class="container">
+            <div class="services-header">
+                <h2>Serviços Disponíveis em Lagoa dos Patos</h2>
+                <p>Tudo o que você precisa para seu negócio em um só lugar</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3 class="service-title">Formalização Empresarial</h3>
+                    <p class="service-description">
+                        Todos os processos para abrir, alterar ou encerrar sua empresa de forma rápida e desburocratizada.
+                    </p>
+                    <ul class="service-list">
+                        <li>Consulta de viabilidade do negócio</li>
+                        <li>Registro via Redesimples/Minas Fácil</li>
+                        <li>Protocolo de licenciamento municipal</li>
+                        <li>Emissão de guias de taxas municipais</li>
+                        <li>Certificado CCMEI para MEI</li>
+                        <li>DASN SIMEI - Declaração Anual MEI</li>
+                        <li>Inscrição municipal e alvará</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎓</div>
+                    <h3 class="service-title">Capacitação e Treinamento</h3>
+                    <p class="service-description">
+                        Cursos, workshops e capacitações para desenvolver suas habilidades empreendedoras.
+                    </p>
+                    <ul class="service-list">
+                        <li>Cursos SEBRAE MINAS presenciais</li>
+                        <li>Capacitações JUCEMG especializadas</li>
+                        <li>Workshops de gestão empresarial</li>
+                        <li>Treinamentos setoriais específicos</li>
+                        <li>Palestras com especialistas</li>
+                        <li>Capacitação via parceiros locais</li>
+                        <li>Certificados reconhecidos</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💡</div>
+                    <h3 class="service-title">Orientação e Consultoria</h3>
+                    <p class="service-description">
+                        Orientações especializadas e informações estratégicas para o crescimento do seu negócio.
+                    </p>
+                    <ul class="service-list">
+                        <li>Orientação para registro empresarial</li>
+                        <li>Suporte ao licenciamento municipal</li>
+                        <li>Lista de contadores gratuitos (MEI)</li>
+                        <li>Como ser fornecedor da Prefeitura</li>
+                        <li>Participação em licitações públicas</li>
+                        <li>Mapa de oportunidades locais</li>
+                        <li>Material informativo gratuito</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contato">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Entre em Contato Conosco</h2>
+                <p class="contact-subtitle">Estamos prontos para ajudar seu negócio a crescer em Lagoa dos Patos - MG</p>
+                
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-card-icon">📞</div>
+                        <h3>Telefone</h3>
+                        <p>Ligue e agende seu atendimento<br>
+                        <strong>Segunda a Sexta: 8h às 17h</strong></p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-card-icon">📧</div>
+                        <h3>E-mail</h3>
+                        <p>Envie suas dúvidas por e-mail<br>
+                        <strong>Resposta em até 24h</strong></p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-card-icon">🏢</div>
+                        <h3>Atendimento Presencial</h3>
+                        <p>Visite nossa unidade no centro<br>
+                        <strong>Atendimento personalizado</strong></p>
+                    </div>
+                </div>
+
+                <a href="#" class="main-cta">📅 Agendar Atendimento</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Sobre a Sala Mineira do Empreendedor</h3>
+                    <p>
+                        Resultado da parceria estratégica entre SEBRAE MINAS e JUCEMG, 
+                        nossa unidade em Lagoa dos Patos atende empreendedores de toda a região, 
+                        oferecendo suporte completo para o desenvolvimento de negócios de todos os portes.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Serviços Principais</h3>
+                    <ul>
+                        <li>Formalização de empresas</li>
+                        <li>Capacitação empresarial</li>
+                        <li>Orientação especializada</li>
+                        <li>Licenciamento municipal</li>
+                        <li>Consultoria gratuita</li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contato Rápido</h3>
+                    <ul>
+                        <li>📍 Centro - Lagoa dos Patos MG</li>
+                        <li>🕒 Seg-Sex: 8h às 17h</li>
+                        <li>🕒 Sáb: 8h às 12h</li>
+                        <li>📞 Telefone: (contato local)</li>
+                        <li>📧 E-mail: (contato local)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="partners-footer">
+                    <span class="partner-logo">SEBRAE MINAS</span>
+                    <span>+</span>
+                    <span class="partner-logo">JUCEMG</span>
+                </div>
+                <p>&copy; 2025 Sala Mineira do Empreendedor - Lagoa dos Patos MG. Transformando negócios, impulsionando sonhos.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            

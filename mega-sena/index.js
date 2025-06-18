@@ -1,0 +1,3 @@
+[
+  { "loteria": "mega-sena", "nome": "Mega-Sena", "concurso": 2539, "data": "16/11/2022", "local": "ESPAÇODASORTE em SÃOPAULO,SP", "dezenas": ["01", "23", "32", "33", "36", "59"], "premiacoes": [{ "acertos": "Sena", "vencedores": 0, "premio": "-" }, { "acertos": "Quina", "vencedores": 32, "premio": "75.686,31" }, { "acertos": "Quadra", "vencedores": 3223, "premio": "1.073,51" }], "estadosPremiados": [], "acumulou": true, "acumuladaProxConcurso": "R$ 38 Milhões", "dataProxConcurso": "19/11/2022", "proxConcurso": 2540, "timeCoracao": null, "mesSorte": null }
+]

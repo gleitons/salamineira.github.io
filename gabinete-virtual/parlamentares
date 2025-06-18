@@ -1,0 +1,444 @@
+[ {
+  "nome": "HERCULES VANDY DURÃES DA FONSECA",
+  "genero": "m",
+  "nomeacao": 1,
+  "nascimento": "31/07/1967",
+  "nomeurna": "VANDINHO",
+  "posicao": "prefeito",
+  "foto": "https://www.salamineira.com/pessoas/vandinho-capa-colorido.jpg",
+  "fotomin": "./img/vandinho-min.png",
+  "legislativo": [
+    {
+      "datainicial": "--/--/----",
+      "datafinal": "--/--/----",
+      "posicao": "-----",
+      "informacao": "<p>----</p>"
+    }
+  ],
+  "historia": "<p>HERCULES VANDY DURÃES DA FONSECA NOME COMPLETO 31/07/1967 DATA DE NASCIMENTO Masculino GÊNERO PARDA COR / RAÇA Casado(a) ESTADO CIVIL Brasileira nata / MG-LAGOA DOS PATOS NACIONALIDADE / NATURALIDADE Ensino Médio completo GRAU DE INSTRUÇÃO Produtor Agropecuário OCUPAÇÃO CORRENTE DO BEM COLIGAÇÃO SOLIDARIEDADE / CIDADANIA COMPOSIÇÃO DA COLIGAÇÃO</p>",
+  "projetos": [
+    {
+      "data": "--/--/----",
+      "numero": "--",
+      "ano": "----",
+      "nomeinfo": "Informações",
+      "informacao": "---------------- --",
+      "situacao": "---------------- --",
+      "download": "https://gleiton.com.br"
+    },
+    {
+      "data": "--/--/----",
+      "numero": "---",
+      "ano": "----",
+      "nomeinfo": "Informações",
+      "informacao": "---------------- ---",
+      "situacao": "---------------- ---",
+      "download": "https://gleiton.com.br"
+    }
+  ]
+},
+{
+  "nome": "JOÃO PEDRO ELEUTERIO DO COUTO JUNIOR",
+  "genero": "m",
+  "nomeacao": 2,
+  "nascimento": "30/06/1983",
+  "nomeurna": "JUNIOR DA FARMACIA",
+  "posicao": "Vice-prefeito",
+  "foto": "https://www.salamineira.com/pessoas/junior-da-farmacia-2020-max.png",
+  "fotomin": "./img/junior-da-farmacia-min.png",
+  "legislativo": [
+    {
+      "datainicial": "--/--/----",
+      "datafinal": "--/--/----",
+      "posicao": "-----",
+      "informacao": "<p>----</p>"
+    }
+  ],
+  "historia": "<p>JOÃO PEDRO ELEUTERIO DO COUTO JUNIOR NOME COMPLETO 30/06/1983 DATA DE NASCIMENTO Masculino GÊNERO PARDA COR / RAÇA Casado(a) ESTADO CIVIL Brasileira nata / MG-MONTES CLAROS NACIONALIDADE / NATURALIDADE Superior completo GRAU DE INSTRUÇÃO Empresário OCUPAÇÃO CORRENTE DO BEM COLIGAÇÃO SOLIDARIEDADE / CIDADANIA COMPOSIÇÃO DA COLIGAÇÃO</p>",
+  "projetos": [
+    {
+      "data": "--/--/----",
+      "numero": "--",
+      "ano": "----",
+      "nomeinfo": "Informações",
+      "informacao": "---------------- --",
+      "situacao": "---------------- --",
+      "download": "https://gleiton.com.br"
+    },
+    {
+      "data": "--/--/----",
+      "numero": "---",
+      "ano": "----",
+      "nomeinfo": "Informações",
+      "informacao": "---------------- ---",
+      "situacao": "---------------- ---",
+      "download": "https://gleiton.com.br"
+    }
+  ]
+},
+  {
+    "nome": "JOSE GERALDO XAVEIR LEITE",
+    "genero": "m",
+    "nascimento": "01/12/1982",
+    "nomeurna": "GEZIM VERDADE",
+    "posicao": "vereador",
+    "foto": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2030402020/130001177326/47457",
+    "fotomin": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2030402020/130001177326/47457",
+    "legislativo": [
+      {
+        "datainicial": "--/--/----",
+        "datafinal": "--/--/----",
+        "posicao": "Função",
+        "informacao": "<p>...</p>"
+      }
+    ],
+    "historia": "<p>...</p>",
+    "projetos": [
+      {
+        "data": "--/--/----",
+        "numero": "--",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- --",
+        "situacao": "---------------- --",
+        "download": "https://gleiton.com.br"
+      },
+      {
+        "data": "--/--/----",
+        "numero": "---",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- ---",
+        "situacao": "---------------- ---",
+        "download": "https://gleiton.com.br"
+      }
+    ]
+  },
+  {
+    "nome": "GUILHERME BARBOSA DA SILVA",
+    "genero": "m",
+    "nascimento": "29/03/1993",
+    "nomeurna": "GUILA BARBOSA",
+    "posicao": "vereador",
+    "foto": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2030402020/130001177665/47457",
+    "fotomin": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2030402020/130001177665/47457",
+    "legislativo": [
+      {
+        "datainicial": "01/01/2021",
+        "datafinal": "31/12/2024",
+        "posicao": "Vereador",
+        "informacao": "<p>Vereador Municipal</p>"
+      }
+    ],
+    "historia": "<p>...</p>",
+    "projetos": [
+      {
+        "data": "--/--/----",
+        "numero": "--",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- --",
+        "situacao": "---------------- --",
+        "download": "https://gleiton.com.br"
+      },
+      {
+        "data": "--/--/----",
+        "numero": "---",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- ---",
+        "situacao": "---------------- ---",
+        "download": "https://gleiton.com.br"
+      }
+    ]
+  },
+  {
+    "nome": "JOSE GERALDO DOS REIS OLIVEIRA",
+    "genero": "m",
+    "nascimento": "01/12/1982",
+    "nomeurna": "LAUDI DO COCAL",
+    "posicao": "vereador",
+    "foto": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2030402020/130001178182/47457",
+    "fotomin": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2030402020/130001178182/47457",
+    "legislativo": [
+      {
+        "datainicial": "--/--/----",
+        "datafinal": "--/--/----",
+        "posicao": "-----",
+        "informacao": "<p>...</p>"
+      }
+    ],
+    "historia": "<p>...</p>",
+    "projetos": [
+      {
+        "data": "--/--/----",
+        "numero": "--",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- --",
+        "situacao": "---------------- --",
+        "download": "https://gleiton.com.br"
+      },
+      {
+        "data": "--/--/----",
+        "numero": "---",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- ---",
+        "situacao": "---------------- ---",
+        "download": "https://gleiton.com.br"
+      }
+    ]
+  },
+  {
+    "nome": "TEREZA DE JESUS FONSECA BRAGA",
+    "genero": "f",
+    "nascimento": "22/10/1957",
+    "nomeurna": "JESUS DE MIGUEL",
+    "posicao": "vereadora",
+    "foto": "./img/jesus-de-miguel-min.png",
+    "fotomin": "./img/jesus-de-miguel-min.png",
+    "legislativo": [
+      {
+        "datainicial": "--/--/----",
+        "datafinal": "--/--/----",
+        "posicao": "-----",
+        "informacao": "<p>...</p>"
+      }
+    ],
+    "historia": "<p>TEREZA DE JESUS FONSECA BRAGA NOME COMPLETO 22/10/1957 DATA DE NASCIMENTO Feminino GÊNERO BRANCA COR / RAÇA Casado(a) ESTADO CIVIL Brasileira nata / MG-LAGOA DOS PATOS NACIONALIDADE / NATURALIDADE Ensino Médio completo GRAU DE INSTRUÇÃO Professor de Ensino Médio OCUPAÇÃO AVANTE PARTIDO ISOLADO Não se aplica COMPOSIÇÃO DA COLIGAÇÃO</p>",
+    "projetos": [
+      {
+        "data": "--/--/----",
+        "numero": "--",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- --",
+        "situacao": "---------------- --",
+        "download": "https://gleiton.com.br"
+      },
+      {
+        "data": "--/--/----",
+        "numero": "---",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- ---",
+        "situacao": "---------------- ---",
+        "download": "https://gleiton.com.br"
+      }
+    ]
+  },
+  {
+    "nome": "NAZARÉ DA GLÓRIA MAIA",
+    "genero": "f",
+    "nascimento": "12/02/1961",
+    "nomeurna": "NAZARÉ DO SINDICATO",
+    "posicao": "vereadora",
+    "foto": "./img/nazare-min.png",
+    "fotomin": "./img/nazare-min.png",
+    "legislativo": [
+      {
+        "datainicial": "--/--/----",
+        "datafinal": "--/--/----",
+        "posicao": "-----",
+        "informacao": "<p>...</p>"
+      }
+    ],
+    "historia": "<p>...</p>",
+    "projetos": [
+      {
+        "data": "--/--/----",
+        "numero": "--",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- --",
+        "situacao": "---------------- --",
+        "download": "https://gleiton.com.br"
+      },
+      {
+        "data": "--/--/----",
+        "numero": "---",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- ---",
+        "situacao": "---------------- ---",
+        "download": "https://gleiton.com.br"
+      }
+    ]
+  },
+  {
+    "nome": "LUIZ CARLOS DE JESUS",
+    "genero": "m",
+    
+    "nascimento": "18/01/1975",
+    "nomeurna": "LUIZ CARLOS",
+    "posicao": "vereador",
+    "foto": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2030402020/130001177669/47457",
+    "fotomin": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2030402020/130001177669/47457",
+    "legislativo": [
+      {
+        "datainicial": "01/01/2004",
+        "datafinal": "31/12/2007",
+        "posicao": "Vereador",
+        "informacao": "<p>Vereador Municipal</p>"
+      },
+      {
+        "datainicial": "01/01/2008",
+        "datafinal": "31/12/2011",
+        "posicao": "Vereador",
+        "informacao": "<p>Vereador Municipal</p>"
+      },
+      {
+        "datainicial": "01/01/2016",
+        "datafinal": "31/12/2020",
+        "posicao": "Vereador",
+        "informacao": "<p>Vereador Municipal</p>"
+      },
+      {
+        "datainicial": "01/01/2021",
+        "datafinal": "31/12/2024",
+        "posicao": "Vereador",
+        "informacao": "<p>Vereador Municipal</p>"
+      }
+    ],
+    "historia": "<p>---</p>",
+    "projetos": [
+      {
+        "data": "--/--/----",
+        "numero": "--",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- --",
+        "situacao": "---------------- --",
+        "download": "https://gleiton.com.br"
+      },
+      {
+        "data": "--/--/----",
+        "numero": "---",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- ---",
+        "situacao": "---------------- ---",
+        "download": "https://gleiton.com.br"
+      }
+    ]
+  },
+  {
+    "nome": "JOSE SOARES DOS SANTOS JÚNIOR",
+    "genero": "m",
+    "nomeacao": 3,
+    "nascimento": "15/01/1970",
+    "nomeurna": "SARGENTO JÚNIOR",
+    "posicao": "presidente da câmara",
+    "foto": "./img/sargento-junior-min.png",
+    "fotomin": "./img/sargento-junior-min.png",
+    "legislativo": [
+      {
+        "datainicial": "--/--/----",
+        "datafinal": "--/--/----",
+        "posicao": "-----",
+        "informacao": "<p>...</p>"
+      }
+    ],
+    "historia": "<p>JOSE SOARES DOS SANTOS JÚNIOR NOME COMPLETO 15/01/1970 DATA DE NASCIMENTO Masculino GÊNERO PARDA COR / RAÇA Casado(a) ESTADO CIVIL Brasileira nata / MG-LAGOA DOS PATOS NACIONALIDADE / NATURALIDADE Ensino Médio completo GRAU DE INSTRUÇÃO Policial Militar OCUPAÇÃO CIDADANIA PARTIDO ISOLADO Não se aplica COMPOSIÇÃO DA COLIGAÇÃO</p>",
+    "projetos": [
+      {
+        "data": "--/--/----",
+        "numero": "--",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- --",
+        "situacao": "---------------- --",
+        "download": "https://gleiton.com.br"
+      },
+      {
+        "data": "--/--/----",
+        "numero": "---",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- ---",
+        "situacao": "---------------- ---",
+        "download": "https://gleiton.com.br"
+      }
+    ]
+  },
+  {
+    "nome": "JOSE MARIA NASCIMENTO NETO",
+    "genero": "m",
+    "nascimento": "25/12/1983",
+    "nomeurna": "ZÉ MARIA DE BIRRO",
+    "posicao": "vereador",
+    "foto": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2030402020/130001177671/47457",
+    "fotomin": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2030402020/130001177671/47457",
+    "legislativo": [
+      {
+        "datainicial": "--/--/----",
+        "datafinal": "--/--/----",
+        "posicao": "-----",
+        "informacao": "<p>JOSE MARIA NASCIMENTO NETO NOME COMPLETO 25/12/1983 DATA DE NASCIMENTO Masculino GÊNERO PARDA COR / RAÇA Casado(a) ESTADO CIVIL Brasileira nata / MG-LAGOA DOS PATOS NACIONALIDADE / NATURALIDADE Ensino Fundamental completo GRAU DE INSTRUÇÃO Produtor Agropecuário OCUPAÇÃO SOLIDARIEDADE PARTIDO ISOLADO Não se aplica COMPOSIÇÃO DA COLIGAÇÃO</p>"
+      }
+    ],
+    "historia": "<p>JOSE MARIA NASCIMENTO NETO NOME COMPLETO 25/12/1983 DATA DE NASCIMENTO Masculino GÊNERO PARDA COR / RAÇA Casado(a) ESTADO CIVIL Brasileira nata / MG-LAGOA DOS PATOS NACIONALIDADE / NATURALIDADE Ensino Fundamental completo GRAU DE INSTRUÇÃO Produtor Agropecuário OCUPAÇÃO SOLIDARIEDADE PARTIDO ISOLADO Não se aplica COMPOSIÇÃO DA COLIGAÇÃO</p>",
+    "projetos": [
+      {
+        "data": "--/--/----",
+        "numero": "--",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- --",
+        "situacao": "---------------- --",
+        "download": "https://gleiton.com.br"
+      },
+      {
+        "data": "--/--/----",
+        "numero": "---",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- ---",
+        "situacao": "---------------- ---",
+        "download": "https://gleiton.com.br"
+      }
+    ]
+  },
+  
+  
+  {
+    "nome": "ALDO SEBASTIÃO ROSA DE FARIA",
+    "genero": "m",
+    "nomeacao": 4,
+    "nascimento": "21/03/1989",
+    "nomeurna": "ALDO BOCA",
+    "posicao": "vice-presidente da câmara",
+    "foto": "https://divulgacandcontas.tse.jus.br/candidaturas/oficial/2020/MG/47457/426/candidatos/739038/foto.jpg",
+    "fotomin": "./img/aldo-boca-min.png",
+    "legislativo": [
+      {
+        "datainicial": "--/--/----",
+        "datafinal": "--/--/----",
+        "posicao": "-----",
+        "informacao": "<p>----</p>"
+      }
+    ],
+    "historia": "<p>ALDO SEBASTIÃO ROSA DE FARIA NOME COMPLETO 21/03/1989 DATA DE NASCIMENTO Masculino GÊNERO PARDA COR / RAÇA Casado(a) ESTADO CIVIL Brasileira nata / MG-LAGOA DOS PATOS NACIONALIDADE / NATURALIDADE Ensino Médio completo GRAU DE INSTRUÇÃO Outros OCUPAÇÃO AVANTE PARTIDO ISOLADO Não se aplica COMPOSIÇÃO DA COLIGAÇÃO</p>",
+    "projetos": [
+      {
+        "data": "--/--/----",
+        "numero": "--",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- --",
+        "situacao": "---------------- --",
+        "download": "https://gleiton.com.br"
+      },
+      {
+        "data": "--/--/----",
+        "numero": "---",
+        "ano": "----",
+        "nomeinfo": "Informações",
+        "informacao": "---------------- ---",
+        "situacao": "---------------- ---",
+        "download": "https://gleiton.com.br"
+      }
+    ]
+  }
+]

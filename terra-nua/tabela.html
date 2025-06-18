@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .tabelaShow {
+            border: black solid 1px;
+            width: 40%;
+            margin: auto;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        .tabelaShow h2 {
+            font-size: 1em;
+        }
+        .cabeca td{
+            border: black solid 1px;
+            padding: 10px;
+        }
+        .tabelaS {
+            margin: auto;
+            text-align: center;
+        }
+        .corpo td{
+            border: black solid 1px;
+            padding: 10px;
+        }
+        .cabecalho {
+            margin: auto;
+            text-align: center;
+            align-items: center;
+        }
+        .cabecalho img {
+            width: 100px;
+        }
+        .cidadeInfo {
+            width: 100%;
+            height: fit-content;
+            align-items: center;
+            margin: auto;
+            text-align: center;
+            background-color: rgb(61, 100, 2);
+            border-radius: 12px;
+            padding: 10px;
+            color: white;
+            font-weight: 700;
+        }
+        @media (max-width: 576px) {
+            .tabelaShow {
+                border: black solid 1px;
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body onload="avaliacoes(2016)">
+    
+    <div class="tabelaShow">
+        <div>
+           Selecione a cidade:
+           <select name="" id="cidadeC" onchange="avaliacoes(2016)">
+            <option value="Lagoa dos Patos">Selecione a Cidade</option>
+           </select>
+           <!-- <input type="submit" value="Verificar"> -->
+        </div>
+        <div class="cabecalho"  id="tabelaAvaliacaoVenal">
+            <div style="height:45px;">
+                <img src="./imagens/emater-mg-logo-6FDB59CBDA-seeklogo.com_.png.webp" alt="">
+            </div>
+            <h2>Valor de terra nua Municipal</h2>
+        </div>
+
+    </div>
+
+    <script src="./informacao.js"></script>
+</body>
+</html>

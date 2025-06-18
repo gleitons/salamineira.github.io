@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protegido</title>
+    <style>
+        * {
+            border: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        input {
+            border: black solid 1px;
+        }
+        #acessar {
+            padding-top: 100px;
+        }
+        #acessar {
+            animation: anih2 500ms normal;
+        }
+        @keyframes anih2 {
+            0% {
+                
+                margin-top: -180px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="ma">
+        <div id="aniversariante">
+            
+        </div>
+    </main>
+    <div id="acessar">
+        <h2>Inserir a senha de acesso</h2>
+        <input type="password" id="senha">
+        <button onclick="exibirNiver()">Entrar</button>
+        <div id="verifica">
+            
+        </div>
+    </div>
+    <script>
+        function exibirNiver() {
+            const colocarSenha = document.querySelector('#senha').value;
+            const aniversariante = document.querySelector('#aniversariante')
+            const acessar = document.querySelector('#acessar')
+            var verifica = document.querySelector('#verifica')
+            if(colocarSenha == "sala"){
+                acessar.innerHTML = ''
+                const incrivel = document.createElement('p');
+                incrivel.innerHTML = "O mais incrível desse mundo</br>Este espaço é refinado, colorido e criativo, desenhando a tabela abaixo: </br><button onclick='fechar()'>Bloquear</button>"
+                const divImg = document.createElement('div');
+                divImg.setAttribute('class', 'desenho');
+                const imgDiv = document.createElement('img');
+                imgDiv.src = "/pessoas/parabens.png";
+    
+                divImg.appendChild(imgDiv);
+    
+                aniversariante.appendChild(incrivel);
+                aniversariante.appendChild(divImg)
+                
+            } else if(colocarSenha.length  == 0){
+                verifica.innerHTML = "Digite a senha"
+                setInterval('limpa()', 3000)
+            }
+            else {
+                verifica.innerHTML = "senha incorreta"
+                setInterval('limpa()', 3000)
+
+            }         
+
+           
+        
+        }
+        function limpa() {
+            var verifica = document.querySelector('#verifica')
+            verifica.innerHTML = ''
+        }
+        function fechar() {
+            const aniversariante = document.querySelector('#aniversariante')
+            const acessar = document.querySelector('#acessar')
+            aniversariante.innerHTML = ''
+            acessar.innerHTML = ` <h2>Inserir a senha de acesso</h2>
+            <input type="password" id="senha">
+            <button onclick="exibirNiver()">Entrar</button>
+            <div id="verifica">
+                
+            </div>`
+        }
+        
+
+    </script>
+</body>
+</html>

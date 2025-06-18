@@ -1,0 +1,671 @@
+@font-face {
+  font-family: "fontP";
+  src: url(/fonts/cake.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --fontPostuma: fontP;
+  --fhgf: red;
+}
+.maisInfo {
+  padding: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.infoIm {
+  padding: 10px;
+}
+.falecidoRecente {
+  padding: 0.8em;
+  width: 100%;
+  border-radius: 12px;
+  margin: 0.6em;
+  margin-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.444) 2px 2px 5px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #c6c6c3;
+  background-image: repeating-linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px,
+      transparent 60px
+    ),
+    repeating-linear-gradient(
+      60deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px,
+      transparent 60px
+    ),
+    linear-gradient(
+      60deg,
+      rgba(0, 0, 0, 0.1) 25%,
+      transparent 25%,
+      transparent 75%,
+      rgba(0, 0, 0, 0.1) 75%,
+      rgba(0, 0, 0, 0.1)
+    ),
+    linear-gradient(
+      120deg,
+      rgba(0, 0, 0, 0.1) 25%,
+      transparent 25%,
+      transparent 75%,
+      rgba(0, 0, 0, 0.1) 75%,
+      rgba(0, 0, 0, 0.1)
+    );
+  background-size: 70px 120px;
+
+  background-size: contain;
+}
+.falecidoRecente > div {
+  width: 45%;
+  margin: 1em 0em;
+}
+.falecidoRecente > div > div {
+  width: 100%;
+  margin: 1em 0em;
+}
+.lutos {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.dnone {
+  display: none;
+}
+.ocultFalec {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: flex;
+  border: black solid 1px;
+}
+.ocultFalec .ocult {
+  width: 100%;
+  border: black solid 1px;
+  text-align: center;
+}
+.btnMostra .lutosC {
+  width: 100%;
+}
+.dblock {
+  display: block;
+}
+.lutosC {
+  width: 45%;
+  margin: 1em auto;
+  text-align: center;
+  border: rgb(151, 151, 151) solid 1px;
+  position: relative;
+  padding: 10px;
+  background-image: url("/falecimento/anjo.png");
+  /* background-image: url("/falecimento/1.jpeg"); */
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: inset white 10px 0px 10px 10px,
+    rgba(0, 0, 0, 0.51) 1px 1px 5px 2px;
+}
+.lutosC::before {
+  content: "www.salamineira.com.br/obitos";
+  position: absolute;
+  color: #555;
+  right: -86px;
+  top: 94px;
+  rotate: -90deg;
+  font-size: 13px;
+}
+.avisoAtualizacao {
+  background-color: blue;
+
+  padding: 0.5em;
+}
+.btnEditarV {
+  text-align: center;
+  width: 100%;
+}
+.btnEditarV i {
+  background-color: rgb(166, 166, 166);
+  padding: 0.2em;
+  margin: 0.2em;
+  border-radius: 12px;
+  color: white;
+  border: #555 solid 1px;
+  cursor: pointer;
+  font-size: 0.9em;
+  display: block;
+}
+#calculando {
+  text-align: center;
+  width: 100%;
+}
+#calculando img {
+  width: 50%;
+}
+.infoLutos {
+  width: 50%;
+  /* border: #222 solid 1px; */
+}
+.infoLutos > div {
+  width: 95%;
+  justify-content: space-between;
+}
+.vistoCard {
+  margin: 5px;
+  font-size: 0.8em;
+}
+.btnEditarV i:active {
+  background-color: rgb(91, 91, 91);
+  padding: 0.2em;
+  margin: 0.2em;
+  border-radius: 12px;
+  color: white;
+  font-size: 0.8em;
+  box-shadow: inset black 0px 3px 5px 0px;
+  border: #555 solid 1px;
+  cursor: pointer;
+}
+.avisoAtualizacao > p {
+  color: white;
+}
+.ocultando {
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+}
+.ocultando button {
+  width: 100%;
+}
+.divMostra {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(194, 194, 194) 20%,
+    rgba(229, 229, 229, 0) 80%
+  );
+  width: 45%;
+
+  margin: 0.6em 0em;
+  /* border: rgb(186, 186, 186) solid 1px; */
+  padding: 5px;
+  border-radius: 12px;
+}
+.divMostra:hover {
+  filter: brightness(1.1);
+  transition: 500ms;
+}
+.divMostra .lutosC {
+  width: 100%;
+  animation: apareceF 0.3s normal;
+}
+.btnMostra {
+  border: none;
+  min-height: 0.3em;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.612) 20%,
+    rgba(229, 229, 229, 0) 80%
+  );
+  width: 45%;
+  border-radius: 8px;
+  width: 100%;
+  margin: 0.8em 0em;
+  padding: 0.5em;
+  position: relative;
+  cursor: pointer;
+}
+
+@keyframes apareceF {
+  0% {
+    filter: opacity(0%);
+    top: -100px;
+  }
+
+  100% {
+    filter: opacity(100%);
+    top: 0px;
+  }
+}
+.btnMostra:active {
+  font-size: 0.8em;
+  background-color: rgb(191, 191, 191);
+}
+
+.btnMostra::after {
+  content: "Clique para ver";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  font-size: 0.7em;
+}
+.vidroF {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 0.8em;
+}
+
+.lutosC .fita {
+  width: 105px;
+  position: absolute;
+  top: -25px;
+  left: -14px;
+  filter: drop-shadow(5px 5px 5px #222);
+  z-index: 1;
+}
+.tabFalecimentos {
+  border: black solid 1px;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+.tabFalecimentos td {
+  width: 10%;
+  border: black solid 1px;
+  padding: 5px;
+}
+
+.imagemL {
+  margin: auto;
+  margin-bottom: 0px;
+  overflow: hidden;
+  align-items: center;
+  width: 150px;
+  height: 180px;
+  filter: saturate(1.5);
+}
+.nota {
+  padding: 0.8em;
+  margin: 0.3em auto;
+  width: 90%;
+  border: rgb(136, 136, 136) solid 1px;
+  position: relative;
+  background-color: white;
+  border-radius: 8px;
+}
+.notaw {
+  align-items: center;
+  padding: 0.4em;
+  margin: 0.3em auto;
+  width: 90%;
+  min-height: 350px;
+  border: rgb(136, 136, 136) solid 1px;
+  position: relative;
+  background-color: white;
+  border-radius: 8px;
+  position: relative;
+}
+.notaw p {
+  font-size: 1.2em;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-family: cursive, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.notaw::after {
+  content: "Mensagem Gerada Aleatóriamente";
+  position: absolute;
+
+  font-size: 0.6em;
+  top: 330px;
+  right: 6px;
+}
+tbody tr:nth-child(even) {
+  background: lightgray;
+}
+
+thead {
+  background-color: orange;
+}
+tfoot {
+  background-color: #2e6da4;
+  color: white;
+}
+.infoG {
+  background-color: red;
+  color: rgb(255, 255, 255);
+  padding: 0.8em;
+  margin: 0.8em 0em;
+}
+
+.nascFalec {
+  width: 80%;
+  display: flex;
+  margin: 0.8em auto;
+  justify-content: space-between;
+}
+.falecMae {
+  text-transform: capitalize;
+}
+  /* background-image: url(/falecimento/homem-mulher.jpg); */
+.imagemL img {
+  box-shadow: rgb(253, 253, 253) 0px 0px 10px 0px;
+  background-image: url('/img/loadanima.svg');
+  background-size: contain;
+  background-color: rgb(195, 68, 68);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.dflex {
+  display: flex;
+  justify-content: space-between;
+}
+.nomeF {
+  text-transform: uppercase;
+  font-weight: 700;
+  /* font-family: var(--fontPostuma); */
+  /* font-size: 2em; */
+}
+.coracaoLuto {
+  width: 100%;
+  background-color: black;
+}
+
+.coracaoLuto > p {
+  padding: 0.3em;
+  width: 80%;
+  margin: 0.3em auto;
+  font-size: 3em;
+  text-align: center;
+  color: white;
+}
+.hojeSePassa {
+ 
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px auto;
+}
+
+.hojeSePassa div {
+  width: 30%;
+
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: rgb(14, 14, 14);
+
+  background-position: center;
+  background-size: cover;
+}
+.hojeSePassa span {
+  position: relative;
+  width: 40%;
+  color: white;
+  font-weight: 400;
+  background-image: radial-gradient( circle 975px at 2.6% 48.3%,  rgba(0,8,120,1) 0%, rgba(95,184,224,1) 99.7% );
+  padding: 10px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.hojeSePassa span::after {
+  content: '';
+  top: 0;
+  left: -52px;
+  background-color: rgba(206, 114, 43, 0.372);
+  position: absolute;
+  height: 100%;
+  width: 15%;
+  border-radius: 30%;
+  box-shadow: rgba(206, 114, 43, 0.37) 20px 0px 50px 50px;
+  animation: velaEsq 1.5s infinite alternate-reverse   ;
+}
+
+@keyframes velaEsq {
+  0% {
+    transform: rotate(-3deg);
+    left: -152px;
+  }
+}
+
+.hojeSePassa h3 {
+  color: white;
+  font-weight: 400;
+}
+.falecimentoPassado .hojeSePassa img {
+  width: 250px;
+}
+
+@media (max-width: 751px) {
+  .falecidoRecente > div {
+    width: 100%;
+    margin: 0.2em 0em;
+  }
+  .coracaoLuto > p {
+    width: 80%;
+    font-size: 1.7em;
+  }
+}
+.btnCload {
+  padding: 10px;
+}
+#infoDados button:hover {
+  background-color: rgb(5, 0, 164);
+  /* background-color:rgb(180, 225, 0);color:rgb(0, 0, 0);margin:1em 0; border: black solid 1px; */
+}
+#infoDados p {
+  font-style: italic;
+  margin: 0.6em 0em;
+}
+/*Formulario */
+.modal {
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999999;
+  /* animation: abriModal 5s infinite; */
+}
+/* @keyframes abriModal {
+  0% {
+    top: -10%;
+
+  }
+  100% {
+    top: 100%;
+  }
+} */
+.bntEditar i {
+  background-color: red;
+  color: white;
+  margin: 15px;
+  padding: 0.2em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.fotoHomenagem {
+  width: 260px;
+  margin: auto;
+}
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+  box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+  outline: 0;
+}
+.modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.modal-body {
+  position: relative;
+  padding: 15px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  -webkit-transition: border-color ease-in-out 0.15s,
+    box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -webkit-transition: border-color ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+.btn {
+  border: #222 solid 1px;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+@media (max-width: 568px) {
+  .hojeSePassa {
+    display: block;
+  }
+  .hojeSePassa div {
+    width: 65%;
+  }
+  .divMostra {
+    width: 100%;
+  }
+  .tabFalecimentos {
+    width: 100%;
+  }
+  .btnMostra {
+    margin: 0.6em auto;
+    text-align: center;
+    padding: 0.5em;
+    width: 100%;
+  }
+  .lutosC {
+    width: 98%;
+    margin: 1em auto;
+    text-align: center;
+    border: black solid 1px;
+    position: relative;
+    padding: 10px;
+    /* background-image: url("/falecimento/anjo.jpg"); */
+    background-size: cover;
+  }
+}
+
+@keyframes ldio-ayxwwg8ovqm {
+  0% {
+    transform: translate(2px, 2px);
+  }
+  33.33% {
+    transform: translate(102px, 2px);
+  }
+  66.66% {
+    transform: translate(42px, 102px);
+  }
+  100% {
+    transform: translate(2px, 2px);
+  }
+}
+
+.ldio-ayxwwg8ovqm > div {
+  transform: scale(0.8);
+  transform-origin: 100px 100px;
+}
+
+.ldio-ayxwwg8ovqm > div > div {
+  animation: ldio-ayxwwg8ovqm 1s linear infinite;
+  position: absolute;
+}
+
+.ldio-ayxwwg8ovqm > div > div div:nth-child(1) {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: 12px solid #85a2b6;
+  background: #bbcedd;
+}
+
+.ldio-ayxwwg8ovqm > div > div div:nth-child(2) {
+  width: 17px;
+  height: 51px;
+  transform: rotate(-45deg);
+  background: #85a2b6;
+  border-radius: 0 0 8px 8px;
+  position: absolute;
+  top: 68px;
+  left: 85px;
+}
+.loadingio-spinner-magnify-kfh3vq1scyq {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: #ffffff;
+}
+.ldio-ayxwwg8ovqm {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-ayxwwg8ovqm div {
+  box-sizing: content-box;
+}
+/* generated by https://loading.io/ */

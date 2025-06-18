@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleições Conselho Tutelar 2023</title>
+    <meta name="description"
+        content="Votação Online das eleições do conselho tutelar de Lagoa dos Patos MG, veja os resultados">
+    <meta name="keywords" content="Conselho tutelar, lagoa dos Patos MG, eleiçoes 2023">
+    <meta name="author" content="Sala Mineira">
+
+    <meta property="og:title" content="Eleições Conselho Tutelar 2023" />
+
+    <meta property="og:url" content="https://salamineira.com/conselho-2023/" />
+    <meta property="og:image" content="./conselho.jpg" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="./style.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4NLB9WFPBN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-4NLB9WFPBN');
+    </script>
+
+</head>
+
+<body>
+   
+
+   
+    <div class="urna">
+         <button onclick="fechaVotos()" style="padding: 5px; background-color:  rgb(169, 236, 236); width: 100%; z-index: 9999999; border: none; animation: acolor 5s infinite linear alternate-reverse; ">VEJA O RESULTADO PARCIAL</button>
+        <div class="tela">
+            <div class="informacaoEleicao">
+                <p>ELEIÇÕES 2024</p>
+                <p>LAGOA DOS PATOS - MG</p>
+            </div>
+            <div>
+                <p>INSIRA O NÚMERO DO VEREADOR</p>
+            </div>
+            <div class="ofim" style="display: none;">
+                <span>FIM</span>
+            </div>
+
+            <div class="numeroP ">
+                <div class="numeroUrna">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="dePropostas">
+                    <p id="nomeU">CANDIDATO</p>
+                    <img id="imgUrna" src="./tela.png" alt="" onclick="abreImgCandidato()">
+
+                    <span>Click na Imagem</span>
+                </div>
+
+            </div>
+        </div>
+        <div>
+            <p class="nomeC">NOME</p>
+        </div>
+        <div class="teclado">
+            <div class="justica">
+                <img src="./justica-eleitoral.png" alt="">
+                <div>
+                    <div class="candidatos">
+                        <div>LISTA DE CANDIDATOS</div>
+                    </div>
+                    <!-- <p>JUSTIÇ   A</p>
+                    <p>ELEITORAL</p> -->
+                </div>
+            </div>
+            <div>
+                <div class="botoes">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div>8</div>
+                    <div>9</div>
+                    <div>0</div>
+                </div>
+                <div class="ccc">
+                    <div>BRANCO</div>
+                    <div>CORRIGE</div>
+                    <div>CONFIRMA</div>
+                </div>
+            </div>
+            <!-- <img src="./tela-urna.png" alt=""> -->
+        </div>
+        <div class="listaS dnone" id="listaCC">
+            <div class="topoCandidatos">
+                <div style="display: flex;">
+                    <h2>LISTA DE CANDIDATOS</h2>
+                    <h1>&#215;</h1>
+                </div>
+
+            </div>
+            <div class="mostraC">
+
+
+            </div>
+        </div>
+        <div class="bloqueiaTeclado " id="timeVoto">
+            <div class="topoCandidatos">
+                <!-- <h2 onclick="fechaTempoV()"></h2>                -->
+
+            </div>
+            <div class="tVotacao">
+                <h3>TEMPO RESTANTE PARA VOTAR NOVAMENTE</h3>
+                <h2 id="horaC"></h2>
+            </div>
+            <!-- <div class="imgDaqui">
+                <img src="./daqui-a-pouco.jpeg" alt="">
+            </div> -->
+
+        </div>
+       
+
+        <div class="listaS dnone" id="votosOn">
+            <div class="topoCandidatos">
+                <h2 id="fechavv" onclick="fechaVotos()" style="background-color: rgb(3, 53, 215); padding: 5px; color: white; cursor: pointer;">
+                    FECHAR</h2>
+                <h3>VOTOS PARCIAIS</h3>
+
+
+            </div>
+            <!-- <canvas id="fireworkCanvas"> -->
+            <div class="votos">
+            </div>
+        <!-- </canvas> -->
+        </div>
+        <div class="appencerrado dnone" id="appEncerrado">
+            <div class="topoCandidatos">
+                <h2 id="fechavv" onclick="fechaVotos()" style="background-color: rgb(3, 53, 215); padding: 5px; color: white; cursor: pointer;"></h2>
+                <h3>APP DESATIVADO</h3>
+                <h4>QUER CRIAR O SEU APLICATIVO? NOS CONTRATE AGORA MESMO, ORÇAMENTO SEM COMPROMISSO</h4>
+                <a href="https://api.whatsapp.com/send?l=pt-BR&phone=553899167841&text=Ol%C3%A1,Gostaria um orçamento sem compromisso de um app">
+                    <h5>CLIQUE AQUI</h5>
+                </a>
+
+
+            </div>
+            <!-- <canvas id="fireworkCanvas"> -->
+                <a href="https://api.whatsapp.com/send?l=pt-BR&phone=553899167841&text=Ol%C3%A1,Gostaria um orçamento sem compromisso de um app">
+
+                    <img src="./seu-app.webp" alt="">
+                </a>
+               
+            <div class="avisoencerrado">
+                <p>APP ENCERRADO COM SUCESSO!</p>
+
+            </div>
+        <!-- </canvas> -->
+        </div>
+   
+        <div class="listaS  dnone " id="imgDoC">
+            <div class="imagemVer">
+                <img id="imgSub" src="./111.png" alt="">
+                <span onclick="abreImgCandidato()">&#215;</span>
+                <p id="nomeCC"></p>
+            </div>
+            <div class="propostasC">
+                <a href="https://api.whatsapp.com/send?l=pt-BR&phone=553899167841&text=Ol%C3%A1,Gostaria de adicionar minha proposta como candidato(a) do conselho tutelar Municipal"
+                    target="_blank"><button>Nos envie sua proposta como conselheiro e vamos adicionar aqui <br>CLIQUE
+                        AQUI</button></a>
+                <div id="propostaDoCandidato">
+                    <img src="./simone.jpeg" alt="">
+                    <h2>Ainda sem Proposta Anexa</h2>
+                    <h3>Conselho Tutelar</h3>
+                    <p>É um órgão público municipal, que tem sua origem na lei, integrando-se ao conjunto das
+                        instituições nacionais e subordinando-se ao ordenamento jurídico brasileiro. Criado por Lei
+                        Municipal e efetivamente implantado, passa a integrar de forma definitiva o quadro das
+                        instituições municipais. Desenvolve uma ação contínua e ininterrupta. Sua ação não deve sofrer
+                        solução de continuidade, sob qualquer pretexto. Uma vez criado e implantado, não desaparece;
+                        apenas renovam-se os seus membros.</p>
+                    <p>Não depende de autorização de ninguém - nem do Prefeito, nem do Juiz - para o exercício das
+                        atribuições legais que lhe foram conferidas pelo Estatuto da Criança e do Adolescente: artigos
+                        136, 95, 101 (I a VII) e 129 (I a VII). Em matéria técnica de sua competência, delibera e age,
+                        aplicando as medidas práticas pertinentes, sem interferência externa. Exerce suas funções com
+                        independência, inclusive para denunciar e corrigir distorções existentes na própria
+                        administração municipal relativas ao atendimento às crianças e adolescentes. Suas decisões só
+                        podem ser revistas pelo Juiz da Infância e da Juventude, a partir de requerimento daquele que se
+                        sentir prejudicado.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="listaS " id="termos" style="display: none;">
+            <div class="topoCandidatos">
+                <h2 id="aceitaT" onclick="aceitatermos()" style="background-color: rgb(3, 53, 215); padding: 5px; color: white; cursor: pointer;">
+                    ACEITAR OS TERMOS</h2>
+                    <p style="background-color: red; color: white;">Aceite os termos para continuar</p>
+                <div class="termosdeuso">
+                    <button style="background-color: rgb(3, 53, 215); padding: 5px; color: white; cursor: pointer;" onclick="aceitatermos()">Aceitar Termos</button>
+                    <h3>Termos de Uso</h3>
+                    <h4>Ao usar este software Online, você concorda com os termos</h4>
+                    <p>Sistema de enquete de Conselheiros online para a cidade de <strong>Lagoa dos Patos MG</strong>
+                    <p>Todas as informações neste software Online estão disponíveis publicamente em pontos de visibilidade pública, também poderá ser baixada neste link - <a target="_blank" href="./conselho-tutelar-2023.pdf">Clique aqui e veja</a></p>
+                    <ul>
+                        <li>Você poderá votar quantas vezes quiser.</li>
+                        <li>Apenas possui um limite de 30 minutos para você votar novamente.</li>
+                        <li>Devido a isso, <strong>não pedimos cadastro, não armazenamos dados em nossos servidores e também você pode votar anonimamente</strong></li>
+                        <li>Compartilhe o quanto quiser este link, todos os nossos servidores estão disponíveis para aguentar a carga de vários usuários</li>
+                        <li>Essa enquete online <strong>não reflete a realidade</strong></li>
+                        <li>Caso encontre um BUG, você poderá nos acionar por aqui <a target="_blank" href="https://api.whatsapp.com/send?l=pt-BR&phone=553899167841&text=Ol%C3%A1,Gostaria de relatar Bugs (erros)">Relatar Bugs</a></li>
+                        <li>Os termos podem mudar a qualquer momento sem aviso prévio</li>
+                        <li>Não alteramos ou mudamos a votação, são <strong>dados protegidos e criptografados armazenados na nuvem</strong>, inclusive não tendo controle sobre os mesmos.</li>
+                    </ul>
+                    <button style="background-color: rgb(3, 53, 215); padding: 5px; color: white; cursor: pointer;" onclick="aceitatermos()">Aceitar Termos</button>
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- <div class="listaS dnone " id="anonimo">
+            <div class="topoCandidatos">
+                <h2   style="background-color: rgb(3, 53, 215); padding: 5px; color: white; cursor: pointer;">
+                    VOCÊ JÁ VOTOU</h2>
+                    <p style="background-color: red; color: white;">Volte para a navegação normal</p>
+                <div class="termosdeuso">
+                    <h3>Volte a navegação Normal</h3>
+                    <h4>E aguarde o tempo restante para votar novamente</h4>
+                    <p>!!! Deterctamos que você está em modo anonimo !!!</p>                   
+                </div>
+            </div>
+        </div> -->
+        <button onclick="aceitatermos()" style="padding: 10px; margin: 10px;">TERMOS DE USO</button>
+       
+        <div class="preload">
+
+        </div>
+
+    </div>
+    <a href="https://bit.ly/crie-sua-urna-eletronica" target="_blank"><button>Contrate sua urna também, tenha os
+            relatórios em suas mãos <br>CLIQUE AQUI</button></a>
+    <div style="visibility: hidden;">
+        <form
+            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf56zQ2m3A-XO4rQboEdBQzLgXLKGzpuUatQXV_-NarbgMd-Q/formResponse"
+            method="post" id="enviarResultado">
+            <input type="text" name="entry.536812027" id="nomeCompletoC">
+            <input type="text" name="entry.244538969" id="nomeurnaC">
+            <input type="text" name="entry.1427943653" id="numeroUrC">
+        </form>
+    </div>
+
+<style>
+    .bor {
+        visibility: visible;
+    }
+</style>
+
+    <script src="./js.js"></script>
+    <div id="ver">
+
+    </div>
+    <script>
+        var editais = []
+
+        function pegandoEditais() {
+            for (let i = 0; i < 1; i++) {
+                const url =
+
+                    pegarDados(`https://docs.google.com/spreadsheets/d/1aVl46pWE7jgt4Pywz4URx7DiPFC7yQRujEp4YXgen0w/edit#gid=430563898`)
+
+            }
+        }
+        pegandoEditais()
+
+
+        function pegarDados(endereco) {
+
+            fetch(endereco)
+                .then((resp) => resp.text())
+                .then(function (data) {
+                    ver.innerHTML = data
+
+                    var editais = []
+                    var corpoLicita = document.querySelectorAll('tbody tr')
+                    
+
+                    const marilia = corpoLicita[4].querySelectorAll('td')[6].innerHTML
+                    const simone = corpoLicita[5].querySelectorAll('td')[6].innerHTML
+                    const votoManu = corpoLicita[6].querySelectorAll('td')[6].innerHTML
+                    const andreiaDoBarro = corpoLicita[7].querySelectorAll('td')[6].innerHTML
+                    const cleiaFelix = corpoLicita[8].querySelectorAll('td')[6].innerHTML
+                    const leonoraR = corpoLicita[9].querySelectorAll('td')[6].innerHTML
+                    const nagilaReis = corpoLicita[10].querySelectorAll('td')[6].innerHTML
+                    const waldierCabra = corpoLicita[11].querySelectorAll('td')[6].innerHTML
+                    const aldairdaia = corpoLicita[12].querySelectorAll('td')[6].innerHTML
+                    const didi = corpoLicita[13].querySelectorAll('td')[6].innerHTML
+                    const total = corpoLicita[14].querySelectorAll('td')[6].innerHTML
+
+             
+
+                    const resultadoParcial = [
+                        { "MARÍLIA": marilia },
+                        { "SIMONE": simone },
+                        { "MANUPERES": votoManu },
+                        { "ANDRÉIADOBARRO": andreiaDoBarro },
+                        { "CLÉIAFELIX": cleiaFelix },
+                        { "LEONORARABELO": leonoraR },
+                        { "NÁGILAREIS": nagilaReis },
+                        { "WALDIERCABRA": waldierCabra },
+                        { "ALDAIRDAIA": aldairdaia },
+                        { "EUDIRENEDIDI": didi },
+                        { "total": total }
+                    ]
+
+
+                    localStorage.setItem('votos', JSON.stringify(resultadoParcial))
+
+                    document.querySelector('#ver').style.display = 'none'
+                    //console.log(resultadoParcial)
+
+
+                })
+
+                .catch(function (error) {
+                    console.log(error)
+                });
+
+
+        }
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

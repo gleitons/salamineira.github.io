@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pt-br</title>
+</head>
+
+<body>
+    <style>
+        #modelo input {
+            width: 50%;
+        }
+
+        #copiado p {
+            position: absolute;
+            background-color: green;
+            color: white;
+            padding: 2px;
+            border-radius: 8px;
+            top: 30px;
+            left: 736px;
+            animation: cc 200ms normal;
+        }
+
+        @keyframes cc {
+            0% {
+                top: -5px;
+                opacity: 0%;
+            }
+        }
+    </style>
+    <div id="modelo">
+        <input type="text" id="recsebe"
+            value="" hidden>
+            <input  name="" id="recebe" cols="100" rows="5">
+        <button onclick="magica()">Gerar</button> <br>
+
+        <input type="text" id="diminui" hidden>
+
+        <textarea onclick="copiarTexto()" name="" id="area" cols="100" rows="40"></textarea>
+        <div id="copiado">
+           
+        </div>
+
+       
+    </div>
+    <script>
+        const original = "b57c054175af65f2ff2c0fda653f925c92f6ce94"
+            console.log(original.length)
+        function magica() {
+            
+            const diminuis = document.querySelector('#recebe').value;
+            
+            const recebes = diminuis.replace(/  /g, ' ');
+            const recebe = recebes.replace('blocsapp.com', 'gleiton.com.br');
+
+
+
+            const cnpjN = recebe.replace("CNPJ ", "").slice(0, 18);
+            const cnpj = cnpjN.replace(/\//g, "").replace('-', "").replace(/\./g, "");
+
+            const razao = "<meta charset="
+            const fantasia = "<meta charset="
+            const rEmpresa = "<!-- Analytics END -->";
+            const rTipo = "Data Abertura";
+            const rAbertura = "Situação Cadastral";
+            const rSituacaCadastral = "Data da Situação Cadastral";
+            const rCapital = "Natureza Jurídica";
+            const rNatureza = "Empresa MEI"
+            const rMei = "Logradouro"
+            const rEndereco = "Número"
+            const rnumero = "Complemento";
+            const rComplemento = "CEP"
+            const rCep = "Bairro";
+            const rBairro = "Município";
+            const rCidade = "UF";
+            const rUf = "Telefone";
+            const rTelefone = "E-MAIL";
+            const rEmail = "Quadro Societário";
+            const rSocio = "Atividade Principal";
+            const rAPrincipal = "Atividades Secundárias";
+            const rASecundaria = "Data da Consulta";
+
+
+
+
+
+            const nEmpresa = recebe.search(rEmpresa);
+            const nFantasia = recebe.search(fantasia);
+
+
+            console.log(recebe.length)
+            console.log(nEmpresa)
+            console.log(nFantasia)
+
+
+
+            const nTipo = recebe.search(rTipo)
+            const nAbertura = recebe.search(rAbertura) - 1;
+            const nSituacao = recebe.search(rSituacaCadastral);
+            const nCapital = recebe.search(rCapital);
+            const nNatureza = recebe.search(rNatureza)
+            const nMei = recebe.search(rMei);
+            const nEndereco = recebe.search(rEndereco);
+            const nNumero = recebe.search(rnumero)
+            const nComplemento = recebe.search(rComplemento)
+            const nCep = recebe.search(rCep)
+            const nBairro = recebe.search(rBairro)
+            const nCidade = recebe.search(rCidade)
+            const nUf = recebe.search(rUf)
+            const nTelefone = recebe.search(rTelefone)
+            const nEmail = recebe.search(rEmail)
+            const nSocio = recebe.search(rSocio)
+            const nAPrincipal = recebe.search(rAPrincipal)
+            const nASecundaria = recebe.search(rASecundaria)
+
+            const razEscrita = recebe.slice(24).replace('Razão Social ', '')
+            const razaoSocial = recebe.search(razao)
+
+
+            const endereco = recebe.slice(`${nFantasia}`, `${nEmpresa - 1}`);
+
+            
+
+
+
+
+
+            if (recebe.search(rEmpresa) > 0) {
+                var razaoEmpresa = recebe.slice(`${razaoSocial + 13}`, `${nEmpresa - 1}`)
+                var nomeFantasia = recebe.slice(`${nEmpresa + 14}`, `${nFantasia - 1}`)
+                
+            } else {
+                var razaoEmpresa = recebe.slice(`${razaoSocial + razao.length + 1}`, `${nEmpresa + nFantasia}`)
+                var nomeFantasia = '';
+            }
+
+
+
+
+
+
+
+            const tipo = recebe.slice(`${nFantasia + 5}`, `${nTipo - 1}`);
+            const dataAbertura = recebe.slice(`${nTipo + 14}`, `${nAbertura}`);
+            const situacaoCadastral = recebe.slice(`${nAbertura + 20}`, `${nSituacao - 1}`);
+            const capitalSocial = recebe.slice(`${nSituacao + 56}`, `${nCapital - 1}`);
+            const naturezaJuridica = recebe.slice(`${nCapital + rCapital.length + 1}`, `${nNatureza - 1}`);
+            const empresaMei = recebe.slice(`${nNatureza + rMei.length + 2}`, `${nMei - 1}`);
+            
+            const numero = recebe.slice(`${nEndereco + 7}`, `${nNumero - 1}`);
+            const complemento = recebe.slice(`${nNumero + rnumero.length + 1}`, `${nComplemento - 1}`);
+            const cep = recebe.slice(`${nComplemento + rComplemento.length + 1}`, `${nCep - 1}`);
+            const bairro = recebe.slice(`${nCep + rCep.length + 1}`, `${nBairro - 1}`);
+            const cidade = recebe.slice(`${nBairro + rBairro.length + 1}`, `${nCidade - 1}`);
+            const estado = recebe.slice(`${nCidade + rCidade.length + 1}`, `${nUf - 1}`);
+            const telefone = recebe.slice(`${nUf + rUf.length + 1}`, `${nTelefone - 1}`);
+            const email = recebe.slice(`${nTelefone + rTelefone.length + 1}`, `${nEmail - 1}`);
+            const socio = recebe.slice(`${nEmail + rEmail.length + 1}`, `${nSocio - 1}`);
+            const atividadePrincipal = recebe.slice(`${nSocio + rSocio.length + 1}`, `${nAPrincipal - 1}`);
+            const atividadeSecundaria = recebe.slice(`${nAPrincipal + rAPrincipal.length + 1}`, `${nASecundaria - 1}`);
+            const dataConsulta = recebe.slice(`${nASecundaria + rASecundaria.length + 1}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            area.value = `<head> 
+                            ${endereco} 
+                          </head>`
+        }
+        function copiarTexto() {
+            let textoCopiado = document.getElementById("area");
+            textoCopiado.select();
+            textoCopiado.setSelectionRange(0, 99999)
+            document.execCommand("copy");
+            document.getElementById('copiado').innerHTML = ' <p>Copiado</p>'
+            setTimeout('fechaAviso()', 2000)
+        }
+        function fechaAviso() {
+            document.getElementById('copiado').innerHTML = ''
+        }
+        const urlEmpresas = "/empresas"
+        async function tiraD()  {
+            var promisee = await fetch(urlEmpresas)
+            var data = await promisee.json()
+          
+            var emp = []
+            data.map((em) => {
+                data.filter((item, 
+                index) => data.indexOf(item) === index);
+                emp.push(data.indexOf())
+            })
+            const remoD = data.filter((item, 
+                index) => data.indexOf(item) === index);
+           
+        }
+
+       
+        tiraD();
+        
+    </script>
+</body>
+
+</html>

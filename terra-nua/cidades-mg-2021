@@ -1,0 +1,7352 @@
+[
+  {
+    "ano": 2021,
+    "nome": "Abadia dos Dourados",
+    "aptidaoBoa": "16.000,00",
+    "aptdaoRegular": "14.000,00",
+    "aptdaoRestrita": "9.000,00 ",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "4.500,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Abaeté",
+    "aptidaoBoa": "4.220,00",
+    "aptdaoRegular": "3.600,00",
+    "aptdaoRestrita": "3.170,00",
+    "pastagemPlantada": "2.100,00",
+    "pastagemNatural": "1.700,00",
+    "reserva": "1.100,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Acaiaca",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "9.500,00",
+    "aptdaoRestrita": "9.500,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "9.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Água Boa",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Água Comprida",
+    "aptidaoBoa": "17.913,13",
+    "aptdaoRegular": "16.121,82",
+    "aptdaoRestrita": "14.680,67",
+    "pastagemPlantada": "15.976,41",
+    "pastagemNatural": "15.758,35",
+    "reserva": "12.606,40"
+  },
+  {
+    "ano": 2021,
+    "nome": "Aguanil",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.500,00",
+    "pastagemPlantada": "5.500,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Águas Formosas",
+    "aptidaoBoa": "6.842,50",
+    "aptdaoRegular": "5.474,00",
+    "aptdaoRestrita": "4.105,50",
+    "pastagemPlantada": "6.158,25",
+    "pastagemNatural": "4.105,50",
+    "reserva": "3.079,13"
+  },
+  {
+    "ano": 2021,
+    "nome": "Águas Vermelhas",
+    "aptidaoBoa": "2.700,00",
+    "aptdaoRegular": "2.050,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "2.050,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.300,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Aimorés",
+    "aptidaoBoa": "11.363,00",
+    "aptdaoRegular": "8.500,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "11.363,00",
+    "pastagemNatural": "9.917,00",
+    "reserva": "5.785,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Aiuruoca",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "5.500,00",
+    "pastagemPlantada": "7.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Alagoa",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "9.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "4.300,00",
+    "reserva": "3.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Além Paraíba",
+    "aptidaoBoa": "5.300,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "4.200,00",
+    "pastagemPlantada": "3.800,00",
+    "pastagemNatural": "2.750,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Alfenas",
+    "aptidaoBoa": "36.500,00",
+    "aptdaoRegular": "26.000,00",
+    "aptdaoRestrita": "20.000,00",
+    "pastagemPlantada": "26.000,00",
+    "pastagemNatural": "18.500,00",
+    "reserva": "15.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Alfredo Vasconcelos",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Almenara",
+    "aptidaoBoa": "2.199,10",
+    "aptdaoRegular": "1.825,33",
+    "aptdaoRestrita": "1.539,37",
+    "pastagemPlantada": "2.199,10",
+    "pastagemNatural": "1.385,51",
+    "reserva": "1.231,64"
+  },
+  {
+    "ano": 2021,
+    "nome": "Alpercata",
+    "aptidaoBoa": "10.330,00",
+    "aptdaoRegular": "10.330,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "6.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Alterosa",
+    "aptidaoBoa": "25.288,00",
+    "aptdaoRegular": "20.230,00",
+    "aptdaoRestrita": "17.701,00",
+    "pastagemPlantada": "15.172,00",
+    "pastagemNatural": "12.643,00",
+    "reserva": "10.115,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Alto Jequitibá",
+    "aptidaoBoa": "19.000,00",
+    "aptdaoRegular": "16.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Alto Rio Doce",
+    "aptidaoBoa": "13.500,00",
+    "aptdaoRegular": "10.200,00",
+    "aptdaoRestrita": "7.400,00",
+    "pastagemPlantada": "9.000,00",
+    "pastagemNatural": "5.800,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Alvarenga",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "6.500,00",
+    "aptdaoRestrita": "3.250,00",
+    "pastagemPlantada": "7.800,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Alvinópolis",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "5.500,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Alvorada de Minas",
+    "aptidaoBoa": "8.546,05",
+    "aptdaoRegular": "6.831,05",
+    "aptdaoRestrita": "4.896,05",
+    "pastagemPlantada": "5.346,05",
+    "pastagemNatural": "4.596,05",
+    "reserva": "4.096,05"
+  },
+  {
+    "ano": 2021,
+    "nome": "Amparo do Serra",
+    "aptidaoBoa": "14.800,00",
+    "aptdaoRegular": "13.100,00",
+    "aptdaoRestrita": "11.500,00",
+    "pastagemPlantada": "11.500,00",
+    "pastagemNatural": "9.700,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Andradas",
+    "aptidaoBoa": "19.164,71",
+    "aptdaoRegular": "14.494,12",
+    "aptdaoRestrita": "8.550,00",
+    "pastagemPlantada": "8.900,00",
+    "pastagemNatural": "8.700,00",
+    "reserva": "3.952,94"
+  },
+  {
+    "ano": 2021,
+    "nome": "Andrelândia",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Angelândia",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "6.500,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Antônio Carlos",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "7.500,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Antônio Dias",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "4.500,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Antônio Prado de Minas",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "13.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Araçaí",
+    "aptidaoBoa": "5.850,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "4.050,00",
+    "pastagemPlantada": "3.600,00",
+    "pastagemNatural": "1.800,00",
+    "reserva": "1.080,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Aracitaba",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "6.500,00",
+    "aptdaoRestrita": "5.500,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Araçuaí",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "1.550,00",
+    "aptdaoRestrita": "650,00",
+    "pastagemPlantada": "2.600,00",
+    "pastagemNatural": "1.060,00",
+    "reserva": "980,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Araguari",
+    "aptidaoBoa": "12.226,10",
+    "aptdaoRegular": "12.043,00",
+    "aptdaoRestrita": "9.987,15",
+    "pastagemPlantada": "9.327,07",
+    "pastagemNatural": "8.162,68",
+    "reserva": "4.580,20"
+  },
+  {
+    "ano": 2021,
+    "nome": "Arantina",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "4.500,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Araponga",
+    "aptidaoBoa": "10.625,00",
+    "aptdaoRegular": "8.500,00",
+    "aptdaoRestrita": "6.375,00",
+    "pastagemPlantada": "8.900,00",
+    "pastagemNatural": "6.375,00",
+    "reserva": "5.300,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Araporã",
+    "aptidaoBoa": "15.750,00",
+    "aptdaoRegular": "12.600,00",
+    "aptdaoRestrita": "9.660,00",
+    "pastagemPlantada": "9.450,00",
+    "pastagemNatural": "7.875,00",
+    "reserva": "5.355,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Arapuá",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "12.500,00",
+    "pastagemPlantada": "9.000,00",
+    "pastagemNatural": "6.600,00",
+    "reserva": "2.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Araújos",
+    "aptidaoBoa": "15.047,53",
+    "aptdaoRegular": "7.532,76",
+    "aptdaoRestrita": "6.583,30",
+    "pastagemPlantada": "7.532,76",
+    "pastagemNatural": "6.583,30",
+    "reserva": "6.583,30"
+  },
+  {
+    "ano": 2021,
+    "nome": "Araxá",
+    "aptidaoBoa": "16.200,00",
+    "aptdaoRegular": "8.400,00",
+    "aptdaoRestrita": "6.600,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "4.800,00",
+    "reserva": "3.600,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Arceburgo",
+    "aptidaoBoa": "31.560,00",
+    "aptdaoRegular": "24.722,00",
+    "aptdaoRestrita": "16.832,00",
+    "pastagemPlantada": "18.884,00",
+    "pastagemNatural": "13.150,00",
+    "reserva": "8.416,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Arcos",
+    "aptidaoBoa": "15.500,00",
+    "aptdaoRegular": "10.500,00",
+    "aptdaoRestrita": "8.500,00",
+    "pastagemPlantada": "10.500,00",
+    "pastagemNatural": "6.500,00",
+    "reserva": "7.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Areado",
+    "aptidaoBoa": "30.500,00",
+    "aptdaoRegular": "22.500,00",
+    "aptdaoRestrita": "17.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "11.000,00",
+    "reserva": "8.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Argirita",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Aricanduva",
+    "aptidaoBoa": "5.750,00",
+    "aptdaoRegular": "5.400,00",
+    "aptdaoRestrita": "3.200,00",
+    "pastagemPlantada": "5.400,00",
+    "pastagemNatural": "4.900,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Arinos",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Astolfo Dutra",
+    "aptidaoBoa": "14.560,00",
+    "aptdaoRegular": "11.536,00",
+    "aptdaoRestrita": "9.744,00",
+    "pastagemPlantada": "8.624,00",
+    "pastagemNatural": "7.280,00",
+    "reserva": "5.488,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ataléia",
+    "aptidaoBoa": "3.850,00",
+    "aptdaoRegular": "2.850,00",
+    "aptdaoRestrita": "2.350,00",
+    "pastagemPlantada": "2.350,00",
+    "pastagemNatural": "2.100,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Augusto de Lima",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Baependi",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Baldim",
+    "aptidaoBoa": "17.500,00",
+    "aptdaoRegular": "13.200,00",
+    "aptdaoRestrita": "12.000,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Bambuí",
+    "aptidaoBoa": "14.500,00",
+    "aptdaoRegular": "10.100,00",
+    "aptdaoRestrita": "7.700,00",
+    "pastagemPlantada": "9.800,00",
+    "pastagemNatural": "4.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Bandeira",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Barão de Cocais",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "18.000,00",
+    "aptdaoRestrita": "18.000,00",
+    "pastagemPlantada": "20.000,00",
+    "pastagemNatural": "20.000,00",
+    "reserva": "20.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Barão de Monte Alto",
+    "aptidaoBoa": "8.100,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.800,00",
+    "pastagemPlantada": "5.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Barbacena",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Barra Longa",
+    "aptidaoBoa": "15.500,00",
+    "aptdaoRegular": "12.800,00",
+    "aptdaoRestrita": "11.000,00",
+    "pastagemPlantada": "15.500,00",
+    "pastagemNatural": "11.000,00",
+    "reserva": "12.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Barroso",
+    "aptidaoBoa": "8.800,00",
+    "aptdaoRegular": "6.600,00",
+    "aptdaoRestrita": "4.400,00",
+    "pastagemPlantada": "6.600,00",
+    "pastagemNatural": "4.400,00",
+    "reserva": "4.400,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Belmiro Braga",
+    "aptidaoBoa": "8.400,00",
+    "aptdaoRegular": "7.400,00",
+    "aptdaoRestrita": "6.300,00",
+    "pastagemPlantada": "7.600,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "5.700,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Belo Oriente",
+    "aptidaoBoa": "21.694,44",
+    "aptdaoRegular": "17.355,55",
+    "aptdaoRestrita": "13.016,66",
+    "pastagemPlantada": "21.694,44",
+    "pastagemNatural": "13.016,66",
+    "reserva": "10.847,22"
+  },
+  {
+    "ano": 2021,
+    "nome": "Belo Vale",
+    "aptidaoBoa": "17.000,00",
+    "aptdaoRegular": "14.000,00",
+    "aptdaoRestrita": "9.000,00",
+    "pastagemPlantada": "17.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "9.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Berilo",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "4.200,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Berizal",
+    "aptidaoBoa": "3.600,00",
+    "aptdaoRegular": "1.800,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "1.300,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Bertópolis",
+    "aptidaoBoa": "7.500,00",
+    "aptdaoRegular": "5.500,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "7.500,00",
+    "pastagemNatural": "5.500,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Betim",
+    "aptidaoBoa": "68.790,00",
+    "aptdaoRegular": "57.200,00",
+    "aptdaoRestrita": "38.400,00",
+    "pastagemPlantada": "51.700,00",
+    "pastagemNatural": "49.000,00",
+    "reserva": "92.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Bias Fortes",
+    "aptidaoBoa": "2.800,00",
+    "aptdaoRegular": "2.600,00",
+    "aptdaoRestrita": "2.400,00",
+    "pastagemPlantada": "2.200,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Bicas",
+    "aptidaoBoa": "11.000,00",
+    "aptdaoRegular": "9.850,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "9.850,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Biquinhas",
+    "aptidaoBoa": "5.500,00",
+    "aptdaoRegular": "4.200,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "4.200,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Boa Esperança",
+    "aptidaoBoa": "35.000,00",
+    "aptdaoRegular": "30.000,00",
+    "aptdaoRestrita": "20.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Bocaina de Minas",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "7.500,00",
+    "aptdaoRestrita": "6.500,00",
+    "pastagemPlantada": "6.500,00",
+    "pastagemNatural": "5.500,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Bocaiúva",
+    "aptidaoBoa": "5.160,00",
+    "aptdaoRegular": "3.800,00",
+    "aptdaoRestrita": "3.100,00",
+    "pastagemPlantada": "3.100,00",
+    "pastagemNatural": "2.060,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Bom Despacho",
+    "aptidaoBoa": "11.000,00",
+    "aptdaoRegular": "9.900,00",
+    "aptdaoRestrita": "7.150,00",
+    "pastagemPlantada": "6.600,00",
+    "pastagemNatural": "3.850,00",
+    "reserva": "3.300,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Bom Jardim de Minas",
+    "aptidaoBoa": "5.375,00",
+    "aptdaoRegular": "3.812,00",
+    "aptdaoRestrita": "2.687,00",
+    "pastagemPlantada": "3.687,00",
+    "pastagemNatural": "2.125,00",
+    "reserva": "1.625,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Bom Jesus da Penha",
+    "aptidaoBoa": "25.000,00",
+    "aptdaoRegular": "19.000,00",
+    "aptdaoRestrita": "14.500,00",
+    "pastagemPlantada": "14.000,00",
+    "pastagemNatural": "13.000,00",
+    "reserva": "6.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Bom Jesus do Amparo",
+    "aptidaoBoa": "25.000,00",
+    "aptdaoRegular": "20.000,00",
+    "aptdaoRestrita": "17.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "13.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Bom Jesus do Galho",
+    "aptidaoBoa": "10.710,00",
+    "aptdaoRegular": "8.030,00",
+    "aptdaoRestrita": "6.160,00",
+    "pastagemPlantada": "5.590,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "4.300,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Bom Repouso",
+    "aptidaoBoa": "32.000,00",
+    "aptdaoRegular": "18.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "18.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Bom Sucesso",
+    "aptidaoBoa": "11.500,00",
+    "aptdaoRegular": "8.500,00",
+    "aptdaoRestrita": "6.800,00",
+    "pastagemPlantada": "11.100,00",
+    "pastagemNatural": "8.900,00",
+    "reserva": "5.600,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Bonfim",
+    "aptidaoBoa": "22.973,91",
+    "aptdaoRegular": "17.486,53",
+    "aptdaoRestrita": "15.189,13",
+    "pastagemPlantada": "17.235,98",
+    "pastagemNatural": "13.784,35",
+    "reserva": "11.486,96"
+  },
+  {
+    "ano": 2021,
+    "nome": "Bonfinópolis de Minas",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "2.800,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Bonito de Minas",
+    "aptidaoBoa": "1.500,00",
+    "aptdaoRegular": "1.000,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "900,00",
+    "pastagemNatural": "400,00",
+    "reserva": "300,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Botumirim",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "2.800,00",
+    "aptdaoRestrita": "1.300,00",
+    "pastagemPlantada": "1.800,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Brás Pires",
+    "aptidaoBoa": "8.500,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Brasilândia de Minas",
+    "aptidaoBoa": "2.600,00",
+    "aptdaoRegular": "2.400,00",
+    "aptdaoRestrita": "2.300,00",
+    "pastagemPlantada": "2.200,00",
+    "pastagemNatural": "2.100,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Brasília de Minas",
+    "aptidaoBoa": "1.500,00",
+    "aptdaoRegular": "1.300,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "900,00",
+    "reserva": "700,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Brasópolis",
+    "aptidaoBoa": "25.000,00",
+    "aptdaoRegular": "19.000,00",
+    "aptdaoRestrita": "14.000,00",
+    "pastagemPlantada": "19.500,00",
+    "pastagemNatural": "14.500,00",
+    "reserva": "11.400,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Braúnas",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Brumadinho",
+    "aptidaoBoa": "86.000,00",
+    "aptdaoRegular": "69.000,00",
+    "aptdaoRestrita": "54.000,00",
+    "pastagemPlantada": "68.000,00",
+    "pastagemNatural": "56.000,00",
+    "reserva": "35.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Bueno Brandão",
+    "aptidaoBoa": "27.335,81",
+    "aptdaoRegular": "20.493,87",
+    "aptdaoRestrita": "16.890,25",
+    "pastagemPlantada": "25.365,10",
+    "pastagemNatural": "19.704,93",
+    "reserva": "15.539,04"
+  },
+  {
+    "ano": 2021,
+    "nome": "Buenópolis",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Buritis",
+    "aptidaoBoa": "5.056,20",
+    "aptdaoRegular": "3.148,20",
+    "aptdaoRestrita": "2.135,90",
+    "pastagemPlantada": "2.359,56",
+    "pastagemNatural": "1.574,10",
+    "reserva": "1.012,30"
+  },
+  {
+    "ano": 2021,
+    "nome": "Buritizeiro",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "4.500,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cabeceira Grande",
+    "aptidaoBoa": "8.558,10",
+    "aptdaoRegular": "7.086,45",
+    "aptdaoRestrita": "5.996,30",
+    "pastagemPlantada": "4.251,87",
+    "pastagemNatural": "1.690,00",
+    "reserva": "1.144,45"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cabo Verde",
+    "aptidaoBoa": "13.222,30",
+    "aptdaoRegular": "9.840,11",
+    "aptdaoRestrita": "6.930,00",
+    "pastagemPlantada": "6.930,00",
+    "pastagemNatural": "6.825,00",
+    "reserva": "5.237,48"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cachoeira da Prata",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "9.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cachoeira de Minas",
+    "aptidaoBoa": "11.495,00",
+    "aptdaoRegular": "10.340,00",
+    "aptdaoRestrita": "6.930,00",
+    "pastagemPlantada": "9.196,00",
+    "pastagemNatural": "8.046,00",
+    "reserva": "4.598,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cachoeira de Pajeú",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.900,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "900,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cachoeira Dourada",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Caetanópolis",
+    "aptidaoBoa": "4.750,00",
+    "aptdaoRegular": "3.675,00",
+    "aptdaoRestrita": "2.100,00",
+    "pastagemPlantada": "2.100,00",
+    "pastagemNatural": "1.575,00",
+    "reserva": "1.260,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Caeté",
+    "aptidaoBoa": "16.000,00",
+    "aptdaoRegular": "11.635,00",
+    "aptdaoRestrita": "7.854,00",
+    "pastagemPlantada": "12.218,00",
+    "pastagemNatural": "9.308,00",
+    "reserva": "8.425,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Caiana",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cajuri",
+    "aptidaoBoa": "18.000,00",
+    "aptdaoRegular": "16.000,00",
+    "aptdaoRestrita": "14.000,00",
+    "pastagemPlantada": "12.500,00",
+    "pastagemNatural": "11.000,00",
+    "reserva": "9.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Caldas",
+    "aptidaoBoa": "23.966,93",
+    "aptdaoRegular": "16.776,84",
+    "aptdaoRestrita": "11.983,45",
+    "pastagemPlantada": "9.256,19",
+    "pastagemNatural": "6.942,14",
+    "reserva": "5.553,70"
+  },
+  {
+    "ano": 2021,
+    "nome": "Camacho",
+    "aptidaoBoa": "14.900,00",
+    "aptdaoRegular": "12.400,00",
+    "aptdaoRestrita": "9.900,00",
+    "pastagemPlantada": "9.900,00",
+    "pastagemNatural": "7.400,00",
+    "reserva": "5.700,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Camanducaia",
+    "aptidaoBoa": "18.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cambuquira",
+    "aptidaoBoa": "17.100,00",
+    "aptdaoRegular": "11.300,00",
+    "aptdaoRestrita": "5.700,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "7.400,00",
+    "reserva": "4.900,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Campanário",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.750,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Campanha",
+    "aptidaoBoa": "18.500,00",
+    "aptdaoRegular": "16.500,00",
+    "aptdaoRestrita": "10.500,00",
+    "pastagemPlantada": "11.800,00",
+    "pastagemNatural": "10.500,00",
+    "reserva": "6.600,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Campestre",
+    "aptidaoBoa": "35.909,00",
+    "aptdaoRegular": "26.031,60",
+    "aptdaoRestrita": "13.161,20",
+    "pastagemPlantada": "13.015,80",
+    "pastagemNatural": "6.198,30",
+    "reserva": "6.198,30"
+  },
+  {
+    "ano": 2021,
+    "nome": "Campina Verde",
+    "aptidaoBoa": "13.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "11.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "9.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Campo Azul",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Campo Belo",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "17.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Campo do Meio",
+    "aptidaoBoa": "32.629,00",
+    "aptdaoRegular": "23.530,00",
+    "aptdaoRestrita": "19.612,00",
+    "pastagemPlantada": "16.313,00",
+    "pastagemNatural": "11.420,00",
+    "reserva": "6.527,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Campo Florido",
+    "aptidaoBoa": "15.116,14",
+    "aptdaoRegular": "12.524,80",
+    "aptdaoRestrita": "9.393,60",
+    "pastagemPlantada": "10.454,51",
+    "pastagemNatural": "8.896,93",
+    "reserva": "8.421,85"
+  },
+  {
+    "ano": 2021,
+    "nome": "Campos Altos",
+    "aptidaoBoa": "9.500,00",
+    "aptdaoRegular": "9.300,00",
+    "aptdaoRestrita": "5.800,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Campos Gerais",
+    "aptidaoBoa": "35.500,00",
+    "aptdaoRegular": "24.500,00",
+    "aptdaoRestrita": "19.500,00",
+    "pastagemPlantada": "17.500,00",
+    "pastagemNatural": "15.500,00",
+    "reserva": "9.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cana Verde",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "3.800,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Canaã",
+    "aptidaoBoa": "13.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "9.000,00",
+    "pastagemNatural": "6.500,00",
+    "reserva": "5.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Canápolis",
+    "aptidaoBoa": "30.000,00",
+    "aptdaoRegular": "25.000,00",
+    "aptdaoRestrita": "20.000,00",
+    "pastagemPlantada": "20.000,00",
+    "pastagemNatural": "15.000,00",
+    "reserva": "40.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Candeias",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cantagalo",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.200,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Caparaó",
+    "aptidaoBoa": "33.000,00",
+    "aptdaoRegular": "25.000,00",
+    "aptdaoRestrita": "12.000,00",
+    "pastagemPlantada": "17.000,00",
+    "pastagemNatural": "14.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Capela Nova",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Capelinha",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "7.500,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Capetinga",
+    "aptidaoBoa": "15.637,02",
+    "aptdaoRegular": "10.548,35",
+    "aptdaoRestrita": "8.199,06",
+    "pastagemPlantada": "6.515,44",
+    "pastagemNatural": "5.928,60",
+    "reserva": "5.171,71"
+  },
+  {
+    "ano": 2021,
+    "nome": "Capim Branco",
+    "aptidaoBoa": "25.000,00",
+    "aptdaoRegular": "21.000,00",
+    "aptdaoRestrita": "15.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "15.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Capinópolis",
+    "aptidaoBoa": "15.900,00",
+    "aptdaoRegular": "12.700,00",
+    "aptdaoRestrita": "11.975,00",
+    "pastagemPlantada": "15.900,00",
+    "pastagemNatural": "11.975,00",
+    "reserva": "7.900,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Capitão Andrade",
+    "aptidaoBoa": "4.960,00",
+    "aptdaoRegular": "3.960,00",
+    "aptdaoRestrita": "3.200,00",
+    "pastagemPlantada": "2.800,00",
+    "pastagemNatural": "2.100,00",
+    "reserva": "600,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Capitão Enéas",
+    "aptidaoBoa": "5.300,00",
+    "aptdaoRegular": "4.240,00",
+    "aptdaoRestrita": "3.180,00",
+    "pastagemPlantada": "3.710,00",
+    "pastagemNatural": "3.180,00",
+    "reserva": "3.710,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Capitólio",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Caputira",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "12.500,00",
+    "aptdaoRestrita": "7.500,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "7.500,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Caraí",
+    "aptidaoBoa": "3.200,00",
+    "aptdaoRegular": "2.250,00",
+    "aptdaoRestrita": "1.550,00",
+    "pastagemPlantada": "2.400,00",
+    "pastagemNatural": "1.800,00",
+    "reserva": "1.100,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Caranaíba",
+    "aptidaoBoa": "18.000,00",
+    "aptdaoRegular": "16.000,00",
+    "aptdaoRestrita": "16.000,00",
+    "pastagemPlantada": "16.000,00",
+    "pastagemNatural": "13.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Carandaí",
+    "aptidaoBoa": "19.655,23",
+    "aptdaoRegular": "16.090,85",
+    "aptdaoRestrita": "15.500,00",
+    "pastagemPlantada": "13.400,00",
+    "pastagemNatural": "12.500,00",
+    "reserva": "5.629,89"
+  },
+  {
+    "ano": 2021,
+    "nome": "Carangola",
+    "aptidaoBoa": "14.400,00",
+    "aptdaoRegular": "8.400,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "4.500,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Caratinga",
+    "aptidaoBoa": "20.143,50",
+    "aptdaoRegular": "12.086,10",
+    "aptdaoRestrita": "8.060,00",
+    "pastagemPlantada": "16.114,80",
+    "pastagemNatural": "8.057,40",
+    "reserva": "7.800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Carbonita",
+    "aptidaoBoa": "2.235,15",
+    "aptdaoRegular": "1.820,20",
+    "aptdaoRestrita": "1.430,25",
+    "pastagemPlantada": "1.855,30",
+    "pastagemNatural": "1.810,00",
+    "reserva": "1.400,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Careaçu",
+    "aptidaoBoa": "14.700,00",
+    "aptdaoRegular": "11.800,00",
+    "aptdaoRestrita": "8.800,00",
+    "pastagemPlantada": "10.800,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "5.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Carlos Chagas",
+    "aptidaoBoa": "4.100,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "2.200,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Carmésia",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "6.325,00",
+    "aptdaoRestrita": "5.500,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Carmo da Cachoeira",
+    "aptidaoBoa": "25.000,00",
+    "aptdaoRegular": "20.000,00",
+    "aptdaoRestrita": "15.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "12.000,00",
+    "reserva": "9.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Carmo da Mata",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Carmo de Minas",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Carmo do Cajuru",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "9.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Carmo do Paranaíba",
+    "aptidaoBoa": "24.200,00",
+    "aptdaoRegular": "16.400,00",
+    "aptdaoRestrita": "12.600,00",
+    "pastagemPlantada": "10.400,00",
+    "pastagemNatural": "5.150,00",
+    "reserva": "2.600,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Carmo do Rio Claro",
+    "aptidaoBoa": "10.604,38",
+    "aptdaoRegular": "10.063,34",
+    "aptdaoRestrita": "9.197,68",
+    "pastagemPlantada": "7.574,56",
+    "pastagemNatural": "6.492,48",
+    "reserva": "4.328,31"
+  },
+  {
+    "ano": 2021,
+    "nome": "Carmópolis de Minas",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "13.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Carneirinho",
+    "aptidaoBoa": "12.553,11",
+    "aptdaoRegular": "11.925,43",
+    "aptdaoRestrita": "10.980,95",
+    "pastagemPlantada": "10.980,95",
+    "pastagemNatural": "10.980,95",
+    "reserva": "10.980,95"
+  },
+  {
+    "ano": 2021,
+    "nome": "Carrancas",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "9.000,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "9.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Carvalhópolis",
+    "aptidaoBoa": "33.058,00",
+    "aptdaoRegular": "27.769,00",
+    "aptdaoRestrita": "22.213,00",
+    "pastagemPlantada": "22.213,00",
+    "pastagemNatural": "16.649,00",
+    "reserva": "7.064,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Carvalhos",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Casa Grande",
+    "aptidaoBoa": "11.388,66",
+    "aptdaoRegular": "7.971,66",
+    "aptdaoRestrita": "4.554,66",
+    "pastagemPlantada": "6.832,99",
+    "pastagemNatural": "2.277,33",
+    "reserva": "1.138,66"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cascalho Rico",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "14.500,00",
+    "aptdaoRestrita": "12.000,00",
+    "pastagemPlantada": "13.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cássia",
+    "aptidaoBoa": "15.817,00",
+    "aptdaoRegular": "12.654,00",
+    "aptdaoRestrita": "9.490,00",
+    "pastagemPlantada": "14.235,00",
+    "pastagemNatural": "5.704,00",
+    "reserva": "3.300,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cataguases",
+    "aptidaoBoa": "17.250,00",
+    "aptdaoRegular": "11.500,00",
+    "aptdaoRestrita": "6.900,00",
+    "pastagemPlantada": "11.500,00",
+    "pastagemNatural": "9.200,00",
+    "reserva": "6.900,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Catas Altas",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "18.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "20.000,00",
+    "pastagemNatural": "20.000,00",
+    "reserva": "20.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Catas Altas da Noruega",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "9.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Catuji",
+    "aptidaoBoa": "4.392,50",
+    "aptdaoRegular": "3.070,00",
+    "aptdaoRestrita": "2.281,30",
+    "pastagemPlantada": "3.070,00",
+    "pastagemNatural": "2.281,30",
+    "reserva": "2.153,50"
+  },
+  {
+    "ano": 2021,
+    "nome": "Catuti",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "2.700,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cedro do Abaeté",
+    "aptidaoBoa": "4.220,00",
+    "aptdaoRegular": "3.600,00",
+    "aptdaoRestrita": "3.170,00",
+    "pastagemPlantada": "2.110,00",
+    "pastagemNatural": "1.700,00",
+    "reserva": "1.100,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Central de Minas",
+    "aptidaoBoa": "5.800,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "2.700,00",
+    "pastagemPlantada": "3.700,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "1.555,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Centralina",
+    "aptidaoBoa": "18.000,00",
+    "aptdaoRegular": "14.400,00",
+    "aptdaoRestrita": "10.800,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "8.500,00",
+    "reserva": "5.300,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Chácara",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "9.660,00",
+    "aptdaoRestrita": "7.660,00",
+    "pastagemPlantada": "11.330,00",
+    "pastagemNatural": "7.830,00",
+    "reserva": "7.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Chalé",
+    "aptidaoBoa": "16.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "9.000,00",
+    "reserva": "6.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Chapada do Norte",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "1.800,00",
+    "aptdaoRestrita": "900,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "2.200,00",
+    "reserva": "2.600,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Chapada Gaúcha",
+    "aptidaoBoa": "13.000,00",
+    "aptdaoRegular": "4.800,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.100,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cipotânea",
+    "aptidaoBoa": "20.576,00",
+    "aptdaoRegular": "18.518,00",
+    "aptdaoRestrita": "13.694,00",
+    "pastagemPlantada": "13.094,00",
+    "pastagemNatural": "10.202,00",
+    "reserva": "5.105,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Claraval",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "6.500,00",
+    "aptdaoRestrita": "4.300,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "4.200,00",
+    "reserva": "2.800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Claro dos Poções",
+    "aptidaoBoa": "6.200,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cláudio",
+    "aptidaoBoa": "11.652,00",
+    "aptdaoRegular": "9.267,20",
+    "aptdaoRestrita": "6.524,00",
+    "pastagemPlantada": "10.852,00",
+    "pastagemNatural": "8.767,20",
+    "reserva": "4.940,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Coimbra",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "18.000,00",
+    "aptdaoRestrita": "16.000,00",
+    "pastagemPlantada": "16.000,00",
+    "pastagemNatural": "14.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Coluna",
+    "aptidaoBoa": "4.900,00",
+    "aptdaoRegular": "3.550,00",
+    "aptdaoRestrita": "2.450,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.450,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Comendador Gomes",
+    "aptidaoBoa": "11.072,00",
+    "aptdaoRegular": "10.545,00",
+    "aptdaoRestrita": "10.018,00",
+    "pastagemPlantada": "10.545,00",
+    "pastagemNatural": "8.963,00",
+    "reserva": "4.132,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Comercinho",
+    "aptidaoBoa": "2.610,00",
+    "aptdaoRegular": "1.950,00",
+    "aptdaoRestrita": "980,00",
+    "pastagemPlantada": "2.580,00",
+    "pastagemNatural": "1.380,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Conceição da Aparecida",
+    "aptidaoBoa": "4.400,00",
+    "aptdaoRegular": "3.300,00",
+    "aptdaoRestrita": "2.750,00",
+    "pastagemPlantada": "2.750,00",
+    "pastagemNatural": "2.200,00",
+    "reserva": "1.100,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Conceição da Barra de Minas",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Conceição das Alagoas",
+    "aptidaoBoa": "18.876,23",
+    "aptdaoRegular": "16.940,21",
+    "aptdaoRestrita": "15.293,03",
+    "pastagemPlantada": "15.812,48",
+    "pastagemNatural": "12.884,24",
+    "reserva": "9.370,36"
+  },
+  {
+    "ano": 2021,
+    "nome": "Conceição das Pedras",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "9.500,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "6.500,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Conceição de Ipanema",
+    "aptidaoBoa": "8.500,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Conceição do Mato Dentro",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Conceição do Pará",
+    "aptidaoBoa": "7.700,00",
+    "aptdaoRegular": "4.600,00",
+    "aptdaoRestrita": "3.280,00",
+    "pastagemPlantada": "4.100,00",
+    "pastagemNatural": "2.570,00",
+    "reserva": "2.050,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Conceição do Rio Verde",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Conceição dos Ouros",
+    "aptidaoBoa": "10.970,00",
+    "aptdaoRegular": "9.875,00",
+    "aptdaoRestrita": "6.580,00",
+    "pastagemPlantada": "8.780,00",
+    "pastagemNatural": "7.680,00",
+    "reserva": "4.390,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cônego Marinho",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.000,00",
+    "aptdaoRestrita": "600,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "500,00",
+    "reserva": "300,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Congonhal",
+    "aptidaoBoa": "26.500,00",
+    "aptdaoRegular": "18.750,00",
+    "aptdaoRestrita": "12.300,00",
+    "pastagemPlantada": "26.000,00",
+    "pastagemNatural": "11.100,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Congonhas",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Congonhas do Norte",
+    "aptidaoBoa": "7.500,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Conquista",
+    "aptidaoBoa": "22.331,83",
+    "aptdaoRegular": "21.340,30",
+    "aptdaoRestrita": "17.210,95",
+    "pastagemPlantada": "16.605,12",
+    "pastagemNatural": "11.638,53",
+    "reserva": "6.939,97"
+  },
+  {
+    "ano": 2021,
+    "nome": "Conselheiro Lafaiete",
+    "aptidaoBoa": "19.750,00",
+    "aptdaoRegular": "14.500,00",
+    "aptdaoRestrita": "11.500,00",
+    "pastagemPlantada": "17.000,00",
+    "pastagemNatural": "11.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Consolação",
+    "aptidaoBoa": "13.250,00",
+    "aptdaoRegular": "11.550,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "9.300,00",
+    "pastagemNatural": "7.500,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Coqueiral",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "18.000,00",
+    "aptdaoRestrita": "15.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "12.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Coração de Jesus",
+    "aptidaoBoa": "5.500,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "1.600,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cordisburgo",
+    "aptidaoBoa": "2.863,01",
+    "aptdaoRegular": "1.315,47",
+    "aptdaoRestrita": "342,00",
+    "pastagemPlantada": "807,00",
+    "pastagemNatural": "426,00",
+    "reserva": "256,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cordislândia",
+    "aptidaoBoa": "26.616,49",
+    "aptdaoRegular": "21.293,20",
+    "aptdaoRestrita": "15.969,89",
+    "pastagemPlantada": "26.616,49",
+    "pastagemNatural": "15.969,89",
+    "reserva": "13.308,25"
+  },
+  {
+    "ano": 2021,
+    "nome": "Corinto",
+    "aptidaoBoa": "5.500,00",
+    "aptdaoRegular": "3.700,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "2.800,00",
+    "pastagemNatural": "1.600,00",
+    "reserva": "900,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Coromandel",
+    "aptidaoBoa": "30.000,00",
+    "aptdaoRegular": "20.000,00",
+    "aptdaoRestrita": "13.000,00",
+    "pastagemPlantada": "13.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Coronel Fabriciano",
+    "aptidaoBoa": "23.000,00",
+    "aptdaoRegular": "23.000,00",
+    "aptdaoRestrita": "21.000,00",
+    "pastagemPlantada": "21.000,00",
+    "pastagemNatural": "21.000,00",
+    "reserva": "21.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Coronel Murta",
+    "aptidaoBoa": "2.150,00",
+    "aptdaoRegular": "1.100,00",
+    "aptdaoRestrita": "550,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "600,00",
+    "reserva": "500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Coronel Pacheco",
+    "aptidaoBoa": "3.320,00",
+    "aptdaoRegular": "3.050,00",
+    "aptdaoRestrita": "2.800,00",
+    "pastagemPlantada": "3.320,00",
+    "pastagemNatural": "2.800,00",
+    "reserva": "1.880,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Coronel Xavier Chaves",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Córrego Danta",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "6.500,00",
+    "pastagemPlantada": "5.500,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Córrego do Bom Jesus",
+    "aptidaoBoa": "24.000,00",
+    "aptdaoRegular": "21.000,00",
+    "aptdaoRestrita": "18.000,00",
+    "pastagemPlantada": "18.500,00",
+    "pastagemNatural": "17.000,00",
+    "reserva": "12.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Córrego Fundo",
+    "aptidaoBoa": "13.600,00",
+    "aptdaoRegular": "11.400,00",
+    "aptdaoRestrita": "9.700,00",
+    "pastagemPlantada": "11.200,00",
+    "pastagemNatural": "9.200,00",
+    "reserva": "8.150,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Couto de Magalhães de",
+    "aptidaoBoa": "3.520,00",
+    "aptdaoRegular": "2.830,00",
+    "aptdaoRestrita": "2.190,00",
+    "pastagemPlantada": "2.100,00",
+    "pastagemNatural": "1.550,00",
+    "reserva": "1.320,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Crisólita",
+    "aptidaoBoa": "7.500,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "4.500,00",
+    "pastagemPlantada": "6.500,00",
+    "pastagemNatural": "5.500,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cristais",
+    "aptidaoBoa": "25.000,00",
+    "aptdaoRegular": "20.000,00",
+    "aptdaoRestrita": "18.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "11.000,00",
+    "reserva": "9.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cristália",
+    "aptidaoBoa": "2.700,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "2.200,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.600,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cristiano Otoni",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "12.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "12.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cristina",
+    "aptidaoBoa": "18.000,00",
+    "aptdaoRegular": "14.400,00",
+    "aptdaoRestrita": "12.000,00",
+    "pastagemPlantada": "14.400,00",
+    "pastagemNatural": "7.200,00",
+    "reserva": "3.600,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Crucilândia",
+    "aptidaoBoa": "28.000,00",
+    "aptdaoRegular": "23.000,00",
+    "aptdaoRestrita": "17.500,00",
+    "pastagemPlantada": "13.000,00",
+    "pastagemNatural": "11.500,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cruzeiro da Fortaleza",
+    "aptidaoBoa": "25.000,00",
+    "aptdaoRegular": "19.875,00",
+    "aptdaoRestrita": "14.875,00",
+    "pastagemPlantada": "11.125,00",
+    "pastagemNatural": "6.375,00",
+    "reserva": "3.875,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Cruzília",
+    "aptidaoBoa": "13.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "10.500,00",
+    "pastagemPlantada": "9.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "6.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Curral de Dentro",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Curvelo",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Datas",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "9.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Delfim Moreira",
+    "aptidaoBoa": "30.000,00",
+    "aptdaoRegular": "25.000,00",
+    "aptdaoRestrita": "18.000,00",
+    "pastagemPlantada": "20.000,00",
+    "pastagemNatural": "17.000,00",
+    "reserva": "12.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Delfinópolis",
+    "aptidaoBoa": "25.000,00",
+    "aptdaoRegular": "18.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "17.500,00",
+    "pastagemNatural": "5.500,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Delta",
+    "aptidaoBoa": "24.200,00",
+    "aptdaoRegular": "22.973,00",
+    "aptdaoRestrita": "21.051,00",
+    "pastagemPlantada": "18.045,00",
+    "pastagemNatural": "12.760,00",
+    "reserva": "6.380,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Descoberto",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Desterro de Entre Rios",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Desterro do Melo",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Diamantina",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "5.800,00",
+    "aptdaoRestrita": "3.520,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "3.700,00",
+    "reserva": "2.260,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Dionísio",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Divinésia",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "9.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Divino",
+    "aptidaoBoa": "14.300,00",
+    "aptdaoRegular": "9.600,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "6.500,00",
+    "pastagemNatural": "4.700,00",
+    "reserva": "2.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Divino das Laranjeiras",
+    "aptidaoBoa": "5.376,00",
+    "aptdaoRegular": "4.827,00",
+    "aptdaoRestrita": "3.507,00",
+    "pastagemPlantada": "2.961,00",
+    "pastagemNatural": "2.280,00",
+    "reserva": "1.460,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Divinolândia de Minas",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "5.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Divinópolis",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "9.000,00",
+    "aptdaoRestrita": "7.500,00",
+    "pastagemPlantada": "9.500,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Divisa Alegre",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.300,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.350,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Divisa Nova",
+    "aptidaoBoa": "29.000,00",
+    "aptdaoRegular": "23.000,00",
+    "aptdaoRestrita": "19.000,00",
+    "pastagemPlantada": "20.000,00",
+    "pastagemNatural": "19.000,00",
+    "reserva": "13.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Divisópolis",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.750,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "1.750,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Dom Bosco",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Dom Cavati",
+    "aptidaoBoa": "6.950,00",
+    "aptdaoRegular": "5.050,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "5.280,00",
+    "pastagemNatural": "5.050,00",
+    "reserva": "2.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Dom Joaquim",
+    "aptidaoBoa": "4.825,00",
+    "aptdaoRegular": "4.825,00",
+    "aptdaoRestrita": "3.090,00",
+    "pastagemPlantada": "3.859,00",
+    "pastagemNatural": "2.471,00",
+    "reserva": "2.471,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Dom Silvério",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Dom Viçoso",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Dona Eusébia",
+    "aptidaoBoa": "13.500,00",
+    "aptdaoRegular": "11.000,00",
+    "aptdaoRestrita": "8.500,00",
+    "pastagemPlantada": "8.500,00",
+    "pastagemNatural": "7.500,00",
+    "reserva": "7.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Dores de Guanhães",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "4.500,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Dores do Indaiá",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "7.500,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Dores do Turvo",
+    "aptidaoBoa": "13.500,00",
+    "aptdaoRegular": "7.500,00",
+    "aptdaoRestrita": "5.600,00",
+    "pastagemPlantada": "7.200,00",
+    "pastagemNatural": "5.300,00",
+    "reserva": "4.900,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Doresópolis",
+    "aptidaoBoa": "12.500,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Douradoquara",
+    "aptidaoBoa": "17.528,26",
+    "aptdaoRegular": "13.792,80",
+    "aptdaoRestrita": "10.370,00",
+    "pastagemPlantada": "9.034,35",
+    "pastagemNatural": "6.750,62",
+    "reserva": "4.774,25"
+  },
+  {
+    "ano": 2021,
+    "nome": "Durandé",
+    "aptidaoBoa": "16.528,93",
+    "aptdaoRegular": "14.462,81",
+    "aptdaoRestrita": "12.396,69",
+    "pastagemPlantada": "14.462,81",
+    "pastagemNatural": "12.396,69",
+    "reserva": "8.264,46"
+  },
+  {
+    "ano": 2021,
+    "nome": "Elói Mendes",
+    "aptidaoBoa": "23.485,90",
+    "aptdaoRegular": "18.601,70",
+    "aptdaoRestrita": "15.484,10",
+    "pastagemPlantada": "15.484,10",
+    "pastagemNatural": "13.301,80",
+    "reserva": "11.015,50"
+  },
+  {
+    "ano": 2021,
+    "nome": "Engenheiro Navarro",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Entre Rios de Minas",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "9.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ervália",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "11.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "11.000,00",
+    "pastagemNatural": "7.500,00",
+    "reserva": "7.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Esmeraldas",
+    "aptidaoBoa": "30.000,00",
+    "aptdaoRegular": "25.000,00",
+    "aptdaoRestrita": "20.000,00",
+    "pastagemPlantada": "18.000,00",
+    "pastagemNatural": "15.000,00",
+    "reserva": "12.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Espera Feliz",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "16.500,00",
+    "aptdaoRestrita": "11.000,00",
+    "pastagemPlantada": "8.800,00",
+    "pastagemNatural": "6.600,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Espinosa",
+    "aptidaoBoa": "2.200,00",
+    "aptdaoRegular": "1.700,00",
+    "aptdaoRestrita": "800,00",
+    "pastagemPlantada": "2.900,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Espírito Santo do Dourado",
+    "aptidaoBoa": "37.327,91",
+    "aptdaoRegular": "20.925,17",
+    "aptdaoRestrita": "22.396,75",
+    "pastagemPlantada": "37.327,91",
+    "pastagemNatural": "22.396,75",
+    "reserva": "18.663,96"
+  },
+  {
+    "ano": 2021,
+    "nome": "Estiva",
+    "aptidaoBoa": "41.323,00",
+    "aptdaoRegular": "28.926,00",
+    "aptdaoRestrita": "12.397,00",
+    "pastagemPlantada": "41.323,00",
+    "pastagemNatural": "12.397,00",
+    "reserva": "8.265,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Estrela Dalva",
+    "aptidaoBoa": "5.500,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "5.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Estrela do Indaiá",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "3.400,00",
+    "aptdaoRestrita": "2.700,00",
+    "pastagemPlantada": "3.400,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Estrela do Sul",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "12.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Eugenópolis",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "13.000,00",
+    "aptdaoRestrita": "9.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Extrema",
+    "aptidaoBoa": "41.500,00",
+    "aptdaoRegular": "38.000,00",
+    "aptdaoRestrita": "34.000,00",
+    "pastagemPlantada": "41.500,00",
+    "pastagemNatural": "29.200,00",
+    "reserva": "21.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Fama",
+    "aptidaoBoa": "31.500,00",
+    "aptdaoRegular": "22.000,00",
+    "aptdaoRestrita": "15.000,00",
+    "pastagemPlantada": "13.000,00",
+    "pastagemNatural": "11.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Faria Lemos",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Felício dos Santos",
+    "aptidaoBoa": "7.500,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "6.500,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Felisburgo",
+    "aptidaoBoa": "2.152,48",
+    "aptdaoRegular": "1.721,98",
+    "aptdaoRestrita": "1.291,49",
+    "pastagemPlantada": "2.152,48",
+    "pastagemNatural": "1.506,73",
+    "reserva": "1.076,24"
+  },
+  {
+    "ano": 2021,
+    "nome": "Felixlândia",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "14.000,00",
+    "pastagemPlantada": "13.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ferros",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Fervedouro",
+    "aptidaoBoa": "16.181,00",
+    "aptdaoRegular": "13.500,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "13.500,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Florestal",
+    "aptidaoBoa": "18.000,00",
+    "aptdaoRegular": "16.000,00",
+    "aptdaoRestrita": "12.000,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "12.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Formiga",
+    "aptidaoBoa": "21.089,46",
+    "aptdaoRegular": "10.544,73",
+    "aptdaoRestrita": "6.326,84",
+    "pastagemPlantada": "8.435,78",
+    "pastagemNatural": "5.272,37",
+    "reserva": "4.217,89"
+  },
+  {
+    "ano": 2021,
+    "nome": "Formoso",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "2.800,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "2.300,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Fortaleza de Minas",
+    "aptidaoBoa": "24.793,39",
+    "aptdaoRegular": "22.727,27",
+    "aptdaoRestrita": "20.661,16",
+    "pastagemPlantada": "20.247,93",
+    "pastagemNatural": "14.462,81",
+    "reserva": "5.371,90"
+  },
+  {
+    "ano": 2021,
+    "nome": "Fortuna de Minas",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Francisco Badaró",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Francisco Dumont",
+    "aptidaoBoa": "4.921,97",
+    "aptdaoRegular": "4.649,24",
+    "aptdaoRestrita": "3.356,59",
+    "pastagemPlantada": "4.921,97",
+    "pastagemNatural": "2.896,30",
+    "reserva": "2.575,16"
+  },
+  {
+    "ano": 2021,
+    "nome": "Francisco Sá",
+    "aptidaoBoa": "5.500,00",
+    "aptdaoRegular": "3.250,00",
+    "aptdaoRestrita": "2.883,60",
+    "pastagemPlantada": "4.980,30",
+    "pastagemNatural": "2.941,60",
+    "reserva": "2.650,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Franciscópolis",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Frei Gaspar",
+    "aptidaoBoa": "2.100,00",
+    "aptdaoRegular": "1.800,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "700,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Frei Inocêncio",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.800,00",
+    "pastagemPlantada": "2.250,00",
+    "pastagemNatural": "1.252,00",
+    "reserva": "835,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Frei Lagonegro",
+    "aptidaoBoa": "8.500,00",
+    "aptdaoRegular": "4.200,00",
+    "aptdaoRestrita": "3.100,00",
+    "pastagemPlantada": "6.300,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Fronteira",
+    "aptidaoBoa": "18.500,00",
+    "aptdaoRegular": "16.000,00",
+    "aptdaoRestrita": "12.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "12.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Fronteira dos Vales",
+    "aptidaoBoa": "7.748,00",
+    "aptdaoRegular": "4.132,00",
+    "aptdaoRestrita": "2.582,00",
+    "pastagemPlantada": "7.748,00",
+    "pastagemNatural": "3.100,00",
+    "reserva": "2.582,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Fruta de Leite",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "1.750,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "750,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Frutal",
+    "aptidaoBoa": "13.800,00",
+    "aptdaoRegular": "12.500,00",
+    "aptdaoRestrita": "11.300,00",
+    "pastagemPlantada": "11.300,00",
+    "pastagemNatural": "10.700,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Funilândia",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "13.000,00",
+    "pastagemPlantada": "13.000,00",
+    "pastagemNatural": "11.000,00",
+    "reserva": "9.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Galiléia",
+    "aptidaoBoa": "7.297,00",
+    "aptdaoRegular": "5.212,00",
+    "aptdaoRestrita": "3.336,00",
+    "pastagemPlantada": "1.076,00",
+    "pastagemNatural": "646,00",
+    "reserva": "417,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Gameleiras",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.200,00",
+    "aptdaoRestrita": "1.800,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.300,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Glaucilândia",
+    "aptidaoBoa": "6.350,00",
+    "aptdaoRegular": "4.600,00",
+    "aptdaoRestrita": "3.450,00",
+    "pastagemPlantada": "5.400,00",
+    "pastagemNatural": "3.100,00",
+    "reserva": "2.560,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Goianá",
+    "aptidaoBoa": "14.459,00",
+    "aptdaoRegular": "11.650,00",
+    "aptdaoRestrita": "9.574,00",
+    "pastagemPlantada": "12.359,00",
+    "pastagemNatural": "8.079,00",
+    "reserva": "8.110,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Gonçalves",
+    "aptidaoBoa": "28.925,00",
+    "aptdaoRegular": "20.660,00",
+    "aptdaoRestrita": "16.500,00",
+    "pastagemPlantada": "12.500,00",
+    "pastagemNatural": "11.500,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Gonzaga",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.500,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Gouveia",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "750,00",
+    "reserva": "500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Governador Valadares",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.600,00",
+    "pastagemPlantada": "2.600,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Grão Mogol",
+    "aptidaoBoa": "2.800,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "1.800,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Grupiara",
+    "aptidaoBoa": "16.560,10",
+    "aptdaoRegular": "12.672,95",
+    "aptdaoRestrita": "9.629,86",
+    "pastagemPlantada": "8.923,61",
+    "pastagemNatural": "6.957,41",
+    "reserva": "6.124,60"
+  },
+  {
+    "ano": 2021,
+    "nome": "Guanhães",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Guapé",
+    "aptidaoBoa": "18.500,00",
+    "aptdaoRegular": "9.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "8.500,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Guaraciaba",
+    "aptidaoBoa": "11.680,00",
+    "aptdaoRegular": "9.020,00",
+    "aptdaoRestrita": "5.941,00",
+    "pastagemPlantada": "9.480,00",
+    "pastagemNatural": "7.191,00",
+    "reserva": "2.451,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Guaraciama",
+    "aptidaoBoa": "5.800,00",
+    "aptdaoRegular": "4.100,00",
+    "aptdaoRestrita": "3.200,00",
+    "pastagemPlantada": "4.100,00",
+    "pastagemNatural": "2.800,00",
+    "reserva": "2.100,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Guaranésia",
+    "aptidaoBoa": "18.000,00",
+    "aptdaoRegular": "15.750,00",
+    "aptdaoRestrita": "11.000,00",
+    "pastagemPlantada": "11.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Guarani",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "4.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Guarará",
+    "aptidaoBoa": "11.000,00",
+    "aptdaoRegular": "9.850,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "9.850,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Guarda-Mor",
+    "aptidaoBoa": "12.500,00",
+    "aptdaoRegular": "9.500,00",
+    "aptdaoRestrita": "5.500,00",
+    "pastagemPlantada": "5.500,00",
+    "pastagemNatural": "3.400,00",
+    "reserva": "2.800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Guaxupé",
+    "aptidaoBoa": "21.000,00",
+    "aptdaoRegular": "13.500,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "12.500,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "6.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Guimarânia",
+    "aptidaoBoa": "25.000,00",
+    "aptdaoRegular": "18.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Guiricema",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Gurinhatã",
+    "aptidaoBoa": "10.017,00",
+    "aptdaoRegular": "7.908,00",
+    "aptdaoRestrita": "6.195,00",
+    "pastagemPlantada": "6.195,00",
+    "pastagemNatural": "5.272,00",
+    "reserva": "4.007,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Heliodora",
+    "aptidaoBoa": "24.793,39",
+    "aptdaoRegular": "17.355,37",
+    "aptdaoRestrita": "12.396,59",
+    "pastagemPlantada": "9.917,36",
+    "pastagemNatural": "8.264,46",
+    "reserva": "6.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Iapu",
+    "aptidaoBoa": "18.000,00",
+    "aptdaoRegular": "17.500,00",
+    "aptdaoRestrita": "17.000,00",
+    "pastagemPlantada": "16.500,00",
+    "pastagemNatural": "15.000,00",
+    "reserva": "11.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ibertioga",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ibiá",
+    "aptidaoBoa": "27.221,74",
+    "aptdaoRegular": "20.393,53",
+    "aptdaoRestrita": "16.333,11",
+    "pastagemPlantada": "10.888,95",
+    "pastagemNatural": "6.533,01",
+    "reserva": "4.619,25"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ibiaí",
+    "aptidaoBoa": "5.167,40",
+    "aptdaoRegular": "3.772,47",
+    "aptdaoRestrita": "2.832,70",
+    "pastagemPlantada": "4.230,32",
+    "pastagemNatural": "2.573,59",
+    "reserva": "1.388,23"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ibiracatu",
+    "aptidaoBoa": "2.750,00",
+    "aptdaoRegular": "1.100,00",
+    "aptdaoRestrita": "500,00",
+    "pastagemPlantada": "2.850,00",
+    "pastagemNatural": "1.900,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ibiraci",
+    "aptidaoBoa": "21.000,00",
+    "aptdaoRegular": "15.750,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "9.000,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ibirité",
+    "aptidaoBoa": "74.134,90",
+    "aptdaoRegular": "69.478,15",
+    "aptdaoRestrita": "62.164,66",
+    "pastagemPlantada": "58.507,92",
+    "pastagemNatural": "54.851,17",
+    "reserva": "32.910,70"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ibitiúra de Minas",
+    "aptidaoBoa": "16.500,00",
+    "aptdaoRegular": "13.500,00",
+    "aptdaoRestrita": "9.000,00",
+    "pastagemPlantada": "9.350,00",
+    "pastagemNatural": "6.840,00",
+    "reserva": "6.360,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ibituruna",
+    "aptidaoBoa": "11.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "9.000,00",
+    "pastagemPlantada": "9.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Icaraí de Minas",
+    "aptidaoBoa": "3.100,00",
+    "aptdaoRegular": "2.800,00",
+    "aptdaoRestrita": "1.800,00",
+    "pastagemPlantada": "1.800,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Igarapé",
+    "aptidaoBoa": "150.000,00",
+    "aptdaoRegular": "115.000,00",
+    "aptdaoRestrita": "90.000,00",
+    "pastagemPlantada": "115.000,00",
+    "pastagemNatural": "110.000,00",
+    "reserva": "70.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Igaratinga",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ijaci",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ilicínea",
+    "aptidaoBoa": "17.800,00",
+    "aptdaoRegular": "9.915,00",
+    "aptdaoRestrita": "6.700,00",
+    "pastagemPlantada": "7.700,00",
+    "pastagemNatural": "4.960,00",
+    "reserva": "2.760,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Imbé de Minas",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Inconfidentes",
+    "aptidaoBoa": "16.797,39",
+    "aptdaoRegular": "16.637,81",
+    "aptdaoRestrita": "16.488,07",
+    "pastagemPlantada": "16.347,91",
+    "pastagemNatural": "16.217,13",
+    "reserva": "16.119,82"
+  },
+  {
+    "ano": 2021,
+    "nome": "Indaiabira",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "1.600,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "2.700,00",
+    "reserva": "2.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Indianópolis",
+    "aptidaoBoa": "21.000,00",
+    "aptdaoRegular": "19.000,00",
+    "aptdaoRestrita": "17.000,00",
+    "pastagemPlantada": "17.000,00",
+    "pastagemNatural": "16.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ingaí",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Inhapim",
+    "aptidaoBoa": "14.462,00",
+    "aptdaoRegular": "12.396,00",
+    "aptdaoRestrita": "9.297,00",
+    "pastagemPlantada": "8.264,00",
+    "pastagemNatural": "7.231,00",
+    "reserva": "5.165,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Inhaúma",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "9.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Inimutaba",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ipanema",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ipiaçu",
+    "aptidaoBoa": "9.500,00",
+    "aptdaoRegular": "8.500,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "7.500,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "5.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Iraí de Minas",
+    "aptidaoBoa": "13.200,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "600,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itabira",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "12.750,00",
+    "aptdaoRestrita": "10.500,00",
+    "pastagemPlantada": "7.921,00",
+    "pastagemNatural": "5.500,00",
+    "reserva": "2.250,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itabirinha",
+    "aptidaoBoa": "7.231,00",
+    "aptdaoRegular": "6.508,00",
+    "aptdaoRestrita": "5.784,00",
+    "pastagemPlantada": "5.062,00",
+    "pastagemNatural": "4.340,00",
+    "reserva": "3.615,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itabirito",
+    "aptidaoBoa": "13.744,13",
+    "aptdaoRegular": "10.995,30",
+    "aptdaoRestrita": "8.246,48",
+    "pastagemPlantada": "13.744,13",
+    "pastagemNatural": "8.246,13",
+    "reserva": "6.872,07"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itacambira",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itacarambi",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itaguara",
+    "aptidaoBoa": "25.000,00",
+    "aptdaoRegular": "18.000,00",
+    "aptdaoRestrita": "12.000,00",
+    "pastagemPlantada": "20.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itaipé",
+    "aptidaoBoa": "4.492,50",
+    "aptdaoRegular": "3.594,00",
+    "aptdaoRestrita": "2.695,50",
+    "pastagemPlantada": "2.043,25",
+    "pastagemNatural": "2.246,25",
+    "reserva": "1.797,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itajubá",
+    "aptidaoBoa": "25.000,00",
+    "aptdaoRegular": "20.000,00",
+    "aptdaoRestrita": "15.000,00",
+    "pastagemPlantada": "20.000,00",
+    "pastagemNatural": "15.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itamarandiba",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "1.100,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "1.100,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itamarati de Minas",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itambacuri",
+    "aptidaoBoa": "3.967,47",
+    "aptdaoRegular": "2.911,68",
+    "aptdaoRestrita": "1.855,87",
+    "pastagemPlantada": "1.359,28",
+    "pastagemNatural": "844,64",
+    "reserva": "844,64"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itambé do Mato Dentro",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "12.500,00",
+    "aptdaoRestrita": "9.000,00",
+    "pastagemPlantada": "8.500,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itamogi",
+    "aptidaoBoa": "31.616,67",
+    "aptdaoRegular": "26.226,67",
+    "aptdaoRestrita": "19.635,00",
+    "pastagemPlantada": "21.352,00",
+    "pastagemNatural": "16.109,20",
+    "reserva": "11.614,40"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itanhandu",
+    "aptidaoBoa": "10.500,00",
+    "aptdaoRegular": "9.000,00",
+    "aptdaoRestrita": "7.500,00",
+    "pastagemPlantada": "6.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itanhomi",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itaobim",
+    "aptidaoBoa": "2.878,58",
+    "aptdaoRegular": "2.312,93",
+    "aptdaoRestrita": "1.482,22",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "1.400,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itapagipe",
+    "aptidaoBoa": "15.500,00",
+    "aptdaoRegular": "12.545,00",
+    "aptdaoRestrita": "11.625,00",
+    "pastagemPlantada": "8.530,00",
+    "pastagemNatural": "7.750,00",
+    "reserva": "4.650,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itapecerica",
+    "aptidaoBoa": "6.300,00",
+    "aptdaoRegular": "4.200,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itatiaiuçu",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "11.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itaú de Minas",
+    "aptidaoBoa": "18.395,09",
+    "aptdaoRegular": "14.716,07",
+    "aptdaoRestrita": "12.876,56",
+    "pastagemPlantada": "11.037,06",
+    "pastagemNatural": "7.358,04",
+    "reserva": "3.679,02"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itaúna",
+    "aptidaoBoa": "25.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itaverava",
+    "aptidaoBoa": "11.250,00",
+    "aptdaoRegular": "10.725,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "8.625,00",
+    "reserva": "3.300,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itinga",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "1.600,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "750,00",
+    "reserva": "600,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ituiutaba",
+    "aptidaoBoa": "10.775,60",
+    "aptdaoRegular": "7.686,73",
+    "aptdaoRestrita": "5.481,52",
+    "pastagemPlantada": "7.981,27",
+    "pastagemNatural": "5.237,62",
+    "reserva": "4.993,73"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itumirim",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "6.500,00",
+    "pastagemNatural": "5.853,63",
+    "reserva": "4.808,35"
+  },
+  {
+    "ano": 2021,
+    "nome": "Iturama",
+    "aptidaoBoa": "17.844,00",
+    "aptdaoRegular": "12.891,10",
+    "aptdaoRestrita": "11.002,00",
+    "pastagemPlantada": "10.328,00",
+    "pastagemNatural": "8.403,00",
+    "reserva": "5.060,40"
+  },
+  {
+    "ano": 2021,
+    "nome": "Itutinga",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "9.000,00",
+    "aptdaoRestrita": "7.500,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Jaboticatubas",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Jacinto",
+    "aptidaoBoa": "2.800,00",
+    "aptdaoRegular": "2.300,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "1.900,00",
+    "pastagemNatural": "1.430,00",
+    "reserva": "1.150,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Jacuí",
+    "aptidaoBoa": "21.000,00",
+    "aptdaoRegular": "17.000,00",
+    "aptdaoRestrita": "14.000,00",
+    "pastagemPlantada": "18.000,00",
+    "pastagemNatural": "12.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Jacutinga",
+    "aptidaoBoa": "18.000,00",
+    "aptdaoRegular": "12.500,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Jaíba",
+    "aptidaoBoa": "5.094,10",
+    "aptdaoRegular": "1.815,00",
+    "aptdaoRestrita": "667,70",
+    "pastagemPlantada": "596,60",
+    "pastagemNatural": "400,12",
+    "reserva": "333,30"
+  },
+  {
+    "ano": 2021,
+    "nome": "Jampruca",
+    "aptidaoBoa": "3.800,00",
+    "aptdaoRegular": "3.200,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "2.850,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Janaúba",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "1.100,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Januária",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "1.300,00",
+    "pastagemNatural": "800,00",
+    "reserva": "500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Japaraíba",
+    "aptidaoBoa": "14.603,40",
+    "aptdaoRegular": "12.517,20",
+    "aptdaoRestrita": "8.344,80",
+    "pastagemPlantada": "8.344,80",
+    "pastagemNatural": "6.258,60",
+    "reserva": "3.129,30"
+  },
+  {
+    "ano": 2021,
+    "nome": "Japonvar",
+    "aptidaoBoa": "1.500,00",
+    "aptdaoRegular": "1.000,00",
+    "aptdaoRestrita": "750,00",
+    "pastagemPlantada": "500,00",
+    "pastagemNatural": "300,00",
+    "reserva": "150,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Jeceaba",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Jenipapo de Minas",
+    "aptidaoBoa": "2.800,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "1.650,00",
+    "reserva": "1.650,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Jequeri",
+    "aptidaoBoa": "15.029,39",
+    "aptdaoRegular": "12.023,51",
+    "aptdaoRestrita": "9.017,63",
+    "pastagemPlantada": "10.520,57",
+    "pastagemNatural": "9.017,63",
+    "reserva": "7.514,69"
+  },
+  {
+    "ano": 2021,
+    "nome": "Jequitaí",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Jequitibá",
+    "aptidaoBoa": "17.500,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Jequitinhonha",
+    "aptidaoBoa": "3.164,04",
+    "aptdaoRegular": "2.531,29",
+    "aptdaoRestrita": "1.898,43",
+    "pastagemPlantada": "3.164,04",
+    "pastagemNatural": "2.531,23",
+    "reserva": "1.582,02"
+  },
+  {
+    "ano": 2021,
+    "nome": "Jesuânia",
+    "aptidaoBoa": "25.046,19",
+    "aptdaoRegular": "20.036,95",
+    "aptdaoRestrita": "15.027,72",
+    "pastagemPlantada": "20.036,95",
+    "pastagemNatural": "15.027,72",
+    "reserva": "7.513,86"
+  },
+  {
+    "ano": 2021,
+    "nome": "Joaíma",
+    "aptidaoBoa": "3.099,17",
+    "aptdaoRegular": "2.324,38",
+    "aptdaoRestrita": "1.549,38",
+    "pastagemPlantada": "1.943,44",
+    "pastagemNatural": "1.356,59",
+    "reserva": "1.084,71"
+  },
+  {
+    "ano": 2021,
+    "nome": "Joanésia",
+    "aptidaoBoa": "4.200,00",
+    "aptdaoRegular": "3.600,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "2.700,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "João Monlevade",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "14.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "João Pinheiro",
+    "aptidaoBoa": "5.500,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "2.800,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.400,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Joaquim Felício",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Jordânia",
+    "aptidaoBoa": "4.132,23",
+    "aptdaoRegular": "3.099,17",
+    "aptdaoRestrita": "2.066,11",
+    "pastagemPlantada": "4.132,23",
+    "pastagemNatural": "2.479,32",
+    "reserva": "2.066,10"
+  },
+  {
+    "ano": 2021,
+    "nome": "José Gonçalves de Minas",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "2.800,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "3.300,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "José Raydan",
+    "aptidaoBoa": "4.132,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Josenópolis",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Juatuba",
+    "aptidaoBoa": "35.000,00",
+    "aptdaoRegular": "30.000,00",
+    "aptdaoRestrita": "20.000,00",
+    "pastagemPlantada": "30.000,00",
+    "pastagemNatural": "20.000,00",
+    "reserva": "20.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Juiz de Fora",
+    "aptidaoBoa": "3.320,00",
+    "aptdaoRegular": "3.050,00",
+    "aptdaoRestrita": "2.800,00",
+    "pastagemPlantada": "3.320,00",
+    "pastagemNatural": "2.800,00",
+    "reserva": "2.490,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Juramento",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Juruaia",
+    "aptidaoBoa": "22.577,98",
+    "aptdaoRegular": "18.681,78",
+    "aptdaoRestrita": "16.052,91",
+    "pastagemPlantada": "13.767,91",
+    "pastagemNatural": "9.333,75",
+    "reserva": "7.706,77"
+  },
+  {
+    "ano": 2021,
+    "nome": "Juvenília",
+    "aptidaoBoa": "2.100,00",
+    "aptdaoRegular": "1.460,00",
+    "aptdaoRestrita": "800,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "900,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ladainha",
+    "aptidaoBoa": "5.500,00",
+    "aptdaoRegular": "4.700,00",
+    "aptdaoRestrita": "3.900,00",
+    "pastagemPlantada": "3.600,00",
+    "pastagemNatural": "3.600,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Lagamar",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Lagoa da Prata",
+    "aptidaoBoa": "15.500,00",
+    "aptdaoRegular": "10.500,00",
+    "aptdaoRestrita": "6.500,00",
+    "pastagemPlantada": "10.500,00",
+    "pastagemNatural": "6.500,00",
+    "reserva": "7.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Lagoa dos Patos",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "600,00",
+    "reserva": "500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Lagoa Dourada",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Lagoa Formosa",
+    "aptidaoBoa": "25.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Lagoa Grande",
+    "aptidaoBoa": "12.500,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "7.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Lagoa Santa",
+    "aptidaoBoa": "120.000,00",
+    "aptdaoRegular": "100.000,00",
+    "aptdaoRestrita": "50.000,00",
+    "pastagemPlantada": "70.000,00",
+    "pastagemNatural": "50.000,00",
+    "reserva": "40.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Lajinha",
+    "aptidaoBoa": "17.500,00",
+    "aptdaoRegular": "9.000,00",
+    "aptdaoRestrita": "7.200,00",
+    "pastagemPlantada": "21.000,00",
+    "pastagemNatural": "12.500,00",
+    "reserva": "6.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Lambari",
+    "aptidaoBoa": "20.700,00",
+    "aptdaoRegular": "11.500,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "15.600,00",
+    "pastagemNatural": "11.200,00",
+    "reserva": "5.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Lamim",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "14.000,00",
+    "aptdaoRestrita": "12.000,00",
+    "pastagemPlantada": "11.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Laranjal",
+    "aptidaoBoa": "11.000,00",
+    "aptdaoRegular": "8.500,00",
+    "aptdaoRestrita": "6.800,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "6.500,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Lassance",
+    "aptidaoBoa": "8.361,60",
+    "aptdaoRegular": "4.389,84",
+    "aptdaoRestrita": "2.090,40",
+    "pastagemPlantada": "2.090,40",
+    "pastagemNatural": "1.567,80",
+    "reserva": "1.045,20"
+  },
+  {
+    "ano": 2021,
+    "nome": "Lavras",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Leandro Ferreira",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Leme do Prado",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.400,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "4.200,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Leopoldina",
+    "aptidaoBoa": "7.500,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Liberdade",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Lima Duarte",
+    "aptidaoBoa": "4.200,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.700,00",
+    "pastagemPlantada": "2.400,00",
+    "pastagemNatural": "2.100,00",
+    "reserva": "1.700,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Limeira do Oeste",
+    "aptidaoBoa": "14.884,00",
+    "aptdaoRegular": "12.651,00",
+    "aptdaoRestrita": "10.753,00",
+    "pastagemPlantada": "10.753,00",
+    "pastagemNatural": "8.602,00",
+    "reserva": "6.882,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Lontra",
+    "aptidaoBoa": "8.500,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Luisburgo",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "15.900,00",
+    "aptdaoRestrita": "10.570,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "7.620,00",
+    "reserva": "5.900,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Luislândia",
+    "aptidaoBoa": "1.705,00",
+    "aptdaoRegular": "1.320,00",
+    "aptdaoRestrita": "1.100,00",
+    "pastagemPlantada": "880,00",
+    "pastagemNatural": "660,00",
+    "reserva": "550,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Luminárias",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Luz",
+    "aptidaoBoa": "11.841,00",
+    "aptdaoRegular": "9.600,00",
+    "aptdaoRestrita": "7.509,00",
+    "pastagemPlantada": "7.545,00",
+    "pastagemNatural": "4.759,00",
+    "reserva": "3.064,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Machacalis",
+    "aptidaoBoa": "10.331,00",
+    "aptdaoRegular": "7.935,00",
+    "aptdaoRestrita": "6.325,00",
+    "pastagemPlantada": "8.970,00",
+    "pastagemNatural": "5.405,00",
+    "reserva": "4.600,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Machado",
+    "aptidaoBoa": "33.000,00",
+    "aptdaoRegular": "23.000,00",
+    "aptdaoRestrita": "20.000,00",
+    "pastagemPlantada": "17.000,00",
+    "pastagemNatural": "14.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Madre de Deus de Minas",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.950,00",
+    "aptdaoRestrita": "2.400,00",
+    "pastagemPlantada": "3.900,00",
+    "pastagemNatural": "2.350,00",
+    "reserva": "700,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Malacacheta",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Mamonas",
+    "aptidaoBoa": "4.250,00",
+    "aptdaoRegular": "3.400,00",
+    "aptdaoRestrita": "2.550,00",
+    "pastagemPlantada": "3.825,00",
+    "pastagemNatural": "2.125,00",
+    "reserva": "1.050,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Manga",
+    "aptidaoBoa": "5.500,00",
+    "aptdaoRegular": "2.800,00",
+    "aptdaoRestrita": "1.600,00",
+    "pastagemPlantada": "1.600,00",
+    "pastagemNatural": "900,00",
+    "reserva": "900,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Manhuaçu",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "16.500,00",
+    "aptdaoRestrita": "13.200,00",
+    "pastagemPlantada": "12.100,00",
+    "pastagemNatural": "9.900,00",
+    "reserva": "9.900,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Manhumirim",
+    "aptidaoBoa": "30.141,10",
+    "aptdaoRegular": "22.573,76",
+    "aptdaoRestrita": "15.391,20",
+    "pastagemPlantada": "23.343,32",
+    "pastagemNatural": "16.930,32",
+    "reserva": "11.799,92"
+  },
+  {
+    "ano": 2021,
+    "nome": "Mantena",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Mar de Espanha",
+    "aptidaoBoa": "11.000,00",
+    "aptdaoRegular": "9.850,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "9.850,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Maravilhas",
+    "aptidaoBoa": "6.540,52",
+    "aptdaoRegular": "5.502,40",
+    "aptdaoRestrita": "4.632,65",
+    "pastagemPlantada": "3.924,13",
+    "pastagemNatural": "3.270,11",
+    "reserva": "1.962,07"
+  },
+  {
+    "ano": 2021,
+    "nome": "Mariana",
+    "aptidaoBoa": "13.676,00",
+    "aptdaoRegular": "11.552,00",
+    "aptdaoRestrita": "9.120,00",
+    "pastagemPlantada": "11.552,00",
+    "pastagemNatural": "10.257,00",
+    "reserva": "8.272,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Mário Campos",
+    "aptidaoBoa": "70.000,00",
+    "aptdaoRegular": "58.250,00",
+    "aptdaoRestrita": "51.260,00",
+    "pastagemPlantada": "60.580,00",
+    "pastagemNatural": "55.920,00",
+    "reserva": "53.590,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Maripá de Minas",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "9.500,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "8.500,00",
+    "pastagemNatural": "7.500,00",
+    "reserva": "5.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Marliéria",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "11.500,00",
+    "aptdaoRestrita": "7.500,00",
+    "pastagemPlantada": "8.500,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "5.250,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Marmelópolis",
+    "aptidaoBoa": "13.000,00",
+    "aptdaoRegular": "9.500,00",
+    "aptdaoRestrita": "7.500,00",
+    "pastagemPlantada": "13.000,00",
+    "pastagemNatural": "9.500,00",
+    "reserva": "7.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Martinho Campos",
+    "aptidaoBoa": "14.000,00",
+    "aptdaoRegular": "13.000,00",
+    "aptdaoRestrita": "12.000,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Martins Soares",
+    "aptidaoBoa": "26.000,00",
+    "aptdaoRegular": "20.000,00",
+    "aptdaoRestrita": "15.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "13.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Mata Verde",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.600,00",
+    "aptdaoRestrita": "3.281,00",
+    "pastagemPlantada": "3.350,00",
+    "pastagemNatural": "2.656,00",
+    "reserva": "1.356,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Materlândia",
+    "aptidaoBoa": "5.114,48",
+    "aptdaoRegular": "4.091,58",
+    "aptdaoRestrita": "3.068,69",
+    "pastagemPlantada": "5.114,48",
+    "pastagemNatural": "2.763,53",
+    "reserva": "2.557,23"
+  },
+  {
+    "ano": 2021,
+    "nome": "Mateus Leme",
+    "aptidaoBoa": "35.000,00",
+    "aptdaoRegular": "30.000,00",
+    "aptdaoRestrita": "25.000,00",
+    "pastagemPlantada": "18.000,00",
+    "pastagemNatural": "13.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Mathias Lobato",
+    "aptidaoBoa": "3.800,00",
+    "aptdaoRegular": "3.200,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "2.850,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Matias Barbosa",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.400,00",
+    "aptdaoRestrita": "3.200,00",
+    "pastagemPlantada": "3.400,00",
+    "pastagemNatural": "2.800,00",
+    "reserva": "2.300,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Matias Cardoso",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "800,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Matipó",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Mato Verde",
+    "aptidaoBoa": "3.600,00",
+    "aptdaoRegular": "2.700,00",
+    "aptdaoRestrita": "2.100,00",
+    "pastagemPlantada": "2.850,00",
+    "pastagemNatural": "1.400,00",
+    "reserva": "880,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Matutina",
+    "aptidaoBoa": "19.500,00",
+    "aptdaoRegular": "10.800,00",
+    "aptdaoRestrita": "8.600,00",
+    "pastagemPlantada": "6.500,00",
+    "pastagemNatural": "3.250,00",
+    "reserva": "1.650,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Medeiros",
+    "aptidaoBoa": "25.040,00",
+    "aptdaoRegular": "18.700,00",
+    "aptdaoRestrita": "14.200,00",
+    "pastagemPlantada": "11.400,00",
+    "pastagemNatural": "5.600,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Medina",
+    "aptidaoBoa": "3.600,00",
+    "aptdaoRegular": "3.200,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "2.100,00",
+    "reserva": "2.100,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Mendes Pimentel",
+    "aptidaoBoa": "5.690,80",
+    "aptdaoRegular": "4.914,70",
+    "aptdaoRestrita": "3.549,50",
+    "pastagemPlantada": "2.100,00",
+    "pastagemNatural": "1.650,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Mercês",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Mesquita",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Minas Novas",
+    "aptidaoBoa": "5.700,00",
+    "aptdaoRegular": "3.800,00",
+    "aptdaoRestrita": "2.400,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "2.450,00",
+    "reserva": "1.350,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Minduri",
+    "aptidaoBoa": "7.500,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Mirabela",
+    "aptidaoBoa": "2.800,00",
+    "aptdaoRegular": "1.800,00",
+    "aptdaoRestrita": "1.400,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Miradouro",
+    "aptidaoBoa": "13.000,00",
+    "aptdaoRegular": "9.500,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "7.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Miraí",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "20.000,00",
+    "pastagemNatural": "15.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Miravânia",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "800,00",
+    "reserva": "500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Moeda",
+    "aptidaoBoa": "31.700,00",
+    "aptdaoRegular": "27.800,00",
+    "aptdaoRestrita": "25.300,00",
+    "pastagemPlantada": "23.000,00",
+    "pastagemNatural": "20.500,00",
+    "reserva": "19.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Moema",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Monjolos",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "750,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Monsenhor Paulo",
+    "aptidaoBoa": "25.000,00",
+    "aptdaoRegular": "20.000,00",
+    "aptdaoRestrita": "15.000,00",
+    "pastagemPlantada": "20.000,00",
+    "pastagemNatural": "15.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Montalvânia",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Monte Azul",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.350,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "950,00",
+    "reserva": "850,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Monte Belo",
+    "aptidaoBoa": "19.000,00",
+    "aptdaoRegular": "16.000,00",
+    "aptdaoRestrita": "11.000,00",
+    "pastagemPlantada": "11.000,00",
+    "pastagemNatural": "9.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Monte Carmelo",
+    "aptidaoBoa": "17.850,00",
+    "aptdaoRegular": "12.600,00",
+    "aptdaoRestrita": "7.350,00",
+    "pastagemPlantada": "7.350,00",
+    "pastagemNatural": "5.250,00",
+    "reserva": "2.100,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Monte Formoso",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.600,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "1.600,00",
+    "reserva": "1.400,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Monte Santo de Minas",
+    "aptidaoBoa": "17.000,00",
+    "aptdaoRegular": "12.200,00",
+    "aptdaoRestrita": "8.250,00",
+    "pastagemPlantada": "12.170,00",
+    "pastagemNatural": "8.250,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Monte Sião",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Montes Claros",
+    "aptidaoBoa": "6.800,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "4.800,00",
+    "pastagemNatural": "2.300,00",
+    "reserva": "2.400,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Montezuma",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "1.200,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Morada Nova de Minas",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "7.500,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Morro da Garça",
+    "aptidaoBoa": "5.250,00",
+    "aptdaoRegular": "3.850,00",
+    "aptdaoRestrita": "2.750,00",
+    "pastagemPlantada": "2.900,00",
+    "pastagemNatural": "2.050,00",
+    "reserva": "950,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Morro do Pilar",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Munhoz",
+    "aptidaoBoa": "26.600,00",
+    "aptdaoRegular": "25.600,00",
+    "aptdaoRestrita": "13.000,00",
+    "pastagemPlantada": "26.000,00",
+    "pastagemNatural": "20.000,00",
+    "reserva": "13.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Muriaé",
+    "aptidaoBoa": "16.000,00",
+    "aptdaoRegular": "12.500,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Mutum",
+    "aptidaoBoa": "3.950,00",
+    "aptdaoRegular": "2.900,00",
+    "aptdaoRestrita": "2.040,00",
+    "pastagemPlantada": "2.900,00",
+    "pastagemNatural": "2.450,00",
+    "reserva": "2.040,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Muzambinho",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "10.700,00",
+    "aptdaoRestrita": "7.590,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "3.300,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Nanuque",
+    "aptidaoBoa": "4.150,00",
+    "aptdaoRegular": "3.800,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "2.700,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Natalândia",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Natércia",
+    "aptidaoBoa": "17.000,00",
+    "aptdaoRegular": "14.500,00",
+    "aptdaoRestrita": "12.500,00",
+    "pastagemPlantada": "15.500,00",
+    "pastagemNatural": "15.500,00",
+    "reserva": "10.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Nazareno",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Nepomuceno",
+    "aptidaoBoa": "13.000,00",
+    "aptdaoRegular": "11.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ninheira",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Nova Belém",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "4.200,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Nova Era",
+    "aptidaoBoa": "8.500,00",
+    "aptdaoRegular": "6.700,00",
+    "aptdaoRestrita": "4.800,00",
+    "pastagemPlantada": "6.360,00",
+    "pastagemNatural": "3.900,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Nova Lima",
+    "aptidaoBoa": "52.071,50",
+    "aptdaoRegular": "45.718,78",
+    "aptdaoRestrita": "34.289,08",
+    "pastagemPlantada": "34.289,08",
+    "pastagemNatural": "28.573,09",
+    "reserva": "17.143,85"
+  },
+  {
+    "ano": 2021,
+    "nome": "Nova Módica",
+    "aptidaoBoa": "4.200,00",
+    "aptdaoRegular": "3.700,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "3.100,00",
+    "pastagemNatural": "2.700,00",
+    "reserva": "2.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Nova Ponte",
+    "aptidaoBoa": "18.500,00",
+    "aptdaoRegular": "14.700,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "11.300,00",
+    "pastagemNatural": "18.500,00",
+    "reserva": "4.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Nova Porteirinha",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Nova Resende",
+    "aptidaoBoa": "24.885,71",
+    "aptdaoRegular": "20.533,33",
+    "aptdaoRestrita": "14.392,86",
+    "pastagemPlantada": "17.371,42",
+    "pastagemNatural": "14.094,67",
+    "reserva": "6.985,95"
+  },
+  {
+    "ano": 2021,
+    "nome": "Nova Serrana",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Nova União",
+    "aptidaoBoa": "30.000,00",
+    "aptdaoRegular": "20.000,00",
+    "aptdaoRestrita": "15.000,00",
+    "pastagemPlantada": "20.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Novo Cruzeiro",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "5.500,00",
+    "aptdaoRestrita": "4.200,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Novo Oriente de Minas",
+    "aptidaoBoa": "4.426,15",
+    "aptdaoRegular": "3.569,72",
+    "aptdaoRestrita": "2.677,29",
+    "pastagemPlantada": "4.462,15",
+    "pastagemNatural": "2.677,29",
+    "reserva": "2.231,07"
+  },
+  {
+    "ano": 2021,
+    "nome": "Novorizonte",
+    "aptidaoBoa": "2.700,00",
+    "aptdaoRegular": "2.200,00",
+    "aptdaoRestrita": "900,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "600,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Olaria",
+    "aptidaoBoa": "2.800,00",
+    "aptdaoRegular": "2.600,00",
+    "aptdaoRestrita": "2.400,00",
+    "pastagemPlantada": "2.200,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Olhos-D'Água",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "2.700,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "2.750,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Olímpio Noronha",
+    "aptidaoBoa": "19.200,00",
+    "aptdaoRegular": "11.000,00",
+    "aptdaoRestrita": "6.300,00",
+    "pastagemPlantada": "12.500,00",
+    "pastagemNatural": "9.000,00",
+    "reserva": "4.100,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Oliveira",
+    "aptidaoBoa": "11.135,03",
+    "aptdaoRegular": "8.908,37",
+    "aptdaoRestrita": "5.586,43",
+    "pastagemPlantada": "8.908,37",
+    "pastagemNatural": "4.458,44",
+    "reserva": "3.897,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Onça de Pitangui",
+    "aptidaoBoa": "19.500,00",
+    "aptdaoRegular": "17.000,00",
+    "aptdaoRestrita": "12.500,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "9.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Oratórios",
+    "aptidaoBoa": "11.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "4.750,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Orizânia",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "7.500,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ouro Branco",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "18.000,00",
+    "aptdaoRestrita": "16.000,00",
+    "pastagemPlantada": "17.000,00",
+    "pastagemNatural": "15.000,00",
+    "reserva": "13.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ouro Fino",
+    "aptidaoBoa": "18.300,00",
+    "aptdaoRegular": "14.000,00",
+    "aptdaoRestrita": "9.000,00",
+    "pastagemPlantada": "14.500,00",
+    "pastagemNatural": "11.900,00",
+    "reserva": "6.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ouro Preto",
+    "aptidaoBoa": "22.500,00",
+    "aptdaoRegular": "16.614,00",
+    "aptdaoRestrita": "12.780,00",
+    "pastagemPlantada": "12.780,00",
+    "pastagemNatural": "12.780,00",
+    "reserva": "10.002,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ouro Verde de Minas",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.800,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Padre Carvalho",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "1.900,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Padre Paraíso",
+    "aptidaoBoa": "2.875,00",
+    "aptdaoRegular": "1.725,00",
+    "aptdaoRestrita": "1.380,00",
+    "pastagemPlantada": "1.725,00",
+    "pastagemNatural": "1.380,00",
+    "reserva": "1.150,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pai Pedro",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.600,00",
+    "aptdaoRestrita": "1.120,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "700,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Paineiras",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.950,00",
+    "aptdaoRestrita": "2.925,00",
+    "pastagemPlantada": "4.430,00",
+    "pastagemNatural": "2.950,00",
+    "reserva": "2.320,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pains",
+    "aptidaoBoa": "22.500,00",
+    "aptdaoRegular": "22.430,00",
+    "aptdaoRestrita": "22.300,00",
+    "pastagemPlantada": "22.120,00",
+    "pastagemNatural": "22.050,00",
+    "reserva": "21.900,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Paiva",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Palma",
+    "aptidaoBoa": "6.700,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "5.800,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Palmópolis",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.750,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "2.100,00",
+    "pastagemNatural": "1.900,00",
+    "reserva": "1.600,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Papagaios",
+    "aptidaoBoa": "9.600,00",
+    "aptdaoRegular": "7.200,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "6.400,00",
+    "pastagemNatural": "5.600,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pará de Minas",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "9.600,00",
+    "aptdaoRestrita": "7.200,00",
+    "pastagemPlantada": "7.200,00",
+    "pastagemNatural": "4.800,00",
+    "reserva": "2.400,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Paracatu",
+    "aptidaoBoa": "7.510,00",
+    "aptdaoRegular": "5.170,00",
+    "aptdaoRestrita": "3.320,00",
+    "pastagemPlantada": "3.080,00",
+    "pastagemNatural": "2.610,00",
+    "reserva": "2.040,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Paraguaçu",
+    "aptidaoBoa": "33.057,00",
+    "aptdaoRegular": "24.470,00",
+    "aptdaoRestrita": "19.800,00",
+    "pastagemPlantada": "26.400,00",
+    "pastagemNatural": "23.400,00",
+    "reserva": "18.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Paraisópolis",
+    "aptidaoBoa": "14.350,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "9.000,00",
+    "pastagemPlantada": "10.500,00",
+    "pastagemNatural": "9.500,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Paraopeba",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.250,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "2.875,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Passa Quatro",
+    "aptidaoBoa": "9.500,00",
+    "aptdaoRegular": "9.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "8.500,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Passa Tempo",
+    "aptidaoBoa": "18.500,00",
+    "aptdaoRegular": "16.000,00",
+    "aptdaoRestrita": "14.000,00",
+    "pastagemPlantada": "16.000,00",
+    "pastagemNatural": "13.500,00",
+    "reserva": "12.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Passa-Vinte",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "4.300,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "3.500,00",
+    "pastagemNatural": "2.200,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Passabém",
+    "aptidaoBoa": "8.500,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Passos",
+    "aptidaoBoa": "25.000,00",
+    "aptdaoRegular": "21.350,00",
+    "aptdaoRestrita": "18.000,00",
+    "pastagemPlantada": "12.800,00",
+    "pastagemNatural": "4.200,00",
+    "reserva": "2.900,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Patis",
+    "aptidaoBoa": "1.800,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "900,00",
+    "pastagemNatural": "800,00",
+    "reserva": "500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Patos de Minas",
+    "aptidaoBoa": "20.800,00",
+    "aptdaoRegular": "13.500,00",
+    "aptdaoRestrita": "9.000,00",
+    "pastagemPlantada": "6.500,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Patrocínio",
+    "aptidaoBoa": "35.000,00",
+    "aptdaoRegular": "18.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Paula Cândido",
+    "aptidaoBoa": "14.000,00",
+    "aptdaoRegular": "11.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Paulistas",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.300,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "3.200,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pavão",
+    "aptidaoBoa": "2.920,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.800,00",
+    "pastagemPlantada": "2.920,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Peçanha",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.200,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pedra Azul",
+    "aptidaoBoa": "3.266,00",
+    "aptdaoRegular": "2.866,20",
+    "aptdaoRestrita": "1.371,72",
+    "pastagemPlantada": "960,20",
+    "pastagemNatural": "576,12",
+    "reserva": "518,51"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pedra do Anta",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "7.500,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pedra do Indaiá",
+    "aptidaoBoa": "11.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "14.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pedra Dourada",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pedralva",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "16.000,00",
+    "aptdaoRestrita": "12.000,00",
+    "pastagemPlantada": "16.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pedras de Maria da Cruz",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "3.800,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pedrinópolis",
+    "aptidaoBoa": "22.800,00",
+    "aptdaoRegular": "18.200,00",
+    "aptdaoRestrita": "16.200,00",
+    "pastagemPlantada": "13.800,00",
+    "pastagemNatural": "7.200,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pedro Leopoldo",
+    "aptidaoBoa": "11.000,00",
+    "aptdaoRegular": "9.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pedro Teixeira",
+    "aptidaoBoa": "2.800,00",
+    "aptdaoRegular": "2.600,00",
+    "aptdaoRestrita": "2.400,00",
+    "pastagemPlantada": "1.700,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pequi",
+    "aptidaoBoa": "11.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Perdigão",
+    "aptidaoBoa": "5.255,00",
+    "aptdaoRegular": "4.090,00",
+    "aptdaoRestrita": "2.950,00",
+    "pastagemPlantada": "14.933,00",
+    "pastagemNatural": "5.255,00",
+    "reserva": "5.255,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Perdizes",
+    "aptidaoBoa": "28.325,00",
+    "aptdaoRegular": "21.115,00",
+    "aptdaoRestrita": "17.407,00",
+    "pastagemPlantada": "13.905,00",
+    "pastagemNatural": "4.223,00",
+    "reserva": "2.575,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Perdões",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pescador",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Piau",
+    "aptidaoBoa": "10.200,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "5.900,00",
+    "pastagemPlantada": "8.300,00",
+    "pastagemNatural": "5.500,00",
+    "reserva": "5.800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Piedade de Caratinga",
+    "aptidaoBoa": "26.000,00",
+    "aptdaoRegular": "16.500,00",
+    "aptdaoRestrita": "8.200,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "6.800,00",
+    "reserva": "4.550,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Piedade de Ponte Nova",
+    "aptidaoBoa": "17.500,00",
+    "aptdaoRegular": "13.500,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Piedade do Rio Grande",
+    "aptidaoBoa": "3.950,00",
+    "aptdaoRegular": "2.750,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "2.300,00",
+    "pastagemNatural": "1.700,00",
+    "reserva": "600,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Piedade dos Gerais",
+    "aptidaoBoa": "30.000,00",
+    "aptdaoRegular": "20.000,00",
+    "aptdaoRestrita": "15.000,00",
+    "pastagemPlantada": "20.000,00",
+    "pastagemNatural": "15.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pimenta",
+    "aptidaoBoa": "21.000,00",
+    "aptdaoRegular": "11.000,00",
+    "aptdaoRestrita": "9.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pintópolis",
+    "aptidaoBoa": "2.000,00",
+    "aptdaoRegular": "1.000,00",
+    "aptdaoRestrita": "800,00",
+    "pastagemPlantada": "750,00",
+    "pastagemNatural": "400,00",
+    "reserva": "300,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Piracema",
+    "aptidaoBoa": "16.875,21",
+    "aptdaoRegular": "15.187,69",
+    "aptdaoRestrita": "13.500,17",
+    "pastagemPlantada": "11.812,65",
+    "pastagemNatural": "10.125,13",
+    "reserva": "9.281,36"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pirajuba",
+    "aptidaoBoa": "21.680,00",
+    "aptdaoRegular": "19.420,00",
+    "aptdaoRestrita": "16.540,00",
+    "pastagemPlantada": "17.820,00",
+    "pastagemNatural": "15.480,00",
+    "reserva": "12.780,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Piranga",
+    "aptidaoBoa": "8.300,00",
+    "aptdaoRegular": "6.640,00",
+    "aptdaoRestrita": "5.371,00",
+    "pastagemPlantada": "7.270,00",
+    "pastagemNatural": "5.890,00",
+    "reserva": "2.910,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Piranguçu",
+    "aptidaoBoa": "29.000,00",
+    "aptdaoRegular": "16.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "9.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Piranguinho",
+    "aptidaoBoa": "27.000,00",
+    "aptdaoRegular": "21.000,00",
+    "aptdaoRestrita": "17.000,00",
+    "pastagemPlantada": "17.000,00",
+    "pastagemNatural": "12.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pirapetinga",
+    "aptidaoBoa": "5.500,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "5.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pirapora",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "5.500,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Piraúba",
+    "aptidaoBoa": "8.942,00",
+    "aptdaoRegular": "6.312,00",
+    "aptdaoRestrita": "4.208,00",
+    "pastagemPlantada": "6.312,00",
+    "pastagemNatural": "4.208,00",
+    "reserva": "6.312,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pitangui",
+    "aptidaoBoa": "8.734,00",
+    "aptdaoRegular": "5.446,28",
+    "aptdaoRestrita": "4.110,40",
+    "pastagemPlantada": "5.446,28",
+    "pastagemNatural": "2.569,00",
+    "reserva": "2.100,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Piumhi",
+    "aptidaoBoa": "7.260,00",
+    "aptdaoRegular": "5.960,00",
+    "aptdaoRestrita": "4.650,00",
+    "pastagemPlantada": "5.580,00",
+    "pastagemNatural": "3.190,00",
+    "reserva": "2.600,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Planura",
+    "aptidaoBoa": "17.395,00",
+    "aptdaoRegular": "17.395,00",
+    "aptdaoRestrita": "17.395,00",
+    "pastagemPlantada": "17.395,00",
+    "pastagemNatural": "17.395,00",
+    "reserva": "17.395,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Poço Fundo",
+    "aptidaoBoa": "37.493,00",
+    "aptdaoRegular": "26.127,00",
+    "aptdaoRestrita": "20.982,00",
+    "pastagemPlantada": "15.410,00",
+    "pastagemNatural": "11.404,00",
+    "reserva": "7.898,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Poços de Caldas",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "13.000,00",
+    "aptdaoRestrita": "12.000,00",
+    "pastagemPlantada": "12.400,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pocrane",
+    "aptidaoBoa": "8.867,77",
+    "aptdaoRegular": "7.095,04",
+    "aptdaoRestrita": "4.433,88",
+    "pastagemPlantada": "3.990,50",
+    "pastagemNatural": "3.325,41",
+    "reserva": "2.216,94"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pompéu",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ponte Nova",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "4.640,00",
+    "aptdaoRestrita": "3.840,00",
+    "pastagemPlantada": "7.040,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ponto Chique",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "800,00",
+    "pastagemNatural": "700,00",
+    "reserva": "500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ponto dos Volantes",
+    "aptidaoBoa": "1.400,00",
+    "aptdaoRegular": "1.100,00",
+    "aptdaoRestrita": "950,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "400,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Porteirinha",
+    "aptidaoBoa": "3.200,00",
+    "aptdaoRegular": "2.300,00",
+    "aptdaoRestrita": "1.800,00",
+    "pastagemPlantada": "2.300,00",
+    "pastagemNatural": "1.700,00",
+    "reserva": "1.300,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Porto Firme",
+    "aptidaoBoa": "8.923,56",
+    "aptdaoRegular": "7.138,85",
+    "aptdaoRestrita": "5.354,14",
+    "pastagemPlantada": "8.923,56",
+    "pastagemNatural": "5.364,14",
+    "reserva": "5.364,14"
+  },
+  {
+    "ano": 2021,
+    "nome": "Poté",
+    "aptidaoBoa": "4.600,00",
+    "aptdaoRegular": "3.700,00",
+    "aptdaoRestrita": "2.800,00",
+    "pastagemPlantada": "3.800,00",
+    "pastagemNatural": "2.800,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pouso Alegre",
+    "aptidaoBoa": "29.709,90",
+    "aptdaoRegular": "23.734,70",
+    "aptdaoRestrita": "11.419,10",
+    "pastagemPlantada": "26.000,70",
+    "pastagemNatural": "18.007,00",
+    "reserva": "13.704,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pouso Alto",
+    "aptidaoBoa": "3.509,00",
+    "aptdaoRegular": "3.182,00",
+    "aptdaoRestrita": "2.848,00",
+    "pastagemPlantada": "2.637,00",
+    "pastagemNatural": "2.397,00",
+    "reserva": "2.180,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Prados",
+    "aptidaoBoa": "16.022,15",
+    "aptdaoRegular": "12.817,72",
+    "aptdaoRestrita": "8.011,08",
+    "pastagemPlantada": "9.613,29",
+    "pastagemNatural": "9.613,29",
+    "reserva": "8.011,08"
+  },
+  {
+    "ano": 2021,
+    "nome": "Prata",
+    "aptidaoBoa": "12.075,00",
+    "aptdaoRegular": "11.025,00",
+    "aptdaoRestrita": "7.875,00",
+    "pastagemPlantada": "7.875,00",
+    "pastagemNatural": "5.250,00",
+    "reserva": "5.250,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pratápolis",
+    "aptidaoBoa": "22.706,29",
+    "aptdaoRegular": "18.922,00",
+    "aptdaoRestrita": "13.245,73",
+    "pastagemPlantada": "11.356,47",
+    "pastagemNatural": "7.949,00",
+    "reserva": "3.473,95"
+  },
+  {
+    "ano": 2021,
+    "nome": "Pratinha",
+    "aptidaoBoa": "7.350,00",
+    "aptdaoRegular": "6.825,00",
+    "aptdaoRestrita": "5.600,00",
+    "pastagemPlantada": "4.800,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Presidente Bernardes",
+    "aptidaoBoa": "8.858,59",
+    "aptdaoRegular": "6.714,09",
+    "aptdaoRestrita": "4.701,55",
+    "pastagemPlantada": "7.407,66",
+    "pastagemNatural": "5.359,29",
+    "reserva": "4.800,11"
+  },
+  {
+    "ano": 2021,
+    "nome": "Presidente Juscelino",
+    "aptidaoBoa": "2.053,12",
+    "aptdaoRegular": "1.642,50",
+    "aptdaoRestrita": "1.114,40",
+    "pastagemPlantada": "2.053,12",
+    "pastagemNatural": "1.231,87",
+    "reserva": "410,87"
+  },
+  {
+    "ano": 2021,
+    "nome": "Presidente Kubitschek",
+    "aptidaoBoa": "7.000,00",
+    "aptdaoRegular": "5.800,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "2.800,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Presidente Olegário",
+    "aptidaoBoa": "16.700,00",
+    "aptdaoRegular": "10.500,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Prudente de Morais",
+    "aptidaoBoa": "30.000,00",
+    "aptdaoRegular": "25.000,00",
+    "aptdaoRestrita": "20.000,00",
+    "pastagemPlantada": "25.000,00",
+    "pastagemNatural": "20.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Quartel Geral",
+    "aptidaoBoa": "4.300,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "2.600,00",
+    "pastagemPlantada": "3.700,00",
+    "pastagemNatural": "2.600,00",
+    "reserva": "2.100,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Queluzito",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "13.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Raul Soares",
+    "aptidaoBoa": "3.600,00",
+    "aptdaoRegular": "2.200,00",
+    "aptdaoRestrita": "1.900,00",
+    "pastagemPlantada": "2.600,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.600,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Recreio",
+    "aptidaoBoa": "10.500,00",
+    "aptdaoRegular": "7.800,00",
+    "aptdaoRestrita": "7.300,00",
+    "pastagemPlantada": "8.900,00",
+    "pastagemNatural": "6.800,00",
+    "reserva": "5.700,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Reduto",
+    "aptidaoBoa": "30.000,00",
+    "aptdaoRegular": "25.000,00",
+    "aptdaoRestrita": "20.000,00",
+    "pastagemPlantada": "25.000,00",
+    "pastagemNatural": "20.000,00",
+    "reserva": "10.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Resende Costa",
+    "aptidaoBoa": "8.675,16",
+    "aptdaoRegular": "7.807,64",
+    "aptdaoRestrita": "6.940,12",
+    "pastagemPlantada": "6.205,09",
+    "pastagemNatural": "5.205,09",
+    "reserva": "4.337,58"
+  },
+  {
+    "ano": 2021,
+    "nome": "Resplendor",
+    "aptidaoBoa": "9.765,00",
+    "aptdaoRegular": "8.683,50",
+    "aptdaoRestrita": "7.591,50",
+    "pastagemPlantada": "7.213,50",
+    "pastagemNatural": "6.930,00",
+    "reserva": "2.604,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ressaquinha",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Riachinho",
+    "aptidaoBoa": "3.831,79",
+    "aptdaoRegular": "3.065,43",
+    "aptdaoRestrita": "2.299,08",
+    "pastagemPlantada": "1.915,90",
+    "pastagemNatural": "1.149,54",
+    "reserva": "766,36"
+  },
+  {
+    "ano": 2021,
+    "nome": "Riacho dos Machados",
+    "aptidaoBoa": "3.931,15",
+    "aptdaoRegular": "3.144,92",
+    "aptdaoRestrita": "2.358,69",
+    "pastagemPlantada": "3.931,15",
+    "pastagemNatural": "1.179,34",
+    "reserva": "887,89"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ribeirão das Neves",
+    "aptidaoBoa": "60.497,50",
+    "aptdaoRegular": "50.675,00",
+    "aptdaoRestrita": "32.650,00",
+    "pastagemPlantada": "42.025,00",
+    "pastagemNatural": "31.000,00",
+    "reserva": "25.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Rio Casca",
+    "aptidaoBoa": "17.500,00",
+    "aptdaoRegular": "13.500,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Rio do Prado",
+    "aptidaoBoa": "5.165,28",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.750,00",
+    "pastagemPlantada": "2.500,00",
+    "pastagemNatural": "2.250,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Rio Doce",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Rio Espera",
+    "aptidaoBoa": "16.000,00",
+    "aptdaoRegular": "12.500,00",
+    "aptdaoRestrita": "9.800,00",
+    "pastagemPlantada": "12.500,00",
+    "pastagemNatural": "10.500,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Rio Manso",
+    "aptidaoBoa": "18.000,00",
+    "aptdaoRegular": "14.000,00",
+    "aptdaoRestrita": "11.000,00",
+    "pastagemPlantada": "16.000,00",
+    "pastagemNatural": "13.500,00",
+    "reserva": "11.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Rio Novo",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "6.750,00",
+    "aptdaoRestrita": "4.575,00",
+    "pastagemPlantada": "7.825,00",
+    "pastagemNatural": "5.700,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Rio Paranaíba",
+    "aptidaoBoa": "18.300,00",
+    "aptdaoRegular": "11.800,00",
+    "aptdaoRestrita": "8.600,00",
+    "pastagemPlantada": "6.400,00",
+    "pastagemNatural": "3.700,00",
+    "reserva": "2.300,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Rio Pardo de Minas",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "1.600,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Rio Piracicaba",
+    "aptidaoBoa": "12.500,00",
+    "aptdaoRegular": "10.300,00",
+    "aptdaoRestrita": "6.200,00",
+    "pastagemPlantada": "10.350,00",
+    "pastagemNatural": "11.000,00",
+    "reserva": "6.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Rio Pomba",
+    "aptidaoBoa": "4.110,75",
+    "aptdaoRegular": "3.654,00",
+    "aptdaoRestrita": "3.197,25",
+    "pastagemPlantada": "2.892,75",
+    "pastagemNatural": "2.436,00",
+    "reserva": "1.979,25"
+  },
+  {
+    "ano": 2021,
+    "nome": "Rio Preto",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Rio Vermelho",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Ritápolis",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "5.500,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "5.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Rochedo de Minas",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "4.600,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "2.600,00",
+    "reserva": "1.300,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Rodeiro",
+    "aptidaoBoa": "26.858,47",
+    "aptdaoRegular": "18.800,91",
+    "aptdaoRestrita": "13.429,21",
+    "pastagemPlantada": "18.800,91",
+    "pastagemNatural": "13.429,21",
+    "reserva": "10.743,39"
+  },
+  {
+    "ano": 2021,
+    "nome": "Romaria",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "17.000,00",
+    "aptdaoRestrita": "14.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Rosário da Limeira",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "13.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "12.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Rubelita",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "800,00",
+    "pastagemPlantada": "2.000,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Rubim",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "1.500,00",
+    "reserva": "1.250,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Sabará",
+    "aptidaoBoa": "53.772,60",
+    "aptdaoRegular": "43.018,08",
+    "aptdaoRestrita": "32.263,56",
+    "pastagemPlantada": "53.772,60",
+    "pastagemNatural": "32.263,56",
+    "reserva": "26.886,30"
+  },
+  {
+    "ano": 2021,
+    "nome": "Sabinópolis",
+    "aptidaoBoa": "2.905,56",
+    "aptdaoRegular": "1.743,45",
+    "aptdaoRestrita": "871,73",
+    "pastagemPlantada": "871,73",
+    "pastagemNatural": "871,73",
+    "reserva": "581,15"
+  },
+  {
+    "ano": 2021,
+    "nome": "Sacramento",
+    "aptidaoBoa": "13.250,00",
+    "aptdaoRegular": "9.817,00",
+    "aptdaoRestrita": "7.717,00",
+    "pastagemPlantada": "5.512,00",
+    "pastagemNatural": "4.520,00",
+    "reserva": "3.150,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Salinas",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "1.500,00",
+    "aptdaoRestrita": "750,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Salto da Divisa",
+    "aptidaoBoa": "2.187,18",
+    "aptdaoRegular": "1.531,03",
+    "aptdaoRestrita": "1.093,59",
+    "pastagemPlantada": "1.749,75",
+    "pastagemNatural": "874,87",
+    "reserva": "1.093,59"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Bárbara",
+    "aptidaoBoa": "16.000,00",
+    "aptdaoRegular": "14.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "13.000,00",
+    "pastagemNatural": "11.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Bárbara do Leste",
+    "aptidaoBoa": "18.000,00",
+    "aptdaoRegular": "14.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Bárbara do Monte",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.200,00",
+    "aptdaoRestrita": "3.600,00",
+    "pastagemPlantada": "3.200,00",
+    "pastagemNatural": "2.700,00",
+    "reserva": "2.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Bárbara do Tugúrio",
+    "aptidaoBoa": "12.500,00",
+    "aptdaoRegular": "8.500,00",
+    "aptdaoRestrita": "5.500,00",
+    "pastagemPlantada": "12.250,00",
+    "pastagemNatural": "9.250,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Cruz de Salinas",
+    "aptidaoBoa": "2.170,94",
+    "aptdaoRegular": "1.736,75",
+    "aptdaoRestrita": "1.302,94",
+    "pastagemPlantada": "2.170,94",
+    "pastagemNatural": "1.302,56",
+    "reserva": "1.085,47"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Cruz do Escalvado",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "9.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Efigênia de Minas",
+    "aptidaoBoa": "5.435,50",
+    "aptdaoRegular": "4.891,96",
+    "aptdaoRestrita": "4.348,40",
+    "pastagemPlantada": "4.130,98",
+    "pastagemNatural": "4.335,94",
+    "reserva": "3.478,72"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Fé de Minas",
+    "aptidaoBoa": "2.200,00",
+    "aptdaoRegular": "1.700,00",
+    "aptdaoRestrita": "1.300,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Helena de Minas",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "5.500,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "5.500,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Juliana",
+    "aptidaoBoa": "19.229,36",
+    "aptdaoRegular": "15.248,96",
+    "aptdaoRestrita": "10.859,00",
+    "pastagemPlantada": "11.517,00",
+    "pastagemNatural": "7.183,66",
+    "reserva": "4.189,45"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Luzia",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Margarida",
+    "aptidaoBoa": "13.513,21",
+    "aptdaoRegular": "10.810,31",
+    "aptdaoRestrita": "8.108,11",
+    "pastagemPlantada": "9.459,46",
+    "pastagemNatural": "8.108,11",
+    "reserva": "6.756,76"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Maria de Itabira",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Maria do Salto",
+    "aptidaoBoa": "3.300,00",
+    "aptdaoRegular": "2.700,00",
+    "aptdaoRestrita": "2.150,00",
+    "pastagemPlantada": "2.700,00",
+    "pastagemNatural": "2.150,00",
+    "reserva": "2.350,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Maria do Suaçuí",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "1.500,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Rita de Caldas",
+    "aptidaoBoa": "21.333,33",
+    "aptdaoRegular": "18.133,33",
+    "aptdaoRestrita": "13.866,67",
+    "pastagemPlantada": "11.733,33",
+    "pastagemNatural": "10.666,67",
+    "reserva": "8.533,33"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Rita de Ibitipoca",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Rita de Jacutinga",
+    "aptidaoBoa": "7.150,00",
+    "aptdaoRegular": "5.750,00",
+    "aptdaoRestrita": "3.300,00",
+    "pastagemPlantada": "7.500,00",
+    "pastagemNatural": "3.300,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Rita do Itueto",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Rita do Sapucaí",
+    "aptidaoBoa": "9.500,00",
+    "aptdaoRegular": "8.500,00",
+    "aptdaoRestrita": "7.500,00",
+    "pastagemPlantada": "7.500,00",
+    "pastagemNatural": "6.500,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Rosa da Serra",
+    "aptidaoBoa": "25.625,00",
+    "aptdaoRegular": "18.125,00",
+    "aptdaoRestrita": "12.625,00",
+    "pastagemPlantada": "12.625,00",
+    "pastagemNatural": "8.062,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santa Vitória",
+    "aptidaoBoa": "10.200,00",
+    "aptdaoRegular": "8.600,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "5.500,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santana da Vargem",
+    "aptidaoBoa": "25.000,00",
+    "aptdaoRegular": "16.500,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "12.500,00",
+    "pastagemNatural": "9.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santana de Cataguases",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "10.000,00",
+    "aptdaoRestrita": "7.500,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "7.500,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santana de Pirapama",
+    "aptidaoBoa": "16.597,66",
+    "aptdaoRegular": "12.278,13",
+    "aptdaoRestrita": "7.958,60",
+    "pastagemPlantada": "13.931,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "5.965,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santana do Deserto",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.400,00",
+    "aptdaoRestrita": "3.200,00",
+    "pastagemPlantada": "3.400,00",
+    "pastagemNatural": "2.800,00",
+    "reserva": "2.300,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santana do Garambéu",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.500,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santana do Jacaré",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "6.500,00",
+    "pastagemPlantada": "9.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santana do Manhuaçu",
+    "aptidaoBoa": "14.500,00",
+    "aptdaoRegular": "10.500,00",
+    "aptdaoRestrita": "8.500,00",
+    "pastagemPlantada": "10.500,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santana do Paraíso",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "18.000,00",
+    "aptdaoRestrita": "15.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "13.000,00",
+    "reserva": "11.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santana do Riacho",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "9.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santana dos Montes",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "12.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santo Antônio do Amparo",
+    "aptidaoBoa": "11.000,00",
+    "aptdaoRegular": "9.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "9.500,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santo Antônio do Aventureiro",
+    "aptidaoBoa": "9.079,65",
+    "aptdaoRegular": "7.263,72",
+    "aptdaoRestrita": "5.447,79",
+    "pastagemPlantada": "9.079,65",
+    "pastagemNatural": "5.447,79",
+    "reserva": "5.447,79"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santo Antônio do Grama",
+    "aptidaoBoa": "17.500,00",
+    "aptdaoRegular": "13.500,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santo Antônio do Itambé",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "8.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "4.600,00",
+    "reserva": "3.700,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santo Antônio do Jacinto",
+    "aptidaoBoa": "4.000,00",
+    "aptdaoRegular": "3.150,00",
+    "aptdaoRestrita": "2.600,00",
+    "pastagemPlantada": "3.150,00",
+    "pastagemNatural": "2.600,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santo Antônio do Monte",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "15.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santo Antônio do Retiro",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "1.800,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "700,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santo Antônio do Rio Abaixo",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "8.500,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "8.500,00",
+    "pastagemNatural": "7.500,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santo Hipólito",
+    "aptidaoBoa": "4.879,21",
+    "aptdaoRegular": "2.947,02",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "4.879,21",
+    "pastagemNatural": "1.500,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Santos Dumont",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Bento Abade",
+    "aptidaoBoa": "11.000,00",
+    "aptdaoRegular": "8.500,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "8.500,00",
+    "pastagemNatural": "7.500,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Brás do Suaçuí",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Domingos das Dores",
+    "aptidaoBoa": "36.000,00",
+    "aptdaoRegular": "26.400,00",
+    "aptdaoRestrita": "24.000,00",
+    "pastagemPlantada": "24.000,00",
+    "pastagemNatural": "24.000,00",
+    "reserva": "24.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Domingos do Prata",
+    "aptidaoBoa": "13.400,00",
+    "aptdaoRegular": "11.300,00",
+    "aptdaoRestrita": "9.000,00",
+    "pastagemPlantada": "8.300,00",
+    "pastagemNatural": "5.400,00",
+    "reserva": "4.900,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Félix de Minas",
+    "aptidaoBoa": "3.890,00",
+    "aptdaoRegular": "3.240,00",
+    "aptdaoRestrita": "2.600,00",
+    "pastagemPlantada": "2.100,00",
+    "pastagemNatural": "1.650,00",
+    "reserva": "1.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Francisco",
+    "aptidaoBoa": "1.200,00",
+    "aptdaoRegular": "900,00",
+    "aptdaoRestrita": "700,00",
+    "pastagemPlantada": "600,00",
+    "pastagemNatural": "450,00",
+    "reserva": "350,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Francisco de Paula",
+    "aptidaoBoa": "11.700,00",
+    "aptdaoRegular": "9.240,00",
+    "aptdaoRestrita": "8.190,00",
+    "pastagemPlantada": "7.840,00",
+    "pastagemNatural": "6.550,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Francisco de Sales",
+    "aptidaoBoa": "13.249,92",
+    "aptdaoRegular": "12.061,30",
+    "aptdaoRestrita": "10.959,20",
+    "pastagemPlantada": "9.867,40",
+    "pastagemNatural": "9.813,84",
+    "reserva": "5.848,34"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Francisco do Glória",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "7.500,00",
+    "aptdaoRestrita": "5.500,00",
+    "pastagemPlantada": "6.200,00",
+    "pastagemNatural": "4.800,00",
+    "reserva": "4.800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Geraldo",
+    "aptidaoBoa": "27.602,06",
+    "aptdaoRegular": "20.701,54",
+    "aptdaoRestrita": "13.801,03",
+    "pastagemPlantada": "13.801,03",
+    "pastagemNatural": "11.040,82",
+    "reserva": "11.040,82"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Geraldo da Piedade",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "7.000,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Gonçalo do Abaeté",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Gonçalo do Rio Preto",
+    "aptidaoBoa": "5.000,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Gonçalo do Sapucaí",
+    "aptidaoBoa": "15.200,00",
+    "aptdaoRegular": "11.632,00",
+    "aptdaoRestrita": "9.305,50",
+    "pastagemPlantada": "12.400,00",
+    "pastagemNatural": "8.264,00",
+    "reserva": "6.611,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Gotardo",
+    "aptidaoBoa": "25.000,00",
+    "aptdaoRegular": "20.000,00",
+    "aptdaoRestrita": "12.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São João Batista do Glória",
+    "aptidaoBoa": "24.000,00",
+    "aptdaoRegular": "18.000,00",
+    "aptdaoRestrita": "15.000,00",
+    "pastagemPlantada": "14.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São João da Lagoa",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "2.800,00",
+    "aptdaoRestrita": "1.800,00",
+    "pastagemPlantada": "1.500,00",
+    "pastagemNatural": "1.200,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São João da Mata",
+    "aptidaoBoa": "27.000,00",
+    "aptdaoRegular": "22.000,00",
+    "aptdaoRestrita": "20.000,00",
+    "pastagemPlantada": "21.000,00",
+    "pastagemNatural": "19.000,00",
+    "reserva": "18.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São João da Ponte",
+    "aptidaoBoa": "9.600,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "4.560,00",
+    "pastagemPlantada": "4.200,00",
+    "pastagemNatural": "3.120,00",
+    "reserva": "2.400,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São João das Missões",
+    "aptidaoBoa": "4.368,29",
+    "aptdaoRegular": "3.494,63",
+    "aptdaoRestrita": "2.620,98",
+    "pastagemPlantada": "4.368,29",
+    "pastagemNatural": "2.620,98",
+    "reserva": "2.184,15"
+  },
+  {
+    "ano": 2021,
+    "nome": "São João Del Rei",
+    "aptidaoBoa": "16.100,00",
+    "aptdaoRegular": "11.500,00",
+    "aptdaoRestrita": "9.200,00",
+    "pastagemPlantada": "9.200,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "6.325,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São João do Manhuaçu",
+    "aptidaoBoa": "16.000,00",
+    "aptdaoRegular": "14.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São João do Oriente",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "10.230,00",
+    "aptdaoRestrita": "9.400,00",
+    "pastagemPlantada": "10.230,00",
+    "pastagemNatural": "9.400,00",
+    "reserva": "8.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São João do Pacuí",
+    "aptidaoBoa": "2.500,00",
+    "aptdaoRegular": "1.600,00",
+    "aptdaoRestrita": "1.100,00",
+    "pastagemPlantada": "1.000,00",
+    "pastagemNatural": "900,00",
+    "reserva": "600,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São João do Paraíso",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.000,00",
+    "aptdaoRestrita": "1.000,00",
+    "pastagemPlantada": "1.200,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São João Evangelista",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "3.800,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "4.500,00",
+    "pastagemNatural": "3.500,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São João Nepomuceno",
+    "aptidaoBoa": "4.500,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "3.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Joaquim de Bicas",
+    "aptidaoBoa": "100.000,00",
+    "aptdaoRegular": "80.000,00",
+    "aptdaoRestrita": "60.000,00",
+    "pastagemPlantada": "100.000,00",
+    "pastagemNatural": "60.000,00",
+    "reserva": "50.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São José da Barra",
+    "aptidaoBoa": "20.900,00",
+    "aptdaoRegular": "17.600,00",
+    "aptdaoRestrita": "13.530,00",
+    "pastagemPlantada": "13.530,00",
+    "pastagemNatural": "8.360,00",
+    "reserva": "3.080,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São José da Varginha",
+    "aptidaoBoa": "24.280,00",
+    "aptdaoRegular": "14.570,00",
+    "aptdaoRestrita": "9.570,00",
+    "pastagemPlantada": "9.714,00",
+    "pastagemNatural": "6.714,00",
+    "reserva": "4.571,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São José do Alegre",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "16.000,00",
+    "aptdaoRestrita": "12.000,00",
+    "pastagemPlantada": "16.000,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São José do Divino",
+    "aptidaoBoa": "3.000,00",
+    "aptdaoRegular": "2.500,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "4.309,30",
+    "pastagemNatural": "2.011,00",
+    "reserva": "2.011,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São José do Jacuri",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "3.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "2.200,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São José do Mantimento",
+    "aptidaoBoa": "12.600,00",
+    "aptdaoRegular": "9.450,00",
+    "aptdaoRestrita": "6.300,00",
+    "pastagemPlantada": "12.600,00",
+    "pastagemNatural": "8.925,00",
+    "reserva": "6.825,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Miguel do Anta",
+    "aptidaoBoa": "13.000,00",
+    "aptdaoRegular": "9.100,00",
+    "aptdaoRestrita": "6.985,00",
+    "pastagemPlantada": "8.740,00",
+    "pastagemNatural": "7.000,00",
+    "reserva": "6.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Pedro da União",
+    "aptidaoBoa": "33.205,43",
+    "aptdaoRegular": "19.657,61",
+    "aptdaoRestrita": "13.282,17",
+    "pastagemPlantada": "14.876,02",
+    "pastagemNatural": "12.723,11",
+    "reserva": "10.477,62"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Pedro do Suaçuí",
+    "aptidaoBoa": "8.001,00",
+    "aptdaoRegular": "6.401,00",
+    "aptdaoRestrita": "4.801,00",
+    "pastagemPlantada": "5.601,00",
+    "pastagemNatural": "4.801,00",
+    "reserva": "3.200,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Pedro dos Ferros",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "2.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Romão",
+    "aptidaoBoa": "3.500,00",
+    "aptdaoRegular": "3.000,00",
+    "aptdaoRestrita": "2.500,00",
+    "pastagemPlantada": "2.200,00",
+    "pastagemNatural": "1.000,00",
+    "reserva": "800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Roque de Minas",
+    "aptidaoBoa": "15.100,00",
+    "aptdaoRegular": "10.775,00",
+    "aptdaoRestrita": "6.470,00",
+    "pastagemPlantada": "7.720,00",
+    "pastagemNatural": "4.310,00",
+    "reserva": "3.130,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Sebastião da Bela Vista",
+    "aptidaoBoa": "10.500,00",
+    "aptdaoRegular": "9.450,00",
+    "aptdaoRestrita": "8.400,00",
+    "pastagemPlantada": "8.400,00",
+    "pastagemNatural": "7.350,00",
+    "reserva": "5.250,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Sebastião da Vargem",
+    "aptidaoBoa": "20.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "20.000,00",
+    "pastagemNatural": "12.000,00",
+    "reserva": "8.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Sebastião do Anta",
+    "aptidaoBoa": "25.800,00",
+    "aptdaoRegular": "20.100,00",
+    "aptdaoRestrita": "16.650,00",
+    "pastagemPlantada": "16.800,00",
+    "pastagemNatural": "10.650,00",
+    "reserva": "4.950,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Sebastião do Maranhão",
+    "aptidaoBoa": "3.100,00",
+    "aptdaoRegular": "2.712,00",
+    "aptdaoRestrita": "2.092,50",
+    "pastagemPlantada": "3.100,00",
+    "pastagemNatural": "1.550,00",
+    "reserva": "1.600,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Sebastião do Oeste",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "7.500,00",
+    "aptdaoRestrita": "6.000,00",
+    "pastagemPlantada": "7.500,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Sebastião do Paraíso",
+    "aptidaoBoa": "34.709,85",
+    "aptdaoRegular": "27.530,48",
+    "aptdaoRestrita": "20.144,48",
+    "pastagemPlantada": "22.158,83",
+    "pastagemNatural": "16.528,00",
+    "reserva": "12.086,10"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Sebastião do Rio Preto",
+    "aptidaoBoa": "9.000,00",
+    "aptdaoRegular": "8.500,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "8.500,00",
+    "pastagemNatural": "7.500,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Sebastião do Rio Verde",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "7.000,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "4.500,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Thomé das Letras",
+    "aptidaoBoa": "11.119,68",
+    "aptdaoRegular": "8.058,21",
+    "aptdaoRestrita": "6.679,47",
+    "pastagemPlantada": "6.923,97",
+    "pastagemNatural": "6.923,97",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Tiago",
+    "aptidaoBoa": "9.350,00",
+    "aptdaoRegular": "8.800,00",
+    "aptdaoRestrita": "6.500,00",
+    "pastagemPlantada": "8.800,00",
+    "pastagemNatural": "6.000,00",
+    "reserva": "4.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Tomás de Aquino",
+    "aptidaoBoa": "34.000,00",
+    "aptdaoRegular": "26.500,00",
+    "aptdaoRestrita": "22.300,00",
+    "pastagemPlantada": "24.400,00",
+    "pastagemNatural": "21.200,00",
+    "reserva": "15.900,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "São Vicente de Minas",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "5.500,00",
+    "aptdaoRestrita": "5.000,00",
+    "pastagemPlantada": "5.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Sapucaí-Mirim",
+    "aptidaoBoa": "24.954,00",
+    "aptdaoRegular": "17.556,00",
+    "aptdaoRestrita": "13.946,00",
+    "pastagemPlantada": "12.000,00",
+    "pastagemNatural": "9.500,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Sardoá",
+    "aptidaoBoa": "6.500,00",
+    "aptdaoRegular": "5.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "6.200,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Sarzedo",
+    "aptidaoBoa": "375.659,78",
+    "aptdaoRegular": "300.527,82",
+    "aptdaoRestrita": "0,00",
+    "pastagemPlantada": "312.348,16",
+    "pastagemNatural": "0,00",
+    "reserva": "88.528,13"
+  },
+  {
+    "ano": 2021,
+    "nome": "Sem-peixe",
+    "aptidaoBoa": "25.000,00",
+    "aptdaoRegular": "18.000,00",
+    "aptdaoRestrita": "12.000,00",
+    "pastagemPlantada": "20.000,00",
+    "pastagemNatural": "18.000,00",
+    "reserva": "14.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Senador Amaral",
+    "aptidaoBoa": "30.000,00",
+    "aptdaoRegular": "24.000,00",
+    "aptdaoRestrita": "18.000,00",
+    "pastagemPlantada": "17.500,00",
+    "pastagemNatural": "17.000,00",
+    "reserva": "16.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Senador Cortes",
+    "aptidaoBoa": "13.375,00",
+    "aptdaoRegular": "9.375,00",
+    "aptdaoRestrita": "7.500,00",
+    "pastagemPlantada": "9.375,00",
+    "pastagemNatural": "6.162,50",
+    "reserva": "4.144,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Senador Firmino",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "9.000,00",
+    "aptdaoRestrita": "6.500,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "6.500,00",
+    "reserva": "4.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Senador José Bento",
+    "aptidaoBoa": "24.500,00",
+    "aptdaoRegular": "18.000,00",
+    "aptdaoRestrita": "11.000,00",
+    "pastagemPlantada": "24.500,00",
+    "pastagemNatural": "11.000,00",
+    "reserva": "6.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Urucânia",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "9.000,00",
+    "pastagemPlantada": "10.000,00",
+    "pastagemNatural": "8.000,00",
+    "reserva": "7.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Urucuia",
+    "aptidaoBoa": "2.461,37",
+    "aptdaoRegular": "1.945,83",
+    "aptdaoRestrita": "1.556,66",
+    "pastagemPlantada": "1.230,69",
+    "pastagemNatural": "1.070,69",
+    "reserva": "738,41"
+  },
+  {
+    "ano": 2021,
+    "nome": "Vargem Bonita",
+    "aptidaoBoa": "10.000,00",
+    "aptdaoRegular": "7.900,00",
+    "aptdaoRestrita": "5.700,00",
+    "pastagemPlantada": "5.300,00",
+    "pastagemNatural": "2.600,00",
+    "reserva": "2.900,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Vargem Grande do Rio Pardo",
+    "aptidaoBoa": "3.389,00",
+    "aptdaoRegular": "1.129,00",
+    "aptdaoRestrita": "790,00",
+    "pastagemPlantada": "1.129,00",
+    "pastagemNatural": "790,00",
+    "reserva": "564,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Varginha",
+    "aptidaoBoa": "37.000,00",
+    "aptdaoRegular": "25.000,00",
+    "aptdaoRestrita": "18.000,00",
+    "pastagemPlantada": "25.000,00",
+    "pastagemNatural": "19.000,00",
+    "reserva": "12.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Varjão de Minas",
+    "aptidaoBoa": "17.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "8.000,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "2.500,00",
+    "reserva": "1.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Várzea da Palma",
+    "aptidaoBoa": "12.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "4.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "2.000,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Varzelândia",
+    "aptidaoBoa": "6.000,00",
+    "aptdaoRegular": "4.000,00",
+    "aptdaoRestrita": "2.000,00",
+    "pastagemPlantada": "4.000,00",
+    "pastagemNatural": "3.000,00",
+    "reserva": "3.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Vazante",
+    "aptidaoBoa": "17.000,00",
+    "aptdaoRegular": "12.500,00",
+    "aptdaoRestrita": "9.500,00",
+    "pastagemPlantada": "6.500,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "2.600,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Verdelândia",
+    "aptidaoBoa": "3.850,00",
+    "aptdaoRegular": "3.100,00",
+    "aptdaoRestrita": "2.300,00",
+    "pastagemPlantada": "3.100,00",
+    "pastagemNatural": "2.300,00",
+    "reserva": "1.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Veredinha",
+    "aptidaoBoa": "8.000,00",
+    "aptdaoRegular": "6.000,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "6.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "2.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Veríssimo",
+    "aptidaoBoa": "10.624,86",
+    "aptdaoRegular": "10.162,91",
+    "aptdaoRestrita": "9.527,72",
+    "pastagemPlantada": "9.527,72",
+    "pastagemNatural": "9.527,72",
+    "reserva": "5.774,38"
+  },
+  {
+    "ano": 2021,
+    "nome": "Vermelho Novo",
+    "aptidaoBoa": "18.000,00",
+    "aptdaoRegular": "15.000,00",
+    "aptdaoRestrita": "7.000,00",
+    "pastagemPlantada": "8.000,00",
+    "pastagemNatural": "5.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Vespasiano",
+    "aptidaoBoa": "52.000,00",
+    "aptdaoRegular": "46.200,00",
+    "aptdaoRestrita": "39.600,00",
+    "pastagemPlantada": "46.200,00",
+    "pastagemNatural": "33.000,00",
+    "reserva": "19.800,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Viçosa",
+    "aptidaoBoa": "19.093,54",
+    "aptdaoRegular": "15.274,83",
+    "aptdaoRestrita": "13.556,41",
+    "pastagemPlantada": "14.702,02",
+    "pastagemNatural": "10.692,38",
+    "reserva": "8.019,29"
+  },
+  {
+    "ano": 2021,
+    "nome": "Vieiras",
+    "aptidaoBoa": "15.000,00",
+    "aptdaoRegular": "12.000,00",
+    "aptdaoRestrita": "10.000,00",
+    "pastagemPlantada": "11.000,00",
+    "pastagemNatural": "9.000,00",
+    "reserva": "5.000,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Virgem da Lapa",
+    "aptidaoBoa": "5.050,82",
+    "aptdaoRegular": "2.495,20",
+    "aptdaoRestrita": "1.510,35",
+    "pastagemPlantada": "3.580,12",
+    "pastagemNatural": "2.080,66",
+    "reserva": "1.792,78"
+  },
+  {
+    "ano": 2021,
+    "nome": "Virginópolis",
+    "aptidaoBoa": "5.500,00",
+    "aptdaoRegular": "4.500,00",
+    "aptdaoRestrita": "3.500,00",
+    "pastagemPlantada": "5.000,00",
+    "pastagemNatural": "4.000,00",
+    "reserva": "3.500,00"
+  },
+  {
+    "ano": 2021,
+    "nome": "Visconde do Rio Branco",
+    "aptidaoBoa": "16.529,18",
+    "aptdaoRegular": "13.774,31",
+    "aptdaoRestrita": "11.019,45",
+    "pastagemPlantada": "6.887,14",
+    "pastagemNatural": "4.545,54",
+    "reserva": "2.754,86"
+  },
+  {
+    "ano": 2021,
+    "nome": "Volta Grande",
+    "aptidaoBoa": "5.562,26",
+    "aptdaoRegular": "4.449,81",
+    "aptdaoRestrita": "2.781,13",
+    "pastagemPlantada": "5.562,26",
+    "pastagemNatural": "3.337,35",
+    "reserva": "2.781,13"
+  },
+  {
+    "ano": 2021,
+    "nome": "Wenceslau Braz",
+    "aptidaoBoa": "22.500,00",
+    "aptdaoRegular": "12.500,00",
+    "aptdaoRestrita": "10.500,00",
+    "pastagemPlantada": "12.500,00",
+    "pastagemNatural": "10.000,00",
+    "reserva": "8.500,00"
+  }
+]

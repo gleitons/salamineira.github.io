@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edicao</title>
+</head>
+
+<body>
+    <script>
+        async function inicia() {
+            const responseOne = await fetch('/dados/defesa-civil')
+            const dataOne = await responseOne.json()
+            const responseTwo = await fetch('/dados/brasao')
+            const dataTwo = await responseTwo.json()
+            var arrComplete = []
+            dataOne.map((e) => {
+
+                dataTwo.map((d) => {
+
+                    if (e.cidade == d.title) {
+                        var bras = d.brasao                        
+                    } else {
+                        var bras = ''                        
+                    }   
+                    const  array = {
+                        "item": e.item,
+                        "cidade": e.cidade,
+                        "email": e.email,
+                        "telefone2": e.telefone2,
+                        "telefone3": e.telefone2,
+                        "telefone4": e.telefone2,
+                        "brasao": bras
+                    }
+                    console.log(array)
+                    
+                })
+              
+                    
+               
+
+
+            })
+
+
+        }
+        inicia()
+    </script>
+
+</body>
+
+</html>

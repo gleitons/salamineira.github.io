@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confere Documentação - CND e Alvará</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .corpoV {
+            width: 80%;
+            margin: auto;
+        }
+        .autentica iframe{
+            width: 100%;
+            height: 80vh;
+        }
+        .logos {
+            background-color: rgb(171, 171, 171);
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            border: black solid 1px;
+            padding: 0 10%;
+        }
+        .logos img {
+            width: 20%;
+           gap: 20%;
+        }
+        .botao {
+            padding: 10px;
+            background-color: aqua;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="corpoV" >
+        <div class="logos">
+            <img src="https://www.salamineira.com/img/logo-sala-mineira-do-empreendedor-lagoa-dos-patos-mg.svg" alt="">
+            <img src="http://lagoadospatos.mg.gov.br/wp-content/uploads/2021/02/logo-lagoa-patos.png" alt="">
+        </div>
+        <div class="autentica">
+            <iframe src="http://177.152.105.125:8070/e-cidadeonline/certidaoautentica.php" frameborder="0"></iframe>
+        </div>
+
+    </div>
+    <script>
+        setTimeout(() => { document.querySelector('#verificar').classList.add('botao')}, 2000)
+       
+    </script>
+</body>
+</html>

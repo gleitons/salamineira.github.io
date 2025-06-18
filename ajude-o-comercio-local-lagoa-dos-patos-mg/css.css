@@ -1,0 +1,112 @@
+#canvas {
+    background: #fff;
+}
+
+.form-group img {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.imgRadio {
+    position: relative;
+}
+
+.imgRadio img {
+    width: 400px;
+    margin: auto;
+}
+
+.imgRadio p {
+    width: 350px;
+    position: absolute;
+    background-color: white;
+    line-height: 1em;
+    bottom: 3px;
+    left: 30px;
+    text-align: center;
+}
+
+.formulario {
+    width: 297mm;
+    height: 210mm;
+    /* position: relative; */
+    margin: auto;
+    /* border: rgb(166, 166, 166) solid 1px; */
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    text-align: center;
+    background-color: rgb(174, 174, 174);
+}
+
+tbody tr td {
+    padding: 10px;
+}
+
+p,
+li {
+    font-size: 25px;
+}
+
+table tr td {
+    font-size: 19px;
+}
+
+h4 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.alinhaCentro {
+    margin: 30px auto;
+    text-align: justify;
+}
+
+.assinaturas {
+
+    padding-top: 100px;
+    text-align: center;
+}
+
+.atencao {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.modal-body img {
+    width: 100%;
+}
+.modal-body p {
+    position: absolute;
+    top: 329.1px;
+    left: 57px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.784);
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+@media print {
+    main {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    .atencao {
+        display: block;
+    }
+}

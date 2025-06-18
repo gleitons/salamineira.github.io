@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso</title>
+</head>
+
+<body>
+    <div id="ver">
+    </div>
+    <script>
+        var editais = []
+
+        async function pegandoEditais() {
+            const url = 'https://pt.wikipedia.org/wiki/Lista_de_munic%C3%ADpios_de_Minas_Gerais'
+            fetch(url) 
+            .then((resp) => resp.text())
+            .then((data) =>{
+                ver.innerHTML = data
+                localStorage.setItem('imagensCidades', '[]')
+                var cits = []
+
+                const cidades = document.querySelectorAll('tbody')[1].querySelectorAll('tr')
+
+                for(let i = 1; i < cidades.length; i++) {
+                    const numero = cidades[i].querySelectorAll('td')[0].textContent
+                    const nomeCidade = cidades[i].querySelectorAll('td')[1].textContent
+                    const codigoIBGE = cidades[i].querySelectorAll('td')[2].textContent
+                    const imagemMapa = cidades[i].querySelectorAll('td')[3].querySelectorAll('img')[0].src
+
+                    const infoCity = cidades[i].querySelectorAll('td')[1].querySelectorAll('a')[0].href.replace(/http:\/\/127.0.0.1:5500\//g, 'https://pt.wikipedia.org\/')
+
+                    const todasImg = {
+                        "numero": numero,
+                        "nomeCidade": nomeCidade,
+                        "codigoIBGE": codigoIBGE,
+                        "imagemMapa": imagemMapa,
+                        "linkWiki": infoCity,
+                    }
+                    cits.push(todasImg)
+                    //pegarDados(infoCity)
+                    
+                    console.log(infoCity)
+                }
+                localStorage.setItem('codigosWiki', JSON.stringify(cits))
+
+                console.log(cidades.length)
+
+
+            } )
+            
+            //pegarDados(`https://pt.wikipedia.org/wiki/Abaeté`)
+                
+            
+            }
+        pegandoEditais()
+
+
+        function pegarDados(endereco) {
+
+                    fetch(endereco)
+                        .then((resp) => resp.text())
+                        .then(function (data) {
+                            ver.innerHTML = data
+
+                            var editais = JSON.parse(localStorage.getItem('imagensCidades'))
+                            const title = document.querySelectorAll('h1')[0].textContent.toUpperCase()
+                            const trs = document.querySelectorAll('tbody')[2].querySelectorAll('td')[1].querySelector('img').src
+                            const cidaLogo = {
+                                "title": title,
+                                "brasao": trs
+                            }
+                            
+                            //console.log(editais)
+
+                            if(editais.length > 0) {
+                                editais.push(cidaLogo)
+                                localStorage.setItem('imagensCidades', JSON.stringify(editais))
+                            }
+
+
+                            
+
+                        })
+
+                        .catch(function (error) {
+                            console.log(error)
+                        });
+
+
+                }
+    </script>
+
+
+
+</body>
+
+</html>

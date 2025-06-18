@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!--inicio -->
+    <meta charset="utf-8">
+    <meta id="keyW" name="keywords"
+        content="GABINETE VIRTUAL em Lagoa dos Patos MG, Sala Mineira do Empreendedor de Lagoa dos Patos MG">
+    <meta id="descSite" name="description"
+        content="GABINETE VIRTUAL em Lagoa dos Patos MG, Sala Mineira do Empreendedor de Lagoa dos Patos MG">
+    <meta id="contentFace" property="og:title"
+        content="GABINETE VIRTUAL em Lagoa dos Patos MG, Sala Mineira do Empreendedor de Lagoa dos Patos MG">
+    <meta id="poliFace" property="og:type" content="politician">
+    <meta id="descFace" property="og:description"
+        content="GABINETE VIRTUAL em Lagoa dos Patos MG, Sala Mineira do Empreendedor de Lagoa dos Patos MG">
+    <meta id="imageFace" property="og:image"
+        content="https://www.salamineira.com/gabinete-virtual/img/gabinete-virtual-lagoa-dos-patos-mg.png">
+    <meta id="urlFace" property="og:url" content="https://salamineira.com/gabinete-virtual">
+    <meta id="siteFace" property="og:site_name" content="https://salamineira.com">
+    <meta id="endeFace" property="fb:admins" content="salamineiraoficial">
+    <meta id="contTwiter" name="twitter:description"
+        content="GABINETE VIRTUAL em Lagoa dos Patos MG, Sala Mineira do Empreendedor de Lagoa dos Patos MG">
+    <meta id="contTitle" name="twitter:title" content="GABINETE VIRTUAL DE LAG">
+    <meta id="imgTwit" name="twitter:image"
+        content="https://www.salamineira.com/gabinete-virtual/img/gabinete-virtual-lagoa-dos-patos-mg.png">
+    <title id="titleHeader">GABINETE VIRTUAL DE LAGOA DOS PATOS MG - Sala Mineira do empreendedor de Lagoa dos Patos MG
+    </title>
+    <!-- fim municipe --->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../mdb5/css/mdb.rtl.min.css"> -->
+    <link rel="stylesheet" href="./style.css">
+    <title>GABINETE VIRTUAL - Sala Mineira do Empreendedor de Lagoa dos Patos MG</title>
+    <style>
+        .mostraFotosVere {
+            position: absolute;
+            z-index: 999;
+            background-color: white;
+            width: 98%;
+            height: 100vh;
+            
+        }
+       
+
+        .mostraFotosVere img {
+            /* height: 95%; */
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            animation: ress 400ms normal linear;
+        }
+
+        .mostraFotosVere::after {
+            position: absolute;
+            content: 'Fechar';
+            top: 0px;
+            right: 0px;
+            background-color: red;
+            padding: 20px;
+            color: white;
+            border-radius: 12px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        @keyframes ress {
+            from {
+                transform: scale(.7);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hereV">
+
+    </div>
+    <div class="container">
+        <header>
+
+        </header>
+
+        <main class="">
+            <div class="faceVereadores">
+                <div class="esquerdoLateral" id="inicio">
+                    <div>
+                        <p>...</p>
+                        <h3>Gabinete Virtual</h3>
+                        <div class="imgFundoLagoa">
+                            <div class="fotoVereador" id="ftvere" onclick="mostraImagemGrande()">
+                                <img id="fotoVereador" src="./img/Ripple-1s-200px.svg" alt="">
+                            </div>
+                            <h2></h2>
+                            <h3></h3>
+                        </div>
+                        <h3 id="historiaRepresentante">História de nosso Representante</h3>
+                        <div id="dadosDoVereador">
+
+                        </div>
+                        <div class="geraisVereador">
+                            <div class="menuInfoVereador">
+                                <nav>
+                                    <!-- <li>Indicações</li> -->
+                                    <li>Requerimentos</li>
+                                </nav>
+                            </div>
+                            <div class="infoVereador" id="projetosPoliticos">
+                                <!-- <div class="infoState">
+                                    <span>&#9745;</span>
+                                    <div>
+                                        <h3>Requerimento nº 104/2023</h3>
+                                        <p>Requerimento | Data: 19/04/2023</p>
+                                        <p>Ementa: Solicita da Diretora do Departamento Municipal de Trânsito/DMT, que a
+                                            mesma envide os esforços necessários e providencie a instalação de um
+                                            “redutor de velocidade”,...</p>
+                                        <a href="#" target="_blank">
+                                            <button>Saiba Mais</button>
+                                        </a>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="geraisVereador">
+                            <div class="menuInfoVereador">
+                                <nav>
+                                    <!-- <li>Dados do Vereador</li> -->
+                                    <li>Atuação no Legislativo</li>
+                                </nav>
+                            </div>
+                            <div class="infoVereador" id="infoNoLegislativo">
+
+                            </div>
+                        </div>
+
+                        <div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vereadoresDireita">
+                    <h3>Conheça nossos Representantes</h3>
+                    <h4>Administração (2021-2024) </h4>
+                    <div id="classificacaoParlamentares">
+                    </div>
+                    <div>
+                        <div class="or-spacer">
+                            <div class="mask">
+                                <span><i><img src="./img/brasao-camara.jpg"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vereadoresTodos" id="todosVereadoresOn">
+
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <!-- <div class="repre">
+                <img src="./img/brasao-camara.jpg" alt="">
+                
+            </div> -->
+        </footer>
+    </div>
+    <script src="./js.js"></script>
+</body>
+
+</html>

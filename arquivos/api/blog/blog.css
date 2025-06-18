@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.buttonVer {
+    margin: 10px auto;
+    text-align: center;
+}
+.buttonVer button {
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    
+}
+.buttonVer button h2 {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 500;
+}
+.buttonCima button {
+    background-color: rgb(105, 104, 104);
+    color: white;
+}
+main {
+    width: 70%;
+    margin: auto;
+   
+}
+.blog {
+    width: 70%;
+    border: rgb(148, 148, 148) solid 1px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 8px;
+    animation: blogAparece 500ms normal;
+}
+@keyframes blogAparece {
+    0% {
+        margin-top: -10px;
+        height: 50px;
+        overflow: hidden;
+        opacity: 0;
+    }
+}
+.blog h2 {
+   margin: 10px 0;
+}
+.blog img {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.blog p {
+    margin: 10px 0;
+ }
+
+ @media (max-width:576px) {
+    main {
+        width: 100%;
+        margin: auto;
+       
+    }
+    .buttonVer button {
+        width: 90%;
+    }
+    .blog {
+        width: 90%;
+    }
+ }

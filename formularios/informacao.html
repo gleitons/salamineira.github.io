@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicão de informações institucionais</title>
+    <meta name="description" content="preenchimento de informações para o site institucional de Lagoa dos Patos MG">
+    <meta name="keywords" content="Sala mineira do empreendedor - Lagoa dos Patos MG">
+    <meta name="author" content="Sala Mineira do Empreendedor de Lagoa dos Patos MG"> |
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h3>Preenchimento de informações para o site institucional de Lagoa dos Patos MG</h3>
+    </header>
+    <main>
+        <form
+            action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeYYAH2sofKAcgkqLhuwTOMpiLVZ9WR3YHqZEal1SMaeb4c5Q/formResponse"
+            method="post" id="myForm">
+            <img src="./topo-formulario-lagoa.png" alt="">
+            <div>
+                <p>Nome do informante:</p>
+                <input type="text" name="entry.1919007352">
+            </div>
+            <div>
+                <p>Selecione a secretaria/pasta:</p>
+                <select name="entry.321944201" id="secretariaShow" required>
+                    <option value="">Selecione</option>
+                </select>
+            </div>
+            <div>
+                <p>Nome do Secretário(a):</p>
+                <input type="text" name="entry.1575820101" required>
+            </div>
+            <div>
+                <p>E-mail de contato:</p>
+                <input type="text" name="entry.1051393777" required>
+                <a href="./solicitar-email.html" target="_blank">Criar</a>
+            </div>
+            <div>
+                <p>Horário de atendimento:</p>
+                <input type="text" name="entry.1244346440" placeholder="ex: de 07: 00 ás 11:00 e 13:00 ás 16:00"
+                    required>
+            </div>
+            <div>
+                <p>Telefone para contato:</p>
+                <input type="text" name="entry.2061303557" required>
+            </div>
+            <div>
+                <p>Endereço da Secretaria/pasta:</p>
+                <input type="text" name="entry.1699037090" placeholder="Ex: Avenida Presidente Medici" required>
+            </div>
+            <div>
+                <p>Número:</p>
+                <input type="text" name="entry.132226722" required>
+            </div>
+            <div>
+                <p>Bairro:</p>
+                <input type="text" name="entry.715251877" required>
+            </div>
+            <div>
+                <p>CEP:</p>
+                <input type="text" name="entry.306991188" value="39.360-000" required>
+            </div>
+            <div>
+                <p>Cidade:</p>
+                <input type="text" name="entry.1476211633" value="Lagoa dos Patos" required>
+            </div>
+            <div>
+                <p>Estado:</p>
+                <input type="text" name="" value="MG">
+            </div>
+            <div>
+                <p>Modelos de Competências - Secretaria/pasta:</p>
+                <div>
+                    <select name="" id="modelosCompetencia" onchange="tiposDeModelos()">
+                        <option value="">Selecione um modelo:</option>
+                    </select>
+                    <strong>OBS: ALTERE SE PRECISO, REVISE ANTES DE ENVIAR!!!!</strong>
+                </div>
+            </div>
+            <div>
+                <p>Competência da Secretaria/pasta:</p>
+                <textarea name="entry.488567536" id="insereModelos" cols="80" rows="20" required></textarea>
+            </div>
+
+            <div>
+                <p>Adicione as Extensões da Secretaria:</p>
+                <select name="" id="extSecretaria" onchange="ExtensaoSec()" required>
+                    <option value="">Selecione:</option>
+                    <option value="">Saúde</option>
+                    <option value="">Educação</option>
+                    <option value="">Outra</option>
+                    <option value="">Sem extensão</option>
+                </select>
+            </div>
+            <div>
+                Adicionar Extensão: <button> + </button> <strong>*Por favor - Adicione os formulários ANTES DE
+                    PREENCHER..</strong>
+            </div>
+            <span class="adicionarExtensao">
+
+            </span>
+            <div>
+                <input style="width: 30px; font-size: 10em;" type="checkbox" name="entry.617615233" id="" checked
+                    required>
+                <p style="width: 80%;">DECLARO QUE TODAS AS INFORMAÇÕES SÃO VERIDICAS E AUTORIZO A PUBLICAÇÃO NO SITE
+                    INSTITUCIONAL DO MUNICIPIO DE LAGOA DOS PATOS MG</p>
+            </div>
+            <div style="display: none;" id="educacaoInformatico">
+
+                <!-- <textarea name="entry.1635531495" id="outrosIntro" cols="50" rows="10"></textarea> <br> -->
+            </div>
+            <button class="enviarForm">ENVIAR FORMULÁRIO</button>
+
+        </form>
+    </main>
+    <footer style="text-align: center;">
+        <a style="background-color: green; padding: 5px; color: white; border: none; text-decoration: none;"
+            href="./">Voltar</a>
+    </footer>
+    <script src="./forms.js"></script>
+
+</body>
+
+</html>

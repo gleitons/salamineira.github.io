@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/falecimentos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <title>Óbito em Lagoa dos Patos MG</title>
+    <style>
+        body {
+            background-color: rgb(244, 244, 244);
+        }
+       
+        .dblock {
+            display: block;
+        }
+        .corpoinfo {
+            background-color: rgb(156, 156, 134);
+            margin: 3em 0em;
+            padding: .8em;
+        }
+        .infoFalec {
+            text-align: center;
+        }
+        .button{
+            position:relative;
+            display:inline-block;
+            margin:20px;
+          }
+          
+          .button button{
+            cursor: pointer;
+            color:white;
+            font-family:Helvetica, sans-serif;
+            font-weight:bold;
+            font-size:36px;
+            
+            text-align: center;
+            text-decoration:none;
+            background-color:#FFA12B;
+            
+            position:relative;
+            padding:20px 40px;
+            
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            text-shadow: 0px 1px 0px #000;
+            filter: dropshadow(color=#000, offx=0px, offy=1px);
+            
+            -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+            -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+            box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+            
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+          }
+          
+          .button button:active{
+            top:10px;
+            background-color:#F78900;
+            
+            -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+            -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
+            box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+          }
+          
+          .button:after{
+            content:"";
+            height:100%;
+            width:100%;
+            padding:4px;
+            position: absolute;
+            bottom:-15px;
+            left:-4px;
+            z-index:-1;
+            background-color:#2B1800;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+          }
+        
+    </style>
+</head>
+
+<body>
+
+
+    <main>
+        <div class="infoFalec">
+            <h1>ÓBITO EM LAGOA DOS PATOS MG</h1>
+            <h2>LISTA DE FALECIDOS NA CIDADE DE LAGOA DOS PATOS MG</h2>
+            <p>*Não se encontra em Ordem</p>
+            
+        </div>
+        <div id="botoesExibir">
+        </div>
+        <div id="estars"></div>
+        <input type="button" value="" >
+
+    </main>
+
+    <script>
+
+        const url = ('/falecimentos-publicar')
+        var valor = 1;
+
+        async function btnbb() {
+            const resp = await fetch(url);
+            var myOb = await resp.json();
+
+            myOb.map((item) => {
+
+                document.getElementById('botoesExibir').innerHTML += `
+                <div ontouchstart="">
+                    <div class="button">
+                      <button id="botaoMostrar${valor}" type="button" onclick="emiteQuadrado(${valor})" value="">${item.nome}</button>
+                      <div class="corpoinfo">
+                   
+                        <div id="impri${valor}"></div>
+                    </div>
+                    </div>
+                  </div>
+                
+                `;
+                valor++
+            })
+
+
+
+
+        }
+       btnbb();
+
+       async function emiteQuadrado(valo) {
+        var numero = valo;
+        const resp = await fetch(url);
+        var myOb = await resp.json();
+        const imprimiu = document.getElementById(`botaoMostrar${numero}`).value;
+        const printDiv = document.querySelector(`#impri${numero}`);
+        
+        
+        if (imprimiu.length == 0) {
+            const mostra = document.getElementById(`botaoMostrar${numero}`);
+            mostra.setAttribute('value', 'mostrou');
+            console.log(myOb[numero].nome);
+            const exibir =  montarTeste(myOb[numero-1], myOb[numero].apelido, numero, myOb[numero].nascimento, myOb[numero-1].mae)
+            printDiv.appendChild(exibir)
+            console.log(exibir);
+            
+
+        }
+       
+    }
+    function montarTeste(falec, apel, con, idadeF, mamae) {
+
+        const fecharMontagem = document.querySelector(`#botaoMostrar${con}`);
+        fecharMontagem.setAttribute('onclick',`fechaMontagem(${con})`)
+
+
+        const divLuto = document.createElement('div');
+        divLuto.classList.add('lutosC');
+        const imgFita = document.createElement('img');
+        imgFita.src = ('/imagens/fita-falecimento.png');
+        imgFita.classList.add('fita');
+        divLuto.appendChild(imgFita);
+        const divImgFalecido = document.createElement('div');
+        divImgFalecido.classList.add('imagemL');
+        divLuto.appendChild(divImgFalecido)
+        const imgFalecido = document.createElement('img');
+        imgFalecido.src = (`${falec.imagem}`);
+        divImgFalecido.appendChild(imgFalecido)
+        const divVidro = document.createElement('div')
+        divVidro.classList.add('vidroF');
+        const nomeFalecido = document.createElement('p');
+        const apelidoFalecido = document.createElement('p');
+        nomeFalecido.classList.add('nomeF');
+        apelidoFalecido.setAttribute('class', 'aplido');
+        nomeFalecido.textContent = `${falec.nome}`;
+        apelidoFalecido.textContent = `${apel}`;
+        apelidoFalecido.setAttribute('id', `apelidoT${apel}${con}`);
+    
+        const divNascFale = document.createElement('div');
+        divNascFale.setAttribute('class', 'nascFalec');
+    
+        const iconeFalecimento = document.createElement('i');
+        iconeFalecimento.setAttribute('class', 'bi bi-heartbreak-fill');
+        iconeFalecimento.textContent = `${falec.falecimento}`;
+    
+    
+    
+        const iconeNacimento = document.createElement('i');
+        iconeNacimento.setAttribute('class', 'bi bi-star-fill');
+        iconeNacimento.textContent = `${falec.nascimento}`;
+    
+        const pStrong = document.createElement('strong');
+        const idadefal = document.createElement('p');
+        idadefal.textContent = `${idadeF}`;
+        idadefal.setAttribute('class', 'aplido');
+        idadefal.setAttribute('style', 'margin-bottom:.3em;');
+    
+    
+    
+        const nomeMae = document.createElement('p');
+        nomeMae.setAttribute('class', 'falecMae')
+        nomeMae.textContent = `${mamae}`;
+    
+        const divNotaFalecimento = document.createElement('div');
+        divNotaFalecimento.setAttribute('class', 'nota')
+        const NotaFalecimento = document.createElement('p');
+        NotaFalecimento.textContent = `${falec.nota}`;
+    
+        divNotaFalecimento.appendChild(NotaFalecimento);
+    
+    
+    
+    
+        pStrong.appendChild(idadefal);
+    
+    
+        divNascFale.appendChild(iconeNacimento)
+        divNascFale.appendChild(iconeFalecimento)
+    
+    
+        divVidro.appendChild(nomeFalecido);
+        divVidro.appendChild(apelidoFalecido)
+        divVidro.appendChild(divNascFale);
+        divVidro.appendChild(pStrong)
+        divVidro.appendChild(nomeMae)
+        divLuto.appendChild(divVidro);
+        divLuto.appendChild(divNotaFalecimento)
+    
+        const divBtnEditar = document.createElement('div');
+        divBtnEditar.classList.add('bntEditar');
+        const iconeEditar = document.createElement('i');
+        iconeEditar.classList.add('bi', "bi-pencil-fill");
+        iconeEditar.textContent = "Editar";
+        iconeEditar.setAttribute('id', 'abrirEditar${con}')
+        iconeEditar.setAttribute('onclick', `abrirModal(${con})`)
+        divBtnEditar.appendChild(iconeEditar);
+        divLuto.appendChild(divBtnEditar);
+    
+      
+    
+    
+       //const printDiv = document.querySelector(`impri${con}`);
+       console.log(divLuto)
+       return  divLuto;
+    }
+    function fechaMontagem(numero){
+        const fecha = document.querySelector(`#impri${numero}`);
+        const retiraValue = document.querySelector(`#botaoMostrar${numero}`);
+        retiraValue.setAttribute('value','');
+        retiraValue.setAttribute('onclick', `emiteQuadrado(${numero})`)
+        fecha.innerHTML = ""
+    }
+    
+  
+
+    </script>
+</body>
+
+</html>

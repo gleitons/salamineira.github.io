@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pt-br</title>
+</head>
+
+<body>
+    <style>
+        #modelo input {
+            width: 50%;
+        }
+
+        #copiado p {
+            position: absolute;
+            background-color: green;
+            color: white;
+            padding: 2px;
+            border-radius: 8px;
+            top: 30px;
+            left: 736px;
+            animation: cc 200ms normal;
+        }
+
+        @keyframes cc {
+            0% {
+                top: -5px;
+                opacity: 0%;
+            }
+        }
+    </style>
+    <div id="modelo">
+        <div>
+            google
+        </div>
+        <input type="text" id="recsebe"
+            value="" hidden>
+            <textarea  name="" id="recebe" cols="100" rows="5" value="<tr><td id="I00" class="DBLovrotRegistrosRetornados" bgcolor="#97B5E6"><a title="Informações Contribuinte/Empresa" onclick="js_JanelaAutomatica('cgm','1');return false;">&nbsp;Inf-&gt;&nbsp;</a><a title="Clique Aqui" class="DBLovrotRegistrosRetornados" href="" onclick="parent.js_preenchepesquisa('1');return false">1</a>&nbsp;</td>
+                <td onmouseover="js_mostra_text(true,'div_text_0_1',event);" onmouseout="js_mostra_text(false,'div_text_0_1',event)" id="I01" class="DBLovrotRegistrosRetornados" bgcolor="#97B5E6"><a title="Clique Aqui" class="DBLovrotRegistrosRetornados" href="" onclick="parent.js_preenchepesquisa('1');return false">MUNICIPIO DE LAGOA DOS PATOS...</a>&nbsp;</td><td onmouseover="js_mostra_text(true,'div_text_0_2',event);" onmouseout="js_mostra_text(false,'div_text_0_2',event)" id="I02" class="DBLovrotRegistrosRetornados" bgcolor="#97B5E6"><a title="Clique Aqui" class="DBLovrotRegistrosRetornados" href="" onclick="parent.js_preenchepesquisa('1');return false">16901381000110...</a>&nbsp;</td><td onmouseover="js_mostra_text(true,'div_text_0_3',event);" onmouseout="js_mostra_text(false,'div_text_0_3',event)" id="I03" class="DBLovrotRegistrosRetornados" bgcolor="#97B5E6"><a title="Clique Aqui" class="DBLovrotRegistrosRetornados" href="" onclick="parent.js_preenchepesquisa('1');return false">JURIDICA...</a>&nbsp;</td><td onmouseover="js_mostra_text(true,'div_text_0_4',event);" onmouseout="js_mostra_text(false,'div_text_0_4',event)" id="I04" class="DBLovrotRegistrosRetornados" bgcolor="#97B5E6"><a title="Clique Aqui" class="DBLovrotRegistrosRetornados" href="" onclick="parent.js_preenchepesquisa('1');return false">PC 31 DE MARCO...</a>&nbsp;</td>
+
+                <td id="I05" class="DBLovrotRegistrosRetornados" bgcolor="#97B5E6">
+                    <a title="Clique Aqui" class="DBLovrotRegistrosRetornados" href="" onclick="parent.js_preenchepesquisa('1');return false">LAGOA DOS PATOS</a>&nbsp;
+                </td>
+                <td id="I06" class="DBLovrotRegistrosRetornados" bgcolor="#97B5E6"><a title="Clique Aqui" class="DBLovrotRegistrosRetornados" href="" onclick="parent.js_preenchepesquisa('1');return false">MG</a>&nbsp;</td>
+                <td id="I07" class="DBLovrotRegistrosRetornados" bgcolor="#97B5E6"><a title="Clique Aqui" class="DBLovrotRegistrosRetornados" href="" onclick="parent.js_preenchepesquisa('1');return false">39360000</a>&nbsp;</td>
+                <td id="I08" class="DBLovrotRegistrosRetornados" bgcolor="#97B5E6"><a title="Clique Aqui" class="DBLovrotRegistrosRetornados" href="" onclick="parent.js_preenchepesquisa('1');return false">compraslagoa@yahoo.com.br</a>&nbsp;</td>
+                <td id="I09" class="DBLovrotRegistrosRetornados" bgcolor="#97B5E6"><a title="Clique Aqui" class="DBLovrotRegistrosRetornados" href="" onclick="parent.js_preenchepesquisa('1');return false"></a>&nbsp;</td>
+                </tr>"></textarea>
+        <button onclick="magica()">Gerar</button> <br>
+
+        <input type="text" id="diminui" hidden>
+
+        <textarea onclick="copiarTexto()" name="" id="area" cols="100" rows="40"></textarea>
+
+        <div id="copiado">
+           
+        </div>
+
+       
+    </div>
+    <script>
+       
+        function magica() {
+            const pegaNome = document.querySelectorAll('#I05');
+            console.log(pegaNome)
+            area.value = `<head> 
+                           
+                          </head>`
+        }
+        function copiarTexto() {
+            let textoCopiado = document.getElementById("area");
+            textoCopiado.select();
+            textoCopiado.setSelectionRange(0, 99999)
+            document.execCommand("copy");
+            document.getElementById('copiado').innerHTML = ' <p>Copiado</p>'
+            setTimeout('fechaAviso()', 2000)
+        }
+        function fechaAviso() {
+            document.getElementById('copiado').innerHTML = ''
+        }
+        const urlEmpresas = "/empresas"
+        async function tiraD()  {
+            var promisee = await fetch(urlEmpresas)
+            var data = await promisee.json()
+          
+            var emp = []
+            data.map((em) => {
+                data.filter((item, 
+                index) => data.indexOf(item) === index);
+                emp.push(data.indexOf())
+            })
+            const remoD = data.filter((item, 
+                index) => data.indexOf(item) === index);
+           
+        }
+
+       
+        tiraD();
+        
+    </script>
+</body>
+
+</html>

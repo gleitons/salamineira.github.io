@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Fetch</title>
+</head>
+
+<body>
+    <div id="veja"></div>
+    <div id="dadospegados">
+    </div>
+    <div id="Ver">
+
+    </div>
+
+    <script>
+        if (localStorage.getItem("cnpj") === null) {
+            var arrayDados = []
+            //console.log(cheio.length)
+        } else {
+            const cheio = localStorage.getItem('cnpj')
+            const jaCheio = JSON.parse(cheio);
+            var arrayDados = jaCheio
+        }
+
+
+
+        function linkL() {
+
+            for (let i = 1; i <= 2; i++) {
+                var site = `https://casadosdados.com.br/solucao/cnpj?q=a&uf=MG&municipio=MONTES%20CLAROS&page=${i}`
+            }
+            return site
+
+            //var url = ();
+        }
+        //linkL()
+        var alphabet = [...'abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789'];
+
+
+        function porPesquisa() {
+            //https://casadosdados.com.br/solucao/cnpj?q=0&uf=MG&municipio=MONTES%20CLAROS&page=1
+            //https://casadosdados.com.br/solucao/cnpj?q=${letra}&uf=RS&page=${i}
+
+
+            for (let idx = 6; idx <= alphabet.length; idx++) {
+                (function (indx) {
+                    setTimeout(function () {
+                        var letra = 'a'//alphabet[idx]
+                        console.log(letra)
+
+
+                        var init = 1
+                        var limit = 50
+
+                        for (let i = init; i <= limit; i++) {
+                            (function (ind) {
+                                setTimeout(function () {
+                                    console.log(i);
+                                    var url = `https://casadosdados.com.br/solucao/cnpj?q=${letra}&uf=MG&municipio=PIRAPORA&page=${i}`
+                                    console.log(url)
+                                    var saidaTag = document.querySelector('#dadospegados');
+                                    fetch(url)
+                                        .then((resp) => resp.text())
+                                        .then(function (data) {
+                                            Ver.innerHTML = data
+                                            const paginas = document.getElementsByClassName('pagination-list');
+                                            const pesquisa = document.getElementsByClassName('column is-7')
+                                            const qtdMenu = paginas[0].getElementsByTagName('a')
+                                            const contMenu = qtdMenu.length - 1
+
+                                            const quantidadePaginas = qtdMenu[contMenu].textContent
+
+                                            const empresaP = pesquisa[0].getElementsByTagName('a')
+                                            const contadoLink = empresaP.length
+                                            //console.log(quantidadePaginas)
+
+                                            //for (let i = 0; i < quantidadePaginas; i++) {
+                                            for (let i = 0; i < contadoLink; i++) {
+                                                const linkE = empresaP[i].href.replace('http://127.0.0.1:5500', '');
+                                                //console.log(linkE)
+                                                pegarDados(`https://casadosdados.com.br${linkE}`)
+
+                                            }//}
+
+                                            //porPesquisa();
+
+                                        })
+
+                                        .catch(function (error) {
+                                            console.log(error)
+                                        });
+                                }, 1000 + (3000 * ind));
+                            })(i);
+                        }
+                    
+                }, 1000 + (6000 * indx));
+            })(idx);  
+        } 
+        }       
+
+            porPesquisa()
+
+
+
+
+
+                function pegarDados(link) {
+                    const veja = document.querySelector('#veja')
+                    var limpaAnterio = document.querySelector('#dadospegados');
+
+
+
+                    fetch(link)
+                        .then((respo) => respo.text())
+                        .then(function (Data) {
+                            limpaAnterio.innerHTML = ''
+                            veja.innerHTML = Data
+
+                            const dadosEmpresa = document.getElementsByClassName('columns is-multiline');
+                            const socios = document.getElementsByClassName('column is-narrow');
+
+
+                            const contCNPJ = dadosEmpresa[0].getElementsByTagName('div');
+                            const contadorP = dadosEmpresa[3].getElementsByTagName('p');
+                            var atividadesSecond = []
+                            var sociosC = []
+
+
+
+                            if (contCNPJ.length <= 9) {
+
+                                var getCnpj = dadosEmpresa[0].getElementsByTagName('p')[1].textContent;
+                                var razaoS = document.getElementsByTagName('p')[3].textContent;
+                                var getNomeFantasia = "";
+                                var getTipo = document.getElementsByTagName('p')[5].innerHTML;
+                                var getDataAbertura = dadosEmpresa[0].getElementsByTagName('a')[0].textContent;
+                                var getsituacaoCadastral = document.getElementsByTagName('p')[8].innerHTML;
+                                var getdataSituacao = document.getElementsByTagName('p')[10].innerHTML;
+                                var getcapitalSocial = document.getElementsByTagName('p')[12].innerHTML;
+                                var getnaturezaJuridica = document.getElementsByTagName('p')[14].textContent;
+                                var getempresaMEI = document.getElementsByTagName('p')[16].textContent;
+                                var getlogradouro = dadosEmpresa[1].getElementsByTagName('p')[1].textContent;
+                                var getnumero = dadosEmpresa[1].getElementsByTagName('p')[3].textContent;
+                                var getcep = dadosEmpresa[1].getElementsByTagName('p')[7].textContent;
+
+                                var getbairro = document.getElementsByTagName('p')[26].textContent;
+
+
+                                var getmunicipio = document.getElementsByTagName('p')[28].textContent.replace(/\n/g, '').replace(/                    /, '');
+                                var getuf = dadosEmpresa[1].getElementsByTagName('p')[13].textContent.replace(/\n/g, '').replace(/ /g, '');
+                                var gettelefone = dadosEmpresa[2].getElementsByTagName('p')[1].textContent;
+                                var getemail = dadosEmpresa[2].getElementsByTagName('p')[3].textContent;
+
+
+                                const contSocios = socios[18].getElementsByTagName('p');
+                                //console.log(contSocios)
+
+                                for (let i = 1; i < contSocios.length; i++) {
+
+                                    var getquadroSocio = socios[18].getElementsByTagName('p')[i].innerText;
+                                    sociosC.push(getquadroSocio)
+                                    //console.log(sociosC)
+
+
+
+                                }
+                                var getatividadePrincipal = dadosEmpresa[3].getElementsByTagName('p')[1].textContent;
+
+                                const contatvsecundaria = dadosEmpresa[3].getElementsByTagName('p')
+
+                                for (let i = 3; i < contatvsecundaria.length - 2; i++) {
+                                    var getatividadeSecundaria = dadosEmpresa[3].getElementsByTagName('p')[i].innerText;
+                                    atividadesSecond.push(getatividadeSecundaria)
+
+                                }
+                                var getdataConsulta = ""
+                                //dadosEmpresa[3].getElementsByTagName('p')[9].textContent;
+
+                            } else {
+
+                                var getCnpj = dadosEmpresa[0].getElementsByTagName('p')[1].textContent;
+                                var razaoS = document.getElementsByTagName('p')[3].textContent;
+                                var getNomeFantasia = dadosEmpresa[0].getElementsByTagName('p')[5].textContent;
+                                var getTipo = document.getElementsByTagName('p')[7].innerHTML;
+                                var getDataAbertura = dadosEmpresa[0].getElementsByTagName('a')[0].textContent;
+                                var getsituacaoCadastral = document.getElementsByTagName('p')[10].innerHTML;
+                                var getdataSituacao = document.getElementsByTagName('p')[12].innerHTML;
+                                var getcapitalSocial = document.getElementsByTagName('p')[14].innerHTML;
+                                var getnaturezaJuridica = document.getElementsByTagName('p')[16].textContent;
+                                var getempresaMEI = document.getElementsByTagName('p')[18].textContent;
+                                var getlogradouro = dadosEmpresa[1].getElementsByTagName('p')[1].textContent;
+                                var getnumero = dadosEmpresa[1].getElementsByTagName('p')[3].textContent;
+                                var getcep = dadosEmpresa[1].getElementsByTagName('p')[7].textContent;
+
+
+                                var getbairro = document.getElementsByTagName('p')[28].textContent;
+
+
+                                var getmunicipio = document.getElementsByTagName('p')[30].textContent.replace(/\n/g, '').replace(/                    /, '');
+                                var getuf = dadosEmpresa[1].getElementsByTagName('p')[13].textContent.replace(/\n/g, '').replace(/ /g, '');
+                                var gettelefone = dadosEmpresa[2].getElementsByTagName('p')[1].textContent;
+                                var getemail = dadosEmpresa[2].getElementsByTagName('p')[3].textContent;
+
+
+                                const contSocios = socios[18].getElementsByTagName('p');
+
+                                for (let i = 1; i < contSocios.length; i++) {
+                                    var getquadroSocio = socios[18].getElementsByTagName('p')[i].textContent;
+                                    sociosC.push(getquadroSocio)
+
+
+                                }
+                                var getatividadePrincipal = dadosEmpresa[3].getElementsByTagName('p')[1].textContent;
+
+                                const contatvsecundaria = dadosEmpresa[3].getElementsByTagName('p')
+
+                                for (let i = 3; i < contatvsecundaria.length - 2; i++) {
+                                    var getatividadeSecundaria = dadosEmpresa[3].getElementsByTagName('p')[i].innerText;
+                                    atividadesSecond.push(getatividadeSecundaria)
+
+                                }
+                                var getdataConsulta = ""
+                                //socios[22].getElementsByTagName('p')[1].textContent;
+                            }
+                            const empresa = {
+                                "cnpj": `${getCnpj}`,
+                                "razao": `${razaoS}`,
+                                "nomeFantasia": `${getNomeFantasia}`,
+                                "tipo": `${getTipo}`,
+                                "dataAbertura": `${getDataAbertura}`,
+                                "situacaoCadastral": `${getsituacaoCadastral}`,
+                                "dataSituacao": `${getdataSituacao}`,
+                                "capitalSocial": `${getcapitalSocial}`,
+                                "naturezaJuridica": `${getnaturezaJuridica}`,
+                                "empresaMEI": `${getempresaMEI}`,
+                                "logradouro": `${getlogradouro}`,
+                                "numero": `${getnumero}`,
+                                "cep": `${getcep}`,
+                                "bairro": `${getbairro}`,
+                                "municipio": `${getmunicipio}`,
+                                "uf": `${getuf}`,
+                                "telefone": `${gettelefone}`,
+                                "email": `${getemail}`,
+                                "quadroSocio": sociosC,
+                                "atividadePrincipal": `${getatividadePrincipal}`,
+                                "atividadeSecundaria": atividadesSecond,
+                                "dataConsulta": `${getdataConsulta}`
+                            }
+
+                            //const divEm = tbod.getElementsByClassName('subtitle');
+
+
+
+
+                            arrayDados.push(empresa)
+                            // const tiraDupla = arrayDados.filter(function (a) {
+                            //    return !this[JSON.stringify(a)] && (this[JSON.stringify(a)] = true);
+                            //}, Object.create(null))
+                            const muitosCnpj = JSON.stringify(arrayDados)
+                            localStorage.setItem('cnpj', muitosCnpj);
+                            const dadoI = JSON.stringify(arrayDados)
+                            //console.log(dadoI)
+                            //veja.innerHTML = dadoI
+
+                            //for(let i=0; i < 1; i++){
+                            //pegarDados(link)
+                            //}
+                            //window.history.back();
+                            veja.innerHTML = ''
+
+
+
+
+                        })
+
+                        .catch(function (error) {
+                            console.log(error)
+                        })
+
+
+                }
+        //porPesquisa()
+
+
+    </script>
+    <link rel="stylesheet" href="/fetch.css">
+</body>
+
+</html>

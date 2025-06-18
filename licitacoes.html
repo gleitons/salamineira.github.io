@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licitações</title>
+</head>
+
+<body>
+    <div id="ver">
+
+    </div>
+    <script>
+        var editais = []
+       
+        function pegandoEditais() {
+            for (let i = 3585; i <= 3618; i++) {
+                const url =
+
+                    pegarDados(`https://lagoadospatos.mg.gov.br/licitacao/${i}/`)
+
+            }
+        }
+        pegandoEditais()
+
+
+        function pegarDados(endereco) {
+
+            fetch(endereco)
+                .then((resp) => resp.text())
+                .then(function (data) {
+                    ver.innerHTML = data
+                    const corpoLicita = document.querySelector('#ver');
+
+                    const urls = endereco;
+
+                    //console.log(corpoLicita.getElementsByTagName('ul')[6])
+                    if (corpoLicita.getElementsByTagName('ul')[6] != undefined) {
+                        console.log('Pegou um')
+                        const processo = corpoLicita.getElementsByTagName('ul')[6].getElementsByTagName('li')[0].textContent;
+                        if (corpoLicita.getElementsByTagName('ul')[6].getElementsByTagName('li')[1].innerText.toString().replace(/[^0-9]/g, '').length > 0) {
+                            var publicado = corpoLicita.getElementsByTagName('ul')[6].getElementsByTagName('li')[1].textContent;
+                        } else {
+                            var publicado = ""
+                        }
+                        const d = corpoLicita.getElementsByTagName('ul')[6].getElementsByTagName('li')[2].innerText.toString().replace(/[^0-9]/g, '')
+                        const dataP = `${d[0]}${d[1]}/${d[2]}${d[3]}/${d[4]}${d[5]}${d[6]}${d[7]}`
+
+                        const abertura = corpoLicita.getElementsByTagName('ul')[6].getElementsByTagName('li')[2].textContent;
+                        const modalidade = corpoLicita.getElementsByTagName('ul')[6].getElementsByTagName('li')[3].textContent;
+                        const situacao = corpoLicita.getElementsByTagName('ul')[6].getElementsByTagName('li')[4].textContent;
+                        const infoLicita = corpoLicita.getElementsByClassName('box-pdf')[0].innerText.split('\n')[8]
+                        const quantidadeLinks = corpoLicita.getElementsByClassName('sidebar-arquivos')[0].getElementsByTagName('a').length
+                        console.log(quantidadeLinks)
+                        if (corpoLicita.getElementsByClassName('sidebar-arquivos')[0].getElementsByTagName('a')[0] != undefined) {
+
+                            var linkEditais = []
+                            for (let l = 0; l < quantidadeLinks; l++) {
+                                
+                                var baixarEdital = corpoLicita.getElementsByClassName('sidebar-arquivos')[0].getElementsByTagName('a')[l].href
+                                var nomeEdital = corpoLicita.getElementsByClassName('sidebar-arquivos')[0].getElementsByTagName('a')[l].textContent
+                                const maisLinks = {
+                                    "nomeDesc": nomeEdital,
+                                    "link": baixarEdital
+                                }
+                                linkEditais.push(maisLinks)
+                            }
+                        } else {
+                            var baixarEdital = " "
+                            
+                        }
+
+
+
+
+                        const editalInfo = {
+                            "urlS":urls,
+                            "dataP": dataP,
+                            "processo": processo,
+                            "publicado": publicado,
+                            "abertura": abertura,
+                            "modalidade": modalidade,
+                            "situacao": situacao,
+                            "infolicita": infoLicita,
+                            "baixarEdital": linkEditais
+                        }
+
+                        editais.push(editalInfo)
+
+
+
+
+                    } else {
+                        console.log('erro')
+                    }
+                    const editalText = JSON.stringify(editais)
+                    localStorage.setItem('editaisLagoa', editalText)
+                })
+                .catch(function (error) {
+                    console.log(error)
+                });
+
+
+        }
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

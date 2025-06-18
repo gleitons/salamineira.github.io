@@ -1,0 +1,50 @@
+[
+  {
+    "nome": "Hotel Estrela",
+    "cnpj": "",
+    "logo": "/img/hotel-estrela-lagoa-dos-patos-mg.png",
+    "tipo": "Rua",
+    "endereco": "miguel braga",
+    "numero": "08",
+    "opcao": "~R$ 49,90",
+    "cep": "39360-000",
+    "bairro":"Centro",
+    "telefone": "38 9999-4862",
+    "mapa": "https://goo.gl/maps/38X1MCR3s8HFzmZXA",
+    "imagens": [
+      "/img/hotel-estrela-mostra.png"
+    ]
+  },
+  {
+    "nome": "Hotel Cosmos",
+    "cnpj": "",
+    "logo": "/img/hotel-cosmos-lagoa-dos-patos-mg.png",
+    "tipo": "Rua",
+    "endereco": "Cosme e Damião",
+    "numero": "21",
+    "opcao": " ~R$ 49,90",
+    "cep": "39360-000",
+    "bairro":"Centro",
+    "telefone": "38 9813-9437",
+    "mapa": "https://goo.gl/maps/7RmF9EsscVbuZSDf7",
+    "imagens": [
+      "/img/hotel-cosmos-show.jpeg"
+    ]
+  },
+  {
+    "nome": "Pensão Central",
+    "cnpj": "",
+    "logo": "/img/pensao-central-lagoa-dos-patos-mg.png",
+    "tipo": "Praça",
+    "endereco": "31 de março",
+    "numero": "63",
+    "opcao": "~ R$ 29,90",
+    "cep": "39360-000",
+    "bairro":"Centro",
+    "telefone": "38 9874-6011",
+    "mapa": "https://goo.gl/maps/XGYdf4XL3ya913Eg9",
+    "imagens": [
+      "/img/hotel-cosmos.png"
+    ]
+  }
+]

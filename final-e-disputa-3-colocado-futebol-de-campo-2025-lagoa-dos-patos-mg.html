@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fotos da Semi-final - Campeonato Regional 2025 | Lagoa dos Patos - MG</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #00796b, #004d40);
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      margin: 0;
+    }
+
+    #foto {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    #foto div {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+    }
+
+    #foto div:hover {
+      transform: scale(1.03);
+    }
+
+    #foto img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    #foto p {
+      padding: 0.8rem;
+      margin: 0;
+      font-weight: bold;
+      text-align: center;
+      background-color: #e0f2f1;
+      color: #004d40;
+    }
+
+    /* Modal de imagem */
+    #modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.85);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      flex-direction: column;
+    }
+
+    #modal img {
+      max-width: 90%;
+      max-height: 80%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    #fecharModal {
+      background-color: #e53935;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    #fecharModal:hover {
+      background-color: #c62828;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.3rem;
+      }
+
+      #foto {
+        padding: 1rem;
+      }
+    }
+    #carregarMais {
+  background: linear-gradient(to right, #00796b, #004d40);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: background 0.3s, transform 0.2s;
+}
+
+#carregarMais:hover {
+  background: linear-gradient(to right, #004d40, #002d26);
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  #carregarMais {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+}
+.imgFundoLoad {
+  background-image: url('https://cdn.pixabay.com/animation/2023/08/11/21/18/21-18-05-265_512.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Confira as Fotos da grande final do<br>2º Campeonato Regional de Futebol de Campo<br>Lagoa dos Patos - MG • 2025</h1>
+  </header>
+  <!-- <div>
+    <p><input type="checkbox" name="" id="">Confirme que nao é um robô</p>
+    <button>Confirmar</button>
+  </div> -->
+  <div id="foto">
+    <!-- Exemplo inicial -->
+    <div class="imgFundoLoad" onclick="abrirModal('https://iili.io/316ru0N.jpg')">
+      <img  src="https://iili.io/316ru0N.jpg"
+        alt="Foto da semi-final" />
+      <p>Momentos de emoções em campo</p>
+    </div>
+  </div>
+  <!-- Adicione isso logo abaixo do div com id="foto" -->
+  <div style="text-align: center; margin-bottom: 3rem;">
+    <button id="carregarMais" onclick="carregarMais()">📸 Carregar mais fotos</button>
+  </div>
+  
+
+
+  <!-- Modal -->
+  <div id="modal">
+    <img id="imagemModal" src="" alt="Imagem ampliada" />
+    <button id="fecharModal" onclick="fecharModal()">Fechar</button>
+  </div>
+
+  <script>
+    const idFoto = document.querySelector('#foto');
+    const btnMais = document.getElementById('carregarMais');
+  
+    let fotos = [];
+    let indexAtual = 0;
+    const QUANTIDADE_POR_LOTE = 10;
+  
+    const mostraImagens = () => {
+      const lote = fotos.slice(indexAtual, indexAtual + QUANTIDADE_POR_LOTE);
+      lote.forEach(foto => {
+        const bloco = document.createElement('div');
+        bloco.classList.add('imgFundoLoad')
+        bloco.innerHTML = `
+          <img src="${foto}" alt="Foto da semi-final" />
+          <p>Momento da partida</p>
+        `;
+        bloco.onclick = () => abrirModal(foto);
+        idFoto.appendChild(bloco);
+      });
+      const aic = document.querySelectorAll('.imgFundoLoad')
+      for(let i = 0; i < aic.length; i++){
+        aic[i].classList.remove('imgFundoLoad')
+      }
+      
+  
+      indexAtual += QUANTIDADE_POR_LOTE;
+  
+      if (indexAtual >= fotos.length) {
+        btnMais.style.display = 'none';
+      }
+    };
+  
+    const carregarMais = () => mostraImagens();
+  
+    const abrirModal = (imagemSrc) => {
+      document.getElementById('imagemModal').src = imagemSrc;
+      document.getElementById('modal').style.display = 'flex';
+    };
+  
+    const fecharModal = () => {
+      document.getElementById('modal').style.display = 'none';
+    };
+  
+    // Busca inicial
+    const buscarFotos = async () => {
+      try {
+        const resp = await fetch('/final-e-disputa-3-colocado-futebol-de-campo-2025-lagoa-dos-patos-mg');
+        fotos = await resp.json();
+        mostraImagens();
+      } catch (error) {
+        console.error("Erro ao carregar as fotos:", error);
+      }
+    };
+  
+    buscarFotos();
+  </script>
+  
+</body>
+
+</html>
