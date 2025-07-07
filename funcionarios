@@ -7,12 +7,27 @@
     "admissao": "",
     "cargo": ""
   },{
+    "nome": "SANNY MAIALA PEREIRA LEITE",
+    "nomeFolha": "",
+    "matricula": "2359",
+    "cpf": "139.493.916-73",
+    "admissao": "17/06/2025",
+    "cargo": "AGENTE DESENVOLVIMENTO ECONOMICO"
+  },{
     "nome": "JESICA OLIVEIRA PERES",
     "nomeFolha": "",
     "matricula": "2306",
     "cpf": "106.692.616-61",
     "admissao": "13/01/2025",
     "cargo": "AUXILIAR DE SERVIÇOS GERAIS"
+  },
+  {
+    "nome": "NAGILA FERNANDES REIS",
+    "nomeFolha": "NAGILA FERNANDES REIS",
+    "matricula": "2355",
+    "cpf": "110.731.206-00",
+    "admissao": "27/05/2025 ",
+    "cargo": "ASSISTENTE SOCIAL"
   },
   {
     "nome": "EUGENIA POLIANA ALVES",
