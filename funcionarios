@@ -983,7 +983,7 @@
     "cargo": "GARI - MANUT.ATIV. TRANSPORTE ESC FUNDAM(EFET 118)"
   },
   {
-    "nome": "FABIOLA FERREIRA DE SOUZA",
+    "nome": "FABIOLA FERREIRA DE SOUZA SANTOS",
     "nomeFolha": "",
     "matricula": "1950",
     "cpf": "",
@@ -2966,13 +2966,29 @@
     "admissao": "",
     "cargo": "PROFESSOR - MANUT.ATIV.ENSINO FUNDAMENTAL(EFET-118)"
   },
+{
+    "nome": "POLIANA ALVES DA FONSECA",
+    "nomeFolha": "",
+    "matricula": "2361",
+    "cpf": "099.307.036-16",
+    "admissao": "26/05/2025",
+    "cargo": "VISITADOR SOCIAL - CRIANÇA FELIZ"
+  },
+{
+    "nome": "FABIANA FERREIRA DE SOUZA",
+    "nomeFolha": "",
+    "matricula": "2390",
+    "cpf": "146.168.536-22",
+    "admissao": "17/06/2025",
+    "cargo": "ORIENTADOR SOCIAL - SERVIÇO DE CONVIVÊNCIA E FORTALECIMENTO DE VÍNCULOS"
+  },
   {
     "nome": "MARINA NOGUEIRA SOUZA SANTOS",
     "nomeFolha": "",
     "matricula": "2204",
     "cpf": "839.034.296-00",
     "admissao": "03/05/2021",
-    "cargo": "ORIENTADOR SOCIAL - SER.CONV.FORT.VINC.CRIAN.ADOL-CONTR- REC15000000"
+    "cargo": "CHEFE DE SEÇÃO - GESTORA DO PBF"
   },
   {
     "nome": "WALDIER DE SOUZA SILVA",
